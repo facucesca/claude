@@ -29,62 +29,51 @@ jugando. Referencias que marcan el rumbo:
 
 ## Plan de trabajo
 1. [x] Ver plantillas y juguetes de referencia (primera búsqueda hecha).
-2. [ ] Proveedores de madera / servicios de corte láser (prioridad: Tucumán y NOA).
+2. [x] Proveedores de madera (el usuario ya tiene talleres de corte láser).
 3. [x] Proveedores de electrónica (local, Mercado Libre, AliExpress / Temu).
-4. [ ] Diseñar 1 prototipo y calcular el costo real por kit.
+4. [ ] Prototipo: diseño listo (kit-autos, 3 modelos). Falta cortar, probar y calcular costo real.
 5. [ ] Decidir: venta chica de prueba, taller o regalo.
 
-## Plantillas propias (carpeta `plantillas/`)
-- `plantillas/auto-motor-goma/`: auto con motor DC 130, transmisión por goma a
-  polea en el eje trasero, pulsador y 2 pilas AA. MDF 3 mm, hoja de 30 x 20 cm,
-  13 piezas. **v1 sin probar**: ajustar ranuras y huecos con el primer corte.
-- `plantillas/auto-clasico/`: **v2 linda y de calidad** del mismo auto.
-  Carrocería clásica con ventanillas caladas, grabados (puertas, parrilla,
-  patente), cubiertas de goma (o-ring) y techo removible para las pilas. Hoja de
-  40 x 30 cm, 30 piezas. Se regenera con `generar.py` según el espesor real.
-  **Sin probar todavía.** Al usuario le pareció feo.
-- `plantillas/auto-deportivo/`: **v3, la actual.** Superauto en cuña estilo
-  deportivo italiano (sin marcas), escala 1:24 (20 x 8,4 x 4,7 cm). Carrocería de
-  28 capas de 3 mm apiladas, con guardabarros, toma de aire, vidrio grabado, tapa
-  que se levanta (pilas y motor adentro) y ruedas de 5 rayos con o-ring. 70 piezas
-  en 2 hojas de 60 x 40 cm (SVG + DXF), unos 23 m de corte. Se regenera con
-  `generar.py` (necesita shapely y ezdxf). **Sin probar.** Pesa unos 300 g en MDF.
-  El usuario pidió: lindo, llamativo, deportivo y de buena calidad.
-- No se encontró una plantilla gratis con auto, motor, goma y botón. Lo más
-  parecido: [Thunder Laser, auto STEAM con motores TT](https://www.thunderlaser.com/laser-wiki-info63.html)
-  (con control remoto), [Cart Bot de Instructables](https://instructables.com/Laser-Cut-Cart-Pushing-Robot)
-  (motor TT, archivo SVG), [3axis.co, autos de juguete gratis](https://3axis.co/laser-cut/toy-cars/)
-  (sin motor) y la [guía SFI de motor con polea y goma](https://www.sfi.ie/site-files/primary-science/media/pdfs/col/motor_vehicles.pdf).
+## Diseño actual: `plantillas/kit-autos/` (v4)
+- **Un chasis común + 3 carrocerías** que se apoyan encima (se levanta la carrocería para
+  llegar a las pilas y al motor). Mismo chasis, electrónica y ruedas para los 3 modelos.
+  - **Fórmula** (auto de carrera, ruedas a la vista, se ve la polea): 64 piezas, 60 x 20 cm de
+    MDF, ~11 m de corte. El más fácil y barato.
+  - **Superauto** (cuña estilo italiano, sin marcas): 70 piezas, 60 x 40 cm, ~20 m de corte.
+  - **Clásico** (coupé fastback de los 70, inspirado en los argentinos de la época): 70 piezas,
+    60 x 40 + 60 x 14 cm, ~21 m de corte. El más pesado (~330 g).
+- Escala 1:24 (20 x 8,4 cm). Carrocería en 28 capas de 3 mm apiladas con pernos de brochette.
+- Chasis: piso con todo grabado (pilas, motor, bornes B1-B2-B3, cables), 2 largueros, 2
+  travesaños, soporte del motor, torre del botón (altura según el modelo). Motor 130 + goma +
+  polea en el eje trasero. Circuito: pila (+) → B1 → botón → B2 → motor → B3 → pila (−).
+- Ruedas de 3 discos de MDF (llanta de 5 rayos) con o-ring 31 x 3 de cubierta.
+- Cada modelo tiene: `hoja-N.svg/.dxf` (para el láser), `vista-3d.png`, `instructivo.pdf`
+  (12 pasos con imágenes) y `pasos/`. `PEDIDO-DE-PRESUPUESTO.md` trae lo que hay que mandarle
+  al taller y un mensaje para WhatsApp.
+- Todo se regenera con `python3 generar.py [espesor]` (necesita shapely, ezdxf, pillow y
+  Chromium). `kit.py` = motor; `modelos.py` = las carrocerías.
+- **Sin probar todavía.** Revisar en el primer corte: encastres, hueco del motor, agujero del
+  pulsador, que la goma no patine, que el motor mueva el peso.
+- Versiones anteriores (v1 a v3) en `plantillas/anteriores/`. Al usuario: la v2 le pareció fea,
+  la v3 (superauto en capas) le gustó; pidió basarse en autos reales, que sea lindo, de calidad,
+  fácil de armar, con acceso fácil al motor y con instrucciones para imprimir.
+- Al usuario no le molesta el peso. Ya tiene talleres de corte láser.
 
-## Proveedores de electrónica (búsqueda del 23/10/2026)
-Precios sacados de los resúmenes de búsqueda, sin abrir cada aviso: **confirmar
-antes de comprar**. [V] = visto, [E] = estimado. ML = Mercado Libre.
-
-| Componente | Dónde | Precio |
-|---|---|---|
-| Motor 130 3-6 V | [ML pack x10](https://www.mercadolibre.com.ar/a-10-piezas-130-micro-motor-motores-de-juguete-dc-motor/p/MLA2059622817), [AliExpress x10](https://de.aliexpress.com/item/1005003468620982.html) | ML ~$1.855 c/u en pack [V]; Ali ~USD 2 los 10 [V] |
-| Motorreductor TT (alternativa, no entra en la v3) | [ML](https://articulo.mercadolibre.com.ar/MLA-737788100-motor-tt-l-eje-metalico-motoreductor-3-6v-robotica-itytarg-_JM) | x10 $25.700 [V] |
-| Portapilas 2xAA con cables | [ML x10](https://articulo.mercadolibre.com.ar/MLA-1108393166-10-unidades-portapilas-2-pila-aa-porta-pilas-2x-aa-con-cable-_JM); con tapa a tornillo solo en [AliExpress](https://www.aliexpress.us/item/3256804464956524.html) | ML ~$925 a $1.100 c/u [V] |
-| Pulsador 12 mm con traba | [ML](https://listado.mercadolibre.com.ar/pulsadores-con-retencion), [AliExpress x10](https://de.aliexpress.com/item/32801816101.html) | ML x10 $10.274 [V] |
-| Bornes sin soldar | [Wago 221 x10 ML](https://articulo.mercadolibre.com.ar/MLA-769183930-conector-empalme-reutilizable-2-vias-221-412-wago-x10u-symnet-_JM), [genéricos AliExpress](https://www.aliexpress.us/item/3256812261198594.html) | Wago ~$1.700 c/u [V]; genéricos centavos de dólar [V] |
-| O-ring 31x3 (pedir 37 mm ext. x 3) | [AliExpress x50](https://www.aliexpress.us/item/3256805919968959.html); plan B [kit surtido ML](https://articulo.mercadolibre.com.ar/MLA-860373253-juego-orings-de-goma-419-piezas-sistema-metrico-kit-_JM) | Ali ~USD 1 los 50 [V] |
-| Gomitas de silicona | [ML](https://listado.mercadolibre.com.ar/gomitas-para-pelo-silicona) | x1000 $5.190 [V] |
-| Palitos de brochette 3 mm | [ML](https://listado.mercadolibre.com.ar/palitos-de-madera-para-brochette) | x90 $2.100 [V] |
-| LED 5 mm (opcional) | [ML](https://listado.mercadolibre.com.ar/led-5mm-blanco) | x100 ~$7.000 [V] |
-
-- **Electrónica por kit [E]:** unos $4.500 a $6.000 comprando packs (ML y
-  AliExpress); unos $12.000 a $15.000 comprando todo suelto en ML.
-- **Plazos:** ML llega en días. AliExpress tarda de 3 a 45 días más aduana: pedir
-  ya lo liviano (o-rings, bornes, portapilas con tornillo) y tener plan B en ML.
-- **En Tucumán (sin precios online):** Electrónica Santa Fe (Santa Fe 2020, tel.
-  381 524-7386) y Computer-C.
-- **Corte láser en Tucumán (de directorios, sin verificar):** Noagraf (Pasaje
-  Padilla 29), Jackito's Corte y Grabado Láser, Laser Guimi (Sáenz Peña 775),
-  Tucumán Artística MDF. No hay precios publicados: pedir presupuesto con el archivo.
-- **Madera:** placa de MDF 3 mm de 1,83 x 2,60 m, de $12.170 a $26.731 [V].
-  Terciado guatambú 3 mm de 2,20 x 1,60 m en [DAC](https://www.dacmaderas.com.ar/shop/multilaminado-fenlico/terciado-guatamb-3mm-220x160),
-  $27.098 [V]. Para la v3 (0,48 m² de hoja por auto) salen unos 9 autos por placa
-  de MDF, o sea **$1.400 a $3.000 de madera por auto [E]**.
+## Proveedores (detalle con teléfonos en `proveedores/proveedores.md` y `.pdf`)
+Búsqueda del 23/10/2026, desde buscadores y directorios (confirmar por teléfono).
+- **Madera:** empezar por Placacentro Distribuidora Lamadrid (Av. Roca 4000, 0381 436-7500;
+  hace corte a medida), Macromad (Av. Belgrano 1965), Maderera San Carlos (Av. Ejército del
+  Norte 1011, tiene terciado), Madernoa. Placa MDF 3 mm de 1,83 x 2,60 m entre $16.000 y
+  $27.000 → $900 a $1.500 de madera por Superauto (18 por placa).
+- **Electrónica en Tucumán:** Electrónica Santa Fe (Santa Fe 2020, 381 524-7386), Computer-C
+  (J. Colombres 247, 381 333-7744), ElectroGeek (Combate de las Piedras 388, 381 657-0242).
+  Mayorista con envío: TodoMicro (WhatsApp +54 9 11 2573-0643). Electrónica por auto: $4.500 a
+  $6.000 en packs.
+- **O-rings 31 x 3:** casas de rulemanes de calle Colombres y Catamarca (Rodaever 0381 422-3626,
+  Rulemanes 488 0381 400-5415, Centro Rodamientos 381 421-2720, Movimec 0381 424-2513). Plan B:
+  gomitas de silicona o AliExpress.
+- **Ruedas:** conviene seguir con las de MDF cortadas con láser; no hay fabricante nacional de
+  ruedas chicas para juguetes.
 
 ## Plantillas encontradas (sin electrónica, hay que agregar el circuito)
 | Fuente | Qué hay | Licencia / ojo |
