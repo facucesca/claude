@@ -34,6 +34,16 @@ jugando. Referencias que marcan el rumbo:
 4. [ ] Diseñar 1 prototipo y calcular el costo real por kit.
 5. [ ] Decidir: venta chica de prueba, taller o regalo.
 
+## Plantillas propias (carpeta `plantillas/`)
+- `plantillas/auto-motor-goma/`: auto con motor DC 130, transmisión por goma a
+  polea en el eje trasero, pulsador y 2 pilas AA. MDF 3 mm, hoja de 30 x 20 cm,
+  13 piezas. **v1 sin probar**: ajustar ranuras y huecos con el primer corte.
+- No se encontró una plantilla gratis con auto, motor, goma y botón. Lo más
+  parecido: [Thunder Laser, auto STEAM con motores TT](https://www.thunderlaser.com/laser-wiki-info63.html)
+  (con control remoto), [Cart Bot de Instructables](https://instructables.com/Laser-Cut-Cart-Pushing-Robot)
+  (motor TT, archivo SVG), [3axis.co, autos de juguete gratis](https://3axis.co/laser-cut/toy-cars/)
+  (sin motor) y la [guía SFI de motor con polea y goma](https://www.sfi.ie/site-files/primary-science/media/pdfs/col/motor_vehicles.pdf).
+
 ## Plantillas encontradas (sin electrónica, hay que agregar el circuito)
 | Fuente | Qué hay | Licencia / ojo |
 |---|---|---|
