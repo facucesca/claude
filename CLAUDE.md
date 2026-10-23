@@ -38,6 +38,12 @@ jugando. Referencias que marcan el rumbo:
 - `plantillas/auto-motor-goma/`: auto con motor DC 130, transmisión por goma a
   polea en el eje trasero, pulsador y 2 pilas AA. MDF 3 mm, hoja de 30 x 20 cm,
   13 piezas. **v1 sin probar**: ajustar ranuras y huecos con el primer corte.
+- `plantillas/auto-clasico/`: **v2 linda y de calidad** del mismo auto.
+  Carrocería clásica con ventanillas caladas, grabados (puertas, parrilla,
+  patente), cubiertas de goma (o-ring) y techo removible para las pilas. Hoja de
+  40 x 30 cm, 30 piezas. Se regenera con `generar.py` según el espesor real.
+  **Sin probar todavía.** El usuario pidió "algo estético y de buena calidad":
+  esta es la línea a seguir.
 - No se encontró una plantilla gratis con auto, motor, goma y botón. Lo más
   parecido: [Thunder Laser, auto STEAM con motores TT](https://www.thunderlaser.com/laser-wiki-info63.html)
   (con control remoto), [Cart Bot de Instructables](https://instructables.com/Laser-Cut-Cart-Pushing-Robot)

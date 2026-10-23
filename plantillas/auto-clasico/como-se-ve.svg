@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="390" viewBox="0 0 330 130" font-family="Arial, sans-serif">
+<rect width="330" height="130" fill="#fff"/>
+<text x="10" y="12" font-size="7" font-weight="bold" fill="#333">Auto clásico (v2)</text>
+<line x1="5" y1="115" x2="325" y2="115" stroke="#bbb" stroke-width="0.8"/>
+<path d="M21,104 L189,104 Q195,104 195,98 L195,68 Q195,62 189,62 L165,62 C153,62 145,32 133,32 L91,32 C79,32 73,62 61,62 L21,62 Q15,62 15,68 L15,98 Q15,104 21,104 Z" fill="#e8cfa4" stroke="#9b7546" stroke-width="0.6"/>
+<path d="M85,56 L111,56 L111,38 L96,38 Q90,38 87,44 Z" fill="#5b6770" stroke="#9b7546" stroke-width="0.5"/>
+<path d="M117,56 L143,56 L136,44 Q133,38 127,38 L117,38 Z" fill="#5b6770" stroke="#9b7546" stroke-width="0.5"/>
+<path d="M75,60 L75,92 Q75,96 79,96 L143,96 Q147,96 147,92 L147,64 M114,58 L114,96" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<rect x="103" y="64" width="7" height="2" fill="#a07a4a"/>
+<rect x="136" y="64" width="7" height="2" fill="#a07a4a"/>
+<rect x="89" y="29" width="46" height="3" rx="1" fill="#d9b98a" stroke="#9b7546" stroke-width="0.5"/>
+<rect x="40.5" y="58" width="5" height="4" rx="1.5" fill="#d33"/>
+<circle cx="53" cy="90" r="25" fill="#2f2f2f"/><circle cx="53" cy="90" r="22.5" fill="#dcbf91" stroke="#9b7546" stroke-width="0.5"/><circle cx="53" cy="90" r="19" fill="none" stroke="#a07a4a" stroke-width="0.5"/><circle cx="53" cy="90" r="8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="66.00" cy="90.00" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="59.50" cy="101.26" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="46.50" cy="101.26" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="40.00" cy="90.00" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="46.50" cy="78.74" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="59.50" cy="78.74" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="53" cy="90" r="1.5" fill="#6b4c22"/>
+<circle cx="157" cy="90" r="25" fill="#2f2f2f"/><circle cx="157" cy="90" r="22.5" fill="#dcbf91" stroke="#9b7546" stroke-width="0.5"/><circle cx="157" cy="90" r="19" fill="none" stroke="#a07a4a" stroke-width="0.5"/><circle cx="157" cy="90" r="8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="170.00" cy="90.00" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="163.50" cy="101.26" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="150.50" cy="101.26" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="144.00" cy="90.00" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="150.50" cy="78.74" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="163.50" cy="78.74" r="1.8" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<circle cx="157" cy="90" r="1.5" fill="#6b4c22"/>
+<text x="55" y="125" font-size="5" fill="#555">Costado: 18 cm de largo, 8,6 cm de alto, 10 cm de ancho con ruedas</text>
+<text x="232" y="12" font-size="5" fill="#555">De frente</text>
+<rect x="237" y="32" width="3" height="72" fill="#e8cfa4" stroke="#9b7546" stroke-width="0.5"/>
+<rect x="304" y="32" width="3" height="72" fill="#e8cfa4" stroke="#9b7546" stroke-width="0.5"/>
+<rect x="240" y="32" width="64" height="33" fill="#5b6770"/>
+<rect x="237" y="29" width="70" height="3" rx="1" fill="#d9b98a" stroke="#9b7546" stroke-width="0.5"/>
+<rect x="240" y="65" width="64" height="3" fill="#d9b98a" stroke="#9b7546" stroke-width="0.5"/>
+<rect x="240" y="68" width="64" height="30" fill="#e8cfa4" stroke="#9b7546" stroke-width="0.5"/>
+<circle cx="250" cy="80" r="6" fill="none" stroke="#a07a4a" stroke-width="0.5"/><circle cx="250" cy="80" r="2.6" fill="#ffe066" stroke="#a07a4a" stroke-width="0.4"/>
+<circle cx="294" cy="80" r="6" fill="none" stroke="#a07a4a" stroke-width="0.5"/><circle cx="294" cy="80" r="2.6" fill="#ffe066" stroke="#a07a4a" stroke-width="0.4"/>
+<rect x="262" y="74" width="20" height="14" rx="3" fill="none" stroke="#a07a4a" stroke-width="0.5"/>
+<line x1="264" y1="77.5" x2="280" y2="77.5" stroke="#a07a4a" stroke-width="0.5"/>
+<line x1="264" y1="81" x2="280" y2="81" stroke="#a07a4a" stroke-width="0.5"/>
+<line x1="264" y1="84.5" x2="280" y2="84.5" stroke="#a07a4a" stroke-width="0.5"/>
+<rect x="225" y="65" width="9" height="50" rx="2" fill="#2f2f2f"/>
+<rect x="310" y="65" width="9" height="50" rx="2" fill="#2f2f2f"/>
+<line x1="225" y1="90" x2="325" y2="90" stroke="#6b4c22" stroke-width="1"/>
+</svg>
