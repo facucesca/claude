@@ -558,7 +558,7 @@ Archivo generado por `generar.py`. Si cambia el diseño o el espesor, se vuelve 
 |---|---|---|---|---|---|---|
 """ + "\n".join(filas) + f"""
 
-\* Estimación propia para un láser CO2 de 60 a 80 W. Cada taller tiene su velocidad: pedirles el
+\\* Estimación propia para un láser CO2 de 60 a 80 W. Cada taller tiene su velocidad: pedirles el
 precio por minuto o por hoja.
 
 ## Mensaje para mandar por WhatsApp
