@@ -31,10 +31,25 @@ jugando. Referencias que marcan el rumbo:
 1. [x] Ver plantillas y juguetes de referencia (primera búsqueda hecha).
 2. [x] Proveedores de madera (el usuario ya tiene talleres de corte láser).
 3. [x] Proveedores de electrónica (local, Mercado Libre, AliExpress / Temu).
-4. [ ] Prototipo: diseño listo (kit-autos, 3 modelos). Falta cortar, probar y calcular costo real.
+4. [ ] Prototipo: cortar y probar la camioneta (v5). Después calcular costo real.
 5. [ ] Decidir: venta chica de prueba, taller o regalo.
 
-## Diseño actual: `plantillas/kit-autos/` (v4)
+## Diseño actual para chicos: `plantillas/camioneta/` (v5)
+- El usuario pidió: **simple, sin cola, que el chico aprenda**; un solo auto para ir ajustando.
+- **Camioneta clásica tipo F-100** (inspirada en FBRKN Laser Cut Car, el camión solar de madera
+  que encastra sin cola y los kits Ugears/ROKR). 30 piezas, **1 hoja de 60 x 16 cm**, ~7 m de corte.
+- Todo a presión: 2 costados + piso, caja, capó, techo, frente, pared de cabina, portón y 2
+  soportes del motor. Las ranuras se cortan 0,1 mm más angostas que el espesor (`camioneta.py
+  [espesor] [ajuste]`). Las ruedas (3 discos + o-ring) van a presión en el eje y aprietan los costados.
+- La **caja abierta** lleva pilas, bornes B1-B3 y botón a la vista; por una ventanita se ven la goma
+  y la polea. El motor va en una cuna abajo de la caja (la caja lo aprieta).
+- Salida: `hoja-1.svg/.dxf`, `instructivo.pdf` (10 pasos + "¿cómo funciona?") y
+  `camioneta-para-cortar.zip` para el cortador. **Sin probar.**
+
+## Línea "coleccionable": `plantillas/kit-autos/` (v4)
+Más piezas, en capas y con cola: para chicos grandes o adultos.
+
+### `plantillas/kit-autos/` (v4)
 - **Un chasis común + 3 carrocerías** que se apoyan encima (se levanta la carrocería para
   llegar a las pilas y al motor). Mismo chasis, electrónica y ruedas para los 3 modelos.
   - **Fórmula** (auto de carrera, ruedas a la vista, se ve la polea): 64 piezas, 60 x 20 cm de
