@@ -33,6 +33,7 @@ jugando. Referencias que marcan el rumbo:
 3. [x] Proveedores de electrónica (local, Mercado Libre, AliExpress / Temu).
 4. [ ] Prototipo: cortar y probar la camioneta (v5). Después calcular costo real.
 5. [ ] Decidir: venta chica de prueba, taller o regalo.
+6. [x] Base de la página de venta (`web/`). Falta completar datos y publicar.
 
 ## Diseño actual para chicos: `plantillas/camioneta/` (v5)
 - El usuario pidió: **simple, sin cola, que el chico aprenda**; un solo auto para ir ajustando.
@@ -73,6 +74,17 @@ Más piezas, en capas y con cola: para chicos grandes o adultos.
   la v3 (superauto en capas) le gustó; pidió basarse en autos reales, que sea lindo, de calidad,
   fácil de armar, con acceso fácil al motor y con instrucciones para imprimir.
 - Al usuario no le molesta el peso. Ya tiene talleres de corte láser.
+
+## Página de venta: `web/` (base, sin publicar)
+- Página estática en `web/sitio/` (HTML + CSS + JavaScript, sin librerías externas). Nombre provisorio: **Chispa**.
+- Venta por **WhatsApp + link de Mercado Pago**: carrito en el navegador, el pedido se arma y se manda
+  por WhatsApp. Sin servidor, sin base de datos, sin datos de tarjetas.
+- Tiene: catálogo con filtros, detalle de cada auto, carrito, circuito interactivo, cuenta regresiva a
+  Navidad, preguntas, botón de arrepentimiento (obligatorio) y política de privacidad.
+- Seguridad: CSP estricta + Trusted Types, cabeceras en `_headers`, nada de terceros, entradas limpiadas.
+- **Falta:** número de WhatsApp real (`js/config.js`), precios confirmados (`js/productos.js`, hoy
+  estimados de $28.000 a $42.000), dominio y fotos reales. Publicar en Cloudflare Pages (gratis).
+  Guía completa en `web/LEEME.md`.
 
 ## Proveedores (detalle con teléfonos en `proveedores/proveedores.md` y `.pdf`)
 Búsqueda del 23/10/2026, desde buscadores y directorios (confirmar por teléfono).

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests; require-trusted-types-for 'script'; trusted-types 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Botón de arrepentimiento · Chispa</title>
+  <meta name="description" content="Pedí la cancelación de tu compra dentro de los 10 días corridos desde que la recibiste.">
+  <link rel="icon" href="img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="module" src="js/arrepentimiento.js"></script>
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor cabecera__fila">
+      <a class="marca" href="index.html"><img src="img/icono.svg" alt="" width="36" height="36"><span>Chispa</span></a>
+    </div>
+  </header>
+
+  <main class="pagina-texto">
+    <div class="contenedor contenedor--angosto">
+      <h1>Botón de arrepentimiento</h1>
+      <p>
+        Si compraste a distancia (por esta página o por WhatsApp), tenés <strong>10 días corridos</strong>
+        desde que recibiste el kit para arrepentirte, sin dar explicaciones y sin costo
+        (artículo 34 de la Ley 24.240 de Defensa del Consumidor y Resolución 424/2020).
+      </p>
+      <p>Completá estos datos y nos llega el pedido por WhatsApp. Te respondemos con un <strong>código de trámite</strong> dentro de las 24 horas.</p>
+
+      <form class="formulario" id="form-arrepentimiento" novalidate>
+        <div class="campo">
+          <label for="a-nombre">Nombre y apellido</label>
+          <input id="a-nombre" type="text" autocomplete="name" required minlength="2" maxlength="80">
+          <p class="error" id="ea-nombre" hidden>Escribí tu nombre y apellido.</p>
+        </div>
+        <div class="campo">
+          <label for="a-pedido">Número de pedido <span class="opcional">(si lo tenés)</span></label>
+          <input id="a-pedido" type="text" maxlength="20" placeholder="Ej.: 0512-A3F9C1" autocomplete="off">
+        </div>
+        <div class="campo">
+          <label for="a-fecha">¿Qué día lo recibiste?</label>
+          <input id="a-fecha" type="date" required>
+          <p class="error" id="ea-fecha" hidden>Elegí la fecha en que lo recibiste.</p>
+        </div>
+        <button class="boton boton--whatsapp" type="submit">
+          Enviar pedido de arrepentimiento
+        </button>
+        <p class="letra-chica">Si preferís, también podés pedirlo por cualquier otro medio por el que nos hayas comprado.</p>
+      </form>
+
+      <p class="centrado"><a href="index.html">← Volver al inicio</a></p>
+    </div>
+  </main>
+
+  <p class="aviso" id="aviso" role="status" aria-live="polite"></p>
+</body>
+</html>
