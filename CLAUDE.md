@@ -80,6 +80,8 @@ Búsqueda del 23/10/2026, desde buscadores y directorios (confirmar por teléfon
   hace corte a medida), Macromad (Av. Belgrano 1965), Maderera San Carlos (Av. Ejército del
   Norte 1011, tiene terciado), Madernoa. Placa MDF 3 mm de 1,83 x 2,60 m entre $16.000 y
   $27.000 → $900 a $1.500 de madera por Superauto (18 por placa).
+- **Cotización real (27/10/2026, Electrónica Santa Fe):** portapilas $3.200 c/u, motor 130
+  $11.500 c/u → muy caro. Conviene Mercado Libre en packs de 10 (~$1.000 portapilas, ~$1.855 motor).
 - **Electrónica en Tucumán:** Electrónica Santa Fe (Santa Fe 2020, 381 524-7386), Computer-C
   (J. Colombres 247, 381 333-7744), ElectroGeek (Combate de las Piedras 388, 381 657-0242).
   Mayorista con envío: TodoMicro (WhatsApp +54 9 11 2573-0643). Electrónica por auto: $4.500 a
