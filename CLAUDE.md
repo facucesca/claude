@@ -32,6 +32,7 @@ jugando. Referencias que marcan el rumbo:
 2. [x] Proveedores de madera (el usuario ya tiene talleres de corte láser).
 3. [x] Proveedores de electrónica (local, Mercado Libre, AliExpress / Temu).
 4. [ ] Prototipo: cortar y probar la camioneta (v5). Después calcular costo real.
+   Si encastra bien, cortar el jeep y el colectivo (misma base).
 5. [ ] Decidir: venta chica de prueba, taller o regalo.
 
 ## Diseño actual para chicos: `plantillas/camioneta/` (v5)
@@ -45,6 +46,23 @@ jugando. Referencias que marcan el rumbo:
   y la polea. El motor va en una cuna abajo de la caja (la caja lo aprieta).
 - Salida: `hoja-1.svg/.dxf`, `instructivo.pdf` (10 pasos + "¿cómo funciona?") y
   `camioneta-para-cortar.zip` para el cortador. **Sin probar.**
+
+## Línea "para chicos" (todo encastrable, sin cola): 3 modelos
+**La camioneta es el auto oficial / principal** (decisión del usuario, 28/10/2026). Se sumaron
+2 modelos más, puramente encastrables, sobre la **misma base**: piso, caja de las pilas, cuna del
+motor, ruedas, polea, ejes y electrónica iguales (se compra todo igual para los 3).
+- Base común: `plantillas/encastre.py`. Cada modelo solo define la silueta y las piezas de arriba.
+  Se regenera con `python3 <modelo>.py [espesor] [ajuste]` dentro de su carpeta.
+- **Jeep** (`plantillas/jeep/`): todoterreno abierto tipo Willys/IKA. Recorte de puerta, parrilla
+  de 7 ranuras caladas, parabrisas, asiento con 2 respaldos, arco antivuelco y rueda de auxilio
+  grabada en el portón. Pilas y botón a la vista atrás. 31 piezas, 1 hoja de 60 x 17 cm, ~8 m de corte.
+- **Colectivo** (`plantillas/colectivo/`): "bondi" con 6 ventanillas por lado, 2 filas de asientos,
+  cartel "LÍNEA 10". El **techo se apoya en pestañitas y se saca con la mano** (ranuras 0,3 mm
+  flojas) para cambiar las pilas; el **botón va en el techo, como el timbre**. 30 piezas, 1 hoja
+  de 60 x 21 cm, ~9,5 m de corte.
+- Cada carpeta trae `hoja-1.svg/.dxf/.png`, `instructivo.pdf`, `pasos/` y `<modelo>-para-cortar.zip`.
+- **Sin probar.** Primero probar la camioneta: lo que se ajuste ahí (ranuras, cuna del motor, goma)
+  se corrige en `encastre.py` y sirve para los 3.
 
 ## Línea "coleccionable": `plantillas/kit-autos/` (v4)
 Más piezas, en capas y con cola: para chicos grandes o adultos.
