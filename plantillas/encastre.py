@@ -364,12 +364,39 @@ class Modelo:
     def generar(self, salida):
         datos = self.hoja(salida)
         self.instructivo(salida, datos)
+        probeta(salida)
         with zipfile.ZipFile(os.path.join(salida, f"{self.nombre}-para-cortar.zip"), "w",
                              zipfile.ZIP_DEFLATED) as z:
-            for f in ("hoja-1.svg", "hoja-1.dxf", "hoja-1.png", "instructivo.pdf"):
+            for f in ("hoja-1.svg", "hoja-1.dxf", "hoja-1.png", "instructivo.pdf", "probeta-1.svg",
+                      "probeta-1.dxf"):
                 z.write(os.path.join(salida, f), f"{self.nombre}-" + f)
         print(self.nombre, datos)
         return datos
+
+
+def probeta(salida):
+    """Pieza chica para cortar ANTES que la hoja: prueba el ancho de las ranuras y los agujeros
+    de los ejes. Se mete la lengüeta en cada ranura y los palitos en cada agujero."""
+    P = kit.Pieza
+    anchos = [round(T + d, 2) for d in (-0.3, -0.2, -0.1, 0.0, 0.1)]
+    placa = box(0, 0, 100, 40)
+    hue, txt = [], []
+    for i, w in enumerate(anchos):
+        x = 10 + i * 19
+        hue.append(box(x - 6, 22 - w / 2, x + 6, 22 + w / 2))
+        txt.append((f"{w:.1f}", x, 30, 4))
+    diam = (2.6, 2.8, 3.0, 3.3, 3.5)
+    for i, d in enumerate(diam):
+        x = 10 + i * 19
+        hue.append(Point(x, 9).buffer(d / 2, 24))
+        txt.append((f"{d:.1f}", x + 6.5, 7.5, 3))
+    pz = P(placa.difference(unary_union(hue)), "PROBETA ranuras y ejes", "xy", 0)
+    pz.textos = txt + [("RANURAS", 50, 36, 3.5)]
+    lengua = unir(box(0, 0, 20, 14), box(4, 14, 16, 22))     # lengüeta de 12 mm como las del auto
+    pl = P(lengua, "LENGÜETA", "xy", 0)
+    pl.textos = [("PROBAR", 10, 5, 3.5)]
+    hojas = kit.acomodar([pz, pl], (140, 60))
+    kit.guardar_hoja(os.path.join(salida, "probeta"), 1, hojas[0], (140, 60), "Probeta")
 
 
 # --- instructivo ------------------------------------------------------------------------

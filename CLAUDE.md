@@ -32,6 +32,8 @@ jugando. Referencias que marcan el rumbo:
 2. [x] Proveedores de madera (el usuario ya tiene talleres de corte láser).
 3. [x] Proveedores de electrónica (local, Mercado Libre, AliExpress / Temu).
 4. [ ] Prototipo: cortar y probar la camioneta (v5). Después calcular costo real.
+   Lista de compra (ML) y mensaje para el taller en `PEDIDO-PROTOTIPO.md`. Cortar primero la
+   `probeta` (ranuras 2,7 a 3,1 mm y agujeros 2,6 a 3,5 mm) y medir el espesor real de la placa.
    Si encastra bien, cortar el jeep y el colectivo (misma base).
 5. [ ] Decidir: venta chica de prueba, taller o regalo.
 
