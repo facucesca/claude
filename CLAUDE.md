@@ -48,10 +48,13 @@ jugando. Referencias que marcan el rumbo:
   `camioneta-para-cortar.zip` para el cortador. **Sin probar.**
 
 ## Línea "para chicos" (todo encastrable, sin cola): 3 modelos
-**La camioneta es el auto oficial / principal** (decisión del usuario, 28/10/2026). Se sumaron
+**La camioneta es el auto oficial / principal** (decisión del usuario, 28/10/2026). Los autos
+**con cola** (kit en capas: Fórmula, Superauto, Clásico, y las versiones v1 a v3) **se
+descartaron y se borraron** (28/10/2026): no se van a hacer. Se sumaron
 2 modelos más, puramente encastrables, sobre la **misma base**: piso, caja de las pilas, cuna del
 motor, ruedas, polea, ejes y electrónica iguales (se compra todo igual para los 3).
-- Base común: `plantillas/encastre.py`. Cada modelo solo define la silueta y las piezas de arriba.
+- Base común: `plantillas/encastre.py` (y `plantillas/kit.py`, que dibuja hojas de corte y vistas 3D;
+  necesita shapely, ezdxf, pillow y Chromium). Cada modelo solo define la silueta y las piezas de arriba.
   Se regenera con `python3 <modelo>.py [espesor] [ajuste]` dentro de su carpeta.
 - **Jeep** (`plantillas/jeep/`): todoterreno abierto tipo Willys/IKA. Recorte de puerta, parrilla
   de 7 ranuras caladas, parabrisas, asiento con 2 respaldos, arco antivuelco y rueda de auxilio
@@ -64,40 +67,12 @@ motor, ruedas, polea, ejes y electrónica iguales (se compra todo igual para los
 - **Sin probar.** Primero probar la camioneta: lo que se ajuste ahí (ranuras, cuna del motor, goma)
   se corrige en `encastre.py` y sirve para los 3.
 
-## Línea "coleccionable": `plantillas/kit-autos/` (v4)
-Más piezas, en capas y con cola: para chicos grandes o adultos.
-
-### `plantillas/kit-autos/` (v4)
-- **Un chasis común + 3 carrocerías** que se apoyan encima (se levanta la carrocería para
-  llegar a las pilas y al motor). Mismo chasis, electrónica y ruedas para los 3 modelos.
-  - **Fórmula** (auto de carrera, ruedas a la vista, se ve la polea): 64 piezas, 60 x 20 cm de
-    MDF, ~11 m de corte. El más fácil y barato.
-  - **Superauto** (cuña estilo italiano, sin marcas): 70 piezas, 60 x 40 cm, ~20 m de corte.
-  - **Clásico** (coupé fastback de los 70, inspirado en los argentinos de la época): 70 piezas,
-    60 x 40 + 60 x 14 cm, ~21 m de corte. El más pesado (~330 g).
-- Escala 1:24 (20 x 8,4 cm). Carrocería en 28 capas de 3 mm apiladas con pernos de brochette.
-- Chasis: piso con todo grabado (pilas, motor, bornes B1-B2-B3, cables), 2 largueros, 2
-  travesaños, soporte del motor, torre del botón (altura según el modelo). Motor 130 + goma +
-  polea en el eje trasero. Circuito: pila (+) → B1 → botón → B2 → motor → B3 → pila (−).
-- Ruedas de 3 discos de MDF (llanta de 5 rayos) con o-ring 31 x 3 de cubierta.
-- Cada modelo tiene: `hoja-N.svg/.dxf` (para el láser), `vista-3d.png`, `instructivo.pdf`
-  (12 pasos con imágenes) y `pasos/`. `PEDIDO-DE-PRESUPUESTO.md` trae lo que hay que mandarle
-  al taller y un mensaje para WhatsApp.
-- Todo se regenera con `python3 generar.py [espesor]` (necesita shapely, ezdxf, pillow y
-  Chromium). `kit.py` = motor; `modelos.py` = las carrocerías.
-- **Sin probar todavía.** Revisar en el primer corte: encastres, hueco del motor, agujero del
-  pulsador, que la goma no patine, que el motor mueva el peso.
-- Versiones anteriores (v1 a v3) en `plantillas/anteriores/`. Al usuario: la v2 le pareció fea,
-  la v3 (superauto en capas) le gustó; pidió basarse en autos reales, que sea lindo, de calidad,
-  fácil de armar, con acceso fácil al motor y con instrucciones para imprimir.
-- Al usuario no le molesta el peso. Ya tiene talleres de corte láser.
-
 ## Proveedores (detalle con teléfonos en `proveedores/proveedores.md` y `.pdf`)
 Búsqueda del 23/10/2026, desde buscadores y directorios (confirmar por teléfono).
 - **Madera:** empezar por Placacentro Distribuidora Lamadrid (Av. Roca 4000, 0381 436-7500;
   hace corte a medida), Macromad (Av. Belgrano 1965), Maderera San Carlos (Av. Ejército del
   Norte 1011, tiene terciado), Madernoa. Placa MDF 3 mm de 1,83 x 2,60 m entre $16.000 y
-  $27.000 → $900 a $1.500 de madera por Superauto (18 por placa).
+  $27.000 → $350 a $750 de madera por auto (36 a 48 autos por placa, estimado).
 - **Cotización real (27/10/2026, Electrónica Santa Fe):** portapilas $3.200 c/u, motor 130
   $11.500 c/u → muy caro. Conviene Mercado Libre en packs de 10 (~$1.000 portapilas, ~$1.855 motor).
 - **Electrónica en Tucumán:** Electrónica Santa Fe (Santa Fe 2020, 381 524-7386), Computer-C

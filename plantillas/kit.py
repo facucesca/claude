@@ -1,8 +1,7 @@
-"""Motor del kit de autos: chasis común, carrocerías en capas, hojas de corte e imágenes 3D.
+"""Motor de dibujo de los kits: piezas, acomodo en la hoja de corte (SVG/DXF) y vistas 3D.
 
 Coordenadas del auto (mm): x a lo largo (0 = trompa, 200 = cola), y a lo ancho
-(0 = centro, negativo = lado izquierdo), z hacia arriba (0 = piso).
-Todas las carrocerías se apoyan sobre el mismo chasis.
+(0 = centro, negativo = lado izquierdo), z hacia arriba (0 = suelo).
 """
 import math
 from dataclasses import dataclass, field
@@ -13,94 +12,16 @@ from shapely.geometry import (GeometryCollection, LineString, MultiLineString, M
 from shapely.ops import unary_union
 from shapely.strtree import STRtree
 
-# --- medidas generales ------------------------------------------------------
 T = 3.0                    # espesor del material (se cambia con configurar)
-ANCHO = 84.0               # ancho de la carrocería
-N = 28                     # capas de carrocería
-LARGO = 200.0
-
-EJE_DEL, EJE_TRAS, Z_EJE = 46.0, 156.0, 16.0
-R_RUEDA, R_CANAL, R_CUBIERTA = 15.5, 13.0, 16.1
-R_ARCO, R_EJE, R_AJUSTE, R_PERNO = 17.8, 1.75, 1.4, 1.6
-Y_RUEDA = (29.5, 38.5)     # |y| que ocupa cada rueda (3 discos)
-Y_CAVIDAD = 27.0           # las capas con |y| < 27 tienen el hueco del chasis
-
-# chasis
-X0, X1 = 26.0, 194.0
-Z_PISO = 5.0
-Y_PISO = 26.5
-Y_LARG = (20.5, 23.5)
-TECHO = [(25.5, 62.0, 22.0), (62.0, 142.0, 26.5), (142.0, 170.0, 28.0), (170.0, 194.5, 26.5)]
-TABS_LARG = [(34, 44), (86, 100), (162, 176)]
-X_TRAV = (29.0, 188.0)
-TABS_TRAV_Y = [(-14, -6), (6, 14)]
-CANAL_X, CANAL_Y = (171.5, 188.5), 15.0
-BOTON = (180.0, 0.0)
-TORRE_Y = (9.0, 12.0)
-MOTOR = dict(x=(125.8, 146.2), y=(-20.0, 5.0), alto=15.4)   # motor 130 acostado
-SOPORTE_Y = -9.0
-POLEA_Y = (7.0, 16.0)
-PILAS = (63.0, -20.0, 121.0, 12.0)                         # portapilas 2xAA (x0, y0, x1, y1)
-BORNES = [(48, -19, 61, -1), (48, 1, 61, 19), (100, 12.5, 118, 20.5)]
+R_EJE, R_AJUSTE = 1.75, 1.4   # agujero del eje en los costados (gira) y en ruedas/polea (a presión)
+MADERA, BORDE = "#e6c391", "#8a6239"
+NUEVO, BORDE_NUEVO = "#ffc96b", "#b36b00"
+NORMAL = {"xz": (0, 1, 0), "xy": (0, 0, 1), "yz": (1, 0, 0)}
 
 
 def configurar(t):
-    global T, N
+    global T
     T = float(t)
-    N = round(ANCHO / T)
-
-
-def zp():
-    return Z_PISO + T            # cara de arriba del piso
-
-
-def techo(x):
-    for a, b, h in TECHO:
-        if a <= x < b:
-            return h
-    return TECHO[-1][2]
-
-
-def zona_techo(x0=X0, x1=X1, z0=None):
-    z0 = zp() if z0 is None else z0
-    return unary_union([box(max(a, x0), z0, min(b, x1), h) for a, b, h in TECHO
-                        if min(b, x1) > max(a, x0)])
-
-
-def cavidad():
-    return unary_union([box(a, -10, b, h) for a, b, h in TECHO])
-
-
-# --- curvas -------------------------------------------------------------------
-def suave(pts, n=10):
-    """Curva Catmull-Rom que pasa por los puntos."""
-    out = []
-    for i in range(len(pts) - 1):
-        p0, p1 = pts[max(i - 1, 0)], pts[i]
-        p2, p3 = pts[i + 1], pts[min(i + 2, len(pts) - 1)]
-        for j in range(n):
-            t = j / n
-            t2, t3 = t * t, t * t * t
-            out.append(tuple(0.5 * ((2 * p1[k]) + (-p0[k] + p2[k]) * t
-                                    + (2 * p0[k] - 5 * p1[k] + 4 * p2[k] - p3[k]) * t2
-                                    + (-p0[k] + 3 * p1[k] - 3 * p2[k] + p3[k]) * t3)
-                             for k in (0, 1)))
-    out.append(pts[-1])
-    return out
-
-
-def silueta(techo_pts, cola, nariz):
-    """Perfil cerrado: línea de arriba (trompa a cola), cola hacia abajo, piso, trompa."""
-    pts = suave(techo_pts) + suave(cola)[1:] + suave(nariz)[:-1]
-    return Polygon(pts).buffer(0)
-
-
-def arriba(p, z):
-    return p.intersection(box(-50, z, 300, 300))
-
-
-def abajo(p, z):
-    return p.intersection(box(-50, -50, 300, z))
 
 
 def poligonos(g):
@@ -109,29 +30,6 @@ def poligonos(g):
     if isinstance(g, Polygon):
         return [g]
     return [q for q in getattr(g, "geoms", []) if isinstance(q, Polygon) and q.area > 3]
-
-
-# --- capas ------------------------------------------------------------------------
-def tramo(k):
-    return (-ANCHO / 2 + k * T, -ANCHO / 2 + (k + 1) * T)
-
-
-def toca(k, y0, y1):
-    a, b = tramo(k)
-    return a < y1 - 1e-6 and b > y0 + 1e-6
-
-
-def con_cavidad(k):
-    return toca(k, -Y_CAVIDAD, Y_CAVIDAD)
-
-
-def desde_afuera(k):
-    return min(k, N - 1 - k)
-
-
-def y_centro(k):
-    a, b = tramo(k)
-    return abs((a + b) / 2)
 
 
 # --- piezas -------------------------------------------------------------------------
@@ -156,205 +54,10 @@ class Pieza:
         return T if self.t is None else self.t
 
 
-def tabs_a_caja(lista):
-    return unary_union([box(*b) for b in lista])
-
-
 def redondear(p, r=1.2):
     return p.buffer(-r, 8).buffer(r, 8) if r else p
 
 
-def chasis(H):
-    """Piezas del chasis. H = altura de la tapa de la torre del botón (depende del modelo)."""
-    Z1 = zp()
-    yl0, yl1 = Y_LARG
-    out = []
-
-    # piso
-    piso = box(X0, -Y_PISO, X1, Y_PISO)
-    ranuras = []
-    for a, b in TABS_LARG:
-        ranuras += [(a, yl0, b, yl1), (a, -yl1, b, -yl0)]
-    for x in X_TRAV:
-        ranuras += [(x, y0, x + T, y1) for y0, y1 in TABS_TRAV_Y]
-    ranuras += [(175, TORRE_Y[0], 185, TORRE_Y[1]), (175, -TORRE_Y[1], 185, -TORRE_Y[0])]
-    ranuras += [(122.4, SOPORTE_Y, 125.4, SOPORTE_Y + T), (146.6, SOPORTE_Y, 149.6, SOPORTE_Y + T)]
-    ranuras += [(144, POLEA_Y[0] - 1.5, 168, POLEA_Y[1] + 1.5)]   # paso de la polea
-    piso = redondear(piso, 2).difference(tabs_a_caja(ranuras))
-    grab = [box(*PILAS).exterior, box(MOTOR["x"][0], MOTOR["y"][0], MOTOR["x"][1],
-                                      MOTOR["y"][1]).exterior]
-    grab += [box(*b).exterior for b in BORNES]
-    cables = [  # recorridos sugeridos de los cables
-        [(63, -12), (61.5, -12)],                                  # pila + a borne 1
-        [(66, 8), (66, 16.5), (100, 16.5)],                        # pila - a borne 3
-        [(176, -15.5), (70, -15.5), (61.5, -15.5)],                # botón a borne 1
-        [(176, -17.5), (64, -17.5), (64, 10), (61.5, 10)],         # botón a borne 2
-        [(128, -19), (124, -19), (124, -19.6)],                    # motor
-        [(128, 2), (124, 2), (124, 14.5), (118.5, 14.5)],          # motor a borne 3
-    ]
-    grab += [LineString(c) for c in cables]
-    textos = [("PILAS 2xAA", 76, -6, 4), ("MOTOR", 129, -9, 3), ("B1", 51.5, -12, 3.2),
-              ("B2", 51.5, 8, 3.2), ("B3", 105, 15, 3), ("+", 64.5, -14, 3.5),
-              ("-", 67.5, 9, 3.5), ("BOTÓN", 172, -2, 3), ("FRENTE", 31, 18, 3)]
-    out.append(Pieza(piso, "PISO", "xy", Z_PISO, grab, etiqueta="", tipo="chasis"))
-    out[-1].textos = textos
-
-    # largueros (los dos iguales)
-    larg = zona_techo().union(tabs_a_caja([(a, Z_PISO, b, Z1) for a, b in TABS_LARG]))
-    larg = larg.difference(tabs_a_caja([(x, 12, x + T, 18) for x in X_TRAV]))
-    for x in (EJE_DEL, EJE_TRAS):
-        larg = larg.difference(Point(x, Z_EJE).buffer(R_EJE, 24))
-    for pos, n in ((-yl1, "LARGUERO IZQ"), (yl0, "LARGUERO DER")):
-        out.append(Pieza(larg, n, "xz", pos, etiqueta="L", tipo="chasis"))
-
-    # travesaños
-    for x, n in ((X_TRAV[0], "TRAVESAÑO DEL"), (X_TRAV[1], "TRAVESAÑO TRAS")):
-        h = techo(x + T / 2)
-        g = box(-yl0, Z1, yl0, h)
-        g = g.union(tabs_a_caja([(-yl1, 12, -yl0, 18), (yl0, 12, yl1, 18)]))
-        g = g.union(tabs_a_caja([(a, Z_PISO, b, Z1) for a, b in TABS_TRAV_Y]))
-        out.append(Pieza(g, n, "yz", x, etiqueta="TD" if x < 100 else "TT", tipo="chasis"))
-
-    # soporte del motor (abraza al motor desde arriba)
-    mx0, mx1 = MOTOR["x"]
-    g = box(122, Z1, 150, 26).difference(box(mx0, Z1 - 1, mx1, Z1 + MOTOR["alto"]))
-    g = g.union(tabs_a_caja([(122.4, Z_PISO, 125.4, Z1), (146.6, Z_PISO, 149.6, Z1)]))
-    out.append(Pieza(g, "SOPORTE MOTOR", "xz", SOPORTE_Y, etiqueta="SM", tipo="chasis"))
-
-    # torre del botón: 2 laterales + tapa con el agujero del pulsador
-    lat = box(172, Z1, 188, H - T).union(box(175, Z_PISO, 185, Z1)).union(box(176, H - T, 184, H))
-    for pos, n in ((-TORRE_Y[1], "TORRE IZQ"), (TORRE_Y[0], "TORRE DER")):
-        out.append(Pieza(lat, n, "xz", pos, etiqueta="TB", tipo="torre"))
-    tapa = redondear(box(CANAL_X[0] + 0.3, -CANAL_Y + 0.5, CANAL_X[1] - 0.3, CANAL_Y - 0.5), 2)
-    tapa = tapa.difference(Point(*BOTON).buffer(6.25, 32))
-    tapa = tapa.difference(tabs_a_caja([(176, TORRE_Y[0], 184, TORRE_Y[1]),
-                                        (176, -TORRE_Y[1], 184, -TORRE_Y[0])]))
-    out.append(Pieza(tapa, "TAPA TORRE", "xy", H - T, etiqueta="", tipo="torre"))
-    out += ruedas_y_polea()
-    return out
-
-
-def llanta():
-    p = Point(0, 0).buffer(R_RUEDA, 64)
-    anillo = Point(0, 0).buffer(11.5, 64).difference(Point(0, 0).buffer(4.5, 48))
-    rayos = unary_union([affinity.rotate(box(-1.6, 0, 1.6, 14), a * 72, origin=(0, 0))
-                         for a in range(5)])
-    return p.difference(anillo.difference(rayos)).difference(Point(0, 0).buffer(R_AJUSTE, 16))
-
-
-def disco(r, agujero=R_AJUSTE):
-    return Point(0, 0).buffer(r, 64).difference(Point(0, 0).buffer(agujero, 16))
-
-
-def ruedas_y_polea():
-    out = []
-    for lado in (-1, 1):
-        for x in (EJE_DEL, EJE_TRAS):
-            y_ext = Y_RUEDA[1] if lado > 0 else -Y_RUEDA[1]
-            capas = [("llanta", llanta(), [Point(0, 0).buffer(2.6, 16).exterior]),
-                     ("disco", disco(R_CANAL), [Point(0, 0).buffer(11.8, 48)]),
-                     ("interior", disco(R_RUEDA), [])]
-            for i, (n, g, gr) in enumerate(capas):
-                y0 = (Y_RUEDA[1] - (i + 1) * T) if lado > 0 else (-Y_RUEDA[1] + i * T)
-                out.append(Pieza(g, f"RUEDA {n}", "xz", y0, gr, tipo="rueda",
-                                 g3d=affinity.translate(g, x, Z_EJE),
-                                 color="#cfd3d6" if n == "llanta" else None))
-            for j in range(2):  # 2 arandelas entre larguero y rueda
-                y0 = (Y_LARG[1] + j * T) if lado > 0 else (-Y_LARG[1] - (j + 1) * T)
-                g = disco(4, R_EJE)
-                out.append(Pieza(g, "ARANDELA", "xz", y0, tipo="arandela",
-                                 g3d=affinity.translate(g, x, Z_EJE)))
-    for i, r in enumerate((10.5, 9.0, 10.5)):
-        g = disco(r)
-        out.append(Pieza(g, "POLEA", "xz", POLEA_Y[0] + i * T, tipo="polea",
-                         g3d=affinity.translate(g, EJE_TRAS, Z_EJE)))
-    return out
-
-
-# --- carrocería ---------------------------------------------------------------------
-def altura_torre(modelo):
-    """Altura de la tapa de la torre: 1,5 mm debajo de la carrocería en el canal del botón."""
-    minimo = 999
-    for k in range(N):
-        if not toca(k, -CANAL_Y, CANAL_Y):
-            continue
-        p, _ = modelo.perfil(k)
-        if p is None or p.is_empty:
-            continue
-        for i in range(18):
-            x = CANAL_X[0] + i * (CANAL_X[1] - CANAL_X[0]) / 17
-            corte = p.intersection(LineString([(x, 0), (x, 200)]))
-            if not corte.is_empty:
-                minimo = min(minimo, corte.bounds[3])
-    return math.floor((minimo - 1.5) * 2) / 2
-
-
-def carroceria(modelo):
-    """Arma las capas de la carrocería y devuelve (piezas, pernos)."""
-    piezas, agujeros = [], {}
-    arcos = unary_union([Point(x, Z_EJE).buffer(R_ARCO, 64) for x in (EJE_DEL, EJE_TRAS)])
-    canal = box(CANAL_X[0], -10, CANAL_X[1], 300)
-    for k in range(N):
-        p, grab = modelo.perfil(k)
-        if p is None or p.is_empty:
-            continue
-        if con_cavidad(k):
-            p = p.difference(cavidad())
-        else:
-            p = p.difference(arcos)
-        if toca(k, -CANAL_Y, CANAL_Y):
-            p = p.difference(canal)
-        o = desde_afuera(k)
-        for i, (x, z) in enumerate(modelo.pernos):
-            c = Point(x, z).buffer(R_PERNO, 24)
-            if o > 0 and k not in getattr(modelo, "sin_pernos", ()) and \
-                    p.buffer(-0.05).contains(Point(x, z).buffer(R_PERNO + 1.3)):
-                p = p.difference(c)
-                agujeros.setdefault(i, []).append(k)
-        grab = [g.intersection(p.buffer(-0.3)) for g in grab]
-        grab = [g for g in grab if not g.is_empty]
-        partes = sorted(poligonos(p), key=lambda q: q.bounds[0])
-        for j, q in enumerate(partes):
-            g = [e for e in grab if e.intersects(q)]
-            n = f"{k + 1}" + ("abcd"[j] if len(partes) > 1 else "")
-            tx = [t for t in (modelo.textos_capa(k) if hasattr(modelo, "textos_capa") else [])
-                  if q.contains(Point(t[1], t[2]))]
-            pz = Pieza(q, n, "xz", tramo(k)[0], g, tipo="carroceria",
-                       espejo=k >= N / 2 and bool(g or tx),
-                       etiqueta="" if (o == 0 or tx) else n, capa=k)
-            pz.textos = tx
-            piezas.append(pz)
-    piezas += modelo.extras() if hasattr(modelo, "extras") else []
-    # pernos: tramos seguidos de capas con agujero
-    pernos = []
-    for i, ks in agujeros.items():
-        ks = sorted(ks)
-        ini = ks[0]
-        for a, b in zip(ks, ks[1:] + [None]):
-            if b != a + 1:
-                pernos.append(dict(x=modelo.pernos[i][0], z=modelo.pernos[i][1],
-                                   desde=ini + 1, hasta=a + 1, largo=(a - ini + 1) * T))
-                ini = b
-    return piezas, pernos
-
-
-def verificar(modelo, piezas):
-    """Controles: la carrocería no toca las ruedas ni el chasis."""
-    avisos = []
-    ruedas = unary_union([Point(x, Z_EJE).buffer(R_CUBIERTA + 0.4, 48) for x in (EJE_DEL, EJE_TRAS)])
-    for pz in piezas:
-        if pz.tipo != "carroceria" or pz.plano != "xz" or pz.capa is None:
-            continue
-        k = pz.capa
-        if toca(k, Y_RUEDA[0], Y_RUEDA[1]) or toca(k, -Y_RUEDA[1], -Y_RUEDA[0]):
-            if pz.geom.intersection(ruedas).area > 0.5:
-                avisos.append(f"capa {pz.nombre} toca una rueda")
-        if con_cavidad(k) and pz.geom.intersection(cavidad()).area > 0.5:
-            avisos.append(f"capa {pz.nombre} invade el chasis")
-    return avisos
-
-
-# --- acomodar piezas en hojas ---------------------------------------------------
 def para_hoja(pz):
     """Forma y grabados listos para la hoja (y hacia abajo, espejo si hace falta)."""
     g, grab = pz.geom, list(pz.grab)
@@ -529,9 +232,6 @@ def guardar_hoja(base, n, hoja, tam=(600, 400), titulo=""):
 
 
 # --- dibujo 3D ----------------------------------------------------------------------
-MADERA, BORDE = "#e6c391", "#8a6239"
-NUEVO, BORDE_NUEVO = "#ffc96b", "#b36b00"
-
 
 class Camara:
     def __init__(self, az=-125, el=28):
@@ -557,9 +257,6 @@ def a_3d(plano, pos, u, v):
     if plano == "xy":
         return (u, v, pos)
     return (pos, u, v)
-
-
-NORMAL = {"xz": (0, 1, 0), "xy": (0, 0, 1), "yz": (1, 0, 0)}
 
 
 class Escena:
@@ -703,70 +400,3 @@ class Escena:
             out += g
         out.append("</svg>")
         return "\n".join(out)
-
-
-# --- electrónica para los dibujos ---------------------------------------------------
-def electronica(escena, H, que=("pilas", "motor", "goma", "bornes", "boton", "cables"),
-                nuevo=(), d=(0, 0, 0)):
-    Z1 = zp()
-    if "pilas" in que:
-        x0, y0, x1, y1 = PILAS
-        escena.caja(x0, y0, Z1, x1, y1, Z1 + 15, "#2b2b2b", "#111", desplazar=d)
-        for yy in (y0 + 3, (y0 + y1) / 2 + 1):
-            escena.caja(x0 + 4, yy, Z1 + 15, x1 - 4, yy + 13, Z1 + 15.5, "#e9a23b", "#8a5a10",
-                        desplazar=d)
-    if "motor" in que:
-        mx0, mx1 = MOTOR["x"]
-        g = redondear(box(mx0, Z1, mx1, Z1 + 15), 3)
-        escena.prisma(g, "xz", MOTOR["y"][0], MOTOR["y"][1] - MOTOR["y"][0], fill="#a7b0ba",
-                      stroke="#4a525a", desplazar=d)
-        eje = Point(136, Z1 + 7.5).buffer(1, 12)
-        escena.prisma(eje, "xz", MOTOR["y"][1], 8, fill="#ddd", stroke="#555", desplazar=d)
-    if "goma" in que:
-        z = Z1 + 7.5
-        pts = []
-        for i in range(25):
-            a = math.pi / 2 + i * math.pi / 24
-            pts.append((136 + 1.2 * math.cos(a), 11.5, z + 1.2 * math.sin(a)))
-        for i in range(25):
-            a = -math.pi / 2 + i * math.pi / 24
-            pts.append((EJE_TRAS + 9.2 * math.cos(a), 11.5, Z_EJE + 9.2 * math.sin(a)))
-        pts.append(pts[0])
-        escena.linea([(x + d[0], y + d[1], z_ + d[2]) for x, y, z_ in pts], "#e8590c", 2.2)
-    if "bornes" in que:
-        for x0, y0, x1, y1 in BORNES:
-            escena.caja(x0, y0, Z1, x1, y1, Z1 + 8, "#f4f4f4", "#888", desplazar=d)
-            escena.caja(x0 + 1, y0 + 1, Z1 + 8, x0 + 5, y1 - 1, Z1 + 9.5, "#f08c00", "#a35f00",
-                        desplazar=d)
-    if "boton" in que:
-        escena.prisma(Point(*BOTON).buffer(6, 24), "xy", H - 20, 20, fill="#555", stroke="#222",
-                      desplazar=d)
-        escena.prisma(Point(*BOTON).buffer(5, 24), "xy", H, 7, fill="#e03131", stroke="#8a1c1c",
-                      desplazar=d)
-    if "cables" in que:
-        z = Z1 + 0.8
-        rojo, negro, azul = "#e03131", "#222", "#1c7ed6"
-        cables = [
-            ([(63, -12, z + 3), (55, -12, z + 4)], rojo),
-            ([(64, 8, z + 3), (66, 16.5, z), (108, 16.5, z + 4)], negro),
-            ([(180, -6, H - 20), (176, -15.5, z), (60, -15.5, z), (55, -12, z + 4)], azul),
-            ([(180, -4, H - 20), (176, -17.5, z), (64, -17.5, z), (64, 10, z), (55, 10, z + 4)], azul),
-            ([(130, -20, z + 7), (124, -19, z), (64, -19, z), (64, 12, z), (55, 12, z + 4)], negro),
-            ([(130, 4, z + 10), (124, 6, z), (124, 14.5, z), (108, 15.5, z + 4)], rojo),
-        ]
-        for pts, col in cables:
-            escena.linea([(x + d[0], y + d[1], zz + d[2]) for x, y, zz in pts], col, 1.8)
-
-
-def eje(escena, x, d=(0, 0, 0), fill=MADERA):
-    g = Point(x, Z_EJE).buffer(1.5, 12)
-    largo = 2 * Y_RUEDA[1] + 2
-    escena.prisma(g, "xz", -largo / 2, largo, fill=fill, desplazar=d)
-
-
-def cubiertas(escena, d=(0, 0, 0), ejes=(EJE_DEL, EJE_TRAS)):
-    for x in ejes:
-        for lado in (-1, 1):
-            y0 = (Y_RUEDA[1] - 2 * T) if lado > 0 else (-Y_RUEDA[1] + T)
-            g = Point(x, Z_EJE).buffer(R_CUBIERTA, 48).difference(Point(x, Z_EJE).buffer(R_CANAL, 48))
-            escena.prisma(g, "xz", y0 - 0.2, T + 0.4, fill="#222", stroke="#000", desplazar=d)

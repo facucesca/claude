@@ -22,8 +22,8 @@ from shapely.geometry import LineString, Point, Polygon, box
 from shapely.ops import unary_union
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(AQUI, "kit-autos"))
-import kit  # noqa: E402  (motor común: hojas, dibujos 3D)
+sys.path.insert(0, AQUI)
+import kit  # noqa: E402  (motor de dibujo: hojas de corte, vistas 3D)
 
 T = 3.0       # espesor de la placa
 AJ = 0.1      # cuánto más angostas que el espesor se cortan las ranuras
@@ -373,7 +373,26 @@ class Modelo:
 
 
 # --- instructivo ------------------------------------------------------------------------
-CSS = open(os.path.join(AQUI, "kit-autos", "generar.py")).read().split('CSS = """')[1].split('"""')[0]
+CSS = """
+@page { size: A4; margin: 14mm 14mm 16mm 14mm; }
+body { font-family: Arial, Helvetica, sans-serif; color: #2b2118; font-size: 11.5pt; line-height: 1.4; }
+h1 { font-size: 26pt; margin: 0 0 4px; color: #3b2a1a; }
+h2 { font-size: 16pt; margin: 18px 0 6px; color: #8a4b12; border-bottom: 2px solid #e8c9a0; padding-bottom: 3px; }
+h3 { font-size: 13pt; margin: 10px 0 4px; }
+.sub { color: #6b5640; font-size: 13pt; margin-bottom: 10px; }
+.paso { page-break-inside: avoid; margin-bottom: 16px; }
+.paso img { width: 100%; border: 1px solid #eadcc8; border-radius: 6px; }
+.num { display: inline-block; background: #8a4b12; color: #fff; border-radius: 50%; width: 30px;
+       height: 30px; text-align: center; line-height: 30px; font-weight: bold; margin-right: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 10.5pt; margin: 6px 0; }
+td, th { border: 1px solid #d9c3a3; padding: 4px 6px; text-align: left; vertical-align: top; }
+th { background: #f6ead8; }
+.ojo { background: #fff4e0; border-left: 4px solid #e8590c; padding: 6px 10px; margin: 8px 0; }
+.salto { page-break-before: always; }
+.tapa img { width: 100%; }
+ul { margin: 4px 0 4px 18px; padding: 0; }
+.chico { font-size: 9.5pt; color: #6b5640; }
+"""
 
 
 def foto_ruedas(ruta):
@@ -392,10 +411,59 @@ def foto_ruedas(ruta):
     return foto(e, ruta, 900, 300)
 
 
+def circuito_svg(ruta):
+    """Esquema del circuito: una sola vuelta, con los 3 bornes."""
+    W, H = 900, 400
+    rojo, negro, azul = "#e03131", "#222", "#1c7ed6"
+
+    def caja(x, y, w, h, fill, stroke, txt, col="#222", tam=17):
+        return (f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="8" fill="{fill}" '
+                f'stroke="{stroke}" stroke-width="2.5"/><text x="{x + w / 2}" y="{y + h / 2 + 6}" '
+                f'font-size="{tam}" font-weight="bold" fill="{col}" text-anchor="middle">{txt}</text>')
+
+    def cable(pts, col):
+        return (f'<polyline points="{" ".join(f"{a},{b}" for a, b in pts)}" fill="none" '
+                f'stroke="{col}" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>')
+
+    def nota(x, y, s, col="#555", anchor="middle"):
+        return (f'<text x="{x}" y="{y}" font-size="14" fill="{col}" text-anchor="{anchor}">{s}</text>')
+
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
+           'font-family="Arial, sans-serif">', f'<rect width="{W}" height="{H}" fill="#fff"/>',
+           '<text x="450" y="34" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">'
+           'PILA (+) → B1 → BOTÓN → B2 → MOTOR → B3 → PILA (−)</text>']
+    out += [cable([(230, 150), (330, 110), (390, 110)], rojo),
+            cable([(470, 110), (560, 110), (600, 140)], azul),
+            cable([(660, 140), (720, 180), (720, 215)], azul),
+            cable([(720, 275), (720, 300), (640, 320)], rojo),
+            cable([(520, 320), (470, 330)], negro),
+            cable([(390, 330), (300, 330), (230, 245)], negro)]
+    out += [caja(70, 130, 170, 130, "#2b2b2b", "#111", "PILAS 2xAA", "#fff"),
+            '<text x="225" y="160" font-size="26" fill="#ff8787" font-weight="bold">+</text>',
+            '<text x="225" y="252" font-size="26" fill="#fff" font-weight="bold">−</text>',
+            caja(390, 85, 80, 50, "#fff4e6", "#e8590c", "B1", "#c2410c"),
+            caja(680, 215, 80, 60, "#fff4e6", "#e8590c", "B2", "#c2410c"),
+            caja(390, 305, 80, 50, "#fff4e6", "#e8590c", "B3", "#c2410c"),
+            caja(520, 290, 120, 60, "#a7b0ba", "#4a525a", "MOTOR"),
+            '<circle cx="630" cy="125" r="34" fill="#e03131" stroke="#8a1c1c" stroke-width="3"/>',
+            '<text x="630" y="131" font-size="15" font-weight="bold" fill="#fff" '
+            'text-anchor="middle">BOTÓN</text>']
+    out += [nota(300, 95, "cable rojo de las pilas", rojo),
+            nota(515, 92, "cable del botón", azul),
+            nota(790, 165, "otro cable del botón", azul, "middle"),
+            nota(800, 315, "cable del motor", "#555"),
+            nota(300, 368, "cable negro de las pilas", "#333"),
+            nota(490, 378, "otro cable del motor", "#555")]
+    out.append(nota(450, 392, "", "#555"))
+    out.append("</svg>")
+    with open(ruta + ".svg", "w") as f:
+        f.write("\n".join(out))
+    a_png(ruta + ".svg", ruta + ".png", W, H)
+    os.remove(ruta + ".svg")
+
+
 def circuito(img):
-    sys.path.insert(0, os.path.join(AQUI, "kit-autos"))
-    import generar
-    generar.circuito_svg(os.path.join(img, "09b-circuito"))
+    circuito_svg(os.path.join(img, "09b-circuito"))
     return os.path.join(img, "09b-circuito.png")
 
 

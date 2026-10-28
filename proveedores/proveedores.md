@@ -19,7 +19,7 @@ finitas de madera pegadas en capas cruzadas. El **MDF** (fibrofácil) es aserrí
 | | MDF / fibrofácil | Terciado |
 |---|---|---|
 | Precio | Más barato y parejo | El de pino sale parecido; guatambú y abedul, más caros |
-| Peso | Más pesado (el Superauto pesa unos 250 g) | 30 a 40 % más liviano (aprox.) |
+| Peso | Más pesado | 30 a 40 % más liviano (aprox.) |
 | Aspecto | Liso, parejo; ideal para pintar. Canto marrón oscuro | Veta de madera real, lindo sin pintar. El canto muestra las capas |
 | Láser | Corta siempre igual, sin sorpresas | Puede traer nudos o cola que el láser no corta bien. **El fenólico no sirve** |
 | Humo / hollín | Más olor y hollín en los bordes (se va lijando) | Huele a madera quemada |
@@ -58,9 +58,9 @@ pintar en **terciado de 3 mm para láser** (abedul o álamo), probando antes con
 | Terciado guatambú 3 mm, 1,60 x 2,20 m | DAC | $27.098 |
 | 10 hojas MDF 3 mm de 30 x 60 ya cortadas | Mercado Libre | ~$32.000 con envío (sale 3 a 4 veces más caro que comprar la placa) |
 
-**Cuánta madera usa cada auto:** Fórmula 60 x 20 cm · Superauto 60 x 40 cm · Clásico 60 x 54 cm.
-Con una placa de MDF de 1,83 x 2,60 m salen unos **18 Superautos o 36 Fórmulas** (estimado),
-o sea **$900 a $1.500 de madera por auto**.
+**Cuánta madera usa cada auto:** Camioneta 60 x 16 cm · Jeep 60 x 17 cm · Colectivo 60 x 21 cm.
+Con una placa de MDF de 1,83 x 2,60 m salen unas **48 camionetas, 45 jeeps o 36 colectivos**
+(estimado, sin contar desperdicio), o sea **$350 a $750 de madera por auto**.
 
 ---
 
@@ -158,4 +158,4 @@ en **ElectroGeek** (ruedas de robótica).
 ## 4. Corte láser
 El usuario ya tiene talleres. Otros de referencia (directorios): Noagraf (Pasaje Padilla 29),
 Jackito's Corte y Grabado Láser, Laser Guimi (Sáenz Peña 775), Tucumán Artística MDF
-(0381 682-8767). Ver `plantillas/kit-autos/PEDIDO-DE-PRESUPUESTO.md` para lo que hay que mandarles.
+(0381 682-8767). Para mandarles: el `<modelo>-para-cortar.zip` de cada carpeta en `plantillas/`.
