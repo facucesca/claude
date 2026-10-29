@@ -1,5 +1,36 @@
 # Proyecto: Juguetes de madera con electrónica para armar
 
+## Al empezar cada conversación (leer primero)
+El proyecto lo empezó su novio y ahora **lo sigue ella**. Si el primer mensaje es un saludo
+("hola") o no dice qué hacer:
+1. Saludar y presentarse en una o dos líneas.
+2. Contar **en qué está el proyecto** (sección "Estado y próximos pasos") en 4 o 5 líneas.
+3. Proponer **el próximo paso concreto** y preguntar si arrancamos por ahí o prefiere otra cosa.
+No hace falta instalar nada a mano: al abrir la sesión se instala solo
+(`.claude/hooks/session-start.sh`). Si un programa falla por falta de algo, instalar con
+`pip install -r requirements.txt`. Después de cambiar algo, **hacer commit y push** para que
+no se pierda (el contenedor se borra).
+
+## Estado y próximos pasos (actualizar cada vez que cambie algo)
+- **Hecho:** 3 diseños encastrables (camioneta, jeep, colectivo), instructivos, lista de
+  proveedores, lista de compra y mensaje para el taller (`PEDIDO-PROTOTIPO.md`).
+- **Ahora:** comprar la electrónica en Mercado Libre y mandar a cortar la **probeta** y la
+  **camioneta** (ver "Corte láser" en Proveedores).
+- **Después:** ajustar las medidas con lo que dé la probeta, armar la camioneta, anotar qué
+  falló y el costo real; si anda, cortar el jeep y el colectivo.
+- **Más adelante:** decidir si se vende (feria, conocidos, taller de armado) o es regalo.
+- Nada está probado todavía con piezas reales.
+
+## Mapa de carpetas
+| Carpeta / archivo | Qué hay |
+|---|---|
+| `LEEME.md` | Guía corta para personas: qué es esto y cómo seguir. |
+| `PEDIDO-PROTOTIPO.md` | Lista de compra (ML), mensaje para el taller y cómo usar la probeta. |
+| `plantillas/camioneta/`, `jeep/`, `colectivo/` | Cada auto: `hoja-1.svg/.dxf` (para el láser), `instructivo.pdf`, `pasos/` (imágenes) y `<modelo>-para-cortar.zip` (lo que se le manda al taller). |
+| `plantillas/encastre.py`, `plantillas/kit.py` | Programas que generan todo lo anterior. |
+| `proveedores/` | Proveedores con teléfonos (`proveedores.md`, `.pdf`, `.xlsx`) y el pedido de cotización de electrónica. |
+| `herramientas/md_a_pdf.py` | Pasa un `.md` a PDF para imprimir. |
+
 ## La idea
 Kits de juguetes de madera (MDF / fibrofácil cortado con láser) que se combinan con
 electrónica simple. Los chicos arman el juguete, conectan el circuito y aprenden
@@ -20,9 +51,10 @@ jugando. Referencias que marcan el rumbo:
 - **Plantillas:** usar libres solo si la licencia permite uso comercial. Si no,
   diseñarlas nosotros (MDF de 3 mm, archivos SVG/DXF).
 
-## Datos del usuario
+## Datos del emprendimiento
+- Lo lleva **ella** (la novia de quien lo empezó). No es técnica: explicar todo simple.
 - Ubicación: **Tucumán, Argentina** (puede comprar de cualquier lado).
-- No tiene láser ni CNC, pero **conoce gente que corta**.
+- No tienen láser ni CNC: ya tienen **una persona que corta** (datos en "Corte láser").
 - Fecha objetivo: **Navidad 2026**.
 - Edad de los chicos: sin definir. Propuesta: 6 a 10 años (ver más abajo).
 - Venta: **todavía sin decidir** si es para vender o uso personal.
@@ -70,6 +102,8 @@ motor, ruedas, polea, ejes y electrónica iguales (se compra todo igual para los
   se corrige en `encastre.py` y sirve para los 3.
 
 ## Proveedores (detalle con teléfonos en `proveedores/proveedores.md` y `.pdf`)
+- **Corte láser (el de confianza):** FALTA COMPLETAR nombre, teléfono, precio y plazo.
+  Mientras tanto, otros talleres en `proveedores/proveedores.md` (sección 4).
 Búsqueda del 23/10/2026, desde buscadores y directorios (confirmar por teléfono).
 - **Madera:** empezar por Placacentro Distribuidora Lamadrid (Av. Roca 4000, 0381 436-7500;
   hace corte a medida), Macromad (Av. Belgrano 1965), Maderera San Carlos (Av. Ejército del

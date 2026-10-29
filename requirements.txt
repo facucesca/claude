@@ -1,0 +1,7 @@
+# Lo que necesitan los programas que generan las plantillas, instructivos y PDFs.
+# Se instala solo al abrir una sesión de Claude (ver .claude/hooks/session-start.sh).
+shapely
+ezdxf
+pillow
+markdown
+openpyxl

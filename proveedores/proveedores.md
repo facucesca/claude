@@ -156,6 +156,15 @@ en **ElectroGeek** (ruedas de robótica).
 ---
 
 ## 4. Corte láser
-El usuario ya tiene talleres. Otros de referencia (directorios): Noagraf (Pasaje Padilla 29),
+
+### El que usamos (de confianza)
+| Nombre | Teléfono / WhatsApp | Dirección | Precio | Plazo | Notas |
+|---|---|---|---|---|---|
+| _(completar)_ | _(completar)_ | _(completar)_ | _(completar)_ | _(completar)_ | ¿Pone él la placa de MDF o hay que llevarla? |
+
+Qué mandarle: el `<modelo>-para-cortar.zip` de la carpeta del auto y el mensaje de
+`PEDIDO-PROTOTIPO.md`. Pedirle siempre que mida el espesor real de la placa.
+
+### Otros talleres (de directorios, sin probar) Noagraf (Pasaje Padilla 29),
 Jackito's Corte y Grabado Láser, Laser Guimi (Sáenz Peña 775), Tucumán Artística MDF
 (0381 682-8767). Para mandarles: el `<modelo>-para-cortar.zip` de cada carpeta en `plantillas/`.

@@ -4,6 +4,7 @@ Uso:  pip install markdown
       python3 herramientas/md_a_pdf.py proveedores/proveedores.md
 Necesita Chromium.
 """
+import glob
 import os
 import shutil
 import subprocess
@@ -11,8 +12,8 @@ import sys
 
 import markdown
 
-CHROME = shutil.which("chromium") or shutil.which("google-chrome") or \
-    "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
+CHROME = (shutil.which("chromium") or shutil.which("google-chrome")
+          or next(iter(sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))), "chromium"))
 
 CSS = """
 @page { size: A4; margin: 12mm; }
