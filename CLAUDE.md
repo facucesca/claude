@@ -68,6 +68,7 @@ jugando. Referencias que marcan el rumbo:
    `probeta` (ranuras 2,7 a 3,1 mm y agujeros 2,6 a 3,5 mm) y medir el espesor real de la placa.
    Si encastra bien, cortar el jeep y el colectivo (misma base).
 5. [ ] Decidir: venta chica de prueba, taller o regalo.
+6. [x] Base de la página de venta (`web/`). Falta completar datos y publicar.
 
 ## Diseño actual para chicos: `plantillas/camioneta/` (v5)
 - El usuario pidió: **simple, sin cola, que el chico aprenda**; un solo auto para ir ajustando.
@@ -100,6 +101,17 @@ motor, ruedas, polea, ejes y electrónica iguales (se compra todo igual para los
 - Cada carpeta trae `hoja-1.svg/.dxf/.png`, `instructivo.pdf`, `pasos/` y `<modelo>-para-cortar.zip`.
 - **Sin probar.** Primero probar la camioneta: lo que se ajuste ahí (ranuras, cuna del motor, goma)
   se corrige en `encastre.py` y sirve para los 3.
+
+## Página de venta: `web/` (base, sin publicar)
+- Página estática en `web/sitio/` (HTML + CSS + JavaScript, sin librerías externas). Nombre provisorio: **Chispa**.
+- Venta por **WhatsApp + link de Mercado Pago**: carrito en el navegador, el pedido se arma y se manda
+  por WhatsApp. Sin servidor, sin base de datos, sin datos de tarjetas.
+- Tiene: catálogo con filtros, detalle de cada auto, carrito, circuito interactivo, cuenta regresiva a
+  Navidad, preguntas, botón de arrepentimiento (obligatorio) y política de privacidad.
+- Seguridad: CSP estricta + Trusted Types, cabeceras en `_headers`, nada de terceros, entradas limpiadas.
+- **Falta:** número de WhatsApp real (`js/config.js`), precios confirmados (`js/productos.js`, hoy
+  estimados de $28.000 a $42.000), dominio y fotos reales. Publicar en Cloudflare Pages (gratis).
+  Guía completa en `web/LEEME.md`.
 
 ## Proveedores (detalle con teléfonos en `proveedores/proveedores.md` y `.pdf`)
 - **Corte láser (el de confianza):** FALTA COMPLETAR nombre, teléfono, precio y plazo.
