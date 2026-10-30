@@ -13,7 +13,7 @@ Los datos de tarjeta **nunca pasan por esta página**: los maneja Mercado Pago.
 
 ## Qué hay en la página
 - **Portada** con la camioneta llegando sobre una ruta y cuenta regresiva a Navidad.
-- **Catálogo** con filtros (Para chicos / Coleccionables), tarjetas que se inclinan con el mouse
+- **Catálogo** con la camioneta, el jeep, el colectivo y el pack de los 3, con filtros (Autos / Pack de 3), tarjetas que se inclinan con el mouse
   y una ventana con el detalle de cada auto.
 - **Circuito interactivo**: se aprieta el botón rojo y se ve la corriente andar y la rueda girar.
 - Seguridad para chicos, preguntas frecuentes, formulario de pedido y carrito lateral.
@@ -24,7 +24,7 @@ Los datos de tarjeta **nunca pasan por esta página**: los maneja Mercado Pago.
 ## Antes de publicar (obligatorio)
 1. **Número de WhatsApp**: en `sitio/js/config.js`, cambiar `whatsapp: '5493810000000'` por el real
    (549 + característica sin 0 + número sin 15). Mientras siga en ceros, los pedidos no llegan.
-2. **Precios**: en `sitio/js/productos.js`. Los que están ahora son **estimados** ($28.000 a $42.000).
+2. **Precios**: en `sitio/js/productos.js`. Los que están ahora son **estimados** ($28.000 a $32.000 cada auto, $80.000 el pack).
 3. **Nombre**: «Chispa» es provisorio. Si se cambia, buscarlo y reemplazarlo en los `.html` y en `js/config.js`.
 4. **Dominio**: reemplazar `tu-dominio.com.ar` en `index.html` (imagen para compartir) y en
    `.well-known/security.txt` (mail para avisos de seguridad).

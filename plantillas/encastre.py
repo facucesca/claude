@@ -40,7 +40,12 @@ def configurar(argv):
 
 
 kit.configurar(T)
-CHROME = (shutil.which("chromium") or shutil.which("google-chrome")
+CHROME = (shutil.which("chromium") or shutil.which("google-chrome") or shutil.which("chromium-browser")
+          or shutil.which("chrome")
+          or next((p for p in ["/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                               r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+                               r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"]
+                   if os.path.exists(p)), None)
           or next(iter(sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))), "chromium"))
 
 # --- medidas comunes (mm) -------------------------------------------------------------

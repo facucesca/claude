@@ -1,15 +1,21 @@
 # Proyecto: Juguetes de madera con electrónica para armar
 
 ## Al empezar cada conversación (leer primero)
-El proyecto lo empezó su novio y ahora **lo sigue ella**. Si el primer mensaje es un saludo
+El proyecto lo empezó su novio y ahora **lo sigue Camila**. Si el primer mensaje es un saludo
 ("hola") o no dice qué hacer:
-1. Saludar y presentarse en una o dos líneas.
-2. Contar **en qué está el proyecto** (sección "Estado y próximos pasos") en 4 o 5 líneas.
-3. Proponer **el próximo paso concreto** y preguntar si arrancamos por ahí o prefiere otra cosa.
-No hace falta instalar nada a mano: al abrir la sesión se instala solo
-(`.claude/hooks/session-start.sh`). Si un programa falla por falta de algo, instalar con
-`pip install -r requirements.txt`. Después de cambiar algo, **hacer commit y push** para que
-no se pierda (el contenedor se borra).
+1. Responder primero, antes de cualquier otra cosa:
+   **"¡Hola Camila! 👋 Estoy preparando todo para trabajar (instalación en proceso)…"**
+2. Revisar que esté instalado: `python3 -c "import shapely, ezdxf, PIL, markdown, openpyxl"`.
+   Si falla, instalar con `python3 -m pip install -r requirements.txt` (si pip no deja, agregar
+   `--user`; si no hay Python, explicarle en 2 pasos cómo instalarlo desde python.org).
+   El hook `.claude/hooks/session-start.sh` ya lo intenta solo al abrir la sesión y deja escrito
+   el resultado ("INSTALACIÓN: ...").
+3. Avisar **"✅ Listo, ya está todo instalado."** (o qué falló, en palabras simples).
+4. Contar **en qué está el proyecto** (sección "Estado y próximos pasos") en 4 o 5 líneas.
+5. Proponer **el próximo paso concreto** y preguntar si arrancamos por ahí o prefiere otra cosa.
+
+Después de cambiar algo: actualizar "Estado y próximos pasos" y **hacer commit** (y push si el
+repositorio tiene un remoto al que se pueda subir), para que no se pierda nada.
 
 ## Estado y próximos pasos (actualizar cada vez que cambie algo)
 - **Hecho:** 3 diseños encastrables (camioneta, jeep, colectivo), instructivos, lista de
@@ -18,6 +24,8 @@ no se pierda (el contenedor se borra).
   **camioneta** (ver "Corte láser" en Proveedores).
 - **Después:** ajustar las medidas con lo que dé la probeta, armar la camioneta, anotar qué
   falló y el costo real; si anda, cortar el jeep y el colectivo.
+- **Página de venta (`web/`):** lista con los 3 autos y el pack, sin publicar. Falta el WhatsApp
+  real, precios confirmados y publicarla (ver `web/LEEME.md`).
 - **Más adelante:** decidir si se vende (feria, conocidos, taller de armado) o es regalo.
 - Nada está probado todavía con piezas reales.
 
@@ -29,6 +37,7 @@ no se pierda (el contenedor se borra).
 | `plantillas/camioneta/`, `jeep/`, `colectivo/` | Cada auto: `hoja-1.svg/.dxf` (para el láser), `instructivo.pdf`, `pasos/` (imágenes) y `<modelo>-para-cortar.zip` (lo que se le manda al taller). |
 | `plantillas/encastre.py`, `plantillas/kit.py` | Programas que generan todo lo anterior. |
 | `proveedores/` | Proveedores con teléfonos (`proveedores.md`, `.pdf`, `.xlsx`) y el pedido de cotización de electrónica. |
+| `web/` | Página de venta (catálogo, carrito y pedido por WhatsApp). Guía en `web/LEEME.md`. |
 | `herramientas/md_a_pdf.py` | Pasa un `.md` a PDF para imprimir. |
 
 ## La idea
@@ -52,7 +61,7 @@ jugando. Referencias que marcan el rumbo:
   diseñarlas nosotros (MDF de 3 mm, archivos SVG/DXF).
 
 ## Datos del emprendimiento
-- Lo lleva **ella** (la novia de quien lo empezó). No es técnica: explicar todo simple.
+- Lo lleva **Camila** (la novia de quien lo empezó). No es técnica: explicar todo simple.
 - Ubicación: **Tucumán, Argentina** (puede comprar de cualquier lado).
 - No tienen láser ni CNC: ya tienen **una persona que corta** (datos en "Corte láser").
 - Fecha objetivo: **Navidad 2026**.
@@ -68,7 +77,7 @@ jugando. Referencias que marcan el rumbo:
    `probeta` (ranuras 2,7 a 3,1 mm y agujeros 2,6 a 3,5 mm) y medir el espesor real de la placa.
    Si encastra bien, cortar el jeep y el colectivo (misma base).
 5. [ ] Decidir: venta chica de prueba, taller o regalo.
-6. [x] Base de la página de venta (`web/`). Falta completar datos y publicar.
+6. [x] Página de venta (`web/`) con camioneta, jeep, colectivo y pack. Falta completar datos y publicar.
 
 ## Diseño actual para chicos: `plantillas/camioneta/` (v5)
 - El usuario pidió: **simple, sin cola, que el chico aprenda**; un solo auto para ir ajustando.
@@ -109,8 +118,10 @@ motor, ruedas, polea, ejes y electrónica iguales (se compra todo igual para los
 - Tiene: catálogo con filtros, detalle de cada auto, carrito, circuito interactivo, cuenta regresiva a
   Navidad, preguntas, botón de arrepentimiento (obligatorio) y política de privacidad.
 - Seguridad: CSP estricta + Trusted Types, cabeceras en `_headers`, nada de terceros, entradas limpiadas.
-- **Falta:** número de WhatsApp real (`js/config.js`), precios confirmados (`js/productos.js`, hoy
-  estimados de $28.000 a $42.000), dominio y fotos reales. Publicar en Cloudflare Pages (gratis).
+- Catálogo: camioneta ($28.000), jeep ($30.000), colectivo ($32.000) y pack "La flota completa"
+  ($80.000), con filtros Autos / Pack de 3. Precios **estimados**.
+- **Falta:** número de WhatsApp real (`js/config.js`), precios confirmados (`js/productos.js`),
+  dominio y fotos reales. Publicar en Cloudflare Pages (gratis).
   Guía completa en `web/LEEME.md`.
 
 ## Proveedores (detalle con teléfonos en `proveedores/proveedores.md` y `.pdf`)
@@ -202,6 +213,6 @@ Camino recomendado:
 4. Si funciona, después de Navidad averiguar la certificación y escalar.
 
 ## Notas para Claude
-- Responder en español, simple y directo. El usuario no es técnico.
+- Responder en español, simple y directo, hablándole a Camila. No es técnica.
 - Guardar acá los proveedores, precios y decisiones que se vayan encontrando.
 - Citar fuentes con link y aclarar cuando un precio es estimado.
