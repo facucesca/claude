@@ -1,4 +1,4 @@
-"""Junta las ideas de los 6 ángulos, marca parecidos con lo anterior y arma el Excel.
+"""Junta las ideas de los 12 ángulos (a = gran escala, b = chico con potencial de startup), marca parecidos con lo anterior y arma el Excel.
 
 Uso (desde la raíz del proyecto):
     python3 investigaciones/datos/2026-11-03/build_excel.py
@@ -24,6 +24,12 @@ ANGULOS = {
     "a4": "Industria pesada y B2B",
     "a5": "Picos y palas de las nuevas olas",
     "a6": "Modelos grandes que no son una app",
+    "b1": "Chico: objetos y rituales cotidianos",
+    "b2": "Chico: modelos dados vuelta",
+    "b3": "Chico: tiempo muerto",
+    "b4": "Chico: costumbres argentinas",
+    "b5": "Chico: vida adulta joven",
+    "b6": "Chico: lo que sobra o está ocioso",
 }
 PESOS = ["escala", "mercado", "por_que_ahora", "hueco", "construible", "riesgo_bajo", "ventaja_propia"]
 
@@ -48,10 +54,10 @@ def texto(v):
 
 def cargar():
     ideas = []
-    for f in sorted(AQUI.glob("a[0-9]-*.json")):
+    for f in sorted(AQUI.glob("[ab][0-9]-*.json")):
         clave = f.name[:2]
         for i, d in enumerate(json.loads(f.read_text(encoding="utf-8")), 1):
-            d["id"] = f"N{clave[1]}-{i:02d}"
+            d["id"] = f"{clave.upper()}-{i:02d}"
             d["angulo"] = ANGULOS.get(clave, clave)
             p = d.get("puntajes") or {}
             d["total"] = sum(int(p.get(k, 0) or 0) for k in PESOS)
@@ -111,7 +117,7 @@ def main():
     for fila in [
         ["IDEAS A GRAN ESCALA — investigación del 2026-11-03"],
         [""],
-        [f"{len(vivas)} ideas nuevas, de 6 ángulos distintos. Ninguna repite lo de ideas-anteriores/ ni los juguetes."],
+        [f"{len(vivas)} ideas nuevas, de 12 ángulos distintos (A1-A6 gran escala, B1-B6 chico con potencial de startup). Ninguna repite lo de ideas-anteriores/ ni los juguetes."],
         [f"Salieron {len(fuera)} por parecerse a algo anterior o entre sí (hoja SALIERON)."],
         [""],
         ["Cómo leerlo:"],

@@ -76,9 +76,15 @@ Cómo se aplica:
 - **2026-11-03:** se reorganizó el proyecto. El de juguetes de madera **no funcionó** y quedó
   como **backup** en `backup-juguetes-madera/`. Se cargó la carpeta de ideas anteriores
   (`ideas-anteriores/IDEAS-PRUEBA/`) como lista de exclusión.
-- **Ahora:** arrancar la **investigación profunda nueva**, con la Regla N.º 2 desde el principio.
-  Antes, confirmar con el usuario: perfil vigente (plata, horas), y si hay rubros o tipos de
-  negocio que quiere o no quiere.
+- **2026-11-03 — investigación en curso** (datos en `investigaciones/datos/2026-11-03/`):
+  pedido del usuario: **sin límite de plata, medio y largo plazo, cualquier nicho, nada repetido**.
+  - Tanda A (6 investigadores × 30): gran escala — megatendencias, ventajas de Argentina,
+    deeptech, industria B2B, "picos y palas" de las olas, modelos grandes que no son app.
+  - Tanda B (6 × 20, pedida después): **cosas chicas y cotidianas, fuera de la caja, que le den
+    la vuelta a algo, con potencial de startup** — objetos cotidianos, modelos dados vuelta,
+    tiempo muerto, costumbres argentinas, vida adulta joven, lo que sobra.
+  - Al terminar: cruce contra `exclusion.txt`, `python3 investigaciones/datos/2026-11-03/build_excel.py`
+    → `investigaciones/2026-11-03-IDEAS-A-GRAN-ESCALA.xlsx` + resumen `.md`. Cuidar el límite de uso.
 - **Después:** Excel con las ideas nuevas puntuadas → el usuario marca → investigación a fondo
   de las marcadas → elegir 1 y armar el plan de validación.
 
