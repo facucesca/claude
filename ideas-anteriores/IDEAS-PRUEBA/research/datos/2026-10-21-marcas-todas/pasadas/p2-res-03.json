@@ -1,0 +1,447 @@
+[
+ {
+  "n": "M092",
+  "quien_lo_intento": "En Argentina nadie lo hace del lado del inquilino. TuNota hace lo contrario: corredores matriculados cargan incumplimientos de inquilinos. Se lanzó en julio de 2025 tras cuatro años de desarrollo [https://infonegocios.info/enfoque/como-funciona-el-veraz-de-los-inquilinos-la-herramienta-web-que-quiere-cambiar-como-se-deciden-los-alquileres]. En Latinoamérica busqué reseñas de propietarios en Chile, México y Colombia. Solo aparecieron empresas que evalúan al inquilino, como Homie en México y Aptuno en Colombia [https://expansion.mx/emprendedores/2018/10/18/la-plataforma-de-vivienda-homie-cierra-su-ronda-de-capital-semilla] [https://forbes.co/2021/11/30/emprendedores/aptuno-que-esta-digitalizando-los-arriendos-de-vivienda-obtiene-us5-millones/]. No encontré a nadie que haya probado calificar edificios o propietarios en la región.",
+  "competencia": "TuNota cobra a corredores una suscripción mínima de $25.000 por mes hasta 100 contratos. El inquilino tiene cuenta gratis solo para responder o hacer descargos. La nota es del 2026-02-06 [https://infonegocios.info/enfoque/como-funciona-el-veraz-de-los-inquilinos-la-herramienta-web-que-quiere-cambiar-como-se-deciden-los-alquileres]. ¿A cuánto alquilo? figura en la verificación anterior y no la revisé hoy. El hueco sigue: nadie junta datos del edificio para el que va a alquilar.",
+  "regulacion": "Publicar reseñas sobre personas identificables entra en la Ley 25.326 de Protección de Datos Personales. No leí hoy el texto en InfoLEG: no verificado. TuNota dice tener su base inscripta en el Registro Nacional de Bases de Datos, según la nota [https://infonegocios.info/enfoque/como-funciona-el-veraz-de-los-inquilinos-la-herramienta-web-que-quiere-cambiar-como-se-deciden-los-alquileres]. Sobre los datos públicos: el SUACI junta los reclamos del 147 y las comunas, y cada reclamo se registra con calle y altura [https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2017/08/ir_2017_1178.pdf]. BA Data ya usó ese conjunto en una visualización [https://buenosaires.gob.ar/datosabiertos/historias-otros]. Que hoy se pueda bajar con dirección exacta: no verificado.",
+  "numeros": "Referencia real: TuNota cobra $25.000 por mes al corredor. Estimación: un informe pago para el inquilino antes de firmar podría valer entre $5.000 y $10.000, porque es una fracción chica de un mes de alquiler; no lo verifiqué con nadie. El costo por ficha es casi cero si los datos públicos se cargan una vez. El costo real está en moderar reseñas y atender pedidos de baja.",
+  "mercado": "Sin dato verificado hoy de cantidad de hogares inquilinos en CABA o el país.",
+  "variante_recomendada": "Calificar solo el edificio, no al propietario, en un par de barrios de CABA. Se cruzan los reclamos públicos de la dirección con reseñas de inquilinos que subieron su contrato. Primero gratis para juntar reseñas; el cobro, con informe pago al inquilino, se prueba después.",
+  "entrevistar_a": [
+   "Inquilinos que se mudaron en los últimos 6 meses en CABA, en grupos de Facebook de alquileres por barrio.",
+   "Socios de Inquilinos Agrupados o de la federación de inquilinos, contactando a la asociación.",
+   "Corredores inmobiliarios chicos de CABA que ya pagan TuNota, buscándolos por su red de matriculados."
+  ],
+  "preguntas_entrevista": [
+   "La última vez que alquilaste, ¿qué averiguaste del edificio antes de firmar y cómo?",
+   "¿Qué problema del edificio descubriste recién después de entrar?",
+   "¿Cuánto te costó ese problema, en plata o en tiempo?",
+   "¿Pagaste alguna vez por un informe o una visita para revisar un departamento?",
+   "¿A quién le preguntaste antes de firmar y qué te dijo?"
+  ],
+  "experimento": {
+   "hipotesis": "Los inquilinos de CABA dejan una reseña de su edificio si a cambio ven las de otros.",
+   "prediccion": "150 reseñas con contrato adjunto en 14 días, desde 10 grupos de inquilinos.",
+   "perdida_maxima": "USD 30",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Armar un formulario de 6 preguntas solo sobre el edificio: humedad, ruidos, ascensor, seguridad, expensas.",
+    "Pedir foto del contrato con datos tapados como prueba.",
+    "Publicarlo en 10 grupos de inquilinos de CABA.",
+    "Contar reseñas válidas y cuántas personas piden ver las demás."
+   ],
+   "sigue_si": "Llegan 100 reseñas válidas o más y al menos 30 personas piden acceso.",
+   "se_corta_si": "Llegan menos de 40 reseñas válidas en 14 días."
+  },
+  "puntuacion_revisada": 5.8,
+  "por_que_revisada": "Se confirma el hueco: TuNota mira solo al inquilino y no hay nada del otro lado. Baja un poco porque el cobro sigue sin resolver y el riesgo por datos personales es real.",
+  "veredicto": "Probar si el formulario junta reseñas solo, porque sin volumen de reseñas no hay producto y medirlo cuesta casi nada.",
+  "fuentes": [
+   "https://infonegocios.info/enfoque/como-funciona-el-veraz-de-los-inquilinos-la-herramienta-web-que-quiere-cambiar-como-se-deciden-los-alquileres",
+   "https://expansion.mx/emprendedores/2018/10/18/la-plataforma-de-vivienda-homie-cierra-su-ronda-de-capital-semilla",
+   "https://forbes.co/2021/11/30/emprendedores/aptuno-que-esta-digitalizando-los-arriendos-de-vivienda-obtiene-us5-millones/",
+   "https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2017/08/ir_2017_1178.pdf",
+   "https://buenosaires.gob.ar/datosabiertos/historias-otros"
+  ]
+ },
+ {
+  "n": "M001",
+  "quien_lo_intento": "Avancargo nació en 2017 en el programa AgTech de NXTP Labs como mercado de cargas [https://www.forbesargentina.com/negocios/avancargo-transporte-carga-uberizado-n1522]. En octubre de 2022 tenía 17.000 transportistas y 1.500 dadores de carga. El 90% de la demanda iba a su servicio a pedido, donde Avancargo hace la operación por el cliente. También vende un software de gestión de transporte [https://www.forbesargentina.com/innovacion/resuelven-problema-endemico-aseguran-una-gestion-logistica-eficiente-asi-funciona-avancargo-n23904]. Hoy se presenta como plataforma B2B y software, en etapa semilla [https://www.descubre.vc/avancargo]. En Uruguay, Flexy nació en 2024 para sacar los fletes de WhatsApp: dice tener más de 300 fleteros y entre 1.000 y 1.200 usuarios [https://www.elobservador.com.uy/nacio-dejar-atras-los-fletes-whatsapp-ofrece-mas-tres-presupuestos-tan-solo-cinco-minutos-y-busca-digitalizar-el-mercado-n6054856]. No encontré a nadie que lea pedidos de WhatsApp y mail con IA para el transportista.",
+  "competencia": "Avancargo vende su software de gestión, sin precio publicado. Yo Facturo hace remitos y facturas para transportistas, con widgets de IA para WhatsApp [https://yo-facturo.com/transportistas/]. TaxiCloud combina bot de WhatsApp con IA, pero para pasajeros, desde USD 99 por mes [https://www.capterra.com/p/10045454/TaxiCloud/]. Hueco: nadie toma el pedido desordenado que llega por chat y mail y lo convierte en ficha y cotización.",
+  "regulacion": "No aplica una norma argentina específica. Conectar WhatsApp de forma oficial depende de las reglas de Meta para su API de empresas: no verificado hoy.",
+  "numeros": "Estimación: abono de USD 30 a 80 por mes por empresa chica, comparado con los USD 99 de TaxiCloud. Estimación: el costo de IA por pedido leído es de centavos de dólar. El margen sería alto si no hace falta soporte a medida. Dato a favor de cobrar poco: en el Barómetro SIL 2026 la primera barrera para usar IA es el presupuesto, con 22,3% [https://ecosistemastartup.com/transporte-argentino-56-opera-con-cero-ia-y-pierde-margen/].",
+  "mercado": "En una encuesta a unas 300 empresas de transporte y logística, el 56,6% no usa IA y más de la mitad de los viajes se coordinan con planillas y WhatsApp [https://ecosistemastartup.com/transporte-argentino-56-opera-con-cero-ia-y-pierde-margen/]. Cantidad total de empresas de transporte en Argentina: sin dato.",
+  "variante_recomendada": "La de Facu, achicada: una bandeja donde el transportista reenvía pedidos de WhatsApp y mail, y la IA arma la planilla del día con la cotización sugerida. Sin integrar nada al principio, solo reenviar. Si engancha, se suma la conexión oficial con WhatsApp.",
+  "entrevistar_a": [
+   "Dueños de transportes chicos de granos que trabajan con CEMEVA o acopios vecinos.",
+   "Operadores de tráfico de transportes de carga general en zonas industriales, contactados por LinkedIn o la cámara local de transporte.",
+   "Fleteros de mudanzas y repartos que publican en Mercado Libre o Facebook."
+  ],
+  "preguntas_entrevista": [
+   "Ayer, ¿cuántos pedidos te llegaron y por qué canal?",
+   "¿Cómo pasaste esos pedidos a tu planilla o sistema, y cuánto tiempo te llevó?",
+   "¿Cuándo fue la última vez que se te pasó un pedido o cotizaste mal? ¿Qué pasó?",
+   "¿Quién hace hoy ese trabajo y cuánto le pagás?",
+   "¿Qué programa o servicio probaste para ordenar esto y por qué lo dejaste?"
+  ],
+  "experimento": {
+   "hipotesis": "Un transportista chico ahorra al menos una hora por día si recibe sus pedidos ordenados por la IA.",
+   "prediccion": "2 de 5 transportistas siguen reenviando pedidos la segunda semana sin que se lo recuerdes.",
+   "perdida_maxima": "USD 40",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Conseguir 5 transportistas por CEMEVA y conocidos.",
+    "Pedirles que reenvíen a un número o mail los pedidos de un día.",
+    "Devolver al día siguiente la planilla armada con Claude.",
+    "Medir si siguen reenviando y cuánto tiempo dicen ahorrar."
+   ],
+   "sigue_si": "Al menos 2 siguen usándolo en la semana 2 y 1 acepta pagar un abono.",
+   "se_corta_si": "Ninguno reenvía pedidos más de 3 días seguidos."
+  },
+  "puntuacion_revisada": 7.2,
+  "por_que_revisada": "El problema está confirmado por encuesta y no hay competidor directo. Baja desde 8,1 porque Facu no se entusiasma, el sector tiene poco presupuesto y Avancargo ya vende software de gestión.",
+  "veredicto": "Probar si Facu confirma que le interesa, porque es el problema mejor respaldado del lote pero sin ganas no se vende puerta a puerta.",
+  "fuentes": [
+   "https://www.forbesargentina.com/negocios/avancargo-transporte-carga-uberizado-n1522",
+   "https://www.forbesargentina.com/innovacion/resuelven-problema-endemico-aseguran-una-gestion-logistica-eficiente-asi-funciona-avancargo-n23904",
+   "https://www.descubre.vc/avancargo",
+   "https://www.elobservador.com.uy/nacio-dejar-atras-los-fletes-whatsapp-ofrece-mas-tres-presupuestos-tan-solo-cinco-minutos-y-busca-digitalizar-el-mercado-n6054856",
+   "https://yo-facturo.com/transportistas/",
+   "https://www.capterra.com/p/10045454/TaxiCloud/",
+   "https://ecosistemastartup.com/transporte-argentino-56-opera-con-cero-ia-y-pierde-margen/"
+  ]
+ },
+ {
+  "n": "M023",
+  "quien_lo_intento": "No encontré a nadie en Argentina. Busqué app de transporte escolar con seguimiento para padres. En Workana alguien pidió desarrollar una app de combis escolares, pero es un pedido de trabajo, no un producto [https://www.workana.com/es/job/aplicacion-movil-seguimiento-de-transporte-escolar]. Afuera existe Bus esCool en Colombia, que contrata el colegio y ofrece a los padres [https://www.eltiempo.com/bogota/app-para-los-papas-y-colegios-287158], y BSchool Padres en la App Store [https://apps.apple.com/us/app/id6448403343].",
+  "competencia": "Sin competencia argentina encontrada. El competidor real es gratis: el chofer comparte su ubicación por WhatsApp. Traceus dice estar en Latinoamérica según la primera pasada; no verificado que tenga clientes en Argentina.",
+  "regulacion": "En CABA el vehículo y el chofer deben cumplir la Ley 2.148 y el Decreto 1031/2008, con oblea de habilitación del Gobierno porteño [https://buenosaires.gob.ar/infraestructura/movilidad/transporte-escolar] [https://juristeca.jusbaires.gob.ar/compilacion-normativa-juristeca/ley-2148/tit-8/]. No encontré que exijan GPS: no verificado.",
+  "numeros": "Estimación: abono de USD 5 a 10 por mes por combi, porque el transportista es chico y su margen es bajo. Costo por combi casi nulo si usa el celular del chofer. Con 100 combis serían USD 500 a 1.000 por mes: poco para el esfuerzo de venta. Precio por chico por mes del transporte: sin dato.",
+  "mercado": "CABA tenía unas 1.500 unidades habilitadas antes de la pandemia, y en enero de 2021 no llegaban a 300 en servicio, según una nota del 2021-02-19 [https://www.iprofesional.com/negocios/333684-transporte-escolar-casi-no-hay-demanda-y-estallaron-los-costos]. Cantidad actual: sin dato.",
+  "variante_recomendada": "Que pague el colegio privado, como Bus esCool en Colombia, y no el transportista. El colegio lo ofrece como servicio a las familias y así un solo cliente trae varias combis. Sin hardware: el GPS es el celular del chofer, no el rastreador que anotó Facu, porque el rastreador sube el costo sin agregar valor.",
+  "entrevistar_a": [
+   "Choferes de combis escolares, en la puerta de colegios privados a la salida.",
+   "Secretarios o directivos de colegios privados chicos del conurbano.",
+   "Madres y padres de primaria que contratan combi, en grupos de padres por colegio."
+  ],
+  "preguntas_entrevista": [
+   "Ayer, ¿cuántos mensajes o llamadas de padres recibiste preguntando dónde estabas?",
+   "¿Cómo les avisás hoy cuando llegás o te demorás?",
+   "¿Qué pasó la última vez que un padre se enojó por una demora?",
+   "¿Pagás hoy por alguna app o servicio para la combi? ¿Cuánto?",
+   "Al colegio: ¿cuántas quejas por transporte recibieron este año y quién las atendió?"
+  ],
+  "experimento": {
+   "hipotesis": "Los padres valoran un aviso automático de llegada más que la ubicación por WhatsApp.",
+   "prediccion": "1 de 5 colegios privados contactados acepta una reunión para verlo.",
+   "perdida_maxima": "USD 20",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Hablar con 5 choferes y contar mensajes de padres por día.",
+    "Probar con 1 chofer un aviso automático armado con herramientas no-code.",
+    "Mostrar el resultado a 5 colegios privados."
+   ],
+   "sigue_si": "Un colegio o 3 choferes aceptan pagar una prueba.",
+   "se_corta_si": "Los choferes reciben menos de 5 consultas por día o ningún colegio responde."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "Baja desde 6,8: el mercado es chico, el ticket es bajo y WhatsApp lo resuelve gratis. Cambiar el cliente al colegio mejora la idea, pero no la hace grande.",
+  "veredicto": "No conviene como negocio principal, porque el ticket es bajo y el sustituto es gratis; solo vale como experimento de un fin de semana.",
+  "fuentes": [
+   "https://www.workana.com/es/job/aplicacion-movil-seguimiento-de-transporte-escolar",
+   "https://www.eltiempo.com/bogota/app-para-los-papas-y-colegios-287158",
+   "https://apps.apple.com/us/app/id6448403343",
+   "https://buenosaires.gob.ar/infraestructura/movilidad/transporte-escolar",
+   "https://juristeca.jusbaires.gob.ar/compilacion-normativa-juristeca/ley-2148/tit-8/",
+   "https://www.iprofesional.com/negocios/333684-transporte-escolar-casi-no-hay-demanda-y-estallaron-los-costos"
+  ]
+ },
+ {
+  "n": "M040",
+  "quien_lo_intento": "Avancargo es el antecedente clave. Arrancó como mercado de cargas y en 2022 el 90% de su demanda iba al servicio a pedido, donde la empresa hace la operación por el cliente [https://www.forbesargentina.com/innovacion/resuelven-problema-endemico-aseguran-una-gestion-logistica-eficiente-asi-funciona-avancargo-n23904]. Se planteó facturar US$ 20 millones en 2023 [https://www.forbesargentina.com/tags/diego-bertezzolo-t19460]. La lección: el cliente no quiere buscar camión en una app, quiere que alguien se lo resuelva. En Chile, FEX quiso ser el Uber de los fletes en 2020; estado actual no verificado [https://chocale.cl/2020/02/fex-aplicacion-fletes/]. Convoy cerró en EE.UU., según el contexto previo.",
+  "competencia": "Avancargo, las apps de granos, Fletalo para mudanzas [https://www.iprofesional.com/tecnologia/330315-fletalo-la-app-para-hacer-tu-mudanza-mas-simple] y grupos de WhatsApp. No encontré a nadie centrado en la vuelta de camiones frutihortícolas: no verificado que no exista.",
+  "regulacion": "Para cobrar como intermediario de cargas puede hacer falta inscripción en el registro nacional de transporte de cargas: no verificado hoy. Si no se toca la plata y se cobra una comisión por conectar, el riesgo legal baja.",
+  "numeros": "Estimación: comisión de 5% a 10% del flete, que es lo habitual en intermediación; no lo verifiqué en Argentina. Precio de un flete de Mendoza a Buenos Aires: sin dato. Costo por viaje: tu tiempo al teléfono. Sin capital de trabajo el margen es todo comisión, pero también es fácil que el camionero arregle directo la próxima vez.",
+  "mercado": "Al Mercado Central entraron unas 1.301.000 toneladas por año entre 2011 y 2015, según el INTI [https://app.inti.gob.ar/greenstone3/sites/localsite/collect/nuevadc/index/assoc/2018Muzl.dir/doc.pdf]. Una startup citada por Forbes dice que el 37% de los camiones viaja vacío, y el BID ubica la ocupación de la región entre 50% y 60% [https://www.forbesargentina.com/innovacion/resuelven-problema-endemico-aseguran-una-gestion-logistica-eficiente-asi-funciona-avancargo-n23904]. Dato específico de vuelta vacía frutihortícola: sin dato.",
+  "variante_recomendada": "La acordada: broker manual por WhatsApp en un solo corredor, sin poner capital. Lo de Avancargo indica que lo que se vende es resolver el viaje, no la app. Se combina bien con M001: la bandeja con IA es la herramienta interna del broker.",
+  "entrevistar_a": [
+   "Camioneros que descargan de madrugada en el Mercado Central.",
+   "Productores o empacadores de Mendoza, San Juan o Corrientes que mandan al Mercado Central.",
+   "Puesteros del Mercado Central que compran a productores del interior."
+  ],
+  "preguntas_entrevista": [
+   "El último viaje que hiciste al Mercado Central, ¿con qué volviste?",
+   "¿Cómo conseguiste la última carga de vuelta y cuánto tardaste?",
+   "¿Cuántos viajes de vuelta hiciste vacío el mes pasado?",
+   "¿Le pagaste comisión a alguien por una carga? ¿Cuánto?",
+   "¿En qué grupos o con qué contactos buscás carga hoy?"
+  ],
+  "experimento": {
+   "hipotesis": "En un corredor frutihortícola hay camiones que vuelven vacíos y cargas que no encuentran camión.",
+   "prediccion": "4 de 10 camioneros entrevistados volvieron vacíos al menos 2 veces el último mes.",
+   "perdida_maxima": "USD 60",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Ir dos madrugadas al Mercado Central y entrevistar a 10 camioneros.",
+    "Elegir el corredor que más se repite.",
+    "Armar un grupo de WhatsApp con camioneros y dadores de ese corredor.",
+    "Intentar cerrar 1 viaje de vuelta cobrando comisión."
+   ],
+   "sigue_si": "Se cierra al menos 1 viaje con comisión cobrada en 3 semanas.",
+   "se_corta_si": "Menos de 3 de 10 camioneros vuelven vacíos o nadie acepta pagar comisión."
+  },
+  "puntuacion_revisada": 6.0,
+  "por_que_revisada": "Baja un poco desde 6,5: la historia de Avancargo muestra que el negocio termina siendo operar viajes, con mucho trabajo humano. Sigue valiendo para aprender el rubro.",
+  "veredicto": "Probar si las entrevistas en el Mercado Central muestran vuelta vacía frecuente, porque aprender el rubro es barato y sirve para M001.",
+  "fuentes": [
+   "https://www.forbesargentina.com/innovacion/resuelven-problema-endemico-aseguran-una-gestion-logistica-eficiente-asi-funciona-avancargo-n23904",
+   "https://www.forbesargentina.com/tags/diego-bertezzolo-t19460",
+   "https://chocale.cl/2020/02/fex-aplicacion-fletes/",
+   "https://www.iprofesional.com/tecnologia/330315-fletalo-la-app-para-hacer-tu-mudanza-mas-simple",
+   "https://app.inti.gob.ar/greenstone3/sites/localsite/collect/nuevadc/index/assoc/2018Muzl.dir/doc.pdf"
+  ]
+ },
+ {
+  "n": "M003",
+  "quien_lo_intento": "No encontré cierres ni intentos fallidos en Argentina. Busqué app de stock de repuestos en casas cercanas. En Colombia hubo ARCAPP, un emprendimiento universitario con base de talleres y vendedores de repuestos que indica el más cercano y el más barato [https://repositorio.ucp.edu.co/entities/publication/2e5cbc46-4431-48c0-b955-707ec52e6eed]. Estado actual no verificado.",
+  "competencia": "Autominuto pide presupuestos a casas de repuestos y talleres; llegan por mail y se elige por precio o cercanía [https://autotest.com.ar/noticias/autominuto-com-la-solucion-para-resolver-todo-lo-que-necesitas-para-tu-auto/]. Inforepuestos es un directorio por marca y zona [https://www.16valvulas.com.ar/inforepuestos-para-una-busqueda-de-nuestros-repuestos/]. Ford muestra stock y precio, pero solo de su marca [https://noticias.autocosmos.com.ar/2025/05/11/ford-lanza-su-tienda-de-accesorios-y-repuestos-en-argentina]. Ninguno publica precios para comercios. Hueco: stock en vivo multimarca por cercanía, pensado para el taller.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: abono de USD 15 a 30 por mes a la casa de repuestos, o una comisión chica por pedido cerrado. Costo por pedido casi cero si corre por WhatsApp. El taller no paga. Con 50 casas pagando serían USD 750 a 1.500 por mes: estimación.",
+  "mercado": "El parque circulante era de 15.784.385 vehículos a fines de 2025, con edad promedio de 14,8 años, según AFAC. El AMBA concentra el 46,7% [https://eleconomista.com.ar/autos/en-argentina-hay-158-millones-vehiculos-su-edad-promedio-148-anos-n93924] [https://infonegocios.info/enfoque/la-flota-vehicular-argentina-casi-llega-a-los-16-000-000-de-unidades-y-10-1-esta-en-cordoba-solo-el-0-5-es-electrificado]. Un parque viejo usa más repuestos. Cantidad de talleres y casas de repuestos: sin dato.",
+  "variante_recomendada": "La de Facu sin integrar stock: el taller manda foto o código por WhatsApp y las casas de la zona contestan precio y disponibilidad. Empezar en una sola zona con 10 casas. Si funciona, el paso siguiente es leer el Excel de stock de las casas que más responden.",
+  "entrevistar_a": [
+   "Mecánicos de talleres chicos de barrio en una zona del AMBA o Córdoba.",
+   "Mostradores de casas de repuestos de la misma zona.",
+   "Repartidores en moto que llevan repuestos de casas a talleres."
+  ],
+  "preguntas_entrevista": [
+   "Ayer, ¿cuántos repuestos tuviste que salir a buscar y a cuántos lugares llamaste?",
+   "¿Cuánto tiempo tuviste un auto parado la última vez que no conseguías una pieza?",
+   "¿Cómo te enteraste de qué casa la tenía?",
+   "A la casa: ¿cuántas consultas por WhatsApp o teléfono recibís por día y cuántas terminan en venta?",
+   "¿Pagás hoy algún servicio para que te encuentren o te pidan? ¿Cuánto?"
+  ],
+  "experimento": {
+   "hipotesis": "Las casas de repuestos de una zona contestan un pedido de taller en menos de 30 minutos si les llega ordenado.",
+   "prediccion": "60% de los pedidos reciben al menos una respuesta con precio en menos de 30 minutos.",
+   "perdida_maxima": "USD 50",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Sumar 10 talleres y 10 casas de una zona.",
+    "Armar un grupo o un número de WhatsApp que reenvía cada pedido a las casas.",
+    "Medir tiempo de respuesta y pedidos resueltos.",
+    "Preguntar al final a las casas si pagarían por recibir pedidos."
+   ],
+   "sigue_si": "Se resuelven más de la mitad de los pedidos y 3 casas aceptan pagar.",
+   "se_corta_si": "Menos de 30% de los pedidos tiene respuesta en 30 minutos."
+  },
+  "puntuacion_revisada": 7.4,
+  "por_que_revisada": "Baja un poco desde 7,9: hay que juntar dos lados y el stock no se consigue fácil. Sigue alta porque el parque es viejo, el dolor es diario y nadie muestra stock en vivo.",
+  "veredicto": "Probar ya con el grupo de WhatsApp en una zona, porque se mide en dos semanas con casi nada de plata y está en el territorio de stock que Facu eligió.",
+  "fuentes": [
+   "https://repositorio.ucp.edu.co/entities/publication/2e5cbc46-4431-48c0-b955-707ec52e6eed",
+   "https://autotest.com.ar/noticias/autominuto-com-la-solucion-para-resolver-todo-lo-que-necesitas-para-tu-auto/",
+   "https://www.16valvulas.com.ar/inforepuestos-para-una-busqueda-de-nuestros-repuestos/",
+   "https://noticias.autocosmos.com.ar/2025/05/11/ford-lanza-su-tienda-de-accesorios-y-repuestos-en-argentina",
+   "https://eleconomista.com.ar/autos/en-argentina-hay-158-millones-vehiculos-su-edad-promedio-148-anos-n93924",
+   "https://infonegocios.info/enfoque/la-flota-vehicular-argentina-casi-llega-a-los-16-000-000-de-unidades-y-10-1-esta-en-cordoba-solo-el-0-5-es-electrificado"
+  ]
+ },
+ {
+  "n": "M011",
+  "quien_lo_intento": "Trocafone, creada por argentinos, hizo un canje con Movistar en 2016 y hoy está centrada en Brasil, según la primera pasada. Ferbi, de Mirgor, compra usados y los reacondiciona [https://www.forbesargentina.com/innovacion/compran-celulares-usados-darles-una-segunda-vida-como-sistema-precio-venden-dispositivos-n32954]. Clevercel vende celulares de segunda mano y dice que son un 4% del mercado local; la fecha del dato no es clara [https://eleconomista.com.ar/actualidad/celulares-reacondicionados-argentina-opcion-inteligente-ahorrar-estrenar-usado-premium-n80441]. No encontré cierres.",
+  "competencia": "Zelucash compra al instante con cotización online. Ferbi y Clevercel reacondicionan. Mercado Libre vende nuevos, usados y reacondicionados [https://www.iprofesional.com/tecnologia/435953-celulares-mercado-libre-guia-para-comprar-telefonos-nuevos-usados-o-reacondicionados]. La mayoría de los reacondicionados viene de canjes de marcas, operadoras y tiendas [https://grupoclarin-la-voz-prod.cdn.arcpublishing.com/servicios/celulares-tope-de-gama-a-mitad-de-precio-como-conseguirlos-con-garantia-y-en-12-cuotas]. Hueco: el local chico que toma usados en parte de pago no tiene con qué tasar. No encontré un servicio así: no verificado.",
+  "regulacion": "Desde 2018 las prestadoras bloquean el IMEI de los celulares denunciados, y cualquiera puede consultar el IMEI en ENACOM, según notas de 2018 [https://misionesonline.net/2018/08/28/desde-hoy-los-celulares-robados-seran-bloqueados-y-dejaran-de-funcionar-en-todo-el-pais-como-registrar-tu-telefono/]. No leí la resolución en el Boletín Oficial: no verificado. El proyecto 3896-D-2025 crearía un registro nacional de IMEI y obligaría a informar las ventas de usados; no sé si se aprobó [https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/3896-D-2025.pdf]. Si se aprueba, la herramienta de chequeo para comercios gana sentido.",
+  "numeros": "Estimación: abono de USD 20 a 40 por mes al local por la app de tasación y chequeo de IMEI. Estimación: cobro fijo de USD 5 a 10 por revisión en la variante entre particulares. Costo por operación bajo si el local hace la revisión física. El riesgo es un equipo robado que pase igual.",
+  "mercado": "La Nación estima unos 5,5 millones de celulares vendidos en 2025 por canales oficiales, más 2 a 3 millones en el mercado gris [https://www.lanacion.com.ar/tecnologia/rio-revuelto-asi-evoluciono-el-mercado-argentino-de-celulares-en-2025-nid04122025/]. En 2023 se vendieron cerca de 8,5 millones [https://www.forbesargentina.com/negocios/el-mercado-smartphones-termina-ano-baja-ventas-optimismo-2025-n63921]. Usados: dato de Clevercel de 4%, con fecha dudosa.",
+  "variante_recomendada": "La app de tasación para el local que toma usados en parte de pago: precio de reventa real, chequeo de IMEI en ENACOM y registro de quién vendió. Es mejor que el intermediario entre particulares que propone Facu, porque no toca la plata ni el equipo y baja el riesgo legal.",
+  "entrevistar_a": [
+   "Dueños de locales de celulares que toman usados, en galerías del centro de la ciudad.",
+   "Técnicos de servicio de celulares que compran equipos para repuestos.",
+   "Revendedores de usados en Mercado Libre y Marketplace de Facebook."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuántos usados tomaste el mes pasado y cómo decidiste cuánto ofrecer?",
+   "¿Cuándo fue la última vez que perdiste plata con un usado mal tasado? ¿Cuánto?",
+   "¿Te pasó tomar un equipo bloqueado o robado? ¿Qué hiciste?",
+   "¿Cómo chequeás hoy el IMEI y cuánto tiempo te lleva?",
+   "¿Pagás alguna herramienta o lista de precios para tasar?"
+  ],
+  "experimento": {
+   "hipotesis": "Los locales que toman usados pierden plata por tasar mal y pagarían por una tasación rápida.",
+   "prediccion": "4 de 10 locales dicen haber perdido más de USD 50 con un usado en los últimos 3 meses.",
+   "perdida_maxima": "USD 30",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Visitar 10 locales que toman usados.",
+    "Armar a mano una planilla de precios de reventa por modelo con datos de Mercado Libre.",
+    "Dejarla a 3 locales una semana y medir si la consultan."
+   ],
+   "sigue_si": "2 locales la usan más de 5 veces y aceptan pagar.",
+   "se_corta_si": "Menos de 3 de 10 locales reportan pérdidas por tasar mal."
+  },
+  "puntuacion_revisada": 6.2,
+  "por_que_revisada": "Baja desde 6,7: hay varios jugadores fuertes y el riesgo legal por equipos robados es serio. La variante para el local sigue siendo un hueco posible y barato de probar.",
+  "veredicto": "Probar si las visitas a locales muestran pérdidas reales por tasar mal, porque la versión entre particulares choca con Zelucash, Ferbi y el riesgo de IMEI.",
+  "fuentes": [
+   "https://www.forbesargentina.com/innovacion/compran-celulares-usados-darles-una-segunda-vida-como-sistema-precio-venden-dispositivos-n32954",
+   "https://eleconomista.com.ar/actualidad/celulares-reacondicionados-argentina-opcion-inteligente-ahorrar-estrenar-usado-premium-n80441",
+   "https://www.iprofesional.com/tecnologia/435953-celulares-mercado-libre-guia-para-comprar-telefonos-nuevos-usados-o-reacondicionados",
+   "https://grupoclarin-la-voz-prod.cdn.arcpublishing.com/servicios/celulares-tope-de-gama-a-mitad-de-precio-como-conseguirlos-con-garantia-y-en-12-cuotas",
+   "https://misionesonline.net/2018/08/28/desde-hoy-los-celulares-robados-seran-bloqueados-y-dejaran-de-funcionar-en-todo-el-pais-como-registrar-tu-telefono/",
+   "https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/3896-D-2025.pdf",
+   "https://www.lanacion.com.ar/tecnologia/rio-revuelto-asi-evoluciono-el-mercado-argentino-de-celulares-en-2025-nid04122025/",
+   "https://www.forbesargentina.com/negocios/el-mercado-smartphones-termina-ano-baja-ventas-optimismo-2025-n63921"
+  ]
+ },
+ {
+  "n": "M010",
+  "quien_lo_intento": "En el vertical agro ya está Agrofy, fundada en 2015 en Rosario. Es un mercado regional para el agro con maquinaria, insumos, servicios y repuestos agrícolas como categoría. Una fuente secundaria habla de una valuación cercana a US$ 104 millones, no verificado [https://www.descubre.vc/agrofy]. Esto cambia la primera pasada: el B2B vertical para agro no está vacío. Markley y Compre Ahora siguen como antecedentes generales.",
+  "competencia": "Mercado Libre Negocios en lo general. Agrofy en agro, con sucursales online de fábricas y concesionarios [https://news.agrofy.com.ar/noticia/155503/maquinaria-agricola-pisa-fuerte-agrofy-que-buscan-productores]. Comisiones de Agrofy: no verificado. Hueco posible: el comprador manda foto o audio y recibe tres cotizaciones, para repuestos de acopios y plantas de silos. No verificado que Agrofy no lo haga.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: comisión de 2% a 5% al proveedor que gana, que es lo usual en B2B. Ticket de un repuesto de planta de silos: sin dato. Costo por pedido: tiempo de conseguir tres cotizaciones, a mano al principio.",
+  "mercado": "Sin dato.",
+  "variante_recomendada": "No un mercado global, que es pelear con Mercado Libre y Agrofy. Un servicio de cotización para acopios: mandás foto o audio y en 24 horas tenés tres precios de proveedores. Es el mismo motor que M003 con otro cliente, así que conviene probarlos juntos.",
+  "entrevistar_a": [
+   "Encargados de compras o de mantenimiento de acopios vecinos a CEMEVA.",
+   "Vendedores de casas de repuestos industriales y rodamientos de la zona.",
+   "Transportistas de granos que compran repuestos de camión."
+  ],
+  "preguntas_entrevista": [
+   "La última vez que se rompió algo en la planta, ¿cómo conseguiste el repuesto y cuánto tardaste?",
+   "¿A cuántos proveedores llamaste y cómo comparaste precios?",
+   "¿Cuánto te costó la máquina parada mientras esperabas?",
+   "¿Compraste alguna vez por Agrofy o Mercado Libre? ¿Por qué sí o por qué no?",
+   "¿Quién hace hoy las compras y cuánto tiempo le lleva por semana?"
+  ],
+  "experimento": {
+   "hipotesis": "Un acopio ahorra plata o tiempo si recibe tres cotizaciones en 24 horas por cada pedido.",
+   "prediccion": "En 20 pedidos reales, al menos 8 tienen un precio 10% más bajo que el proveedor habitual.",
+   "perdida_maxima": "USD 40",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Juntar 20 pedidos de CEMEVA y dos acopios vecinos.",
+    "Pedir tres cotizaciones a mano por WhatsApp.",
+    "Comparar contra el precio y el plazo habitual."
+   ],
+   "sigue_si": "8 de 20 pedidos salen más baratos o más rápidos y un proveedor acepta pagar comisión.",
+   "se_corta_si": "Menos de 4 de 20 pedidos mejoran."
+  },
+  "puntuacion_revisada": 5.8,
+  "por_que_revisada": "Baja desde 6,7: el mercado general es de Mercado Libre y el vertical agro ya tiene a Agrofy. Solo queda la versión de cotización rápida, que se superpone con M003.",
+  "veredicto": "No conviene como mercado global; probar solo la cotización rápida para acopios junto con M003.",
+  "fuentes": [
+   "https://www.descubre.vc/agrofy",
+   "https://news.agrofy.com.ar/noticia/155503/maquinaria-agricola-pisa-fuerte-agrofy-que-buscan-productores"
+  ]
+ },
+ {
+  "n": "M036",
+  "quien_lo_intento": "Hubo varios intentos en Argentina. TeachApp gestionaba clases y pagos en 2017, sin confirmar que siga. Filadd en 2020 tenía 150 profesores y más de 10.000 alumnos universitarios [https://www.iproup.com/startups/11835-apoyo-universitario-asi-es-filadd-la-startup-argentina-de-educacion-que-ya-ayudo-a-10-000-alumnos-universitarios]. Apprendo conecta alumnos y profes en todo el país, nota sin fecha [https://defonline.com.ar/ciencia-tecnologia/apprendo-la-uberizacion-de-las-clases/]. TeachMe fue un proyecto de alumnos de la UTN Córdoba con reserva de clases [https://www.institucional.frc.utn.edu.ar/SISTEMAS/NOTICIAS/PF/PROYECTOS/DB3_ok_paper_5k3_g08_teachme.pdf]. No encontré notas de cierres.",
+  "competencia": "Superprof cobra al alumno un pase con renovación mensual. Hay reclamos por cobros que siguen después de dar de baja [https://tuquejasuma.com/superprof-argentina/reclamos/cuidado-el-cobro-del-pase-alumno-se-renueva-automaticamente-todos-los-meses]. Precio del pase y comisión: no verificado. Apprendo y Busca Tu Clase son otros jugadores [https://www.forbesargentina.com/negocios/como-donde-encontrar-profesores-particulares-argentina-n24248/amp]. Hueco: nadie ofrece agenda, cobro anticipado y pago liberado al puntuar.",
+  "regulacion": "Retener plata de terceros es custodia de fondos y está regulada; el contexto previo cita la Comunicación A 6859 del BCRA. No la releí hoy: no verificado. La salida práctica es que la retención la haga un procesador habilitado. Que Mercado Pago permita retener y liberar a pedido: no verificado.",
+  "numeros": "Estimación: comisión de 10% a 15% por clase. Precio de una clase particular hoy: sin dato verificado. Mercado Pago: la página oficial de costos dio error al abrirla, así que la tarifa no está verificada. Una guía sin respaldo oficial habla de 2,99% más IVA [https://www.guiadesoftware.com/blog/mejor-pasarela-pago-argentina]. Margen estimado: 7% a 12% de cada clase después del cobro.",
+  "mercado": "Sin dato.",
+  "variante_recomendada": "Empezar en modo un solo jugador: herramienta para el profe que ya tiene alumnos, con agenda, cobro anticipado y política de cancelación. Cobra abono al profe. El pago retenido de Facu es la mejor idea contra la fuga, pero conviene sumarlo cuando haya profes usando la agenda y un procesador que lo permita.",
+  "entrevistar_a": [
+   "Profes particulares de ingreso universitario y de secundaria, en grupos de Facebook de clases particulares.",
+   "Profes de idiomas que dan clases online, en Superprof o Instagram.",
+   "Madres y padres que pagaron clases de apoyo este año."
+  ],
+  "preguntas_entrevista": [
+   "El mes pasado, ¿cuántas clases te cancelaron a último momento y cuántas cobraste igual?",
+   "¿Cómo cobrás hoy y cuándo, antes o después de la clase?",
+   "¿Cuánto tiempo por semana te lleva coordinar horarios?",
+   "¿Pagaste alguna vez a una plataforma para conseguir alumnos? ¿Cuánto y qué pasó?",
+   "Con los alumnos que conociste por una plataforma, ¿seguiste por ahí o pasaste a WhatsApp?"
+  ],
+  "experimento": {
+   "hipotesis": "Los profes particulares pierden plata por cancelaciones y aceptan cobrar por adelantado si una herramienta lo hace por ellos.",
+   "prediccion": "5 de 10 profes entrevistados pierden 3 clases o más por mes por cancelaciones.",
+   "perdida_maxima": "USD 50",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Entrevistar a 10 profes.",
+    "Armar con no-code una página de reserva con cobro adelantado por Mercado Pago.",
+    "Dársela a 3 profes por dos semanas.",
+    "Contar reservas pagadas y cancelaciones."
+   ],
+   "sigue_si": "Al menos 2 profes la siguen usando y reciben 10 reservas pagadas.",
+   "se_corta_si": "Menos de 3 de 10 profes tienen problema de cancelaciones."
+  },
+  "puntuacion_revisada": 6.3,
+  "por_que_revisada": "Baja un poco desde 6,6: hubo varios intentos locales y Superprof está instalado. El pago retenido es un diferencial real pero depende de un procesador habilitado.",
+  "veredicto": "Probar si las entrevistas muestran que la cancelación duele, empezando por la herramienta para el profe y no por el mercado completo.",
+  "fuentes": [
+   "https://www.iproup.com/startups/11835-apoyo-universitario-asi-es-filadd-la-startup-argentina-de-educacion-que-ya-ayudo-a-10-000-alumnos-universitarios",
+   "https://defonline.com.ar/ciencia-tecnologia/apprendo-la-uberizacion-de-las-clases/",
+   "https://www.institucional.frc.utn.edu.ar/SISTEMAS/NOTICIAS/PF/PROYECTOS/DB3_ok_paper_5k3_g08_teachme.pdf",
+   "https://tuquejasuma.com/superprof-argentina/reclamos/cuidado-el-cobro-del-pase-alumno-se-renueva-automaticamente-todos-los-meses",
+   "https://www.forbesargentina.com/negocios/como-donde-encontrar-profesores-particulares-argentina-n24248/amp",
+   "https://www.guiadesoftware.com/blog/mejor-pasarela-pago-argentina"
+  ]
+ },
+ {
+  "n": "M057",
+  "quien_lo_intento": "No encontré una plataforma argentina de compra en grupo de paneles. Lo más cercano son las cooperativas eléctricas de Morteros y Las Varillas, según la verificación anterior. No las revisé hoy.",
+  "competencia": "Instaladores que venden casa por casa. Equipos en dólares y mano de obra en pesos [https://roomix.ai/blog/cuanto-cuesta-paneles-solares-2026]. Hueco: nadie junta vecinos ni arma la figura comunitaria nueva.",
+  "regulacion": "La Resolución 17/2026 del Ministerio de Infraestructura bonaerense aprueba el Reglamento de Generación Distribuida Comunitaria. Se publicó en el Boletín Oficial N.º 30159 el 2026-01-14. Exige que el usuario generador comunitario se dé de alta en el Registro de Usuarios-Generadores de Energía Renovable y modifica la Resolución 463/2023 [https://normas.gba.gob.ar/ar-b/resolucion/2026/17/560422]. Según un análisis jurídico, pide dos o más suministros de la misma distribuidora y más de 10 kW [https://abogados.com.ar/nuevo-reglamento-de-generacion-distribuida-en-la-provincia-de-buenos-aires-generacion-distribuida-comunitaria/38351]. El anexo con los requisitos completos no lo leí: no verificado.",
+  "numeros": "En Buenos Aires, la mano de obra de una instalación residencial ronda $1,2 a 3,5 millones en 2026, según un sitio de servicios, y el equipo va aparte [https://servidos.ar/blog/cuanto-cuesta-instalar-paneles-solares-fotovoltaicos-buenos-aires]. Estimación: comisión de 3% a 5% del lote al instalador ganador. Con 30 vecinos el lote es grande, pero cerrarlo puede llevar meses.",
+  "mercado": "Sin dato de cuántos usuarios generadores hay hoy en la provincia.",
+  "variante_recomendada": "Cambiar de cliente a PyMEs de un mismo parque industrial bonaerense: menos personas que decidir, más consumo y la figura comunitaria les sirve. El papeleo del alta comunitaria puede ser el primer producto, cobrado por expediente.",
+  "entrevistar_a": [
+   "Instaladores solares habilitados de la provincia, en sus redes o en cámaras de energía renovable.",
+   "Administradores de parques industriales del conurbano.",
+   "Vecinos de barrios cerrados que ya pusieron paneles, en grupos del barrio."
+  ],
+  "preguntas_entrevista": [
+   "Al instalador: ¿cuántos presupuestos diste el último mes y cuántos cerraste?",
+   "¿Cuánto te cuesta conseguir cada cliente?",
+   "¿Hiciste alguna instalación compartida entre varios usuarios? ¿Cómo fue el trámite?",
+   "Al vecino o PyME: ¿cuándo pediste presupuesto por última vez y por qué no avanzaste?",
+   "¿Cuánto pagaste de luz el último bimestre?"
+  ],
+  "experimento": {
+   "hipotesis": "Los instaladores pagan comisión por recibir lotes de clientes agrupados.",
+   "prediccion": "3 de 10 instaladores aceptan pagar comisión por un lote de 10 clientes.",
+   "perdida_maxima": "USD 60",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Leer el anexo completo de la Resolución 17/2026.",
+    "Hablar con 10 instaladores.",
+    "Publicar una página de anotación en un parque industrial o un barrio.",
+    "Contar inscriptos con factura de luz cargada."
+   ],
+   "sigue_si": "Se anotan 15 interesados con factura y 3 instaladores aceptan comisión.",
+   "se_corta_si": "Menos de 5 inscriptos con factura en 3 semanas."
+  },
+  "puntuacion_revisada": 5.8,
+  "por_que_revisada": "Baja un poco desde 6,2: la norma está confirmada, pero el ticket es alto, falta financiación y el ciclo de venta es largo para la etapa 1.",
+  "veredicto": "Probar si los instaladores aceptan pagar comisión, pero es mejor guardarla para después porque el ciclo de venta es largo.",
+  "fuentes": [
+   "https://normas.gba.gob.ar/ar-b/resolucion/2026/17/560422",
+   "https://abogados.com.ar/nuevo-reglamento-de-generacion-distribuida-en-la-provincia-de-buenos-aires-generacion-distribuida-comunitaria/38351",
+   "https://roomix.ai/blog/cuanto-cuesta-paneles-solares-2026",
+   "https://servidos.ar/blog/cuanto-cuesta-instalar-paneles-solares-fotovoltaicos-buenos-aires"
+  ]
+ },
+ {
+  "n": "M031",
+  "quien_lo_intento": "No encontré a nadie en Argentina que venda cajas impresas online en pocas unidades. Busqué packaging sin mínimo y tirada corta. Mail Boxes Etc. ofrece packaging personalizado y diseño en Buenos Aires, sin datos de mínimos [https://infonegocios.info/y-ademas/mail-boxes-etc-desembarca-en-argentina-con-una-inversion-us-6-millones-y-apunta-a-pymes-que-exportan].",
+  "competencia": "Gráficas locales con troquel y digital, sin mínimos ni precios publicados. Vistaprint vende desde 1 unidad afuera; envío a Argentina no verificado. Hueco probable en tiradas de 50 a 300 cajas: no verificado.",
+  "regulacion": "No aplica.",
+  "numeros": "La impresión digital en tiradas cortas tiene mayor costo por unidad [https://www.gelato.com/es/connect/blog/impresion-digital-tirada-corta]. Precios argentinos por caja: sin dato. Estimación: margen de 20% a 30% como revendedor de la gráfica, con riesgo de reclamos por calidad.",
+  "mercado": "Sin dato.",
+  "variante_recomendada": "Si se prueba, la compra agrupada: juntar pedidos chicos de varias marcas de Tiendanube en una tirada grande. Pero no es software ni producto global, y choca con lo que busca Facu.",
+  "entrevistar_a": [
+   "Dueñas de marcas chicas de cosmética o indumentaria en Tiendanube.",
+   "Gráficas de packaging del AMBA o Rosario."
+  ],
+  "preguntas_entrevista": [
+   "¿En qué mandás hoy tus productos y cuánto te cuesta cada envase?",
+   "¿Pediste alguna vez cajas con tu marca? ¿Qué pasó con el mínimo?",
+   "¿Cuántas unidades vendiste el mes pasado?",
+   "A la gráfica: ¿cuántos pedidos chicos rechazaste el último mes?",
+   "¿Cuánto cobrás por 100 cajas y por 1.000?"
+  ],
+  "experimento": {
+   "hipotesis": "Hay marcas chicas que pagan más por caja con tal de pedir pocas unidades.",
+   "prediccion": "3 de 10 marcas aceptan pagar un precio por caja al menos 50% más alto que el de 1.000 unidades.",
+   "perdida_maxima": "USD 20",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Pedir presupuesto a 3 gráficas por 50, 200 y 1.000 cajas.",
+    "Mostrar los precios a 10 marcas."
+   ],
+   "sigue_si": "3 marcas dejan seña.",
+   "se_corta_si": "Ninguna marca acepta el precio de tirada chica."
+  },
+  "puntuacion_revisada": 4.8,
+  "por_que_revisada": "Baja desde 6,2: es reventa de imprenta, no producto global, y no hay datos de demanda ni de precios. No usa ninguna ventaja de Facu.",
+  "veredicto": "No conviene ahora, porque es un negocio de imprenta que no encaja con lo que Facu quiere construir.",
+  "fuentes": [
+   "https://infonegocios.info/y-ademas/mail-boxes-etc-desembarca-en-argentina-con-una-inversion-us-6-millones-y-apunta-a-pymes-que-exportan",
+   "https://www.gelato.com/es/connect/blog/impresion-digital-tirada-corta"
+  ]
+ }
+]

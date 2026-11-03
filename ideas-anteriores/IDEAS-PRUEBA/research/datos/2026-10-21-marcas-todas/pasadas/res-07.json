@@ -1,0 +1,202 @@
+[
+ {
+  "n": "M015",
+  "opinion": "Entendí que Facu quiere una app o página donde sacás una foto a la fruta y una IA te dice qué tan buena está. La idea técnica es real y ya la hacen otros, así que no es un invento raro. El problema es quién paga: el consumidor o el verdulero no pagan por esto, el que paga es el empacador o el exportador que discute calidad con el comprador. Para servir ahí hay que entrenar con miles de fotos de una sola fruta y de un solo defecto, y eso es trabajo de meses. Me parece buena como territorio, floja como primer negocio.",
+  "hallazgos": "Baufest, empresa argentina de software, desarrolló visión por computadora para medir el porcentaje de daño en fruta, la maduración y su causa, entrenada con cientos de fotos; apunta a embarques y seguros [https://mercado.com.ar/tecnologia/baufest-utiliza-ia-para-detectar-danos-en-frutas, consultado 2026-10-23]. DiMuto con Intel ofrece control de calidad de fruta con IA en la zona de empaque, que funciona sin internet [https://www.portalfruticola.com/noticias/2025/09/30/dimuto-e-intel/, consultado 2026-10-23]. Hectre presenta Arc en Fruit Attraction 2026: mide calibre, color y defectos en la recepción de fruta [https://www.ifema.es/fruit-attraction/noticias-expositor/hectre-presentara-arc, consultado 2026-10-23]. No encontré una startup argentina que lo venda como producto para empacadores: no verificado que no exista.",
+  "variantes": [
+   "Lo que pidió Facu: app con foto y puntaje de calidad, pero enfocada en una sola fruta y un solo cliente, por ejemplo pera y manzana para empaques del Alto Valle, que reciben la fruta del productor.",
+   "Informe de reclamo: el exportador saca fotos al llegar el contenedor y la app arma un informe con porcentaje de daño para pelear el reclamo con el comprador o el seguro.",
+   "Modo agro de CEMEVA: misma lógica pero con granos, foto de una muestra para estimar daño o cuerpos extraños en la recepción del acopio."
+  ],
+  "puntuacion": 6.3,
+  "por_que_puntuacion": "Ya hay jugadores serios afuera y uno argentino grande como Baufest, y entrenar el modelo exige muchas fotos etiquetadas. Bajé el puntaje previo porque el hueco local es más chico de lo que parecía.",
+  "tema": "Agro e industria",
+  "tipo": "Producto web o app",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 200, estimación: viajes y una herramienta de entrenamiento de imágenes sin código.",
+  "primer_paso": "Hablar con 5 empacadores o exportadores de fruta y preguntar cuánta plata perdieron en el último año por reclamos de calidad.",
+  "riesgo_principal": "Que el modelo no llegue a la precisión que exige un comprador y nadie confíe en el puntaje.",
+  "agrupar_con": ["M044", "M018"]
+ },
+ {
+  "n": "M017",
+  "opinion": "Entendí que Facu no quiere la gestión de la academia, sino un control de acceso para gimnasios: tarjeta RFID más un sensor de paso, y si el sensor detecta a alguien que no pasó tarjeta, se sabe que se coló. Eso ya existe en control de acceso profesional y se llama antipassback o detección de doble paso, aunque no lo pude confirmar con una fuente hoy. Los gimnasios argentinos ya usan molinetes con huella, tarjeta o QR, así que la tarjeta en sí no es novedad. Lo que puede tener valor es el sensor que cuenta personas y lo compara con los accesos, como un auditor de colados. Ojo: la gestión de socios y cuotas de gimnasios ya fue no elegida por Facu antes.",
+  "hallazgos": "Un proveedor argentino explica que un gimnasio necesita lector biométrico o de tarjeta en la entrada y un relé que destraba el molinete según el plan del socio [https://yo-facturo.com/blog/hardware-para-gimnasio-control-de-acceso-y-cobros/, consultado 2026-10-23]. Hay quejas de socios por tener que usar el celular con QR para pasar el molinete [https://tuquejasuma.com/fiter/reclamos/me-obligan-usar-mi-tel-y-bajar-una-app-para-poder-acceder-al-gimnasio, consultado 2026-10-23]. No encontré fuentes sobre antipassback en gimnasios argentinos: no verificado.",
+  "variantes": [
+   "Lo que pidió Facu: tarjeta o sticker RFID más sensor de paso en la puerta. El sistema avisa cuando pasa una persona sin lectura.",
+   "Sin hardware nuevo: una cámara cuenta personas en la entrada y el software compara contra los ingresos del molinete que el gimnasio ya tiene. Se cobra mensual por sede.",
+   "Otro cliente: canchas de pádel o fútbol 5, para contar cuánta gente usó la cancha contra lo cobrado en caja."
+  ],
+  "puntuacion": 5.4,
+  "por_que_puntuacion": "Control de acceso en gimnasios está resuelto y el colado es un problema chico para la mayoría. Lo único con hueco es el auditor de colados, y no hay evidencia de que alguien pague por eso.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Hardware más software",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 100, estimación: solo entrevistas y algún sensor barato para demo.",
+  "primer_paso": "Preguntar a 5 dueños de gimnasio si saben cuánta gente entra sin pagar y si eso les importa.",
+  "riesgo_principal": "Que el dueño no vea el colado como un problema que valga una cuota mensual.",
+  "agrupar_con": ["M042", "M045", "DEP-3-5"]
+ },
+ {
+  "n": "M018",
+  "opinion": "Facu marcó la idea sin comentario. Es software que mira las cámaras que el local ya tiene y avisa cuando alguien esconde mercadería. La idea es buena, pero hoy encontré que Veesion ya está en Argentina, dice estar en decenas de tiendas y hacer pilotos con dos cadenas grandes. Eso achica el hueco: competir de frente con una empresa francesa con producto hecho es muy difícil para alguien que no programa. El lugar posible es el autoservicio chico de barrio, que quizás Veesion no atiende.",
+  "hallazgos": "Forbes Argentina describe a Veesion: detecta gestos sospechosos y manda la alerta en video al celular del dueño; dice no reconocer caras y que debe adecuarse a la ley argentina [https://www.forbesargentina.com/innovacion/desarrollan-software-detecta-gestos-sospechosos-hurto-supermercados-n33239, consultado 2026-10-23]. En una entrevista Veesion dijo estar en decenas de tiendas en Argentina y con pilotos en dos grandes cadenas; la fecha de la nota no es clara [https://www.iprofesional.com/tecnologia/380616-inteligencia-artificial-para-detectar-robos-en-tiempo-real, consultado 2026-10-23]. Un directivo de Veesion estima el robo en cerca del 1% de la facturación de un supermercado; es una cifra de parte interesada [https://www.telemundo51.com/responde/ponemos-a-prueba-inteligencia-artificial-utilizada-para-prevenir-robos-en-los-comercios/2473387/, consultado 2026-10-23].",
+  "variantes": [
+   "Lo marcado: alerta de robo hormiga sobre las cámaras existentes, pero solo para autoservicios chinos o de barrio con 1 a 4 cámaras, con precio bajo.",
+   "Revendedor: en vez de construir, ser el distribuidor o instalador de Veesion u otro proveedor en una zona del interior, cobrando instalación y comisión.",
+   "Otro problema con las mismas cámaras: medir faltantes en la caja, por ejemplo ventas sin ticket o cajones abiertos, para el dueño que no está en el local."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "La demanda existe, pero ya hay un competidor con producto armado operando en Argentina. Construir visión por computadora sin programar es muy difícil.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 a 50, estimación: entrevistas y un contacto con Veesion para ver si busca socios.",
+  "primer_paso": "Visitar 10 autoservicios de barrio y preguntar cuánto creen que pierden por mes en robos y si ya les ofrecieron algo.",
+  "riesgo_principal": "Que Veesion o un jugador grande baje a los locales chicos antes y con mejor producto.",
+  "agrupar_con": ["M044", "M042"]
+ },
+ {
+  "n": "M023",
+  "opinion": "Facu anotó rastreadores, entiendo que piensa en un dispositivo GPS en la combi. Yo creo que el celular del chofer alcanza y evita comprar hardware. El problema existe: los padres llaman al chofer para saber dónde está. Pero el cliente es un transportista chico que cobra poco y tiene margen chico, así que el ticket es bajo. Hay apps de afuera como Traceus que dicen estar en Argentina, y no encontré una app argentina con fuerza.",
+  "hallazgos": "Traceus figura como app de rutas escolares con presencia en España y Latinoamérica, incluida Argentina, con mapa en tiempo real y avisos a padres [https://www.educaciontrespuntocero.com/noticias/gestion-rutas-escolares-seguridad-para-familias-y-colegios/, consultado 2026-10-23]. Alsa Colegios en España avisa a los padres cuando faltan 5 minutos [https://apps.apple.com/us/app/-/id1519955384, consultado 2026-10-23]. No encontré una app argentina específica para combis escolares: no verificado que no exista.",
+  "variantes": [
+   "Lo que pidió Facu: rastreador GPS barato en la combi más app para padres, vendido como kit al transportista.",
+   "Sin hardware: app para el celular del chofer con lista de chicos que suben y bajan, aviso automático a cada familia y cobro de la cuota mensual por la misma app.",
+   "Otro cliente: el colegio privado contrata la app para todas las combis que llevan a sus alumnos y lo ofrece como servicio a las familias."
+  ],
+  "puntuacion": 6.2,
+  "por_que_puntuacion": "Es simple de construir sin hardware y el problema es claro. El techo es chico porque el transportista paga poco y ya hay alguna app extranjera.",
+  "tema": "Logística y reparto",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 100, estimación: una app sin código y un mes de prueba con un transportista.",
+  "primer_paso": "Conseguir 3 transportistas escolares de la zona y preguntarles cuántas llamadas de padres reciben por día y si pagarían para cortarlas.",
+  "riesgo_principal": "Que los transportistas no paguen y los padres se acostumbren a WhatsApp con ubicación compartida, que es gratis.",
+  "agrupar_con": ["M039", "TUR-5-5"]
+ },
+ {
+  "n": "M039",
+  "opinion": "Facu quiere una etiqueta RFID en la ropa o en la credencial y un lector en cada puerta para saber quién entró, quién falta y si alguien se escapó, sobre todo en jardines. Después dijo en el chat que no lo ve en colegios e instituciones y que decide más adelante. Sigue siendo lo más original de sus notas: no encontré nada así en jardines argentinos. Pero tiene tres problemas serios: para leer al pasar por la puerta hacen falta etiquetas de lectura a distancia que son más caras; son datos de menores; y si falla y un chico se pierde, la responsabilidad es enorme. Lo dejaría para más adelante.",
+  "hallazgos": "No encontré implementaciones de RFID para chicos en jardines argentinos: no verificado que no existan. El caso local más cercano sigue siendo EFESUR con pulseras RFID en viajes de egresados a Bariloche [https://www.itsitio.com/?p=14554, consultado 2026-10-23]. Una tesis de Ecuador describe un sistema RFID para asistencia de chicos que nació porque alumnos de inicial salieron sin supervisión [https://www.istct.edu.ec/gia_nuevo/titulacion/1723088108/1723088108_informeTutor.pdf, consultado 2026-10-23]. Afuera hay casos de RFID para ver si el chico subió al micro correcto [https://www.rfidjournal.com/?p=77133, consultado 2026-10-23].",
+  "variantes": [
+   "Lo que pidió Facu: etiqueta en la ropa o credencial y lector en cada puerta del aula, con alerta si falta alguien. Primero en un solo jardín como piloto.",
+   "Sin hardware fijo: lista de presencia por celular de la maestra con foto, y control de quién retira al chico con QR del adulto autorizado.",
+   "Otro cliente y otro lugar: colonias de verano y piletas de clubes, donde se pierden chicos con más frecuencia y hay más rotación."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "Es original y sin competencia visible en Argentina. Pero exige hardware instalado, datos de menores y un riesgo de responsabilidad que no conviene para empezar.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Hardware más software",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 a 50, estimación: solo entrevistas antes de comprar lectores.",
+  "primer_paso": "Entrevistar a 5 directoras de jardín o coordinadores de colonia y preguntar qué pasó la última vez que no encontraron a un chico.",
+  "riesgo_principal": "Que falle una lectura, se pierda un chico y la culpa recaiga sobre el sistema.",
+  "agrupar_con": ["M023", "M045", "M050"]
+ },
+ {
+  "n": "M042",
+  "opinion": "Facu dice que no le interesa para ferias, sino para medir con cámara la entrada a locales, la retención y cosas así. Eso cambia la idea: pasa a ser analítica de clientes con cámara para comercios. Ese mercado ya existe en Argentina: FootfallCam tiene socios en varias ciudades, Hasar lo vendía en 2019, y Sumato ID hace analítica con cámaras. Hay también software de uso general que ya cuenta personas sobre cámaras comunes. El hueco no es la tecnología, es una versión simple y barata para el comercio chico que le diga qué hacer con el dato.",
+  "hallazgos": "FootfallCam tiene socios en Buenos Aires, Córdoba, Rosario, Mendoza y Tucumán, y cita como cliente a la marca Cheeky [https://www.footfallcam.com/Home/WhereToBuy/Argentina, consultado 2026-10-23]. En 2019 Hasar instalaba una cámara en la puerta con software web para cruzar visitas con tickets [https://www.baenegocios.com/negocios/Por-caida-de-ventas-las-marcas-suman-tecnologia-para-conocer-a-sus-clientes-20190922-0021.html, consultado 2026-10-23]. Agent DVR, de iSpy, cuenta personas y mide permanencia por zona sobre cámaras IP comunes, con suscripción [https://www.ispyconnect.com/es/analytics, consultado 2026-10-23]. Practia, empresa argentina, hizo un sistema de circulación de personas sin identificar [https://www.itsitio.com/?p=125604, consultado 2026-10-23].",
+  "variantes": [
+   "Lo que pidió Facu: conteo de entradas y tiempo de permanencia con la cámara que el local ya tiene, con un informe semanal escrito por IA que dice qué cambiar.",
+   "Producto de un solo jugador: un kit armado con software existente, tipo Agent DVR, instalado y explicado por Facu a cadenas chicas de 3 a 10 locales.",
+   "Otro cliente: dueños de locales en alquiler o shoppings chicos que quieren mostrar el tránsito para justificar el precio del alquiler."
+  ],
+  "puntuacion": 5.6,
+  "por_que_puntuacion": "Con el giro de Facu la idea entra en un mercado que ya tiene varios proveedores en Argentina. Queda solo el hueco de la simpleza para el comercio chico.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Datos o información",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 150, estimación: una suscripción de software de conteo y una cámara IP para demo.",
+  "primer_paso": "Instalar un software de conteo existente sobre una cámara en un local conocido durante dos semanas y ver si el dueño usa el informe.",
+  "riesgo_principal": "Que el comerciante mire el dato una vez y no pague porque no sabe qué hacer con él.",
+  "agrupar_con": ["M018", "M044", "M017"]
+ },
+ {
+  "n": "M044",
+  "opinion": "Es la idea madre del territorio cámaras: traer a Argentina cámaras de seguridad con IA. Tal como está es muy amplia y no es un negocio, es un rubro. Hoy confirmé que el jugador más fuerte en robo con IA, Veesion, ya opera acá, y que el conteo de personas ya tiene proveedores. Recomiendo no investigarla sola, sino a través de un problema concreto como M018 o M042.",
+  "hallazgos": "Veesion opera en Argentina con decenas de tiendas y pilotos en dos cadenas grandes, según entrevista sin fecha clara [https://www.iprofesional.com/tecnologia/380616-inteligencia-artificial-para-detectar-robos-en-tiempo-real, consultado 2026-10-23]. FootfallCam tiene socios en cinco ciudades argentinas [https://www.footfallcam.com/Home/WhereToBuy/Argentina, consultado 2026-10-23].",
+  "variantes": [
+   "Lo marcado: integrador de cámaras con IA, vendiendo e instalando productos de afuera en el interior del país.",
+   "Un solo problema: elegir un caso puntual, robo en autoservicio o conteo de clientes, y hacer solo eso.",
+   "Otro sector: cámaras con IA en campos y silos, para detectar intrusos o robo de ganado y granos, aprovechando los clientes de CEMEVA."
+  ],
+  "puntuacion": 5.5,
+  "por_que_puntuacion": "Es un rubro, no un negocio, y ya hay jugadores en Argentina. Sirve como paraguas de M018 y M042.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Hardware más software",
+  "etapa": "Combinar con otra",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0, estimación: se prueba a través de M018 o M042.",
+  "primer_paso": "Elegir entre robo en autoservicio y conteo de clientes y probar solo ese caso.",
+  "riesgo_principal": "Dispersarse en un rubro enorme sin un cliente ni un problema claros.",
+  "agrupar_con": ["M018", "M042", "M015"]
+ },
+ {
+  "n": "M045",
+  "opinion": "Facu tiene dos ideas acá. La primera, fichar con tarjeta RFID, ya es muy común en empresas y él mismo dijo que si está muy usada se descarta. La segunda, que le gusta, es que una IA tome el certificado médico y lo compare contra una base de certificados y de médicos. Hoy encontré algo que cambia mucho esto: el Decreto 407/2026 lleva los certificados médicos laborales a formato digital con firma digital en plataformas autorizadas. Eso es una oportunidad porque crea una necesidad nueva, pero también un riesgo, porque la propia firma digital ya valida el certificado y la plataforma oficial puede dejar sin lugar a la IA.",
+  "hallazgos": "El Decreto 407/2026 reglamenta el artículo 210 de la Ley de Contrato de Trabajo y busca que los certificados médicos laborales sean digitales y trazables [https://www.iprofesional.com/management/457940-certificado-medico-digital-obligatorio-cambia-justificacion-faltas-laborales, consultado 2026-10-23]. Los certificados deben estar firmados digitalmente en plataformas autorizadas por la Ley 27.553 y el papel queda como excepción; el dato sale de un análisis legal entre estos resultados y no confirmé cuál de las dos notas lo dice [https://www.ambito.com/que-cambia-el-dia-dia-del-control-medico-patronal-n6328149 o https://calcularsueldo.com.ar/?p=14920, consultado 2026-10-23]. En Santa Fe el Colegio de Médicos lanzó una plataforma donde solo médicos registrados emiten certificados [https://www.ellitoral.com/salud/adios-papel-santa-fe-lanza-certificado-medico-digital-terminar-falsificaciones-agilizar-tramites_0_ZcNcA4Pv9f.html, consultado 2026-10-23]. Los certificados digitales ya son foco de conflicto entre empleados y empleadores [https://www.lacapitalmdp.com/certificados-medicos-digitales-el-nuevo-foco-de-conflicto-entre-trabajadores-y-empleadores/, consultado 2026-10-23]. No verifiqué si existe una base pública para consultar certificados ni qué empresas privadas ofrecen validación.",
+  "variantes": [
+   "Lo que pidió Facu: el área de RRHH sube el certificado, la IA lee los datos, verifica la firma digital y la matrícula del médico y lo carga solo en la planilla de ausencias.",
+   "Por el decreto nuevo: herramienta para PyMEs que reciben certificados por WhatsApp o mail y no saben cómo cumplir el decreto; arma el legajo y alerta patrones raros, como el mismo médico o los lunes.",
+   "Otro cliente: estudios contables que liquidan sueldos de muchas PyMEs y necesitan ordenar los certificados de todos sus clientes."
+  ],
+  "puntuacion": 6.4,
+  "por_que_puntuacion": "El decreto 2026 crea un momento nuevo y la parte de IA es construible sin hardware. Pero la firma digital oficial puede resolver la validación sola, y eso le quita valor.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 100, estimación: entrevistas y un prototipo sin código con Claude.",
+  "primer_paso": "Leer el texto del Decreto 407/2026 y preguntar a 5 responsables de RRHH o estudios contables cómo reciben hoy los certificados y qué les complica.",
+  "riesgo_principal": "Que las plataformas oficiales de firma digital ya validen todo y no quede problema para resolver.",
+  "agrupar_con": ["M017", "M039"]
+ },
+ {
+  "n": "M050",
+  "opinion": "Facu lleva la idea a otro lado: no un botón antipánico para empleados, sino un dispositivo o app que salve vidas, que detecte un ataque al corazón o una situación de peligro y avise a alguien. Esa versión es mucho más grande y mucho más difícil. Detectar un ataque cardíaco es un dispositivo médico y necesita aprobación de ANMAT, y los relojes grandes ya detectan caídas. En Argentina vi pulseras con botón SOS simples, pero no una con detección de caídas y app hecha acá. Me parece una buena idea para etapa 2, no para empezar con USD 1.300.",
+  "hallazgos": "EXO, marca argentina, lanzó una pulsera fit con botón SOS y app, sin mención de detección de caídas [https://infonegocios.info/infotecnologia/una-pulsera-fit-con-boton-antipanico-de-la-mano-de-exo, consultado 2026-10-23]. Frávega vende una pulsera SOS WiFi para adultos mayores con alcance de unos 10 metros [https://www.fravega.com/p/boton-de-panico-y-ayuda-gadnic-safe-ancianos-mayores-apto-ducha-modulo-pulsera-990282167/, consultado 2026-10-23]. Hay un prototipo argentino de pulsera anti secuestro que manda ubicación a contactos [https://culturageek.com.ar/argentino-creo-una-pulsera-anti-secuestro/, consultado 2026-10-23]. Un proyecto de ley de 2022 propuso prohibir apps de botón antipánico fuera de un sistema oficial en violencia de género; no verifiqué si se aprobó [https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2022/PDF2022/TP2022/4044-D-2022.pdf, consultado 2026-10-23]. Que detectar un ataque cardíaco requiera aprobación de ANMAT es una estimación mía, no verificada hoy.",
+  "variantes": [
+   "Lo que pidió Facu: pulsera o codera que detecta caídas o falta de movimiento y avisa con ubicación a un familiar, para adultos mayores que viven solos. Sin prometer detectar infartos.",
+   "Sin hardware propio: servicio que usa relojes que ya existen con detección de caídas y suma una central de respuesta o un aviso escalonado a vecinos y familia, cobrado por mes.",
+   "Idea original para empresas: botón silencioso para empleados de hoteles y clínicas que trabajan solos, con ubicación dentro del edificio."
+  ],
+  "puntuacion": 5.7,
+  "por_que_puntuacion": "El impulso de Facu apunta a algo valioso y con poco jugador local. Pero la versión médica es regulada y cara, y la versión simple ya existe en pulseras baratas.",
+  "tema": "Salud y cuidado",
+  "tipo": "Hardware más software",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 200, estimación: comprar 2 o 3 pulseras o relojes que ya existen y probarlas con familias.",
+  "primer_paso": "Hablar con 10 hijos de adultos mayores que viven solos y preguntar qué usan hoy y qué pasó la última vez que hubo una caída.",
+  "riesgo_principal": "Que el sistema falle en una emergencia real, con riesgo legal y de reputación, o que el ángulo médico exija aprobación de ANMAT.",
+  "agrupar_con": ["M039"]
+ },
+ {
+  "n": "M063",
+  "opinion": "Facu la marcó como interesante. Es un paquete por cabeza por mes: collar de cerco virtual, pesaje al paso, agua monitoreada y plan de pastoreo con IA. Es la idea de este lote que mejor usa su ventaja, porque conoce el agro por CEMEVA y tiene contactos con productores. Pero hay competencia: Bastó en Córdoba hace collares desde 2019 y Halter quiere entrar al país. Hoy no pude encontrar los precios de Bastó. Lo más sensato es empezar como integrador de un fabricante, no fabricar.",
+  "hallazgos": "Bastó nació en agosto de 2019 en Río Cuarto y hace collares con cerco virtual conectados a una estación base [https://bichosdecampo.com/el-caso-basto-vacas-con-collares-que-reemplazan-el-alambrado-y-permiten-realizar-un-pastoreo-de-precision, consultado 2026-10-23]. Un registro de inversiones le atribuye USD 70.000 de financiamiento total, con la última ronda en julio de 2024 [https://www.vcbacked.co/company/bast, consultado 2026-10-23]. En España la Diputación de Guadalajara abrió en agosto de 2026 subsidios para comprar collares de vallado virtual [https://boletin.dguadalajara.es/boletin/pdf/pdf2026_2241.pdf, consultado 2026-10-23]. Precio por cabeza de Bastó: no verificado.",
+  "variantes": [
+   "Lo marcado: paquete por cabeza por mes con collares, pesaje, agua y plan de pastoreo, operado por Facu como integrador de Bastó o Halter en la zona de CEMEVA.",
+   "Sacar el collar: empezar solo con agua monitoreada y pesaje al paso, que son más baratos, y sumar el collar después.",
+   "Otro cobro: Facu no instala nada y vende un plan de pastoreo con IA por WhatsApp a ganaderos que ya tienen collares o balanzas."
+  ],
+  "puntuacion": 6.3,
+  "por_que_puntuacion": "Usa la ventaja agro de Facu y el modelo por cabeza es atractivo. Pero el hardware es caro para su capital y ya hay un competidor local y uno global llegando.",
+  "tema": "Agro e industria",
+  "tipo": "Hardware más software",
+  "etapa": "Probar barato",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 150, estimación: viajes a campos y llamadas, sin comprar collares.",
+  "primer_paso": "Hacer 10 entrevistas a ganaderos de la zona de CEMEVA y escribirle a Bastó para preguntar precio y si busca instaladores.",
+  "riesgo_principal": "Que el ganadero no pague por mes y que el fabricante no quiera un intermediario.",
+  "agrupar_con": ["M015"]
+ }
+]

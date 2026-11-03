@@ -1,0 +1,1651 @@
+{
+ "etiquetas": [
+  {
+   "id": "N001",
+   "patrones": [
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N002",
+   "patrones": [
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Energía y agua"
+  },
+  {
+   "id": "N003",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Hardware barato + software caro"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N004",
+   "patrones": [
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N005",
+   "patrones": [
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Energía y agua"
+  },
+  {
+   "id": "N006",
+   "patrones": [
+    "Financiación embebida",
+    "Marketplace de dos lados"
+   ],
+   "sector": "Energía y agua"
+  },
+  {
+   "id": "N009",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Hardware barato + software caro"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N010",
+   "patrones": [
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Energía y agua"
+  },
+  {
+   "id": "N011",
+   "patrones": [
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N012",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N013",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N014",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N015",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N016",
+   "patrones": [
+    "Marketplace de servicios con garantía",
+    "Marketplace de agentes de IA que negocian por las partes"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N017",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N020",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes",
+    "Agregador / comparador"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N021",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N022",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N025",
+   "patrones": [
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N026",
+   "patrones": [
+    "Plataforma de confianza / verificación",
+    "Marketplace gestionado"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N027",
+   "patrones": [
+    "Garantía o seguro embebido en otro producto",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N028",
+   "patrones": [
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "N029",
+   "patrones": [
+    "Plataforma de confianza / verificación",
+    "Red de datos"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N031",
+   "patrones": [
+    "Plataforma de confianza / verificación",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N034",
+   "patrones": [
+    "Plataforma de confianza / verificación",
+    "Marketplace gestionado"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N036",
+   "patrones": [
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N037",
+   "patrones": [
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Logística y comercio exterior"
+  },
+  {
+   "id": "N039",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "«Uber de X»"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N041",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "N042",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "N043",
+   "patrones": [
+    "Marketplace de dos lados",
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N045",
+   "patrones": [
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N046",
+   "patrones": [
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N047",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Subasta y subasta inversa"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N048",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Vertical SaaS + marketplace"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N050",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Marketplace B2B mayorista"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N053",
+   "patrones": [
+    "Vertical SaaS + marketplace"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N059",
+   "patrones": [
+    "Agregador / comparador",
+    "Vertical SaaS + marketplace"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N063",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Comunidad + servicio"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N064",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "N065",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Marketplace de agentes de IA que negocian por las partes"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N066",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N068",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Red de datos"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "N069",
+   "patrones": [
+    "Navaja y hojas con IA: el aparato casi regalado, la suscripción de IA es el negocio"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N071",
+   "patrones": [
+    "Broker / comisionista",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N072",
+   "patrones": [
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N074",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N075",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Broker / comisionista"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N076",
+   "patrones": [
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N078",
+   "patrones": [
+    "Comunidad + servicio",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N079",
+   "patrones": [
+    "Agregador / comparador",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N083",
+   "patrones": [
+    "Marketplace B2B mayorista",
+    "Marketplace de suscripción"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N084",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N085",
+   "patrones": [
+    "Marketplace gestionado",
+    "Marketplace de servicios con garantía"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N087",
+   "patrones": [
+    "Agregador de activos distribuidos",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "N088",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Marketplace de dos lados"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N089",
+   "patrones": [
+    "Compra en grupo",
+    "Marketplace B2B mayorista"
+   ],
+   "sector": "Logística y comercio exterior"
+  },
+  {
+   "id": "N090",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N092",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Hardware barato + software caro"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N093",
+   "patrones": [
+    "Marketplace de dos lados",
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "N094",
+   "patrones": [
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N095",
+   "patrones": [
+    "Marketplace de servicios con garantía"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N096",
+   "patrones": [
+    "Marketplace gestionado"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N097",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N098",
+   "patrones": [
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N100",
+   "patrones": [
+    "Marketplace B2B mayorista"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N102",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Marketplace B2B mayorista"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N103",
+   "patrones": [
+    "Subasta y subasta inversa",
+    "Marketplace B2B mayorista"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N105",
+   "patrones": [
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N106",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Financiación embebida"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N107",
+   "patrones": [
+    "Red de datos",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N108",
+   "patrones": [
+    "Plataforma de confianza / verificación",
+    "Red de datos"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N109",
+   "patrones": [
+    "Red de datos",
+    "Broker / comisionista"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "N110",
+   "patrones": [
+    "Red de datos",
+    "Broker / comisionista"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N113",
+   "patrones": [
+    "Agregador / comparador"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N114",
+   "patrones": [
+    "Agregador / comparador",
+    "Compra en grupo"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "N120",
+   "patrones": [
+    "Compra en grupo",
+    "Subasta y subasta inversa"
+   ],
+   "sector": "Energía y agua"
+  },
+  {
+   "id": "N121",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Compra en grupo"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "N122",
+   "patrones": [
+    "Comunidad + servicio"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N123",
+   "patrones": [
+    "Compra en grupo"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "N124",
+   "patrones": [
+    "Comunidad + servicio",
+    "Red de datos"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N125",
+   "patrones": [
+    "Compra en grupo"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N126",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Compra en grupo"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N128",
+   "patrones": [
+    "Plataforma de confianza / verificación",
+    "Marketplace de dos lados"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N130",
+   "patrones": [
+    "Compra en grupo",
+    "Marketplace de servicios con garantía"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "N131",
+   "patrones": [
+    "Comunidad + servicio",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N134",
+   "patrones": [
+    "Marketplace gestionado"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N138",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N143",
+   "patrones": [
+    "Compra en grupo",
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "N145",
+   "patrones": [
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota",
+    "Hardware barato + software caro"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N146",
+   "patrones": [
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N147",
+   "patrones": [
+    "Suscripción de resultado",
+    "Hardware barato + software caro"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N149",
+   "patrones": [
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N150",
+   "patrones": [
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N151",
+   "patrones": [
+    "Suscripción de resultado",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N153",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N154",
+   "patrones": [
+    "Suscripción de resultado",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N156",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N157",
+   "patrones": [
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N158",
+   "patrones": [
+    "Financiación embebida",
+    "Suscripción de resultado"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N170",
+   "patrones": [
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N171",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N177",
+   "patrones": [
+    "Hardware barato + software caro"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N180",
+   "patrones": [
+    "Agregador / comparador"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "N185",
+   "patrones": [
+    "Agregador / comparador",
+    "Broker / comisionista"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "N186",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Logística y comercio exterior"
+  },
+  {
+   "id": "N188",
+   "patrones": [
+    "Marketplace gestionado"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N191",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N192",
+   "patrones": [
+    "Red de datos",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N194",
+   "patrones": [
+    "Marketplace de dos lados",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N195",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Marketplace gestionado"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "N196",
+   "patrones": [
+    "Suscripción de resultado",
+    "Servicio + datos: el servicio paga la operación, el dato acumulado vale más que el servicio"
+   ],
+   "sector": "Energía y agua"
+  },
+  {
+   "id": "N197",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N199",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N200",
+   "patrones": [
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "N202",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Agregador de activos distribuidos"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "N205",
+   "patrones": [
+    "Marketplace de agentes de IA que negocian por las partes"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N207",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "Broker / comisionista"
+   ],
+   "sector": "Logística y comercio exterior"
+  },
+  {
+   "id": "N208",
+   "patrones": [
+    "Broker / comisionista",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N209",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N210",
+   "patrones": [
+    "Marketplace gestionado",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "N211",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Broker / comisionista"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "N212",
+   "patrones": [
+    "Agregador / comparador",
+    "Broker / comisionista"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "N213",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Subasta y subasta inversa"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "N214",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "N216",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Frontdoor / American Home Shield (con contraste Super + Puls)",
+   "patrones": [
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Lula (con referencia a Property Meld / Latchel)",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "Marketplace gestionado"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Honey Homes",
+   "patrones": [
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Inspectify (con referencia a Porch/ISN como software de inspectores)",
+   "patrones": [
+    "Vertical SaaS + marketplace",
+    "Marketplace gestionado"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||HomeServe (con Reparalia en España y Checkatrade/Habitissimo como filiales)",
+   "patrones": [
+    "Garantía o seguro embebido en otro producto",
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Urban Company (ex UrbanClap)",
+   "patrones": [
+    "Marketplace gestionado",
+    "«Uber de X»"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Moen Flo (con referencia a Phyn y a los programas de aseguradoras)",
+   "patrones": [
+    "Navaja y hojas con IA: el aparato casi regalado, la suscripción de IA es el negocio",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Checkatrade",
+   "patrones": [
+    "Plataforma de confianza / verificación",
+    "Marketplace de servicios con garantía"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Thumbtack (con contraste Angi en EE.UU. y GetNinjas en Brasil)",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Curbio",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "Financiación embebida"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Emoha Elder Care (Age Care Labs)",
+   "patrones": [
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Headway",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "Marketplace de dos lados"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||FirstVet",
+   "patrones": [
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Hims & Hers Health",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Function Health",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Servicio + datos: el servicio paga la operación, el dato acumulado vale más que el servicio"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Durcal",
+   "patrones": [
+    "Hardware barato + software caro"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Spring Health (y Lyra Health como referencia)",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "Marketplace gestionado"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Sword Health",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Hardware barato + software caro"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||GoodRx",
+   "patrones": [
+    "Agregador / comparador"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Talkspace (y BetterHelp como referencia)",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Marketplace gestionado"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Papa",
+   "patrones": [
+    "«Uber de X»"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Zocdoc (EE.UU.) / Docplanner-Doctoralia (Polonia-España)",
+   "patrones": [
+    "Agregador / comparador",
+    "Vertical SaaS + marketplace"
+   ],
+   "sector": "Salud y cuidado"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||KeySavvy + Caramel + PrivateAuto (cierre seguro de compraventa de autos entre particulares) — DATOS PARA L1, no es idea nueva",
+   "patrones": [
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||uShip (y Shiply en Reino Unido, no verificado hoy)",
+   "patrones": [
+    "Subasta y subasta inversa",
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Logística y comercio exterior"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||ACV Auctions (NASDAQ: ACVA)",
+   "patrones": [
+    "Subasta y subasta inversa",
+    "Servicio + datos: el servicio paga la operación, el dato acumulado vale más que el servicio"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||DriveU (Humble Mobile Solutions)",
+   "patrones": [
+    "«Uber de X»"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Urgently (con Agero, con quien anunció que 'se unió')",
+   "patrones": [
+    "«Uber de X»",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Turo",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Bring a Trailer (Hearst Autos)",
+   "patrones": [
+    "Subasta y subasta inversa",
+    "Comunidad + servicio"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Porter (SmartShift Logistics Solutions)",
+   "patrones": [
+    "«Uber de X»",
+    "Agregador de activos distribuidos"
+   ],
+   "sector": "Logística y comercio exterior"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Stord (y Flexe, no verificado hoy; Spacefill en Francia, no verificado)",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Logística y comercio exterior"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Wrench (y YourMechanic)",
+   "patrones": [
+    "Marketplace gestionado",
+    "«Uber de X»"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Bounce + Radical Storage (guardado de equipaje en comercios)",
+   "patrones": [
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "E:Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Carvana (contraste con Kavak en Argentina)",
+   "patrones": [
+    "Financiación embebida",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Autos y movilidad"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Faire (también Ankorstore en Europa, NuORDER en moda)",
+   "patrones": [
+    "Marketplace B2B mayorista",
+    "Financiación embebida"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Odeko",
+   "patrones": [
+    "Marketplace B2B mayorista",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||ZenBusiness",
+   "patrones": [
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Hover (y Roofr, que empaqueta lo mismo para techistas) — VARIANTE de CON-2-3 (ELEGIDA)",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Sistema operativo de un rubro"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Baton (referencia también: BizBuySell, el clasificado grande del rubro)",
+   "patrones": [
+    "Broker / comisionista",
+    "Vertical SaaS + marketplace"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Goldbelly",
+   "patrones": [
+    "Marketplace gestionado"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Treinta (y Khatabook en India, su modelo original) — COMPETIDOR/VARIANTE de COM-2-3 (ELEGIDA)",
+   "patrones": [
+    "Sistema operativo de un rubro"
+   ],
+   "sector": "PyMEs y comercio"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Melio (adquirida por Xero)",
+   "patrones": [
+    "Financiación embebida"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Kickfurther",
+   "patrones": [
+    "Financiación embebida",
+    "Marketplace de dos lados"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||QuintoAndar",
+   "patrones": [
+    "Marketplace gestionado",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Block Renovation (referencia de tamaño del sector: Thumbtack)",
+   "patrones": [
+    "Marketplace de servicios con garantía",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Yardzen",
+   "patrones": [
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Ownwell",
+   "patrones": [
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Frontdoor (American Home Shield) y HomeServe",
+   "patrones": [
+    "Bundling del hogar o de la PyME: muchos servicios, una sola cuota",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Base Power",
+   "patrones": [
+    "Agregador de activos distribuidos",
+    "X como servicio, todo incluido"
+   ],
+   "sector": "Energía y agua"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Sunrun (contraste: Enpal en Alemania; cautela: Sunnova)",
+   "patrones": [
+    "X como servicio, todo incluido",
+    "Financiación embebida"
+   ],
+   "sector": "Energía y agua"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Arrived y Fundrise",
+   "patrones": [
+    "Compra en grupo"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Bilt Rewards",
+   "patrones": [
+    "Financiación embebida"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Inmuebles, construcción, energía y hogar inteligente||Opendoor (y Habi en Colombia/México)",
+   "patrones": [
+    "Broker / comisionista"
+   ],
+   "sector": "Inmuebles y construcción"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Preply (con Wyzant y Varsity Tutors/Nerdy como comparables) — marketplace de profes particulares con cobro protegido",
+   "patrones": [
+    "Marketplace de servicios con garantía"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Swing Education — marketplace de suplentes docentes para colegios",
+   "patrones": [
+    "«Uber de X»",
+    "Marketplace gestionado"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Forage (parte de EAB) — simulaciones de trabajo virtuales pagadas por empleadores, con credencial para el estudiante",
+   "patrones": [
+    "Marketplace de dos lados",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Guild — beneficio educativo pagado por el empleador (marketplace entre empresas, empleados y universidades)",
+   "patrones": [
+    "Marketplace de dos lados",
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Outschool — marketplace de clases online en vivo para chicos de 3 a 18",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Handshake (y su unidad Handshake AI) — red de carrera universidad-empleador",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Thumbtack / TaskRabbit / Bark — marketplaces de servicios locales (changas, oficios, clases)",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Hogar y oficios"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Credly (Pearson) y Acreditta — credenciales digitales verificables (insignias, microcredenciales)",
+   "patrones": [
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Multiverse — aprendizajes (apprenticeships) como alternativa a la universidad, financiados por el empleador",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Marketplace de dos lados"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Prenda (y el movimiento de microescuelas: Primer, KaiPod, Acton) — plataforma para que cualquier adulto abra una microescuela",
+   "patrones": [
+    "Franquicia digital",
+    "Franquicia de método"
+   ],
+   "sector": "Educación y trabajo"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Timeleft — cenas entre desconocidos (comunidad liviana, por algoritmo)",
+   "patrones": [
+    "Comunidad + servicio"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "E:Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Nextdoor — red social de barrio",
+   "patrones": [
+    "Comunidad + servicio"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Rocket Money (ex Truebill)",
+   "patrones": [
+    "Productización de un servicio profesional",
+    "Marketplace de agentes de IA que negocian por las partes"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||GoFundMe",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Credit Karma (Intuit)",
+   "patrones": [
+    "Agregador / comparador",
+    "Red de datos"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Kickfurther",
+   "patrones": [
+    "Financiación embebida",
+    "Marketplace de dos lados"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Bilt Rewards (+ Esusu como variante)",
+   "patrones": [
+    "Financiación embebida",
+    "Red de datos"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Kickstarter",
+   "patrones": [
+    "Compra en grupo",
+    "Financiación embebida"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Zego",
+   "patrones": [
+    "Garantía o seguro embebido en otro producto",
+    "Servicio + datos: el servicio paga la operación, el dato acumulado vale más que el servicio"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Hippo",
+   "patrones": [
+    "Garantía o seguro embebido en otro producto",
+    "Hardware barato + software caro"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Root Insurance",
+   "patrones": [
+    "Garantía o seguro embebido en otro producto",
+    "Servicio + datos: el servicio paga la operación, el dato acumulado vale más que el servicio"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Lemonade",
+   "patrones": [
+    "Garantía o seguro embebido en otro producto",
+    "Productización de un servicio profesional"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Jetty + Rhino (fusionadas)",
+   "patrones": [
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Chime",
+   "patrones": [
+    "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+    "Financiación embebida"
+   ],
+   "sector": "Finanzas, seguros y trámites"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Sniffspot",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Plataforma de confianza / verificación"
+   ],
+   "sector": "Comunidad y vida cotidiana"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Hipcamp",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Harvest Hosts",
+   "patrones": [
+    "Marketplace de suscripción",
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||LandTrust",
+   "patrones": [
+    "Marketplace de capacidad ociosa",
+    "Garantía o seguro embebido en otro producto"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||GetMyBoat",
+   "patrones": [
+    "Marketplace de capacidad ociosa"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Flashfood (y, como referencia del modelo, Too Good To Go)",
+   "patrones": [
+    "Marketplace de dos lados"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Goldbelly",
+   "patrones": [
+    "Marketplace gestionado"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Farmers Business Network (FBN)",
+   "patrones": [
+    "Red de datos",
+    "Marketplace B2B mayorista"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Naked Wines",
+   "patrones": [
+    "Marketplace de suscripción",
+    "Financiación embebida"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Tock",
+   "patrones": [
+    "Vertical SaaS + marketplace"
+   ],
+   "sector": "Ocio, turismo y eventos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Lumo",
+   "patrones": [
+    "Hardware barato + software caro"
+   ],
+   "sector": "Agro y alimentos"
+  },
+  {
+   "id": "E:Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Halter",
+   "patrones": [
+    "Hardware barato + software caro"
+   ],
+   "sector": "Agro y alimentos"
+  }
+ ]
+}

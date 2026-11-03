@@ -1,0 +1,177 @@
+[
+ {
+  "id": "EVE-3-2",
+  "presencia_ar": "alta",
+  "presencia_ar_detalle": "1 búsqueda Brave vía WebFetch y 1 WebSearch (2026-10-15): hay muchas listas de casamiento online argentinas con regalo en dinero y pago con tarjeta/Mercado Pago/transferencia: listacasamiento.com.ar (pago único, dinero directo a los novios; https://listacasamiento.com.ar/), Wed.in (panel de confirmaciones y regalos en tiempo real; https://www.wedin.com.ar/novios/), De Casorio (https://www.decasorio.com.ar/), e.Wedding (https://www.ewedding.com.ar/ayuda.html), SEIV y NosCasamos.ar (invitación digital con regalo en dinero vía Mercado Pago; https://www.seiv.com.ar/, https://noscasamos.ar/), Wedcompany (pionera según La Nación; https://www.lanacion.com.ar/sociedad/casamientos-siglo-xxi-las-listas-de-regalos-en-el-banco-nid1533458/). Datos tomados de los snippets del buscador, no abrí cada sitio.",
+  "hueco_ar": 1,
+  "nota": "El problema planteado (CBU sin registro) ya está resuelto por varias listas digitales locales; el hueco es chico.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "EVE-3-1",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "1 búsqueda Brave vía WebFetch (2026-10-15, 'software para wedding planners organizadores de eventos Argentina proveedores cronograma'): aparecen herramientas en español usables desde Argentina pero no argentinas: Wedinest (proveedores, presupuesto, cronograma y portal con la pareja; https://wedinest.com/software-wedding-planners), Planning.Wedding (gratuito; https://planning.wedding/es/software-for-professionals), ArtCalendar (https://artcalendar.pro/es/software-para-wedding-planners/), Howeplan Love (https://howeplanlove.com), 360 Event Software y miEventto (este último orientado a México: anticipos, saldos y cobranza; https://mieventto.com, abierto 2026-10-15). No encontré un software argentino específico que maneje señas y saldos en pesos/dólares por proveedor.",
+  "hueco_ar": 3,
+  "nota": "Existen herramientas hispanas genéricas; lo que no encontré es una local adaptada a pagos en pesos ajustados/dólares.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "EVE-3-4",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "Misma búsqueda Brave vía WebFetch (2026-10-15): los softwares para wedding planners en español (Wedinest, Planning.Wedding) incluyen 'cronograma', pero no encontré ninguno, local o extranjero operando en Argentina, que comparta el minuto a minuto en tiempo real con cada proveedor y avise los cambios del día. Solo 1 búsqueda cubrió esta fila.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "EVE-4-4",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15, 'plataforma rondas de negocios matchmaking agenda reuniones Argentina software ferias'): no apareció un proveedor argentino de software de rondas. Sí: ProMendoza encargó a una pyme mendocina una plataforma de rondas de negocios virtuales (https://www.mendoza.gov.ar/prensa/promendoza-trabaja-en-el-desarrollo-de-rondas-de-negocios-y-una-mision-comercial-virtuales/); un evento Italia-Argentina 2026 usa CDP Business Matching, plataforma italiana (https://ambbuenosaires.esteri.it/wp-content/uploads/2026/06/Concept-Note.pdf); Conectar Pymes (Rosario) usa una app con conexiones sugeridas según expat.com (https://www.expat.com/es/guia/america-del-sur/argentina/38142-networking-en-argentina.html). No verifiqué si Grip o Brella tienen clientes en Argentina.",
+  "hueco_ar": 3,
+  "nota": "Hay desarrollos a medida y plataformas extranjeras usadas puntualmente; no un producto local conocido.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "FUN-4-5",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15): El Litoral informa que el concejal Damián Pullaro (Rosario) impulsa habilitar la hidrólisis alcalina; pasó la comisión de Salud y le faltan Ambiente y Presupuesto antes del recinto; la nota dice que no hay implementaciones registradas en Argentina (https://www.ellitoral.com/regionales/acuamacion-cremacion-sustentable-rosario-debate-ambiental-rosario-acuamacion_0_D83zuHBJDO.html; fecha probable 2026-05-22, inferida de las imágenes). No encontré nada sobre compostaje humano en Argentina.",
+  "hueco_ar": 4,
+  "nota": "Hueco real pero bloqueado por normativa: hoy no está habilitado; Rosario lo debate.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "FUN-1-3",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15, 'Argentina funeraria software gestión trazabilidad QR cuerpos cremación...'): no apareció ningún proveedor argentino de trazabilidad de cuerpos por QR/código de barras; solo productos extranjeros (Halcyon, una marca registrada del Reino Unido). No encontré no quiere decir que no exista.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "DEP-5-4",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15, 'plataforma Argentina encontrar profesor particular de tenis natación entrenador personal clases deporte app'): Superprof opera en Argentina en las 23 provincias con categoría deporte, incluido tenis (Forbes Argentina https://www.forbesargentina.com/negocios/como-donde-encontrar-profesores-particulares-argentina-n24248 ; Infonegocios https://infonegocios.info/plus/superprof-profes-para-todo-en-un-solo-lugar-clases-de-cocina-portugues-canto-tenis-y-mas); StartMeApp, app argentina que conectaba profes de deporte con alumnos según nota de 2019 (Vía País https://viapais.com.ar/rumbos/813434-entrenar-a-la-carta-el-uber-del-fitness/), no confirmé que siga activa; Classgap y Trainwell tienen entrenadores argentinos pero online. No pude abrir superprof.com.ar (403). No encontré un marketplace argentino con profes verificados (antecedentes) específico de deporte.",
+  "hueco_ar": 2,
+  "nota": "El 'conectar profe con alumno' ya lo hace Superprof; el hueco que queda es la verificación/garantía y la cancha.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "ENE-5-4",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15, 'software mantenimiento multisucursal cadenas gestión de proveedores técnicos facility management Argentina'): resultados irrelevantes, ningún proveedor argentino ni ServiceChannel/Fexa operando en Argentina. Abrí fracttal.com/es (2026-10-15): software de mantenimiento con '+1.500 empresas' y 'más de 60 países', pero la página no menciona Argentina. comparasoftware.com.ar/mantenimiento dio 404. No encontré no quiere decir que no exista: software de mantenimiento genérico (CMMS) seguramente se vende en Argentina, pero no lo verifiqué.",
+  "hueco_ar": 4,
+  "nota": "Lo que no encontré es la parte de comparar y controlar proveedores técnicos entre sucursales (marketplace tipo ServiceChannel).",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "ESP-3-3",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15, 'librerías independientes Argentina plataforma online conjunta vender libros catálogo compartido envíos'): no apareció ninguna plataforma conjunta de librerías independientes en Argentina. Solo un plan del GCBA de 2017 para un catálogo web de editoriales y librerías, sin confirmar que se haya hecho ni que venda (https://buenosaires.gob.ar/gcaba_historico/noticias/convocatoria-catalogo-de-editoriales-y-librerias-2017). Equivalentes afuera: ReLI (Portugal), Libelista (España).",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "solucion_1": {
+   "nombre": "Bookshop.org",
+   "pais": "EE.UU. / Reino Unido",
+   "url": "https://bookshop.org/info/about-us",
+   "que_hace": "Librería online que da más del 80% de su margen de ganancia a librerías independientes y les da una tienda propia dentro de la plataforma; también vende ebooks.",
+   "traccion": "Dice haber recaudado US$ 51.310.451,95 para librerías y apoyar a más de 2.500 librerías (contador del sitio, 2026-10-15).",
+   "fuente_traccion": "https://bookshop.org/info/about-us (dato propio de la empresa)",
+   "verificado": "sí",
+   "como_verifique": "Abrí la página 'About us' en el navegador el 2026-10-15 (WebFetch y curl daban 403)."
+  },
+  "solucion_2": {
+   "nombre": "Libro.fm",
+   "pais": "EE.UU. (nació en Seattle)",
+   "url": "https://libro.fm/story",
+   "que_hace": "Vende audiolibros a través de librerías independientes asociadas, que cobran parte de cada venta.",
+   "traccion": "Dice trabajar con más de 5.000 librerías y tener miembros en 95 países; empresa B Corp, fundada en 2014.",
+   "fuente_traccion": "https://libro.fm/story (dato propio de la empresa)",
+   "verificado": "sí",
+   "como_verifique": "Abrí la página 'Our story' en el navegador el 2026-10-15 (curl daba pantalla anti-bot). No verifiqué el porcentaje exacto que cobra la librería."
+  }
+ },
+ {
+  "id": "EVE-4-3",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15, 'Argentina organizadores de ferias exposiciones plano interactivo venta de stands online software conteo visitantes stand'): no apareció ningún proveedor argentino. ExpoFP tiene páginas en español y plan autoservicio desde US$ 149/mes (https://expofp.com/es/exhibition-floor-plan-software), o sea que se puede contratar desde acá, pero no encontré clientes argentinos.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "EVE-4-5",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "Misma WebSearch del 2026-10-15 (ferias, conteo de visitantes por stand): solo soluciones extranjeras (sensores, QR por stand tipo Wowsly, análisis WiFi citado por UFI: https://www.ufi.org/wp-content/uploads/2016/06/ict2016award_expo_analytics.pdf). No encontré nada en Argentina.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "ESP-4-3",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15, 'inspección de calidad antes del embarque en China para importadores argentinos...'): hay agentes en China que ofrecen control de calidad antes del embarque en español a importadores hispanohablantes, p. ej. Chilat (Yiwu MingZhan Import & Export Co., China; publica guías para importar a Argentina; https://www.chilat.com/blog/2049658495543738369, abierto 2026-10-15). QIMA (qima.es, abierto 2026-10-15) dice cubrir más de 100 países pero no menciona Argentina. No encontré una empresa argentina que lo venda como producto para el importador chico.",
+  "hueco_ar": 3,
+  "nota": "El servicio existe y se contrata desde Argentina vía agentes en China; el hueco sería el acompañamiento local/reclamo, no la inspección en sí.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "ESP-2-5",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "Sin buscador (cuota agotada); abrí https://www.chrono24.com.ar/ en el navegador el 2026-10-15: Chrono24 tiene sitio para Argentina con 'Protección al Comprador', pago mediante depósito de garantía (escrow), compromiso de autenticidad y envío asegurado. No verifiqué cuántos vendedores o compradores argentinos lo usan ni cómo resuelve aduana. No busqué alternativas locales.",
+  "hueco_ar": 3,
+  "nota": "Puntaje con 0 búsquedas: se basa solo en que la solución extranjera tiene sitio argentino.",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "solucion_2": {
+   "nombre": "Chrono24",
+   "pais": "Alemania (teléfono +49 721, Karlsruhe; inferido)",
+   "url": "https://www.chrono24.com",
+   "que_hace": "Marketplace de relojes de lujo con Protección al Comprador: pago por depósito de garantía (escrow), compromiso de autenticidad, devolución internacional del dinero y envío asegurado.",
+   "traccion": "Más de 1,6 M de relojes vendidos desde 2003, más de 500.000 relojes publicados, 3.000 comerciantes y compradores/vendedores de 150 países; en el sitio argentino: 9 M de usuarios por mes y más de 340.000 compradores por año con Protección al Comprador.",
+   "fuente_traccion": "https://about.chrono24.com/en/company y https://www.chrono24.com.ar/ (datos propios, 2026-10-15)",
+   "verificado": "sí",
+   "como_verifique": "Abrí about.chrono24.com con WebFetch y chrono24.com.ar en el navegador el 2026-10-15."
+  }
+ },
+ {
+  "id": "FAM-4-5",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "Sin buscador (cuota agotada). Abrí la Ley 24.901 en InfoLEG (2026-10-15; https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/47677/texact.htm): el art. 13 da derecho a pedir a la obra social un transporte especial (con ayuda de terceros si hace falta) hacia el establecimiento educativo o de rehabilitación. O sea, existe un circuito de transportistas pagados por obras sociales; no verifiqué qué empresas lo hacen, ni si existe algo tipo EverDriven (rutas, mismo chofer, controles) en Argentina.",
+  "hueco_ar": 3,
+  "nota": "0 búsquedas; el puntaje se apoya solo en la ley. Si el problema es la calidad/estabilidad del servicio, el hueco podría ser mayor: verificar.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "ESP-2-1",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "solucion_1": {
+   "nombre": "PT Next — Argos",
+   "pais": "EE.UU. (Paramus, Nueva Jersey)",
+   "url": "https://ptnext.com/",
+   "que_hace": "Argos: 'sistema operativo' para boutiques y eventos de alta joyería con visibilidad de inventario en tiempo real ('cada pieza contabilizada'), etiquetando las piezas en el local. La home no dice 'RFID' ni 'bandejas', pero lista como socios a Keonn Technologies y ASReader (empresas de RFID).",
+   "traccion": "Pilotos publicados: evento de alta joyería por menos de US$ 10.000 y boutique 3 meses por menos de US$ 15.000; dice 'elegido por las grandes maisons' sin nombrarlas; socios Accenture, Lowry Solutions, Keonn, ASReader.",
+   "fuente_traccion": "https://ptnext.com/ (dato propio, 2026-10-15)",
+   "verificado": "sí",
+   "como_verifique": "Abrí ptnext.com con curl y WebFetch el 2026-10-15. Lo de 'bandejas inteligentes RFID' viene de Rapaport (no lo pude abrir, 403); el sitio confirma inventario pieza por pieza, no las bandejas."
+  },
+  "solucion_2": {
+   "nombre": "wJewel",
+   "pais": "EE.UU. (equipo en Nueva York, según el sitio)",
+   "url": "https://www.wjewel.com/rfid-technology.php",
+   "que_hace": "Software de gestión para joyerías (punto de venta, inventario, reparaciones, contabilidad) con módulo RFID que lee cientos de etiquetas a la vez, incluso a través de vitrinas y bandejas, y hace conteos de todo el local en minutos en vez de 2-3 días con código de barras.",
+   "traccion": "Opera desde 1987; muestra unas dos docenas de logos de clientes; calificación 4,8 en Capterra según el sitio.",
+   "fuente_traccion": "https://www.wjewel.com/ (dato propio, 2026-10-15)",
+   "verificado": "sí",
+   "como_verifique": "Abrí la home y la página de RFID con WebFetch el 2026-10-15. No menciona conteos de apertura/cierre diarios; habla de 'cycle counts'."
+  }
+ },
+ {
+  "id": "ESP-3-4",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "solucion_2": {
+   "nombre": "Princh",
+   "pais": "Dinamarca (Princh A/S, Aarhus)",
+   "url": "https://princh.com/",
+   "que_hace": "Impresión y pago en la nube para bibliotecas, educación y centros de copiado (tiene sección 'Print shops'): el usuario manda a imprimir desde su celular o PC, paga online (tarjeta, Apple/Google Pay, medios locales) y el documento se imprime recién cuando se pagó.",
+   "traccion": "Dice que lo usan 'miles de organizaciones en todo el mundo' (sin cifra exacta).",
+   "fuente_traccion": "https://princh.com/ (dato propio, 2026-10-15)",
+   "verificado": "sí",
+   "como_verifique": "Abrí la home y el pie del sitio (Princh A/S, CVR 37833789, Aarhus) en el navegador el 2026-10-15."
+  }
+ }
+]

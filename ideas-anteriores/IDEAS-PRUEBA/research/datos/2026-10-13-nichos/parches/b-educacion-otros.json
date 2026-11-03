@@ -1,0 +1,191 @@
+[
+  {
+    "id": "EDU-4-3",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "Certronic (desarrollado por Laborem, Argentina): SaaS de evaluación, control y auditoría de contratistas con controles normativos, credenciales con QR, alertas de vencimiento, integración con ERP y control de accesos, más un agente de IA que clasifica y valida documentos. Según la nota de ITSitio (2025-09-26), con cifras de la empresa: más de 40.000 empresas contratistas gestionadas a diario, más de 9 millones de documentos por año, más de 100.000 usuarios; clientes citados Mercado Libre, J.P. Morgan, Acindar, DOW, Pampa Energía y Grupo Peñaflor (https://www.itsitio.com/ar/inteligencia-artificial/inteligencia-artificial-en-la-gestion-de-contratistas-que-estan-haciendo-las-empresas-lideres-de-la-region/). Su sitio (https://certronic.io/site/, WebFetch 2026-10-13) confirma el control de contratistas y la sincronización con control de acceso, con logos de 3M, DuPont, Pampa, Adidas y DirecTV; la home no menciona inducciones. Además: SBASE/EMOVA (subte de Buenos Aires) usa un legajo digital de contratistas con avisos de vencimiento y credenciales QR (https://buenosaires.gob.ar/sites/default/files/2025-11/Anexo%20CSC%2002%20-%20IF-2025-46202830-GCABA-SBASE.pdf, según el resumen de la búsqueda; no abrí el PDF). ADIF licitó una plataforma web de control documental de contratistas para hasta 8.500 recursos por mes (https://plataforma.adifse.com.ar/uploads/archivo_adjunto/licitacion/20230531_115809-64776081192ec.pdf). Ecogas usa un 'Sistema GCG' para habilitar al personal del contratista antes de portería (https://www.ecogas.com.ar/appweb/leo/pub/notas/3116/Guia_de_Uso_-_Sistema_GCG.pdf). Dato a verificar: iProUP dice que la Ley 27.802 (marzo de 2026) modificó el art. 30 de la LCT y exime de solidaridad a la principal que acredite los controles documentales (https://www.iproup.com/empleo/67991-el-nuevo-frente-que-las-empresas-buscan-digitalizar-para-reducir-riesgos-laborales); no lo confirmé en el Boletín Oficial. Consultas (2026-10-13): 'software control documentación contratistas ingreso a planta Argentina ART seguros' y 'gestión de contratistas plataforma legajo digital F931 cláusula de no repetición vencimientos empresas Argentina'.",
+    "hueco_ar": 1,
+    "nota": "Baja de 3 a 1: hay un jugador local establecido (Certronic/Laborem, con grandes clientes e IA) que resuelve justo este problema y además licitaciones públicas del mismo servicio; el único resquicio posible es la inducción de seguridad o las PyMEs chicas, y no lo verifiqué."
+  },
+  {
+    "id": "EDU-4-1",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "RogerThat (startup argentina): convierte manuales y procedimientos en microcapacitaciones en video para el celular, para trabajadores sin correo ni computadora; evalúa, certifica y deja ver qué operario está habilitado para una tarea de riesgo. Según Forbes Argentina (2026-09-17), con cifras de la empresa: más de 28 clientes corporativos (Coca-Cola, Toyota, Rappi, Pampa Energía, AB InBev, Pecom, Arcor, P&G), más de 105.000 trabajadores activos, ARR proyectado de US$1,3 millones y ronda de US$1,2-1,5 millones en curso (https://www.forbesargentina.com/negocios/de-animar-pixar-facturar-us-13-millones-startup-argentina-capacita-100000-trabajadores-ia-n98095). Humand (Argentina): app de RR.HH. para trabajadores sin escritorio con más de 30 módulos, entre ellos capacitaciones y onboarding; Serie A de US$66 millones (febrero de 2026, Kaszek y Goodwater) y más de 1.000-1.500 empresas según la fuente (https://eleconomista.com.ar/negocios/startup-argentina-levanta-us-66-millones-wall-street-va-80-laboral-n92843 ; https://mercado.com.ar/talento-y-liderazgo/humand-la-plataforma-que-revoluciono-rrhh-en-1-000-empresas/). Sectorial: PASE, plataforma de capacitación en seguridad creada por el sindicato petrolero y las operadoras de la Cuenca Neuquina, con 25.000+ trabajadores capacitados y un 'Pasaporte Seguro' que se exige para entrar a yacimientos (EconoJournal, 2023: https://econojournal.com.ar/oilgas/mas-de-25-000-trabajadores-de-la-industria-petrolera-ya-se-capacitaron-en-seguridad-con-la-nueva-app-pase/). Consultas (2026-10-13): 'plataforma capacitación seguridad e higiene operarios celular constancia firma digital Argentina', 'app para empleados de primera línea sin computadora capacitaciones cursos startup argentina Humand' (incluí el nombre para confirmar si hacía capacitación), y RogerThat salió en la búsqueda de IND-5-4.",
+    "hueco_ar": 1,
+    "nota": "Baja de 3 a 1: dos startups argentinas con tracción (RogerThat, enfocada justo en esto, y Humand, con US$66 millones) más una plataforma sectorial ya cubren la capacitación por celular para operarios con constancia."
+  },
+  {
+    "id": "EDU-4-2",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "RogerThat (Argentina) dice convertir 'manuales y procedimientos pesados' en capacitaciones breves en video para el celular, y declara 76% menos tiempo de onboarding (dato de la empresa; Forbes Argentina, 2026-09-17: https://www.forbesargentina.com/negocios/de-animar-pixar-facturar-us-13-millones-startup-argentina-capacita-100000-trabajadores-ia-n98095). Cubre la inducción, pero no vi que ofrezca instrucciones de trabajo paso a paso en el puesto (tipo Dozuki). No encontré un proveedor argentino de instrucciones de trabajo digitales en planta: la búsqueda solo trajo material genérico y proveedores de afuera con páginas en español (por ejemplo SYMESTIC: https://www.symestic.com/es-es/funcionalidades/instrucciones-de-trabajo-digitales; no verifiqué que venda en Argentina). Consulta (2026-10-13): 'instrucciones de trabajo digitales operarios software planta Argentina'. RogerThat salió en la búsqueda de IND-5-4.",
+    "hueco_ar": 2,
+    "nota": "Baja de 3 a 2: RogerThat ya ataca la inducción con procedimientos convertidos en video; queda un hueco parcial en instrucciones de trabajo en el puesto, donde no encontré oferta local."
+  },
+  {
+    "id": "EDU-4-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré software argentino específico de matriz de polivalencia o de habilitaciones de operarios en 2 búsquedas. Solo hay cobertura parcial: RogerThat (Argentina) dice que permite 'monitorear en tiempo real qué operario se encuentra habilitado' para una tarea de riesgo, como parte de su plataforma de capacitación (Forbes Argentina, 2026-09-17: https://www.forbesargentina.com/negocios/de-animar-pixar-facturar-us-13-millones-startup-argentina-capacita-100000-trabajadores-ia-n98095). Los demás resultados fueron artículos genéricos o proveedores de afuera sin presencia argentina verificada (Augmentir: https://www.augmentir.com/es/workforce-management ; SoftExpert, caso brasileño: https://www.baguete.com.br/noticias/mollificio-agiliza-processos-com-softexpert). Consultas (2026-10-13): 'software matriz de polivalencia habilidades operarios Argentina' y 'software gestión de competencias y habilitaciones de operarios vencimientos certificaciones planta industrial Argentina'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: en 2 búsquedas no apareció un producto local dedicado, pero RogerThat ya registra habilitaciones por operario como función de su producto de capacitación, así que no es un hueco limpio."
+  },
+  {
+    "id": "LOG-5-2",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "En 2 búsquedas no encontré un proveedor argentino actual que lea con IA facturas, packing lists y conocimientos de embarque para cargar el despacho. Lo único relacionado: ICC (Intelligent Customers Communications), con los sistemas Track & Trace y 2ID, que generaban despachos listos para emitir a partir de los datos de la operación, en una nota de La Nación del 1999-02-16, cuando regía el SIM María (https://www.lanacion.com.ar/economia/comercio-exterior/software-para-agilizar-tramites-ante-la-aduana-nid217240); no sé si sigue activo. El Centro Despachantes de Aduana organizó un seminario sobre IA en comercio exterior con más de 500 participantes (https://cda.org.ar/detalle_noticia.php?id=41612), señal de interés pero no de producto. Aduanapp, mencionada en la primera pasada, no apareció en estas búsquedas y no la verifiqué. Consultas (2026-10-13): 'despachante de aduana inteligencia artificial lectura automática factura comercial packing list Argentina' y 'software para despachantes de aduana Argentina automatización carga de despachos SIM Malvina proveedores'.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 2 búsquedas no apareció oferta local actual (solo un antecedente de 1999 y una mención sin verificar de Aduanapp), así que no lo pongo en 5."
+  },
+  {
+    "id": "LOG-5-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "En 2 búsquedas no encontré una startup o software argentino de alertas de días libres, demora y estadía para importadores. Hay herramientas de afuera que se venden online y podrían usarse desde Argentina, aunque varias se enfocan en puertos de EE.UU.: Terminal49 (https://terminal49.com/detention-demurrage-charges), Unity D&D (https://platform.softwareone.com/product/unitydd/PCP-8184-0533), Shipsy (https://www.shipsy.ai/insights/best-container-tracking-software), además de Vizion y Portcast (soluciones 1 y 2 de la fila). Las navieras publican tarifas de días libres para Argentina (por ejemplo Hapag-Lloyd: https://www.hapag-lloyd.com/content/dam/website/downloads/detention_demurrage/Argentina_Demurrage_and_Detention_Import_05282026.pdf) y Forbes Argentina (2023) describe el costo de retener contenedores en puerto (https://www.forbesargentina.com/negocios/asi-como-importadores-pueden-reducir-costos-logistica-n37523), pero ninguna fuente nombra un proveedor local. Consultas (2026-10-13): 'importador Argentina control días libres contenedores demoras software seguimiento' y 'plataforma seguimiento de contenedores alertas demurrage detention startup argentina importadores comercio exterior'.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: no hay oferta local en 2 búsquedas, pero no lo pongo en 5 porque las APIs y plataformas globales de rastreo se pueden contratar online desde Argentina."
+  },
+  {
+    "id": "LOG-5-3",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Sistema Forward (Vicente López, Argentina): desarrolla software exclusivamente para freight forwarders desde 1990, con módulos comercial, operativo, administrativo, financiero y contable; más de 250 empresas en 16 países de América Latina, según su perfil en Ampliz (https://www.ampliz.com/company/sistema-forward-freight-forwarding-software/101531998, WebFetch 2026-10-13; el perfil indica el sitio www.sistemaforward.com, que no abrí). El perfil no dice si cotiza automáticamente a partir de tarifarios. También aparecieron herramientas de afuera para cotizar (cargo.one: https://www.g2.com/products/cargo-one/discuss ; Logitude World: https://www.logitudeworld.com/es/features-2/quotes-air-shipping-freight-international-quotes-2/), sin presencia argentina verificada. Consulta (2026-10-13): 'software para agentes de carga forwarder cotizaciones tarifas fletes internacionales Argentina'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: hay un ERP local establecido para forwarders (Sistema Forward) que cubre el área comercial, pero no confirmé que resuelva la carga de tarifarios y la cotización con IA, que es el corazón del problema."
+  },
+  {
+    "id": "LOG-5-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "En esta búsqueda no encontré software ni servicio argentino específico de recupero de reintegros o de IVA exportador. Contexto encontrado: en agosto de 2026 el ministro Caputo anunció la devolución de $50.000 millones de IVA a PyMEs, 'la mayoría IVA exportaciones' (El Economista: https://eleconomista.com.ar/economia/pymes-caputo-anuncio-una-devolucion-iva-50000-millones-n97111 ; Río Negro: https://www.rionegro.com.ar/economia/alivio-fiscal-para-pymes-caputo-anuncio-la-devolucion-de-50-000-millones-de-iva-pero-surgen-dudas-entre-tributaristas-4669768/), con reintegros nulos en marzo según los mismos medios. Opinión no verificada: el trámite lo hacen hoy contadores y estudios tributarios como servicio. Consulta (2026-10-13): 'recupero de reintegros a la exportación y IVA exportador servicio software pymes Argentina'. Con la búsqueda de la primera pasada, son 2 búsquedas sin software local.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: 2 búsquedas sin software local y con dolor reciente documentado; no lo pongo en 5 porque es probable que contadores y despachantes den el servicio, y eso no lo busqué de forma específica."
+  },
+  {
+    "id": "CON-1-2",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "Segunda búsqueda sin un software argentino específico de certificados de avance y redeterminación de precios: los resultados fueron casi todos documentos públicos (normativa bonaerense de redeterminación: https://normas.gba.gob.ar/anexos/descargar/wVRLMNxn.pdf ; dictámenes del Tribunal de Cuentas de Salta sobre redeterminaciones: https://tcm.tribunal.municipalidadsalta.gob.ar/wp-content/uploads/2026/01/1.061-Redeterminacion-Mantenimineto-de-Calzada.pdf). Estos dictámenes muestran errores frecuentes, como no indicar el mes base ni los certificados alcanzados, lo que sugiere trabajo manual (inferencia mía). Consulta (2026-10-13): 'software certificados de obra redeterminación de precios constructoras Argentina'. La primera pasada tampoco encontró nada específico (YoFacturo solo como guía de facturación).",
+    "hueco_ar": 4,
+    "nota": "Se mantiene en 4 aunque ya van 2 búsquedas sin resultados: los resultados estuvieron dominados por documentos públicos, y es probable (opinión) que ERPs y software de presupuesto de obra cubran parte; hace falta una búsqueda por nombre de producto antes de subir a 5."
+  },
+  {
+    "id": "IND-5-2",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "La segunda búsqueda tampoco mostró un proveedor argentino de software ISO 9001. Hay oferta en español de afuera: GlobalSuite (ficha de producto de calidad con tablero de acciones correctivas: https://www.globalsuitesolutions.com/wp-content/uploads/2026/10/gss-product-sheets-quality-2025.pdf; no verifiqué su país ni su presencia en Argentina), ISOTools (España, encontrada en la primera pasada) y SoftExpert (caso de un cliente en Brasil: https://www.baguete.com.br/noticias/mollificio-agiliza-processos-com-softexpert). Consulta (2026-10-13): 'software gestión de calidad ISO 9001 no conformidades acciones correctivas empresa argentina'.",
+    "hueco_ar": 2,
+    "nota": "Se mantiene en 2: aunque no apareció un proveedor argentino en 2 búsquedas, es una categoría con varios SaaS en español que se venden en la región; el hueco es de adaptación local, no de ausencia de oferta."
+  },
+  {
+    "id": "IND-5-4",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "RogerThat (startup argentina): transforma manuales y procedimientos en microcapacitaciones en video para el celular para operarios de primera línea; evalúa, certifica y deja ver qué operario está habilitado para tareas de riesgo. Según Forbes Argentina (2026-09-17), con datos de la empresa: más de 28 clientes corporativos (Coca-Cola, Toyota, Arcor, Pampa Energía, AB InBev, P&G, entre otros), más de 105.000 trabajadores activos, 76% menos tiempo de onboarding y 80% menos costo de capacitación (https://www.forbesargentina.com/negocios/de-animar-pixar-facturar-us-13-millones-startup-argentina-capacita-100000-trabajadores-ia-n98095). Según el resumen de la búsqueda, iProUP informa que llegó a EBITDA positivo sin inversión externa (https://www.iproup.com/startups/69306-startup-argentina-crea-ia-para-capacitar-empleados-ya-la-usan-coca-cola-y-toyota; WebFetch solo devolvió el título). Más general: Academia de la Industria (Capabilia con la Unión Industrial de Córdoba), con cursos y certificados para empresas industriales (https://infonegocios.info/default/academia-de-la-industria-el-espacio-de-capacitacion-para-trabajar-portones-adentro-33-cursos-concretos-y-8-certificados). Consulta (2026-10-13): 'plataforma capacitación operarios industria conocimiento de puestos video microlearning startup argentina'.",
+    "hueco_ar": 2,
+    "nota": "Baja de 3 a 2: RogerThat resuelve justo la transmisión del saber del puesto con clientes industriales grandes; pongo 2 y no 1 porque su foco son grandes empresas y no vi oferta para la PyME chica ni instrucciones paso a paso en el puesto."
+  },
+  {
+    "id": "IND-5-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré un proveedor argentino que mida consumo por máquina. Solo hay oferta parcial, a nivel de tablero: Wabee (Argentina), monitor trifásico para PyMEs que se instala en el tablero, con certificación IRAM; nota de iProUP de 2019, según el resumen de la búsqueda (https://www.iproup.com/economia-digital/7390-smart-energy-internet-ico-Ahorro-de-luz-lanzan-monitor-de-consumo-inteligente-para-Pymes; WebFetch no devolvió el texto, así que no confirmé si sigue activo). El gobierno de Río Negro instaló registradores en tableros de una PyME (Neumáticos del Sur, Cipolletti) para medir el consumo por sector (https://rionegro.gov.ar/articulo/60103/rio-negro-mide-consumos-para-mejorar-la-eficiencia-energetica-pyme). En la región ya estaban Tractian y METRON (primera pasada). Consulta (2026-10-13): 'medición de consumo eléctrico por máquina industria pyme Argentina sensores eficiencia energética plataforma'.",
+    "hueco_ar": 3,
+    "nota": "Baja de 4 a 3: aparecieron un actor local chico y parcial (Wabee, por tablero, con dato de 2019) y programas provinciales de medición; el hueco a nivel máquina sigue, pero no está vacío."
+  },
+  {
+    "id": "EDU-2-2",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré un proveedor argentino de tests de nivel de idioma con IA. Apareció Linguaskill (Cambridge): test online adaptativo con IA, con módulo oral, versión Business para empresas y resultados en 48 horas, vendido por agentes autorizados (https://cambridgeenglish.org/es/linguaskill); no confirmé si hay agentes en Argentina. Consulta (2026-10-13): 'test de nivel de inglés online con inteligencia artificial para empresas e institutos Argentina oral'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no hay competidor local en 1 búsqueda, pero hay productos globales fuertes (Cambridge Linguaskill, Emmersion) que se venden online sin necesitar presencia local."
+  },
+  {
+    "id": "EDU-2-3",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré una plataforma B2B para institutos de idiomas en Argentina. Solo aparecieron apps de práctica oral con IA para usuarios individuales (TalkPal, SpeakLingua, TrySpeak, InstaSpeak AI), sin presencia comercial argentina verificada (por ejemplo: https://keepcoding.io/blog/mejores-ia-para-hablar-en-ingles/), y notas de uso individual (La Nación: https://www.lanacion.com.ar/tecnologia/como-aprender-ingles-con-ayuda-de-la-inteligencia-artificial-nid10032025/). Consulta (2026-10-13): 'práctica de conversación en inglés con inteligencia artificial para institutos de idiomas Argentina plataforma'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no hay oferta B2B local en 1 búsqueda, pero los alumnos ya tienen al alcance muchas apps de consumo que compiten por el mismo tiempo de práctica."
+  },
+  {
+    "id": "EDU-2-4",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré en 1 búsqueda una plataforma de evidencias o e-portfolio para evaluar prácticas de oficios en Argentina. Solo apareció material de política pública, como los criterios de evaluación de cursos del Ministerio de Producción y Trabajo de 2019 (https://www.argentina.gob.ar/sites/default/files/anexo_v_-_criterios_de_evaluacion_-_if-2019-58073047-apn-doyfpmpyt.pdf); las plataformas de acreditación de competencias que salieron son de España. Consulta (2026-10-13): 'formación profesional oficios evaluación por competencias evidencias digital plataforma centros de formación Argentina'.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: no encontré oferta local en 1 búsqueda; no pongo 5 porque es probable (opinión) que los centros usen LMS genéricos como Moodle para parte del proceso."
+  },
+  {
+    "id": "EDU-2-5",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré en 1 búsqueda software argentino para escuelas de manejo. Aparecieron productos en español, pero de afuera y con referencias españolas: Anolla (https://anolla.com/es/software-para-instructores-de-conduccion), Klaxo, un módulo de Odoo (https://apps.odoo.com/apps/modules/19.0/driving_school_odoo), EasyWeek y Teachworks (directorio Capterra España: https://www.capterra.es/directory/31328/driving-school/software); no verifiqué que alguno venda o facture en Argentina. Consulta (2026-10-13): 'software gestión para escuelas de manejo autoescuela turnos instructores Argentina'.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: no apareció oferta local en 1 búsqueda y los productos en español están pensados para España; no pongo 5 porque es una sola búsqueda y hay agendas genéricas que pueden sustituir."
+  },
+  {
+    "id": "EDU-3-1",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré un producto comercial en Argentina; sí proyectos universitarios de investigación. UTN Facultad Regional Córdoba: línea de investigación con machine learning sobre notas, asistencia y datos demográficos para construir un Sistema de Alerta Temprana; es un proyecto, no un sistema en producción (https://sedici.unlp.edu.ar/bitstream/handle/10915/195998/Documento_completo.pdf, leído 2026-10-13). Según el resumen de la búsqueda, la Universidad Nacional de Hurlingham entrenó modelos con datos de SIU-Guaraní para detectar alumnos en riesgo, y hay un proyecto en curso en otra universidad nacional; están en otros trabajos de sedici.unlp.edu.ar y JAIIO (por ejemplo https://revistas.unlp.edu.ar/JAIIO/article/download/19782/20002/94867), que no abrí para confirmar cuál es cuál. Consulta (2026-10-13): 'sistema alerta temprana deserción estudiantes universidad Argentina analítica predictiva abandono'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no hay proveedor local, pero las universidades públicas lo están construyendo por su cuenta sobre SIU-Guaraní, lo que es a la vez señal de demanda y competencia hecha en casa."
+  },
+  {
+    "id": "EDU-3-2",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré en 1 búsqueda un sistema que automatice la comparación de programas para equivalencias en Argentina. Los resultados confirman que hoy se hace a mano, caso por caso: UBA Derecho coteja programas y no reconoce más del 50% del plan (https://www.derecho.uba.ar/academica/carreras_grado/reconocimiento-de-materias-por-equivalencias-para-alumnos-ya-inscriptos-en-la-facultad-de-derecho.php); Siglo 21 evalúa contenido, objetivos, bibliografía y carga horaria (https://contenidos.21.edu.ar/pdf/ingreso-inscripcion/consideraciones_generales.pdf). Consulta (2026-10-13): 'equivalencias de materias universidad automatizar comparación de programas sistema Argentina'.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: no apareció ninguna herramienta local y las fuentes muestran un proceso manual; queda en 4 porque es una sola búsqueda."
+  },
+  {
+    "id": "EDU-3-3",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré un proveedor argentino dedicado. Aparecieron prototipos académicos argentinos: un chatbot de preinscripción en Dialogflow de la Universidad Nacional de Catamarca (https://49jaiio.sadio.org.ar:443/pdfs/asai/ASAI-11.pdf) y un bot basado en BERT para consultas de una universidad pública, en el repositorio de la UNLP (https://sedici.unlp.edu.ar/handle/10915/198193). También proveedores de chatbots para universidades con páginas en español, sin presencia argentina verificada: Aurora Inbox (https://www.aurorainbox.com/2026/02/10/chatbot-escuelas-universidades/), GuruSup (https://gurusup.com/es/chatbot-universidades) y Aunoa (https://aunoa.ai/blog/chatbots-educacion-universidades-colegios-centros-de-formacion/). Consulta (2026-10-13): 'chatbot inteligencia artificial universidad argentina atención alumnos inscripciones consultas'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no hay un jugador local establecido, pero los chatbots son una categoría con muchos proveedores en español y prototipos universitarios, así que la barrera es baja."
+  },
+  {
+    "id": "EDU-3-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré un producto comercial en Argentina; las universidades usan sistemas propios. La Universidad Nacional de Río Cuarto resolvió armar un sistema de gestión de acuerdos y firma de convenios para agilizar las prácticas (https://www.ayv.unrc.edu.ar/wp-content/uploads/2024/05/Res.-CD.-067-24-Practicas-profesionales-de-la-Tecnicatura-en-Gestion-Agropecuaria-y-Agroalimentaria.pdf). La UNC exige registrar todos los convenios en su sistema informático (https://boletin.unc.edu.ar/bitstreams/6df9c1ef-e3f6-466f-a6d8-a57b08d3f9f6/download). Las plataformas completas de gestión de prácticas que aparecieron son de universidades españolas. Consulta (2026-10-13): 'sistema gestión prácticas profesionales supervisadas pasantías convenios empresas universidad Argentina plataforma'.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: no apareció oferta comercial local y solo hay registros internos de convenios; es una sola búsqueda, por eso no llega a 5."
+  },
+  {
+    "id": "EDU-3-5",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré en 1 búsqueda software comercial argentino de horarios y asignación de aulas. Apareció un modelo académico de programación lineal entera para los horarios de la Universidad Torcuato Di Tella (JAIIO: https://revistas.unlp.edu.ar/JAIIO/article/download/18019/17687/81231) y, en la región, la evaluación del software libre FET en una universidad chilena (https://repositorio.usm.cl/handle/123456789/67613). No verifiqué si algún módulo del SIU asigna aulas: la home de siu.edu.ar no lista módulos (WebFetch 2026-10-13). Consulta (2026-10-13): 'software armado de horarios y asignación de aulas universidades Argentina'.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: no apareció oferta local en 1 búsqueda; ojo, existen sustitutos gratuitos (FET) y no descarté que el SIU tenga un módulo."
+  },
+  {
+    "id": "EDU-4-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré una plataforma online argentina de capacitación para choferes de carga con registro por chofer. Lo que existe es mayormente presencial: la Fundación Profesional para el Transporte (FADEEAC) dicta el Curso de Conducción Profesional en su centro de Escobar (https://eleconomista.com.ar/autos/mercedes-benz-entrego-camion-escuela-fundacion-profesional-transporte-n77539), y la ANSV aprueba cursos de manejo defensivo en su registro, por ejemplo uno para flota liviana en julio de 2026 (https://indicadores.ar/articulo/ansv-aprueba-curso-de-manejo-defensivo-para-flota-liviana-26128). Nota: RogerThat (Argentina) menciona la logística entre sus sectores (Forbes Argentina, 2026-09-17: https://www.forbesargentina.com/negocios/de-animar-pixar-facturar-us-13-millones-startup-argentina-capacita-100000-trabajadores-ia-n98095), pero no verifiqué que capacite choferes. Consulta (2026-10-13): 'capacitación online choferes camioneros empresas de transporte de cargas plataforma Argentina manejo defensivo'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no hay plataforma online específica, pero RogerThat podría cubrirlo desde su oferta para logística, y la FPT/FADEEAC tiene el canal del sector."
+  },
+  {
+    "id": "EDU-5-1",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré en 1 búsqueda una herramienta argentina de corrección con IA ni un uso documentado de Gradescope o CoGrader en Argentina. Las notas locales hablan de docentes que usan IA generalista (ChatGPT) para preparar materiales y preguntas, no para corregir (El Economista: https://eleconomista.com.ar/tech/prohibir-o-guiar-dilema-escuelas-frente-ia-n86910 ; Diario de Cuyo, 2026-01-15: https://www.diariodecuyo.com.ar/argentina/ia-en-las-escuelas-un-informe-destaca-los-beneficios-y-desafios-del-uso-sin-planificacion-1820537.html). Consulta (2026-10-13): 'corrección de exámenes con inteligencia artificial herramienta docentes argentinos escuelas'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no hay producto local en 1 búsqueda, pero las herramientas globales online y la IA generalista son sustitutos directos."
+  },
+  {
+    "id": "EDU-5-2",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré en 1 búsqueda una herramienta argentina, oficial o privada, que genere planificaciones alineadas al diseño curricular de cada provincia. Solo apareció una conferencia de formación docente sobre IA para el aula en un instituto de Santa Fe (https://is68-sfe.infd.edu.ar/sitio/wp-content/uploads/2024/08/Disposicion-Nro-42-24.pdf) y experiencias de otros países (Chile, Ecuador, España). Consulta (2026-10-13): 'planificaciones docentes con inteligencia artificial diseño curricular provincia Argentina herramienta'.",
+    "hueco_ar": 3,
+    "nota": "Sube de 2 a 3: no apareció una herramienta local atada a los diseños curriculares provinciales, pero la IA generalista y MagicSchool son sustitutos fuertes, así que no lo subo más."
+  },
+  {
+    "id": "EDU-5-3",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré una app argentina que junte agenda, asistencia y cobro (con Mercado Pago) para profesores particulares. Apareció Superprof, un marketplace que cobra un 'pase alumno' y tiene reclamos de usuarios argentinos (https://tuquejasuma.com/superprof-argentina); TeachMe, un proyecto académico de la UTN Córdoba con gestión de horarios, sin cobros (https://www.institucional.frc.utn.edu.ar/SISTEMAS/NOTICIAS/PF/PROYECTOS/DB3_ok_paper_5k3_g08_teachme.pdf); y una nota sobre el uso de WhatsApp por profesores particulares (https://www.lacapitalmdp.com/vuelta-al-colegio-con-whatsapp-para-profesores-particulares/). Consulta (2026-10-13): 'app para profesores particulares agenda cobro de clases Argentina Mercado Pago'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no hay herramienta local específica, pero WhatsApp, links de pago y apps de turnos genéricas son sustitutos baratos, y el cliente (profesor particular) paga poco."
+  },
+  {
+    "id": "EDU-5-4",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré en 1 búsqueda una herramienta argentina para redactar informes de alumnos con IA. La búsqueda trajo estudios sobre IA en escuelas, como el informe de la UEICEE de CABA de 2024 con grupos focales de docentes de inicial, primaria y secundaria (https://bde-ueicee.bue.edu.ar/documentos/736/download), y no productos. Ojo: la consulta trajo investigaciones y no herramientas, así que es una búsqueda débil. Consulta (2026-10-13): 'informes cualitativos de alumnos con inteligencia artificial docentes nivel inicial primaria Argentina'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no apareció oferta local, pero la búsqueda fue poco precisa y la IA generalista sustituye buena parte del trabajo."
+  },
+  {
+    "id": "EDU-5-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré una herramienta argentina establecida para adaptar materiales de inclusión con IA. Hay experiencias: un documento del portal educaciondigital.abc.gob.ar (Provincia de Buenos Aires, según el dominio) describe el uso de ChatGPT, Canva, Edpuzzle y otras herramientas con Diseño Universal para el Aprendizaje (https://educaciondigital.abc.gob.ar/wp-content/uploads/2026/03/Scabella-Gabriela.pdf). Un blog de EPALE (Comisión Europea, 2025-03-31) menciona una app con IA desarrollada por Lidia Viviana Zapiola, sin nombre, que ajusta materiales y que según el texto se usa en varias escuelas argentinas, y talleres de Fundación Querer (https://epale.ec.europa.eu/es/blog/inteligencia-artificial-y-educacion-inclusiva-rompiendo-barreras); no verifiqué la app. Consulta (2026-10-13): 'adaptación de materiales inclusión educativa con inteligencia artificial docentes integradoras Argentina herramienta'.",
+    "hueco_ar": 3,
+    "nota": "Se mantiene en 3: no hay un jugador local claro, pero sí una app local mencionada sin verificar y uso extendido de herramientas generalistas."
+  }
+]

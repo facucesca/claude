@@ -1,0 +1,62 @@
+[
+ {
+  "id": "SEG-3-5",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "Octavo Piso (software argentino de gestión de edificios y barrios cerrados) registra infracciones (velocidad, horarios, mascotas sin correa, accesos indebidos a obras), las asocia a la unidad y las suma a la liquidación de expensas, según nota de Mercado: https://mercado.com.ar/ruta-digital/gestion-digital-y-fiscalizacion-en-barrios-cerrados-con-octavo-piso (WebSearch 2026-10-14, 'software barrio cerrado country infracciones multas reglamento interno app Argentina'). No verifiqué si releva con foto/geolocalización obras fuera de plano.",
+  "hueco_ar": 2,
+  "nota": "Ya hay un jugador local que cubre multas e infracciones; el hueco que queda sería el relevamiento con prueba (foto, plano) para la comisión de arquitectura, no verificado.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "SEG-4-2",
+  "presencia_ar": "alta",
+  "presencia_ar_detalle": "Existe monitoreo mayorista para instaladores: Keeper Monitoreo Mayorista (Alarmas Keeper S.R.L., 'servicios mayoristas para empresas de seguridad e instaladores de todo el país', perfil https://ar.computrabajo.com/keeper-monitoreo-mayorista) y DMA S.R.L. (Rosario, distribuidora mayorista que ofrece monitoreo, https://www.argentino.com.ar/dma-s-r-l-distribuidora-mayorista-de-alarmas-F1606C70713D8). WebSearch 2026-10-14 'monitoreo mayorista para instaladores de alarmas Argentina abono'. No encontré tarifas mayoristas publicadas.",
+  "hueco_ar": 1,
+  "nota": "El modelo 'central mayorista que le deja el abono al instalador' ya existe en Argentina; no es hueco.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "TEL-3-5",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "No encontré en 1 búsqueda (2026-10-14): 'alquiler fusionadora OTDR Argentina'. Solo aparecieron pliegos de compra (UNICEN 2022) y un proveedor de alquiler en España (Fusicom). No revisé Mercado Libre ni distribuidores de Fujikura/EXFO en Argentina, así que puede existir alquiler informal.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "RES-4-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "Mercado Libre Argentina tiene la categoría 'Autos chocados y averiados' (https://vehiculos.mercadolibre.com.ar/autos-chocados-averiados/), donde particulares publican; no es oferta instantánea ni gestiona la baja. No encontré un comprador online tipo Wheelzy con cotización y baja registral en Argentina en 1 búsqueda (2026-10-14): 'vender auto chocado o para desguace online cotización baja desarmadero Argentina' (resultados mayormente de España).",
+  "hueco_ar": 3,
+  "nota": "Hay canal de venta (clasificados) pero no encontré el servicio integral cotización+retiro+baja; 1 sola búsqueda.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "PET-1-3",
+  "etiqueta": "2.ª pasada 2026-10-14",
+  "solucion_2": {
+   "nombre": "Tesorio (Supplier Portals Agent)",
+   "pais": "EE.UU.",
+   "url": "https://help.tesorio.com/en/articles/10699018-overview-of-tesorio-s-supplier-portals-agent",
+   "que_hace": "Agente de IA que monitorea el estado de facturas en portales de clientes como Coupa y Ariba (leyendo los mails del portal) y, en la función de envío, cruza facturas con órdenes de compra, controla condiciones y saldo de la OC y sube la factura al portal.",
+   "traccion": "No lo pude verificar; la función de envío a portales figura con lista de espera (early access)",
+   "fuente_traccion": "centro de ayuda de Tesorio, artículo fechado 2025-04-01, leído 2026-10-14",
+   "verificado": "sí",
+   "como_verifique": "Descarga del artículo oficial del centro de ayuda con curl 2026-10-14 (HTTP 200); describe monitoreo y envío a Coupa/Ariba"
+  }
+ },
+ {
+  "id": "PET-4-2",
+  "etiqueta": "2.ª pasada 2026-10-14",
+  "nota": "INX Software cambió de nombre: inxsoftware.com redirige a quartexsoftware.com (INX + K2fly = Quartex).",
+  "solucion_2": {
+   "nombre": "Quartex (ex INX Software) — People logistics & rostering",
+   "pais": "Australia",
+   "url": "https://quartexsoftware.com/workforce-management/mobilisation-software/",
+   "que_hace": "Centraliza rosters, vuelos y alojamiento del personal en campamento: asigna habitaciones según el roster, detecta camas libres o subutilizadas, corrige reservas partidas con un 'auditor nocturno' y programa limpieza por habitación.",
+   "traccion": "La empresa dice '30% average reduction in daily travel requests requiring human intervention'. El dato previo de '55% de los trabajadores FIFO de Australia' no lo pude verificar",
+   "fuente_traccion": "sitio de la empresa, leído 2026-10-14 (dato de la propia empresa)",
+   "verificado": "sí",
+   "como_verifique": "curl 2026-10-14: inxsoftware.com/solution/logistics redirige a quartexsoftware.com; página de mobilisation software leída"
+  }
+ }
+]

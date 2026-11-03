@@ -1,0 +1,1788 @@
+{
+ "lotes": [
+  {
+   "lote": "vlote-01",
+   "verificaciones": [
+    {
+     "id_tmp": "N012",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "TuMango",
+       "url": "https://www.tumango.com.ar/",
+       "que_hace": "Web para hogares: subís la factura (PDF o foto) y negocia internet, cable y celular con Personal, Telecentro, Movistar, Claro, DirecTV, Fibertel e iPlan. Cobra el 20% del ahorro, una sola vez y solo si consigue la baja (ejemplo de su web: ahorro de $60.000 en 6 meses, comisión de $12.000). Cobra por Mercado Pago y tarda 15-20 días hábiles. La web no menciona PyMEs, prepagas, seguros ni renegociación periódica, y no publica cantidad de usuarios (consultada 2026-10-19). Salió en iProfesional el 2026-09-07 y también en Cronista y Culturageek.",
+       "parecido": "casi igual"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1: 'TuMango app negocia facturas internet celular Argentina'. Salieron notas de iProfesional (2026-09-07), Cronista y Culturageek sobre TuMango. Leí la nota de iProfesional y tumango.com.ar: es la misma mecánica que la idea (subís la factura, negocian por vos, cobran un % del ahorro solo si hay ahorro), pero solo para hogares y solo telecomunicaciones; no aparecen PyMEs, prepagas ni seguros. Búsqueda 2: 'consultora reducción de costos empresas Argentina cobra porcentaje del ahorro telefonía seguros servicios'. No apareció ninguna firma argentina, solo ERA (España, Colombia) y TeleGestão/ViaW (Brasil). Hice una sola búsqueda del lado PyME, así que no alcanza para afirmar que en Argentina no exista.",
+     "evidencia_afuera": "Corrección: el generador dice que afuera nadie lo hace para PyMEs, pero sí hay quien lo hace. Expense Reduction Analysts es una franquicia que, según Portafolio, en Colombia cobra el 50% de lo que logra reducir. En Brasil, TeleGestão cobra un % sobre la baja de la factura telefónica de empresas (declara una baja promedio del 35%) y ViaW declara hasta 50% de reducción en telecom. Son cifras de las propias empresas y no verifiqué las fechas de las notas. El 40% de Billshark sigue con su fuente; en Argentina la referencia de precio ya es el 20% de TuMango.",
+     "score_ajustado": {
+      "innovacion": 4,
+      "factibilidad_facu": 7,
+      "brecha_argentina": 3,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "La versión para hogares ya existe: TuMango (tumango.com.ar) recibe tu factura, negocia internet, cable y celular y cobra el 20% del ahorro solo si lo consigue (iProfesional, 2026-09-07). Si seguís, olvidate del consumidor. El único hueco que vi son las PyMEs (varias líneas, seguros, prepagas, software) con renegociación periódica, y eso afuera ya lo hacen consultoras como ERA o TeleGestão en Brasil. Opinión: TuMango podría sumar empresas en cualquier momento. Lo mismo vale para N173.",
+     "busquedas_hechas": 2,
+     "fuentes": [
+      "https://www.iprofesional.com/actualidad/463831-una-plataforma-negocia-por-vos-descuentos-con-las-empresas-de-internet-y-celular",
+      "https://www.tumango.com.ar/",
+      "https://culturageek.com.ar/tumango-descuentos-facturas/",
+      "https://www.cronista.com/informacion-gral/aumentos-esta-app-te-permite-reducir-el-precio-de-tus-facturas/",
+      "https://www.portafolio.co/economia/finanzas/pone-venta-modelo-franquicia-asesorias-200898",
+      "https://www.baguete.com.br/noticias/telegestao-quer-a-sua-conta-de-telefone",
+      "https://www.baguete.com.br/noticias/viaw-consultoria-reduz-custos-com-operadoras"
+     ]
+    },
+    {
+     "id_tmp": "N013",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Liquidadores de siniestros y averías matriculados (figura legal, registro de la SSN)",
+       "url": "https://www.argentina.gob.ar/node/57787",
+       "que_hace": "Según la página oficial, son expertos sin relación de dependencia que cobran solo por honorarios y pueden ser contratados por asegurados o por aseguradoras: investigan el siniestro, ven si está cubierto y calculan el daño. La actividad tiene matrícula y registro en la SSN, y la matrícula se paga cada año entre el 1 de marzo y el 1 de mayo. Es el servicio humano, sin plataforma; no sé cuántos trabajan del lado del asegurado.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Globaim",
+       "url": "https://mercado.com.ar/negocios/globaim-inicia-operaciones-en-argentina",
+       "que_hace": "Consultora internacional de siniestros. Según una nota del 2026-09-10, abre en Argentina, México y Chile con respaldo de Miura Partners. Asesora de forma independiente para preparar y resolver reclamos complejos (peritación, arbitrajes, litigios) de empresas, brokers y corredores de energía, industria, construcción, infraestructura, lucro cesante y ciberriesgos. La nota no menciona particulares, forma de cobro ni IA.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "AutoReclamo",
+       "url": "https://www.baenegocios.com/negocios/una-plataforma-permitira-hacer-todos-los-tramites-luego-de-un-choque-20200928-0070.html",
+       "que_hace": "Startup argentina lanzada en 2020 por Martín Centeno y Juan Crovetto para resolver los trámites después de un choque: contacto con el seguro, talleres, repuestos y asesores legales. Arrancó en CABA y GBA. No verifiqué si sigue activa.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "Posible antecedente: AutoReclamo, startup argentina de trámites después de un choque (BAE Negocios, 2020-09-28). En mis búsquedas no apareció ninguna noticia posterior. No verifiqué si cerró, si pivoteó o si sigue activa.",
+     "evidencia_argentina": "Búsqueda 1: 'gestor de siniestros para el asegurado Argentina reclamo aseguradora \"liquidador\" particular'. Salió la página oficial de la SSN (argentina.gob.ar/node/57787): el liquidador matriculado puede ser contratado por el asegurado. Eso corrige al generador, que decía que esa figura trabaja para la aseguradora. También salió Globaim; leí la nota de mercado.com.ar del 2026-09-10 y apunta a reclamos grandes de empresas. Búsqueda 2: 'gestión reclamo a terceros seguro auto Argentina cobramos al final porcentaje online'. Salieron guías legales, estudios que ofrecen 'reclamo de terceros' (por ejemplo estudiovilaplana.com.ar, página que no leí) y AutoReclamo. Búsqueda 3: 'AutoReclamo plataforma choque trámites aseguradora Argentina'. Solo apareció la nota de 2020. En esos resultados figura además el sistema CLEAS de Cesvi Argentina, que permite reclamarle a la propia aseguradora; según la nota, el trámite bajó de unos 45 días a 8 en promedio. Probablemente sea la de diariodecuyo.com.ar, que no leí. Eso le saca dolor al caso auto. No encontré ninguna plataforma con IA que trabaje del lado del asegurado en siniestros de hogar, comercio o PyME con cobro por éxito. El dato de memoria del generador sobre la Ley 17.418, art. 56 (30 días) sigue sin verificar.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 7
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "La figura del lado del asegurado ya existe en la ley argentina: según la SSN, un liquidador matriculado puede trabajar para vos. O sea, no importás una profesión nueva; lo nuevo sería la plataforma con IA para siniestros chicos de hogar, comercio o PyME. Globaim abrió en Argentina (2026-09-10), pero para reclamos grandes de empresas, y AutoReclamo (2020) hacía algo parecido en autos, sin noticias después. Opinión: para operar casi seguro necesitás un liquidador matriculado como socio.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.argentina.gob.ar/node/57787",
+      "https://mercado.com.ar/negocios/globaim-inicia-operaciones-en-argentina",
+      "https://www.baenegocios.com/negocios/una-plataforma-permitira-hacer-todos-los-tramites-luego-de-un-choque-20200928-0070.html",
+      "https://estudiovilaplana.com.ar/reclamo-de-terceros",
+      "https://www.derechoenzapatillas.com/2020/el-reclamo-a-la-aseguradora-de-quien-me-choco/",
+      "https://www.diariodecuyo.com.ar/noticias/reclamar-a-la-propia-compania-1011852.html"
+     ]
+    },
+    {
+     "id_tmp": "N020",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Tarjeta Integrar Plus (Consejo Salud, CPCECABA)",
+       "url": "https://consejo.org.ar/noticias/2019/tarjeta-integrar-plus-conseguila",
+       "que_hace": "Tarjeta para matriculados del Consejo Profesional de Ciencias Económicas de CABA y sus familias, no para el público general. En 2019 costaba ARS 300 por mes y daba valores preferenciales en consultas, estudios de diagnóstico y farmacias; se paga solo lo que se usa. El precio de hoy no está verificado.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "FavaSalud (Favacard S.A.)",
+       "url": "https://dunsguide.com/company/f8898276b2dbb597e3f835f3924d5764/favacard-sa",
+       "que_hace": "Según su ficha en un directorio de empresas, es una tarjeta de descuentos en farmacias que suma odontología, emergencias y consultas a domicilio. No compara precios ni vende prácticas.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "cuantomecuesta.com (Argentina)",
+       "url": "https://cuantomecuesta.com/ar/medico-clinico/",
+       "que_hace": "Guía de precios estimados de atención sin cobertura (mayo 2026): consulta con un clínico ARS 25.000-90.000 y chequeo anual ARS 100.000-400.000. Son rangos de referencia: no pide cotizaciones, no reserva turnos y no cobra por adelantado.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "ElegíMejor",
+       "url": "https://www.descubre.vc/eligí-mejor",
+       "que_hace": "Comparador gratuito de planes de prepaga que cobra comisión a la prepaga cuando se concreta la afiliación. Es el mismo modelo de cobro (paga el prestador), pero para otra decisión: elegir un plan, no comprar una práctica.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1: 'plataforma comparar precios particulares resonancia cirugía Argentina sin obra social'. Solo salieron comparadores de prepagas (ElegíMejor, Comparaprepagas) y de medicamentos; nada de prácticas pagadas de contado. Búsqueda 2: 'precio particular estudios médicos turno online pago anticipado plataforma Argentina descuento sin cobertura'. Salieron la guía de precios cuantomecuesta.com/ar, notas sobre prepagas baratas y turnos online en hospitales bonaerenses; ninguna plataforma que venda estudios a precio particular con pago por adelantado. Búsqueda 3: 'tarjeta de descuentos en salud sin obra social Argentina estudios médicos cirugías red de prestadores precio particular'. Aparecieron tarjetas de descuento con red de prestadores (Integrar Plus, FavaSalud) y el programa de descuento en medicamentos. No encontré un equivalente argentino de MDsave (ronda de precios a varias clínicas, paquete cerrado y voucher prepago). Sigue sin verificar Doctoralia y el dato de memoria del generador sobre gente que bajó de plan de prepaga: no lo busqué.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 7,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 7
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No encontré un MDsave argentino: nadie junta los precios de contado de varias clínicas, los cierra en un paquete y cobra por adelantado. Lo más cercano son tarjetas de descuento con red de prestadores (Integrar Plus, del Consejo de Ciencias Económicas, y FavaSalud) y guías de precios estimados como cuantomecuesta.com. El hueco parece real; el riesgo sigue siendo que las clínicas acepten dar el precio por escrito. Lo mismo vale para N040 y N119.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.descubre.vc/eligí-mejor",
+      "https://www.lanacion.com.ar/tecnologia/el-precio-de-la-salud-las-mejores-plataformas-para-comparar-los-costos-de-la-medicina-prepaga-nid29122023/",
+      "https://cuantomecuesta.com/ar/medico-clinico/",
+      "https://consejo.org.ar/noticias/2019/tarjeta-integrar-plus-conseguila",
+      "https://dunsguide.com/company/f8898276b2dbb597e3f835f3924d5764/favacard-sa",
+      "https://www.iprofesional.com/economia/403751-te-quedaste-sin-prepaga-como-sacar-turnos-online-en-hospitales-bonaerenses"
+     ]
+    },
+    {
+     "id_tmp": "N072",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Italtest",
+       "url": "https://www.lagaceta.com.ar/nota/1046342/sociedad/comproba-si-podes-recibir-ciudadania-italiana-traves-este-test-gratuito.html",
+       "que_hace": "Test gratis de 47 preguntas (respuestas sí, no o no sé) para saber si cumplís la 'elegibilidad mínima' para la ciudadanía italiana. Lo lanzó el diseñador argentino Marcos Lizenberg en agosto de 2024, sin registro ni datos personales. Es anterior a la Ley 74/2025 y no verifiqué si se actualizó. Cubre una sola ruta y no arma el expediente.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1: 'ciudadanía italiana nueva ley 74/2025 evaluación elegibilidad online plataforma Argentina'. Solo salieron notas sobre la ley y los fallos (La Capital, iProfesional, Tiempo de San Juan) y un estudio italiano que ofrece la vía judicial (mbersanilaw.com); ninguna plataforma de evaluación. Búsqueda 2: 'evaluación gratuita ciudadanía italiana online nueva ley 2025 Argentina test calificás'. Apareció Italtest (La Gaceta). Búsqueda 3: 'gestoría ciudadanía italiana Argentina vía judicial bisnietos 2026 evaluación de caso online precio'. Salieron notas de 2025 sobre la vía judicial para bisnietos (Canal 26, 2025-08-01; LM Neuquén; Diario Panorama). El resumen del buscador menciona que el diputado Franco Tirelli denunció abusos y estafas de gestores y estudios, pero no identifiqué en qué nota. No apareció ningún gestor con precio fijo publicado ni ningún evaluador que compare varias rutas (Italia, España, residencia). Leí la nota de iProfesional (fechada 2025-08-01): un juez de Turín consideró inconstitucional la Ley 74/2025 y la elevó a la Corte Constitucional; la ley sigue vigente, y bisnietos y tataranietos pueden invocar el fallo por vía judicial.",
+     "evidencia_afuera": "Corrección parcial al 'por qué ahora': el negocio de los gestores no quedó muerto, porque la vía judicial para bisnietos sigue abierta mientras se discute la constitucionalidad. Según la nota de iProfesional del 2025-08-01, un juez de Turín elevó la ley a la Corte Constitucional; no verifiqué si la Corte ya falló al 2026-10-19. La fecha de cierre de la ley de nietos española sigue sin verificar (no la busqué). Boundless y Lexidy: sin cambios.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 7,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "Lo más parecido que encontré es Italtest, un test gratis argentino de elegibilidad lanzado en agosto de 2024, antes de la reforma. No vi a nadie que compare varias rutas (Italia por consulado o por juicio, España, residencia) ni gestores con precio fijo publicado. Ojo con dos cosas: la ley está en revisión judicial (Turín la elevó a la Corte Constitucional) y hay denuncias públicas contra gestores, así que la confianza es el producto.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.lagaceta.com.ar/nota/1046342/sociedad/comproba-si-podes-recibir-ciudadania-italiana-traves-este-test-gratuito.html",
+      "https://www.iprofesional.com/management/434272-ciudadania-italiana-fallo-judicial-favorece-a-argentinos-descendientes",
+      "https://www.lacapital.com.ar/informacion-general/un-tribunal-italiano-declaro-inconstitucional-la-nueva-ley-que-restringe-la-adquisicion-la-ciudadania-ese-pais-n10203856.html",
+      "https://www.losandes.com.ar/sociedad/ya-es-ley-el-decreto-que-limita-el-acceso-la-ciudadania-italiana-como-afecta-los-argentinos-n5949066",
+      "https://mbersanilaw.com/italian-citizenship-law-2025-overcoming-the-restrictions-through-court-appeals/",
+      "https://www.canal26.com/general/2025/08/01/miles-de-argentinos-podran-obtener-la-ciudadania-italiana-pese-a-las-restricciones-que-dice-el-nuevo-fallo-judicial-y-que-cambia/"
+     ]
+    },
+    {
+     "id_tmp": "N075",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "calcularsueldo.com.ar",
+       "url": "https://calcularsueldo.com.ar/jubilaciones/calcular-jubilacion",
+       "que_hace": "Simulador y calculadora de jubilación gratis. También publicó una guía para bajar la historia laboral de Mi ANSES y subirla a ChatGPT, que calcula los años y meses de aporte por empleador: es una versión casera y gratis del núcleo de la idea. No hace estrategia ni deriva a abogados.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "hacecuentas.com",
+       "url": "https://hacecuentas.com/calculadora-cuanto-voy-a-cobrar-jubilacion-haber-estimado",
+       "que_hace": "Calculadora gratis del haber estimado del régimen general: 1,5% por año sobre el promedio de las remuneraciones actualizadas.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "servidos.ar",
+       "url": "https://servidos.ar/calculadora-jubilacion",
+       "que_hace": "Calculadora gratis de jubilación que tiene en cuenta el reconocimiento de aportes por hijos y aclara que las cajas provinciales o profesionales tienen otras reglas.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1: 'app simulador jubilación historia laboral ANSES inteligencia artificial Argentina'. No apareció ninguna app, pero sí la guía de calcularsueldo.com.ar para pasarle la historia laboral a ChatGPT, más notas sobre cómo consultar los aportes en Mi ANSES (Cronista; Canal 26, 2025-12-09). Búsqueda 2: 'plataforma online diagnóstico previsional jubilación aportes faltantes Argentina startup abogado'. Resultados que no sirven (startups de salud); nada previsional. Búsqueda 3: 'calculadora jubilación online Argentina simulador haber años de aporte estudio previsional gratis'. Aparecieron calculadoras gratis: calcularsueldo.com.ar, hacecuentas.com, servidos.ar, richify.ai/es/ar (no la abrí) y un simulador de iProfesional. Ninguna junta el diagnóstico de huecos, la estrategia (PUAM, reconocimiento de servicios, reclamo) y la derivación a un abogado. No verifiqué ningún estudio previsional por nombre ni la fecha de vencimiento de la moratoria de la Ley 27.705, que sigue sin verificar.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 7,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Ya hay calculadoras gratis del haber (calcularsueldo.com.ar, hacecuentas.com, servidos.ar) y hasta una guía para pasarle tu historia laboral de Mi ANSES a ChatGPT: lo de 'la IA lee tu historia' ya se hace en casa y gratis. Dato nuevo, por eso bajé la innovación. No vi a nadie que junte diagnóstico de huecos, estrategia y derivación a un abogado, así que el valor tiene que estar ahí y no en el cálculo. Opinión: cobrarle a la persona USD 15-30 por el informe va a costar. Lo mismo vale para N115.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://calcularsueldo.com.ar/jubilaciones/7053/jubilaciones-como-calcular-los-anos-de-aporte-que-tengo-con-chatgpt.html",
+      "https://calcularsueldo.com.ar/jubilaciones/calcular-jubilacion",
+      "https://hacecuentas.com/calculadora-cuanto-voy-a-cobrar-jubilacion-haber-estimado",
+      "https://servidos.ar/calculadora-jubilacion",
+      "https://www.richify.ai/es/ar/calculadora-jubilacion",
+      "https://www.cronista.com/informacion-gral/como-saber-en-5-minutos-si-tenes-todos-tus-aportes-jubilatorios-registrados-en-anses/",
+      "https://www.canal26.com/economia/2025/12/09/pensando-en-la-jubilacion-como-consultar-los-aportes-registrados-a-lo-largo-de-toda-la-historia-laboral-a-traves-de-mi-anses/"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "vlote-02",
+   "verificaciones": [
+    {
+     "id_tmp": "N014",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Superintendencia de Servicios de Salud (denuncia por problemas de cobertura)",
+       "url": "https://www.argentina.gob.ar/reclamar-por-problematicas-de-cobertura-prestacional",
+       "que_hace": "Canal estatal gratuito para denunciar problemas de cobertura de obras sociales y prepagas: online por Trámites a Distancia (TAD) con clave de ARCA o Mi Argentina, o presencial, telefónico o postal. El formulario admite al titular, a un apoderado o a un gestor. Según la página (leída a través del buscador), el trámite se rige por la Res. 951/2025.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Abogados particulares y Defensorías Públicas Federales (amparos de salud)",
+       "url": "https://www.diariojornada.com.ar/382231/economia/recrudecen_conflictos_entre_afiliados_y_prepagas_por_las_prestaciones",
+       "que_hace": "Llevan el amparo judicial contra prepagas y obras sociales. Los estudios cobran según el profesional y las defensorías públicas son gratuitas (nota de 2024).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-18 (no leí ninguna página completa): 1) 'reclamo prepaga obra social inteligencia artificial app argentina': solo salieron canales oficiales (afiche de la SSSalud de 2020, 0800-222-SALUD) y prepagas que usan IA para atender a sus propios afiliados (Premedic con su 'Médico IA', Infobae 2026-07-21). Ninguna app de reclamos. 2) 'plataforma online reclamos cobertura prepagas superintendencia amparo argentina': la página oficial dice que la denuncia ante la SSSalud se hace por TAD con clave de ARCA o Mi Argentina, se rige por la Res. 951/2025, pide prescripción e historia clínica, y el formulario admite 'apoderado o gestor'. Según Papelea, la prepaga responde en los plazos de la Res. 075/1998 y, si la respuesta no conforma, hay 10 días para pedir que la SSSalud siga. Según La Capital (noviembre de 2024), los amparos subieron 30-40 % en 2024 contra 2023 (estimación del Colegio de Abogados). 3) 'legaltech amparo salud prepaga online argentina reclamo cobertura abogados plataforma': solo fallos y una nota de Diario Jornada (2024): el afiliado va a un abogado particular o a las defensorías públicas federales. 4) 'startup app afiliados reclamo prepaga negativa cobertura medicamento discapacidad argentina': jurisprudencia y un informe del CELS (2024) sobre los cambios en prepagas y discapacidad. Ninguna startup. Resultado: no encontré ninguna plataforma privada que automatice la nota y el trámite ante la SSSalud. Lo de la página oficial sale del resumen del buscador.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En 4 búsquedas no encontré ninguna plataforma privada en Argentina que arme el reclamo contra la prepaga y lo siga. Hoy el afiliado tiene el canal gratis de la Superintendencia por TAD y, para el amparo, abogados o las defensorías públicas federales (gratis). Tu hueco es el medio: la nota formal, el expediente en la SSSalud y el legajo listo para el abogado. Ojo: TAD pide la clave de ARCA o Mi Argentina del afiliado, así que presenta él o un apoderado. El producto arma y sigue el reclamo, pero no lo firma solo.",
+     "busquedas_hechas": 4,
+     "fuentes": [
+      "https://www.argentina.gob.ar/reclamar-por-problematicas-de-cobertura-prestacional",
+      "https://www.argentina.gob.ar/servicio/reclamar-por-problematicas-de-cobertura-prestacional",
+      "https://papelea.com/ar/ministerio-de-salud/reclamar-por-problematicas-de-cobertura-prestacional",
+      "https://www.lacapital.com.ar/la-ciudad/derecho-la-salud-que-deben-cubrir-las-prepagas-y-como-reclamar-las-negativas-n10163020.html",
+      "https://www.diariojornada.com.ar/382231/economia/recrudecen_conflictos_entre_afiliados_y_prepagas_por_las_prestaciones",
+      "https://argentina.gob.ar/sites/default/files/2020/02/afiche_075_ultimo.pdf",
+      "https://www.infobae.com/inhouse/2026/07/21/accesible-innovadora-y-dinamica-una-propuesta-de-salud-integral-que-crece-en-la-argentina/",
+      "https://www.cels.org.ar/web/wp-content/uploads/2024/09/CELS_SALUD-EN-AGONIA.pdf"
+     ]
+    },
+    {
+     "id_tmp": "N025",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Zolvers",
+       "url": "http://zolvers.com/",
+       "que_hace": "Conecta familias con empleadas domésticas y con servicios de limpieza y mantenimiento del hogar en Argentina, Chile, Colombia y México. Promete 'perfil verificado, experiencia y referencias comprobables'. La familia paga a la plataforma un pago inicial único, y el sueldo va directo a la trabajadora. El perfil vive dentro de Zolvers: la página no dice que sirva afuera.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Truora",
+       "url": "https://www.truora.com/",
+       "que_hace": "Validación de identidad, antecedentes y 'Truora Pass' (identidad reutilizable) para empresas. Incluye a Argentina entre sus países. Lo verificó el generador el 2026-10-18, no yo.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Argentina Labura",
+       "url": "https://www.cadena3.com/noticia/la-argentina-posible/argentina-labura-la-app-que-conecta-oficios-y-fomenta-el-trabajo-local_485833",
+       "que_hace": "App gratuita que conecta a quienes ofrecen y buscan oficios (plomeros, carpinteros, electricistas). La nota no dice si verifica identidad ni referencias.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Clickie",
+       "url": "https://www.iprofesional.com/management/464476-aplicaciones-para-buscar-trabajo-en-argentina-que-no-son-linkedin",
+       "que_hace": "Según iProfesional, conecta trabajadores de oficios con clientes usando IA. No hay datos sobre verificación.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-18: 1) 'referencias laborales verificadas empleadas domésticas plataforma argentina': Zolvers aparece como la principal plataforma argentina de empleo doméstico (estudios en Perfiles Latinoamericanos 2025 y en la revista CRLA de la UCM). En Paraguay salieron Helpers (verifica referencias, antecedentes y psicotécnicos) y Good Reference (banco de referencias laborales para consultoras, más de 3.100 registros). 2) 'perfil verificado trabajador oficios app argentina referencias': Argentina Labura (Cadena 3) y Clickie (iProfesional), sin datos de verificación. Leí zolvers.com el 2026-10-18: opera en Argentina, Chile, Colombia y México. Promete 'perfil verificado, experiencia y referencias comprobables' y trabajadoras 'evaluadas en aspectos técnicos'. La familia paga un pago inicial único. La página no dice si verifica identidad o antecedentes penales, ni si el perfil sirve fuera de Zolvers. No encontré un perfil de referencias que sea del trabajador informal y que lo acompañe a cualquier trabajo.",
+     "evidencia_afuera": "Sin cambios sobre Xref, Checkr y BetterPlace. Suma regional (sale del resumen del buscador, no leí las notas): en Paraguay, Helpers verifica referencias, antecedentes y psicotécnicos del personal doméstico, y Good Reference es un banco de referencias laborales para consultoras con más de 3.100 registros (infonegocios.com.py).",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Hay competencia en el segmento que más paga: Zolvers ya les vende a las familias empleadas domésticas con 'perfil verificado, experiencia y referencias comprobables' (Argentina, Chile, Colombia y México), y Truora hace identidad y antecedentes para empresas. Lo que queda libre es más angosto: un perfil de referencias que sea del trabajador y le sirva fuera de cualquier plataforma (albañiles, cuidadores, repartidores), con la llamada de referencia hecha por IA. Si la seguís, el que paga es una empresa, no la familia.",
+     "busquedas_hechas": 2,
+     "fuentes": [
+      "http://zolvers.com/",
+      "https://doaj.org/article/c6305fa06ddb4403b3803c35bf2e9bfb",
+      "https://revistas.ucm.es/index.php/CRLA/es/article/view/101732",
+      "https://infonegocios.com.py/conosur/plataforma-nacional-facilita-el-acceso-a-referencias-laborales-mas-3-100-registros",
+      "https://infonegocios.com.py/amp/default/helpers-la-nueva-plataforma-digital-que-busca-revolucionar-la-industria-del-servicio-domestico",
+      "https://www.cadena3.com/noticia/la-argentina-posible/argentina-labura-la-app-que-conecta-oficios-y-fomenta-el-trabajo-local_485833",
+      "https://www.iprofesional.com/management/464476-aplicaciones-para-buscar-trabajo-en-argentina-que-no-son-linkedin",
+      "https://www.truora.com/"
+     ]
+    },
+    {
+     "id_tmp": "N047",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "LotePerfecto",
+       "url": "https://bichosdecampo.com/despues-de-probar-que-era-posible-arrendar-campos-de-forma-digital-la-startup-loteperfecto-sumo-herramientas-de-ia-para-asesorar-a-empresas-con-gran-rotacion-de-alquileres/",
+       "que_hace": "Startup de jóvenes de Mar del Plata, lanzada a mediados de 2024 (José Robetto e Iñaki Albisu, vinculados a PONCE). Conecta dueños de campo con productores y empresas que quieren arrendar. El dueño publica sin comisión y fija el precio en USD, kg o quintales de soja por hectárea, y el arrendatario reporta siembra, pulverización y cosecha con auditoría de un tercero. Desde 2026 cobra a las empresas una suscripción más un fee por alquiler, y sumó dos agentes de IA para buscar lotes y para ayudar a publicar. No vi tasación ni contratos.",
+       "parecido": "casi igual"
+      },
+      {
+       "nombre": "Cocampo",
+       "url": "https://www.cocampo.com/ar/es/",
+       "que_hace": "Portal de avisos para comprar, vender o arrendar campos, con filtros por precio, superficie y aptitud. Dice tener 40.000 activos: es cifra propia, no verificada, y sale del resumen del buscador.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Mercado Libre Inmuebles (campos en alquiler)",
+       "url": "https://inmuebles.mercadolibre.com.ar/campos/alquiler/_Tienda_all",
+       "que_hace": "Avisos de campos en alquiler, muchos de uso recreativo. En Buenos Aires interior había muy pocos resultados.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Informes de Márgenes Agropecuarios del MAGyP",
+       "url": "https://www.magyp.gob.ar/sitio/areas/analisis_economico/margenes/_archivos/000001_Informes de Márgenes y Resultados/202500_2025/251200_Margenes Resultados (Diciembre 2025).pdf",
+       "que_hace": "Estiman el arrendamiento por zona en quintales de soja por hectárea y en USD por hectárea. Es una referencia pública por región, no por lote.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "No encontré cierres. LotePerfecto sigue activo pero cambió el foco. En enero de 2025 era un marketplace abierto con uso bonificado para el dueño (Bichos de Campo, 2025-01-29). En abril de 2026 cobra suscripción mensual más fee por alquiler a empresas con mucha rotación de alquileres, con un piloto desde el 13 de marzo con Manisel, CTA y McCain (Bichos de Campo, 2026-04-12). La nota no explica por qué. Inferencia propia: el que paga es la empresa grande que alquila mucho, no el dueño ni el productor chico.",
+     "evidencia_argentina": "Búsquedas del 2026-10-18: 1) 'plataforma arrendamiento de campos argentina online alquiler campos': aparecieron LotePerfecto (Bichos de Campo), Cocampo (comprar, vender o arrendar campos) y la sección de campos en alquiler de Mercado Libre. 2) 'calculadora valor arrendamiento campo por zona argentina herramienta': no hay tasador de renta. Sí está Hacecuentas (margen por hectárea por zona, 2026), y los informes de Márgenes del MAGyP estiman el arrendamiento por zona en quintales de soja por hectárea y en USD por hectárea (diciembre de 2025). La BCR (agosto de 2026) también publica sobre arrendamientos. Esto contradice en parte la ficha, que decía que no hay referencia pública por zona: la hay por región, no por lote. 3) 'LotePerfecto arrendamiento campos plataforma': sigue activo en 2026. Lecturas: Bichos de Campo 2025-01-29 (unos 150 lotes publicados, de 20 ha o más; uso bonificado para el dueño; según su CEO, en Argentina se alquila el 60 % de la superficie que se produce) y Bichos de Campo 2026-04-12 (dos agentes de IA; las empresas pagan suscripción más fee por alquiler; el dueño publica sin comisión ni exclusividad). Ninguna de las dos notas menciona tasación ni contratos.",
+     "evidencia_afuera": "Tillable sigue sin verificar: no gasté búsqueda porque usé el cupo en Argentina.",
+     "score_ajustado": {
+      "innovacion": 4,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 3,
+      "por_que_ahora": 5,
+      "potencial": 7
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Ya existe y está activa: LotePerfecto (Mar del Plata, desde 2024) conecta dueños con productores, el dueño publica sin comisión y en 2026 les cobra a las empresas suscripción más fee por alquiler cerrado. Es tu mismo modelo. También Cocampo y Mercado Libre publican campos en alquiler, y el MAGyP ya publica el arrendamiento por zona en quintales de soja, así que la falta de referencia es menor de lo que decía la ficha. Lo único que no vi es el tasador por lote con revisión de contrato para el dueño ausente, y eso solo es una herramienta gratis, no un negocio. Opinión: con CEMEVA te conviene más ser canal o socio de LotePerfecto que competirle.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://bichosdecampo.com/el-caso-loteperfecto-si-todavia-no-encontraste-un-campo-para-sembrar-o-estas-en-busqueda-de-alquilar-el-tuyo-esta-nueva-plataforma-podria-ser-una-solucion/",
+      "https://bichosdecampo.com/despues-de-probar-que-era-posible-arrendar-campos-de-forma-digital-la-startup-loteperfecto-sumo-herramientas-de-ia-para-asesorar-a-empresas-con-gran-rotacion-de-alquileres/",
+      "https://www.cocampo.com/ar/es/",
+      "https://www.cocampo.com/ar/es/news/descubri-cocampo/",
+      "https://inmuebles.mercadolibre.com.ar/campos/alquiler/_Tienda_all",
+      "https://hacecuentas.com/calculadora-rural-rentabilidad-hectarea-soja-maiz-trigo-2026",
+      "https://www.magyp.gob.ar/sitio/areas/analisis_economico/margenes/_archivos/000001_Informes de Márgenes y Resultados/202500_2025/251200_Margenes Resultados (Diciembre 2025).pdf",
+      "https://www.bcr.com.ar/es/print/pdf/node/117214"
+     ]
+    },
+    {
+     "id_tmp": "N048",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-18 (no leí ninguna página completa): 1) 'plataforma fasón alimentos argentina marcas fabricar a façon': nada específico. Salió un folleto del MAGyP, 'Servicios para Pymes Alimentarias', con una 'Plataforma para PyMEs de alimentos y bebidas' cuyo contenido no pude ver. 2) 'capacidad ociosa plantas alimentos plataforma conectar marcas argentina startup': solo empresas vecinas. Kitchenita franquicia conceptos gastronómicos en cocinas con capacidad ociosa (restaurantes y dark kitchens, no plantas); también Kigüi (desperdicio de alimentos) y Tomorrow Foods (ingredientes B2B). 3) 'elaboración a façon alimentos argentina tercerizar producción marca propia plataforma directorio': ninguna plataforma. Salió el caso Tía Maruca (abril de 2026): dejó de producir en su planta de San Juan y pasó a fabricar a façon en plantas de terceros, y la planta sigue produciendo para cadenas y marcas blancas (Infobae 2026-04-19, Los Andes, iProfesional). 4) 'maquila co-packing alimentos argentina plataforma conecta emprendedores con fábricas': solo Mercado XL (iProUP, 2020), un marketplace B2B donde fabricantes venden a minoristas, no producción por encargo; no sé si sigue activo. Me pasé en una búsqueda del presupuesto. Advertencia (estimación propia): este buscador encuentra mal los directorios y brokers chicos argentinos.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 7,
+      "por_que_ahora": 6,
+      "potencial": 7
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En 4 búsquedas no apareció ninguna plataforma argentina que conecte marcas chicas con plantas de alimentos a façon, ni que publique capacidad ociosa. Solo vecinos: Mercado XL (de fabricantes a minoristas, 2020) y Kitchenita (cocinas ociosas de restaurantes). Señal a favor: en abril de 2026 Tía Maruca dejó de producir en su planta de San Juan y pasó a fabricar a façon en plantas de terceros. Ojo: el buscador encuentra mal los directorios chicos, así que antes de invertir preguntale a 5 plantas cómo les llegan hoy los pedidos de fasón.",
+     "busquedas_hechas": 4,
+     "fuentes": [
+      "https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/difusion-y-publicaciones/material/Servicios _para_Pymes_Alimentarias_Brochure.pdf",
+      "https://www.descubre.vc/kitchenita",
+      "https://www.iproup.com/economia-digital/16113-mercado-xl-como-funciona-el-servicio-que-conecta-a-fabricantes-con-minoristas",
+      "https://www.infobae.com/economia/2026/04/19/la-historica-marca-de-galletitas-tia-maruca-deja-de-producir-en-san-juan-que-pasara-con-la-firma/",
+      "https://www.losandes.com.ar/cambia-la-marca-galletitas-tia-maruca-deja-producir-san-juan-y-tiene-nuevo-esquema-la-crisis-n5988271",
+      "https://www.iprofesional.com/negocios/452785-tia-maruca-cierra-planta-san-juan-alerta-mercado-galletitero"
+     ]
+    },
+    {
+     "id_tmp": "N065",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Defensa del Consumidor (Nación y CABA) y BA Concilia",
+       "url": "https://www.argentina.gob.ar/defensadelconsumidor",
+       "que_hace": "Reclamo online gratuito ante Defensa del Consumidor. En CABA, además, reclamo digital y BA Concilia, una plataforma para conciliar en línea con las empresas adheridas. El consumidor lo hace solo.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "ZTZ Tech Group",
+       "url": "https://www.df.cl/df-mas/punto-de-partida/el-software-que-quiere-acabar-con-la-burocracia-en-las-empresas-a-traves",
+       "que_hace": "Software de IA creado en Buenos Aires por Nicolás Vilela e Ignacio Raffa; la empresa nació en Chile con apoyo de Start-Up Chile. Ayuda a las empresas a responder los reclamos ante el Sernac, Defensa del Consumidor o Indecopi. Clientes: Mercado Libre, Uber, Cencosud, Falabella Perú. Cobra USD 1 por documento procesado. En 2022 operaba en México, Colombia, Perú y Chile; no confirmé que opere hoy en Argentina.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-18: 1) 'plataforma reclamos vuelos cancelados compensación argentina startup': ninguna argentina. Solo europeas (AviFly, Reflights, Reclamador, Airning) y un fallo de Bahía Blanca que condenó a Despegar y Aerolíneas a pagar unos $30 millones a un pasajero (iProfesional, 2026-07-16). 2) 'app reclamos consumidor inteligencia artificial argentina startup honorario éxito': ZTZ Tech (lado empresa), un proyecto de ley sobre IA en las relaciones de consumo y una nota sobre un experimento de Kleros con casos de Lemon. Ninguna plataforma para el consumidor. 3) 'reclamos defensa del consumidor online argentina cobramos solo si ganás vuelos bancos plataforma': solo canales públicos gratis, como el reclamo online de CABA y BA Concilia. También una guía de iProfesional (el reclamo es gratuito) y un ranking de Perfil con 158.091 reclamos entre enero y julio de 2026, encabezado por servicios financieros (dato del resumen del buscador; no leí la nota). Lectura: df.cl (2022-09-02) sobre ZTZ Tech. Pendiente: el orquestador mencionó TuMango (renegocia facturas de internet y celular), que se superpone con la vertical telefonía; no lo verifiqué en esta pasada.",
+     "evidencia_afuera": "Sin cambios sobre Resolver, Reclamador y DoNotPay. Honorarios de referencia en vuelos (resúmenes del buscador, no leí las notas): AviFly cobra 15 % + IVA; Reflights, 25 %, 20 % o 15 % según el plazo (elreferente.es); Reclamador, 30 % en un reclamo individual de vuelo (Genbeta, sin fecha a la vista). El 40 % + IVA que citó el generador puede ser de otro tipo de caso. Estos modelos viven del reglamento europeo EU261. Según el resumen del buscador, Argentina no tiene uno equivalente (no verificado), y eso debilita copiar tal cual la vertical vuelos.",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 7,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En 3 búsquedas no encontré en Argentina una plataforma privada que le arme y siga el reclamo al consumidor cobrando solo si gana. Lo que compite es gratis y del Estado: el reclamo online nacional y el de CABA, y BA Concilia para conciliar en línea con empresas adheridas. Eso baja lo que la gente está dispuesta a pagar. Del lado empresa ya existe ZTZ Tech (creada en Buenos Aires, opera desde Chile), con IA para responder reclamos ante Defensa del Consumidor y clientes como Mercado Libre y Uber: puede ser socio o rival de tu ventanilla para empresas. Falta cruzar TuMango para la vertical telefonía.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.df.cl/df-mas/punto-de-partida/el-software-que-quiere-acabar-con-la-burocracia-en-las-empresas-a-traves",
+      "https://www.argentina.gob.ar/defensadelconsumidor",
+      "https://www.derechoenzapatillas.com/2025/l-cobraron-de-mas-en-una-app-de-envios-y-no-le-quieren-devolver-la-plata-que-puedo-hacer/",
+      "https://www.derechoenzapatillas.com/?p=43248",
+      "https://www.iprofesional.com/legales/345946-iniciar-reclamo-en-defensa-al-consumidor-telefono-y-contactos",
+      "https://www.perfil.com/noticias/actualidad/cuales-son-las-empresas-con-mas-reclamos-en-argentina-el-ranking-de-2026.phtml",
+      "https://www.iprofesional.com/legales/455366-nunca-le-reprogramaron-un-vuelo-y-despegar-y-aerolineas-deben-pagarle-30-millones",
+      "https://elreferente.es/?p=18071",
+      "https://www.genbeta.com/web/reclamador-es-apuesta-por-las-reclamaciones-colectivas-online-a-las-aerolineas/amp",
+      "https://www.derechoenzapatillas.com/2026/que-inteligencia-artificial-va-a-resolver-tu-reclamo/",
+      "https://www.iapp.org/news/a/un-proyecto-de-ley-busca-regular-el-uso-de-la-ia-en-las-relaciones-de-consumo-en-argentina"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "vlote-03",
+   "verificaciones": [
+    {
+     "id_tmp": "N071",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Rankia Argentina (comparador de hipotecas)",
+       "url": "https://www.rankia.com.ar/comparador/hipotecas",
+       "que_hace": "Compara créditos hipotecarios mostrando cuota, TIN y TAE de cada oferta, con una valoración propia. Es un simulador informativo: no precalifica con papeles reales ni arma la carpeta.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "ComparaEnCasa",
+       "url": "https://www.comparaencasa.com/prestamos-personales/comparar-prestamos/comparar-prestamos-hipotecarios-argentina/",
+       "que_hace": "Tiene guías para comparar hipotecarios en Argentina (actualizadas al 2026-07-30), un simulador de cuota y dice comparar más de 40 opciones. Es información, no gestión.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Banco Nación (+Hogares con BNA)",
+       "url": "https://www.lacapitalmdp.com/el-banco-nacion-digitaliza-el-credito-hipotecario-tu-casa-empieza-con-un-clic/",
+       "que_hace": "Evaluación y aprobación del hipotecario 100% digital, con oferta de monto, tasa y plazo en menos de 24 h. Según el título de una nota de BAE Negocios (2025-07-04) también lanzó un marketplace inmobiliario. Cubre un solo banco.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Lendar",
+       "url": "https://mercado.com.ar/finanzas/lendar-roza-los-3-000-creditos-hipotecarios-entre-privados-y-reporta-morosidad-0",
+       "que_hace": "Fintech argentina (desde 2017) que da créditos hipotecarios entre privados con gestión online. Dice tener cerca de 3.000 créditos, con cuotas en dólares desde 9,5% TNA. Armó con Allaria y RE/MAX un fondo cerrado de hasta USD 100 M (la CNV lo aprobó con condiciones). Presta plata, no es un broker que compare bancos.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "(1) \"broker hipotecario argentina comparador créditos hipotecarios\": aparecieron los comparadores de Rankia y de ComparaEnCasa. Leí la nota de Infonegocios del 2025-02-18: dice que la figura del broker hipotecario todavía no llegó a Argentina y solo nombra a h2b Hipotecas, que es de España. Según lo que mostró el buscador, la misma nota compara unos 11.000 hipotecarios en Argentina en 2024 contra unos 500.000 en España. (2) \"startup argentina crédito hipotecario gestiona con varios bancos precalificación online\": no apareció ninguna startup que gestione con varios bancos. Sí apareció el BNA con su circuito 100% digital (oferta en menos de 24 h) y el título de BAE Negocios sobre su marketplace inmobiliario (2025-07-04, no la leí). (3) \"Lendar crédito hipotecario argentina online\": Lendar es un prestamista online entre privados, no un intermediario. Conclusión: alguien que precalifique con tus papeles reales en todos los bancos y te arme la carpeta, no lo encontré.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "El campo no está vacío. Rankia y ComparaEnCasa ya comparan tasas y cuotas, el Nación te precalifica online en menos de 24 h y Lendar presta hipotecas online con plata de privados. Lo que no encontré es alguien que tome tus papeles reales, te diga en qué banco te aprueban y te arme la carpeta: ese es el hueco. Ojo: Infonegocios (2025-02-18) dice que el broker no llegó porque el mercado es chico (unos 11.000 hipotecarios en 2024). Y todavía no se verificó que los bancos le paguen comisión a un intermediario.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.rankia.com.ar/comparador/hipotecas",
+      "https://www.comparaencasa.com/prestamos-personales/comparar-prestamos/comparar-prestamos-hipotecarios-argentina/",
+      "https://infonegocios.info/nota-principal/que-es-y-que-hace-un-broker-de-hipotecas-una-figura-que-crece-en-espana-y-va-a-hacer-falta-en-argentina",
+      "https://www.lacapitalmdp.com/el-banco-nacion-digitaliza-el-credito-hipotecario-tu-casa-empieza-con-un-clic/",
+      "https://www.baenegocios.com/amp/El-Banco-Nacion-lanzo-un-marketplace-inmobiliario-para-conseguir-una-casa-propia-con-creditos-20250704-0025/",
+      "https://mercado.com.ar/finanzas/lendar-roza-los-3-000-creditos-hipotecarios-entre-privados-y-reporta-morosidad-0",
+      "https://mercado.com.ar/finanzas/nace-allaria-lendar-primer-fondo-comun-de-inversion-cerrado-que-promueve-el-credito-hipotecario-en-dolares-en-la-argentina",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/lanzan-un-fondo-que-busca-reactivar-el-credito-hipotecario-en-dolares-en-argentina/"
+     ]
+    },
+    {
+     "id_tmp": "N078",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Guía oficial de trámites y prestaciones + Mi Argentina (Estado nacional)",
+       "url": "https://www.argentina.gob.ar/tramites-y-prestaciones-para-personas-con-discapacidad",
+       "que_hace": "Información oficial de trámites y prestaciones. Desde Mi Argentina se gestiona el CUD digital, se consulta qué llevar y dónde ir, y se saca turno con la Junta Evaluadora (Sitio Andino, nota de julio de 2026). No acompaña caso por caso.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Servicio de Orientación de la Dirección de Discapacidad (Municipalidad de Rosario)",
+       "url": "https://rosario.gob.ar/inicio/sites/default/files/2024-06/Gu%C3%ADa%20de%20tr%C3%A1mites%20para%20personas%20con%20Discapacidad%20Junio%202024.pdf",
+       "que_hace": "Orientación pública y gratuita sobre trámites de discapacidad. Solo Rosario.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Observatorio de la Discapacidad del Poder Judicial de CABA",
+       "url": "https://contenido.jusbaires.gob.ar/wp-content/uploads/2022/10/MANUAL-DE-ORIENTACION-PS-CON-DISCAPACIDAD-AGREGADO-PAGINA-P.O..pdf",
+       "que_hace": "Asesoramiento gratuito en trámites y consultas generales. Solo CABA.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "(1) \"plataforma acompañamiento familias discapacidad trámites CUD argentina app\": no apareció ninguna app privada nacional. Apareció Mi Argentina (CUD digital y turnos, Sitio Andino, julio de 2026). El buscador también mencionó el PAFAMI, un programa del GCBA que da asesoramiento personalizado y acompañamiento sostenido a familias en derechos y trámites (CUD incluido). No pude abrir la fuente porque el PDF de UdeSA pide login, así que queda a confirmar. (2) \"startup discapacidad argentina app familias obra social prestaciones gestión\": ninguna startup; solo notas sobre el sistema. Según el buscador, una nota de Perfil de 2026 habla de una suba de aranceles del 1,7% (Res. 3487/2026) y cita a una abogada: hay centros de día que atienden gratis desde marzo porque no reciben las autorizaciones de Incluir Salud. (3) \"gestoría trámites discapacidad CUD pensión asesoramiento familias argentina servicio privado\": no apareció ninguna gestoría ni navegador privado. Solo orientación pública gratuita (Rosario, Observatorio de CABA). Lectura intentada: el PDF de UdeSA, que no se pudo leer.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 5
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En tres búsquedas no apareció ningún navegador privado para familias: el hueco parece real. Lo que sí hay es orientación pública y gratis: Mi Argentina para el CUD, la oficina de Rosario, el Observatorio de CABA y, según el buscador, el PAFAMI porteño. Entonces 'te explico el trámite' no alcanza; el valor está en la carpeta, los vencimientos y en que pague el prestador. Dato a favor de ese cobro: Perfil (2026) cita centros de día atendiendo gratis desde marzo por falta de autorizaciones de Incluir Salud.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.sitioandino.com.ar/sociedad/mi-argentina-como-funciona-y-que-sirve-n5645349",
+      "https://www.argentina.gob.ar/tramites-y-prestaciones-para-personas-con-discapacidad",
+      "https://repositorio.udesa.edu.ar/jspui/bitstream/10908/18699/1/%5bP%5d%5bW%5d%20T.%20L.%20Adm.%20Genes%2c%20Magdalena%20Mar%c3%ada%20y%20Pelesson%2c%20Clara.pdf",
+      "https://www.perfil.com/noticias/cordoba/el-costo-de-vivir-con-discapacidad-en-argentina-la-discapacidad-empobrece-la-economia-familiar.phtml",
+      "https://rosario.gob.ar/inicio/sites/default/files/2024-06/Gu%C3%ADa%20de%20tr%C3%A1mites%20para%20personas%20con%20Discapacidad%20Junio%202024.pdf",
+      "https://contenido.jusbaires.gob.ar/wp-content/uploads/2022/10/MANUAL-DE-ORIENTACION-PS-CON-DISCAPACIDAD-AGREGADO-PAGINA-P.O..pdf"
+     ]
+    },
+    {
+     "id_tmp": "N089",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Pymes al Mundo (Cámara Argentina de Comercio y Servicios)",
+       "url": "https://pymesalmundo.com",
+       "que_hace": "Funciona desde 2018 y hoy está activo (© 2026, eventos el 27 de octubre y el 17 de noviembre, Argentina Alimenta 2026). Tiene una vidriera de 'Oferta exportable' con 752 empresas, capacitación, oportunidades comerciales, un diagnóstico exportador e información sobre medios de pago. No ofrece logística, consolidación ni pago protegido, y la CAC aclara que no garantiza las operaciones.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Exporta Simple (Estado + couriers)",
+       "url": "https://www.argentina.gob.ar/exportasimple",
+       "que_hace": "Régimen para exportar por courier sin estar inscripto como exportador. Ya lo había verificado el generador. Es logística y trámite, no un mercado ni un envío consolidado con escrow.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Consorcios y cooperativas de exportación (figura legal)",
+       "url": "https://www.iil.jursoc.unlp.edu.ar/textos/informe/integrar10.pdf",
+       "que_hace": "Pymes que exportan juntas, con régimen promocional desde el Decreto 174/1985 (Ley 23.101). Es el modelo analógico de exportar juntos; no encontré ninguno digital vigente.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "Pymes al Mundo arrancó en 2018 como showroom de la CAC con Mercado Libre sobre Mercado Shops. Estaba orientado a B2B (llegar a cadenas o pequeños importadores), con envíos por Exporta Simple y sin consolidar contenedor (iProfesional, 2018-09-06). Según Aduana News, en un balance posterior ya había 117 empresas. Hoy sigue como programa de la CAC, pero su web no menciona a Mercado Libre ni ofrece logística o pagos. No verifiqué si Mercado Libre se retiró ni por qué. No es un cierre.",
+     "evidencia_argentina": "(1) \"exportación consolidada pequeños productores argentina plataforma exporta simple\": salieron notas sobre Exporta Simple y una de iProfesional sobre una plataforma de Mercado Libre para exportar. El buscador la fechó 16/7/2026, pero al leerla resultó ser del 2018-09-06 (Pymes al Mundo). También salió un título de Infonegocios sobre un 'hub de alimentos argentinos' en Dubai que no leí. (2) \"consorcio de exportación pymes alimentos argentina exportar juntos consolidado\": solo material académico e histórico sobre consorcios de exportación; no salió ningún consolidador digital para productores chicos. (3) \"\\\"Pymes al Mundo\\\" Mercado Libre Cámara Argentina de Comercio exportación\": confirma que el programa es de 2018 (ganó un concurso de la OMC y la ICC en 2017). Leí pymesalmundo.com: activo, con 752 empresas, y sin consolidación ni escrow. Nadie encontrado junta lotes de productores chicos con el pago retenido.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 5,
+      "por_que_ahora": 8,
+      "potencial": 7
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Ojo: la vidriera ya existe y es gratis. Pymes al Mundo (CAC, desde 2018) muestra hoy 752 empresas con su oferta exportable, pero no consolida envíos ni protege el pago, y la CAC aclara que no garantiza nada. Exportar juntos tampoco es nuevo: los consorcios de exportación tienen régimen desde 1985. Tu hueco concreto es el contenedor compartido, el pago retenido y los papeles hechos por Claude; ahí no encontré a nadie.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.iprofesional.com/comex/277374-brasil-ecommerce-exportaciones-Es-oficial-Mercado-Libre-presento-la-plataforma-para-que-las-empresas-argentinas-exporten-al-mundo",
+      "https://pymesalmundo.com",
+      "https://aduananews.com/argentina-lanza-pymes-al-mundo/",
+      "https://aduananews.com/?p=29717",
+      "https://www.iil.jursoc.unlp.edu.ar/textos/informe/integrar10.pdf",
+      "https://www.marval.com/publicacion/nuevo-regimen-de-exportacion-simplificada-para-emprendedores-y-pymes-denominado-exporta-simple-12988"
+     ]
+    },
+    {
+     "id_tmp": "N095",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Servidos",
+       "url": "https://servidos.ar/reparacion-electrodomesticos/buenos-aires",
+       "que_hace": "Conecta con técnicos de electrodomésticos en CABA y GBA. Presupuesto gratis, sin comisiones, identidad verificada con DNI y pago directo al técnico. Publica que la visita de diagnóstico sale $10.000-$25.000 (datos de julio de 2026) y que suele descontarse del arreglo. No diagnostica a distancia ni compara arreglar contra cambiar.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "IguanaFix",
+       "url": "https://www.descubre.vc/iguanafix",
+       "que_hace": "Marketplace argentino de servicios para el hogar (desde 2013) para reparaciones y mantenimiento. Según descubre.vc mantiene operaciones en Argentina y México, sin fecha de ese dato. Infonegocios tituló que superó 150 mil servicios en Argentina, con el service de aire como lo más pedido. No tiene diagnóstico por foto ni veredicto de arreglar o cambiar.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "HomeSolution",
+       "url": "https://homesolution.net",
+       "que_hace": "Marketplace de oficios en Argentina y Uruguay. Ya lo había verificado el generador. Sin diagnóstico.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "IguanaFix (Argentina, 2013) vendió su operación de Brasil a MadeiraMadeira en 2022 y sigue en Argentina y México según descubre.vc. Es una salida parcial, no un cierre. No encontré a nadie que haya intentado el diagnóstico de arreglar o cambiar y haya cerrado.",
+     "evidencia_argentina": "(1) \"app reparación electrodomésticos técnicos argentina diagnóstico\": apareció Servidos (marketplace sin comisión, CABA y GBA). No apareció ninguna app de diagnóstico remoto por foto, video o sonido. (2) \"IguanaFix reparación electrodomésticos argentina\": IguanaFix sigue como marketplace; leí descubre.vc (Brasil vendido en 2022, sigue en Argentina y México). En ninguna de las dos búsquedas apareció un motor de arreglar o cambiar con costo total.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "Marketplaces de técnicos ya hay varios: además de HomeSolution, Servidos (CABA y GBA, sin comisión, presupuesto gratis) e IguanaFix (desde 2013). Ninguno te dice antes si conviene arreglar o cambiar, así que ese hueco sigue. Ojo con el cobro: si Servidos conecta sin comisión, cobrarle 10-15% al técnico va a costar; pesa más el lead de reemplazo que le vendés al retailer. Además, la visita de diagnóstico suele descontarse del arreglo, lo que achica el dolor que querés resolver.",
+     "busquedas_hechas": 2,
+     "fuentes": [
+      "https://servidos.ar/reparacion-electrodomesticos/buenos-aires",
+      "https://servidos.ar/servicios/reparacion-electrodomesticos/buenos-aires/almagro",
+      "https://www.descubre.vc/iguanafix",
+      "https://infonegocios.info/default/iguanafix-supero-mas-de-150-mil-servicios-en-argentina-el-service-de-aire-acondicionado-lo-mas-pedido"
+     ]
+    },
+    {
+     "id_tmp": "N006",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "MultiSolar (PPA On Site)",
+       "url": "https://econojournal.com.ar/renovables-te/energia-solar-el-modelo-ppa-on-site-que-ofrece-la-empresa-mutisolar-para-acompanar-el-crecimiento-de-la-industria/",
+       "que_hace": "Financia, construye y opera una planta solar en el predio de un cliente industrial, que no pone inversión. Contrato típico de 10 años con tarifa en US$/kWh; al final la planta pasa al cliente (Econojournal, 2025-05-28). La nota no menciona pymes ni escuelas, y la plata la pone la empresa, no ahorristas.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Solar Power",
+       "url": "https://infonegocios.info/nota-principal/en-argentina-ya-se-puede-alquilar-el-sol-que-propone-solar-power-la-idea-padre-hijo-que-permite-ahorrar-hasta-un-50-en-la-factura-de-luz",
+       "que_hace": "Alquila paneles a hogares con contratos de 5 años y opción de compra: unas 40 UVA por mes (unos $62.000) para 4,5 kW, con un adelanto cercano al 10% del sistema. Tiene oficinas en CABA y planea Córdoba y Santa Fe en 2026; llevaba 12 instalaciones al mes y medio de lanzar (Infonegocios, 2025-07-25). La nota no menciona inversores ni crowdfunding.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Sustentator",
+       "url": "https://sustentator.com/",
+       "que_hace": "Leasing solar para empresas de hasta 60 meses. Ya lo había verificado el generador.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "(1) \"alquiler paneles solares argentina sin inversión abono mensual empresas\": apareció Solar Power (alquiler para hogares); leí la nota de Infonegocios del 2025-07-25. (2) \"financiamiento colectivo energía solar argentina inversores crowdfunding paneles\": ninguna plataforma argentina de crowdfunding solar. Apareció RedGirasol (México) como modelo. Forbes Argentina (2023) cita a CADER diciendo que la falta de financiamiento a tasa razonable es una de las grandes trabas. La IEA registra una línea de crédito blando del BICE para paneles (tope de $20 M, hasta 5 años, para pymes, empresas y sector público; sin fecha leída). (3) \"energía solar como servicio techo pymes argentina sin inversión inicial PPA\": apareció MultiSolar con PPA On Site; leí la nota de Econojournal del 2025-05-28. Salieron también títulos sobre leasing de paneles (iProfesional) y una alianza Santander-YPF Solar (El Economista), que no leí. Conclusión: pagar por mes sin poner plata existe para industria y para hogares; ahorristas que financien cada techo de escuelas, clubes y cooperativas, no lo encontré.",
+     "evidencia_afuera": "Sin cambios en lo dicho. Se suma un antecedente que no estaba: RedGirasol (México) combina energía solar con crowdfunding. Conecta a quien quiere instalar paneles con inversores, y los instaladores ofrecen el financiamiento a sus clientes a través de la plataforma (Expansión, 2021-04-30). Es casi exactamente esta vuelta de tuerca; no verifiqué su estado actual.",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 5,
+      "por_que_ahora": 6,
+      "potencial": 8
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "El 'pagá por mes y no pongas plata' ya llegó a Argentina. MultiSolar lo hace con PPA en plantas de clientes industriales (10 años, en US$/kWh) y Solar Power alquila paneles a hogares en UVA. Lo que no encontré es la parte de ahorristas financiando cada techo, ni el foco en escuelas, clubes y cooperativas; el modelo más parecido es RedGirasol, de México. Opinión: ese hueco choca con la CNV y te pide un capital que hoy no tenés, así que sigue siendo para más adelante.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://infonegocios.info/nota-principal/en-argentina-ya-se-puede-alquilar-el-sol-que-propone-solar-power-la-idea-padre-hijo-que-permite-ahorrar-hasta-un-50-en-la-factura-de-luz",
+      "https://econojournal.com.ar/renovables-te/energia-solar-el-modelo-ppa-on-site-que-ofrece-la-empresa-mutisolar-para-acompanar-el-crecimiento-de-la-industria/",
+      "https://expansion.mx/emprendedores/2021/04/30/redgirasol-energia-solar-crowdfunding",
+      "https://www.forbesargentina.com/money/paneles-solares-hogar-una-tendencia-furor-mundo-pero-todavia-despega-argentina-n39595",
+      "https://www.iea.org/policies/17527-soft-credit-line-for-the-installation-of-solar-panels",
+      "https://www.iprofesional.com/economia/360568-baja-de-subisidios-la-solucion-del-leasing-de-paneles-solares",
+      "https://eleconomista.com.ar/negocios/santander-e-ypf-solar-unen-apoyar-transicion-energetica-n61361"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "vlote-04",
+   "verificaciones": [
+    {
+     "id_tmp": "N015",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "MOB",
+       "url": "https://www.iprofesional.com/negocios/457629-crearon-revolucionaria-app-que-es-un-agente-inmobiliario-para-duenos-que-alquilan-directo",
+       "que_hace": "App con IA para dueños que alquilan directo (CABA, lanzada en 2026). El dueño publica gratis, maneja la agenda de visitas, recibe solo inquilinos ya calificados y firma el contrato con firma electrónica. Ofrece garantía online con Hoggax. El inquilino no paga nada y el dueño tiene un plan opcional de USD 100-300. Según los fundadores, en dos meses tenían más de 1.000 propiedades publicadas y 10 alquileres cerrados (iProfesional, julio de 2026).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Roomix",
+       "url": "https://roomix.ai/",
+       "que_hace": "Buscador de inmuebles con IA para toda Argentina (dice ser el más grande del país, es afirmación propia). Junta avisos de varias fuentes, deja buscar en lenguaje natural, manda alertas por WhatsApp y trae calculadoras de IPC e ICL y un detector de estafas. Es gratis para el que busca y apunta a cobrarle a las inmobiliarias.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "¿A cuánto alquilo?",
+       "url": "https://www.iprofesional.com/actualidad/400226-como-no-pagar-de-mas-por-un-alquiler-con-esta-app-para-inquilinos",
+       "que_hace": "App colaborativa donde los inquilinos cargan lo que pagan y muestra precios de referencia por zona (nota del 2024-02-21; datos sobre todo de CABA, provincia de Buenos Aires, Córdoba y Rosario). Sirve como base para comparar, pero no negocia por vos.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Estudio Vilaplana",
+       "url": "https://estudiovilaplana.com.ar/revision-de-contratos-de-alquiler/",
+       "que_hace": "Estudio de abogados que revisa contratos de alquiler, en persona o a distancia. Es un servicio humano, no una herramienta automática.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas: (1) \"servicio búsqueda de alquiler para inquilinos revisión de contrato negociación Buenos Aires\": salieron solo guías (iProfesional, blog de Roomix, Río Negro). La nota de Río Negro confirma el dato que el generador tenía de memoria: en CABA los honorarios los paga el propietario (Ley 5859). (2) \"app inteligencia artificial busca alquiler por vos inquilinos Argentina startup\": salió MOB en iProfesional, iProUP y Ámbito (2026-06-17). Leí la nota de iProfesional: el agente con IA existe, pero trabaja para el dueño. (3) \"revisión de contrato de alquiler online para inquilinos abogado inteligencia artificial Argentina servicio\": salió un estudio de abogados (Vilaplana) y herramientas con IA de afuera (Leaseify; ArrendaBOT, de España); ninguna argentina. Lecturas: roomix.ai (buscador con IA gratis para el inquilino) y la nota de iProfesional sobre ¿A cuánto alquilo?. No encontré a nadie que, del lado del inquilino, escriba a las inmobiliarias, negocie las cláusulas, revise el contrato y cotice garantías.",
+     "evidencia_afuera": "Sin cambios. Flip/Caretaker y los apartment locators de Texas siguen sin verificar (no gasté búsquedas en eso). Dato al margen: afuera ya hay herramientas con IA que revisan contratos de alquiler (Leaseify, freemium; ArrendaBOT de Vivara, en España), pero trabajan con leyes de otros países.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 4
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "El agente ya existe, pero del lado del dueño: MOB (CABA, 2026) usa IA para publicar, agendar visitas, calificar inquilinos y firmar, y al inquilino no le cobra nada. Roomix ya es un buscador con IA para todo el país, gratis para el que busca y con alertas por WhatsApp. Lo que queda libre es negociar y revisar el contrato a favor del inquilino. Pero el mercado lo acostumbró a no pagar y en CABA los honorarios los paga el dueño (Ley 5859): con ese dato nuevo bajé potencial a 4.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.iprofesional.com/negocios/457629-crearon-revolucionaria-app-que-es-un-agente-inmobiliario-para-duenos-que-alquilan-directo",
+      "https://www.iproup.com/startups/70097-argentinos-crean-app-para-alquilar-propiedades-en-solo-48-horas-y-sin-trabas-burocraticas",
+      "https://www.ambito.com/negocios/tienen-23-anos-dejaron-sus-trabajos-y-lanzaron-una-startup-que-busca-simplificar-alquileres-inteligencia-artificial-n6289746",
+      "https://roomix.ai/",
+      "https://roomix.ai/blog/como-negociar-precio-alquiler",
+      "https://www.iprofesional.com/actualidad/400226-como-no-pagar-de-mas-por-un-alquiler-con-esta-app-para-inquilinos",
+      "https://estudiovilaplana.com.ar/revision-de-contratos-de-alquiler/",
+      "https://www.rionegro.com.ar/?p=2427313",
+      "https://www.toolmage.com/es/tool/leaseify/",
+      "https://www.vivara.io/blog/innovacion/proptech-arrendabot-vivara/"
+     ]
+    },
+    {
+     "id_tmp": "N026",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Agroads (Usados verificados)",
+       "url": "https://www.agroads.com.ar/",
+       "que_hace": "Portal de maquinaria con una sección de usados que llevan la etiqueta 'Usado Verificado', sin explicar qué inspección hay detrás (lo encontró el generador el 2026-10-18; yo no lo volví a revisar).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Metalfor (usados seleccionados en Agrofy Market)",
+       "url": "https://news.agrofy.com.ar/noticia/190333/maquinaria-agricola-oportunidad-negocio-detras-usados-seleccionados",
+       "que_hace": "El fabricante vende en su sucursal online de Agrofy usados de su propio stock, revisados en fábrica, con una garantía sin detalles y financiación para equipos de cualquier marca (nota del 2020-11-06). No es una inspección que un comprador pueda pedir sobre la máquina de otro.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas: (1) \"inspección maquinaria agrícola usada servicio peritaje para compradores Argentina\": no salió ningún servicio de inspección antes de comprar. Sí salió contexto: el Decreto 273/25 abrió la importación de maquinaria agrícola usada y eliminó el CIBU, la mayor parte vendría de EE.UU. y la industria local (AFAT) se queja (Bichos de Campo, El Marplatense). (2) \"Agrofy usados certificados inspección técnica maquinaria agrícola informe\": solo páginas de etiquetas de Agrofy News, entre ellas una nota sobre el lanzamiento de un programa de usados certificados cuyo contenido no se veía. (3) \"programa usados certificados maquinaria agrícola Argentina concesionario inspección tractores cosechadoras\": nada argentino; salió Fendt SMART Check, de España. Lecturas: la etiqueta 'usados seleccionados' de Agrofy News y la nota 190333 (Metalfor, 2020-11-06). No encontré redes de inspectores independientes ni informes estandarizados que pida el comprador, ni intentos que hayan cerrado.",
+     "evidencia_afuera": "Dato nuevo: Fendt SMART Check (España) es una revisión profesional con informe detallado para tractores Fendt de 5 años o más. Es gratis, se reserva por un concesionario adherido y tenía fecha límite (la fuente menciona marzo de 2026). Muestra que el informe estandarizado de usados existe afuera, pero atado a la marca y al concesionario. IronClad (Ritchie Bros.) y Tractor Zoom siguen sin verificar.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "Hice tres búsquedas y no apareció ninguna red de inspectores independientes para maquinaria usada en Argentina. Lo que hay es el vendedor certificando lo suyo: el sello 'Usado Verificado' de Agroads, y Metalfor vendiendo en Agrofy desde 2020 usados de su stock revisados en fábrica. El hueco sigue abierto. Subí 'por qué ahora' a 7 por un dato nuevo: el Decreto 273/25 abrió la importación de maquinaria agrícola usada (sobre todo de EE.UU.), así que van a circular más máquinas con historia desconocida.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://bichosdecampo.com/argentina-hablita-la-importacion-de-maquinaria-agricola-usada-para-cumplir-con-una-exigencia-de-trump/",
+      "https://www.elmarplatense.com/la-afat-alerta-sobre-la-importacion-irrestricta-de-maquinaria-agricola-usada",
+      "https://news.agrofy.com.ar/tags/usados-seleccionados",
+      "https://news.agrofy.com.ar/noticia/190333/maquinaria-agricola-oportunidad-negocio-detras-usados-seleccionados",
+      "https://www.agronewscastillayleon.com/programa-fendt-smart-check",
+      "https://www.agroads.com.ar/"
+     ]
+    },
+    {
+     "id_tmp": "N029",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "MOB",
+       "url": "https://www.iprofesional.com/negocios/457629-crearon-revolucionaria-app-que-es-un-agente-inmobiliario-para-duenos-que-alquilan-directo",
+       "que_hace": "Antes de la visita, valida la identidad, el DNI, los antecedentes penales y la calificación crediticia del inquilino, y le permite mostrarse como calificado antes de negociar. Ofrece garantía Hoggax con descuento. Están desarrollando un módulo para administrar los pagos mensuales. La nota no dice que el perfil sirva fuera de MOB.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Hoggax",
+       "url": "https://hoggax.com/",
+       "que_hace": "Garantía de alquiler 100% online: verifica identidad y empleo con pocos documentos y aprueba en minutos. No arma un legajo portátil ni un historial de pagos (lo verificó el generador el 2026-10-18).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Argenprop Garantías",
+       "url": "https://www.argenprop.com/Garantias-Alquiler",
+       "que_hace": "El portal vende garantías de alquiler y responde la solicitud en hasta 24 h hábiles. Pide buen cumplimiento en el sistema financiero y 12 meses de antigüedad laboral.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas: (1) \"perfil de inquilino verificado historial de pagos alquiler Argentina app\": lo único argentino fue MOB; el resto era software para dueños (Landager) y apps de otros países (India). (2) \"inquilino calificado perfil verificado garantía online Alquilando Zonaprop scoring inquilinos\": Argenprop vende garantías con análisis online y un aviso de Zonaprop promociona garantías 100% online; no apareció nada sobre un perfil portátil en Alquilando. Lectura: la nota de iProfesional sobre MOB (fecha que muestra: 6/7/2026). No encontré a nadie en Argentina que le dé al inquilino un legajo verificado para compartir con cualquier inmobiliaria, ni que convierta el alquiler pagado en historial crediticio. Tampoco intentos que hayan cerrado.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 5,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Lo más cercano es MOB (CABA, 2026): verifica DNI, antecedentes y crédito del inquilino antes de la visita y está armando un módulo de pagos, pero el perfil sirve solo adentro de MOB. Hoggax y Argenprop venden garantías con análisis online. No encontré el legajo portátil ni el historial de pago que acompaña al inquilino. Opinión: si la inmobiliaria se apoya en la caución y no en los papeles, el legajo le sirve poco, y MOB lo puede sumar rápido.",
+     "busquedas_hechas": 2,
+     "fuentes": [
+      "https://www.iprofesional.com/negocios/457629-crearon-revolucionaria-app-que-es-un-agente-inmobiliario-para-duenos-que-alquilan-directo",
+      "https://www.argenprop.com/Garantias-Alquiler",
+      "https://www.zonaprop.com.ar/propiedades/clasificado/alclcain-casa-en-alquiler-59670450.html",
+      "https://hoggax.com/",
+      "https://landager.com/es/docs/tenant-management/viewing-tenant-payments"
+     ]
+    },
+    {
+     "id_tmp": "N059",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Sanatorios de la Trinidad (Guardia Inteligente)",
+       "url": "https://www.sanatoriosdelatrinidad.com.ar/",
+       "que_hace": "Según un usuario del foro ExpatsBA (2024-04-10), en el Trinidad de Palermo se puede reservar turno de guardia desde la app o la web, seguir el lugar en la fila desde el celular y llegar unos minutos antes. No lo pude confirmar: la web oficial no cargó contenido.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Fila Cero (Gobierno de la Ciudad de Buenos Aires)",
+       "url": "https://buenosaires.gob.ar/gcaba_historico/noticias/fila-cero-el-sistema-que-permite-optimizar-tiempos-de-espera",
+       "que_hace": "Fila virtual en hospitales públicos y centros de salud de CABA: el número se saca en un tótem, en el lugar y no desde casa. La página dice 15 hospitales y 6 CeSAC; una nota de 2024 dice 20 hospitales.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Prueba de IA en guardias de Río Negro (hospital de Cipolletti)",
+       "url": "https://www.anbariloche.com.ar/noticias/2026/03/06/102806-inteligencia-artificial-en-las-guardias-de-los-hospitales-rio-negro-inicia-una-prueba-en-cipolletti",
+       "que_hace": "Prueba piloto de la provincia para clasificar pacientes en la guardia con inteligencia artificial y bajar los tiempos de espera (2026-03-06). Es sistema público.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Numia (ex Debmedia)",
+       "url": "https://numia.co/",
+       "que_hace": "Vende a empresas gestión de filas, filas virtuales y turnos para bancos y salud (caso Banco Macro, según el generador). No publica las esperas entre instituciones.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas: (1) \"tiempo de espera guardia en tiempo real app sanatorio Argentina\": ninguna fuente oficial de espera en vivo. Salieron el hilo de ExpatsBA, un prototipo de la UNLP (InnovApp: el paciente ve su lugar en la fila desde el celular) y la prueba de IA en la guardia de Cipolletti. (2) \"\\\"Guardia Inteligente\\\" sanatorio turno guardia app fila virtual\": nada oficial; sí la ampliación de los turnos virtuales en hospitales porteños (El Observador, 2024-08-12). (3) \"sanatorio guardia sacar turno online desde casa fila virtual demora guardia app Buenos Aires\": salieron Fila Cero y Mi Salud Digital Bonaerense (turnos web programados en más de 72 hospitales de la provincia, no para la guardia). Lecturas: el hilo de ExpatsBA del 2024-04-10, que es la única fuente sobre la Guardia Inteligente del Trinidad, y la web de Sanatorios de la Trinidad, que no cargó contenido. No encontré un mapa público que cruce la espera de guardias de distintas instituciones, ni intentos que hayan cerrado.",
+     "evidencia_afuera": "Sin cambios. Solv y los tableros de espera de guardias de EE.UU. (HCA, Piedmont) siguen sin verificar; no gasté búsquedas en eso.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 7
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Las partes por separado ya existen. Según un usuario de un foro (2024-04-10), Sanatorios de la Trinidad tiene 'Guardia Inteligente' para sacar turno de guardia desde la app y seguir la fila (no lo pude confirmar en su web). CABA tiene Fila Cero en hospitales públicos y Río Negro prueba IA para clasificar pacientes en la guardia de Cipolletti (2026-03-06). El mapa que cruza guardias de distintas instituciones no apareció. Opinión: si cada sanatorio arma su propia fila, va a tener menos ganas de darle datos a alguien que le puede mandar pacientes a la competencia.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.expatsba.com/threads/the-medical-emergency-services-in-ba-are-overwhelmed.2747",
+      "https://www.sanatoriosdelatrinidad.com.ar/",
+      "https://buenosaires.gob.ar/gcaba_historico/noticias/fila-cero-el-sistema-que-permite-optimizar-tiempos-de-espera",
+      "https://www.elobservador.com.uy/argentina/sociedad/la-ciudad-buenos-aires-amplio-el-sistema-turnos-virtuales-ahorrar-tiempos-espera-n5955728",
+      "https://www.anbariloche.com.ar/noticias/2026/03/06/102806-inteligencia-artificial-en-las-guardias-de-los-hospitales-rio-negro-inicia-una-prueba-en-cipolletti",
+      "https://sedici.unlp.edu.ar/handle/10915/115877",
+      "https://www.infozona.com.ar/?p=384894",
+      "https://numia.co/"
+     ]
+    },
+    {
+     "id_tmp": "N074",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Habilitación online de la Municipalidad de Córdoba",
+       "url": "https://www.cadena3.com/noticia/juntos/rige-en-cordoba-la-plataforma-para-habilitar-negocios-online_294545",
+       "que_hace": "Habilitación online de comercios, industrias y servicios, disponible las 24 h. Reemplazó a la Ventanilla Única presencial y trae simulador de prefactibilidad y ayuda por WhatsApp. Es gratis y estatal.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Habilitación San Juan (portal provincial)",
+       "url": "https://www.diariodecuyo.com.ar/noticias/se-ponen-en-marcha-dos-plataformas-digitales-para-gestionar-tramites-on-line-171327.html",
+       "que_hace": "Portal para consultar los requisitos por municipio y sacar online los certificados de las reparticiones provinciales (nota del 2021-07-05). Es estatal.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Guía oficial para habilitar un local en CABA",
+       "url": "https://buenosaires.gob.ar/tramites/como-habilitar-tu-local-comercial-en-la-ciudad",
+       "que_hace": "Paso a paso oficial: cuenta miBA, consulta de uso del suelo en Ciudad 3D y apoderamientos. No cubre la parte fiscal, los seguros ni los proveedores.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Tributo Simple (guía para abrir un local)",
+       "url": "https://tributosimple.com/lo-que-tenes-que-saber-antes-de-abrir-un-local/",
+       "que_hace": "Publica una guía sobre lo que hay que saber antes de abrir un local físico. La vi solo en los resultados de búsqueda; no leí la página ni verifiqué qué servicio vende.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas: (1) \"plataforma para abrir un local habilitación comercial online gestoría Argentina emprendedores\": salieron solo plataformas del Estado. Córdoba (habilitación online con simulador de prefactibilidad); Tres de Febrero (habilitación automática online, en 72 h con la documentación completa); San Juan (requisitos por municipio); Mendoza capital (si la solicitud digital no se responde en 24 h hábiles, se da por aprobada: silencio administrativo positivo, Los Andes). Y un proyecto en Provincia de Buenos Aires para una plataforma centralizada con una constancia única válida por 180 días (Parlamentario, 2026-08-05; todavía no aprobado). (2) \"gestoría online habilitación comercial abrir local CABA servicio integral bomberos ARCA\": salió la guía oficial del GCBA. En El Cronista, un abogado sostiene que, pese a las habilitaciones express, en CABA no se puede habilitar un local sin un profesional a cargo. También guías de Tributo Simple y Yo Facturo (solo contenido). No encontré una empresa privada que junte habilitación, alta fiscal, seguros y proveedores con ruta crítica por rubro y municipio, ni intentos que hayan cerrado. Bajé la brecha a 5 porque el Estado ya cubre gratis la parte de la habilitación en varias jurisdicciones y está avanzando hacia la ventanilla única.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 5,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No encontré ninguna empresa privada que arme la ruta crítica entera (habilitación, fiscal, seguros y proveedores). El Estado sí hace partes gratis: Córdoba habilita online con simulador, San Juan publica los requisitos por municipio, Mendoza capital da por aprobada la solicitud si no responde en 24 h hábiles y en Provincia de Buenos Aires hay un proyecto de constancia única (2026-08-05). Ojo: en CABA, según un abogado en El Cronista, no se habilita sin un profesional a cargo, así que el gestor tiene que ser tu proveedor y no tu competidor.",
+     "busquedas_hechas": 2,
+     "fuentes": [
+      "https://www.cadena3.com/noticia/juntos/rige-en-cordoba-la-plataforma-para-habilitar-negocios-online_294545",
+      "https://guia.tresdefebrero.gov.ar/tramite/250/432/pdf",
+      "https://www.diariodecuyo.com.ar/noticias/se-ponen-en-marcha-dos-plataformas-digitales-para-gestionar-tramites-on-line-171327.html",
+      "https://www.losandes.com.ar/sociedad/ulpiano-suarez-implementa-el-silencio-administrativo-positivo-para-habilitaciones-comerciales-online-en-la-ciudad",
+      "https://www.parlamentario.com/2026/08/05/proponen-crear-una-plataforma-digital-para-habilitacion-de-comercios-y-emprendimientos/",
+      "https://buenosaires.gob.ar/tramites/como-habilitar-tu-local-comercial-en-la-ciudad",
+      "https://www.cronista.com/economia-politica/habilitaciones-comerciales-en-caba-que-tener-en-cuenta-para-abrir-un-local-y-evitar-demoras/",
+      "https://tributosimple.com/lo-que-tenes-que-saber-antes-de-abrir-un-local/",
+      "https://yo-facturo.com/blog/habilitacion-municipal-emprendedores/"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "vlote-05",
+   "verificaciones": [
+    {
+     "id_tmp": "N107",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Mapa del Delito (Gobierno de la Ciudad de Buenos Aires)",
+       "url": "https://mapa.seguridadciudad.gob.ar/",
+       "que_hace": "Mapa oficial y gratuito de delitos por zona en CABA. Los medios lo usan para armar rankings por barrio. No da puntaje, no cubre transporte, ruido, inundación ni alquiler y no se vende a inmobiliarias. La URL viene del generador; esta vez no la abrí.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'puntaje de barrio por dirección argentina app inseguridad transporte alquiler \"walk score\"': solo salieron rankings de barrios en medios. Cronista armó el ranking de barrios más inseguros con datos del Mapa del Delito porteño, donde Balvanera encabeza robos y hurtos. Cadena 3 dice que en los barrios seguros las propiedades cuestan hasta 30 % más. Una de esas notas aclara que el ranking no refleja cada cuadra. También salieron los precios de alquiler por barrio del IEC porteño (El Economista, 2026). Ninguna app ni puntaje por dirección. (2) 'app para saber cómo es un barrio antes de mudarte argentina reseñas vecinos seguridad inundación': solo notas y guías para extranjeros. Ninguna app de reseñas por cuadra ni de riesgo de inundación. (3) 'proptech argentina puntaje ubicación barrio inmobiliarias datos seguridad transporte startup': solo proptechs que hacen otra cosa. Pulppo es una herramienta para agentes, Mudafy una inmobiliaria digital, MOB alquila sin intermediarios y valida inquilinos con IA, Argatio tokeniza inmuebles. Ninguna da puntaje de ubicación. No revisé las tiendas de apps ni las funciones internas de las fichas de Zonaprop o Argenprop.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "Hice 3 búsquedas y no apareció ninguna app ni proptech argentina que le ponga puntaje a una dirección. Hay piezas sueltas y gratis: el Mapa del Delito del GCBA, rankings de barrios en los diarios y alquiler promedio por barrio. Las mismas notas avisan que el ranking por barrio no dice nada de la cuadra. El hueco es real. El riesgo es que Zonaprop o Argenprop lo agreguen como función, así que lo que te protege es el dato que cargan los usuarios (expensas, 'se inunda', ruido).",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.cronista.com/informacion-gral/tierra-de-nadie-el-ranking-de-los-barrios-mas-inseguros-de-caba/",
+      "https://www.cadena3.com/noticia/sociedad/los-barrios-mas-seguros-de-caba-altos-precios-y-tranquilidad-para-mudarse_523879",
+      "https://eleconomista.com.ar/economia/alquileres-caba-2026-cuanto-cuesta-alquilar-cada-barrio-cuales-son-mas-baratos-mas-caros-n94884",
+      "https://eleconomista.com.ar/actualidad/buscas-mudarte-estos-son-7-barrios-mas-seguros-buenos-aires-expertos-n92695/amp",
+      "https://novobrief.com/argentinian-proptech-pulppo-wins-6th-edition-of-acelerar-espana/10226/",
+      "https://mudafy.com.ar/blog/post/mudafy-fue-seleccionada-en-linkedin-top-startups-2022-de-argentina",
+      "https://ecosistemastartup.com/?p=90183",
+      "https://mapa.seguridadciudad.gob.ar/"
+     ]
+    },
+    {
+     "id_tmp": "N120",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Cooperativa de Servicios Públicos de Morteros (Córdoba)",
+       "url": "https://grupoclarin-la-voz-prod.cdn.arcpublishing.com/negocios/morteros-tiene-el-parque-solar-mas-grande-del-pais-impulsado-por-una-cooperativa",
+       "que_hace": "Parque solar comunitario de 340 kWp con 594 paneles. Los asociados compran una porción y un usuario residencial puede comprar hasta 5 kW. Según la nota (vista a través del buscador, sin fecha), es el parque cooperativo más grande del país. No hay compra para techos ni licitación entre instaladores.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Cooperativa eléctrica de Las Varillas (Córdoba)",
+       "url": "https://www.lavozdesanjusto.com.ar/las-varillas-comenzara-a-construir-su-primer-parque-solar-comunitario",
+       "que_hace": "Arranca su primer parque solar comunitario: una primera etapa de 600 kW para unas 200 viviendas. La cooperativa dice que se volvió viable cuando cambió la tarifa: con tarifa subsidiada la inversión no se justificaba.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'compra colectiva paneles solares vecinos argentina plataforma instaladores': salieron solo casos de afuera. En España, Som Energia, OCU, Reus y Lleida; también Puerto Rico y Solar United Neighbors en EE.UU. Nada argentino. (2) '\"usuario generador comunitario\" argentina primer proyecto cooperativa vecinos paneles solares': salieron parques solares comunitarios de cooperativas cordobesas (Morteros y Las Varillas) y uno de privados, Maipú Automotores en Córdoba, que según Cadena 3 (2023-10) es el primero hecho por usuarios privados. También apareció la Res. 17/2026 de PBA. Ninguna plataforma de compra grupal. (3) '\"compra conjunta\" OR \"compra colectiva\" paneles solares argentina vecinos descuento municipio cooperativa': el municipio de Las Heras (Mendoza) promueve los paneles pero sin compra colectiva (Los Andes, 2025-01-14). CEMDO (Villa Dolores) tiene un parque cooperativo grande, pero es generación a escala, sin participación de vecinos. Forbes Argentina habla de unos 2.000 usuarios en el país y dice que el obstáculo es la falta de financiamiento. Lectura de Econoblog (2026-01-16): la Res. 17/2026 del Ministerio de Infraestructura y Servicios Públicos de PBA habilita que varios usuarios se asocien para generar más de 10 kW. Hay un titular responsable (UGC-T) y la energía se reparte por porcentajes como descuento en la factura. La Ley 15.325 solo admitía proyectos individuales. La nota no nombra ninguna empresa ni plataforma que ya lo ofrezca.",
+     "evidencia_afuera": "Corrección: el generador dejó 'no verificado' el descuento por volumen. En Chile, el Ministerio de Energía titula que su Programa Casa Solar logró 'más de un 30% de descuento en la compra agregada de paneles solares' (energia.gob.cl). Ahí la compra con licitación la hace el propio Estado. Lo demás, sin cambios.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 8,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "Hice 3 búsquedas y no apareció ninguna plataforma argentina de compra colectiva con licitación entre instaladores. Lo que sí existe son cooperativas de Córdoba (Morteros, Las Varillas) que les venden a sus asociados una parte de un parque comunitario: ya atienden al vecino 'sin techo' y te sirven más como canal que como rival. Subí 'por qué ahora' a 8 por un dato nuevo: la Provincia de Buenos Aires habilitó la generación comunitaria con la Res. 17/2026 (nota del 2026-01-16). Ojo: en Chile la compra agregada la hace el Ministerio de Energía, así que acá tu cliente o tu competidor puede ser un municipio.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.cadena3.com/noticia/industria/maipu-automotores-construyo-el-primer-parque-solar-comunitario_371832",
+      "https://grupoclarin-la-voz-prod.cdn.arcpublishing.com/negocios/morteros-tiene-el-parque-solar-mas-grande-del-pais-impulsado-por-una-cooperativa",
+      "https://www.lavozdesanjusto.com.ar/las-varillas-comenzara-a-construir-su-primer-parque-solar-comunitario",
+      "https://www.econoblog.com.ar/?p=152945",
+      "https://newenergyevents.com/western-mixed-electric-cooperative-cemdo-launches-argentinas-largest-cooperative-solar-project-in-villa-dolores/",
+      "https://www.losandes.com.ar/por-los-departamentos/paneles-solares-como-adquirirlos-en-las-heras-y-que-beneficios-traen",
+      "https://www.forbesargentina.com/money/paneles-solares-hogar-una-tendencia-furor-mundo-pero-todavia-despega-argentina-n39595",
+      "https://energia.gob.cl/noticias/nacional/programa-casa-solar-ha-logrado-mas-de-un-30-de-descuento-en-la-compra-agregada-de-paneles-solares?page=5",
+      "https://www.energias-renovables.com/autoconsumo/compras-colectivas-de-autoproduccion-solar-el-modelo-20220224"
+     ]
+    },
+    {
+     "id_tmp": "N124",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [],
+     "intentos_previos": "En América Latina: PasanaQ (Bolivia, fundada en 2020, pre-semilla de unos US$180K según Descubre.vc) digitalizó el pasanaku con una app. La idea era registrar los grupos para que sus miembros armen historial crediticio (entrevista en eju.tv; Correo del Sur, 2023-08-18). Cambió de marca a Sommos y su noticia más reciente en Descubre.vc tiene casi tres años. El 2026-10-19 sommosapp.com muestra productos de Ahorro, ROSCA, Crédito y Grupos, sin mencionar Argentina. No es un cierre confirmado: amplió su oferta y no llegó a Argentina. Otros antecedentes: Yahoo anunció una app 'Tanda' en EE.UU. (Expansión, 2018-01-19) y TandaDeals nació en Chile en 2013. No verifiqué si siguen activas.",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'app junta pasanaku ronda de ahorro argentina digital': solo notas sobre ahorro en billeteras virtuales (ahorro individual por objetivo, fondos de inversión de Mercado Pago). Ninguna app de ronda o junta. (2) 'app tanda pasanaku digital latinoamérica startup ahorro rotativo grupo': salieron PasanaQ/Sommos (Bolivia), Yahoo Tanda (EE.UU., 2018), MiTanda (proyecto de hackathon en blockchain) y TandaDeals (Chile, 2013). Ninguna argentina. (3) 'pasanaku argentina aplicación comunidad boliviana junta de ahorro turnos': solo papers y notas sobre la comunidad boliviana en Argentina (capacidad de ahorro fuera del banco). Ninguna app. Lecturas: descubre.vc (PasanaQ) y sommosapp.com. No revisé Play Store ni App Store.",
+     "evidencia_afuera": "Agregado: el antecedente más cercano en la región es PasanaQ/Sommos (Bolivia). Hace lo mismo, ROSCA digital más historial crediticio, con poca plata levantada (unos US$180K de pre-semilla). Lo de MoneyFellows (ronda de USD 31 M) y la valuación de Esusu sigue no verificado; no gasté búsquedas en eso.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 7,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "Hice 3 búsquedas y no apareció ninguna app argentina de juntas o pasanaku: lo que hay en billeteras es ahorro individual, no rotativo. El antecedente regional es PasanaQ (Bolivia, 2020), que hizo casi lo mismo con historial crediticio, levantó solo unos US$180K y se rebautizó Sommos, sin llegar a Argentina. Subí la brecha a 7 y no a 8 porque hoy el sustituto real es el grupo de WhatsApp más una planilla, que es gratis. Antes de construir, hablá con 2 o 3 organizadores reales de juntas (ferias, comunidad boliviana) y preguntales si pagarían.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.descubre.vc/e/pasana-q",
+      "https://sommosapp.com/",
+      "https://www.cbinsights.com/company/pasanaq",
+      "https://correodelsur.com/local/20230818/startup-chuquisaquena-es-la-mejor-de-bolivia.html",
+      "https://eju.tv/?p=3004726",
+      "https://expansion.mx/tecnologia/2018/01/19/yahoo-replicara-las-tandas-en-una-app-llamada-tanda",
+      "https://wwwhatsnew.com/?p=177245",
+      "https://www.iprofesional.com/tecnologia/385554-queres-ahorrar-500-000-pesos-descubri-como-con-mercado-pago",
+      "https://eleconomista.com.ar/economia/las-billeteras-virtuales-ya-desplazaron-efectivo-argentina-dato-impactante-confirma-cambio-n97105",
+      "https://bolivia.fes.de/actividades/conferencia-publica-trabajadores-bolivianos-en-argentina"
+     ]
+    },
+    {
+     "id_tmp": "N157",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "IERIC + Fundación UOCRA (certificación de competencias laborales, normas registradas en el Ministerio de Trabajo)",
+       "url": "https://rionegro.gov.ar/articulo/50693/sierra-grande-mas-de-70-trabajadores-certifican-sus-oficios",
+       "que_hace": "Certifica oficios de la construcción con evaluación práctica presencial más una breve parte teórica. En Sierra Grande la práctica fue revoque y colocación de puerta. En Catamarca certificaron instalador sanitarista domiciliario, albañil, herrero de obra y armador de hierro (El Ancasti, 2026-10-09). Lo hacen por operativos y no se vende como padrón ni API a empresas.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Servidos (servidos.ar)",
+       "url": "https://servidos.ar/clasificados/servicios",
+       "que_hace": "Directorio de electricistas, plomeros y gasistas con etiqueta de 'profesionales verificados' e indicación de matrícula. También tiene un verificador de matrícula COPIME online. Verifica papeles, no la habilidad práctica.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "IguanaFix",
+       "url": "https://infonegocios.info/que-esta-pasando/iguanafix-supero-mas-de-150-mil-servicios-en-argentina-el-service-de-aire-acondicionado-lo-mas-pedido",
+       "que_hace": "Marketplace argentino de reparaciones que verificaba 'datos, fotos y credenciales' de los profesionales. Llegó a más de 150 mil servicios en Argentina y le hacía instalaciones a comercios y retailers. Las notas no tienen fecha reciente y su estado actual no está verificado (ver intentos previos).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "UTN Facultad Regional Santa Fe",
+       "url": "https://sidn.frsf.utn.edu.ar/resoluciones/salidaPdf/7450",
+       "que_hace": "Aprobó en 2022 un procedimiento propio de certificación de oficios como servicio a terceros. Es institucional y no online.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "No encontré un cierre confirmado. El antecedente argentino más cercano del lado B2B es IguanaFix: verificaba profesionales y atendía a retailers. El 2026-10-19 www.iguanafix.com.ar no resolvió (error de DNS) y www.iguanafix.com devolvió error 503. No sé si cerró, pivoteó o tuvo una caída momentánea: no verificado.",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'certificación de oficios online argentina plataforma técnicos verificados electricista plomero': salieron Servidos (directorio con 'profesionales verificados' y verificador de matrícula COPIME), los Centros de Formación Profesional del GCBA (cursos con certificado) y la UTN Santa Fe (certificación de oficios para terceros, resolución de 2022). Ninguna credencial por video. (2) 'IguanaFix profesionales verificados instaladores retailers argentina': IguanaFix verificaba credenciales y tenía entre 15.000 y 25.000 profesionales según la fuente (Infonegocios, Endeavor, Christensen Institute), con oferta para retailers. Ninguna nota es reciente. (3) 'certificación de competencias laborales argentina oficios evaluación práctica electricistas gasistas UOCRA': existe un sistema con normas de competencia registradas en el Ministerio de Trabajo, evaluadas por un organismo sectorial (en la construcción, el IERIC con la Fundación UOCRA), con examen práctico (Río Negro; Catamarca 2026-10-09). No apareció norma para gasistas. Lecturas: iguanafix.com.ar (DNS no resolvió) e iguanafix.com (503).",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 5,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "La credencial por examen práctico ya existe en Argentina, pero presencial y estatal-sindical: el IERIC con la Fundación UOCRA certifica albañiles, sanitaristas y herreros con prueba práctica bajo normas del Ministerio de Trabajo. Servidos ya muestra 'profesionales verificados' y chequea matrícula COPIME. Te queda el hueco de lo remoto por video y de venderles el padrón a asistencias y aseguradoras. Usá esas normas oficiales como estándar del examen en vez de inventar uno, y validá rápido que alguien B2B pague. IguanaFix, el marketplace que verificaba técnicos, hoy no responde (sin confirmar si cerró).",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://servidos.ar/clasificados/servicios",
+      "https://servidos.ar/verificador-matricula-copime",
+      "https://servidos.ar/blog/habilitaciones-matriculas-oficios-buenos-aires",
+      "https://sidn.frsf.utn.edu.ar/resoluciones/salidaPdf/7450",
+      "https://www.argentina.gob.ar/node/356326",
+      "https://rionegro.gov.ar/articulo/50693/sierra-grande-mas-de-70-trabajadores-certifican-sus-oficios",
+      "https://rionegro.gov.ar/articulo/51889/unos-90-trabajadores-de-la-construccion-buscan-su-calificacion-en-jacobacci",
+      "https://www.elancasti.com.ar/edicion-impresa/entregan-certificados-capacitacion-laboral-n597631",
+      "https://infonegocios.info/que-esta-pasando/iguanafix-supero-mas-de-150-mil-servicios-en-argentina-el-service-de-aire-acondicionado-lo-mas-pedido",
+      "https://www.endeavor.org.ar/?p=12100",
+      "https://www.christenseninstitute.org/blog/innovators-creating-prosperity-iguanafix/",
+      "https://www.iguanafix.com.ar/",
+      "https://www.iguanafix.com/"
+     ]
+    },
+    {
+     "id_tmp": "N170",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "ATO",
+       "url": "https://www.bloomberglinea.com/latinoamerica/argentina/startup-argentina-ato-apunta-a-mercado-billonario-desde-san-francisco-el-alexa-para-adultos-mayores/",
+       "que_hace": "Startup de fundadores argentinos. Vende un dispositivo de voz con IA para adultos mayores, sin pantalla ni botones, que inicia conversaciones solo, recuerda la medicación y manda mensajes a la familia. Tiene más de 1.300 familias en 22 países, con foco en Argentina y EE.UU., y una pre-semilla de más de US$1M con Rauch, Garro, Woloski y Pergolini (Bloomberg Línea, 2026-05-01). Precio: US$179 según Bloomberg Línea; US$150 más una suscripción de US$20 a 40 por mes según iProfesional (2025-11-04). No vi que avise a la familia ante señales raras.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Escucha Activa (Gobierno de la Ciudad de Buenos Aires)",
+       "url": "https://www.econoblog.com.ar/112843/escucha-activa-nuevo-programa-de-acompanamiento-a-adultos-mayores",
+       "que_hace": "Programa de acompañamiento telefónico para mayores de 60, de lunes a viernes de 8 a 20, atendido por personas, sin IA. No vi la fecha de la nota.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Atempo (teleasistencia domiciliaria)",
+       "url": "https://www.lacapital.com.ar/mujer/teleasistencia-domiciliaria-una-novedad-cuidar-los-abuelos-n277275.html/amp",
+       "que_hace": "Teleasistencia con botón o pulsera para pedir ayuda: espera que el mayor actúe. La nota parece vieja y no verifiqué si sigue.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'llamada diaria inteligencia artificial adultos mayores solos argentina servicio': salió AloneAssist (de afuera, sin indicios de que opere en Argentina). También Atempo (teleasistencia con botón, La Capital), Escucha Activa del GCBA (acompañamiento telefónico con personas) y una línea de contención en Posadas atendida por mayores. Nada con IA que llame a diario en Argentina. (2) 'teleasistencia adultos mayores argentina inteligencia artificial llamada asistente de voz startup': salieron ATO (startup argentina con inversión de Pergolini), Mis Tatas (Chile, teleasistencia 24/7 con IA) y Diagui (empleabilidad de mayores de 45, no cuidado). (3) 'agente de voz inteligencia artificial llama todos los días a abuelos argentina avisa a la familia whatsapp': nada que llame a diario y avise por WhatsApp. Volvió a salir ATO, más notas sobre estafas con voces clonadas. Lecturas: iProfesional (2025-11-04) y Bloomberg Línea (2026-05-01) sobre ATO.",
+     "evidencia_afuera": "Agregado: el comparable exacto de afuera es AloneAssist. Hace llamadas telefónicas diarias automatizadas a mayores que viven solos, manda un resumen diario a la familia y dispara una alerta si no atienden (ecosistemastartup.com, fecha no vista). No figura que opere en Argentina. En Chile, Mis Tatas tiene teleasistencia 24/7 con IA (suite AMAIA) que detecta emergencias (Emol, 2025-07-21). Lo de ElliQ y Sensi, sin cambios.",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 4,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Ojo con ATO: es una startup de fundadores argentinos, con foco en Argentina y EE.UU. y más de US$1M de inversores como Pergolini. Ya vende un asistente de voz con IA para mayores que arranca conversaciones solo y manda mensajes a la familia, y tiene más de 1.300 familias (Bloomberg Línea, 2026-05-01). Afuera, AloneAssist hace exactamente tu idea. Lo que te queda es la versión sin aparato: la llamada al teléfono que ya tienen, con resumen y alerta al hijo por WhatsApp. Es un hueco chico que ATO puede tapar rápido. Opinión: con tantas estafas por voz clonada, que un robot llame a un abuelo puede generarle desconfianza.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.bloomberglinea.com/latinoamerica/argentina/startup-argentina-ato-apunta-a-mercado-billonario-desde-san-francisco-el-alexa-para-adultos-mayores/",
+      "https://www.iprofesional.com/tecnologia/441087-ato-el-asistente-de-voz-para-personas-mayores-que-atrajo-la-inversion-de-mario-pergolini",
+      "https://ecosistemastartup.com/aloneassist-la-ia-que-llama-a-diario-a-adultos-mayores-solos/",
+      "https://www.econoblog.com.ar/112843/escucha-activa-nuevo-programa-de-acompanamiento-a-adultos-mayores",
+      "https://www.lacapital.com.ar/mujer/teleasistencia-domiciliaria-una-novedad-cuidar-los-abuelos-n277275.html/amp",
+      "https://misionesonline.net/2025/03/27/acompanamiento-para-adultos-mayores/",
+      "https://www.emol.com/noticias/Economia/2025/07/21/1172416/daniel-osorio-mis-tatas-empresa.html",
+      "https://www.todojujuy.com/pais/la-nueva-estafa-whatsapp-clonan-voces-la-inteligencia-artificial-n252618"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "vlote-06",
+   "verificaciones": [
+    {
+     "id_tmp": "N186",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "VISEC (Visión Sectorial del Gran Chaco)",
+       "url": "https://visec.com.ar/",
+       "que_hace": "Plataforma sectorial de trazabilidad socioambiental para soja y carne bovina, reconocida por la Res. SAGyP 50/2024. En 2023-06 sumó al Consorcio ABC de exportadores de carne (AgroLatam). No aparece cubriendo cuero ni madera.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Tracestory",
+       "url": "https://www.descubre.vc/tracestory",
+       "que_hace": "Startup de Río Cuarto (Córdoba) fundada en 2020: SaaS de trazabilidad colaborativa para cadenas agroalimentarias, con evidencia digital por QR, apoyo al cumplimiento del EUDR y verificación de 'no deforestación'. Pre-semilla de ~USD 300 mil (Xperiment) y alianzas con INTA y SENASA. Dato de una sola ficha, que vi solo en el resultado de búsqueda y no abrí.",
+       "parecido": "parecido"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1 «EUDR Argentina plataforma trazabilidad deforestación cuero madera pymes exportadoras»: salió VISEC (AgroLatam cita a su coordinadora: Argentina está lista para carne, soja y subproductos; sumó al Consorcio ABC en 2023-06), las críticas de Redaf a VISEC (Mongabay, 2024-12) y una nota de Economía Sustentable (2026-07-13) según la cual la Comisión aprobó una actualización que excluye el cuero, las pieles bovinas, los neumáticos recauchutados, la soja para siembra y algunos artículos de caucho. Búsqueda 2 «startup argentina EUDR diligencia debida satelital exportadores software trazabilidad»: salió Tracestory (ficha de descubre.vc) y un informe de la Bolsa de Comercio de Rosario citado por El Litoral: la carga de trazabilidad sigue recayendo en los países exportadores. Búsqueda 3 «EUDR madera Argentina sector forestal trazabilidad exportadores herramienta»: en madera solo aparecen las certificaciones FSC/PEFC con cadena de custodia, sistemas propios de empresas grandes (se nombró a Papel Prensa, fuente no abierta) y un seminario de AFoA. Argentina sigue como país de 'riesgo estándar' y la Cancillería celebró la postergación. No encontré ninguna herramienta para PyMEs de cuero o de madera. Leí Economía Sustentable (2026-07-13) y la página de la Comisión Europea (2026-10-18).",
+     "evidencia_afuera": "Corrección importante: Economía Sustentable (2026-07-13) dice que la Comisión excluyó del EUDR el cuero y las pieles bovinas, y que sumó café soluble, lenguas bovinas congeladas y algunos derivados. La página oficial de la Comisión (leída el 2026-10-18) no menciona exclusiones: sigue nombrando 'leather' como ejemplo de derivado y solo dice que el Reglamento Delegado (UE) 2026/2102 agrega café soluble, ciertos derivados de palma y lenguas bovinas congeladas desde el 2027-12-30. El conflicto queda sin resolver hasta leer el Anexo I y el reglamento delegado en EUR-Lex. Otro dato de esa página: los micro y pequeños operadores que ya estaban bajo el Reglamento de la Madera (EUTR) aplican desde el 2026-12-30, no desde el 2027-06-30. Los términos de uso comercial de Global Forest Watch siguen sin verificar.",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 5,
+      "por_que_ahora": 8,
+      "potencial": 5
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Ojo con el cuero: según Economía Sustentable (2026-07-13), la Comisión lo sacó del EUDR junto con las pieles bovinas. La página oficial no lo confirma ni lo desmiente, así que antes de seguir hay que leer el texto en EUR-Lex (por eso bajé el potencial de 6 a 5). Si se confirma, el hueco queda en madera, donde ya están FSC/PEFC. Además apareció Tracestory (Río Cuarto), que ya vende trazabilidad con EUDR y 'no deforestación' para cadenas agro, y VISEC sigue en soja y carne.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.agrolatam.com/actualidad/ue-ley-antideforestacion-soja-argentina-lista/",
+      "https://es.mongabay.com/2024/12/argentina-se-enfrenta-nuevas-reglas-contra-deforestacion-estado-lento-dudas-criticas-avance-tala/",
+      "https://economiasustentable.com/?p=137505",
+      "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en",
+      "https://www.descubre.vc/tracestory",
+      "https://www.ellitoral.com/campolitoral/eudr-deforestacion-trazabilidad-comercio_0_w8gHzJJozv.html",
+      "https://cancilleria.gob.ar/es/actualidad/noticias/la-argentina-destaca-la-postergacion-de-la-implementacion-del-reglamento-de-la",
+      "https://visec.com.ar/"
+     ]
+    },
+    {
+     "id_tmp": "N003",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Bastó",
+       "url": "https://bichosdecampo.com/el-caso-basto-vacas-con-collares-que-reemplazan-el-alambrado-y-permiten-realizar-un-pastoreo-de-precision",
+       "que_hace": "Startup de Río Cuarto (Córdoba), activa desde 2019-08. Hace collares IoT con cerco virtual dinámico (primero sonido, después estímulo estático), sensores de temperatura y frecuencia cardíaca, alertas y una app. Según Agrofy usa LoRa, Bluetooth y GNSS con estación base y recibió una coinversión de 2 millones de pesos del Fondo de Coinversión Agtech. StartupBlink la lista en 2026. Precio, modelo de cobro y estado comercial actual: no verificados.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Halter",
+       "url": "https://halterhq.com/",
+       "que_hace": "Empresa de Nueva Zelanda: collar solar con GPS e IA y cerco virtual. Tiene sitio /es-ar y, según ITSitio (2026-03-31), quiere desembarcar en Argentina, Brasil y Uruguay, sin fecha ni socios. No confirmé que ya opere en el país.",
+       "parecido": "parecido"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1 «cerco virtual collar ganado Argentina»: salieron Bastó, startup argentina de collares con cerco virtual (Bichos de Campo), y una nota de ITSitio sobre la llegada de Halter. Búsqueda 2 «Bastó collares cercas virtuales ganadería startup Río Cuarto»: salieron iProUP ('startup cordobesa que desarrolló un corral virtual'), Agrofy (LoRa + Bluetooth + GNSS con estación base, coinversión de 2 millones de pesos del Fondo de Coinversión Agtech, Hub de Innovación de Córdoba) y StartupBlink, que la lista entre las startups de Río Cuarto en 2026. Lectura 1, Bichos de Campo (2020-08-25): Bastó arrancó en 2019-08, la batería dura 2 años y la fase comercial estaba prevista para 2021-03; la nota no da precio ni modelo de cobro y no incluye pesaje ni agua. Lectura 2, ITSitio (2026-03-31): Halter quiere 'desembarcar en Argentina, Brasil y Uruguay', sin fecha, y la nota marca el costo inicial como freno; no nombra a Bastó. No encontré a nadie que cobre por cabeza por mes con pesaje y agua incluidos, pero no hice una búsqueda específica de balanzas de paso.",
+     "evidencia_afuera": "Agrego un dato: según ITSitio (2026-03-31), Halter quiere desembarcar en Argentina, Brasil y Uruguay, sin fecha y sin precios. El resto, sin cambios.",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 4,
+      "por_que_ahora": 7,
+      "potencial": 7
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "No estás solo: Bastó, una startup de Río Cuarto, hace collares de cerco virtual desde 2019 (con coinversión del Fondo Agtech), y Halter dijo en 2026-03 que quiere desembarcar en Argentina. No pude ver precios ni saber si Bastó vende o alquila el collar. Tu hueco es el paquete por cabeza (pesaje + agua + plan + servicio de campo). Opinión: probá ser instalador e integrador de un fabricante antes que competirle con un collar propio.",
+     "busquedas_hechas": 2,
+     "fuentes": [
+      "https://bichosdecampo.com/el-caso-basto-vacas-con-collares-que-reemplazan-el-alambrado-y-permiten-realizar-un-pastoreo-de-precision",
+      "https://www.itsitio.com/ar/inteligencia-artificial/ganaderia-4-0-como-los-collares-inteligentes-con-ia-reemplazan-alambrados-y-preparan-su-llegada-a-argentina/",
+      "https://www.iproup.com/innovacion/22416-conoce-la-startup-cordobesa-que-desarrollo-un-corral-virtual",
+      "https://news.agrofy.com.ar/noticia/193390/corral-virtual-asi-funciona-dispositivo-manejar-rodeo-casa",
+      "https://www.startupblink.com/top-startups/rio-cuarto-ar",
+      "https://halterhq.com/"
+     ]
+    },
+    {
+     "id_tmp": "N016",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Clickie",
+       "url": "https://mercado.com.ar/negocios/clickie-inicia-operaciones-en-mar-del-plata-y-suma-su-sexta-plaza-en-argentina",
+       "que_hace": "Nació en Córdoba. Un asistente de IA identifica el problema del hogar y lo conecta con profesionales verificados cercanos; 'el pago se realiza de manera segura' dentro de la app y cada trabajo tiene seguro ante accidentes. Opera en Córdoba, CABA, GBA, La Plata, Rosario y Mar del Plata, con más de 40.000 usuarios y meta de 100.000 a fin de 2026 (nota del 2026-09-14). Hace arreglos e instalaciones, no refacciones grandes, y no menciona pago por hitos.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "HomeSolution",
+       "url": "https://homesolution.net/",
+       "que_hace": "Recibe pedidos de mantenimiento, reparación o mejora del hogar y manda propuestas de profesionales recomendados en AMBA, La Plata, Rosario, Mar del Plata, Córdoba, Mendoza, Posadas e Iguazú. El pago es directo, sin retención (dato del generador, 2026-10-18).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Lavuro",
+       "url": "https://www.unidiversidad.com.ar/lavuro-la-app-mendocina-que-permite-contratar-servicios-de-reparaciones-y-mantenimientos-para-hogares",
+       "que_hace": "App mendocina para contratar plomería, gas, albañilería y otros arreglos del hogar; el cliente paga desde la app (lo vi en el resultado de búsqueda, no abrí la nota).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Servidos",
+       "url": "https://servidos.ar/prensa",
+       "que_hace": "Plataforma de servicios del hogar que no cobra comisión por trabajo: el cliente le paga directo al profesional (lo vi en el resultado de búsqueda, no abrí la página).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "IguanaFix: lanzada en Argentina en 2013 como servicio a demanda de arreglos para consumidores y comercios (Christensen Institute). Según iProUP (2019-05), abandonó la plataforma para usuarios finales, dejó sus oficinas y despidió a 40 personas para enfocarse solo en clientes corporativos; su CEO, Matías Recchia, dijo que el negocio con el usuario final consume mucha caja. En 2019-08 Stanley Black & Decker compró una participación (LatamList) y después MadeiraMadeira compró su operación de Brasil (Brazil Journal, fecha no vista). No hacía escrow por hitos, pero es el antecedente local de que el B2C de servicios del hogar quema caja.",
+     "evidencia_argentina": "Búsqueda 1 «plataforma refacciones hogar contratistas pago por avance de obra Argentina app»: salieron Clickie (Córdoba, 6 plazas), Lavuro (Mendoza, pago desde la app) y Servidos (sin comisión, el cliente paga directo). Ninguna menciona pago por etapas ni plata retenida hasta terminar. Búsqueda 2 «IguanaFix startup servicios para el hogar Argentina pivot B2B»: salieron el pivote de 2019 a clientes corporativos (iProUP), la participación de Stanley Black & Decker (LatamList) y la venta de la operación brasileña a MadeiraMadeira (Brazil Journal). Lectura, Mercado (2026-09-14): Clickie tiene asistente de IA, profesionales verificados, pago seguro en la app, seguro de accidentes y más de 40.000 usuarios; trabaja en rubros de arreglos e instalaciones, sin hitos. No encontré en Argentina ningún escrow por hitos verificados con foto para refacciones.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 5,
+      "por_que_ahora": 6,
+      "potencial": 7
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Conseguir profesional y pagar por la app ya está tomado: Clickie (IA que toma el pedido, pago seguro, 40.000 usuarios en 6 ciudades al 2026-09-14) y HomeSolution. Lo que no encontré es la plata retenida y liberada por hito con foto para refacciones medianas. Ojo con IguanaFix: en 2019 dejó al cliente final porque le consumía mucha caja y se pasó a B2B. Si la hacés, entrá por tickets grandes y no por el arreglo chico.",
+     "busquedas_hechas": 2,
+     "fuentes": [
+      "https://mercado.com.ar/negocios/clickie-inicia-operaciones-en-mar-del-plata-y-suma-su-sexta-plaza-en-argentina",
+      "https://www.unidiversidad.com.ar/lavuro-la-app-mendocina-que-permite-contratar-servicios-de-reparaciones-y-mantenimientos-para-hogares",
+      "https://servidos.ar/prensa",
+      "https://homesolution.net/",
+      "https://www.iproup.com/innovacion/4602-matias-recchia-mercado-libre-emprendimiento-No-mas-plomero-a-domicilio-IguanaFix-se-focaliza-en-clientes-corporativos",
+      "https://latamlist.com/stanley-black-decker-acquires-a-stake-in-argentinas-iguanafix/",
+      "https://braziljournal.com/madeiramadeira-compra-o-uber-dos-montadores-de-moveis",
+      "https://www.christenseninstitute.org/blog/innovators-creating-prosperity-iguanafix/"
+     ]
+    },
+    {
+     "id_tmp": "N036",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Kitchenita",
+       "url": "https://eleconomista.com.ar/negocios/kitchenita-venimos-revolucionar-industria-delivery-n36770",
+       "que_hace": "Startup foodtech de Buenos Aires que opera desde 2019-09. Tenía 3 hubs con 'mini cocinas' de 16 m² 'diseñadas y habilitadas' que alquilaba a restaurantes y chefs amateurs para armar marcas de delivery (de 10 alquilaba 8 y se quedaba 2 para marcas propias). La nota no dice si alquila por hora ni da precios, y no habla de gestión bromatológica. Es del 2020-08-10: estado actual no verificado.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1 «alquiler cocina habilitada por hora Buenos Aires emprendedores gastronómicos»: solo salió CoChef, un plan de negocios de MBA de la UdeSA (2019) que proponía alquilar puestos de cocina por hora y decía que el modelo no existía en Argentina; no encontré evidencia de que haya operado y no apareció ningún listado actual. Búsqueda 2 «cocina compartida para emprendedores gastronómicos alquiler por turno Argentina cowork gastronómico»: nada en Argentina; afuera aparecieron Hub Gastronómico en Santiago de Chile (13 cocinas, El Dínamo, 2021-01-29) y la Cocina Comunitaria de UTEC en Paysandú (Uruguay), habilitada para emprendedores. Búsqueda 3 «dark kitchen alquiler espacio emprendedores gastronómicos Buenos Aires cocina habilitada por turno»: salieron Kitchenita (El Economista), un informe CIS-UADE sobre dark kitchens que, según el resumen de búsqueda (no lo abrí), dice que en CABA la habilitación puede tardar de 3 a 6 meses, y La Nación, que cuenta que gastronómicos reconvierten sus propios locales en dark kitchens y que instalar una en serio puede superar los $5 millones. Lectura, El Economista (2020-08-10) sobre Kitchenita: datos de la ficha del competidor. No encontré ninguna plataforma que alquile por hora cocinas habilitadas ociosas de terceros ni que venda la 'habilitación compartida'. No revisé grupos de Facebook ni salas de elaboración municipales, que podrían ser competencia pública: no verificado.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 5,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "Con 3 búsquedas no encontré a nadie en Argentina que alquile por hora cocinas habilitadas ociosas ni que venda la 'habilitación compartida'. Lo más cercano es Kitchenita, que en 2020 alquilaba mini cocinas de 16 m² en 3 hubs porteños a chefs amateurs. No sé si sigue abierta: averigualo, porque si cerró, saber por qué vale oro. El riesgo principal sigue siendo legal (que bromatología acepte dos elaboradores en la misma cocina), no la competencia.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://repositorio.udesa.edu.ar/jspui/bitstream/10908/19297/1/%5bP%5d%20%5bW%5d%20MBA%20Guti%c3%a9rrez%20R%c3%bcegg%2c%20Patricio.pdf",
+      "https://eleconomista.com.ar/negocios/kitchenita-venimos-revolucionar-industria-delivery-n36770",
+      "https://uade.edu.ar/media/yzvmw0kd/informe-cis-dark-kitchens-_con-agregado-carreras-uade.pdf",
+      "https://www.lanacion.com.ar/economia/negocios/dark-kitchens-cuanto-cuesta-ponerse-cocina-fantasma-nid2424625",
+      "https://www.eldinamo.cl/empren-d/2021/01/29/hub-gastronomico-cowork-cocina/",
+      "https://utec.edu.uy/es/noticia/utec-inauguro-su-cocina-comunitaria-destinada-a-apoyar-el-trabajo-de-emprendedores-gastronomicos"
+     ]
+    },
+    {
+     "id_tmp": "N062",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "OrderEAT",
+       "url": "https://infonegocios.info/nota-principal/ordereat-el-mercado-pago-de-los-ninos-ya-llega-a-100-colegios-en-el-pais-cerro-una-ronda-de-inversion-de-us-2-millones",
+       "que_hace": "Fundada en 2019 en Punta del Este, digitaliza cantinas, buffets y comedores escolares. Reemplaza el efectivo por una billetera virtual que cargan las familias; el alumno pre-pide desde la app y retira sin fila. Los padres ven los consumos en tiempo real y fijan restricciones por alergia o tipo de producto y un tope de gasto diario o semanal. El chico se identifica con tarjeta, pulsera, nombre o huella (hay pilotos con reconocimiento facial). El concesionario gestiona menú, stock y ventas y sabe de antemano cuánto stock necesita cada día. Según Infonegocios (2026-09-17) llega a '100 colegios en el país' (nombra colegios de Córdoba y Carlos Paz) y cerró una ronda de USD 2 millones.",
+       "parecido": "casi igual"
+      },
+      {
+       "nombre": "Canteen (Rocred S.R.L.)",
+       "url": "https://mwm.ai/apps/canteen/6504421083",
+       "que_hace": "App para programar pedidos de comida escolar, con seguimiento de saldo y transacciones y alertas de saldo bajo o pedido confirmado. Publicador argentino según la ficha de mwm.ai (la vi en el resultado de búsqueda, no la abrí).",
+       "parecido": "parecido"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1 «app kiosco escolar pedido anticipado padres saldo Argentina»: salieron OrderEAT (Infonegocios, 2026-09-17: 'el Mercado Pago de los niños', 100 colegios en el país, ronda de USD 2 millones), Canteen (Rocred S.R.L.), PayMon (México) y un colegio uruguayo que usa OrderEAT con corte de pedidos a las 9:00. Lectura, Infonegocios: confirma pre-pedido sin fila, billetera de las familias, topes y restricciones, identificación sin celular y stock anticipado para el concesionario. Según el resumen de búsqueda, la misma nota dice que las prohibiciones de celulares en escuelas de varias provincias le subieron las ventas, lo que debilita el 'por qué ahora' del generador (chicos con celular desde los 10 u 11 años). Lo único que no vi en OrderEAT es el semáforo nutricional por sellos.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 3,
+      "factibilidad_facu": 7,
+      "brecha_argentina": 2,
+      "por_que_ahora": 6,
+      "potencial": 5
+     },
+     "veredicto": "descartar",
+     "nota_para_facu": "Ya existe casi igual: OrderEAT ('el Mercado Pago de los niños') está en 100 colegios del país y levantó USD 2 millones (Infonegocios, 2026-09-17). Tiene billetera de los padres, pre-pedido sin fila, topes, restricciones y stock anticipado para el concesionario. El semáforo nutricional es una función, no una empresa. Si te gusta el mecanismo, mirá clientes que la nota no nombra (clubes, colonias), aunque no sé si OrderEAT ya los atiende.",
+     "busquedas_hechas": 1,
+     "fuentes": [
+      "https://infonegocios.info/nota-principal/ordereat-el-mercado-pago-de-los-ninos-ya-llega-a-100-colegios-en-el-pais-cerro-una-ronda-de-inversion-de-us-2-millones",
+      "https://mwm.ai/apps/canteen/6504421083",
+      "https://www.colegioyliceofatima.edu.uy/wp-content/uploads/2025/08/Comunicado-Fatima-OrderEAT-2025.pdf"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "vlote-07",
+   "verificaciones": [
+    {
+     "id_tmp": "N063",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "yoautorizo.com (Córdoba)",
+       "url": "https://infonegocios.info/plus/adios-a-los-tiempos-en-que-los-chicos-falsificaban-la-firma-en-el-colegio-nace-yoautorizo-com",
+       "que_hace": "Software web para colegios: los padres cargan quién puede retirar al chico y en la salida se valida con QR o DNI, con aviso al tutor. Cobraba $100 por alumno por mes + IVA (nota del 2022-02-17). Trabajaba con escuelas de Córdoba capital y algunas de Buenos Aires. No tenía aviso de llegada, orden de salida ni carpool. El 2026-10-19 su dominio muestra una página de dominio estacionado: probablemente inactivo.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Carpoolear (ONG STS Rosario)",
+       "url": "https://www.santafe.gov.ar/noticias/noticia/211212/",
+       "que_hace": "Viaje compartido general, gratis y de código abierto (sitio y app), nacido en 2013. No es escolar. Dato tomado del resumen del buscador sobre una nota de alrededor de 2015, sin leerla. Estado actual no verificado.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "SincroPool",
+       "url": "https://worldcrunch.com/culture-society/cash-strapped-argentina-discovers-carpooling/amp/",
+       "que_hace": "Viaje compartido para empleados de empresas: más de 30 firmas y más de 15.000 usuarios, según el resumen del buscador de una nota vieja. No es escolar. Estado actual no verificado.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "yoautorizo.com (Córdoba): lo crearon Christian Leuci y Héctor Ponchon. Era software de control de retiros por QR o DNI para colegios, a $100 por alumno por mes + IVA, con escuelas de Córdoba capital y algunas de Buenos Aires (Infonegocios, 2022-02-17). El 2026-10-19 el dominio muestra una página de dominio estacionado de Hostinger. Eso sugiere que cerró o se mudó, pero no lo pude confirmar.",
+     "evidencia_argentina": "Búsquedas del 2026-10-19:\n1) 'app retiro de alumnos salida colegio argentina': salieron yoautorizo.com (Córdoba, nota de Infonegocios), Oink y Skolable. Oink está en la App Store con desarrollador Roshka S.A.: el familiar avisa que llega y el personal ve qué alumno sale. No verifiqué de qué país es ni si opera en Argentina.\n2) 'carpool escolar app argentina familias mismo colegio compartir viajes': ninguna app argentina de viaje compartido escolar. Solo Carpoolear (general) y SincroPool (empresas), según el resumen del buscador.\n3) 'skolable app salida colegio': Skolable es mexicana. Según su sitio la usan más de 100 colegios en México.\nLecturas: la nota de Infonegocios (funciones y precio de yoautorizo; no menciona aviso de llegada, orden de salida ni carpool) y yoautorizo.com, que hoy es un dominio estacionado.",
+     "evidencia_afuera": "Sin cambios sobre PikMyKid, GoKid, HopSkipDrive ni Hoop. Se suman dos datos que no verifiqué a fondo:\n- Skolable (México, más de 100 colegios según su sitio) ya hace el despacho de salida en español, con geolocalización y verificación de quién retira.\n- Familyescool (España) vende viaje compartido escolar contratado por el propio colegio (wwwhatsnew, según el resumen del buscador).",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 5,
+      "por_que_ahora": 5,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "La parte de 'quién retira al chico' ya se intentó en Córdoba: yoautorizo.com, en 2022, con QR o DNI a $100 por alumno por mes. Hoy su dominio está estacionado, así que conviene hablar con ellos y averiguar por qué no siguió. En México, Skolable ya hace el despacho de salida en más de 100 colegios. No encontré viaje compartido escolar en Argentina, solo Carpoolear (general) y SincroPool (empresas): el hueco está en el carpool armado sobre el padrón del colegio, no en la app de salida.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://infonegocios.info/plus/adios-a-los-tiempos-en-que-los-chicos-falsificaban-la-firma-en-el-colegio-nace-yoautorizo-com",
+      "https://yoautorizo.com",
+      "https://apps.apple.com/us/app/-/id6751863068",
+      "https://apps.apple.com/us/app/id1364677399",
+      "https://skolable.com/",
+      "https://www.santafe.gov.ar/noticias/noticia/211212/",
+      "https://worldcrunch.com/culture-society/cash-strapped-argentina-discovers-carpooling/amp/",
+      "https://wwwhatsnew.com/?p=315210"
+     ]
+    },
+    {
+     "id_tmp": "N076",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19:\n1) 'divorcio online argentina plataforma convenio regulador precio fijo': solo fallos, calculadoras de costos y notas de prensa, ninguna plataforma. Según el resumen del buscador, cuantomecuesta.com estima el divorcio de común acuerdo en $1M-$3M ARS y 2-6 meses (Cronista).\n2) 'divorcio online argentina inteligencia artificial plataforma legaltech abogados': solo IA para abogados, nada para parejas. Aparecen Nino Legal (Córdoba; el título de iProfesional dice más de 5.000 usuarios) y Magnar (chilena, llegó a Argentina).\n3) 'divorcio 100% online argentina abogados honorario cerrado sin ir al estudio': solo notas de honorarios.\nLectura: iProfesional, nota del 2025-10-05.\n- La ley exige patrocinio letrado en toda demanda de divorcio (abogado privado o defensor oficial).\n- Honorarios del divorcio de común acuerdo en CABA: desde unos $400.000. Valores de referencia a septiembre de 2025: UMA unos $25.000, jus unos $23.000.\n- No menciona ninguna plataforma online.\n- Menciona un divorcio administrativo en algunos registros civiles para casos simples, y la Defensoría Oficial gratis.\nLímite: el buscador es de EE.UU. y puede no traer las páginas de estudios chicos. Que haya estudios que ofrecen 'divorcio express' por WhatsApp sigue sin verificar.",
+     "evidencia_afuera": "Sin cambios (Hello Divorce ya trae fuente).",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 7,
+      "por_que_ahora": 6,
+      "potencial": 5
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En 3 búsquedas no apareció ninguna plataforma de divorcio online para parejas en Argentina: solo notas de costos e IA para abogados (Nino Legal, Magnar). Está confirmado que la ley exige abogado (iProfesional, 2025-10-05), así que el modelo tiene que ser 'la plataforma arma el convenio, el abogado firma'. El precio contra el que competís arranca en unos $400.000 de honorarios en CABA. Ojo: esa misma nota habla de un divorcio administrativo en algunos registros civiles para casos simples. Fijate dónde existe, porque te puede sacar justo el caso fácil.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.iprofesional.com/legales/438567-cuanto-cuesta-iniciar-un-juicio-de-divorcio-en-argentina-honorarios-de-abogados",
+      "https://cuantomecuesta.com/ar/divorcio-express/",
+      "https://www.cronista.com/economia-politica/la-separacion-express-no-existe-cuanto-cuesta-divorciarse-hoy-en-argentina-y-cuanto-demora/",
+      "https://www.iprofesional.com/negocios/462611-nino-legal-la-ia-para-abogados-que-ya-supero-los-5-000-usuarios.amp",
+      "https://www.iprofesional.com/tecnologia/462617-magnar-lanza-en-la-argentina-su-asistente-de-ia-para-abogados.amp"
+     ]
+    },
+    {
+     "id_tmp": "N083",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "AgroMercado (Río Negro)",
+       "url": "https://rionegro.gov.ar/articulo/55646/agromercado-los-productos-rionegrinos-se-suman-a-la-mesa-gastronomica",
+       "que_hace": "Plataforma que conecta productores de frutas y verduras con hoteles y restaurantes de Bariloche, sin intermediarios. La impulsan la Federación de Productores de Fruta de Río Negro y Neuquén y la Asociación Empresaria Hotelera Gastronómica de Bariloche, y se presentó el 2025-09-06. La nota no describe pedidos, precios, logística ni pagos, y no menciona compra anticipada ni plan de siembra. No figura la URL de la plataforma y no verifiqué que esté funcionando.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Tufud",
+       "url": "https://www.forbesargentina.com/negocios/asi-tufud-startup-gastronomica-argentina-fue-elegida-500-latam-como-una-diez-mejores-n47384",
+       "que_hace": "Startup argentina para que los restaurantes hagan y reciban pedidos de sus proveedores. Su primer piloto fue en septiembre de 2022 con 3 locales y 500 LatAm la eligió entre sus mejores diez. Es del estilo de Choco, sin compra anticipada. Estado actual no verificado.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19:\n1) 'plataforma restaurantes compran directo a productores hortícolas quinteros argentina': salieron AgroMercado (Río Negro) y un acuerdo de Chango Más con unos 5.000 productores del cordón platense ('De la quinta a tu mesa'), que es un canal de supermercado y no de gastronomía (Bichos de Campo, según el resumen del buscador).\n2) 'startup argentina frutas y verduras para restaurantes pedidos app gastronómicos productores': ninguna argentina; solo Frubana y Fruteo (Colombia) y DisFruta (México).\n3) 'app pedidos proveedores verduras restaurantes buenos aires mercado central gastronomía online': Tufud (Argentina).\nLectura: rionegro.gov.ar sobre AgroMercado (detalles en la ficha del competidor).\nEn ningún resultado aparece la pre-compra de siembra ni la planificación contra demanda de restaurantes. En el AMBA no encontré nada que conecte quinteros con restaurantes.",
+     "evidencia_afuera": "Sin cambios. Dato extra que no verifiqué a fondo: Frubana (Colombia) compra a productores y vende a restaurantes por app. Notas de 2019-2020 le daban unos 18.000 clientes y 200 proveedores entre Colombia, México y Brasil (Infomercado/Expansión, según el resumen del buscador). No encontré que haya entrado a Argentina.",
+     "score_ajustado": {
+      "innovacion": 7,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 5,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Hay algo parecido: AgroMercado, presentado el 2025-09-06 en Bariloche por la federación de productores de fruta y la asociación hotelera gastronómica, conecta productores con hoteles y restaurantes sin intermediarios. En Buenos Aires solo apareció Tufud, que hace pedidos de restaurantes a proveedores. Tu vuelta de tuerca (el restaurante compra la siembra 8-12 semanas antes) no la vi en ningún lado. El 'directo del productor al restaurante', en cambio, ya tiene quien lo haga, y con el gobierno provincial atrás.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://rionegro.gov.ar/articulo/55646/agromercado-los-productos-rionegrinos-se-suman-a-la-mesa-gastronomica",
+      "https://www.forbesargentina.com/negocios/asi-tufud-startup-gastronomica-argentina-fue-elegida-500-latam-como-una-diez-mejores-n47384",
+      "https://bichosdecampo.com/en-el-chango-mas-de-la-plata-podran-comprarse-verduras-de-los-quinteros-de-esa-region-y-con-un-codigo-qr-que-contara-cada-historia",
+      "https://infomercado.pe/frubana-la-startup-colombiana-que-conecta-a-productores-locales-con-restaurantes/",
+      "https://expansion.mx/tecnologia/2020/03/06/frubana-la-app-que-te-lleva-el-campo-directo-al-restaurante"
+     ]
+    },
+    {
+     "id_tmp": "N121",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Anillos digitales municipales y provinciales con lectoras de patentes (San Isidro, Río Negro, Mar del Plata, Bariloche)",
+       "url": "https://eleconomista.com.ar/actualidad/este-municipio-prepara-anillo-invisible-atrapar-autos-sospechosos-n87450",
+       "que_hace": "El Estado pone lectoras de patentes en accesos y puntos clave, las cruza con pedidos de captura y las conecta a su centro de monitoreo o al 911. Para el vecino es gratis, pero los datos son del municipio o de la policía, no del barrio. En San Isidro hay 67 instaladas y la meta es 170, según el resumen del buscador.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Programa municipal de cámaras y alarma con vecinos (Concordia, Entre Ríos)",
+       "url": "https://www.elheraldo.com.ar/noticias/interes-general/azcue-inauguro-sistema-de-camaras-y-alarma-en-barrio-san-miguel-i",
+       "que_hace": "Sistema de cámaras y alarma en un barrio, armado entre la municipalidad y los vecinos dentro de un programa de participación ciudadana. No lee patentes, según el resumen del buscador.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Vecinos que contratan cámaras por su cuenta (caso Posadas, 2017)",
+       "url": "https://misionesonline.net/2017/04/10/vez-mas-vecinos-posadenos-se-organizan-contratar-camaras-seguridad-cuadra/",
+       "que_hace": "Los vecinos juntan plata para kits de 4 cámaras por cuadra con instaladores locales y se quejan de que nadie las monitorea las 24 horas. Sin lectura de patentes.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19 (no leí ninguna página: todo sale del resumen del buscador):\n1) 'cámaras lectoras de patentes vecinos cuadra abono mensual argentina': solo programas estatales.\n- Nación entregó 18 lectoras en comodato a la policía de Entre Ríos (Elonce).\n- San Isidro arma un 'anillo invisible' de lectoras (El Economista).\n- Mar del Plata instaló una lectora después de reclamos de vecinos (La Capital MdP).\n- Un 'Anillo Digital' con lectoras superó 2 millones de patentes leídas (El Litoral; localidad no verificada).\n2) 'cámaras vecinales comunitarias cuadra vecinos pagan cuota empresa argentina alarma comunitaria': vecinos que financian cámaras por cuadra (Posadas, 2017); garitas pagadas por cuadra con pago voluntario y peleas con los que no pagan, en una nota vieja, probablemente la de La Nación sobre garitas; programa municipal con vecinos en Concordia.\n3) 'lectora de patentes para barrios vecinos empresa monitoreo privada argentina cámaras LPR vecinal': más despliegues públicos (Río Negro con la empresa estatal ALTEC conectada al 911, Bariloche con 18 lectoras, Rawson en comodato). Ninguna empresa privada que venda lectoras de patentes por suscripción a vecinos de cuadra abierta.",
+     "evidencia_afuera": "Sin cambios (Flock ya trae fuente).",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No encontré ninguna empresa que venda lectoras de patentes por cuadra a grupos de vecinos de barrio abierto. Lo que sí hay es el Estado haciéndolo gratis en los accesos (San Isidro, Río Negro, Mar del Plata, Bariloche) y vecinos que juntan plata para cámaras o garitas y se pelean con los que no pagan. Esa pelea confirma que cobrarle a cada hogar por separado vale. El riesgo es que el vecino diga 'para qué pago si el municipio ya lee patentes': tu diferencial tiene que ser que las lecturas y las alertas son del grupo.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.elonce.com/uid-857784",
+      "https://eleconomista.com.ar/actualidad/este-municipio-prepara-anillo-invisible-atrapar-autos-sospechosos-n87450",
+      "https://www.lacapitalmdp.com/el-municipio-instalo-camaras-para-detectar-patentes-donde-estan-ubicadas/",
+      "https://www.ellitoral.com/regionales/visualizaron-2-millones-patentes-lpr_0_RYHSjV3HQV.amp.html",
+      "https://misionesonline.net/2017/04/10/vez-mas-vecinos-posadenos-se-organizan-contratar-camaras-seguridad-cuadra/",
+      "https://www.lanacion.com.ar/sociedad/garitas-ilegales-una-modalidad-que-no-se-extingue-nid2106196",
+      "https://www.elheraldo.com.ar/noticias/interes-general/azcue-inauguro-sistema-de-camaras-y-alarma-en-barrio-san-miguel-i",
+      "https://rionegro.gov.ar/articulo/59371/rio-negro-continua-ampliando-el-anillo-digital-de-seguridad",
+      "https://www.anbariloche.com.ar/amp/noticias/2025/10/16/100500-centro-de-monitoreo-esperan-instalar-180-camaras-mas",
+      "https://diariojornada.com.ar/384765/politica/firman_convenio_para_instalar_camaras_lectoras_de_patentes"
+     ]
+    },
+    {
+     "id_tmp": "N125",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Sitly (ex Tuniñera.com)",
+       "url": "https://infonegocios.info/enfoque/sitly-la-plataforma-mundial-que-ya-conecta-en-cordoba-4-700-padres-con-3-800-nineras",
+       "que_hace": "Conecta familias con niñeras. Está en Argentina desde 2017 (antes se llamaba Tuniñera.com). En 2021 tenía 83.000 usuarios registrados en el país y más de 70.000 niñeras, 3.800 de ellas en Córdoba. El registro de padres es gratis. La nota no menciona compartir niñera, pagos, registro laboral ni aportes.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Zolvers",
+       "url": "http://zolvers.com/",
+       "que_hace": "Marketplace de trabajo doméstico en Argentina, Chile, México y Colombia, con Zolvers Pagos (alta, sueldo y aportes). Según el generador no ofrece niñeras compartidas.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Mundonanny",
+       "url": "https://mercado.com.ar/protagonistas/se-lanza-mundonanny-para-conectar-familias-con-nineras",
+       "que_hace": "Base de niñeras seleccionadas con disponibilidad, zona, tarifas y recomendaciones; registro gratis para familias. La fecha de la nota y el estado actual no están verificados.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Criana (niñeras pedagógicas, Buenos Aires)",
+       "url": "https://www.idealist.org/es/empresa/bc8dfb9b2a3c4cd5a0a5fd50b62b134f-criana-nineras-pedagogicas-buenos-aires",
+       "que_hace": "Consultora que busca, selecciona y acompaña a cuidadoras formadas en educación para las familias. No menciona compartir niñera.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19:\n1) 'niñera compartida dos familias argentina': nada de niñera compartida. Solo apareció Criana (perfil en Idealist).\n2) '\"nanny share\" Buenos Aires': solo perfiles de AuPair.com.\n3) 'zolvers niñeras plataforma argentina buscar niñera app': salieron Sitly, Mundonanny y Zolvers. Según el resumen del buscador, un estudio citado del BID dice que Zolvers maneja 160.000 trabajadores.\nLectura: Infonegocios, nota del 2021-07-05 sobre Sitly (cifras en la ficha del competidor; no menciona compartir niñera).\nNinguna fuente muestra a una plataforma argentina que empareje familias entre sí ni que divida sueldo y aportes entre dos empleadores.",
+     "evidencia_afuera": "Sin cambios. Nanny Lane y Komae siguen sin verificar; no gasté búsquedas en eso.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 7,
+      "brecha_argentina": 6,
+      "por_que_ahora": 5,
+      "potencial": 5
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No encontré niñera compartida en Argentina en 3 búsquedas. Pero 'buscar niñera' ya está tomado: Sitly (ex Tuniñera.com) tenía 83.000 usuarios y más de 70.000 niñeras en el país en 2021, y además están Mundonanny y Criana. Zolvers ya resuelve sueldo y aportes. El hueco es emparejar familias entre sí y repartir una relación laboral en blanco entre dos empleadores. Sitly o Zolvers lo podrían sumar, así que antes que nada confirmá cómo se registra a una trabajadora con dos empleadores.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://infonegocios.info/enfoque/sitly-la-plataforma-mundial-que-ya-conecta-en-cordoba-4-700-padres-con-3-800-nineras",
+      "https://mercado.com.ar/protagonistas/se-lanza-mundonanny-para-conectar-familias-con-nineras",
+      "https://www.idealist.org/es/empresa/bc8dfb9b2a3c4cd5a0a5fd50b62b134f-criana-nineras-pedagogicas-buenos-aires",
+      "https://www.descubre.vc/zolvers",
+      "https://www.fynsa.com/en/newsletter/las-plataformas-digitales-de-cuidados-y-sus-servicios-workertech-en-america-latina/",
+      "https://www.aupair.com/en/hire/ciudad-de-buenos-aires-argentina-1405393.php"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "vlote-08",
+   "verificaciones": [
+    {
+     "id_tmp": "N134",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "IguanaFix",
+       "url": "https://www.descubre.vc/iguanafix",
+       "que_hace": "Marketplace argentino de servicios del hogar fundado en 2013, con red de profesionales y tarifas estandarizadas. En pintura daba un valor estimado por adelantado porque había que revisar la pared (Infonegocios). Vendió la operación de Brasil a MadeiraMadeira en 2022. Sus dominios .com.ar no respondieron el 2026-10-19, así que no pude confirmar si sigue activa en Argentina.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Servidos (servidos.ar)",
+       "url": "https://servidos.ar/servicios/pintor/buenos-aires/recoleta",
+       "que_hace": "Según lo que mostró la búsqueda, publica precios orientativos por m² de pintura por barrio de CABA (frente o exterior: $5.000 a $11.500/m², julio 2026, sin andamio). No vi que mida a distancia ni que haga la obra.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "IguanaFix (Argentina, 2013): marketplace de servicios del hogar con tarifas estandarizadas. Vendió su operación de Brasil a MadeiraMadeira en 2022 (descubre.vc, ficha sin fecha, que muestra Argentina y México como operaciones independientes). El 2026-10-19 www.iguanafix.com.ar no resolvió e iguanafix.com.ar rechazó la conexión. Cierre en Argentina NO confirmado. No es la misma idea (no medía a distancia ni vendía obra exterior a precio cerrado).",
+     "evidencia_argentina": "Búsqueda 1: 'presupuesto online pintura exterior techo sin visita precio cerrado argentina plataforma'. Solo salieron páginas de servidos.ar con precios orientativos por barrio de CABA (pintura de frente $5.000-11.500/m², julio 2026, sin andamio; en casas viejas se suma arreglar revoques). Ninguna plataforma que cotice sin visita. Búsqueda 2: 'IguanaFix precio cerrado servicios para el hogar argentina pintores techistas'. IguanaFix tiene tarifas estandarizadas en casi todos los servicios, pero en pintura da un valor estimado por adelantado porque hay que ver la pared (Infonegocios, fecha no confirmada). Recibió inversión de Stanley Black & Decker (LAVCA). Leí la ficha de descubre.vc: fundada en 2013, Brasil vendido a MadeiraMadeira en 2022. Intenté leer www.iguanafix.com.ar y iguanafix.com.ar: ninguno respondió (2026-10-19). Búsqueda 3: 'medición de techos con imagen satelital presupuesto argentina empresa techos membrana chapa'. No apareció ninguna empresa, solo usos fiscales: ARBA combina drones, satélite e IA para detectar construcciones no declaradas y dice tener precisión de 5 cm (iProfesional, fecha 9/8/2026 en el listado, no leída). Tigre cruza su catastro con imágenes satelitales (Geospatial World). Esto confirma que en el país ya se mide desde arriba, pero esa precisión viene de los drones. Si alcanza el satélite comercial barato sigue sin verificar.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En 3 búsquedas no apareció nadie en Argentina que cotice obra exterior desde el satélite a precio cerrado. Lo más parecido que hubo es IguanaFix (desde 2013): red de oficios con tarifa estándar, pero en pintura daba solo un estimado porque había que ver la pared. Vendió Brasil en 2022 y su web argentina no respondió hoy. La lección: el precio cerrado se rompe por el estado de la superficie (revoques, humedad) más que por los m², así que las fotos del celular pesan más que el satélite.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://servidos.ar/servicios/pintor/buenos-aires/recoleta",
+      "https://infonegocios.info/que-esta-pasando/iguanafix-supero-mas-de-150-mil-servicios-en-argentina-el-service-de-aire-acondicionado-lo-mas-pedido",
+      "https://www.lavca.org/stanley-black-decker-invests-in-argentinas-iguanafix/",
+      "https://www.descubre.vc/iguanafix",
+      "https://www.iguanafix.com.ar/",
+      "https://www.iprofesional.com/impuestos/447800-arba-drones-ia-buscaran-edificios-silos-sin-declarar",
+      "https://geospatialworld.net/news/satellite-detects-illegal-constructions"
+     ]
+    },
+    {
+     "id_tmp": "N145",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Proveedores sueltos por abono: alarma monitoreada, jardinero, piletero (es un rubro, no una empresa identificada)",
+       "url": "https://www.lanacion.com.ar/propiedades/casas-y-departamentos/cuanto-cuesta-mantener-una-casa-sin-ocupar-en-pinamar-nid16032026/",
+       "que_hace": "Cada uno cubre una parte de la casa cerrada por cuota mensual. Datos de Pinamar y Cariló al 2026-03-18: alarma $130.000-150.000, jardinero $130.000-150.000, piletero $250.000. Nadie coordina el conjunto ni le reporta al dueño.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1: 'mantenimiento casa de fin de semana country quinta abono mensual argentina servicio integral'. Nada integral, solo precios de jardinería por abono en CABA (servidos.ar) y un blog. Búsqueda 2: 'cuidado de casas en ausencia del propietario Pinamar Cariló mantenimiento pileta jardín abono'. Salió una nota de La Nación. Búsqueda 3: 'mantenimiento integral de casas en countries abono mensual empresa Nordelta pileta jardín casero'. Nada, solo un blog inmobiliario (roomix.ai, poco confiable) con rangos de jardinero y piletero en Nordelta. Búsqueda 4: 'servicio de cuidado de casas vacías visitas periódicas reporte con fotos argentina segunda vivienda country costa'. Ninguna empresa, solo notas de seguridad en vacaciones (Hoy Día: 68% de los argentinos se preocupa por la seguridad de su casa en vacaciones). Lectura: La Nación (2026-03-18) sobre casas cerradas en Pinamar y Cariló. Precios: alarma $130-150 mil/mes, internet unos $50 mil, jardinero $130-150 mil, piletero $250 mil, limpieza $15 mil por hora cada 15 días. Totales: cerca de $1 millón/mes según Inmobiliaria JR y $1.090.706 según Santamarina Propiedades. No menciona ningún servicio integral ni abono de cuidado de la propiedad. Advertencia: el buscador encuentra poco de los negocios chicos o informales.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En 4 búsquedas no encontré a nadie que junte todo en un abono. Hoy el dueño de una casa cerrada en Pinamar o Cariló paga suelto alarma ($130-150 mil/mes), jardinero ($130-150 mil) y piletero ($250 mil), y en total la casa le cuesta cerca de $1 millón por mes (La Nación, 2026-03-18). Por ese gasto que ya existe subí potencial de 5 a 6. Ojo: puede haber caseros o inmobiliarias de la costa que lo hagan a mano y que el buscador no ve.",
+     "busquedas_hechas": 4,
+     "fuentes": [
+      "https://www.lanacion.com.ar/propiedades/casas-y-departamentos/cuanto-cuesta-mantener-una-casa-sin-ocupar-en-pinamar-nid16032026/",
+      "https://hoydia.com.ar/sociedad/el-68-de-los-argentinos-se-preocupa-por-la-seguridad-de-sus-casas-durante-las-vacaciones/amp/",
+      "https://servidos.ar/servicios/jardineria/buenos-aires",
+      "https://www.roomix.ai/blog/nordelta-guia-vivir-invertir"
+     ]
+    },
+    {
+     "id_tmp": "N149",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Mob",
+       "url": "https://www.iprofesional.com/negocios/457629-crearon-app-que-funciona-como-agente-inmobiliario-para-duenos-que-alquilan-directo",
+       "que_hace": "PropTech argentina para alquilar directo entre dueño e inquilino: califica inquilinos (crédito, identidad, antecedentes), garantía online con Hoggax, agenda de visitas y contrato digital. Publicar es gratis y los planes para dueños cuestan USD 100-300. No gestiona reparaciones. Anunció un módulo de administración 'previsto para este año' para manejar pagos y 'toda la operación sobre la propiedad'.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Zolvers",
+       "url": "http://zolvers.com/",
+       "que_hace": "Plomeros, gasistas, electricistas y pintores por trabajo suelto, sin plan para propietarios. Lo verificó el generador el 2026-10-18; no lo volví a revisar.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1: 'app argentina propietarios alquiler reparaciones inquilino mantenimiento gestión plataforma'. Ninguna app argentina de reparaciones entre inquilino y dueño. Aparecieron Mob (alquiler directo), una proptech de iProUP ('alquilar en 48 horas', con seguimiento del contrato y cobro de renta, no leída) y Hemlane (EE.UU., portal de reparaciones; según el resultado no opera acá). Búsqueda 2: 'Alquilando administración de alquileres reparaciones mantenimiento propietario incluido'. Solo administradores de España y guías. Lectura 1: nota de iProfesional sobre Mob (el texto dice 2026-07-06 y el listado 6/8/2026). Hace calificación de inquilinos, garantía Hoggax y firma digital; cobra USD 100-300 a los dueños. No menciona reparaciones y anuncia un módulo de administración para este año. Lectura 2: alquilando.com, que iProUP llama 'proptech argentina en la que invirtió Google'. Hoy muestra ciudades de Colombia (Bogotá, Medellín, Cali, Barranquilla), pago de alquiler garantizado y la palabra 'mantenimientos' sin detalle. No verifiqué que opere en Argentina.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 7,
+      "brecha_argentina": 6,
+      "por_que_ahora": 6,
+      "potencial": 5
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "Lo más cerca es Mob, startup argentina para alquilar directo: califica al inquilino, da garantía con Hoggax y cobra USD 100-300. No gestiona reparaciones, pero anunció un módulo de administración para este año (iProfesional, 2026). No encontré a nadie que le venda el abono de mantenimiento al rentista chico. Mob es riesgo y canal a la vez: ofreceles el mantenimiento como módulo antes de que lo armen ellos.",
+     "busquedas_hechas": 2,
+     "fuentes": [
+      "https://www.iprofesional.com/negocios/457629-crearon-app-que-funciona-como-agente-inmobiliario-para-duenos-que-alquilan-directo",
+      "https://www.iproup.com/startups/70097-argentinos-crean-app-para-alquilar-propiedades-en-solo-48-horas-y-sin-trabas-burocraticas",
+      "https://www.iproup.com/economia-digital/27375-alquilando-como-es-proptech-argentina-en-la-que-invirtio-google",
+      "http://alquilando.com/",
+      "http://zolvers.com/"
+     ]
+    },
+    {
+     "id_tmp": "N001",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Enertik",
+       "url": "https://www.enertik.com/",
+       "que_hace": "Vende bombas solares y sistemas de riego agrícola con instaladores. En su web no aparece financiación ni monitoreo (lo verificó el generador el 2026-10-18).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Kilimo",
+       "url": "https://www.kilimo.com/",
+       "que_hace": "Software de riego y créditos de agua para productores grandes y empresas. No vende ni instala equipos (dato del generador, 2026-10-18).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Ecovatio",
+       "url": "https://www.lavozdesanjusto.com.ar/riego-solar-energia-a-costo-cero-los-365-dias-del-ano----------109954",
+       "que_hace": "Empresa de Córdoba que promociona riego alimentado solo con energía solar para superficies medianas y grandes. Según la búsqueda (nota no leída), no menciona financiación ni abono.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "PERMER (Secretaría de Energía)",
+       "url": "https://www.elheraldo.com.ar/noticias/interes-general/bombas-de-agua-solares-para-productores-rurales-de-diez-provincias",
+       "que_hace": "Programa estatal que licitó la provisión e instalación de bombeo solar para pequeños productores de agricultura familiar sin red eléctrica en 10 provincias. Según la búsqueda la nota es de 2021; no verifiqué si sigue vigente. Es un reemplazo subsidiado, no un competidor comercial.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "AES Argentina + GVS",
+       "url": "https://mase.lmneuquen.com/aes/aes-argentina-y-gvs-brindan-soluciones-energias-limpias-el-agro-n894130",
+       "que_hace": "El 2022-03-15 firmaron un entendimiento para explorar un equipo de riego solar móvil que reemplaza motores diésel. La nota no dice si es venta, alquiler o servicio, ni a qué tamaño de productor apunta.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1: 'riego solar pago por uso productores hortícolas argentina bombeo solar financiación abono'. Ningún pago por uso. Salieron dos cosas: un proyecto de ley de Mendoza para financiar equipos de goteo a tasa 0% para productores de hasta 10 ha (no confirmé que se haya aprobado) y una finca hortícola de Valle de Uco con riego solar subsidiado por la provincia. Búsqueda 2: 'bombeo solar para riego alquiler leasing productores argentina empresa servicio'. Ningún leasing. Leí la nota de AES y GVS (2022-03-15): no dice la modalidad. También aparecieron Solárica (Mendoza) vendiendo bombas solares (Diario de Cuyo, 2018, no leída) y una nota de Cadena 3 sobre Expoagro 2026 con créditos en dólares a tasa 0% para equipos de riego (no leída). Búsqueda 3: 'energía solar sin inversión inicial productores agropecuarios argentina riego pago mensual servicio'. Nada con cuota mensual. Aparecieron Ecovatio (Córdoba, superficies medianas y grandes) y el PERMER con bombeo solar para agricultura familiar sin red (2021). Conclusión: hay quien vende el equipo, quien hace el software y quien subsidia, pero nadie cobra por hectárea regada.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 6,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En 3 búsquedas no apareció riego solar por abono para el quintero chico. Hay quien vende el equipo (Enertik; Ecovatio en Córdoba, para superficies medianas y grandes), software para grandes (Kilimo) y el Estado que subsidia bombas solares a la agricultura familiar sin red (PERMER, nota de 2021). El cobro por hectárea sigue sin dueño. Tus rivales reales son el subsidio y el crédito barato para comprar el equipo (Mendoza tiene un proyecto de ley a tasa 0% para productores de hasta 10 ha).",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.mendoza.gov.ar/prensa/el-ftyc-presento-un-proyecto-de-ley-para-optimizar-el-uso-del-agua-en-la-produccion-agroindustrial/",
+      "https://www.mendoza.gov.ar/prensa/valle-de-uco-mendoza-financio-innovador-proyecto-de-riego-por-goteo-con-energia-solar/",
+      "https://mase.lmneuquen.com/aes/aes-argentina-y-gvs-brindan-soluciones-energias-limpias-el-agro-n894130",
+      "https://www.cadena3.com/noticia/actualidad/riego-en-argentina-menos-bombero-y-mas-estrategia_532763",
+      "https://www.diariodecuyo.com.ar/noticias/interes-por-bombas-solares-para-riego-348033.html",
+      "https://www.diariodecuyo.com.ar/suplementos/Crece-el-interes-por-las-bombas-solares-de-ultima-generacion-20180323-0118.html",
+      "https://www.lavozdesanjusto.com.ar/riego-solar-energia-a-costo-cero-los-365-dias-del-ano----------109954",
+      "https://www.elheraldo.com.ar/noticias/interes-general/bombas-de-agua-solares-para-productores-rurales-de-diez-provincias",
+      "https://www.enertik.com/",
+      "https://www.kilimo.com/"
+     ]
+    },
+    {
+     "id_tmp": "N002",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Sustentator (ex YPF Solar)",
+       "url": "https://sustentator.com/",
+       "que_hace": "Baterías BESS e híbridos para empresas con leasing de hasta 60 meses. Es una compra financiada, no un abono con equipo del proveedor (lo verificó el generador el 2026-10-18).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1: 'batería respaldo cortes de luz comercios abono mensual argentina alquiler UPS'. Nada de alquiler, solo guías y calculadoras de UPS. Búsqueda 2: 'alquiler mensual baterías inversor respaldo energía comercios argentina cortes de luz'. Nada de alquiler. Salieron dos datos: iProUP dice que los sistemas con inversor arrancan en USD 5.000 (nota sobre el apagón en CABA, no leída) y Argentina adjudicó 667 MW en su primera licitación de baterías para la red (ess-news, 2025-09-02). Búsqueda 3: 'energía como servicio baterías comercios pymes argentina abono comodato respaldo cortes'. Ninguna oferta argentina con abono o comodato; solo un contenido pago (Perfil PNT) sobre comercios de la Patagonia que compran equipos solares para protegerse de los cortes. Lo más parecido sigue siendo el leasing de Sustentator.",
+     "evidencia_afuera": "GoSolr sigue sin verificar (no lo busqué). Agrego un caso verificado en la región: Brasol (Brasil) extendió el 2026-05-13 su servicio de baterías BESS en arriendo al comercio minorista. El cliente no invierte, Brasol opera y mantiene, y lo vende como respaldo ante cortes y para conservar perecederos. La nota no da cantidad de clientes (Canal Solar, leída). Quartux (México) aparece en la búsqueda con energía como servicio pagada con los ahorros (no leída).",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 6,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "En 3 búsquedas no encontré baterías por abono para comercios en Argentina. Sustentator las financia con leasing a empresas, que es compra, no servicio. El modelo ya llegó a la región: Brasol arrienda baterías a comercios en Brasil sin que el cliente invierta (Canal Solar, 2026-05-13). Opinión: el Estado adjudicó 667 MW de baterías en la red (2025-09-02); si eso reduce los cortes, se achica el problema que vendés, así que medí los cortes de cada local antes de instalar.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://canalsolar.com.br/es/Venta-al-por-menor-de-bater%C3%ADas-Brasol-Solutions/",
+      "https://www.ess-news.com/2025/09/02/argentina-awards-667-mw-in-inaugural-battery-storage-tender/",
+      "https://www.iproup.com/finanzas/63612-apagon-en-caba-como-generar-tu-propia-electricidad-y-evitar-cortes-de-luz",
+      "https://www.perfil.com/noticias/guia-de-profesionales-pnt/cada-vez-mas-comercios-de-la-patagonia-apuestan-a-la-energia-solar-fotovoltaica.phtml",
+      "https://sustentator.com/"
+     ]
+    }
+   ]
+  }
+ ],
+ "pendientes": [],
+ "fallidos": [],
+ "motivo": "completo",
+ "usos": [
+  {
+   "momento": "antes de la tanda 1",
+   "cinco_horas": 2,
+   "semanal": 3
+  },
+  {
+   "momento": "final",
+   "cinco_horas": 5,
+   "semanal": 4
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "DEP-1-4",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 búsqueda Brave vía WebFetch 2026-10-14 ('escaner composicion corporal 3D gimnasio Argentina'): G-fitness vende en Argentina la balanza/escáner Visbody M30 (https://tienda.gfitness.com.ar/shop/visbody-m30-balanza-body-scanner-3d-visbody-m30-7755); La Posada del Qenti (Córdoba) usaba Styku según La Voz 2018 (https://www.lavoz.com.ar/musa/estilo-de-vida/revolucionario-conoce-el-escaner-corporal-3d-de-la-posada-del-qenti/); hay escáneres 3D en MercadoLibre. No encontré a Evolt ni InBody operando en gimnasios argentinos en esa búsqueda (no quiere decir que no estén).",
+  "hueco_ar": 3,
+  "nota": "El hardware se consigue; lo que no encontré es el servicio de seguimiento al socio montado por gimnasios.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "DEP-1-5",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "1 búsqueda Brave vía WebFetch 2026-10-14: Trainingym (software español con sitio para Argentina) ofrece 'control de aforo en tiempo real' ligado a accesos por QR/pulsera/reconocimiento facial (https://trainingym.com/es-ar/control-de-accesos-para-negocios-fitness). Crossfy y About a Gym (software de gimnasios) miden ocupación por reservas/asistencia (https://www.crossfyapp.com/, https://www.aboutagym.com/). No encontré sensores de conteo de personas (tipo Occuspace/Waitz) en gimnasios argentinos.",
+  "hueco_ar": 3,
+  "nota": "La ocupación por accesos ya la resuelven softwares de gestión; el hueco sería solo el conteo físico sin control de acceso.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "DEP-3-4",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "No encontré en 1 búsqueda Brave vía WebFetch 2026-10-14 ('medicion desgaste cesped sintetico cancha ensayo Argentina'): solo aparecieron vendedores/instaladores de césped sintético con consejos de mantenimiento (ej. https://pisosydeportes.com/mantenimiento-para-el-grass-sintetico-deportivo/). No encontré laboratorio ni servicio de medición de desgaste; 'no encontré' no es 'no existe'.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "DEP-3-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 búsqueda Brave vía WebFetch 2026-10-14: Canchero (software argentino de pádel) menciona 'automatización de luces' (https://www.canchero.com.ar/sistema-padel), sin aclarar si se ata a la reserva; Canch y CanchaFija dan reportes de ocupación según reservas (https://canch.app/, https://canchafija.com.ar/software-para-clubes-deportivos). Un proyecto de Mendoza anunciaba reservar y abrir canchas automáticamente (video de Facebook, sin lanzar). No encontré sensores de uso real cruzados contra reservas.",
+  "hueco_ar": 3,
+  "nota": "Competencia cercana: el software de reservas argentino ya existe y podría agregar luces/sensores.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "DEP-5-3",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 búsqueda Brave vía WebFetch 2026-10-14: aparecen herramientas extranjeras usables desde Argentina (Dartfish https://www.dartfish.com/es/tennis/, Onform citado en https://deepswing.io/...); Sports In Touch de la Academia Andrés Gotta (https://www.aag.org.ar/sports-in-touch/) es un sistema para profesores y academias argentino, pero el extracto no confirma que sea de análisis de video. Forbes Argentina reseñó una app de IA para swing de golf sin nombrarla. No encontré app argentina de video-coaching con IA.",
+  "hueco_ar": 3,
+  "nota": "Las apps extranjeras (CoachNow, Onform) se descargan desde Argentina; el hueco es de idioma/precio/adopción, no de acceso.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "ENE-1-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-14 ('Argentina marketplace paneles solares inversores usados sobrantes'): no encontré un marketplace argentino especializado en equipos solares usados/sobrantes. Lo más cercano: subasta de 840 paneles en rezago por Aduana vía Banco Ciudad (iProfesional, 2026-07-16, https://www.iprofesional.com/energia/458082-arca-remata-840-paneles-solares-pleno-boom-renovable-abre-gran-oportunidad-de-negocio). Parche probable (no verificado): MercadoLibre y grupos de instaladores.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "ENE-3-4",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-14 ('Argentina monitoreo remoto protección catódica telemetría rectificadores'): no encontré empresa argentina; aparecen proveedores extranjeros que venden en Latinoamérica (MetriCorr vía Corrosion Services Inc., Dairyland, Borin, American Innovations; https://inspenet.com/video-tv/monitoreo-remoto-tiempo-real-metricorr/). No verifiqué si atienden a distribuidores de GLP argentinos.",
+  "hueco_ar": 4,
+  "nota": "En ductos grandes (transportadoras de gas) probablemente ya hay telemetría (estimación, sin verificar); el hueco sería en tanques chicos de GLP.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "ENE-3-5",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "No encontré en 1 WebSearch 2026-10-14 ('comparar precio gas a granel GLP tanque zeppelin distribuidores Argentina') ningún comparador de precios de GLP a granel. Solo contexto: precios de referencia oficiales para garrafas (Res. SE 394/2024) y controles provinciales (Santa Fe, https://www.santafe.gov.ar/noticias/noticia/279062/).",
+  "hueco_ar": 4,
+  "nota": "Ojo: el mercado mayorista está concentrado (dato viejo, Página/12 2004: 5 empresas ~80% de la oferta); un comparador depende de que los distribuidores publiquen precios.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "ENE-5-3",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-14: no encontré app para que gasistas armen informes/certificados. Sí existe en CABA un 'Libro digital' obligatorio de instalaciones térmicas donde el profesional certificante carga informes (según papelea.com, https://papelea.com/ar/buenos-aires-ciudad/certificacion-de-las-instalaciones-termicas-por-parte-de-profesionales-certificantes-calderas-de-agua-caliente-de-vapor-de-fluidos-termicos-y-acumuladores-de-agua-termotanques) y ENARGAS ordenó un registro nacional de instaladores (Res. 219/2022). Marketplaces como servidos.ar conectan con gasistas pero no hacen el informe.",
+  "hueco_ar": 4,
+  "nota": "El libro digital oficial es un registro de destino, no una herramienta de campo; podría ser integración, no competencia.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ }
+]

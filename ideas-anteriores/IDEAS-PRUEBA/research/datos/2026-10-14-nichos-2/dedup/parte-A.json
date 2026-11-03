@@ -1,0 +1,724 @@
+{
+ "cruce": {
+  "TUR-1-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Sensores de ruido/ocupación/humo en alquiler temporario: ninguna fila CON-5-x ni otra del registro trata fiestas o daños; mismo cliente que CON-5-x pero problema distinto."
+  },
+  "TUR-1-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia), L14 (propia)",
+   "nota": "Control de piezas de ropa blanca hotel-lavadero: aplicación concreta de RFID/stock de piezas (ganadores); CON-5-2 (no elegida) es otro problema."
+  },
+  "TUR-1-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "C21, IND-5-5",
+   "nota": "Mismo problema central (la factura de energía) que dos ideas no elegidas; cambia la solución (control por ocupación) y el cliente (hoteles), pero Facu ya rechazó dos veces el tema energía. Caso límite."
+  },
+  "TUR-1-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SAL-3-5, SAL-4-5",
+   "nota": "Cubrir turnos con personal externo a último momento: misma solución (bolsa de reemplazos/extras) que dos rechazadas, con cliente vecino. Roza ganadores SAL-4-2 y EDU-1-4, pero EDU-1-4 se eligió por la nota RFID y SAL-4-2 es B2C familias."
+  },
+  "TUR-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Venta de extras a quien ya reservó: comparte cliente con F27 (no elegida: reserva directa + precios dinámicos) pero no el problema."
+  },
+  "TUR-2-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "LOG-5-3, B30",
+   "nota": "Armar cotizaciones juntando tarifas de proveedores a mano: mismo problema y solución que LOG-5-3 (forwarders) y B30 (cotizador), ambas no elegidas. LOG-1-4 (ganador) es el lado del transportista, más lejano."
+  },
+  "TUR-2-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Chequeo de visas/permisos de viaje para agencias: nada parecido en el registro."
+  },
+  "TUR-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Distribución de disponibilidad de excursiones a revendedores; vecino lejano de H34 (agenda online, no elegida), pero el núcleo es la reventa B2B, no la agenda."
+  },
+  "TUR-2-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Reclamo de compensaciones por vuelos (modelo 'si no cobrás no pagás'): nada parecido; AUT-5-1 (multas) es otro problema."
+  },
+  "TUR-2-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Itinerario vivo para el pasajero que baja llamadas; LOG-2-3 (no elegida) solo comparte la saturación de consultas."
+  },
+  "TUR-3-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Deslindes y fichas médicas digitales para turismo aventura; H24/C23 (pasar papel a planilla, no elegidas) son servicios de carga, no firma y respaldo legal."
+  },
+  "TUR-3-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Garantía/seguro por mal clima para excursiones: nada parecido."
+  },
+  "TUR-3-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L14 (propia), L13 (propia)",
+   "nota": "Inventario de equipos de alquiler (qué está afuera, qué volvió dañado): mismo saber de stock que ganadores; J34 (no elegida) era montar un alquiler, no el software."
+  },
+  "TUR-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Audioguías multilingües para destinos chicos: nada parecido."
+  },
+  "TUR-3-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Propinas digitales para turistas sin pesos; L15 (descartada) y B12/F24 son otros problemas (canje de efectivo, cobranzas)."
+  },
+  "TUR-4-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-4-4, L12 (propia)",
+   "nota": "Contar visitantes: mismo problema que COM-4-4 (ganador) en otro cliente (parques al aire libre)."
+  },
+  "TUR-4-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Cashless con pulseras en parques: tecnología RFID (ganador). L15 (descartada) es canje de efectivo, otro problema."
+  },
+  "TUR-4-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Cobro de acceso vehicular con cámaras/lectura de patente: tecnología del ganador L12, otro uso."
+  },
+  "TUR-4-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia), COM-2-4",
+   "nota": "Detección de ahogamiento por cámara con IA: tecnología del ganador, problema distinto."
+  },
+  "TUR-4-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Reconocimiento de personas en fotos para venderlas: tecnología de visión del ganador. Vecina de R7/R25/R23 (no elegidas), pero aquellas eran edición/highlights, no la identificación y venta."
+  },
+  "TUR-5-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L6 (propia)",
+   "nota": "Red que conecta reservas globales con traslados locales: modelo de red de transportistas del ganador L6, con pasajeros."
+  },
+  "TUR-5-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L6 (propia), LOG-1-4",
+   "nota": "Cotizar micros para grupos: mismo modelo que L6/LOG-1-4 (ganadores) con pasajeros en vez de carga."
+  },
+  "TUR-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Detección de fatiga del chofer por cámara: tecnología del ganador; LOG-4-x (no elegidas) comparten cliente flota pero ninguna trata fatiga."
+  },
+  "TUR-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Venta online de pasajes de combis/ferris regionales: nada igual en el registro (ver posible fusión con TUR-5-1)."
+  },
+  "TUR-5-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-1-5",
+   "nota": "Mismo problema '¿dónde está la combi?' que el ganador EDU-1-5, con otro cliente (excursiones)."
+  },
+  "DEP-1-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Acceso sin recepcionista con reconocimiento facial y cámara: tecnología del ganador. No repite H33/B20."
+  },
+  "DEP-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medición de velocidad/carga por atleta en boxes: nada parecido."
+  },
+  "DEP-1-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "B20",
+   "nota": "Mismo cliente (gimnasios) y mismo dolor central (socios que se van) que B20 (no elegida); cambia la solución (plan y seguimiento en vez de mensajes). Caso límite."
+  },
+  "DEP-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medición de composición corporal como servicio del gimnasio: nada parecido (ver fusión con BEL-1-4/BEL-2-1/BEL-2-5)."
+  },
+  "DEP-1-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-4-4",
+   "nota": "Ocupación por hora en gimnasios: mismo problema de conteo que COM-4-4 (ganador), otro cliente."
+  },
+  "DEP-2-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "C21, IND-5-5",
+   "nota": "Mismo problema central que TUR-1-3 (gasto de energía, ya rechazado en C21 e IND-5-5), con clubes como cliente. Caso límite."
+  },
+  "DEP-2-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "A3 (propia)",
+   "nota": "Pedido consolidado de indumentaria de club: canal vecino del ganador A3 (indumentaria personalizada). Ojo: I32 (remera/buzo de egresados, no elegida) es vecino."
+  },
+  "DEP-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Rifas y bonos digitales para clubes: H33 (no elegida) comparte cliente pero no el problema."
+  },
+  "DEP-2-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-5",
+   "nota": "Control de cloro/pH con registro: problema vecino del ganador ALI-2-5 (registros sanitarios en papel). ALI-4-2 (no elegida) solo comparte el sensor."
+  },
+  "DEP-2-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "CON-4-5",
+   "nota": "Asambleas y votaciones digitales: misma solución que CON-4-5 (asambleas de consorcio, no elegida) aplicada a asociaciones civiles."
+  },
+  "DEP-3-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Complejo sin encargado con cámara IA, apertura y luces por turno pagado: tecnología del ganador."
+  },
+  "DEP-3-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Completar partidos con jugadores sueltos: nada parecido."
+  },
+  "DEP-3-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "F27, CON-5-1",
+   "nota": "Precios dinámicos: mismo problema y solución ya rechazados en hotelería/alquiler temporario, otro cliente."
+  },
+  "DEP-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medición del desgaste del sintético; C17/IND-5-1 (mantenimiento preventivo, no elegidas) son vecinos lejanos."
+  },
+  "DEP-3-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia), COM-2-4",
+   "nota": "Detectar uso no cobrado de canchas con cámara: mismo tipo de control de pérdidas que ganadores, otro cliente."
+  },
+  "DEP-4-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Asignación y pago de árbitros: nada parecido."
+  },
+  "DEP-4-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Fixture con restricciones; EDU-3-5 (horarios y aulas, no elegida) es la misma técnica pero cliente no vecino."
+  },
+  "DEP-4-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Planilla de partido digital a tablas y sanciones; H24 (no elegida) era pasar fichas a planilla, otro problema."
+  },
+  "DEP-4-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Verificación facial de jugadores contra el fichaje: tecnología del ganador, otro problema."
+  },
+  "DEP-4-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Seguro de accidentes/RC online para torneos; SER-3-x/F23 (no elegidas) tienen al productor como cliente (ver fusión con EVE-1-3 y MAS-2-4)."
+  },
+  "DEP-5-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-5-3, EDU-2-1",
+   "nota": "Entrenadores independientes: cliente vecino de ganadores EDU-5-3 (profes particulares) y EDU-2-1 (academias); acá el problema es la entrega y seguimiento."
+  },
+  "DEP-5-2": {
+   "estado": "R",
+   "repite_o_se_parece_a": "EDU-5-4",
+   "nota": "Informes de progreso de cada chico para las familias: misma solución que EDU-5-4 (informes de cada alumno, no elegida), cliente vecino (escuelitas)."
+  },
+  "DEP-5-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Corrección de técnica por video; no es highlights (M23/T20/R23, no elegidas)."
+  },
+  "DEP-5-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-4-2, EDU-5-3",
+   "nota": "Marketplace de profesores de deporte verificados: patrón del ganador SAL-4-2 y cliente vecino de EDU-5-3."
+  },
+  "DEP-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Sensores GPS baratos para inferiores: nada parecido."
+  },
+  "MAS-1-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "ALI-4-2",
+   "nota": "Mismo problema central (mercadería viva/perecedera que se pierde por falla nocturna sin aviso) y misma solución (sensor + alerta) que ALI-4-2, no elegida."
+  },
+  "MAS-1-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-5-2",
+   "nota": "Venta recurrente de alimento: vecina del ganador SAL-5-2; acá es marca propia de comida fresca B2C."
+  },
+  "MAS-1-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Monitoreo de roedores en depósitos: nada parecido."
+  },
+  "MAS-1-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "IND-2-2, C10",
+   "nota": "Formulación al menor costo: misma solución que IND-2-2 (fórmulas y costeo, no elegida) para otra fábrica PyME."
+  },
+  "MAS-1-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "AGR-1-2",
+   "nota": "Control de calidad de granos en recepción: más cerca de AGR-1-2 (análisis de muestras de grano, no elegida) que del ganador ALI-4-4 (fruta). Caso límite."
+  },
+  "MAS-2-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-4-2",
+   "nota": "Cuidador/paseador confiable verificado: mismo patrón que el ganador SAL-4-2, otro cliente."
+  },
+  "MAS-2-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Prueba del paseo para empresas de paseo; LOG-2-2 (no elegida) solo comparte la idea de 'prueba de servicio'."
+  },
+  "MAS-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Verificar vacunas al ingreso a guarderías; SAL-5-1/H24 eran recordatorios y carga de fichas, otro problema."
+  },
+  "MAS-2-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Seguro RC para profesionales de mascotas; F23/SER-3-x solo comparten rubro seguros (ver fusión)."
+  },
+  "MAS-2-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Gestión del viaje/mudanza internacional con mascota: nada parecido (I18 es plan de mudanza, otro problema)."
+  },
+  "MAS-3-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Máquinas de lavado canino autoservicio: nada parecido."
+  },
+  "MAS-3-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-4-2",
+   "nota": "Marketplace de peluquería canina a domicilio: patrón del ganador SAL-4-2; H34 (no elegida) era agenda del local, no marketplace."
+  },
+  "MAS-3-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L11 (propia)",
+   "nota": "Formación online certificada de un oficio: aplicación del ganador L11; los cursos A-x (no elegidos) eran Facu enseñando IA."
+  },
+  "MAS-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Fabricar camionetas de peluquería móvil: nada parecido."
+  },
+  "MAS-3-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Mesas/bañeras hidráulicas para peluqueros: nada parecido."
+  },
+  "MAS-4-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-3-5, L10 (propia)",
+   "nota": "Identificar mascotas perdidas por foto: tecnología de los ganadores, otro problema."
+  },
+  "MAS-4-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Registro unificado de microchips: tecnología RFID del ganador, problema distinto."
+  },
+  "MAS-4-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-2",
+   "nota": "Excedente que se tira: mismo patrón del ganador ALI-2-2 con alimento balanceado y refugios."
+  },
+  "MAS-4-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L6 (propia)",
+   "nota": "Coordinación de traslados por tramos: lógica de matching del ganador L6 (cliente sin plata)."
+  },
+  "MAS-4-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Rehoming directo dueño-adoptante: nada parecido."
+  },
+  "MAS-5-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L1 (propia), A1 (propia)",
+   "nota": "Compra segura entre desconocidos: mismo patrón que el ganador L1 (autos usados), otro bien."
+  },
+  "MAS-5-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Tests genéticos para criadores: nada parecido."
+  },
+  "MAS-5-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Detección de ovulación y monitoreo de partos: nada parecido."
+  },
+  "MAS-5-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "AGR-4-1, H24",
+   "nota": "Registros de animales (camadas, pesos, vacunas) en cuadernos: misma solución que AGR-4-1 (registros de rodeo, no elegida) con cliente vecino (criaderos)."
+  },
+  "MAS-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "App de práctica de adiestramiento entre clases: nada parecido."
+  },
+  "BEL-1-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L14 (propia)",
+   "nota": "Inventario por peso (balanza) aplicado a tintura: método del ganador L14. Ojo: el costeo por servicio roza C10/F29 (no elegidas)."
+  },
+  "BEL-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler de sillones ociosos a profesionales; J34 (no elegida) es otro bien y otro cliente."
+  },
+  "BEL-1-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "A3 (propia)",
+   "nota": "Probar antes de comprar con IA (color/corte): mismo patrón del ganador A3."
+  },
+  "BEL-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Análisis capilar por imagen para vender tratamientos: nada parecido (ver fusión con BEL-2-1/BEL-2-5/DEP-1-4)."
+  },
+  "BEL-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Reciclaje de residuos de peluquería: nada parecido."
+  },
+  "BEL-2-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Análisis de piel por imagen para mostrar progreso: nada parecido en el registro."
+  },
+  "BEL-2-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36",
+   "nota": "Registro de fotos estandarizado como prueba: vecino del ganador D36 (fotos + checklist a informe). O12 (no elegida) era marketing."
+  },
+  "BEL-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Fichas de salud y consentimientos digitales en estética: nada igual (ver fusión con TUR-3-1)."
+  },
+  "BEL-2-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L1 (propia)",
+   "nota": "Compra segura de aparatología usada: patrón del ganador L1, otro bien."
+  },
+  "BEL-2-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medición objetiva de tratamientos corporales: nada parecido (ver fusión)."
+  },
+  "BEL-3-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Máquinas que pintan/imprimen uñas: nada parecido."
+  },
+  "BEL-3-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-5",
+   "nota": "Registro digital de esterilización: mismo patrón que el ganador ALI-2-5 (registros sanitarios), otro rubro."
+  },
+  "BEL-3-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Venta de pases de día de spa/pileta de hotel: F27 (no elegida) era vender habitaciones, otro problema."
+  },
+  "BEL-3-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-4-2",
+   "nota": "Marketplace de estética a domicilio verificado: patrón del ganador SAL-4-2; H34 (no elegida) era agenda del local."
+  },
+  "BEL-3-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Ropa blanca de spa con la lavandería: mismo problema que TUR-1-2, aplicación de RFID (ganador)."
+  },
+  "BEL-4-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "AUT-1-2",
+   "nota": "Comprar a muchas marcas/distribuidores: mismo dolor que el ganador AUT-1-2, otro rubro; COM-1-x (no elegidas) eran toma de pedidos."
+  },
+  "BEL-4-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Anti-falsificación con códigos seguros/etiquetas: tecnología de etiquetado del ganador L13, otro problema."
+  },
+  "BEL-4-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L11 (propia)",
+   "nota": "Plataforma de formación técnica certificada: aplicación del ganador L11 a belleza."
+  },
+  "BEL-4-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Tienda online del salón sin stock propio (afiliación): nada parecido."
+  },
+  "BEL-4-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "P3, P1",
+   "nota": "Monitoreo de precio mínimo en Mercado Libre: versión vertical del ganador P3. Ojo: H25 (precios vs competencia, no elegida) es vecino."
+  },
+  "BEL-5-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-4",
+   "nota": "Rótulo y legajo regulatorio armado a mano: mismo patrón del ganador ALI-2-4. IND-2-1 (FDS/SGA, no elegida) también es vecino."
+  },
+  "BEL-5-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Estudios baratos para respaldar claims: nada parecido."
+  },
+  "BEL-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "IND-4-4",
+   "nota": "Mismo cliente y dolor (mínimos altos) que el ganador IND-4-4. Ojo: IND-3-5 (talleres de confección confiables, no elegida) también es vecino."
+  },
+  "BEL-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Recomendador de producto según piel en tienda online: nada parecido."
+  },
+  "BEL-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medición de conversión de muestras físicas: nada parecido."
+  },
+  "EVE-1-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "ALI-5-4, H27",
+   "nota": "Presupuesto, contrato y orden de evento en planillas: mismo problema que ALI-5-4 (catering de eventos, no elegida), cliente vecino (salones)."
+  },
+  "EVE-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medición de ruido en quintas y salones: nada en el registro (mismo problema que TUR-1-1, ver fusión)."
+  },
+  "EVE-1-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Seguro RC online por evento: F23 solo comparte rubro (ver fusión con DEP-4-5 y MAS-2-4)."
+  },
+  "EVE-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Marketplace de espacios por hora: J34 (no elegida) es otro bien y otro cliente."
+  },
+  "EVE-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Plano de mesas e invitados compartido: nada parecido (K16 es layout de local)."
+  },
+  "EVE-2-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L14 (propia)",
+   "nota": "Stock de alquiler por fecha: saber de stock del ganador L14; D1/A23 (planillas de stock, no elegidas) son genéricas."
+  },
+  "EVE-2-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L14 (propia), L10 (propia)",
+   "nota": "Faltantes y roturas al volver del evento: conteo/stock de los ganadores. Ojo: la parte de prueba de daños roza LOG-4-3 y SER-3-3 (no elegidas)."
+  },
+  "EVE-2-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "F30, C8, LOG-2-1",
+   "nota": "Ruteo de entregas: misma solución ya rechazada (ruteo de reparto) con otro cliente."
+  },
+  "EVE-2-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Rastreo de equipos caros: tecnología de etiquetado/rastreo del ganador."
+  },
+  "EVE-2-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia), X1d",
+   "nota": "Escaneo de piezas que salen y vuelven: aplicación de RFID (ganador)."
+  },
+  "EVE-3-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Coordinación de pagos y vencimientos de 15-20 proveedores del organizador: nada igual."
+  },
+  "EVE-3-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Lista de regalos en efectivo para novios: A1 (escrow) solo comparte manejo de fondos."
+  },
+  "EVE-3-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SAL-3-5, SAL-4-5",
+   "nota": "Mismo problema que TUR-1-4 (personal extra por turno), ya rechazado en SAL-3-5/SAL-4-5. SAL-4-2 (ganador) es B2C familias."
+  },
+  "EVE-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cronograma minuto a minuto compartido entre proveedores: nada parecido."
+  },
+  "EVE-3-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "LOG-5-3",
+   "nota": "Pedir y comparar cotizaciones por mail a muchos proveedores: mismo problema central que LOG-5-3 (no elegida), otro cliente."
+  },
+  "EVE-4-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Captura de contactos en stands; B24/B5 (no elegidas) son seguimiento posterior, otro momento."
+  },
+  "EVE-4-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Acreditación con reconocimiento facial/QR: tecnología del ganador."
+  },
+  "EVE-4-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Venta de stands con plano interactivo: nada parecido."
+  },
+  "EVE-4-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Rondas de negocios con cruce automático de intereses: nada parecido."
+  },
+  "EVE-4-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-4-4, L12 (propia)",
+   "nota": "Medir flujo de gente por stand: mismo problema de conteo que COM-4-4 (ganador), otro cliente."
+  },
+  "EVE-5-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L1 (propia), A1 (propia)",
+   "nota": "Reventa segura de entradas: rol de intermediario de confianza del ganador L1, otro bien."
+  },
+  "EVE-5-2": {
+   "estado": "R",
+   "repite_o_se_parece_a": "F27, CON-5-1",
+   "nota": "Precios dinámicos (ya rechazados) aplicados a entradas."
+  },
+  "EVE-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "P1",
+   "nota": "Datos de demanda de artistas por ciudad: producto de datos/scraping del ganador P1."
+  },
+  "EVE-5-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SAL-1-4, ALI-4-5, CON-5-5",
+   "nota": "Liquidar a terceros en Excel: patrón ya rechazado varias veces (honorarios, consignación, propietarios)."
+  },
+  "EVE-5-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Cashless con pulseras en festivales: tecnología del ganador. ALI-1-4 (barra, no elegida) es vecino."
+  }
+ },
+ "posibles_fusiones_dentro_de_mis_nichos": [
+  [
+   "TUR-1-1",
+   "EVE-1-2",
+   "ruido/fiestas en alquileres por día sin el dueño presente"
+  ],
+  [
+   "TUR-1-2",
+   "BEL-3-5",
+   "ropa blanca que se pierde con la lavandería tercerizada"
+  ],
+  [
+   "TUR-1-3",
+   "DEP-2-1",
+   "energía gastada en espacios vacíos (climatización/reflectores)"
+  ],
+  [
+   "TUR-1-4",
+   "EVE-3-3",
+   "personal extra por turno para temporada/eventos"
+  ],
+  [
+   "TUR-3-3",
+   "EVE-2-1",
+   "EVE-2-5",
+   "inventario de empresas de alquiler: qué salió, qué volvió, disponibilidad por fecha (EVE-2-2 y EVE-2-4 vecinas)"
+  ],
+  [
+   "TUR-3-1",
+   "BEL-2-3",
+   "fichas de salud y consentimientos digitales antes de una actividad de riesgo"
+  ],
+  [
+   "TUR-4-1",
+   "DEP-1-5",
+   "EVE-4-5",
+   "conteo de personas/ocupación (variantes de COM-4-4)"
+  ],
+  [
+   "TUR-4-2",
+   "EVE-5-5",
+   "cashless con pulseras en parques y festivales"
+  ],
+  [
+   "TUR-5-1",
+   "TUR-5-4",
+   "transportistas chicos que no venden online a turistas"
+  ],
+  [
+   "DEP-1-1",
+   "DEP-3-1",
+   "abrir sin personal: acceso, luces y control con cámara"
+  ],
+  [
+   "DEP-3-3",
+   "EVE-5-2",
+   "precios dinámicos (ambas R)"
+  ],
+  [
+   "DEP-4-5",
+   "EVE-1-3",
+   "MAS-2-4",
+   "seguro RC online/a demanda para actividades chicas"
+  ],
+  [
+   "MAS-2-1",
+   "MAS-3-2",
+   "BEL-3-4",
+   "DEP-5-4",
+   "marketplace de profesionales a domicilio verificados (patrón SAL-4-2)"
+  ],
+  [
+   "MAS-3-3",
+   "BEL-4-3",
+   "formación online certificada de oficios de cuidado/belleza (L11)"
+  ],
+  [
+   "MAS-5-1",
+   "BEL-2-4",
+   "EVE-5-1",
+   "compra segura entre desconocidos (patrón L1)"
+  ],
+  [
+   "BEL-1-4",
+   "BEL-2-1",
+   "BEL-2-5",
+   "DEP-1-4",
+   "medición objetiva del cuerpo/piel/cabello para vender y retener tratamientos"
+  ],
+  [
+   "TUR-2-1",
+   "EVE-3-5",
+   "juntar y comparar cotizaciones de muchos proveedores (ambas R)"
+  ]
+ ]
+}

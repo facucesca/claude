@@ -1,0 +1,105 @@
+[
+ {
+  "id": "TUR-1-5",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "2 búsquedas en Brave (2026-10-15): 'software upselling hotel Argentina pre check-in extras' y 'venta de upgrades late checkout hotel Argentina software huésped WhatsApp'. No encontré un producto argentino dedicado al upselling, pero sí herramientas vecinas operando acá: Pxsol (software hotelero hecho en Argentina) tiene autocheck-in y gestiona pedidos como late checkout en el folio del huésped (https://www.pxsol.com/blog/self-check-in-para-hoteles-app-y-totem); WeSpeak, startup argentina, vende reservas y cobra por WhatsApp con IA (https://www.iproup.com/startups/64847-argentinos-crean-ia-para-pagar-el-hotel-por-whatsapp-y-ya-la-usan-grandes-cadenas); Chekin (extranjera, en español) plantea el check-in como canal de venta de ofertas (https://chekin.com/hoteles/). Capterra Argentina lista 'upselling' como función de software hotelero. No verifiqué que Oaky o UpsellGuru tengan clientes en Argentina.",
+  "hueco_ar": 3,
+  "nota": "El hueco sería un módulo de upselling dedicado (ofertas segmentadas antes de la llegada) para hoteles chicos argentinos; los PMS locales cubren partes.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "PET-1-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 búsqueda en Brave (2026-10-15): 'gestión de iron alta presión fractura trazabilidad recertificación Neuquén'. Encontré empresas locales que HACEN las pruebas (servicio), no software de trazabilidad: VENSER SRL hace inspección periódica y pruebas hidrostáticas de equipos de fractura y coiled tubing en su base de Neuquén (https://vensersrl.com.ar/servicios/inspecciones/); KPK Works (Plottier) certifica y ensaya equipos de control de presión (https://www.kpkworks.com/certs.php); Valquen SRL repara y prueba válvulas (https://www.valquen.com.ar/). No encontré un software o app local que lleve el inventario de iron por pieza con vencimientos. No verifiqué si IronTrac o el RFID de Weir/SPM se usan en Vaca Muerta.",
+  "hueco_ar": 3,
+  "nota": "Hay talleres de prueba locales que podrían ser canal o socio (el registro de la prueba lo generan ellos).",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "solucion_2": {
+   "nombre": "Weir Oil & Gas (SPM RFID para iron)",
+   "pais": "Reino Unido / EE.UU. (Weir Group; división de petróleo y gas con sede en EE.UU.)",
+   "url": "https://worldoil.com/news/2018/5/3/weir-introduces-fleet-maintenance-technology-to-address-remote-location-challenges",
+   "que_hace": "Etiquetas RFID pegadas al número de serie de cada pieza de iron y app móvil que identifica la pieza, muestra su último certificado y permite escanear certificados sin conexión en locaciones remotas.",
+   "traccion": "Según la propia empresa (2018): inventariar una flota de 900 piezas con certificados en menos de 60 minutos, 'a 90% reduction' frente a 3 empleados durante 3 días. Sin cifras de clientes en esa nota.",
+   "fuente_traccion": "World Oil, 2018-05-03 (https://worldoil.com/news/2018/5/3/weir-introduces-fleet-maintenance-technology-to-address-remote-location-challenges); también RFID Journal (https://www.rfidjournal.com/?p=68598) y World Oil enero 2019 (https://worldoil.com/magazine/2019/january-2019/special-focus/rfid-technology-generates-efficiencies-for-hydraulic-fracturing)",
+   "verificado": "sí",
+   "como_verifique": "2026-10-15: el comunicado de GlobeNewswire y spmoilandgas.com devuelven 403; verifiqué con WebFetch la nota de World Oil (2018-05-03) que describe el producto y el dato del 90%. Ojo: dato de 2018 y de la propia empresa; no verifiqué si el producto sigue vendiéndose hoy ni quién es hoy el dueño de la línea SPM."
+  }
+ },
+ {
+  "id": "PET-5-3",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15): 'Blackline Safety OR \"Industrial Scientific\" detectores de gas distribuidor Argentina Vaca Muerta'. No encontré distribuidor argentino confirmado de Blackline ni de Industrial Scientific. Encontré a Saavedra Seguridad Industrial (Mendoza, con sucursal en Neuquén) que vende 'medidores de gases' sin marcas ni monitoreo en la nube (EconoJournal, 2024-10-31: https://econojournal.com.ar/pymes/como-garantizar-operaciones-seguras-en-la-industria-energetica/). Intenté verificar Dräger Argentina (draeger.com/es_ar) pero devolvió 403: no lo pude verificar.",
+  "hueco_ar": 4,
+  "nota": "Los detectores se consiguen; lo que no encontré es el servicio de monitoreo remoto del trabajador solo con control de pruebas diarias. Hueco 4 porque es 1 búsqueda; no implica que no exista.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "SEG-5-3",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "No encontré en 1 WebSearch (2026-10-15): 'gabinete control de llaves inteligente Traka KeyTrak Argentina distribuidor'. Solo aparece un acuerdo de 2013 entre Lenel y Traka para revender en Norteamérica y Latinoamérica (https://www.securityinfowatch.com/access-identity/access-control/press-release/10937577/lenel-systems-international-inc-lenel-and-traka-announce-new-agreement), que no confirma quién distribuye hoy en Argentina, y Traka presentándose en Expo Seguridad México 2026.",
+  "hueco_ar": 4,
+  "nota": "'No encontré' no es 'no existe': integradores de control de acceso argentinos podrían revender Traka o similares.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "TEL-1-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15): 'monitoreo remoto de nodos y torres WISP cooperativa baterías corte de luz alarma Argentina'. No encontré un servicio local pensado para WISP/cooperativas. Lo más cercano: AKCP, con su distribuidor Raien Argentina, monitorea temperatura y humedad en más de 300 shelters de la red de TV digital de INVAP (https://www.akcp.com/index.php/2014/03/11/invap-remote-broadcast-tower-monitoring-system; la página no menciona baterías ni energía). Teltonika publica casos de monitoreo de torres con routers LTE (https://www.teltonika-networks.com/es/use-cases/energy-utilities/large-scale-telecom-tower-data-monitoring-with-rut956-lte-routers), sin dato de Argentina.",
+  "hueco_ar": 3,
+  "nota": "El hardware se consigue (AKCP vía distribuidor local); el hueco sería el servicio llave en mano y barato para ISP chicos (energía + robo + aviso).",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "TUR-2-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15): 'app para agencias de viajes itinerario y vouchers del pasajero con marca propia Argentina'. No encontré una app argentina. Aparecen opciones extranjeras: Voyages Planner (marca blanca, itinerario con vouchers y documentos; https://www.appvizer.es/ocios/operador-turistico/voyages-planner), Expan Pro (ficha en App Store de México; https://apps.apple.com/mx/app/expan-pro/id1629189529) y PriceAgencies, que llegó a Argentina en 2025 pero es motor de reservas, no app del pasajero (https://www.descubre.vc/noticia/priceagencies-llega-a-argentina-para-transformar-las-agencias-de-viajes-2025-04-28). No verifiqué que Vamoos o Travefy tengan agencias clientes en Argentina.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "PET-2-2",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15): 'software para empresas de alquiler de equipos Argentina inventario reservas devoluciones maquinaria bicicletas esquí'. No encontré software de alquiler de equipos hecho en Argentina ni específico para equipos petroleros; solo opciones extranjeras listadas en directorios en español (Booqable, Rentman, HireHop, Point of Rental) y Odoo con localización fiscal argentina (ERP general; https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/argentina.html).",
+  "hueco_ar": 4,
+  "nota": "La búsqueda fue genérica (alquiler de equipos), no de equipos petroleros en Neuquén; una búsqueda específica podría cambiar el resultado.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "TUR-3-3",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "La misma WebSearch que PET-2-2 (2026-10-15), que incluía bicicletas y esquí. No encontré software argentino para rentals turísticos. Hay extranjeros disponibles en español: bike.rent Manager (figura en Capterra Argentina: https://www.capterra.com.ar/reviews/132953/bike-rental-manager), Anolla (https://anolla.com/es/software-de-alquiler-de-bicicletas) y Booqable. Figurar en un directorio no prueba que tengan clientes acá.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "PET-3-2",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "nota": "Tarea B: SourceWater no se pudo verificar (sourcewater.com da error SSL con WebFetch y con curl el 2026-10-15). Se reemplaza por Select Water Solutions. Ojo: Select es un operador de servicios de agua, no un marketplace de datos como se describía SourceWater.",
+  "solucion_2": {
+   "nombre": "Select Water Solutions",
+   "pais": "EE.UU.",
+   "url": "https://www.selectwater.com/",
+   "que_hace": "Gestión de agua para petróleo y gas: abastecimiento, transferencia, reciclado, recolección y disposición de agua producida, almacenamiento, más química para completación; plataformas propias (AquaView, FluidMatch).",
+   "traccion": "Anuncia en su sitio la colocación de USD 900 millones en obligaciones negociables 7,625% con vencimiento 2034 y un acuerdo para comprar Pilot Water Solutions. No vi en el sitio cifras de pozos ni barriles.",
+   "fuente_traccion": "https://www.selectwater.com/ (titulares de prensa en la portada, leídos 2026-10-15)",
+   "verificado": "sí",
+   "como_verifique": "WebFetch a selectwater.com el 2026-10-15: la portada describe abastecimiento, reciclado, transferencia y disposición de agua para yacimientos y muestra los titulares citados."
+  }
+ },
+ {
+  "id": "PET-5-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch (2026-10-15): 'inspección interna de tanques con drones Elios espacios confinados Argentina empresa'. No encontré una empresa argentina que haga inspección interna con drones. Hay oferta regional: REVER es representante de Flyability en Chile y organizó Flyability Drone Days Latam 2025 (https://www.mch.cl/organizado-por-rever-su-representante-en-chile-con-exito-se-desarrollo-flyability-drone-days-latam-2025/); Applus publica en español para Latinoamérica un servicio de inspección con drones en espacios confinados (tanques, recipientes a presión), pero el folleto no menciona Argentina ni el modelo de dron (https://www.applus.com/dam/PDFServices/Energy-and-Industry/Latam/inspección-con-drones--espacios-confinados_es.pdf, leído 2026-10-15). Intenté ver la lista de socios de Flyability (flyability.com/partners): 404.",
+  "hueco_ar": 4,
+  "nota": "Applus (multinacional de inspección) podría ofrecerlo en Argentina; no lo pude verificar. 1 sola búsqueda.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "SEG-1-5",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "No encontré en 1 WebSearch (2026-10-15): 'contratar vigilador por horas evento app seguridad privada eventual Argentina'. Solo aparecen avisos de empleo de vigiladores full time (Computrabajo), una app de EE.UU. de guardaespaldas por horas (nota: https://culturageek.com.ar/protector-nueva-aplicacion-para-contratar-guardaespaldas-armados/) y un servicio por horas en Chile (https://www.2x3.cl/servicios/articulo/STgrSL4-servicio-seguridad-personal-privada). No verifiqué si las empresas de vigilancia grandes aceptan pedidos por pocas horas.",
+  "hueco_ar": 4,
+  "nota": "Ojo regulatorio: en Argentina la seguridad privada se habilita por provincia; un marketplace probablemente tendría que operar con empresas habilitadas, no con vigiladores sueltos (no verificado en esta pasada).",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ }
+]

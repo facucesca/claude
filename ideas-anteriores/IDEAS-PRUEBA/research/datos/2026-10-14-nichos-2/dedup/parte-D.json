@@ -1,0 +1,696 @@
+{
+ "cruce": {
+  "HOG-1-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Dosificación de químicos de pileta: nada parecido en el registro."
+  },
+  "HOG-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Monitoreo del agua entre visitas del piletero; ALI-4-2 es otra falla (equipo) y otro cliente."
+  },
+  "HOG-1-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Compraventa de carteras de clientes de pileteros: sin antecedente."
+  },
+  "HOG-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler de piletas privadas por hora: sin antecedente."
+  },
+  "HOG-1-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-5",
+   "nota": "Registro sanitario obligatorio en papel (cloro/pH) = problema vecino del ganador ALI-2-5 (registros de higiene y temperatura en papel), otro cliente."
+  },
+  "HOG-2-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "AUT-1-2, SAL-2-3, SAL-3-2",
+   "nota": "Llamar a varios proveedores por disponibilidad y precio es el problema del ganador AUT-1-2 en otro cliente (paisajistas); SAL-2-3/SAL-3-2 (no elegidas) son más lejanas."
+  },
+  "HOG-2-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "A3 (propia), E7",
+   "nota": "Mostrar cómo va a quedar antes de comprar = visualizador A3 (ganador); E7 (no elegida) es servicio de contenido inmobiliario, más lejano."
+  },
+  "HOG-2-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "CON-2-3",
+   "nota": "Mismo problema que el ganador CON-2-3 (medir a distancia para presupuestar) con otro cliente (empresas de parques)."
+  },
+  "HOG-2-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "ALI-4-2",
+   "nota": "Mismo problema central que ALI-4-2 (no elegida): un equipo falla y nadie se entera hasta que hay pérdida; solo cambia el rubro."
+  },
+  "HOG-2-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-3-5",
+   "nota": "Foto en el mostrador -> producto correcto, misma mecánica del ganador COM-3-5, en viveros."
+  },
+  "HOG-3-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Familias empleadoras de casas particulares: SER-4-1 (no elegida) liquida sueldos pero para estudios/PyMEs, otro cliente. Se fusiona con FAM-2-2."
+  },
+  "HOG-3-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36, C19",
+   "nota": "Prueba de servicio con fotos + checklist = mecanismo del ganador D36 aplicado a empresas de limpieza; C19 (no elegida) es auditoría 5S, más lejana. Se fusiona con ONG-3-3."
+  },
+  "HOG-3-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "H27, K2, B30",
+   "nota": "Presupuestador/cotizador para un negocio de servicios: misma solución que H27/K2/B30 (no elegidas) aplicada a empresas de limpieza."
+  },
+  "HOG-3-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L14 (propia), CON-5-2",
+   "nota": "Control de stock de consumibles repartidos y anti-pérdida = familia del ganador L14; CON-5-2 (no elegida) es reposición en alquiler temporario."
+  },
+  "HOG-3-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SAL-4-5, SAL-3-5, EDU-1-4",
+   "nota": "Cubrir ausencias con un marketplace de turnos sueltos: mismo modelo que SAL-4-5 y SAL-3-5 (no elegidas); EDU-1-4 es ganador pero en otro cliente y Facu lo eligió con la nota RFID, por eso pesa más el doble rechazo."
+  },
+  "HOG-4-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cebaderos con sensores para control de plagas: sin antecedente (sensor no es RFID ni cámara)."
+  },
+  "HOG-4-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36, C26",
+   "nota": "Certificados e informes post-visita para la auditoría del cliente = generador de informes D36 (ganador); C26 (back-office de H&S, no elegida) es vecina."
+  },
+  "HOG-4-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Detección de termitas: sin antecedente."
+  },
+  "HOG-4-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-3-5",
+   "nota": "Foto del cliente -> identificar y cotizar: misma mecánica del ganador COM-3-5, en fumigadoras."
+  },
+  "HOG-4-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Trampas que cuentan mosquitos para fumigar con datos: sin antecedente."
+  },
+  "HOG-5-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Marketplace de lavado con retiro y entrega; el ruteo (C8/F30, no elegidas) es secundario."
+  },
+  "HOG-5-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Seguimiento de prendas por etiqueta/RFID en tintorerías = aplicación concreta del ganador L13."
+  },
+  "HOG-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Ropa blanca con chip RFID entre lavadero y cliente = aplicación concreta de L13. Ojo: el mismo problema aparece en TUR-1-2 (otro investigador), fusionar en el cruce general."
+  },
+  "HOG-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Pago con celular y monitoreo remoto de lavaderos de autoservicio: sin antecedente."
+  },
+  "HOG-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Lockers 24 h para tintorerías: sin antecedente; vecina de HOG-5-1."
+  },
+  "FUN-1-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Software de gestión del servicio fúnebre; M33 (no elegida) era video de tributos, otro problema."
+  },
+  "FUN-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Comparador de precios de funerarias: sin antecedente."
+  },
+  "FUN-1-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Trazabilidad física de cuerpos y pertenencias con etiquetas = aplicación posible de L13 (RFID para otras cosas)."
+  },
+  "FUN-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Arreglo funerario online: sin antecedente."
+  },
+  "FUN-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cobro de reintegros de seguros/ANSES por la funeraria; F24/B12 (no elegidas) son cobranzas a clientes, otro problema."
+  },
+  "FUN-2-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Plano digital de parcelas de cementerio: sin antecedente. Se fusiona con ONG-2-3."
+  },
+  "FUN-2-2": {
+   "estado": "R",
+   "repite_o_se_parece_a": "H24",
+   "nota": "Digitalizar libros y fichas en papel = misma solución que H24 (fichas en papel a planilla, no elegida) en otro cliente."
+  },
+  "FUN-2-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L1 (propia), A1 (propia)",
+   "nota": "Dar seguridad a una compraventa entre particulares (parcelas) = lógica del ganador L1 y de A1 (escrow)."
+  },
+  "FUN-2-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Coordinación operativa del cementerio parque; módulo de FUN-2-1, sin antecedente directo (CON-2-1 es despacho de técnicos)."
+  },
+  "FUN-2-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Encontrar la sepultura: sin antecedente; módulo de FUN-2-1/ONG-2-3."
+  },
+  "FUN-3-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "B21, B24, B23",
+   "nota": "Falta de proceso comercial para vender planes = familia de reactivación/seguimiento comercial ya rechazada (B21, B24, B23)."
+  },
+  "FUN-3-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SER-4-4, SAL-1-2",
+   "nota": "Validar documentación de reclamos = lógica del ganador SER-4-4 (validar certificados), otro cliente. Se fusiona con ONG-4-3."
+  },
+  "FUN-3-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Plan de sepelio portable entre funerarias: sin antecedente."
+  },
+  "FUN-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Seguro que paga a la familia en 24 h: sin antecedente; vecina de FUN-1-5."
+  },
+  "FUN-3-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cálculo actuarial de cuotas de planes de sepelio; H33 (no elegida) es planilla de socios, otro problema."
+  },
+  "FUN-4-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Logística de retiros y seguimiento de crematorios de mascotas: sin antecedente."
+  },
+  "FUN-4-2": {
+   "estado": "R",
+   "repite_o_se_parece_a": "C17, IND-5-1",
+   "nota": "Paradas de equipo por falta de mantenimiento = mantenimiento preventivo (C17 no elegida, IND-5-1 repetida) en otro cliente."
+  },
+  "FUN-4-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cremación directa barata: sin antecedente."
+  },
+  "FUN-4-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L4 (propia)",
+   "nota": "Mismo cliente (familia en duelo) y lado de recuerdo/homenaje del ganador L4, aunque el producto es físico."
+  },
+  "FUN-4-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alternativas ecológicas a la cremación: sin antecedente."
+  },
+  "FUN-5-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Dar de baja cuentas del fallecido: J13 (vaciado) e I13 (trámites), no elegidas, son otro problema."
+  },
+  "FUN-5-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Guía de trámites post-fallecimiento pagada por aseguradoras/empleadores: sin antecedente; vecina de FUN-5-1."
+  },
+  "FUN-5-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SER-2-3, F20",
+   "nota": "Abogados que juntan papeles y redactan escritos repetitivos = SER-2-3 (no elegida), mismo cliente."
+  },
+  "FUN-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Búsqueda de activos no reclamados del fallecido: sin antecedente."
+  },
+  "FUN-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Bóveda de claves y voluntad: problema práctico, no el homenaje de L4."
+  },
+  "CUL-1-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia), L14 (propia)",
+   "nota": "Equipos chicos y caros que se pierden y se prestan sin registro = familia de L13/L14 (seguimiento y stock anti-pérdida)."
+  },
+  "CUL-1-2": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SAL-1-4, CON-5-5, ALI-4-5",
+   "nota": "Repartir una recaudación entre partes en Excel: mismo problema que SAL-1-4, CON-5-5 y ALI-4-5 (todas no elegidas), otro cliente."
+  },
+  "CUL-1-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "R14, G11",
+   "nota": "Subtítulos de accesibilidad: R14/G11 (no elegidas) son el mismo problema; cambia el formato (en vivo)."
+  },
+  "CUL-1-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "K6, ALI-1-3, SER-4-3",
+   "nota": "Personal convocado por WhatsApp y horas a mano = turnos y horas ya rechazados/repetidos (K6, ALI-1-3, SER-4-3)."
+  },
+  "CUL-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler por hora de salas ociosas: sin antecedente en el registro (PX6 es otro formato). Se fusiona con ONG-2-5."
+  },
+  "CUL-2-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Catalogación de colecciones de museos: sin antecedente."
+  },
+  "CUL-2-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-5",
+   "nota": "Sensores de temperatura/humedad con alerta = tecnología del ganador ALI-2-5, otro cliente y motivo."
+  },
+  "CUL-2-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-4-4",
+   "nota": "No saber cuánta gente entra = mismo problema del ganador COM-4-4, en museos."
+  },
+  "CUL-2-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Audioguía en el celular para museos chicos: sin antecedente."
+  },
+  "CUL-2-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36",
+   "nota": "Informe de estado con fotos antes y después = generador de informes D36 (ganador), otro cliente."
+  },
+  "CUL-3-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Regalías no cobradas de músicos: sin antecedente."
+  },
+  "CUL-3-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Booking de bandas con salas: sin antecedente."
+  },
+  "CUL-3-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler P2P de backline entre músicos; J34 (no elegida) es alquiler propio a vecinos, otro cliente."
+  },
+  "CUL-3-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L14 (propia)",
+   "nota": "Stock chico por talle que se pierde en giras = familia del ganador L14 (stock adaptable y anti-robo)."
+  },
+  "CUL-3-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Hojas de ruta de gira: sin antecedente."
+  },
+  "CUL-4-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-2-1",
+   "nota": "Mismo cliente que el ganador EDU-2-1 (academias), otro problema (vestuario por talle y cobro). Ojo: el investigador puso EDU-2-1 como no elegida; en el registro está elegida."
+  },
+  "CUL-4-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Venta de cupos vacíos de talleres a turistas/empresas: sin antecedente."
+  },
+  "CUL-4-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "EDU-2-3",
+   "nota": "Alumnos que no practican entre clases = EDU-2-3 (no elegida), mismo patrón en música."
+  },
+  "CUL-4-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Competencias de danza con puntajes en papel: sin antecedente."
+  },
+  "CUL-4-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "ALI-4-2",
+   "nota": "Equipo que falla de noche y se pierde la producción = problema central de ALI-4-2 (no elegida)."
+  },
+  "CUL-5-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cine a demanda: sin antecedente."
+  },
+  "CUL-5-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Evaluar postulaciones del lado del que convoca; C31/F33 (no elegidas) eran del lado del postulante, otro problema."
+  },
+  "CUL-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "R28",
+   "nota": "Vender publicidad en pantallas = tecnología/canal vecino del ganador R28 (pantallas del local)."
+  },
+  "CUL-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medir y reportar impacto a financiadores: sin antecedente. Se fusiona con ONG-1-4."
+  },
+  "CUL-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Distribución física de DCP y claves: sin antecedente."
+  },
+  "ONG-1-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-2, J14",
+   "nota": "Excedente de empresas que se destruye = problema vecino del ganador ALI-2-2 (acá no alimentario y se dona)."
+  },
+  "ONG-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Subastas benéficas en papel: sin antecedente."
+  },
+  "ONG-1-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Voluntariado corporativo: sin antecedente."
+  },
+  "ONG-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Reportar impacto a cada financiador: sin antecedente. Se fusiona con CUL-5-4."
+  },
+  "ONG-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Legados solidarios: sin antecedente."
+  },
+  "ONG-2-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-1-4",
+   "nota": "Control de entrada y retiro de chicos = tema RFID para chicos del ganador EDU-1-4, cliente vecino (iglesias, colonias)."
+  },
+  "ONG-2-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Donar sin efectivo con terminal dedicada; B12 y L15 son otros problemas de pagos."
+  },
+  "ONG-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Registros de cementerios en papel: sin antecedente en el registro. Se fusiona con FUN-2-1."
+  },
+  "ONG-2-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Contabilidad por fondos con destino: particularidad no cubierta por SER-1-3/K3 (no elegidas)."
+  },
+  "ONG-2-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Espacios religiosos ociosos alquilados por hora: sin antecedente. Se fusiona con CUL-1-5."
+  },
+  "ONG-3-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L7 (propia)",
+   "nota": "Compensación verificada de huella plástica para marcas = problema vecino del ganador L7 (huella de carbono)."
+  },
+  "ONG-3-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia), C18",
+   "nota": "Visión con cámara e IA sobre la cinta = tecnología del ganador L12; C18 (no elegida) solo comparte tecnología."
+  },
+  "ONG-3-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36, LOG-2-2",
+   "nota": "Probar el servicio con fotos/QR para certificar = mecanismo de D36 (ganador). Se fusiona con HOG-3-2."
+  },
+  "ONG-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Plataforma propia para cooperativas de reparto/limpieza: sin antecedente; J36 es otro modelo."
+  },
+  "ONG-3-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "PX6, D24, F19",
+   "nota": "Directorio verificado de proveedores pagado por compradores = directorio de nicho (PX6/D24, no elegidas)."
+  },
+  "ONG-4-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Red de beneficios para mutuales: sin antecedente."
+  },
+  "ONG-4-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Órdenes de compra descontadas de sueldo; la financiación de SAL-2-1/SAL-5-5 es otro cliente y otro circuito."
+  },
+  "ONG-4-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SER-4-4, SAL-1-2",
+   "nota": "Validar documentos para pagar subsidios = lógica del ganador SER-4-4. Se fusiona con FUN-3-2."
+  },
+  "ONG-4-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Scoring de crédito para mutuales: sin antecedente."
+  },
+  "ONG-4-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "J21, SAL-2-3",
+   "nota": "Comprar juntos para pagar precio mayorista = problema central de J21 (no elegida), ahora para organizaciones."
+  },
+  "ONG-5-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-2",
+   "nota": "Excedente de comida que se tira = problema del ganador ALI-2-2, con otro cliente (súper/industria) y destino donación."
+  },
+  "ONG-5-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L6 (propia), C8, LOG-2-1",
+   "nota": "Conectar donaciones con choferes = formato del ganador L6 aplicado a donaciones."
+  },
+  "ONG-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "K11, C9",
+   "nota": "Stock con vencimientos cortos = lógica del ganador K11, otro cliente (bancos de alimentos)."
+  },
+  "ONG-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Rendición verificable de raciones de comedores: sin antecedente; H24 solo comparte digitalizar."
+  },
+  "ONG-5-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "C10, F29, ALI-1-2",
+   "nota": "Armar menú y costo por ración = costeo e ingeniería de menú (C10/F29 no elegidas, ALI-1-2 repetida) en comedores sociales."
+  },
+  "FAM-1-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Cámaras en salas de jardín = tecnología del ganador L12, otro problema (confianza de familias)."
+  },
+  "FAM-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Abrir y llenar microjardines: sin antecedente."
+  },
+  "FAM-1-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Gestión del beneficio de guardería obligatorio (Decreto 144/2022): sin antecedente."
+  },
+  "FAM-1-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-1-4",
+   "nota": "Saber qué chicos hay en cada sala = tema RFID para chicos del ganador EDU-1-4."
+  },
+  "FAM-1-5": {
+   "estado": "C",
+   "repite_o_se_parece_a": "EDU-1-4, SAL-4-5",
+   "nota": "Cubrir la ausencia de una maestra = mismo problema que el ganador EDU-1-4 (ausencia docente) con cliente casi igual (jardín privado vs colegio privado)."
+  },
+  "FAM-2-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-4-2, SER-4-5",
+   "nota": "Cuidador confiable por horas = problema del ganador SAL-4-2 con otro receptor (chicos); si fuera la misma plataforma, sería C."
+  },
+  "FAM-2-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Registro y sueldo de la niñera por la familia empleadora: mismo problema que HOG-3-1 (se fusionan); SER-4-1 es otro cliente."
+  },
+  "FAM-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cuidado infantil en eventos y hoteles: sin antecedente."
+  },
+  "FAM-2-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-4-2",
+   "nota": "Cuidadora a pedido pagada por el empleador = variante del ganador SAL-4-2."
+  },
+  "FAM-2-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-4-2, SER-4-5",
+   "nota": "Colocación de niñera fija con verificación = núcleo de confianza de SAL-4-2 y SER-4-5 (ganadores)."
+  },
+  "FAM-3-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Cámaras con IA para detectar ahogamientos = tecnología del ganador L12."
+  },
+  "FAM-3-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Separar fotos por chico y mandarlas a cada familia; I31 (video de egreso) es otro problema."
+  },
+  "FAM-3-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Buscador/marketplace de colonias: sin antecedente (EDU-1-3 es inscripción en papel)."
+  },
+  "FAM-3-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SAL-4-3, EDU-1-3",
+   "nota": "Registro de medicación e incidentes en papel = problema central de SAL-4-3 (no elegida) en colonias."
+  },
+  "FAM-3-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SER-4-5, SER-4-2",
+   "nota": "El peso está en certificados y antecedentes para trabajar con menores = ganador SER-4-5; SER-4-2 (no elegida) es la parte de filtrar postulantes."
+  },
+  "FAM-4-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-1-5, EDU-1-4",
+   "nota": "Mismo cliente (transporte escolar) que el ganador EDU-1-5 y control de subida/bajada de chicos de EDU-1-4; problema distinto (chico olvidado)."
+  },
+  "FAM-4-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia), EDU-1-5",
+   "nota": "Cámaras en la combi = tecnología de L12 y cliente de EDU-1-5 (ganadores)."
+  },
+  "FAM-4-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-1-5",
+   "nota": "Mismo cliente que el ganador EDU-1-5, otro problema (encontrar transporte)."
+  },
+  "FAM-4-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L6 (propia), LOG-1-1",
+   "nota": "Capacidad ociosa de vehículos = concepto del ganador L6 (LOG-1-1 ya repetía L6), en pasajeros escolares."
+  },
+  "FAM-4-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-1-5, SAL-1-2",
+   "nota": "Rubro transporte escolar del ganador EDU-1-5; la facturación a obras sociales (SAL-1-2) es secundaria."
+  },
+  "FAM-5-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler de equipamiento de bebé en destino para viajeros: otro cliente y problema que J34/J5."
+  },
+  "FAM-5-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Suscripción de juguetes por etapa: modelo circular, no reventa (J5/J11)."
+  },
+  "FAM-5-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler de equipos caros de uso corto para bebés: otro cliente y producto que J34."
+  },
+  "FAM-5-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "J21, J22",
+   "nota": "Comprar recurrente más barato para la familia = problema central de J21/J22 (no elegidas), mismo tipo de cliente."
+  },
+  "FAM-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Lista de nacimiento única multi-tienda: sin antecedente (I25 es otro problema)."
+  }
+ },
+ "posibles_fusiones_dentro_de_mis_nichos": [
+  [
+   "HOG-3-1",
+   "FAM-2-2",
+   "familia empleadora: registro y sueldo de empleada/niñera de casas particulares"
+  ],
+  [
+   "HOG-3-2",
+   "ONG-3-3",
+   "probar al contratante que se hizo la limpieza/mantenimiento (fotos, QR, checklist)"
+  ],
+  [
+   "FUN-2-1",
+   "ONG-2-3",
+   "registro y plano de parcelas/nichos de cementerios (FUN-2-2, FUN-2-4 y FUN-2-5 son módulos del mismo cliente)"
+  ],
+  [
+   "FUN-3-2",
+   "ONG-4-3",
+   "validar documentación de reclamos/subsidios por fallecimiento en aseguradoras y mutuales"
+  ],
+  [
+   "CUL-1-5",
+   "ONG-2-5",
+   "alquiler por hora de espacios ociosos (salas, templos, salones)"
+  ],
+  [
+   "CUL-5-4",
+   "ONG-1-4",
+   "medir y reportar impacto a financiadores"
+  ],
+  [
+   "FUN-1-5",
+   "FUN-3-4",
+   "reintegros de sepelio que tardan (lado funeraria vs lado familia)"
+  ],
+  [
+   "FUN-5-1",
+   "FUN-5-2",
+   "trámites y bajas después de un fallecimiento"
+  ],
+  [
+   "ONG-1-1",
+   "ONG-5-1",
+   "donar excedente de empresas con trazabilidad y comprobante (no alimentario y alimentario)"
+  ],
+  [
+   "ONG-2-1",
+   "FAM-1-4",
+   "control de entrada, retiro y presencia de chicos"
+  ],
+  [
+   "FAM-1-3",
+   "FAM-2-4",
+   "cuidado infantil pagado por el empleador"
+  ],
+  [
+   "HOG-5-1",
+   "HOG-5-5",
+   "logística de retiro y entrega de ropa para lavadero/tintorería"
+  ],
+  [
+   "FAM-5-1",
+   "FAM-5-3",
+   "alquiler de equipamiento de bebé"
+  ]
+ ]
+}

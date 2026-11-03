@@ -1,0 +1,500 @@
+TUR-1-1 | Fiestas, gente de más y cigarrillo en cabañas: el dueño se entera cuando ya hay daño o quejas
+TUR-1-2 | Sábanas y toallas que se pierden entre el hotel y el lavadero sin que nadie sepa cuántas
+TUR-1-3 | Aire acondicionado y calefacción prendidos en habitaciones vacías
+TUR-1-4 | Conseguir mucamas, mozos y ayudantes de cocina por temporada o por un fin de semana largo
+TUR-1-5 | El hotel no vende extras (late check-out, upgrade, desayuno, traslado) porque nadie los ofrece en el momento j
+TUR-2-1 | Receptivos y agencias arman cada cotización de viaje a medida copiando tarifas de proveedores a mano
+TUR-2-2 | Pasajeros que no pueden embarcar por visas, permisos electrónicos o pasaportes mal resueltos
+TUR-2-3 | Operadores chicos de excursiones no pueden vender por agencias y revendedores porque su disponibilidad está en
+TUR-2-4 | Pasajeros con vuelos cancelados o demorados que no reclaman la compensación que les corresponde
+TUR-2-5 | El pasajero recibe vouchers e itinerario en PDFs sueltos y llama a la agencia por cada duda o cambio
+TUR-3-1 | Deslindes de responsabilidad y fichas médicas en papel antes de rafting, cabalgatas o canopy
+TUR-3-2 | El mal clima arruina la excursión o el viaje y termina en cancelaciones, reembolsos y quejas
+TUR-3-3 | Alquileres de bicis, kayaks, esquís y equipo de trekking no saben qué equipo está afuera, cuál volvió dañado n
+TUR-3-4 | Pueblos, bodegas y museos chicos no tienen guías en idiomas y el turista extranjero recorre sin entender nada
+TUR-3-5 | Guías, choferes y mucamas pierden propinas porque el turista extranjero no tiene efectivo en pesos
+TUR-4-1 | Parques, reservas y senderos no saben cuánta gente entra ni cuándo: no pueden planificar personal, mantenimien
+TUR-4-2 | Parques acuáticos, campings y centros de entretenimiento manejan efectivo y fichas en cada puesto: colas, falt
+TUR-4-3 | Campings y parques cobran la entrada por auto a mano en la barrera: colas, evasión y sin datos de quién entra
+TUR-4-4 | Piletas de campings, hoteles y parques acuáticos dependen solo del guardavidas para detectar a alguien que se 
+TUR-4-5 | Atracciones, campamentos y excursiones no venden las fotos de los visitantes porque no saben a quién pertenece
+TUR-5-1 | Empresas chicas de traslados no reciben las reservas de aerolíneas, OTAs y agencias extranjeras
+TUR-5-2 | Contratar un micro o una combi para un grupo obliga a llamar a muchas empresas y comparar presupuestos a mano
+TUR-5-3 | Choferes de micros de turismo que manejan de noche con sueño, sin que la empresa se entere antes del accidente
+TUR-5-4 | Combis regionales, transfers entre pueblos y ferris turísticos no venden pasajes online: el turista no sabe có
+TUR-5-5 | Turistas esperando en el lobby sin saber a qué hora pasa la combi de la excursión; el operador recibe decenas 
+DEP-1-1 | Abrir 24 h o en horario extendido obliga a pagar un recepcionista solo para habilitar la entrada
+DEP-1-2 | En boxes de CrossFit y entrenamiento funcional el coach no puede medir la carga real de cada atleta
+DEP-1-3 | El socio nuevo de musculación queda solo en la sala sin plan ni seguimiento y deja a los pocos meses
+DEP-1-4 | Las evaluaciones físicas de socios se hacen con cinta y balanza y nadie ve su avance
+DEP-1-5 | El socio no sabe cuándo el gimnasio está lleno y el dueño no sabe cómo se reparte la ocupación por hora
+DEP-2-1 | Reflectores de canchas que quedan prendidos sin nadie jugando y la factura de luz que ahoga al club
+DEP-2-2 | Juntar pedidos de camisetas y equipos por talle para cientos de chicos se hace por WhatsApp y planillas
+DEP-2-3 | Las rifas y bonos contribución del club se venden en papel, con talonarios perdidos y plata en efectivo
+DEP-2-4 | El cloro y el pH de la pileta del club se controlan a mano con planilla, con riesgo sanitario y gasto de quími
+DEP-2-5 | Asambleas y elecciones de socios en papel, con poca participación e impugnaciones
+DEP-3-1 | El complejo necesita a alguien presente para abrir la cancha, prender luces y cobrar en turnos de poca gente
+DEP-3-2 | Partidos que se caen porque falta uno: el jugador suelto no tiene con quién jugar y la cancha queda libre
+DEP-3-3 | Canchas vacías en horas valle con el mismo precio todo el día
+DEP-3-4 | El césped sintético se gasta sin medición y el recambio (muy caro) se decide tarde o a ojo
+DEP-3-5 | Canchas usadas que no figuran como alquiladas: plata que se escapa en la caja
+DEP-4-1 | Asignar árbitros a cientos de partidos por semana y pagarles se hace por teléfono y en efectivo
+DEP-4-2 | Armar el fixture con restricciones de canchas, horarios y equipos lleva días y se rehace con cada cambio
+DEP-4-3 | Planillas de partido en papel que después alguien pasa a mano a tablas, goleadores y sanciones
+DEP-4-4 | Jugadores 'truchos': gente que juega con otro nombre, fuera de su categoría de edad o sin estar habilitada
+DEP-4-5 | Organizadores de torneos y dueños de canchas sin seguro de accidentes ni responsabilidad civil, o con un trámi
+DEP-5-1 | Entrenadores personales que mandan rutinas en PDF por WhatsApp y no ven si el alumno entrena
+DEP-5-2 | Escuelitas e inferiores evalúan a los chicos en papel y los padres no reciben ningún informe de progreso
+DEP-5-3 | Corregir la técnica (saque de tenis, swing de golf, brazada) depende del ojo del profe en la clase y no queda 
+DEP-5-4 | Padres y adultos no encuentran un profesor particular de deporte confiable cerca, y el profe no tiene cómo con
+DEP-5-5 | Los clubes de inferiores no pueden medir carga física y riesgo de lesión porque los GPS profesionales son carí
+MAS-1-1 | Peces y animales vivos que se mueren en el pet shop por agua o temperatura sin vigilar
+MAS-1-2 | Perros con sobrepeso, alergias o estómago delicado: no hay alimento fresco porcionado a medida
+MAS-1-3 | Roedores y plagas en depósitos de alimento balanceado: bolsas rotas, mercadería contaminada
+MAS-1-4 | Fábricas PyME de balanceado reformulan a ojo cuando cambia el precio del maíz o la harina de carne
+MAS-1-5 | Materia prima con micotoxinas que entra a la fábrica de balanceado sin control rápido
+MAS-2-1 | Dueños que no encuentran paseador o cuidador confiable, verificado y con cobertura si pasa algo
+MAS-2-2 | El dueño no sabe si el paseo se hizo: cuánto duró, por dónde y con cuántos perros
+MAS-2-3 | Guarderías y hoteles caninos verifican a mano en el mostrador la libreta de vacunas de cada perro
+MAS-2-4 | Paseadores, cuidadores y peluqueros sin seguro de responsabilidad civil si el perro muerde, se escapa o se las
+MAS-2-5 | Emigrar o viajar al exterior con la mascota: trámites, vacunas, aerolínea y jaula son un laberinto
+MAS-3-1 | Bañar un perro grande en casa es un lío y las peluquerías se saturan con baños simples de poco margen
+MAS-3-2 | Dueños sin tiempo para llevar al perro a la peluquería y peluqueros independientes sin local ni clientes
+MAS-3-3 | Faltan peluqueros caninos bien formados y las peluquerías no consiguen a quién contratar
+MAS-3-4 | Armar una peluquería canina móvil cuesta y no hay quién fabrique la camioneta equipada
+MAS-3-5 | Peluqueros con lesiones de espalda por levantar perros grandes a la bañera y la mesa
+MAS-4-1 | Perros perdidos que no vuelven a casa: los avisos están dispersos en grupos de Facebook y carteles
+MAS-4-2 | Microchips sin registro unificado: un perro con chip encontrado igual no se puede devolver
+MAS-4-3 | Alimento balanceado por vencer o con bolsa dañada que se tira mientras refugios piden donaciones
+MAS-4-4 | Trasladar animales rescatados entre ciudades y hogares de tránsito se coordina a mano por Facebook
+MAS-4-5 | Dueños que tienen que dar su mascota terminan dejándola en refugios saturados o en la calle
+MAS-5-1 | Estafas y cachorros enfermos en la compra de perros por internet: seña perdida o perro con problemas
+MAS-5-2 | Criadores cruzan perros sin test genético y venden cachorros con enfermedades hereditarias
+MAS-5-3 | Criadores que calculan a ojo el día de servicio y no vigilan el parto: camadas fallidas y cachorros muertos
+MAS-5-4 | Criaderos llevan camadas, pedigrí, pesos, vacunas y contratos de venta en cuadernos y Excel
+MAS-5-5 | Dueños que pagan adiestramiento y no practican entre clases: el perro no aprende y abandonan
+BEL-1-1 | La tintura se prepara a ojo: se tira producto y el servicio de color no se costea por gramo
+BEL-1-2 | Sillones vacíos en peluquerías mientras estilistas y barberos independientes no tienen dónde atender
+BEL-1-3 | La clienta no sabe cómo le va a quedar el color o el corte y después reclama o no se anima
+BEL-1-4 | El estado del cuero cabelludo y la caída se 'diagnostican' a ojo y los tratamientos capilares no se venden
+BEL-1-5 | Papel aluminio, tubos de tintura, restos químicos y pelo cortado van a la basura o a la cloaca
+BEL-2-1 | La evaluación de la piel se hace a ojo y la clienta no ve el progreso de los tratamientos faciales
+BEL-2-2 | Las fotos de antes y después no son comparables (luz, ángulo) y no sirven como prueba ante un reclamo
+BEL-2-3 | Fichas de salud y consentimientos en papel antes de láser, peelings o aparatología
+BEL-2-4 | Comprar aparatología usada (láser, HIFU) es una lotería: sin historial de uso, sin inspección ni garantía
+BEL-2-5 | Los tratamientos corporales (reductores, modeladores) no tienen medición objetiva y la clienta abandona
+BEL-3-1 | La manicura depende 100 % de mano de obra: máquinas que pintan o imprimen uñas
+BEL-3-2 | La esterilización de herramientas de manicura no queda registrada: riesgo de infecciones y de inspecciones
+BEL-3-3 | Spas y piletas de hotel ociosos en días de semana: no se venden pases de día al público local
+BEL-3-4 | Manicuras y esteticistas independientes sin local, y clientas que no pueden ir al salón: servicio a domicilio 
+BEL-3-5 | Toallas, batas y sábanas de spa se pierden o 'desaparecen' entre el spa y la lavandería tercerizada
+BEL-4-1 | Perfumerías y tiendas chicas compran a muchas marcas y distribuidoras con mínimos altos y cuentas separadas
+BEL-4-2 | Productos profesionales falsificados o rellenados que dañan a la marca y al distribuidor oficial
+BEL-4-3 | Peluqueros aprenden técnicas por Instagram/YouTube sin ruta ni certificación; las marcas pagan educadores pres
+BEL-4-4 | El salón no puede vender productos a sus clientas online sin tener stock propio
+BEL-4-5 | Producto 'de uso profesional' que aparece en MercadoLibre por debajo del precio sugerido y rompe el canal
+BEL-5-1 | El legajo técnico, el rótulo INCI y la inscripción en ANMAT se arman a mano para cada producto
+BEL-5-2 | Marcas chicas no pueden pagar estudios que respalden sus claims ('hidrata 48 h', 'testeado dermatológicamente'
+BEL-5-3 | Las marcas chicas no consiguen laboratorio a façon con mínimos bajos ni pueden comparar fabricantes
+BEL-5-4 | En la tienda online la clienta no sabe qué producto sirve para su piel y compra mal o no compra
+BEL-5-5 | Las marcas reparten muestras sin saber a quién le llegan ni si después compran
+EVE-1-1 | Cada consulta de un salón termina en presupuesto, contrato y orden de evento (menú, horarios, proveedores) arm
+EVE-1-2 | Quintas y salones reciben denuncias y clausuras por ruido y no tienen cómo medir ni probar el volumen de cada 
+EVE-1-3 | Quien alquila una quinta o salón por un día no tiene seguro de responsabilidad civil ni de daños que pueda com
+EVE-1-4 | Quintas, salones y casas lindas quedan vacíos de lunes a jueves y no hay dónde alquilarlos por horas para reun
+EVE-1-5 | El plano del salón y la distribución de mesas e invitados se arma en papel con la familia y cambia hasta el dí
+EVE-2-1 | Empresas de alquiler comprometen la misma vajilla, sillas o equipos para dos eventos el mismo día porque el st
+EVE-2-2 | Al volver del evento faltan copas, cubiertos y manteles o vuelven rotos, y no hay prueba de cómo salieron para
+EVE-2-3 | Las entregas y retiros de cada fin de semana (decenas de eventos con horario de armado) se planifican a mano y
+EVE-2-4 | Equipos caros (generadores, pantallas LED, estructuras, consolas) salen a eventos sin rastreo: se pierden, se 
+EVE-2-5 | Cables, micrófonos, luces y cajas de sonido se pierden entre eventos porque nadie escanea qué sale y qué vuelv
+EVE-3-1 | El organizador coordina 15-20 proveedores por evento con señas, saldos y vencimientos anotados en planillas y 
+EVE-3-2 | Los novios piden regalos en efectivo con un CBU en la tarjeta: sin registro de quién dio qué, sin agradecimien
+EVE-3-3 | Conseguir mozos, bartenders y personal de armado para cada evento se resuelve por WhatsApp a último momento y 
+EVE-3-4 | El cronograma minuto a minuto del evento vive en un PDF que cada proveedor tiene en una versión distinta y los
+EVE-3-5 | Organizadores de eventos corporativos piden cotización de salón + habitaciones a 10 hoteles por mail y compara
+EVE-4-1 | Expositores pagan miles de dólares por un stand y vuelven con tarjetas en papel y contactos que nadie sigue
+EVE-4-2 | Colas largas en la acreditación de congresos y ferias: credenciales preimpresas, listas en papel y gente que e
+EVE-4-3 | Los organizadores venden los metros de stand con un plano en PDF y planillas: no saben en tiempo real qué está
+EVE-4-4 | Las rondas de negocios de ferias y cámaras se arman a mano: alguien cruza intereses en Excel y manda agendas p
+EVE-4-5 | Ni el organizador ni el expositor saben cuánta gente pasó, se detuvo o se quedó en cada stand, así que el prec
+EVE-5-1 | Las entradas de recitales se revenden por redes a precios inflados o directamente falsas, y el fan que no pued
+EVE-5-2 | Las productoras fijan precios y tandas de entradas a ojo: shows que se agotan en minutos (plata que se lleva l
+EVE-5-3 | Productoras chicas contratan artistas y salas sin datos de cuánta gente los sigue en cada ciudad, y pierden pl
+EVE-5-4 | Después de cada show, la liquidación entre artista, sala y productora (entradas, cargos, impuestos, derechos d
+EVE-5-5 | En festivales y fiestas grandes la barra pierde plata con efectivo, colas largas y faltantes sin control; las 
+ENE-1-1 | Cada presupuesto solar exige visitar el techo para medir y diseñar el sistema
+ENE-1-2 | Los papeles para conectar el equipo a la red como usuario-generador traban cada instalación
+ENE-1-3 | Los equipos ya instalados fallan y nadie se entera durante semanas
+ENE-1-4 | El cliente no puede comparar presupuestos solares ni saber qué instalador es confiable
+ENE-1-5 | Paneles, inversores y repuestos sobrantes o difíciles de conseguir quedan parados en depósitos
+ENE-2-1 | Los lectores anotan los medidores a mano y los errores terminan en facturas mal hechas y reclamos
+ENE-2-2 | El agua se pierde en fugas bajo tierra que nadie encuentra hasta que se rompe la calle
+ENE-2-3 | Las conexiones clandestinas y los medidores adulterados se llevan energía que nadie cobra
+ENE-2-4 | Los árboles que tocan las líneas causan cortes, y la poda se planifica a ojo
+ENE-2-5 | Postes, aisladores y transformadores se inspeccionan a pie y en papel, y las fallas se ven cuando ya hubo un c
+ENE-3-1 | Las garrafas y cilindros prestados se pierden: nadie sabe cuántos tiene cada cliente ni cuáles vencen
+ENE-3-2 | El distribuidor de GLP a granel no sabe cuándo rellenar cada tanque: viaja de más o el cliente se queda sin ga
+ENE-3-3 | Las familias de bajos ingresos no pueden pagar la garrafa entera de una vez y vuelven a la leña o pagan sobrep
+ENE-3-4 | La protección contra la corrosión de los tanques enterrados se controla yendo a medir a mano a cada tanque
+ENE-3-5 | Hogares y comercios sin red de gas no pueden comparar precios de GLP a granel entre distribuidores
+ENE-4-1 | Los faltantes de combustible en los tanques (pérdidas, robos, errores de descarga) se detectan tarde o nunca
+ENE-4-2 | Las maniobras de los playeros y los faltantes de caja no se pueden comprobar: las cámaras graban pero nadie cr
+ENE-4-3 | El cierre de cada turno (surtidores, caja, tarjetas, tienda) se concilia a mano y las diferencias quedan sin e
+ENE-4-4 | Las pruebas de tanques, las inspecciones ambientales y sus vencimientos se controlan con carpetas, y una falla
+ENE-4-5 | Las estaciones blancas les fían combustible a flotas locales con vales en papel y cuentas corrientes sin contr
+ENE-5-1 | Las conservadoras de ascensores se enteran de la falla cuando llama el portero: el técnico va dos veces y el e
+ENE-5-2 | Los grupos electrógenos de respaldo fallan justo en el corte porque nadie verificó la batería, el gasoil o el 
+ENE-5-3 | Los gasistas y técnicos de calderas hacen los certificados e informes de cada revisión a mano, al volver de la
+ENE-5-4 | Las cadenas con muchas sucursales no tienen cómo contratar, controlar y comparar a los técnicos de mantenimien
+ENE-5-5 | Cambiar una caldera o un termotanque exige visitas y presupuestos lentos: el cliente no sabe cuánto sale ni cu
+SEG-1-1 | No poder probarle al cliente que el guardia hizo las rondas y estuvo despierto en el puesto
+SEG-1-2 | El guardia de la portería de planta o depósito controla camiones, patentes y remitos a mano en una planilla
+SEG-1-3 | Predios grandes (plantas, obradores, campos, parques solares) necesitan varios guardias para cubrir el perímet
+SEG-1-4 | Patrullas nocturnas repetitivas en estacionamientos y playas de depósito que hoy hacen guardias
+SEG-1-5 | Conseguir vigiladores habilitados por horas para un evento, una obra o una emergencia de un día
+SEG-2-1 | Operadores de la central de monitoreo saturados de falsas alarmas (bichos, viento, luces)
+SEG-2-2 | Obras en construcción, playas de autos y predios sin gente de noche: robo de materiales y equipos
+SEG-2-3 | Cámaras y grabadores caídos, tapados o con contraseña de fábrica que nadie detecta hasta que hace falta el vid
+SEG-2-4 | Después de un hecho hay que mirar horas de grabación a mano para encontrar quién fue
+SEG-2-5 | Empleados que trabajan solos o de cara al público (hoteles, clínicas, escuelas) no pueden pedir ayuda rápido y
+SEG-3-1 | Intrusiones por el perímetro (alambrado, laguna, campo vecino) que la guardia ve tarde o nunca
+SEG-3-2 | Pagar guardias 24 h en cada portón (incluidos los secundarios y el turno noche, con poco tránsito)
+SEG-3-3 | Saber qué vehículos entraron y circularon (patentes) cuando hay un robo en el barrio o en la zona
+SEG-3-4 | La guardia del barrio o el encargado del edificio se llena de paquetes de e-commerce que se pierden o nadie re
+SEG-3-5 | Infracciones al reglamento interno (obras fuera de plano, pasto alto, velocidad, ruidos) relevadas a mano y mu
+SEG-4-1 | Relevar el sitio y diseñar dónde va cada cámara, qué lente y cuánto disco hace falta lleva días y sale con err
+SEG-4-2 | El instalador chico vive de instalar y no cobra abono mensual porque no tiene central de monitoreo ni platafor
+SEG-4-3 | Integradores con clientes en otras ciudades no tienen técnicos para instalar o reparar allá
+SEG-4-4 | Pruebas periódicas de sistemas de detección de incendio y seguridad documentadas a mano, dispositivo por dispo
+SEG-4-5 | Detectar armas en accesos de lugares concurridos sin filas ni cacheo manual
+SEG-5-1 | Recepción de visitas en oficinas y plantas con libro de papel y fotocopia del DNI
+SEG-5-2 | Tarjetas y llaveros de acceso que se pierden, se prestan o siguen activos cuando el empleado se fue
+SEG-5-3 | Llaves físicas (vehículos, salas, depósitos, máquinas) que nadie sabe quién tiene
+SEG-5-4 | Cocheras de oficinas mal asignadas: lugares vacíos mientras otros no tienen dónde estacionar
+SEG-5-5 | Intercomunicador de edificio que solo suena en el departamento: si no estás, no podés abrirle a nadie
+RES-1-1 | Nadie puede demostrar cuántos kilos juntó cada recuperador ni a dónde fueron, así que las marcas no pagan extr
+RES-1-2 | La cooperativa vende el material clasificado al intermediario de siempre, sin saber qué pagaría una industria
+RES-1-3 | En las plantas de separación nadie sabe qué porcentaje de material vendible se va al rechazo
+RES-1-4 | Vecinos y comercios que separan no tienen quién les retire lo reciclable (ni lo difícil: telgopor, bolsitas, r
+RES-1-5 | Plantas y acopios de reciclables no saben cuánto stock tienen por material ni cuánto ganan por fardo
+RES-2-1 | Pedir un volquete es llamar a varias empresas para conseguir precio y fecha
+RES-2-2 | La volquetera no sabe dónde está cada volquete ni cuántos días lleva en la calle, y deja de cobrar días extra
+RES-2-3 | Los camiones recolectores pasan por contenedores medio vacíos mientras otros desbordan
+RES-2-4 | Empresas privadas de recolección arman rutas, controlan servicios y facturan a clientes comerciales a mano
+RES-2-5 | Comercios y empresas pagan retiros fijos de contenedores sin saber cuán llenos están ni si están contaminados
+RES-3-1 | El generador de residuos peligrosos lleva libro, manifiestos y declaración jurada anual a mano y se entera de 
+RES-3-2 | Los laboratorios no saben qué reactivos tienen ni cuándo vencen, compran de más y terminan pagando para tratar
+RES-3-3 | Consultorios chicos (odontólogos, veterinarias, estética) pagan el retiro de patogénicos sin precio claro ni a
+RES-3-4 | Talleres mecánicos acumulan aceite usado, filtros, trapos y solventes y no tienen un retiro simple por abono
+RES-3-5 | Las PyMEs no tienen las fichas de seguridad ni los rótulos de los químicos que usan, y no saben cómo clasifica
+RES-4-1 | Las chatarrerías tienen que registrar a cada vendedor (DNI, kilos, material) por ley y lo hacen en libros de p
+RES-4-2 | No existe un precio de referencia de la chatarra en pesos: cada uno compra y vende a ciegas
+RES-4-3 | El chatarrero distingue aleaciones a ojo (bronce, latón, inoxidables) y paga o cobra mal
+RES-4-4 | Las PyMEs metalúrgicas venden su viruta y recortes al que pasa, sin licitar ni saber el precio
+RES-4-5 | Quien tiene un auto chocado o para desguace no sabe a quién vendérselo ni cuánto vale, y el trámite de baja es
+RES-5-1 | Las empresas acumulan notebooks y PCs viejas en un depósito porque no saben cómo darlas de baja con borrado de
+RES-5-2 | La gente tiene celulares viejos en un cajón porque venderlos es incómodo y no sabe cuánto valen
+RES-5-3 | Los revendedores de celulares usados prueban cada equipo a mano y no pueden demostrar al comprador en qué esta
+RES-5-4 | Las recicladoras de RAEE no siguen cada equipo por número de serie desde el retiro hasta el certificado de des
+RES-5-5 | Cuando un empleado remoto se va, la empresa no recupera la notebook
+PET-1-1 | Partes de servicio (field tickets) en papel que la operadora rechaza o demora por errores de precio contra el 
+PET-1-2 | Conseguir operarios calificados y habilitados para cubrir picos de trabajo en locación
+PET-1-3 | Cargar cada factura, orden de compra y certificado en el portal de proveedores de cada operadora
+PET-1-4 | Responder los pedidos de datos de emisiones y huella de carbono que las operadoras exigen a sus proveedores
+PET-1-5 | Hierro de alta presión (iron de fractura, válvulas, mangueras) sin trazabilidad de pruebas y recertificaciones
+PET-2-1 | No saber cuántas horas trabajó cada equipo alquilado en locación para facturarlo bien
+PET-2-2 | Disponibilidad, contratos y devoluciones de equipos alquilados manejados en planillas
+PET-2-3 | Equipos ociosos de una PyME mientras otra no consigue el mismo equipo en el pico de actividad
+PET-2-4 | Herramientas que se pierden entre cuadrillas, camionetas y bases sin saber quién las tiene
+PET-2-5 | Fijar la tarifa de alquiler sin saber cuánto cobra el mercado ni cuánto cuesta tener el equipo
+PET-3-1 | Coordinar los camiones de arena entre cantera, planta y set de fractura sin que el set pare ni los camiones es
+PET-3-2 | No saber dónde conseguir agua para fractura ni dónde disponer el agua de retorno, ni a qué costo
+PET-3-3 | Tanques de gasoil, químicos y agua en locación que se vacían sin aviso y obligan a viajes de urgencia
+PET-3-4 | Choferes de camiones petroleros que se duermen o se distraen en rutas cargadas (Ruta 7, 151, 22)
+PET-3-5 | Traslado diario de miles de operarios a locación en camionetas y combis armado a mano
+PET-4-1 | Conseguir y pagar habitaciones para cuadrillas en Añelo y alrededores, con facturas sueltas por hotel
+PET-4-2 | Asignar camas del campamento según los rosters de rotación sin habitaciones vacías ni dobles reservas
+PET-4-3 | Saber antes del turno qué operario viene cansado por los turnos largos y las rotaciones
+PET-4-4 | No saber en una emergencia quién está en el campamento o en el yacimiento y quién falta
+PET-4-5 | PyMEs que alquilan casas y departamentos enteros para su personal sin contrato, sin estándar y a precio dolari
+PET-5-1 | Mediciones de espesor y corrosión anotadas a mano y pasadas a informes en Word por la empresa de inspección
+PET-5-2 | Calibraciones de manómetros, transmisores y válvulas de seguridad con vencimientos perseguidos en planillas
+PET-5-3 | Detectores de gas personales sin control de pruebas diarias, calibración ni alarma remota cuando un operario e
+PET-5-4 | Fugas de metano en locaciones que nadie mide en forma continua
+PET-5-5 | Inspeccionar por dentro tanques y recipientes exige andamios y gente en espacio confinado
+ALQ-1-1 | Equipos y herramientas alquilados que se pierden, se roban o no se sabe en qué obra están
+ALQ-1-2 | Horas de uso de más que no se cobran: el equipo se alquila por jornada y el cliente lo usa doble turno
+ALQ-1-3 | Peleas por daños al devolver el equipo: no hay pruebas de cómo salió
+ALQ-1-4 | Un contratista tarda horas llamando renteras para encontrar una máquina disponible y comparar precios
+ALQ-1-5 | Entregas y retiros de equipos coordinados en una pizarra: camiones vacíos, retiros olvidados y días de alquile
+ALQ-2-1 | Baños químicos: rutas de limpieza armadas a mano y sin prueba de que el servicio se hizo
+ALQ-2-2 | Volqueteros: no saben dónde está cada volquete ni cuántos días lleva puesto
+ALQ-2-3 | Pedir un volquete (o un baño químico) es llamar a varios y esperar un precio: no hay pedido online con precio 
+ALQ-2-4 | Cotizar un andamio exige calcular a mano cuántas piezas lleva cada fachada
+ALQ-2-5 | Piezas de andamio que se pierden entre obras: el sistema dice 8.000 y en el depósito hay 7.200
+ALQ-3-1 | Marcas de ropa que quieren ofrecer alquiler o reventa de sus prendas no tienen cómo operarlo
+ALQ-3-2 | Prendas en alquiler que se pierden entre el local, la tintorería y el cliente
+ALQ-3-3 | Vestidos de fiesta que se usan una vez y quedan en el placard: falta un lugar seguro para alquilárselos a otra
+ALQ-3-4 | Alquilar un traje exige ir 2 o 3 veces al local a medirse, probarse y devolverlo
+ALQ-3-5 | Fuera de las grandes ciudades no hay dónde alquilar un vestido de fiesta: falta alquiler online con envío naci
+ALQ-4-1 | Ortopedias que alquilan camas y sillas: entregas, armados y retiros a domicilio coordinados por teléfono, sin 
+ALQ-4-2 | Al alta del hospital, pedir la cama, el oxígeno o la silla para la casa es una cadena de papeles, faxes y llam
+ALQ-4-3 | Turistas con movilidad reducida no consiguen silla de ruedas, scooter o concentrador de oxígeno entregado en e
+ALQ-4-4 | Oxígeno en casa: el proveedor recorre la ciudad recambiando tubos que podrían ser concentradores
+ALQ-4-5 | CPAP y equipos respiratorios alquilados: nadie sabe si el paciente los usa ni si andan bien
+ALQ-5-1 | Deslindes de responsabilidad en papel: firmas ilegibles, sin DNI verificado y planillas perdidas
+ALQ-5-2 | Alquilar kayaks y SUP exige una persona en la orilla todo el día: sin autoservicio 24/7
+ALQ-5-3 | Para ir a acampar una vez hay que comprar carpa, bolsa y mochila: no existe el alquiler de equipo de camping c
+ALQ-5-4 | Turistas de nieve hacen cola horas en el rental para probarse esquíes y botas
+ALQ-5-5 | Renteras de bicis y equipo deportivo no saben cuánto gana cada unidad ni cuándo conviene venderla usada
+MUN-1-1 | Construcciones, ampliaciones y piletas que no figuran en el catastro y no tributan
+MUN-1-2 | Valuaciones fiscales viejas: la tasa se cobra sobre valores que no reflejan el inmueble real
+MUN-1-3 | Alquileres temporarios (Airbnb, Booking) que operan sin registrarse ni pagar tasas
+MUN-1-4 | Estacionamiento medido controlado a pie: pocos controles por hora y mucha evasión
+MUN-1-5 | Actas de infracción labradas en papel que se tipean después, con errores, y prescriben sin cobrarse
+MUN-2-1 | Baches y deterioro de calles detectados tarde y por reclamo, sin mapa del estado de la red vial
+MUN-2-2 | Luminarias apagadas que el municipio se entera por reclamo días o semanas después
+MUN-2-3 | Arbolado urbano sin inventario: la poda se hace por reclamo y los árboles en riesgo caen en tormentas
+MUN-2-4 | Microbasurales y residuos tirados en la vía pública sin datos de dónde, qué y cuánto
+MUN-2-5 | Inventario de señales viales, sendas peatonales y mobiliario urbano desactualizado: nadie sabe qué está despin
+MUN-3-1 | Comercios que funcionan sin habilitación o declaran menos ventas en la tasa de seguridad e higiene
+MUN-3-2 | Revisión de planos para obras y habilitaciones que tarda meses porque se controla a mano contra el código
+MUN-3-3 | Inspecciones bromatológicas en papel y sin priorizar por riesgo: se inspecciona a quien toca, no a quien más r
+MUN-3-4 | Denuncias de ruidos molestos de bares, boliches y obras sin medición que sirva como prueba
+MUN-3-5 | Nadie controla si los comercios mantienen al día matafuegos e instalaciones contra incendio después de habilit
+MUN-4-1 | Camiones recolectores que recorren rutas fijas y vacían contenedores medio vacíos mientras otros desbordan
+MUN-4-2 | El municipio paga a la concesionaria de recolección y barrido sin prueba de que el servicio se hizo cuadra por
+MUN-4-3 | La separación en origen falla: los reciclables llegan contaminados y nadie sabe qué casas separan mal
+MUN-4-4 | El municipio certifica avance de obras públicas de contratistas sin evidencia visual ordenada
+MUN-4-5 | Balanza del relleno sanitario o planta de transferencia manejada a mano: camiones privados descargan sin pesar
+MUN-5-1 | Parcelas y nichos registrados en libros de papel: no se sabe qué está libre, quién es el titular ni quién debe
+MUN-5-2 | Libros históricos manuscritos (actas de nacimiento, defunción, inhumación) sin digitalizar: cada búsqueda es a
+MUN-5-3 | Familias que viven lejos no pueden cuidar la tumba de sus muertos y no tienen a quién encargarlo con confianza
+MUN-5-4 | Registro municipal de mascotas y perros potencialmente peligrosos en papel: no sirve para devolver animales pe
+MUN-5-5 | Para comprar o renovar un nicho/parcela hay que ir al cementerio en horario de oficina; no hay disponibilidad 
+TEL-1-1 | El WISP no sabe si un domicilio nuevo tiene cobertura hasta mandar un técnico a probar
+TEL-1-2 | A la noche la red se satura y los clientes llaman porque 'internet anda lento'
+TEL-1-3 | Cada problema del router o del wifi del cliente termina en una visita técnica
+TEL-1-4 | El ISP chico compra salida a internet (tránsito) a un solo mayorista sin poder comparar precios
+TEL-1-5 | Torres y nodos en lugares remotos se caen por corte de luz, batería agotada o robo, y el ISP se entera por los
+TEL-2-1 | Nadie sabe con exactitud por dónde pasa cada fibra, qué caja NAP tiene puertos libres ni dónde está cada empal
+TEL-2-2 | Relevar postes antes de tender fibra (altura, ocupación, estado) se hace a pie con cinta y planilla
+TEL-2-3 | Permisos y avisos para usar postes ajenos (o cobrar por los propios) se manejan por nota y teléfono
+TEL-2-4 | La cooperativa tiende fibra en un barrio sin saber cuántos vecinos se van a conectar
+TEL-2-5 | Las fallas de la red de cable o fibra se detectan por el reclamo del cliente, no por monitoreo
+TEL-3-1 | El ISP con un pico de instalaciones no consigue técnicos instaladores confiables en el momento y en otras loca
+TEL-3-2 | Las instalaciones mal hechas se descubren semanas después porque nadie revisa las fotos del técnico
+TEL-3-3 | El avance de obra de una red de fibra (metros tendidos, empalmes, cajas) se reporta en planillas y se certific
+TEL-3-4 | Obras de terceros cortan fibra enterrada porque nadie avisa antes de excavar
+TEL-3-5 | El instalador chico no puede comprar una fusionadora o un OTDR y pierde obras o subcontrata
+TEL-4-1 | Quien compra celulares usados para revender no sabe si están robados, bloqueados o con fallas ocultas
+TEL-4-2 | Las empresas que dan de baja celulares y notebooks no tienen constancia de que los datos se borraron
+TEL-4-3 | Los servicios técnicos acumulan baterías de litio hinchadas y placas sin un lugar legal donde llevarlas
+TEL-4-4 | Las aseguradoras de celulares no tienen red de talleres ni forma de detectar siniestros falsos
+TEL-4-5 | Los técnicos de electrónica no consiguen placas y repuestos de TV y equipos discontinuados, y el equipo se tir
+TEL-5-1 | Conseguir componentes electrónicos y equipos de red escasos obliga a llamar a muchos distribuidores y brokers
+TEL-5-2 | Los equipos que fallan en garantía (routers, ONU, celulares) se pierden entre cliente, revendedor e importador
+TEL-5-3 | Quien no tiene tarjeta de crédito no puede comprar un celular en cuotas, y el revendedor que financia no cobra
+TEL-5-4 | Las empresas compran notebooks y celulares para empleados y después no saben dónde están ni los recuperan cuan
+TEL-5-5 | El que quiere vender su celular viejo no tiene dónde venderlo rápido y a precio justo, y el comercio no sabe c
+MOV-1-1 | Cobro con ticket de papel y caja manual: fugas de caja y colas en la salida
+MOV-1-2 | Lugares vacíos en horas valle y noches que la playa no logra vender por adelantado
+MOV-1-3 | Playas grandes y shoppings no saben qué lugares están libres: el conductor da vueltas y la playa pierde rotaci
+MOV-1-4 | Estacionamientos 'gratis' de supermercados, clínicas y gimnasios ocupados todo el día por gente que no es clie
+MOV-1-5 | Camioneros sin lugar seguro para dormir o esperar turno de descarga, y predios con espacio ocioso que no lo co
+MOV-2-1 | Cocheras particulares vacías gran parte del día mientras los vecinos pagan playa
+MOV-2-2 | Empresas con menos cocheras que empleados las asignan a mano y las fijas quedan vacías por el home office
+MOV-2-3 | Edificios no saben cómo instalar y cobrar la luz del cargador de auto eléctrico en la cochera
+MOV-2-4 | Edificios sin lugar seguro para bicis y monopatines: se roban en la cochera o terminan en los departamentos
+MOV-2-5 | Controles remotos del portón de la cochera: se pierden, se copian y no se pueden dar de baja cuando alguien se
+MOV-3-1 | Remiserías despachan por teléfono y radio y pierden viajes contra Uber y Didi por no tener app propia
+MOV-3-2 | Autos de remís y taxi sin ingreso extra, y marcas sin un medio publicitario en la calle que se pueda medir
+MOV-3-3 | Viajes compartidos de remís y combi entre pueblos y la ciudad cabecera se arman por WhatsApp, con asientos vac
+MOV-3-4 | Viajeros reservan traslados al aeropuerto en sitios sueltos y las remiserías chicas no reciben esa demanda
+MOV-3-5 | Traslados programados de pacientes de ART y obras sociales: pedidos por mail o teléfono, comprobantes en papel
+MOV-4-1 | Las primeras clases en auto son caras y riesgosas para alumnos que arrancan de cero
+MOV-4-2 | Alumnos no pueden comparar instructores y los instructores independientes no tienen cómo conseguir alumnos
+MOV-4-3 | Alumnos practican con un familiar entre clases sin guía ni medición, y llegan al examen sin saber si están lis
+MOV-4-4 | Conductores que pierden puntos o deben un curso de reeducación vial tienen que hacerlo presencial y en horario
+MOV-4-5 | Nadie evalúa de forma objetiva si un conductor mayor o con una condición médica puede seguir manejando
+MOV-5-1 | Bicis robadas que no se recuperan y se revenden fácil porque no tienen registro ni marca
+MOV-5-2 | Ciclistas ajustan la bici a ojo y terminan con dolores; las bicicleterías no tienen un fitter
+MOV-5-3 | Comprar una bici y mantenerla frena a quien quiere ir a trabajar en bici; la bicicletería vende una sola vez
+MOV-5-4 | Repartidores sin moto propia alquilan en informal y pierden días de trabajo cada vez que se rompe
+MOV-5-5 | Bicicleterías venden bicis caras de contado o en cuotas con tarjeta; no tienen canal de venta a empleados de e
+MUD-1-1 | Cotizar una mudanza obliga a mandar a alguien a la casa a ver qué hay
+MUD-1-2 | Mudadoras coordinan presupuestos, camiones, cuadrillas y cobros en cuaderno y WhatsApp
+MUD-1-3 | Reclamos por roturas en la mudanza sin prueba del estado previo de cada mueble
+MUD-1-4 | Conseguir solo mano de obra confiable para cargar y descargar (sin camión)
+MUD-1-5 | Cajas de cartón compradas para una sola mudanza que se rompen y se tiran
+MUD-2-1 | Al mudarse o achicarse, la empresa no sabe qué activos tiene (muebles, equipos) ni dónde están
+MUD-2-2 | Muebles de oficina que sobran al mudarse o achicarse terminan en la basura o regalados
+MUD-2-3 | Equipar una oficina nueva obliga a comprar muebles de golpe aunque no se sepa cuánto se va a quedar
+MUD-2-4 | Computadoras viejas que quedan al mudarse: riesgo de datos y nadie certifica su destino
+MUD-2-5 | Empresas que trasladan empleados a otra ciudad o país coordinan la mudanza, vivienda y papeles a mano
+MUD-3-1 | Bauleras que se alquilan por teléfono, se cobran a mano y necesitan una persona en el mostrador
+MUD-3-2 | Control de acceso a bauleras con llaves y candados: no se sabe quién entró ni se puede bloquear al moroso
+MUD-3-3 | Precios de bauleras fijados a ojo, sin ajustar por ocupación ni por inflación
+MUD-3-4 | Particulares con cocheras, sótanos o cuartos vacíos no pueden alquilarlos para guardar cosas
+MUD-3-5 | Bauleras abandonadas o impagas ocupan espacio y nadie sabe cómo vaciarlas y recuperar la deuda
+MUD-4-1 | Encontrar una caja o carpeta puntual en un archivo físico de miles de cajas
+MUD-4-2 | Nadie sabe qué cajas ya se pueden destruir: se paga guarda de papeles vencidos durante años
+MUD-4-3 | PyMEs y profesionales no saben a quién darle papeles confidenciales para destruir con certificado
+MUD-4-4 | Correspondencia en papel que llega a una oficina vacía o a un domicilio fiscal donde nadie la ve
+MUD-4-5 | Pedir un documento archivado tarda días porque hay que buscar la caja y mandarla físicamente
+MUD-5-1 | Casas de muebles usados y revendedores publican cada pieza a mano en varios portales
+MUD-5-2 | Compraste un mueble usado por Marketplace y no tenés cómo llevarlo
+MUD-5-3 | Muebleras y marcas no pueden ofrecer 'te tomo tu mueble viejo' al vender uno nuevo
+MUD-5-4 | Miedo a estafas al comprar muebles usados caros: pagás y llega otra cosa o no llega
+MUD-5-5 | Muebles devueltos, de exhibición o con fallas chicas que las muebleras y e-commerce malvenden
+ESP-1-1 | La óptica vende armazones por Instagram/web pero el cliente no puede probárselos sin ir al local
+ESP-1-2 | Pedidos de cristales al laboratorio transcribiendo la receta a mano y sin saber en qué estado está el trabajo
+ESP-1-3 | Medidas de montaje (distancia pupilar, altura) tomadas con regla: errores en multifocales
+ESP-1-4 | Empresas industriales no tienen cómo darles anteojos de seguridad recetados a sus operarios
+ESP-1-5 | El cliente con receta vencida no compra lentes porque conseguir turno con el oftalmólogo tarda semanas
+ESP-2-1 | Contar a mano cada mañana y cada noche cientos de piezas chicas y caras de las bandejas
+ESP-2-2 | Comprar oro usado sin poder medir bien el quilataje: se paga de más o se pierde la compra
+ESP-2-3 | Reparaciones de joyas y relojes de clientes anotadas en sobres de papel: piezas perdidas y reclamos
+ESP-2-4 | Joyas caras que salen del local sin seguro ni tasación formal
+ESP-2-5 | Comprar o vender un reloj caro usado entre particulares sin saber si es original ni si te van a pagar
+ESP-3-1 | En febrero-marzo cada familia trae la lista de útiles en papel o foto y la librería la presupuesta ítem por ít
+ESP-3-2 | La librería independiente compra novedades a ciegas: no sabe qué se vende en otras librerías parecidas
+ESP-3-3 | Las librerías de barrio no pueden vender online contra las grandes cadenas y Mercado Libre
+ESP-3-4 | Las impresiones llegan por WhatsApp y mail, alguien las abre una por una, imprime y cobra
+ESP-3-5 | Librerías de usados compran lotes de libros sin saber cuánto vale cada uno
+ESP-4-1 | El cliente pide 'el juguete que vio en TikTok' con una captura y nadie sabe qué es ni si lo tienen
+ESP-4-2 | El importador chico de juguetes y bazar no sabe el costo real de cada artículo puesto en el depósito
+ESP-4-3 | La mercadería importada llega fallada o sin cumplir normas y ya está pagada
+ESP-4-4 | Los juguetes de primera infancia son caros y se usan pocos meses
+ESP-4-5 | Regalos repetidos o que no sirven en nacimientos, cumpleaños y casamientos, y la juguetería/bazar no captura e
+ESP-5-1 | Gestionar garantías de fábrica a mano: el cliente vuelve con el equipo fallado y el comercio persigue al fabri
+ESP-5-2 | El celular usado que entra en parte de pago se revisa a ojo: batería, pantalla, bloqueo e IMEI
+ESP-5-3 | El comercio chico no puede ofrecer garantía extendida ni seguro de pantalla, y pierde ese margen frente a las 
+ESP-5-4 | El comercio vende aires acondicionados y televisores pero no tiene instaladores confiables para ofrecer la ins
+ESP-5-5 | Celulares de exhibición robados o encerrados en vitrina: o se pierde el equipo o el cliente no lo puede tocar
+HOG-1-1 | El piletero o la tienda de insumos calcula a ojo cuánto cloro y qué químicos poner
+HOG-1-2 | Entre visita y visita nadie sabe cómo está el agua: la pileta se pone verde y el cliente reclama
+HOG-1-3 | El piletero que quiere crecer o retirarse no tiene dónde comprar o vender su cartera de clientes
+HOG-1-4 | Dueños de casas con pileta pagan mantenimiento todo el año y la usan pocos días; la gente sin pileta no tiene 
+HOG-1-5 | Natatorios de clubes, hoteles y gimnasios controlan cloro y pH a mano y llevan el libro sanitario en papel
+HOG-2-1 | El paisajista llama a varios viveros para saber quién tiene cada planta, en qué tamaño y a qué precio
+HOG-2-2 | El cliente no se imagina el jardín terminado y el paisajista pierde horas dibujando propuestas que no se vende
+HOG-2-3 | Para presupuestar el mantenimiento de un parque o un country hay que ir a medir césped, canteros y cercos
+HOG-2-4 | El paisajista que mantiene muchos jardines no se entera cuando el riego falla o riega de más
+HOG-2-5 | Clientes del vivero llegan con fotos de plantas enfermas y el vendedor no sabe qué recomendar
+HOG-3-1 | Las familias que tienen empleada no saben cuánto pagarle ni cómo hacer recibo, aportes, aguinaldo y vacaciones
+HOG-3-2 | Las empresas de limpieza de oficinas y consorcios no pueden probarle al cliente que limpiaron bien, y lo pierd
+HOG-3-3 | Cotizar un contrato de limpieza de oficinas se hace a ojo: se pierde plata o se pierde la licitación
+HOG-3-4 | Los insumos de limpieza repartidos en decenas de edificios clientes se pierden, se usan de más o faltan
+HOG-3-5 | Cuando falta una persona de limpieza, la empresa no tiene reemplazo y el cliente queda sin servicio
+HOG-4-1 | El técnico revisa uno por uno cientos de cebaderos vacíos en depósitos y fábricas, y igual se le escapa la act
+HOG-4-2 | La fumigadora arma a mano certificados, planillas de productos aplicados e informes para la auditoría del clie
+HOG-4-3 | Detectar termitas dentro de paredes y pisos obliga a romper o a adivinar
+HOG-4-4 | El cliente manda la foto de un bicho y la fumigadora no sabe qué es ni qué tratamiento cotizar
+HOG-4-5 | Countries, hoteles y municipios fumigan contra mosquitos a ciegas, sin medir dónde y cuántos hay
+HOG-5-1 | La gente no tiene tiempo de llevar y buscar la ropa al lavadero, y el lavadero de barrio no tiene logística de
+HOG-5-2 | En la tintorería se pierden o se cambian prendas de clientes, y se paga el reclamo
+HOG-5-3 | Hoteles, clínicas y lavaderos industriales pierden ropa blanca y uniformes entre el lavadero y el cliente sin 
+HOG-5-4 | Los lavaderos de autoservicio dependen de fichas y monedas y el dueño no ve qué máquina anda y cuánto factura
+HOG-5-5 | La tintorería solo atiende en horario de comercio y el cliente que trabaja no llega a dejar ni retirar
+FUN-1-1 | Cada servicio fúnebre se arma con papeles, llamadas y planillas sueltas
+FUN-1-2 | Las familias contratan un sepelio sin poder comparar precios ni calidad
+FUN-1-3 | Confusión de cuerpos o pertenencias entre traslado, cámara, sala y crematorio
+FUN-1-4 | La familia tiene que ir en persona a elegir y firmar el servicio a cualquier hora
+FUN-1-5 | La funeraria tarda semanas en cobrar lo que pagan seguros, obras sociales o ANSES
+FUN-2-1 | Plano de parcelas y disponibilidad en papel o AutoCAD desactualizado
+FUN-2-2 | Libros y fichas de inhumaciones manuscritos sin digitalizar
+FUN-2-3 | Revender una parcela sin usar es lento, opaco y con riesgo de estafa
+FUN-2-4 | Inhumaciones, excavaciones y mantenimiento del parque coordinados por radio y papel
+FUN-2-5 | Los visitantes no encuentran la sepultura y llaman o van a la oficina
+FUN-3-1 | Las funerarias venden pocos planes prepagos por falta de proceso comercial
+FUN-3-2 | Los reclamos de sepelio se procesan a mano: documentación incompleta y llamadas
+FUN-3-3 | El plan queda atado a una funeraria o mutual: si te mudás o cierra, se pierde
+FUN-3-4 | Con seguros de reintegro la familia adelanta el sepelio y espera semanas
+FUN-3-5 | Cuotas de planes de sepelio fijadas a ojo, sin datos de mortalidad ni de bajas
+FUN-4-1 | Crematorios de mascotas coordinan retiros en veterinarias por teléfono y sin seguimiento
+FUN-4-2 | Hornos crematorios parados por falla de refractario y repuestos importados
+FUN-4-3 | Quien quiere solo cremar paga un sepelio completo por falta de opción directa y barata
+FUN-4-4 | Las familias no saben qué hacer con las cenizas y el crematorio no ofrece alternativas
+FUN-4-5 | No hay alternativas ecológicas a la cremación con gas ni al entierro
+FUN-5-1 | Dar de baja al fallecido en bancos, billeteras, telefonía, servicios y ARCA es empresa por empresa
+FUN-5-2 | La familia no sabe qué trámites hacer ni en qué orden y pierde plazos y beneficios
+FUN-5-3 | Armar la sucesión: juntar partidas, inventario de bienes y escritos lleva meses de papeles
+FUN-5-4 | Los herederos no saben qué cuentas, seguros o plata a favor tenía el fallecido
+FUN-5-5 | Nadie sabe las claves, cuentas digitales ni la voluntad del fallecido
+CUL-1-1 | Equipos técnicos de la sala (luces, sonido, cables, utilería) sin inventario: se pierden, se prestan y nadie s
+CUL-1-2 | Liquidar el borderó de cada función (sala, compañía, Argentores, SADAIC, impuestos) a mano en Excel
+CUL-1-3 | Turistas que no hablan español y público sordo no van al teatro porque no entienden la obra
+CUL-1-4 | Personal por función (técnicos, acomodadores, boleteros) convocado por WhatsApp, con horas y pagos en planilla
+CUL-1-5 | Salas vacías de lunes a miércoles y de día, sin forma simple de alquilarlas por hora (ensayos, castings, filma
+CUL-2-1 | Colecciones catalogadas en fichas de papel o Excel: no se sabe bien qué hay, dónde está ni en qué estado
+CUL-2-2 | Salas y depósitos sin monitoreo continuo de temperatura y humedad: las obras se dañan y nadie se entera a tiem
+CUL-2-3 | Los visitantes se cuentan a mano en la puerta: no hay datos de cuántos entran a cada sala ni a qué hora
+CUL-2-4 | Museos chicos sin guías ni audioguías: el visitante (sobre todo el turista) recorre sin entender lo que ve
+CUL-2-5 | Préstamos y traslados de obras: el informe de estado se hace en papel y el transporte especializado se cotiza 
+CUL-3-1 | Músicos independientes que no cobran los derechos de autor de sus canciones, sobre todo los que se generan en 
+CUL-3-2 | Conseguir fechas: las bandas mandan cientos de mails a salas y bares, y las salas reciben propuestas desordena
+CUL-3-3 | Bandas que viajan sin equipos y músicos con equipos parados: no hay forma confiable de alquilar backline entre
+CUL-3-4 | Merch en giras y recitales: stock por talle sin control, conteo a mano antes y después del show y cuentas pele
+CUL-3-5 | Logística de gira (hojas de ruta, traslados, hoteles, horarios de prueba de sonido) armada en grupos de WhatsA
+CUL-4-1 | Vestuario de la muestra de fin de año: medir, pedir por talle, cobrar y entregar cientos de trajes a mano
+CUL-4-2 | Talleres de cerámica, pintura y danza con cupos vacíos, sin canal para venderle clases sueltas a turistas, emp
+CUL-4-3 | Alumnos de música que no practican entre clases, y el profe no sabe qué practicaron ni cómo
+CUL-4-4 | Competencias de danza con inscripción, cronograma y puntajes de jurados en papel: resultados lentos y reclamos
+CUL-4-5 | Hornos de cerámica controlados a ojo: quemas fallidas, piezas de alumnos arruinadas y nadie avisa si el horno 
+CUL-5-1 | Cines independientes con salas vacías entre semana: no pueden arriesgar a programar películas de nicho sin sab
+CUL-5-2 | Centros culturales y festivales reciben cientos de propuestas de artistas y talleristas por mail y las evalúan
+CUL-5-3 | La pantalla de los cines chicos no vende publicidad, y los comercios del barrio no tienen cómo anunciar ahí
+CUL-5-4 | Centros culturales que no pueden demostrar su impacto a sponsors, Mecenazgo y el Estado: encuestas e informes 
+CUL-5-5 | Las películas llegan en discos físicos (DCP) con claves que vencen: fletes, discos perdidos y funciones cancel
+ONG-1-1 | Stock sobrante no alimentario de empresas (devoluciones, fin de temporada, embalaje fallado) se destruye o se 
+ONG-1-2 | Cenas y subastas benéficas manejadas en papel: pujas en planillas, cobros perdidos y poca recaudación
+ONG-1-3 | Empresas con programas de RSE no encuentran actividades de voluntariado ni pueden medirlas; las ONGs no saben 
+ONG-1-4 | Medir y reportar el impacto a cada financiador (empresa, fundación, cooperación) en su propio formato consume 
+ONG-1-5 | Casi nadie deja una parte de su herencia a una ONG porque no sabe que se puede y hacer el testamento es caro y
+ONG-2-1 | Retiro de chicos del ministerio infantil sin control: cualquiera puede llevarse a un nene y no hay registro de
+ONG-2-2 | La ofrenda y la colecta en efectivo caen porque la gente ya no lleva billetes, y contar el efectivo es un ries
+ONG-2-3 | Cementerios y columbarios (parroquiales, privados y municipales) con registros en libros de papel: no saben qu
+ONG-2-4 | Iglesias con varias sedes o fondos con destino (misiones, obra, ayuda social) no pueden rendir cuánto entró y 
+ONG-2-5 | Templos y salones parroquiales vacíos casi toda la semana, mientras cuestan mantenimiento
+ONG-3-1 | Cooperativas de recuperadores no pueden demostrar cuánto plástico recolectaron y por eso no cobran el 'crédito
+ONG-3-2 | En las plantas de clasificación de reciclables nadie sabe qué pasa por la cinta: material valioso se va al rec
+ONG-3-3 | Cooperativas que limpian o mantienen espacios para municipios y empresas no pueden probar que hicieron el trab
+ONG-3-4 | Cooperativas de repartidores, cadetes o limpieza a domicilio no tienen su propia plataforma y dependen de apps
+ONG-3-5 | Empresas grandes con metas de compras sociales no encuentran ni pueden verificar proveedores cooperativos, y l
+ONG-4-1 | Las mutuales arman a mano sus convenios con comercios adheridos y no saben si los asociados los usan
+ONG-4-2 | Órdenes de compra de la mutual en comercios, descontadas del recibo de sueldo, manejadas con talonarios de pap
+ONG-4-3 | Pedidos de subsidios y reintegros (nacimiento, casamiento, sepelio, óptica, medicamentos) revisados papel por 
+ONG-4-4 | Mutuales y cooperativas de crédito aprueban 'ayudas económicas' a ojo: rechazan buenos asociados y prestan a q
+ONG-4-5 | Mutuales, cooperativas y ONGs compran cada una por su lado (proveeduría, farmacia, limpieza, alimentos) y paga
+ONG-5-1 | Supermercados y fabricantes tiran alimentos aptos porque donar en volumen (con trazabilidad y comprobantes) es
+ONG-5-2 | Donaciones chicas y perecederas (un restaurante, una verdulería) se pierden porque nadie las puede ir a buscar
+ONG-5-3 | Bancos de alimentos reparten a cientos de organizaciones con stock por vencer y sin que las organizaciones vea
+ONG-5-4 | Comedores y merenderos no pueden demostrar a quién y cuántas raciones dieron, y por eso pierden la asistencia 
+ONG-5-5 | Comedores arman el menú con lo que llega, sin saber si cubre lo que necesitan los chicos ni cuánto cuesta cada
+FAM-1-1 | Los padres desconfían de lo que pasa en la sala y el jardín no tiene cómo mostrarlo
+FAM-1-2 | Faltan vacantes de 0 a 3 años y quien quiere abrir un microjardín en su casa no sabe cómo habilitarlo ni llena
+FAM-1-3 | Empresas de 100+ empleados obligadas a dar guardería o reintegro, que lo gestionan a mano
+FAM-1-4 | Nadie sabe en tiempo real cuántos chicos hay por sala y si se respeta la relación chicos/maestra
+FAM-1-5 | Cuando falta una maestra, el jardín no consigue suplente y queda fuera de norma o cierra la sala
+FAM-2-1 | Conseguir una niñera confiable por horas, para hoy o mañana
+FAM-2-2 | La familia que tiene niñera no sabe cómo registrarla ni cómo calcular sueldo, aguinaldo, vacaciones y aumentos
+FAM-2-3 | Congresos, eventos, bodas y hoteles no pueden ofrecer cuidado infantil confiable en el lugar
+FAM-2-4 | Cuando el chico se enferma o el jardín cierra, el padre o la madre falta al trabajo
+FAM-2-5 | Contratar una niñera fija (cama adentro o jornada completa) es una búsqueda larga y riesgosa sin filtro profes
+FAM-3-1 | Un chico se ahoga en la pileta de la colonia y el guardavidas no lo ve a tiempo
+FAM-3-2 | Los padres quieren ver a su hijo en la colonia y nadie tiene tiempo de buscar y mandar las fotos de cada chico
+FAM-3-3 | Los padres no tienen dónde comparar y reservar colonias y actividades de verano; las colonias chicas no se lle
+FAM-3-4 | Fichas médicas, medicación y accidentes de cada chico se manejan en papel durante la colonia
+FAM-3-5 | Cada verano la colonia tiene que contratar y formar de cero a decenas de profes, guardavidas y ayudantes
+FAM-4-1 | Un chico se queda dormido en la combi al final del recorrido y nadie se da cuenta
+FAM-4-2 | Padres y colegios no tienen cómo saber si el chofer de la combi maneja mal o usa el celular, ni qué pasó adent
+FAM-4-3 | Familias que no consiguen transporte para su hijo y transportistas con asientos vacíos que no se encuentran
+FAM-4-4 | Combis y micros escolares parados en horas libres y en vacaciones, mientras colonias y colegios no consiguen m
+FAM-4-5 | Chicos con discapacidad necesitan transporte especial con el mismo chofer y acompañante, y conseguirlo es difí
+FAM-5-1 | Familias que viajan o reciben visitas con bebés tienen que cargar cuna, butaca y cochecito, o comprarlos para 
+FAM-5-2 | Los juguetes de bebé se usan pocos meses y después se acumulan; la familia gasta y tira
+FAM-5-3 | Equipos caros que se usan pocos meses (cuna inteligente, sacaleches hospitalario) son imposibles de comprar pa
+FAM-5-4 | Los pañales son el gasto fijo más grande del bebé y la familia compra a precio de góndola y se queda sin stock
+FAM-5-5 | Los regalos del baby shower llegan repetidos o no sirven, porque no hay una lista única con todas las tiendas

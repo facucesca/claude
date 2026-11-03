@@ -1,0 +1,222 @@
+[
+ {
+  "n": "M001",
+  "opinion": "Entendí que proponés una bandeja única: la IA lee los pedidos de flete que llegan por WhatsApp y mail y los deja ordenados en un solo lugar. Eso es más chico y más concreto que la idea original, y está bien que lo sea. Yo no la veo floja: es el problema más parecido a lo que ya viste en CEMEVA. Lo complicado no es la IA. Lo complicado es conectar WhatsApp de forma oficial y que el transportista cambie su costumbre. La señal de que no te entusiasma importa, porque sin ganas no se vende puerta a puerta.",
+  "hallazgos": "Una nota de 2026 dice que una encuesta a más de 300 empresas argentinas de transporte encontró que la mayoría no usa IA y coordina viajes con planillas y WhatsApp. El título habla de 56%. No abrí la nota [https://ecosistemastartup.com/transporte-argentino-56-opera-con-cero-ia-y-pierde-margen/]. En Uruguay nació Flexy en 2026 para reemplazar la contratación de fletes por WhatsApp con una plataforma de presupuestos [https://www.elobservador.com.uy/nacio-dejar-atras-los-fletes-whatsapp-ofrece-mas-tres-presupuestos-tan-solo-cinco-minutos-y-busca-digitalizar-el-mercado-n6054856]. En granos, cuatro apps concentran la mayor parte de los fletes en línea [https://bichosdecampo.com/cuatro-aplicaciones-digitales-compiten-para-captar-la-mayor-parte-de-la-gestion-de-fletes-de-granos/]. No encontré en Argentina una herramienta que lea pedidos de WhatsApp y mail con IA para el transportista. Consulta del 2026-10-23.",
+  "variantes": [
+   "La de Facu: bandeja única para la empresa de transporte. La IA lee WhatsApp y mail, arma la ficha del pedido y la cotización sugerida, y el operador solo aprueba.",
+   "Del lado del que manda la carga: la acopiadora o la PyME manda sus pedidos a un solo número y el sistema los reparte a sus fleteros de confianza. Se prueba con CEMEVA.",
+   "Modo un solo jugador: un asistente que solo arma la cotización desde el audio o el texto del cliente, sin reemplazar ningún sistema. Se cobra por mes y no exige cambiar de costumbre."
+  ],
+  "puntuacion": 7.6,
+  "por_que_puntuacion": "Es producto global, tiene hueco en Argentina y te calza por CEMEVA. Baja de 8,6 porque vos no la sentís y porque cambiar la costumbre del WhatsApp es difícil.",
+  "tema": "Logística y reparto",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 100 (estimación: solo entrevistas y una prueba manual con Claude)",
+  "primer_paso": "Pedirle a 3 transportistas que te reenvíen un día de pedidos y mostrarles al otro día la planilla que armó Claude con todo ordenado.",
+  "riesgo_principal": "Que el transportista lo vea lindo pero siga contestando todo a mano porque ya está acostumbrado.",
+  "agrupar_con": ["M040", "M002"]
+ },
+ {
+  "n": "M002",
+  "opinion": "Tu comentario agranda la idea. Ya no es solo para proveedores de petroleras. Es un intermediario para cualquier PyME que vende a muchas empresas grandes y tiene que cargar papeles en un portal distinto para cada una. Me parece de las mejores del lote porque el dolor es repetido, aburrido y cuesta plata cobrar tarde. El problema es técnico y legal: cada portal cambia, y guardar las claves de tus clientes es delicado. Para empezar sin programar, la versión realista es un servicio con método y después se productiza.",
+  "hallazgos": "No encontré nada argentino que haga la carga del lado del proveedor. Lo que existe es del lado del comprador. Trenes Argentinos Infraestructura tiene su propio portal para que el proveedor vea facturas y retenciones [https://www.argentina.gob.ar/node/82711]. Sovos ofrece portales de proveedores para empresas compradoras en la región [https://sovos.com/es/blog/iva/portal-proveedores-plataforma-sovos-para-agilizar-pago-facturas-reducir-costos-administrativos/]. EDICOM ofrece lo mismo para recibir facturas [https://edicomgroup.com/es/recursos/webinars/recepcion-facturas-proveedores]. Que cada comprador tenga su portal confirma el fastidio que señalás. No encontré cómo funciona el portal de YPF: no verificado. Consulta del 2026-10-23.",
+  "variantes": [
+   "La de Facu: un intermediario multiportal. Conoce las reglas de cada portal, avisa qué falta y carga o guía la carga de facturas, órdenes y certificados.",
+   "Un rubro solo: proveedores de supermercados o de minería, con un manual vivo de cada portal y alertas de facturas trabadas. Se cobra por portal por mes.",
+   "Sin tocar claves: un asistente que revisa el paquete de papeles antes de subirlo y dice si el portal lo va a rechazar. Menos riesgo y más fácil de vender."
+  ],
+  "puntuacion": 7.9,
+  "por_que_puntuacion": "Dolor repetido, cobro claro por cobrar antes y hueco real en Argentina. No llega a 8 porque cada portal es distinto y la versión producto exige programar o un socio técnico.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 100 (estimación: entrevistas y un manual armado con Claude)",
+  "primer_paso": "Hablar con 5 administrativos de PyMEs proveedoras y anotar en qué portales cargan, cuántas horas por mes y cuántas facturas les rechazan.",
+  "riesgo_principal": "Que los portales prohíban que un tercero cargue por el proveedor o que un error de carga te haga responsable de un cobro trabado.",
+  "agrupar_con": ["M001"]
+ },
+ {
+  "n": "M006",
+  "opinion": "Tu comentario junta dos cosas: dónde quedan los paquetes y cómo entran y salen las motos de reparto del barrio. Es una idea mejor que solo el locker, porque el problema de la guardia es el flujo entero. Igual ojo: el locker es hardware caro, y las apps de ingreso a barrios ya existen. El hueco está en el medio: registrar cada paquete y cada repartidor con foto y avisar al vecino, sin comprar casilleros al principio.",
+  "hallazgos": "No encontré lockers en barrios cerrados argentinos. Boxeway sigue figurando como la empresa local de lockers de última milla [https://mercado.com.ar/protagonistas/boxeway-presenta-su-solucion-de-e-locking-para-pick-up-drop-off]. En Paraguay el correo privado AEX lanzó lockers inteligentes [https://infonegocios.com.py/nota-principal/la-revolucion-de-los-e-lockers-casilleros-inteligentes-llego-a-paraguay-de-la-mano-de-aex]. No encontré datos de costo de instalación ni de aprobación por consorcio: no verificado. Consulta del 2026-10-23.",
+  "variantes": [
+   "La de Facu: la guardia saca foto al paquete y al repartidor, el sistema avisa al vecino por WhatsApp y registra la entrada y salida de cada moto.",
+   "Sin hardware: un depósito de paquetes en la guardia con estantes numerados y etiqueta QR. Se cobra un abono por lote al barrio.",
+   "Otro cliente: el edificio grande de ciudad, donde el encargado sufre lo mismo y no hay app de ingreso instalada."
+  ],
+  "puntuacion": 6.6,
+  "por_que_puntuacion": "El dolor existe y la variante sin hardware es barata. Baja porque compite con apps de ingreso ya instaladas y la venta a barrios es lenta.",
+  "tema": "Hogar, obra y barrio",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 150 (estimación: etiquetas, un celular de la guardia y un bot simple)",
+  "primer_paso": "Ir a la guardia de 2 barrios y contar durante una semana cuántos paquetes y cuántas motos entran por día y cuántos paquetes quedan sin retirar.",
+  "riesgo_principal": "Que el barrio ya pague una app de ingreso y esa app agregue el registro de paquetes antes que vos.",
+  "agrupar_con": ["M083"]
+ },
+ {
+  "n": "M016",
+  "opinion": "Tu comentario dice algo clave: si conseguir estos alquileres cuesta, la plataforma sirve. Por lo que busqué, conseguir hay. Lo que falta es precio cerrado y pedido online. Es un marketplace local de baja tecnología que se puede probar con una página y WhatsApp. No es producto global: es ciudad por ciudad, y el margen depende de que los volqueteros acepten comisión.",
+  "hallazgos": "No encontré una plataforma argentina que publique precio de volquetes o baños químicos y deje pedir online. Las empresas figuran en guías con teléfono y sin precio, por ejemplo Volquetes Esequiel en zona sur [https://www.paginasamarillas.com.ar/fichas/volquetes-esequiel_17079389]. No encontré precios actuales ni comisiones del rubro: no verificado. Consulta del 2026-10-23.",
+  "variantes": [
+   "La de Facu: un buscador con precio cerrado por zona y tamaño, con pedido y pago online. El volquetero paga comisión.",
+   "Para obras: un paquete de alquileres de obra en un solo pedido, volquete más baño químico más andamio, con precio por semana.",
+   "Datos primero: una página que publica el precio de referencia por barrio, armado llamando a los proveedores. Atrae tráfico y después se vende el pedido."
+  ],
+  "puntuacion": 6.4,
+  "por_que_puntuacion": "El hueco parece real y se prueba muy barato. Pero es local, de margen chico, y depende de proveedores poco digitalizados.",
+  "tema": "Hogar, obra y barrio",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 30 a 100 (estimación: dominio, página simple y anuncios chicos)",
+  "primer_paso": "Llamar a 10 volqueteros de una zona, armar una tabla de precios y publicar una página con pedido por WhatsApp para medir cuántos piden en dos semanas.",
+  "riesgo_principal": "Que los volqueteros no respeten el precio publicado o salteen la plataforma después del primer pedido.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M040",
+  "opinion": "No dejaste comentario, así que evalúo la versión ya acordada: un broker por WhatsApp en un solo corredor frutihortícola, centrado en el viaje de vuelta vacío. El Uber nacional sigue sin tener sentido porque ya hay bolsas de cargas y la versión grande fracasó afuera. Como experimento para aprender el rubro, sí sirve. No encontré a nadie haciendo lo de la vuelta vacía para frutas y verduras.",
+  "hallazgos": "No encontré una app argentina que conecte camiones de vuelta vacía con cargas frutihortícolas. En granos compiten varias apps por acuerdos con grandes dadores de carga, por ejemplo MuvinApp con Profertil [https://bichosdecampo.com/sigue-la-batalla-silenciosa-de-las-aplicaciones-digitales-de-logistica-para-cerrar-acuerdos-con-dadores-de-carga]. Consulta del 2026-10-23.",
+  "variantes": [
+   "La acordada: broker manual por WhatsApp en un corredor, por ejemplo Mendoza o Corrientes hacia el Mercado Central, con viajes de vuelta.",
+   "Sin intermediar plata: un grupo de cargas de vuelta curado por vos, con suscripción mensual para el camionero.",
+   "Combinada con M001: la bandeja única con IA para el fletero chico frutihortícola."
+  ],
+  "puntuacion": 6.4,
+  "por_que_puntuacion": "Te gusta y conocés el rubro, pero hay bolsas de cargas instaladas y el margen del broker sin capital está sin verificar.",
+  "tema": "Logística y reparto",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 200 (estimación: viajes para entrevistar y teléfono)",
+  "primer_paso": "Ir una madrugada al Mercado Central y preguntar a 10 camioneros cómo consiguen la carga de vuelta y cuánto vuelven vacíos.",
+  "riesgo_principal": "Que el margen por viaje no alcance y que el camionero arregle directo con el dador de carga.",
+  "agrupar_con": ["M001"]
+ },
+ {
+  "n": "M052",
+  "opinion": "Te la explico simple. Es como un puntaje de 0 a 100 que dice qué tan buena es una cuadra para vivir. Mide inseguridad, si se inunda, ruido, colectivos y si el alquiler está caro para la zona. La gente la usa gratis antes de mudarse y pagan las inmobiliarias que quieren mostrar el sello en sus avisos. Mi opinión: el hueco es real, pero es un negocio de tráfico y datos, lento para dar plata, y Zonaprop lo puede copiar.",
+  "hallazgos": "Sigo sin encontrar un puntaje por dirección en Argentina. Los rankings de barrios basados en datos oficiales aclaran que no reflejan cada cuadra [https://www.cronista.com/informacion-gral/tierra-de-nadie-el-ranking-de-los-barrios-mas-inseguros-de-caba/]. Los diarios publican alquiler promedio por barrio de CABA [https://eleconomista.com.ar/economia/alquileres-caba-2026-cuanto-cuesta-alquilar-cada-barrio-cuales-son-mas-baratos-mas-caros-n94884]. Apareció un blog de roomix.ai sobre dónde alquilar en Buenos Aires. No sé qué hace esa empresa: no verificado [https://roomix.ai/blog/alquilar-cerca-la-bombonera]. Consulta del 2026-10-23.",
+  "variantes": [
+   "La original: páginas por cuadra en 3 barrios de CABA, gratis, para medir si la gente las busca.",
+   "Otro cliente: el informe de cuadra que paga el inquilino antes de firmar, a USD 5 por dirección.",
+   "Otro país del mismo idioma: la misma idea en una ciudad con mejores datos abiertos."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "Hueco real y barato de probar, pero no toca tus ventajas y la plata llega recién con mucho tráfico.",
+  "tema": "Otro",
+  "tipo": "Datos o información",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 50 (estimación: dominio y hosting gratis)",
+  "primer_paso": "Armar con Claude 50 páginas de cuadras de un barrio con datos abiertos y ver en dos semanas si Google les manda visitas.",
+  "riesgo_principal": "Que un portal grande lo agregue gratis o que los datos de una cuadra den mal y genere quejas.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M059",
+  "opinion": "La marcaste como interesante, sin cambiarla. La idea es ponerse del lado del asegurado para que cobre bien su siniestro. En Argentina esa figura ya existe con matrícula, así que lo nuevo sería la herramienta con IA para siniestros chicos. Me gusta el cobro por resultado. Me preocupa que sea un trabajo caso por caso, que la ley pida matrícula para ciertas tareas y que discutir con aseguradoras lleve meses.",
+  "hallazgos": "Existe en Argentina la app Choque Solución para reclamar siniestros de tránsito, para productores y asegurados [https://infonegocios.info/default/te-chocaron-y-no-fue-tu-culpa-choque-solucion-la-primera-app-para-reclamar-siniestros-para-productores-y-asegurados]. La insurtech chilena LISA, que automatiza siniestros con IA, anticipó una apuesta en Argentina. No pude confirmar si trabaja del lado del asegurado o de la aseguradora [https://www.df.cl/df-lab/innovacion-y-startups/chilena-lisa-insurtech-llega-a-mexico-con-su-solucion-para-automatizar-la]. En España, ReclamoSeguro valora reclamos con IA [https://www.legaltoday.com/?p=157037]. Consulta del 2026-10-23. Ojo: el registro tiene SER-2-5, reclamos por accidentes leyendo historias clínicas, que no elegiste.",
+  "variantes": [
+   "La original: siniestros chicos de hogar y comercio, cobro por porcentaje de lo recuperado, con un liquidador matriculado como socio.",
+   "Para productores de seguros: la herramienta arma el expediente y el productor la usa para atender mejor a sus clientes. Se cobra por mes.",
+   "Agro: siniestros de granizo y de galpones, donde podés usar el contacto con productores de CEMEVA."
+  ],
+  "puntuacion": 5.7,
+  "por_que_puntuacion": "Cobro por resultado atractivo, pero con regulación, casos uno por uno y competencia que ya apareció.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Servicio con personas",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 100 (estimación: consulta con un liquidador y una página)",
+  "primer_paso": "Hablar con un liquidador matriculado y con 3 productores de seguros para saber qué parte del reclamo se podría hacer con IA sin matrícula.",
+  "riesgo_principal": "Que la ley exija matrícula y que el cobro tarde tanto que no haya caja.",
+  "agrupar_con": ["M091"]
+ },
+ {
+  "n": "M083",
+  "opinion": "Entendí que te tienta traer un invento de afuera, como Gatewise o ButterflyMX, para abrir el portón con el celular y dar de baja a quien se muda. La idea de importar está buena. El problema es que es instalación física en motores de distintas marcas, edificio por edificio, y eso es casi trabajo a medida. Ya hay porteros con celular y apps de acceso en Argentina, aunque ninguna que vi gestione los controles de cochera del consorcio.",
+  "hallazgos": "En Córdoba, Griguol instaló un portero sin cables con celular en más de 30 consorcios [https://www.perfil.com/noticias/cordoba/porteros-electricos-sin-cables-y-con-camara-ahora-tocas-el-timbre-y-te-atienden-desde-el-celular.phtml]. ConsorcioAbierto tiene una app de control de accesos que registra visitas y vehículos [https://apps.apple.com/us/app/id1580932238]. Munily, de Panamá, hace control de acceso para barrios en Latinoamérica. No sé si opera en Argentina: no verificado [https://www.promptloop.com/directory/what-does-munily-do]. No encontré gestión de controles de cochera para consorcios. Consulta del 2026-10-23.",
+  "variantes": [
+   "La de Facu: traer un módulo de portón con celular ya fabricado, con alta y baja desde una app para la administración.",
+   "Sin hardware: un registro de qué control tiene cada unidad, con código, para pedir la baja y reprogramar al mudarse. Lo hace el administrador.",
+   "Ser distribuidor o instalador oficial en Argentina de una marca extranjera, en vez de crear el producto."
+  ],
+  "puntuacion": 5.3,
+  "por_que_puntuacion": "Importar tiene sentido, pero es hardware instalado edificio por edificio y ya hay jugadores cerca.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Hardware más software",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 100 a 300 (estimación: un módulo WiFi de prueba y entrevistas)",
+  "primer_paso": "Preguntarle a 5 administradores de consorcios cuántos reclamos por controles de cochera tienen por año y cuánto cobran por un control nuevo.",
+  "riesgo_principal": "Que cada motor sea distinto y que la instalación te convierta en un técnico en vez de una empresa de producto.",
+  "agrupar_con": ["M006"]
+ },
+ {
+  "n": "M087",
+  "opinion": "La marcaste como interesante, sin cambiarla. Me parece simpática y la tecnología es fácil, pero la duda es quién paga. Un club o un colegio no tiene un presupuesto para objetos perdidos. Un estadio, un festival o una empresa de transporte sí tienen el problema grande. Probar cuesta casi nada, así que vale como experimento corto.",
+  "hallazgos": "Sigo sin encontrar en Argentina una red de objetos perdidos con IA. El caso más cercano es EurekApp, proyecto de estudiantes de la UTN Córdoba, sin datos de que siga activo [https://www.institucional.frc.utn.edu.ar/SISTEMAS/NOTICIAS/PF/PROYECTOS/C21_5k4g09_eurekapp_1.pdf]. Afuera hay software de pago como iLost for Business [https://www.capterra.es/software/177237/ilost-for-business]. Consulta del 2026-10-23.",
+  "variantes": [
+   "La original: red multisede con foto, búsqueda por WhatsApp y retiro o envío pago.",
+   "Otro cliente: festivales, estadios y recitales, donde hay miles de objetos en un día y el organizador quiere quedar bien.",
+   "Otro cobro: gratis para el lugar, y el que recupera paga el envío más un cargo chico."
+  ],
+  "puntuacion": 5.4,
+  "por_que_puntuacion": "Fácil y barata de probar, pero no hay evidencia de que un lugar pague por esto.",
+  "tema": "Otro",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 50 (estimación: página simple y el celular)",
+  "primer_paso": "Ofrecerle gratis a un club o colegio grande catalogar su caja de objetos perdidos y medir cuántos se devuelven en dos semanas.",
+  "riesgo_principal": "Que funcione bien pero nadie quiera pagar por eso.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M091",
+  "opinion": "La marcaste como interesante, sin cambiarla. Para hogares ya está TuMango, así que esa versión no la haría. Lo único con hueco son las PyMEs con muchas líneas, seguros y software. Ahí el ahorro es más grande, pero negociar es casi un servicio con personas, no un producto. Vale si te sirve como puerta para conocer los costos de PyMEs.",
+  "hallazgos": "TuMango sigue enfocado en hogares. Pide la última factura, no pide contraseñas, tarda en general de 15 a 20 días hábiles y negocia con Personal, Telecentro, IPLAN, Movistar, Claro y DirecTV entre otros [https://www.iprofesional.com/actualidad/463831-una-plataforma-negocia-por-vos-descuentos-con-las-empresas-de-internet-y-celular]. No encontré una versión para PyMEs. Consulta del 2026-10-23.",
+  "variantes": [
+   "Solo PyMEs: revisión de todos los servicios fijos de la empresa, con renegociación cada 6 meses y cobro por porcentaje del ahorro.",
+   "Sin negociar: un informe automático que compara lo que paga la PyME contra planes públicos y le dice qué pedir. Producto, no servicio.",
+   "Para administradores de consorcio: renegociar seguros, ascensores y limpieza de varios edificios juntos."
+  ],
+  "puntuacion": 5.2,
+  "por_que_puntuacion": "La versión hogar ya existe y compite. La de PyMEs tiene hueco pero es servicio uno por uno.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Servicio con personas",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: landing y tiempo)",
+  "primer_paso": "Pedirle a 5 PyMEs conocidas sus facturas de servicios y ver cuánto ahorro real se consigue en una ronda de llamadas.",
+  "riesgo_principal": "Que el ahorro sea chico o se pierda con el próximo aumento y el cliente no quiera pagar el porcentaje.",
+  "agrupar_con": ["M059"]
+ },
+ {
+  "n": "M105",
+  "opinion": "Llegaste solo a lo mismo que hace Halter: collar solar con GPS y descarga para armar alambrados virtuales. Eso habla bien de tu ojo. Pero Halter ya anunció que viene a la región y tiene muchísima plata. Fabricar collares no es para la etapa 1. Lo que sí podría servir es ser el que los instala y los acompaña en el campo cuando lleguen.",
+  "hallazgos": "Halter firmó un acuerdo con el INIA para entrar a Uruguay [https://www.elobservador.com.uy/el-unicornio-neozelandes-halter-desembarca-uruguay-traves-un-acuerdo-inia-aplicar-su-tecnologia-alambrado-virtual-el-manejo-del-ganado-n6058238]. Notas de 2026 dicen que se prepara para llegar a Argentina, sin fecha confirmada [https://www.itsitio.com/ar/inteligencia-artificial/ganaderia-4-0-como-los-collares-inteligentes-con-ia-reemplazan-alambrados-y-preparan-su-llegada-a-argentina/]. Cobra una suscripción de USD 5 a 8 por animal por mes y levantó USD 220 millones con una valuación de USD 2.000 millones [https://ecosistemastartup.com/?p=76884]. Agrofy también nombra a Argentina entre los próximos destinos [https://news.agrofy.com.ar/noticia/215548/alambrados-y-guiadas-ia-tecnologia-que-ya-maneja-vacas-celular-y-apunta-desembarcar]. Consulta del 2026-10-23.",
+  "variantes": [
+   "La de Facu: collar propio con alambrado virtual. Solo como reserva para etapa 2 y con socio técnico.",
+   "Ser socio local: instalador y soporte en campo para Halter o Nofence cuando entren a Argentina.",
+   "Sin hardware: un servicio de planificación de pastoreo con imágenes satelitales para el productor que todavía no tiene collares."
+  ],
+  "puntuacion": 4.8,
+  "por_que_puntuacion": "La idea es buena, pero el líder mundial está por llegar con mucha plata y el hardware queda fuera de tu alcance hoy.",
+  "tema": "Agro e industria",
+  "tipo": "Hardware más software",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 a 50 (estimación: contactar a Halter y a productores)",
+  "primer_paso": "Escribirle a Halter para saber si busca socios locales en Argentina y preguntar a 3 ganaderos si pagarían USD 5 por vaca por mes.",
+  "riesgo_principal": "Competir contra una empresa de USD 2.000 millones que entra al mismo mercado.",
+  "agrupar_con": []
+ }
+]

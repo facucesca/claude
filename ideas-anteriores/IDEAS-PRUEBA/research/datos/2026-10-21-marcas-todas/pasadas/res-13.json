@@ -1,0 +1,202 @@
+[
+ {
+  "n": "M038",
+  "opinion": "Es una idea simple y bien automatizable: fotos de la ficha más datos, y sale un video corto para redes. No tiene comentario de Facu, así que evalué la versión original. El problema es que ya hay herramientas grandes que lo hacen en español, como HeyGen, y el precio por video tiende a bajar. Sirve como caja chica o experimento de venta, no como empresa. Es casi la misma idea que L8, conviene tratarlas como una sola.",
+  "hallazgos": "HeyGen ya ofrece en español un creador de videos inmobiliarios que convierte fotos y datos de la ficha en recorrido con movimiento y narración [https://www.heygen.com/es-ar/real-estate/ai-property-listing-video-maker] (consultado 2026-10-23). En Argentina, Roomix lanzó un filtro que detecta fotos retocadas con IA en avisos y dice que el 3% de las fotos lo están; muestra que el comprador desconfía de lo que la IA altera [https://www.iproup.com/startups/72293-roomix-lanza-una-ia-que-detecta-fotos-retocadas-en-avisos-inmobiliarios] (consultado 2026-10-23). No encontré una herramienta argentina específica de video automático desde fotos (búsqueda limitada, una sola consulta).",
+  "variantes": [
+   "Versión original: inmobiliaria sube el link de la ficha y recibe el video listo para Instagram y WhatsApp, con abono mensual por cantidad de propiedades.",
+   "Otro cliente: agencias de autos usados, donde cada unidad rota rápido y necesita video propio.",
+   "Video honesto: sin retoque ni amueblado falso, con sello de fotos reales; se apoya en la desconfianza que mide Roomix."
+  ],
+  "puntuacion": 6.2,
+  "por_que_puntuacion": "Es fácil de probar y vender, pero HeyGen y las propias plataformas ya lo cubren en español. Bajé la nota previa porque el hueco en español es menor de lo que se suponía.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 30 a 100 (estimación: una herramienta de video con IA un mes y algo de pauta o nada)",
+  "primer_paso": "Hacer gratis 5 videos de propiedades reales de inmobiliarias de la zona y ofrecerles un abono para el resto de su cartera.",
+  "riesgo_principal": "Que Zonaprop, Argenprop o HeyGen lo den gratis o muy barato y el precio se caiga a cero.",
+  "agrupar_con": ["M067"]
+ },
+ {
+  "n": "M041",
+  "opinion": "Facu ya decidió hacerla más cerca de Navidad, y tiene sentido como caja de temporada. Es plata rápida y aprendizaje de venta, no un negocio de largo plazo. Lo que más pesa es que hay mucho gratis: CapCut, HeyGen, Portable North Pole e incluso campañas de marcas como Iberia. Para cobrar hay que ofrecer algo que lo gratis no da: tonada argentina, Navidad de verano y detalles reales del chico. La fecha para decidir es ahora, porque la ventana arranca a mediados de noviembre.",
+  "hallazgos": "Hay herramientas gratis para hacer el video de Papá Noel con IA: CapCut Dreamina [https://dreamina.capcut.com/es-es/ai-video/custom-santa-video] y HeyGen [https://www.heygen.com/es-es/tool/ai-santa-video] (consultado 2026-10-23). Portable North Pole hace videos gratis con nombre, fecha de nacimiento y foto del chico, según una guía de 2023 [https://libero.pe/tecnologia/2023/12/20/video-personalizado-papa-noel-pasos-link-crear-tu-saludo-inteligencia-artificial-redes-sociales-698260] (consultado 2026-10-23). Iberia lanzó una plataforma con IA que conecta a Papá Noel con chicos de América Latina con nombre, gustos y logros; no verifiqué si sigue activa [https://www.iprofesional.com/actualidad/444335-imperdible-como-hacer-para-hablar-con-papa-noel-antes-de-navidad] (consultado 2026-10-23). No encontré un servicio argentino pago dedicado.",
+  "variantes": [
+   "La de Facu: lanzarla cerca de Navidad, con Papá Noel argentino de verano, tonada local y precio en pesos por Mercado Pago.",
+   "Venta a empresas: colegios, jardines o clubes encargan un video por chico para todo el grupo, un solo cobro grande.",
+   "Paquete familiar: video de Papá Noel más carta y diploma imprimible del chico, vendido como regalo armado."
+  ],
+  "puntuacion": 6.5,
+  "por_que_puntuacion": "La temporada es real y se prueba barato, pero lo gratis abunda y la vida útil es de cinco semanas. Bajé un poco la nota por la competencia gratis confirmada.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Contenido o infoproducto",
+  "etapa": "Probar barato",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 100 a 300 (estimación: herramienta de video y voz un mes más pauta chica en Instagram)",
+  "primer_paso": "Antes del 2026-11-05, armar 3 videos de muestra con un Papá Noel propio y una página de pedido con Mercado Pago, y mostrarlos a 20 padres conocidos.",
+  "riesgo_principal": "Que los padres usen las opciones gratis y no paguen, sumado al cuidado legal con datos y fotos de menores.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M046",
+  "opinion": "Facu cree que si se automatiza la venta y la creación de plantillas el negocio funciona casi solo. Entiendo el atractivo, pero no estoy de acuerdo con subirla. Remotion es una herramienta para programadores, así que el comprador es un nicho chico de devs. Además Remotion ya vende sus propias plantillas pagas, y las empresas de más de 3 personas tienen que pagar licencia aparte. Lo de 'funciona solo' es cierto después de hacer el producto, pero vender sin audiencia propia no se automatiza.",
+  "hallazgos": "Remotion es gratis para personas y empresas de hasta 3 personas; desde 4 se paga Company License de USD 25 por mes por puesto, más USD 0,01 por render con mínimo de USD 100 por mes para automatización [https://www.remotion.dev/docs/pricing] (consultado 2026-10-23). La página de plantillas de Remotion tiene 19 gratis y 3 pagas, y ya hay packs pagos de la propia Remotion y de terceros, según una guía de Wireflow [https://www.wireflow.ai/blog/remotion-templates] (consultado 2026-10-23). No verifiqué precios ni volumen de ventas de esos packs.",
+  "variantes": [
+   "La de Facu: tienda de plantillas que se venden y entregan solas, con Claude generando plantillas nuevas cada semana.",
+   "Sacar Remotion del medio: plantillas para CapCut o Canva, donde el comprador no programa y el mercado es mucho más grande.",
+   "Plantillas en español para un rubro concreto, por ejemplo placas y subtítulos para inmobiliarias o clubes, vendidas junto al video automático de L8."
+  ],
+  "puntuacion": 5.0,
+  "por_que_puntuacion": "Facu no programa y el comprador es programador; además el dueño de la herramienta ya vende plantillas. Bajé la nota previa y no la subo pese al comentario.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Contenido o infoproducto",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 20 a 80 (estimación: tienda en Gumroad o Lemon Squeezy y un pack de prueba hecho con Claude)",
+  "primer_paso": "Mirar en Gumroad y en marketplaces de plantillas cuántos packs de Remotion o CapCut se venden y a qué precio, y recién ahí decidir la herramienta.",
+  "riesgo_principal": "Mercado chico y competencia directa del propio Remotion, sin audiencia propia para vender.",
+  "agrupar_con": ["M067"]
+ },
+ {
+  "n": "M047",
+  "opinion": "La idea original, foto de prenda puesta en modelo IA, está muy cubierta por herramientas y por Tiendanube. El comentario de Facu la gira: mostrar cómo quedarían remeras grabadas, ropa personalizada o banners, en una app o página. Esa versión es en realidad la misma que A3, así que conviene evaluarlas juntas. Ojo: el print on demand genérico ya lo descartó Facu, así que el valor no puede estar en vender remeras sino en la herramienta para el taller. Sola, la vista previa no alcanza porque Canva ya la da gratis.",
+  "hallazgos": "Canva ofrece gratis un generador de mockups de remeras en Argentina, donde subís el diseño y lo ves en modelo [https://www.canva.com/es_ar/crear/mockups-de-remeras/] (consultado 2026-10-23). En la búsqueda no apareció un sitio argentino con simulador de remeras con vista previa; lo que hay son vendedores de Mercado Libre y talleres locales que toman pedidos [https://www.argentino.com.ar/merlo/estampado+de+remeras] (consultado 2026-10-23). Búsqueda limitada a una consulta, puede haber talleres con simulador que no aparecieron.",
+  "variantes": [
+   "La de Facu: página donde el cliente sube su logo y ve cómo queda en remera, buzo o banner, igual que A3.",
+   "Para talleres: el taller pone el simulador en su web y recibe el pedido con diseño, talle y cantidad ya cargados.",
+   "Versión original acotada: foto en modelo IA solo para talleres chicos que venden por Instagram y no tienen fotógrafo."
+  ],
+  "puntuacion": 5.5,
+  "por_que_puntuacion": "Con el giro de Facu se vuelve casi la misma que A3, y la vista previa sola ya es gratis. Bajé la nota previa porque la versión original compite con Tiendanube y muchas herramientas.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: entrevistas a talleres y una maqueta no-code)",
+  "primer_paso": "Entrevistar a 10 talleres de estampado y sublimación sobre cómo cotizan y cuántos pedidos pierden por idas y vueltas con el cliente.",
+  "riesgo_principal": "Que el taller no pague porque ya usa Canva o mockups gratis y cotiza por WhatsApp.",
+  "agrupar_con": ["M073"]
+ },
+ {
+  "n": "M049",
+  "opinion": "Es de las mejores del lote para Facu. Usa su ventaja en agro y CEMEVA, conecta dos partes y es un producto replicable, no trabajo a medida. El hueco sigue abierto: hoy el que certifica es el vendedor, como Agroads o Metalfor, no un tercero independiente. La parte difícil es conseguir inspectores confiables en muchas zonas y que el comprador pague antes de viajar. Hay que probar primero si el comprador paga.",
+  "hallazgos": "Hice una búsqueda nueva y tampoco apareció un servicio argentino de inspección independiente de tractores usados; los resultados fueron guías de revisión, como la de Ritchie Bros. [https://blog.ritchiebros.com/?p=2801] (consultado 2026-10-23). Una nota de 2025 explica cómo comprar un tractor en Estados Unidos y traerlo a Argentina, lo que sugiere interés en usados importados [https://elintransigente.com/2025/07/como-hacer-para-comprar-un-tractor-en-estados-unidos-y-traerlo-a-la-argentina-sin-problema/] (consultado 2026-10-23). El resto se usó de lo verificado antes.",
+  "variantes": [
+   "Versión original: el comprador pide por web, un mecánico de la zona inspecciona con la app guiada y Claude arma el informe con semáforo.",
+   "Cobro al vendedor: el vendedor paga la inspección para publicar con sello independiente en Agroads o Marketplace y vender más rápido.",
+   "Para usados importados: inspección en origen y control al llegar, para quien compra afuera con la apertura de importación."
+  ],
+  "puntuacion": 6.8,
+  "por_que_puntuacion": "Hueco abierto confirmado otra vez y encaja con la ventaja agro de Facu. No llega a 7 porque falta probar que el comprador pague y armar la red de inspectores es difícil.",
+  "tema": "Agro e industria",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 100 a 300 (estimación: checklist y formulario no-code, más pago al primer mecánico)",
+  "primer_paso": "Armar con Claude el checklist de tractor y ofrecer 10 inspecciones a USD 100 en grupos de compraventa de maquinaria, usando contactos de CEMEVA para el primer mecánico.",
+  "riesgo_principal": "Que el comprador prefiera llamar a un conocido de la zona gratis y no pague por un informe.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M067",
+  "opinion": "Es la versión más amplia de T7: edición automática para empresas que hacen siempre videos parecidos. No tiene comentario de Facu. Como producto 'cero intervención' es construible, pero hoy HeyGen ya hace el video desde fotos en español y Zonaprop planea IA para avisos. Sirve para aprender a vender a PyMEs y cobrar un abono, no para la etapa 2. La trato junto con T7.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes y lo hallado hoy para M038 sobre HeyGen y Roomix.",
+  "variantes": [
+   "Versión original: motor propio para inmobiliarias y agencias de usados, fotos más ficha y sale el video.",
+   "Otro rubro con videos repetidos: clubes y canchas que publican resultados, o comercios con producto nuevo por semana.",
+   "Servicio llave en mano: Facu edita a mano al principio y automatiza de a poco lo que se repite."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "Construible y vendible, pero sin hueco claro y sin usar la ventaja de Facu. Bajé un poco por HeyGen en español.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 100 (estimación: igual que T7)",
+  "primer_paso": "Probar junto con T7: 5 videos gratis a inmobiliarias y a una agencia de autos para medir quién paga.",
+  "riesgo_principal": "Que las plataformas de avisos lo integren gratis.",
+  "agrupar_con": ["M038", "M046"]
+ },
+ {
+  "n": "M072",
+  "opinion": "Facu quiere un programa para arquitectos: mandás una foto y te arma el render con IA, automático y con un solo pago. La demanda existe, pero el mercado ya está lleno: hay apps como ATMOS, CLAD Render, ArchVizr o Architect AI que hacen eso desde una foto o boceto. Lo de un solo pago no encaja bien, porque cada render le cuesta plata al que lo genera, y por eso casi todos cobran por crédito o suscripción. Sería revender un modelo ajeno sin ventaja propia. Ojo también que Facu no eligió antes videos para estudios de arquitectura ni videos desde renders.",
+  "hallazgos": "Hay apps que generan render desde una foto: ATMOS en iPad, gratis con compras dentro de la app [https://apps.apple.com/app/id6757624696], y CLAD Render, también gratis con compras [https://apps.apple.com/us/app/-/id6757449638] (consultado 2026-10-23). Architect AI cobra por uso sin suscripción [https://moge.ai/es/product/architect-ai] y ArchVizr tiene planes pagos con uso comercial [https://10015.io/product/archvizr] (consultado 2026-10-23). No encontré ninguna con pago único de por vida. No busqué competidores argentinos específicos.",
+  "variantes": [
+   "La de Facu: web en español donde el arquitecto sube una foto o boceto y paga una vez por un paquete de renders.",
+   "Otro cliente: corralones y vendedores de aberturas, pisos o revestimientos que le muestran al cliente cómo quedaría su casa con ese producto.",
+   "Para inmobiliarias: render de cómo quedaría una propiedad a reciclar, para vender más rápido."
+  ],
+  "puntuacion": 4.5,
+  "por_que_puntuacion": "Mercado saturado de apps parecidas y el pago único choca con el costo de cada render. Sin ventaja propia de Facu.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 60 (estimación: probar 3 de estas apps un mes)",
+  "primer_paso": "Probar ATMOS, CLAD y Architect AI con fotos reales y mostrar los resultados a 5 arquitectos para ver qué les falta.",
+  "riesgo_principal": "Que el arquitecto use directamente las apps que ya existen y no haya lugar para un intermediario.",
+  "agrupar_con": ["M073"]
+ },
+ {
+  "n": "M073",
+  "opinion": "Es la idea propia de Facu que también apareció en su comentario a R2. La vista previa sola ya es gratis en Canva, Printful o Placeit. Lo que puede valer es el cotizador para el taller: mockup más precio por técnica y cantidad más plazo, al instante. Ese sí es un producto replicable para muchos talleres. Falta lo más básico: saber si los talleres pagarían.",
+  "hallazgos": "Canva ofrece gratis mockups de remeras para Argentina [https://www.canva.com/es_ar/crear/mockups-de-remeras/] (consultado 2026-10-23). No apareció en la búsqueda un sitio argentino con simulador de remeras y vista previa; hay vendedores en Mercado Libre y talleres que toman pedidos [https://www.mercadolibre.com.ar/tienda/badaboom] (consultado 2026-10-23). Sigue sin datos de cantidad de talleres en Argentina.",
+  "variantes": [
+   "Cotizador visual para talleres: el cliente sube el logo, ve la prenda y recibe precio y plazo al instante.",
+   "Para empresas que compran uniformes y merchandising: comparan cotizaciones de varios talleres con la misma vista previa.",
+   "Banners y cartelería: vista previa en la fachada real del local desde una foto, con precio por medida."
+  ],
+  "puntuacion": 5.7,
+  "por_que_puntuacion": "El cotizador tiene sentido como producto global, pero la demanda no está probada y la vista previa sola es gratis.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: entrevistas y maqueta no-code)",
+  "primer_paso": "Entrevistar a 10 talleres de estampado sobre cómo cotizan hoy y mostrarles una maqueta del cotizador.",
+  "riesgo_principal": "Que el taller cotice por WhatsApp y no quiera pagar ni cambiar su forma de trabajar.",
+  "agrupar_con": ["M047", "M072"]
+ },
+ {
+  "n": "M084",
+  "opinion": "Es un ingreso que depende por completo de plataformas ajenas: Whop, TikTok, Instagram. Las tarifas son bajas, unos USD 1 por cada 1.000 vistas, y hay rechazos de clips después de juntar vistas. El scanner de campañas es lo más interesante, porque sería una herramienta para clippers, pero también depende de Whop. No construye un activo propio fuerte. No tiene comentario de Facu.",
+  "hallazgos": "Content Rewards ahora funciona como web propia y sus términos para creadores, actualizados el 2026-10-04, nombran a Content Rewards Inc como operador [https://www.clipaffiliates.com/blog/is-whop-content-rewards-legit] (consultado 2026-10-23). Una guía dice que la tarifa típica en septiembre de 2026 era USD 1 por cada 1.000 vistas [https://www.builtbyfoundry.io/blog/what-is-clipping-1-dollar-per-1000-views-50-campaigns] y otra reporta campañas de USD 1,25 a 3 y de música desde USD 0,30 (consultado 2026-10-23; fuentes de terceros, no oficiales). Las comisiones de retiro no están claras; guías citan de 7% a 10% (no verificado en la fuente oficial).",
+  "variantes": [
+   "Versión original: hacer clips para campañas y usar el scanner propio para elegir las que pagan mejor.",
+   "Solo el scanner: vender a clippers una alerta de campañas nuevas con buen presupuesto, por suscripción.",
+   "Lado empresa: agencia que arma campañas de clipping para marcas argentinas, cobrando a la marca y no por vista."
+  ],
+  "puntuacion": 5.2,
+  "por_que_puntuacion": "Tarifas bajas y total dependencia de plataformas que cambian reglas. Bajé un poco por los cambios de operador y términos de 2026.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: tiempo propio y una herramienta de edición)",
+  "primer_paso": "Anotar a mano durante una semana las campañas abiertas, su tarifa y presupuesto, para ver si un scanner aportaría algo.",
+  "riesgo_principal": "Que Whop o TikTok cambien las reglas y el ingreso desaparezca de un día para otro.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M089",
+  "opinion": "La versión de revivir con voz o chatbot no la recomiendo, por ética del duelo y por el artículo 53 del Código Civil sobre imagen y voz. La versión homenaje, restaurar fotos y armar un video sin voz, es un servicio chico pero digno. Lo interesante es que no aparece ninguna cochería argentina ofreciéndolo, aunque mi búsqueda fue corta. Igual HeyGen ya tiene un creador de videos conmemorativos en español, así que la familia puede hacerlo sola. No usa la ventaja de Facu.",
+  "hallazgos": "HeyGen ofrece en español un creador de videos conmemorativos que arma el video con fotos y anima un retrato, y lo exporta en MP4 para la casa velatoria [https://www.heygen.com/es-ar/tool/memorial-video-maker] (consultado 2026-10-23). En dos búsquedas no encontré cocherías argentinas que ofrezcan video homenaje (no verificado a fondo, faltó buscar por ciudad).",
+  "variantes": [
+   "Homenaje B2B: la cochería ofrece el video como servicio extra y Facu lo produce con un sistema estandarizado.",
+   "Restauración de fotos familiares sin duelo: álbumes viejos digitalizados y restaurados para cumpleaños de 80 o aniversarios.",
+   "Recordatorio anual: video al cumplirse un año, vendido por la cochería o el cementerio parque."
+  ],
+  "puntuacion": 5.3,
+  "por_que_puntuacion": "Hueco posible en cocherías, pero es servicio chico, delicado y la familia puede hacerlo gratis con HeyGen.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Servicio con personas",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 30 a 80 (estimación: herramienta de restauración y video un mes)",
+  "primer_paso": "Llamar a 5 cocherías de la zona y preguntar si alguna familia pidió un video homenaje y si lo ofrecerían.",
+  "riesgo_principal": "Que el tema sea demasiado sensible y la cochería no quiera sumar algo con IA.",
+  "agrupar_con": []
+ }
+]

@@ -1,0 +1,360 @@
+{
+ "columnas": [
+  "Hogar y oficios",
+  "Salud y cuidado",
+  "Autos y movilidad",
+  "Logística y comercio exterior",
+  "PyMEs y comercio",
+  "Inmuebles y construcción",
+  "Energía y agua",
+  "Agro y alimentos",
+  "Educación y trabajo",
+  "Finanzas, seguros y trámites",
+  "Ocio, turismo y eventos",
+  "Comunidad y vida cotidiana"
+ ],
+ "filas": [
+  {
+   "patron": "Marketplace de dos lados",
+   "celdas": {
+    "Hogar y oficios": "1 idea(s): Técnicas: oficios hechos por mujeres y una vi (4.8) | 2 empresa(s) afuera",
+    "Salud y cuidado": "1 idea(s): Acompañante de internación: estudiantes de sa (5.0) | 1 empresa(s) afuera",
+    "Energía y agua": "1 idea(s): Techos solares financiados entre dos partes (5.4)",
+    "Agro y alimentos": "2 idea(s): Precio por vida útil: liquidación automática  (4.8) · Heladeras de autoservicio en edificios, gimna (4.6) | 1 empresa(s) afuera",
+    "Educación y trabajo": "2 idea(s): Aula de la tarde: escuelas abren aulas ociosa (5.6) · Banco de horas plateadas: jubilados para tare (5.2) | 5 empresa(s) afuera",
+    "Finanzas, seguros y trámites": "1 idea(s): Colecta de emergencia verificada con pago dir (5.2) | 3 empresa(s) afuera",
+    "Ocio, turismo y eventos": "1 idea(s): La habitación como vidriera: artesanos en con (5.0)"
+   },
+   "total": 21
+  },
+  {
+   "patron": "Marketplace gestionado",
+   "celdas": {
+    "Hogar y oficios": "2 idea(s): Costurero y zapatero a domicilio con presupue (5.8) · Humedad sin romper: de dónde viene, quién pag (4.8) | 2 empresa(s) afuera",
+    "Salud y cuidado": "1 idea(s): Exámenes médicos laborales a precio cerrado:  (5.0) | 2 empresa(s) afuera",
+    "Autos y movilidad": "HUECO: 1 empresa(s) afuera (Wrench (y YourMechanic)) y 0 ideas acá",
+    "Inmuebles y construcción": "3 idea(s): Antes de que te mida ARBA: diagnóstico sateli (6.2) · Presupuesto sin visita desde satélite + obra  (5.8) | 2 empresa(s) afuera",
+    "Agro y alimentos": "1 idea(s): Inspección a distancia de maquinaria agrícola (6.2) | 2 empresa(s) afuera",
+    "Educación y trabajo": "1 idea(s): Micro-pasantías por proyecto: Claude arma el  (5.4) | 1 empresa(s) afuera"
+   },
+   "total": 18
+  },
+  {
+   "patron": "Broker / comisionista",
+   "celdas": {
+    "Salud y cuidado": "1 idea(s): Ensayos clínicos en criollo: buscador y pre-c (5.0)",
+    "Autos y movilidad": "1 idea(s): Radar de granizo: mapa de tormentas por cuadr (5.6)",
+    "Logística y comercio exterior": "1 idea(s): Máquina usada de Europa o EE.UU., puesta y an (4.8)",
+    "PyMEs y comercio": "2 idea(s): Dónde abrir: potencial comercial por cuadra p (5.2) · ¿Cuánto vale tu negocio? Tasador con datos fi (4.8) | 1 empresa(s) afuera",
+    "Inmuebles y construcción": "1 idea(s): Comprá tu departamento afuera desde tu casa,  (4.0) | 1 empresa(s) afuera",
+    "Finanzas, seguros y trámites": "3 idea(s): Broker hipotecario digital + cuenta regresiva (6.0) · Jubilarse bien: auditoría de aportes con IA,  (6.0)"
+   },
+   "total": 11
+  },
+  {
+   "patron": "Agregador / comparador",
+   "celdas": {
+    "Salud y cuidado": "4 idea(s): Comprador de salud de contado: el agente que  (6.4) · Guardia sin cola: radar de guardias + triage  (5.8) | 2 empresa(s) afuera",
+    "Autos y movilidad": "1 idea(s): RTO abierta: turnero multi-prestador + pre-ch (5.8)",
+    "Educación y trabajo": "1 idea(s): Niche argentino: elegir colegio privado con c (4.8)",
+    "Finanzas, seguros y trámites": "1 idea(s): NCA al instante: calculadora de complejidad a (5.4) | 1 empresa(s) afuera",
+    "Comunidad y vida cotidiana": "1 idea(s): ¿Qué internet llega a mi casa? Cobertura real (5.4)"
+   },
+   "total": 11
+  },
+  {
+   "patron": "Subasta y subasta inversa",
+   "celdas": {
+    "Autos y movilidad": "HUECO: 2 empresa(s) afuera (ACV Auctions (NASDAQ: ACVA), Bring a Trailer (Hearst Autos)) y 0 ideas acá",
+    "Logística y comercio exterior": "HUECO: 1 empresa(s) afuera (uShip (y Shiply en Reino Unido, no verificado hoy)) y 0 ideas acá",
+    "Energía y agua": "1 idea(s): Solar en grupo por barrio: subasta inversa de (6.2)",
+    "Agro y alimentos": "3 idea(s): Tasador de renta de campo → bolsa de arrendam (5.0) · Medí tu monte con el celular: inventario fore (5.0)"
+   },
+   "total": 7
+  },
+  {
+   "patron": "Compra en grupo",
+   "celdas": {
+    "Salud y cuidado": "1 idea(s): Niñera compartida: dos familias, una niñera,  (5.8)",
+    "Autos y movilidad": "1 idea(s): Micros compartidos por fletamento colaborativ (5.6)",
+    "Logística y comercio exterior": "1 idea(s): Contenedor compartido: productores chicos exp (5.8)",
+    "Inmuebles y construcción": "HUECO: 1 empresa(s) afuera (Arrived y Fundrise) y 0 ideas acá",
+    "Energía y agua": "1 idea(s): Solar en grupo por barrio: subasta inversa de (6.2)",
+    "Finanzas, seguros y trámites": "1 idea(s): Comprar un activo grande entre amigos: lancha (5.2) | 1 empresa(s) afuera",
+    "Comunidad y vida cotidiana": "4 idea(s): Cámaras lectoras de patentes compartidas por  (5.8) · Si somos 20, viene: demanda comprometida para (5.6)"
+   },
+   "total": 11
+  },
+  {
+   "patron": "Marketplace de capacidad ociosa",
+   "celdas": {
+    "Salud y cuidado": "1 idea(s): Sala valle como consultorio: kinesiólogos alq (5.2)",
+    "Autos y movilidad": "2 idea(s): Micros compartidos por fletamento colaborativ (5.6) · Tu auto parado paga: car sharing entre partic (4.2) | 1 empresa(s) afuera",
+    "Logística y comercio exterior": "1 idea(s): Frío por pallet bajo demanda (5.6) | 2 empresa(s) afuera",
+    "PyMEs y comercio": "1 idea(s): Equipos de laboratorio ociosos: marketplace d (5.2)",
+    "Inmuebles y construcción": "1 idea(s): Locales vacíos por semana: pop-up a la calle  (5.4)",
+    "Agro y alimentos": "5 idea(s): Bolsa de capacidad ociosa de plantas de alime (6.4) · Cocina habilitada por hora + «habilitación co (5.8)",
+    "Educación y trabajo": "2 idea(s): Aula de la tarde: escuelas abren aulas ociosa (5.6) · Escritorio cerca de casa: red de oficinas por (4.8)",
+    "Ocio, turismo y eventos": "2 idea(s): La habitación como vidriera: artesanos en con (5.0) · Lanchas y motorhomes parados: Turo de lo recr (4.6) | 5 empresa(s) afuera",
+    "Comunidad y vida cotidiana": "1 idea(s): Patios, quintas y campitos para perros por ho (5.4) | 1 empresa(s) afuera"
+   },
+   "total": 25
+  },
+  {
+   "patron": "Marketplace B2B mayorista",
+   "celdas": {
+    "Logística y comercio exterior": "1 idea(s): Contenedor compartido: productores chicos exp (5.8)",
+    "PyMEs y comercio": "HUECO: 1 empresa(s) afuera (Faire (también Ankorstore en Europa, NuORDER en moda)) y 0 ideas acá",
+    "Agro y alimentos": "5 idea(s): Cosecha a pedido: el restaurante compra la si (5.6) · Balance forrajero gratis → bolsa de rollos, f (5.4) | 2 empresa(s) afuera"
+   },
+   "total": 9
+  },
+  {
+   "patron": "Marketplace de servicios con garantía",
+   "celdas": {
+    "Hogar y oficios": "1 idea(s): Reparalo o cambialo: veredicto por foto/video (6.2) | 1 empresa(s) afuera",
+    "Inmuebles y construcción": "1 idea(s): Director de obra digital: 3 presupuestos comp (5.6) | 1 empresa(s) afuera",
+    "Educación y trabajo": "1 idea(s): Micro-pasantías por proyecto: Claude arma el  (5.4) | 1 empresa(s) afuera",
+    "Comunidad y vida cotidiana": "1 idea(s): Obra de la cuadra con crowdfunding, escrow al (4.6)"
+   },
+   "total": 7
+  },
+  {
+   "patron": "Vertical SaaS + marketplace",
+   "celdas": {
+    "Salud y cuidado": "1 idea(s): Guardia sin cola: radar de guardias + triage  (5.8) | 1 empresa(s) afuera",
+    "Autos y movilidad": "1 idea(s): ¿Cuánto vale tu plan de ahorro? Calculadora d (4.6)",
+    "PyMEs y comercio": "2 idea(s): Liquidador de comisiones para viajantes → bol (5.2) · ¿Cuánto vale tu negocio? Tasador con datos fi (4.8) | 1 empresa(s) afuera",
+    "Inmuebles y construcción": "HUECO: 1 empresa(s) afuera (Inspectify (con referencia a Porch/ISN como software de inspectores)) y 0 ideas acá",
+    "Agro y alimentos": "5 idea(s): Bolsa de capacidad ociosa de plantas de alime (6.4) · Balance forrajero gratis → bolsa de rollos, f (5.4)",
+    "Educación y trabajo": "1 idea(s): La puerta del colegio: salida ordenada por ap (5.6)",
+    "Ocio, turismo y eventos": "1 idea(s): Escaneá tu carpeta: tasador de cartas colecci (5.2) | 1 empresa(s) afuera",
+    "Comunidad y vida cotidiana": "1 idea(s): Encontrado: red de objetos perdidos con IA pa (5.6)"
+   },
+   "total": 16
+  },
+  {
+   "patron": "Red de datos",
+   "celdas": {
+    "Hogar y oficios": "1 idea(s): Instalado: el club multimarca del instalador  (5.4)",
+    "Autos y movilidad": "1 idea(s): Radar de granizo: mapa de tormentas por cuadr (5.6)",
+    "PyMEs y comercio": "1 idea(s): Dónde abrir: potencial comercial por cuadra p (5.2)",
+    "Inmuebles y construcción": "3 idea(s): Cuadra: puntaje de cualquier dirección antes  (6.0) · Legajo de inquilino verificado y portátil + h (5.8)",
+    "Agro y alimentos": "HUECO: 1 empresa(s) afuera (Farmers Business Network (FBN)) y 0 ideas acá",
+    "Finanzas, seguros y trámites": "1 idea(s): Junta digital (pasanaku/tanda) con reglas, co (6.2) | 2 empresa(s) afuera",
+    "Comunidad y vida cotidiana": "1 idea(s): Encontrado: red de objetos perdidos con IA pa (5.6)"
+   },
+   "total": 11
+  },
+  {
+   "patron": "Plataforma de confianza / verificación",
+   "celdas": {
+    "Hogar y oficios": "3 idea(s): Garantía de obra de un tercero para oficios:  (5.4) · Instalado: el club multimarca del instalador  (5.4) | 1 empresa(s) afuera",
+    "Autos y movilidad": "1 idea(s): ¿Cuánto vale tu plan de ahorro? Calculadora d (4.6) | 1 empresa(s) afuera",
+    "Logística y comercio exterior": "1 idea(s): Pasaporte EUDR para PyMEs exportadoras: políg (5.4)",
+    "PyMEs y comercio": "1 idea(s): Sello de confianza + garantía de compra para  (5.6)",
+    "Inmuebles y construcción": "5 idea(s): Cuadra: puntaje de cualquier dirección antes  (6.0) · Legajo de inquilino verificado y portátil + h (5.8) | 1 empresa(s) afuera",
+    "Agro y alimentos": "1 idea(s): Inspección a distancia de maquinaria agrícola (6.2)",
+    "Educación y trabajo": "3 idea(s): Referencias laborales verificadas por IA: pas (5.8) · Credencial de oficio por examen práctico en v (5.8) | 2 empresa(s) afuera",
+    "Finanzas, seguros y trámites": "1 idea(s): Colecta de emergencia verificada con pago dir (5.2)",
+    "Ocio, turismo y eventos": "1 idea(s): Escaneá tu carpeta: tasador de cartas colecci (5.2)",
+    "Comunidad y vida cotidiana": "2 idea(s): Sponsoreo hiperlocal: marcas compran presenci (6.0) · Autenticación remota de zapatillas y camiseta (4.8) | 1 empresa(s) afuera"
+   },
+   "total": 25
+  },
+  {
+   "patron": "Franquicia digital",
+   "celdas": {
+    "Educación y trabajo": "HUECO: 1 empresa(s) afuera (Prenda (y el movimiento de microescuelas: Primer, KaiPod, Acton) — plataforma para que cualquier adulto abra una microescuela) y 0 ideas acá"
+   },
+   "total": 1
+  },
+  {
+   "patron": "Marketplace de suscripción",
+   "celdas": {
+    "Agro y alimentos": "1 idea(s): Cosecha a pedido: el restaurante compra la si (5.6) | 1 empresa(s) afuera",
+    "Ocio, turismo y eventos": "HUECO: 1 empresa(s) afuera (Harvest Hosts) y 0 ideas acá"
+   },
+   "total": 3
+  },
+  {
+   "patron": "«Uber de X»",
+   "celdas": {
+    "Hogar y oficios": "HUECO: 1 empresa(s) afuera (Urban Company (ex UrbanClap)) y 0 ideas acá",
+    "Salud y cuidado": "HUECO: 1 empresa(s) afuera (Papa) y 0 ideas acá",
+    "Autos y movilidad": "HUECO: 3 empresa(s) afuera (DriveU (Humble Mobile Solutions), Urgently (con Agero, con quien anunció que 'se unió'), Wrench (y YourMechanic)) y 0 ideas acá",
+    "Logística y comercio exterior": "HUECO: 1 empresa(s) afuera (Porter (SmartShift Logistics Solutions)) y 0 ideas acá",
+    "Agro y alimentos": "1 idea(s): Fierros parados: bolsa de horas de maquinaria (4.6)",
+    "Educación y trabajo": "HUECO: 1 empresa(s) afuera (Swing Education — marketplace de suplentes docentes para colegios) y 0 ideas acá"
+   },
+   "total": 8
+  },
+  {
+   "patron": "Marketplace de agentes de IA que negocian por las partes",
+   "celdas": {
+    "Salud y cuidado": "2 idea(s): Comprador de salud de contado: el agente que  (6.4) · Apelador de prepagas y obras sociales: reclam (6.2)",
+    "Inmuebles y construcción": "3 idea(s): Agente del inquilino: busca, visita, negocia  (5.6) · Director de obra digital: 3 presupuestos comp (5.6)",
+    "Agro y alimentos": "1 idea(s): Repuesto de cosecha en el día: el agente llam (5.4)",
+    "Educación y trabajo": "1 idea(s): Aterrizaje de estudiantes extranjeros: el age (5.4)",
+    "Finanzas, seguros y trámites": "4 idea(s): Perito del asegurado: liquidador de siniestro (6.0) · Reclamá sin hacer cola: plataforma de reclamo (6.0) | 1 empresa(s) afuera"
+   },
+   "total": 12
+  },
+  {
+   "patron": "X como servicio, todo incluido",
+   "celdas": {
+    "Hogar y oficios": "2 idea(s): Gas seguro todo el año (5.4) · Jardín llave en mano con riego inteligente so (5.2)",
+    "Salud y cuidado": "1 idea(s): Chequeo por abono: el análisis lo paga tu cob (5.4) | 2 empresa(s) afuera",
+    "PyMEs y comercio": "2 idea(s): Uniformes como servicio: ropa de trabajo con  (5.4) · Aire acondicionado por abono para comercios (5.0)",
+    "Energía y agua": "3 idea(s): Batería de respaldo por abono para comercios (5.6) · Agua caliente solar por abono para hogares a  (5.0) | 2 empresa(s) afuera",
+    "Agro y alimentos": "6 idea(s): Riego solar por hectárea-mes (5.6) · Pastoreo por cabeza por mes (5.4)",
+    "Educación y trabajo": "2 idea(s): Instrumentos musicales reacondicionados en al (4.8) · Aire de aula medido y filtrado (4.2)",
+    "Comunidad y vida cotidiana": "1 idea(s): Cámaras lectoras de patentes compartidas por  (5.8)"
+   },
+   "total": 21
+  },
+  {
+   "patron": "Suscripción de resultado",
+   "celdas": {
+    "Hogar y oficios": "2 idea(s): Pileta garantizada por condición (5.6) · Plan anual anti-plagas para la casa, con gara (5.4)",
+    "Inmuebles y construcción": "1 idea(s): Ascensor con SLA para consorcios (4.8)",
+    "Energía y agua": "1 idea(s): Agua o no pagás: perforaciones con resultado  (5.0)",
+    "Educación y trabajo": "1 idea(s): Henry de los oficios: escuela corta que cobra (5.0)"
+   },
+   "total": 5
+  },
+  {
+   "patron": "Bundling del hogar o de la PyME: muchos servicios, una sola cuota",
+   "celdas": {
+    "Hogar y oficios": "3 idea(s): Casero digital para la casa de fin de semana (6.0) · Propietario tranquilo: mantenimiento del alqu (5.8) | 4 empresa(s) afuera",
+    "Salud y cuidado": "HUECO: 1 empresa(s) afuera (Emoha Elder Care (Age Care Labs)) y 0 ideas acá",
+    "PyMEs y comercio": "HUECO: 1 empresa(s) afuera (ZenBusiness) y 0 ideas acá"
+   },
+   "total": 9
+  },
+  {
+   "patron": "Sistema operativo de un rubro",
+   "celdas": {
+    "PyMEs y comercio": "HUECO: 1 empresa(s) afuera (Treinta (y Khatabook en India, su modelo original) — COMPETIDOR/VARIANTE de COM-2-3 (ELEGIDA)) y 0 ideas acá",
+    "Inmuebles y construcción": "HUECO: 1 empresa(s) afuera (Hover (y Roofr, que empaqueta lo mismo para techistas) — VARIANTE de CON-2-3 (ELEGIDA)) y 0 ideas acá"
+   },
+   "total": 2
+  },
+  {
+   "patron": "Integrador: una sola marca y un solo contrato delante de proveedores separados",
+   "celdas": {
+    "Hogar y oficios": "4 idea(s): Propietario tranquilo: mantenimiento del alqu (5.8) · Plan anual anti-plagas para la casa, con gara (5.4) | 1 empresa(s) afuera",
+    "Salud y cuidado": "HUECO: 2 empresa(s) afuera (Headway, Spring Health (y Lyra Health como referencia)) y 0 ideas acá",
+    "Logística y comercio exterior": "1 idea(s): Máquina usada de Europa o EE.UU., puesta y an (4.8) | 1 empresa(s) afuera",
+    "PyMEs y comercio": "3 idea(s): Abrir un local en 30 días: habilitación + fis (5.8) · Uniformes como servicio: ropa de trabajo con  (5.4)",
+    "Inmuebles y construcción": "3 idea(s): Ascensor con SLA para consorcios (4.8) · La casa del fondo, importada y llave en mano (4.4) | 1 empresa(s) afuera",
+    "Agro y alimentos": "3 idea(s): Alta de alimentos en el registro único: inscr (5.6) · Aceite de fritura como servicio para cocinas (4.8) | 1 empresa(s) afuera",
+    "Educación y trabajo": "1 idea(s): Aterrizaje de estudiantes extranjeros: el age (5.4) | 1 empresa(s) afuera",
+    "Finanzas, seguros y trámites": "1 idea(s): Broker hipotecario digital + cuenta regresiva (6.0) | 1 empresa(s) afuera"
+   },
+   "total": 24
+  },
+  {
+   "patron": "Navaja y hojas con IA: el aparato casi regalado, la suscripción de IA es el negocio",
+   "celdas": {
+    "Hogar y oficios": "HUECO: 1 empresa(s) afuera (Moen Flo (con referencia a Phyn y a los programas de aseguradoras)) y 0 ideas acá",
+    "PyMEs y comercio": "1 idea(s): Cuántas cajas abrir: contador de colas con cá (4.8)"
+   },
+   "total": 2
+  },
+  {
+   "patron": "Hardware barato + software caro",
+   "celdas": {
+    "Hogar y oficios": "2 idea(s): Casero digital para la casa de fin de semana (6.0) · Pileta garantizada por condición (5.6)",
+    "Salud y cuidado": "HUECO: 2 empresa(s) afuera (Durcal, Sword Health) y 0 ideas acá",
+    "Agro y alimentos": "4 idea(s): Pastoreo por cabeza por mes (5.4) · Centinela de heladas y agua para quintas (sen (5.0) | 2 empresa(s) afuera",
+    "Finanzas, seguros y trámites": "HUECO: 1 empresa(s) afuera (Hippo) y 0 ideas acá"
+   },
+   "total": 11
+  },
+  {
+   "patron": "Servicio + datos: el servicio paga la operación, el dato acumulado vale más que el servicio",
+   "celdas": {
+    "Salud y cuidado": "HUECO: 1 empresa(s) afuera (Function Health) y 0 ideas acá",
+    "Autos y movilidad": "HUECO: 1 empresa(s) afuera (ACV Auctions (NASDAQ: ACVA)) y 0 ideas acá",
+    "Energía y agua": "1 idea(s): Agua o no pagás: perforaciones con resultado  (5.0)",
+    "Finanzas, seguros y trámites": "HUECO: 2 empresa(s) afuera (Zego, Root Insurance) y 0 ideas acá"
+   },
+   "total": 5
+  },
+  {
+   "patron": "Garantía o seguro embebido en otro producto",
+   "celdas": {
+    "Hogar y oficios": "1 idea(s): Garantía de obra de un tercero para oficios:  (5.4) | 4 empresa(s) afuera",
+    "Autos y movilidad": "1 idea(s): Tu auto parado paga: car sharing entre partic (4.2) | 3 empresa(s) afuera",
+    "PyMEs y comercio": "1 idea(s): Sello de confianza + garantía de compra para  (5.6)",
+    "Inmuebles y construcción": "HUECO: 1 empresa(s) afuera (QuintoAndar) y 0 ideas acá",
+    "Finanzas, seguros y trámites": "2 idea(s): Garantía de 6 a 12 meses para lo que comprás  (5.2) · Mutual P2P de lesiones para deportistas amate (5.0) | 5 empresa(s) afuera",
+    "Ocio, turismo y eventos": "1 idea(s): Lanchas y motorhomes parados: Turo de lo recr (4.6) | 2 empresa(s) afuera",
+    "Comunidad y vida cotidiana": "1 idea(s): Patios, quintas y campitos para perros por ho (5.4)"
+   },
+   "total": 22
+  },
+  {
+   "patron": "Financiación embebida",
+   "celdas": {
+    "Autos y movilidad": "HUECO: 1 empresa(s) afuera (Carvana (contraste con Kavak en Argentina)) y 0 ideas acá",
+    "PyMEs y comercio": "HUECO: 1 empresa(s) afuera (Faire (también Ankorstore en Europa, NuORDER en moda)) y 0 ideas acá",
+    "Inmuebles y construcción": "HUECO: 1 empresa(s) afuera (Curbio) y 0 ideas acá",
+    "Energía y agua": "1 idea(s): Techos solares financiados entre dos partes (5.4) | 1 empresa(s) afuera",
+    "Agro y alimentos": "HUECO: 1 empresa(s) afuera (Naked Wines) y 0 ideas acá",
+    "Educación y trabajo": "2 idea(s): Henry de los oficios: escuela corta que cobra (5.0) · Instrumentos musicales reacondicionados en al (4.8)",
+    "Finanzas, seguros y trámites": "HUECO: 7 empresa(s) afuera (Melio (adquirida por Xero), Kickfurther, Bilt Rewards) y 0 ideas acá"
+   },
+   "total": 15
+  },
+  {
+   "patron": "Productización de un servicio profesional",
+   "celdas": {
+    "Hogar y oficios": "1 idea(s): Humedad sin romper: de dónde viene, quién pag (4.8) | 1 empresa(s) afuera",
+    "Salud y cuidado": "4 idea(s): Apelador de prepagas y obras sociales: reclam (6.2) · Navegador de discapacidad: CUD, pensión, cobe (6.0) | 4 empresa(s) afuera",
+    "Logística y comercio exterior": "1 idea(s): Pasaporte EUDR para PyMEs exportadoras: políg (5.4)",
+    "PyMEs y comercio": "1 idea(s): Abrir un local en 30 días: habilitación + fis (5.8) | 1 empresa(s) afuera",
+    "Inmuebles y construcción": "4 idea(s): Antes de que te mida ARBA: diagnóstico sateli (6.2) · Agente del inquilino: busca, visita, negocia  (5.6) | 1 empresa(s) afuera",
+    "Agro y alimentos": "2 idea(s): Alta de alimentos en el registro único: inscr (5.6) · Manga que no lastima: instalaciones de manejo (4.0)",
+    "Educación y trabajo": "HUECO: 1 empresa(s) afuera (Multiverse — aprendizajes (apprenticeships) como alternativa a la universidad, financiados por el empleador) y 0 ideas acá",
+    "Finanzas, seguros y trámites": "7 idea(s): Pasaporte europeo después del cierre: evaluad (6.2) · Perito del asegurado: liquidador de siniestro (6.0) | 3 empresa(s) afuera"
+   },
+   "total": 31
+  },
+  {
+   "patron": "Franquicia de método",
+   "celdas": {
+    "Educación y trabajo": "HUECO: 1 empresa(s) afuera (Prenda (y el movimiento de microescuelas: Primer, KaiPod, Acton) — plataforma para que cualquier adulto abra una microescuela) y 0 ideas acá"
+   },
+   "total": 1
+  },
+  {
+   "patron": "Comunidad + servicio",
+   "celdas": {
+    "Salud y cuidado": "2 idea(s): Navegador de discapacidad: CUD, pensión, cobe (6.0) · Consejo de hermanos: caja común, turnos y dec (5.4)",
+    "Autos y movilidad": "HUECO: 1 empresa(s) afuera (Bring a Trailer (Hearst Autos)) y 0 ideas acá",
+    "Educación y trabajo": "1 idea(s): La puerta del colegio: salida ordenada por ap (5.6)",
+    "Finanzas, seguros y trámites": "2 idea(s): Junta digital (pasanaku/tanda) con reglas, co (6.2) · Mutual P2P de lesiones para deportistas amate (5.0)",
+    "Comunidad y vida cotidiana": "HUECO: 2 empresa(s) afuera (Timeleft — cenas entre desconocidos (comunidad liviana, por algoritmo), Nextdoor — red social de barrio) y 0 ideas acá"
+   },
+   "total": 8
+  },
+  {
+   "patron": "Agregador de activos distribuidos",
+   "celdas": {
+    "Logística y comercio exterior": "HUECO: 1 empresa(s) afuera (Porter (SmartShift Logistics Solutions)) y 0 ideas acá",
+    "Energía y agua": "HUECO: 1 empresa(s) afuera (Base Power) y 0 ideas acá",
+    "Comunidad y vida cotidiana": "1 idea(s): Sponsoreo hiperlocal: marcas compran presenci (6.0)"
+   },
+   "total": 3
+  }
+ ],
+ "lectura": [
+  "Huecos más grandes (el patrón funciona afuera en ese sector y no generamos ninguna idea acá): Financiación embebida en Finanzas, seguros y trámites (7: Melio (adquirida por Xero), Kickfurther, Bilt Rewards); «Uber de X» en Autos y movilidad (3: DriveU (Humble Mobile Solutions), Urgently (con Agero, con quien anunció que 'se unió'), Wrench (y YourMechanic)); Subasta y subasta inversa en Autos y movilidad (2: ACV Auctions (NASDAQ: ACVA), Bring a Trailer (Hearst Autos)); Servicio + datos: el servicio paga la operación, el dato acumulado vale más que el servicio en Finanzas, seguros y trámites (2: Zego, Root Insurance); Integrador: una sola marca y un solo contrato delante de proveedores separados en Salud y cuidado (2: Headway, Spring Health (y Lyra Health como referencia)); Hardware barato + software caro en Salud y cuidado (2: Durcal, Sword Health)",
+  "Celdas más llenas (donde se amontonaron las ideas): Productización de un servicio profesional en Finanzas, seguros y trámites (7); X como servicio, todo incluido en Agro y alimentos (6); Vertical SaaS + marketplace en Agro y alimentos (5); Plataforma de confianza / verificación en Inmuebles y construcción (5); Marketplace de capacidad ociosa en Agro y alimentos (5); Marketplace B2B mayorista en Agro y alimentos (5)",
+  "Patrones que ninguna idea usa: Franquicia digital, Sistema operativo de un rubro, Franquicia de método",
+  "Ideas vivas por sector (cada idea cuenta una vez): Hogar y oficios: 13, Salud y cuidado: 13, Autos y movilidad: 5, Logística y comercio exterior: 4, PyMEs y comercio: 9, Inmuebles y construcción: 14, Energía y agua: 6, Agro y alimentos: 24, Educación y trabajo: 12, Finanzas, seguros y trámites: 14, Ocio, turismo y eventos: 3, Comunidad y vida cotidiana: 8",
+  "Etiquetas descartadas por no coincidir con las listas: 0"
+ ]
+}

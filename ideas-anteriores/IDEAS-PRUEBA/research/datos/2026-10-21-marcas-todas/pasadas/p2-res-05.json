@@ -1,0 +1,456 @@
+[
+ {
+  "n": "M029",
+  "quien_lo_intento": "No encontré una app argentina de informes de relevamiento con IA. Busqué app de informe de inspección con fotos e IA para higiene y seguridad en Argentina [https://www.jotform.com/es/app-templates/app-de-inspeccion-movil]. Lo más cercano en Argentina es SafetyControl, de SafetyNova, de Orán, Salta: app de auditorías, inspecciones y checklists, que se presenta como de bajo costo y no publica precio [https://gust.com/companies/safetynova]. Afuera apareció Elevenais, de España, que analiza fotos con IA y arma informes técnicos para industria, energía y seguros [https://apps.apple.com/mx/app/elevenais/id6743342184]. No encontré cierres ni pivotes.",
+  "competencia": "SafetyCulture tiene versión gratis para equipos de hasta 10 personas y un plan Premium listado a USD 24 por mes, precio sin confirmar para Argentina [https://apps.apple.com/es/app/safetyculture-iauditor/id499999532]. Jotform tiene plantillas gratis de inspección con fotos y firma [https://www.jotform.com/es/app-templates/app-de-inspeccion-movil]. SafetyNova cubre auditorías en Argentina sin precio público [https://gust.com/companies/safetynova]. El hueco que queda es angosto: que la IA redacte el hallazgo en el formato que pide la norma argentina. Las apps de afuera dan la plantilla, pero el texto lo escribe el técnico.",
+  "regulacion": "La Ley 19.587 está reglamentada por el Decreto 351/79, vigente, y la construcción tiene su propio reglamento, el Decreto 911/96 [https://www.argentina.gob.ar/normativa/recurso/32030/texact/htm] [https://www.fio.unicen.edu.ar/extension/seh/images/pdf/cap1/dec1057-03.pdf]. Cuando el empleador está exceptuado de tener servicio de higiene y seguridad, la ART debe asesorarlo, según material de la UTN [https://www.frcon.utn.edu.ar/wp-content/uploads/2019/10/Seguridad-I-Organización-Interna-TUHyST-2019.pdf]. No verificado: qué formato exacto de constancia de visita exige la norma.",
+  "numeros": "Estimación: abono de USD 10 a 20 por técnico por mes, tomando como techo los USD 24 de SafetyCulture. Costo de IA por informe: estimación de USD 0,05 a 0,30, por unas 10 a 20 fotos analizadas por un modelo con visión. Margen bruto alto si el técnico lo usa solo. El problema no es el margen, es cuántos pagan: con USD 15 por mes harían falta unos 70 técnicos para juntar USD 1.000 mensuales, estimación.",
+  "mercado": "Sin dato de técnicos y licenciados en higiene y seguridad matriculados en Argentina. Busqué y no apareció una cifra oficial.",
+  "variante_recomendada": "Elegir un solo oficio: técnicos y licenciados en higiene y seguridad que visitan PyMEs y obras. Ofrecer el informe de visita ya redactado con IA a partir de fotos y notas de voz, en el formato que ellos entregan hoy. Probarlo primero gratis con 5 técnicos antes de construir nada.",
+  "entrevistar_a": [
+   "Técnicos y licenciados en higiene y seguridad independientes que atienden varias PyMEs, buscándolos en LinkedIn y en grupos de Facebook de seguridad e higiene de Argentina.",
+   "El responsable de seguridad que atiende a CEMEVA o a acopios de la zona, por contacto directo.",
+   "Docentes de la Tecnicatura en Higiene y Seguridad de la UTN, que conocen a muchos egresados que trabajan solos."
+  ],
+  "preguntas_entrevista": [
+   "Contame la última visita que hiciste: ¿cuánto tardaste en la visita y cuánto en escribir el informe después?",
+   "¿Cómo armás hoy el informe? ¿Word, una app, una planilla? Mostrame uno.",
+   "¿Cuántas visitas hiciste el mes pasado y a cuántos clientes distintos?",
+   "¿Pagás hoy alguna app o plantilla para esto? ¿Cuánto y desde cuándo?",
+   "¿Qué fue lo último que un cliente o una ART te pidió corregir en un informe?"
+  ],
+  "experimento": {
+   "hipotesis": "Los técnicos de higiene y seguridad que trabajan solos pierden más de 30 minutos por informe y pagarían por recibirlo redactado.",
+   "prediccion": "De 10 técnicos que prueben 3 informes gratis, al menos 3 aceptan pagar ARS 15.000 por mes en una preventa.",
+   "perdida_maxima": "USD 60",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar con Claude un prompt fijo y una plantilla de Google Docs para informe de visita.",
+    "Conseguir 10 técnicos por LinkedIn y grupos de Facebook.",
+    "Que cada uno mande fotos y notas de 3 visitas reales por WhatsApp y recibir el informe.",
+    "Medir cuánto texto corrigieron y ofrecer la preventa."
+   ],
+   "sigue_si": "3 o más pagan la preventa y corrigen menos de la cuarta parte del texto.",
+   "se_corta_si": "Menos de 2 pagan o todos corrigen casi todo el informe."
+  },
+  "puntuacion_revisada": 6.0,
+  "por_que_revisada": "Bajo de 6,8 porque SafetyCulture es gratis para equipos chicos y no encontré cuántos técnicos hay. El hueco real es solo la redacción con IA, y eso lo puede sumar cualquier app grande.",
+  "veredicto": "Probar si Facu quiere un experimento chico y barato, porque la prueba cuesta poco, pero no debería ser su negocio principal.",
+  "fuentes": [
+   "https://www.jotform.com/es/app-templates/app-de-inspeccion-movil",
+   "https://gust.com/companies/safetynova",
+   "https://apps.apple.com/mx/app/elevenais/id6743342184",
+   "https://apps.apple.com/es/app/safetyculture-iauditor/id499999532",
+   "https://www.argentina.gob.ar/normativa/recurso/32030/texact/htm",
+   "https://www.fio.unicen.edu.ar/extension/seh/images/pdf/cap1/dec1057-03.pdf",
+   "https://www.frcon.utn.edu.ar/wp-content/uploads/2019/10/Seguridad-I-Organización-Interna-TUHyST-2019.pdf"
+  ]
+ },
+ {
+  "n": "M025",
+  "quien_lo_intento": "No encontré cierres ni ventas de sitios de calculadoras argentinos. Lo que sí apareció es que hacecuentas.com ya entró al agro, con una calculadora de rentabilidad por hectárea de soja, maíz y trigo 2026 con retenciones [https://hacecuentas.com/calculadora-rural-rentabilidad-hectarea-soja-maiz-trigo-2026]. Eso achica la variante agro que proponía la primera pasada.",
+  "competencia": "En finanzas personales: hacecuentas.com, indicadores.ar y calcularsueldo.com.ar, ya verificados en la primera pasada. En agro: hacecuentas.com con margen por hectárea [https://hacecuentas.com/calculadora-rural-rentabilidad-hectarea-soja-maiz-trigo-2026]. No apareció una calculadora argentina que junte flete por tonelada, secado y merma. La fórmula de merma por humedad está publicada por la UTN según normas de la Cámara Arbitral de Rosario [https://www.frrq.utn.edu.ar/wp-content/uploads/2025/11/5010.pdf]. Ese es un hueco chico pero real, y Facu lo conoce por CEMEVA.",
+  "regulacion": "No aplica para calculadoras. Ojo con la merma: el cálculo sigue reglas de la Cámara Arbitral de Cereales de Rosario, así que la calculadora tiene que citarlas [https://www.frrq.utn.edu.ar/wp-content/uploads/2025/11/5010.pdf].",
+  "numeros": "Estimación: una web de nicho agro tiene poco tráfico, quizás miles de visitas por mes y no cientos de miles. Con publicidad eso da monedas. Por eso el número que importa no es la publicidad sino cuántos contactos deja para otros productos. Costo: dominio y hosting de USD 0 a 30 por año en Cloudflare, estimación.",
+  "mercado": "Sin dato de búsquedas mensuales en Google para estos términos. No usé herramientas de palabras clave.",
+  "variante_recomendada": "No hacerlo como negocio de publicidad. Hacer 3 calculadoras de liquidación de granos para productores chicos: merma por humedad, descuento por secado y comparación de flete. Que sirvan para conseguir contactos de productores y acopios para otras ideas de Facu.",
+  "entrevistar_a": [
+   "Productores chicos que venden a CEMEVA, por contacto directo del acopio.",
+   "Empleados de balanza y administración de acopios de la zona, que explican la liquidación a los productores.",
+   "Asesores de cooperativas agropecuarias, buscándolos en la zona y en LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "La última vez que recibiste una liquidación de granos, ¿la revisaste? ¿Cómo?",
+   "¿Qué descuento te sorprendió la última vez y qué hiciste?",
+   "¿Usás alguna web, planilla o app para hacer esas cuentas? ¿Cuál?",
+   "¿Con quién lo consultás cuando no te cierra un número?",
+   "¿Pagaste alguna vez por una herramienta o asesor para revisar liquidaciones?"
+  ],
+  "experimento": {
+   "hipotesis": "Los productores chicos buscan revisar su liquidación y una calculadora clara les sirve más que lo que hay.",
+   "prediccion": "Con 3 calculadoras compartidas en 5 grupos de WhatsApp de productores, al menos 100 usos y 15 contactos dejados en 4 semanas.",
+   "perdida_maxima": "USD 40",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Armar 3 calculadoras simples con Claude en una página estática.",
+    "Validar las fórmulas con el administrativo de CEMEVA.",
+    "Compartirlas en grupos de productores y en la web del acopio.",
+    "Medir usos y contactos con una analítica gratis."
+   ],
+   "sigue_si": "Más de 100 usos y 15 contactos.",
+   "se_corta_si": "Menos de 30 usos en 4 semanas."
+  },
+  "puntuacion_revisada": 5.5,
+  "por_que_revisada": "Bajo de 6,7 porque hacecuentas.com ya entró al agro y como negocio de publicidad no da números. Sirve solo como imán de contactos para otra idea.",
+  "veredicto": "No conviene como negocio propio, porque el tráfico tarda y ya hay competencia; sí como pieza barata para conseguir contactos de otra idea.",
+  "fuentes": [
+   "https://hacecuentas.com/calculadora-rural-rentabilidad-hectarea-soja-maiz-trigo-2026",
+   "https://www.frrq.utn.edu.ar/wp-content/uploads/2025/11/5010.pdf",
+   "https://bichosdecampo.com/gestion-comercial-agricola-como-pasar-del-me-estan-robando-a-poder-interpretar-de-manera-correcta-una-liquidacion-de-venta-de-granos/"
+  ]
+ },
+ {
+  "n": "M045",
+  "quien_lo_intento": "En Santa Fe, el Colegio de Médicos lanzó un certificado médico digital para terminar con las falsificaciones [https://www.ellitoral.com/salud/adios-papel-santa-fe-lanza-certificado-medico-digital-terminar-falsificaciones-agilizar-tramites_0_ZcNcA4Pv9f.html]. En Río Negro, en junio de 2024, el gobernador denunció a médicos por certificados falsos y habló de unos 20 involucrados [https://www.rionegro.com.ar/?p=3643796]. No encontré una empresa privada argentina que venda validación de certificados con IA.",
+  "competencia": "No apareció un servicio privado de validación. La competencia real es el propio Estado: el Decreto 407/2026 pide que los certificados con reposo salgan de plataformas registradas en el ReNaPDiS y firmados por profesionales del REFEPS [https://www.boletinoficial.gob.ar/detalleAviso/primera/342620/20260601]. REFEPS ya se usa como referencia para validar a quien receta, y hay consulta de matrícula en Mi Argentina con QR, según un acta del MERCOSUR [https://calendario.mercosur.int/simfiles/docreuniones/106564_SGT11-SCOEJER_2025_ACTA01_ES.docx]. El fichaje por tarjeta ya lo venden GeoVictoria y Jibble, según el contexto previo.",
+  "regulacion": "Decreto 407/2026, publicado en el Boletín Oficial el 2026-06-01, reglamenta el artículo 210 de la Ley de Contrato de Trabajo [https://www.argentina.gob.ar/normativa/nacional/decreto-407-2026-426270/texto]. Leído en el Boletín: las prescripciones con reposo se emiten electrónicamente por plataformas del ReNaPDiS, firmadas por profesionales del REFEPS, y si hay diferencia con el control del empleador se va a junta médica oficial o a un instituto reconocido [https://www.boletinoficial.gob.ar/detalleAviso/primera/342620/20260601]. El detalle está en el Anexo I, que no pude leer: no verificado si el papel queda como excepción ni los plazos. La regulación profesional es de cada provincia y las 24 jurisdicciones no están unificadas [https://e-legis-ar.msal.gov.ar/legisalud/migration/pdf/sssalres972_2023.pdf]. Ojo: los certificados tienen datos de salud, que son datos sensibles según la Ley 25.326 de datos personales; no lo leí hoy en la fuente.",
+  "numeros": "Estimación: abono por empleado de ARS 500 a 1.500 por mes, o un abono fijo de USD 20 a 50 por PyME. Costo de IA por certificado leído: menos de USD 0,05, estimación. El problema es que si el certificado ya viene firmado y registrado, el valor de validar baja casi a cero. Lo que queda es ordenar el legajo y alertar patrones.",
+  "mercado": "Sin dato nacional de ausentismo ni de certificados falsos. Busqué y solo aparecieron casos puntuales de Río Negro y Neuquén de 2024, que no sirven para medir [https://www.rionegro.com.ar/?p=3643796].",
+  "variante_recomendada": "La versión de Facu, comparar contra una base y contra el médico, ya la va a hacer el Estado con REFEPS y ReNaPDiS. Le recomendaría otra cosa: una herramienta para estudios contables que liquidan sueldos, que recibe los certificados por WhatsApp, verifica la matrícula, arma el legajo de ausencias y marca patrones raros. Antes de construir, confirmar si REFEPS tiene una consulta pública que un tercero pueda usar.",
+  "entrevistar_a": [
+   "Responsables de RRHH de PyMEs de 30 a 200 empleados, en grupos de LinkedIn de RRHH de Argentina.",
+   "Liquidadores de sueldos de estudios contables, por el contador de CEMEVA y grupos de Facebook de liquidadores.",
+   "Médicos laborales que hacen control de ausentismo para empresas."
+  ],
+  "preguntas_entrevista": [
+   "Contame el último certificado médico que te generó dudas: ¿qué hiciste?",
+   "¿Cómo te llegan hoy los certificados y dónde los guardás?",
+   "Desde junio, ¿cambió algo con el decreto nuevo? ¿Ya te llegan certificados digitales?",
+   "¿Pagás hoy un médico laboral o un servicio de control de ausentismo? ¿Cuánto?",
+   "¿Cuántas horas por mes se van en juntar certificados para liquidar sueldos?"
+  ],
+  "experimento": {
+   "hipotesis": "Las PyMEs y los liquidadores siguen recibiendo certificados desordenados aunque exista el decreto, y pagarían por ordenarlos.",
+   "prediccion": "De 15 entrevistas, al menos 6 cuentan un problema con certificados en los últimos 3 meses y 3 piden probar algo.",
+   "perdida_maxima": "USD 30",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Leer el Anexo I del Decreto 407/2026 en el Boletín Oficial.",
+    "Averiguar si REFEPS permite consultas de terceros.",
+    "Hacer 15 entrevistas a RRHH y liquidadores.",
+    "Mostrar una maqueta del legajo de ausencias hecha en una planilla."
+   ],
+   "sigue_si": "6 o más tienen el problema reciente y 3 piden probar.",
+   "se_corta_si": "La mayoría dice que el certificado digital ya les resolvió el tema."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "Bajo de 6,6 porque el decreto le da al Estado justo la validación que Facu quería hacer con IA. Queda un hueco de orden y legajo, más chico y fácil de copiar.",
+  "veredicto": "Probar si las entrevistas muestran que el certificado digital no llegó todavía a las PyMEs, porque si llegó el problema desaparece solo.",
+  "fuentes": [
+   "https://www.ellitoral.com/salud/adios-papel-santa-fe-lanza-certificado-medico-digital-terminar-falsificaciones-agilizar-tramites_0_ZcNcA4Pv9f.html",
+   "https://www.rionegro.com.ar/?p=3643796",
+   "https://www.boletinoficial.gob.ar/detalleAviso/primera/342620/20260601",
+   "https://www.argentina.gob.ar/normativa/nacional/decreto-407-2026-426270/texto",
+   "https://calendario.mercosur.int/simfiles/docreuniones/106564_SGT11-SCOEJER_2025_ACTA01_ES.docx",
+   "https://e-legis-ar.msal.gov.ar/legisalud/migration/pdf/sssalres972_2023.pdf",
+   "https://www.unidiversidad.com.ar/certificados-de-salud-falsos-quien-controla-las-irregularidades"
+  ]
+ },
+ {
+  "n": "M034",
+  "quien_lo_intento": "Ya hay varios en Argentina: Aconpy, Genio Contable, Contador-IA y Errepar, verificados en la primera pasada. Aconpy dice incluir sus bots gratis en todos sus planes; es contenido promocional [https://contadoresenred.com/el-futuro-llego-a-los-estudios-contables-conoce-todos-los-bots-inteligentes-que-hoy-automatizan-aconpy/]. La misma nota dice que aparecieron servicios tercerizados que arman bots a medida para estudios y cobran implementación y abono [https://contadoresenred.com/el-futuro-llego-a-los-estudios-contables-conoce-todos-los-bots-inteligentes-que-hoy-automatizan-aconpy/]. No encontré cierres. Un proyecto de la Universidad Kennedy de 2026 estudia qué tareas contables reemplaza la IA, pero no vi sus resultados [https://www.kennedy.edu.ar/wp-content/uploads/2026/08/Proyecto-Di-Grigoli-Bruno.pdf].",
+  "competencia": "Aconpy con bots incluidos sin costo extra, sin precio público [https://blogdelcontador.com.ar/news-46298-el-futuro-llego-a-los-estudios-contables-conoce-todos-los-bots-inteligentes-que-hoy-automatizan-aconpy]. Genio Contable, Contador-IA y Errepar sin precio encontrado. Que el líder regale los bots es una mala señal para cobrar por automatizar tareas genéricas. Los huecos son tareas angostas que esos sistemas no tocan.",
+  "regulacion": "No verificado. El riesgo es de responsabilidad profesional: el que firma es el contador, no la herramienta.",
+  "numeros": "Estimación: abono de USD 20 a 60 por estudio por mes para una tarea angosta. Costo de IA por cliente del estudio: centavos de dólar por mes, estimación. Si un estudio ahorra 5 horas por mes y la hora de un empleado vale unos USD 5 a 8, estimación, el ahorro es de USD 25 a 40, lo que pone techo al precio.",
+  "mercado": "Unos 140.000 contadores públicos matriculados en Argentina, cifra periodística de 2023 sin fuente oficial citada [https://misionesonline.net/2023/11/15/contadores-desafios/]. Sin dato de cuántos estudios contables hay.",
+  "variante_recomendada": "La de Facu es la correcta: primero encontrar la tarea, después hacer el producto. Hacer 10 entrevistas con la lista de tareas mensuales y horas, y elegir una que no hagan Aconpy ni Genio Contable. Si aparece algo agro, como ordenar liquidaciones de granos para el contador, tiene ventaja por CEMEVA.",
+  "entrevistar_a": [
+   "El contador de CEMEVA y los contadores de productores de la zona.",
+   "Empleados administrativos de estudios contables chicos, que son los que hacen la tarea repetitiva, por LinkedIn.",
+   "Contadores jóvenes en grupos de Facebook como Contadores en Red."
+  ],
+  "preguntas_entrevista": [
+   "¿Qué hiciste el mes pasado para cada cliente que fue igual que el mes anterior?",
+   "De esas tareas, ¿cuál te llevó más horas y quién la hizo?",
+   "¿Qué sistema usás hoy y qué parte seguís haciendo a mano igual?",
+   "¿Pagaste alguna vez a alguien para automatizar algo? ¿Qué pasó?",
+   "¿Cuál fue el último error que se te escapó y cuánto te costó?"
+  ],
+  "experimento": {
+   "hipotesis": "Existe al menos una tarea mensual que más de la mitad de los estudios hace a mano y que los sistemas actuales no cubren.",
+   "prediccion": "De 10 entrevistas, la misma tarea aparece en al menos 5 y lleva más de 4 horas por mes.",
+   "perdida_maxima": "USD 20",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Armar una planilla de tareas mensuales con horas y sistema usado.",
+    "Hacer 10 entrevistas de 30 minutos.",
+    "Ordenar las tareas por horas y por cuántos las repiten.",
+    "Cruzar la ganadora contra lo que hacen Aconpy y Genio Contable."
+   ],
+   "sigue_si": "Una tarea aparece en 5 o más estudios y no la cubre nadie.",
+   "se_corta_si": "Todas las tareas pesadas ya las cubre el software que usan."
+  },
+  "puntuacion_revisada": 6.0,
+  "por_que_revisada": "Bajo de 6,6 porque el líder regala los bots y hay al menos cuatro jugadores con IA. Sigue viva porque Facu no tiene la tarea elegida todavía y las entrevistas son casi gratis.",
+  "veredicto": "Probar si en 10 entrevistas aparece una tarea angosta que nadie cubre, porque la idea general ya está ocupada.",
+  "fuentes": [
+   "https://contadoresenred.com/el-futuro-llego-a-los-estudios-contables-conoce-todos-los-bots-inteligentes-que-hoy-automatizan-aconpy/",
+   "https://blogdelcontador.com.ar/news-46298-el-futuro-llego-a-los-estudios-contables-conoce-todos-los-bots-inteligentes-que-hoy-automatizan-aconpy",
+   "https://www.kennedy.edu.ar/wp-content/uploads/2026/08/Proyecto-Di-Grigoli-Bruno.pdf",
+   "https://misionesonline.net/2023/11/15/contadores-desafios/"
+  ]
+ },
+ {
+  "n": "M026",
+  "quien_lo_intento": "B2Gov es una GovTech argentina fundada en 2019 en Buenos Aires que da alertas de licitaciones y monitoreo de precios en compras públicas; dice operar en 13 países con más de 250 usuarios, dato de un directorio de terceros [https://www.descubre.vc/b2gov]. Hay una startup argentina que usa IA para detectar anomalías en licitaciones [https://ecosistemastartup.com/startup-argentina-usa-ia-contra-corrupcion-en-licitaciones-publicas/]. En Apify hay un scraper de licitaciones de CABA [https://apify.com/mfapitools/licitaciones-feed]. No encontré cierres.",
+  "competencia": "En licitaciones: Indicadores Argentina Pro a ARS 29.900 por mes, verificado en la primera pasada, y B2Gov sin precio público [https://www.descubre.vc/b2gov]. En alertas para el agro no busqué hoy: no verificado. Opinión: 250 usuarios en 13 países en 7 años muestra que es un mercado chico y lento.",
+  "regulacion": "No aplica para alertas basadas en datos públicos. Si se leen webs de terceros, revisar sus términos de uso: no verificado.",
+  "numeros": "Estimación: abono de USD 10 a 30 por mes. Indicadores cobra ARS 29.900, unos USD 19 con un dólar cerca de ARS 1.540, que es el valor que mostraba un medio el día de la consulta, estimación [https://www.letrap.com.ar/letrae/economia-finanzas/galperin-sube-al-ring-el-bcra-pelear-las-comisiones-n5336578]. Cobro por Mercado Pago: blogs de 2026 hablan de cerca de 3% más IVA por cobro, no verificado en la página oficial porque devolvió error [https://fortunaweb.com.ar/blog/cuanto-cobran-realmente-las-pasarelas-de-pago-por-vender-online]. Costo de correr las alertas: casi cero.",
+  "mercado": "Sin dato. B2Gov dice tener más de 250 usuarios en 13 países [https://www.descubre.vc/b2gov].",
+  "variante_recomendada": "Dejar las licitaciones, que ya están cubiertas y Facu no eligió el radar F19. Probar una alerta para acopios y productores sobre cambios que les cuestan plata, como retenciones o normas de SENASA, pero solo si en las entrevistas aparece una pérdida concreta por enterarse tarde.",
+  "entrevistar_a": [
+   "El encargado comercial de CEMEVA y de otros acopios de la zona.",
+   "Corredores de granos, por contacto del acopio.",
+   "Administradores de PyMEs que venden al Estado, en grupos de proveedores del Estado en LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuál fue el último cambio de precio o de norma del que te enteraste tarde? ¿Cuánto te costó?",
+   "¿Cómo te enterás hoy de esas cosas?",
+   "¿Pagás alguna suscripción de noticias o alertas? ¿Cuál y cuánto?",
+   "¿Cuántas veces por año pasa algo así?",
+   "¿Quién en la empresa se ocupa de seguir esas novedades?"
+  ],
+  "experimento": {
+   "hipotesis": "Los acopios pierden plata por enterarse tarde de cambios y pagarían una alerta temprana.",
+   "prediccion": "De 8 acopios o corredores, al menos 3 cuentan una pérdida concreta en el último año.",
+   "perdida_maxima": "USD 20",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Hacer 8 entrevistas en la zona de CEMEVA.",
+    "Si aparece el dolor, mandar alertas a mano por WhatsApp durante 2 semanas.",
+    "Ofrecer pagar el mes siguiente."
+   ],
+   "sigue_si": "3 o más cuentan una pérdida y 2 pagan el mes siguiente.",
+   "se_corta_si": "Nadie recuerda una pérdida concreta."
+  },
+  "puntuacion_revisada": 5.0,
+  "por_que_revisada": "Bajo de 6,5 porque las licitaciones ya tienen dos jugadores y la variante agro no tiene evidencia de dolor. Queda como experimento de entrevistas, nada más.",
+  "veredicto": "No conviene por ahora, porque el nicho de licitaciones está cubierto y el de agro todavía no mostró que duela lo suficiente.",
+  "fuentes": [
+   "https://www.descubre.vc/b2gov",
+   "https://ecosistemastartup.com/startup-argentina-usa-ia-contra-corrupcion-en-licitaciones-publicas/",
+   "https://apify.com/mfapitools/licitaciones-feed",
+   "https://www.letrap.com.ar/letrae/economia-finanzas/galperin-sube-al-ring-el-bcra-pelear-las-comisiones-n5336578",
+   "https://fortunaweb.com.ar/blog/cuanto-cobran-realmente-las-pasarelas-de-pago-por-vender-online"
+  ]
+ },
+ {
+  "n": "M030",
+  "quien_lo_intento": "En Argentina ya hay consultores que implementan Claude en empresas. Duotach ofrece implementación, capacitación y agentes con Claude Code en un proceso de unas 6 semanas con precio cerrado, sin publicar el monto [https://duotach.com/servicios/claude-para-empresas-argentina]. Diego Ceredi se presenta como consultor de Claude en Argentina; lo de la certificación lo dice él [https://www.diegoceredi.com/blog/consultor-claude-argentina]. No encontré a nadie que venda solo Skills ni casos argentinos documentados.",
+  "competencia": "Duotach y Diego Ceredi, sin precios públicos [https://duotach.com/servicios/claude-para-empresas-argentina] [https://www.diegoceredi.com/claude-para-empresas]. Hay guías gratis en español que explican cómo armar Skills [https://www.juancmejia.com/inteligencia-artificial/skills-de-claude-que-son-y-como-convierten-la-ia-en-un-verdadero-especialista/]. El hueco: nadie empaqueta Skills por rubro, pero eso se parece al pack para contadores F18 que Facu no eligió.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: un servicio de armado de 3 a 5 Skills podría cobrarse USD 150 a 400 por empresa, por comparación con lo que cobra un freelance por un día o dos de trabajo. El costo es el tiempo de Facu. Es trabajo a medida: cada venta nueva es trabajo nuevo.",
+  "mercado": "Sin dato.",
+  "variante_recomendada": "No venderlo solo. Usar las Skills como herramienta interna para hacer más rápido los entregables de otra idea, por ejemplo el diagnóstico de stock o los informes de relevamiento.",
+  "entrevistar_a": [
+   "Dueños de PyMEs que ya pagan Claude o ChatGPT para su equipo, por LinkedIn.",
+   "El equipo administrativo de CEMEVA, como primer caso interno.",
+   "Consultores de IA que ya venden implementación, para saber qué les piden."
+  ],
+  "preguntas_entrevista": [
+   "¿Qué tarea le diste a la IA la última semana y cómo salió?",
+   "¿Cuántas veces tuviste que explicarle lo mismo?",
+   "¿Pagaste a alguien para configurar la IA en la empresa? ¿Cuánto?",
+   "¿Qué procedimiento escrito tenés hoy y dónde está?",
+   "¿Qué pasó la última vez que alguien nuevo tuvo que aprender un proceso?"
+  ],
+  "experimento": {
+   "hipotesis": "Unas pocas Skills ahorran tiempo medible en tareas repetidas de una PyME.",
+   "prediccion": "3 Skills en CEMEVA ahorran al menos 4 horas en un mes.",
+   "perdida_maxima": "USD 25",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Elegir 3 tareas repetidas de CEMEVA.",
+    "Armar una Skill para cada una.",
+    "Medir el tiempo antes y después durante un mes."
+   ],
+   "sigue_si": "Ahorra 4 horas o más y alguien de afuera pide lo mismo.",
+   "se_corta_si": "Ahorra menos de 2 horas o nadie la usa."
+  },
+  "puntuacion_revisada": 4.8,
+  "por_que_revisada": "Bajo de 6,2 porque es trabajo a medida, ya hay consultores argentinos haciéndolo y Facu quiere producto global. Vale como herramienta interna.",
+  "veredicto": "No conviene como negocio, porque es servicio a medida con competencia; sí como herramienta para acelerar otra idea.",
+  "fuentes": [
+   "https://duotach.com/servicios/claude-para-empresas-argentina",
+   "https://www.diegoceredi.com/blog/consultor-claude-argentina",
+   "https://www.diegoceredi.com/claude-para-empresas",
+   "https://www.juancmejia.com/inteligencia-artificial/skills-de-claude-que-son-y-como-convierten-la-ia-en-un-verdadero-especialista/"
+  ]
+ },
+ {
+  "n": "M004",
+  "quien_lo_intento": "No encontré a nadie en Argentina ni en Latinoamérica. Busqué identificación de repuestos y tornillos por foto con IA en Latinoamérica [https://universe.roboflow.com/aduana/tornillo-2mhft]. Afuera: PartPic, de Atlanta, identificaba piezas de mantenimiento por foto, levantó USD 1,5 millones y figura como adquirida [https://techcrunch.com/?p=1172641] [https://app.dealroom.co/companies/partpic]. synthavo, de Stuttgart, fundada en 2019, identifica repuestos con una foto del celular [https://www.synthavo.de/en/about-us]. Kverneland, fabricante agrícola, tiene búsqueda de piezas por foto en su app [https://www.farmersjournal.ie/parts-image-recognition-technology-on-mykverneland-platform-882666]. Que PartPic se vendiera muestra que la tecnología tiene valor para empresas grandes de repuestos.",
+  "competencia": "En Argentina no apareció nadie con búsqueda por foto. Los sistemas para ferreterías que aparecen, como MiPOS y Lider Gestión, son de ventas, stock y facturación [https://www.capterra.ca/software/1093707/MiPOS] [https://www.capterra.com.au/software/1073856/Lider-Gestion]. La alternativa manual es el calibre de roscas, que identifica diámetro y paso a mano [https://sensorautomotriz.com/preguntas-frecuentes/como-saber-el-tamano-de-la-rosca-de-una-tuerca]. Ese es el verdadero competidor en el mostrador: barato y confiable.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: abono de USD 15 a 40 por local por mes. Costo de IA por foto: menos de USD 0,01 a 0,03 con un modelo de visión, estimación. Margen bruto alto. La duda grande es el acierto: una foto no ve bien el paso de rosca, así que quizás haga falta la regla más un calibre en la foto.",
+  "mercado": "Unas 15.000 ferreterías en Argentina según la cámara CAFARA, que aclara que no hay registro oficial; 80% venden al consumidor final [https://www.diariojornada.com.ar/353795/magazine/dia_de_los_ferreteros_el_cosito_del_coso_y_me_muestra_la_lija_otras_galimatias_de_un_oficio_centenario] [https://www.noticiasnqn.com.ar/noticias/2023/09/03/282172-dia-del-ferretero-traductores-del-cosito-del-coso-a-la-compleja-rosca-izquierda]. Sin dato de bulonerías.",
+  "variante_recomendada": "Empezar como dice Facu, solo software, pero con tornillería métrica y no multinicho. La foto va sobre una plantilla impresa con regla y calibre de rosca, y devuelve tipo, medida y código del local. La búsqueda por nombre y el pick-to-light quedan para después de probar que acierta.",
+  "entrevistar_a": [
+   "Empleados de mostrador de bulonerías del AMBA y de la zona de CEMEVA, visitando los locales.",
+   "Dueños de ferreterías chicas, en la Expo Ferretera o en grupos de ferreteros.",
+   "Jefes de mantenimiento de plantas y acopios que compran bulones y rodamientos."
+  ],
+  "preguntas_entrevista": [
+   "La última vez que alguien trajo un tornillo en la mano, ¿cuánto tardaste en encontrarlo?",
+   "¿Cuántas veces por día pasa eso?",
+   "¿Qué hacés hoy para identificarlo? ¿Calibre, ojo, catálogo?",
+   "¿Cuándo fue la última vez que se fue un cliente sin la pieza? ¿Por qué?",
+   "¿Qué sistema usás para el stock y cuánto pagás?"
+  ],
+  "experimento": {
+   "hipotesis": "Un modelo de visión con una plantilla de regla acierta tipo y medida de tornillos métricos comunes.",
+   "prediccion": "8 de cada 10 aciertos en 50 fotos de tornillos conocidos.",
+   "perdida_maxima": "USD 50",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Comprar 25 tornillos métricos distintos y una plantilla con regla.",
+    "Sacar 2 fotos de cada uno con el celular.",
+    "Probar con Claude y Gemini y anotar aciertos.",
+    "Visitar 5 bulonerías y medir cuántas consultas así reciben por día."
+   ],
+   "sigue_si": "8 o más aciertos de cada 10 y al menos 10 consultas por día en las bulonerías.",
+   "se_corta_si": "Menos de 6 de cada 10 aciertos aun con plantilla."
+  },
+  "puntuacion_revisada": 7.4,
+  "por_que_revisada": "Bajo un poco de 7,9 porque el calibre manual es barato y la foto puede fallar en el paso de rosca. Sigue arriba porque no hay nadie en Argentina, la prueba es barata y la venta de PartPic muestra valor.",
+  "veredicto": "Probar ya el test de 50 fotos, porque cuesta menos de USD 50 y decide si la idea sigue o no.",
+  "fuentes": [
+   "https://universe.roboflow.com/aduana/tornillo-2mhft",
+   "https://techcrunch.com/?p=1172641",
+   "https://app.dealroom.co/companies/partpic",
+   "https://www.synthavo.de/en/about-us",
+   "https://www.farmersjournal.ie/parts-image-recognition-technology-on-mykverneland-platform-882666",
+   "https://www.capterra.ca/software/1093707/MiPOS",
+   "https://www.capterra.com.au/software/1073856/Lider-Gestion",
+   "https://sensorautomotriz.com/preguntas-frecuentes/como-saber-el-tamano-de-la-rosca-de-una-tuerca",
+   "https://www.diariojornada.com.ar/353795/magazine/dia_de_los_ferreteros_el_cosito_del_coso_y_me_muestra_la_lija_otras_galimatias_de_un_oficio_centenario",
+   "https://www.noticiasnqn.com.ar/noticias/2023/09/03/282172-dia-del-ferretero-traductores-del-cosito-del-coso-a-la-compleja-rosca-izquierda"
+  ]
+ },
+ {
+  "n": "M009",
+  "quien_lo_intento": "No encontré a nadie en Argentina con un sistema integral de piezas chicas. Afuera, PartPic fue adquirida y synthavo sigue activa, ambas en identificación por foto [https://app.dealroom.co/companies/partpic] [https://www.synthavo.de/en/about-us]. Los sistemas argentinos que aparecen para ferreterías, MiPOS y Lider Gestión, son de venta, stock y facturación; un usuario de Lider valora que no tiene abono mensual [https://www.capterra.ca/software/1093707/MiPOS] [https://www.getapp.com.au/software/2080119/lider-gestion].",
+  "competencia": "MiPOS figura con un valor de USD 10 sin período aclarado, no verificado [https://www.capterra.ca/software/1093707/MiPOS]. Lider Gestión sin precio público [https://www.capterra.com.au/software/1073856/Lider-Gestion]. Para conteo por peso, una balanza cuentapiezas básica cuesta unos EUR 163 en España; no encontré precio en Argentina [https://www.carrefour.es/balanza-cuentapiezas-pce-bs-3000/4250348700575/p]. El hueco es la capa de saber qué pieza es y dónde está, no la facturación.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación por capas. Capa software: USD 15 a 40 por local por mes. Capa conteo por peso: una balanza de unos USD 180 a 300 puesta en Argentina, estimación a partir del precio en España más importación. Capa pick-to-light: no verificado, cientos o miles de dólares por local. Con USD 1.300 de ahorro, solo la capa software se puede probar.",
+  "mercado": "Unas 15.000 ferreterías según CAFARA, sin registro oficial [https://www.diariojornada.com.ar/353795/magazine/dia_de_los_ferreteros_el_cosito_del_coso_y_me_muestra_la_lija_otras_galimatias_de_un_oficio_centenario]. CAFARA agrupa unos 300 socios, mayoría PyMEs familiares [https://www.noticiasnqn.com.ar/noticias/2023/09/03/282172-dia-del-ferretero-traductores-del-cosito-del-coso-a-la-compleja-rosca-izquierda]. Sin dato de mercerías, bulonerías ni multimarcas.",
+  "variante_recomendada": "Respetar la idea integral de Facu como mapa, pero vender por capas. Primero la capa 1, identificar y ubicar la pieza, probada con M004. Después la balanza cuentapiezas para inventarios rápidos, que usa hardware que ya existe.",
+  "entrevistar_a": [
+   "Dueños de bulonerías y mayoristas de tornillería, en Expo Ferretera y por visitas.",
+   "Encargados de stock de mercerías grandes del AMBA, por visita.",
+   "Vendedores de balanzas industriales en Argentina, para saber quién compra cuentapiezas hoy."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo hiciste el último inventario? ¿Cuánto tardaste y cuánta gente usaste?",
+   "¿Cuánto te dio de diferencia contra el sistema?",
+   "¿Qué piezas se te pierden o roban más?",
+   "¿Qué compraste en los últimos 2 años para ordenar el stock y cuánto costó?",
+   "¿Cómo encuentra hoy un empleado nuevo dónde está cada cosa?"
+  ],
+  "experimento": {
+   "hipotesis": "Los comercios de piezas chicas tienen diferencias de inventario grandes y pagarían por saber qué y dónde.",
+   "prediccion": "De 10 visitas, al menos 6 hacen inventario a mano y tienen más de 5% de diferencia.",
+   "perdida_maxima": "USD 40",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Visitar 10 ferreterías y bulonerías.",
+    "Cronometrar cuánto tardan en encontrar 5 piezas.",
+    "Preguntar por el último inventario y su diferencia.",
+    "Juntarlo con el test de fotos de M004."
+   ],
+   "sigue_si": "6 o más tienen el problema y 3 aceptan una prueba gratis.",
+   "se_corta_si": "La mayoría dice que encuentra todo rápido y no hace inventario."
+  },
+  "puntuacion_revisada": 7.2,
+  "por_que_revisada": "Bajo un poco de 7,6 porque la versión integral no entra en USD 1.300 y no hay dato de cuánto pierden los comercios. Sigue alta porque es el interés más constante de Facu y no hay nadie local.",
+  "veredicto": "Probar ya la capa 1 junto con M004, porque es lo único que entra en el presupuesto y decide el rumbo del resto.",
+  "fuentes": [
+   "https://app.dealroom.co/companies/partpic",
+   "https://www.synthavo.de/en/about-us",
+   "https://www.capterra.ca/software/1093707/MiPOS",
+   "https://www.getapp.com.au/software/2080119/lider-gestion",
+   "https://www.capterra.com.au/software/1073856/Lider-Gestion",
+   "https://www.carrefour.es/balanza-cuentapiezas-pce-bs-3000/4250348700575/p",
+   "https://www.diariojornada.com.ar/353795/magazine/dia_de_los_ferreteros_el_cosito_del_coso_y_me_muestra_la_lija_otras_galimatias_de_un_oficio_centenario",
+   "https://www.noticiasnqn.com.ar/noticias/2023/09/03/282172-dia-del-ferretero-traductores-del-cosito-del-coso-a-la-compleja-rosca-izquierda"
+  ]
+ },
+ {
+  "n": "M007",
+  "quien_lo_intento": "No encontré a nadie en Argentina que venda un informe ABC desde un export. Busqué herramientas online para subir un Excel y obtener el ABC. Solo aparecen plantillas, como la gratis de Crehana, y un proyecto abierto en Python que pide producto, stock y ventas mensuales y devuelve un Excel con ABC [https://www.crehana.com/business/descargables/plantilla-analisis-abc/] [https://www.mintlify.com/AngheloMP10/inventario-inteligente-python/quickstart].",
+  "competencia": "Plantillas gratis de Crehana [https://www.crehana.com/business/descargables/plantilla-analisis-abc/]. Módulos de Odoo con ABC, verificados antes. Finale Inventory dice que la planilla alcanza con menos de 500 productos; arriba de eso conviene software [https://www.finaleinventory.com/guides/abc-analysis/]. Eso marca el cliente: comercios con más de 500 productos y sin sistema que haga ABC. La competencia real es que el contador o un sobrino lo haga gratis en Excel.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: informe único de USD 30 a 80. Costo: el tiempo de limpiar el export, de 30 minutos a 2 horas por archivo, estimación. Si se automatiza la limpieza, el costo baja a casi cero. Como producto suelto da poco; como entrada al diagnóstico de L9 tiene sentido.",
+  "mercado": "Sin dato de comercios con más de 500 productos. Como referencia, unas 15.000 ferreterías según CAFARA [https://www.diariojornada.com.ar/353795/magazine/dia_de_los_ferreteros_el_cosito_del_coso_y_me_muestra_la_lija_otras_galimatias_de_un_oficio_centenario].",
+  "variante_recomendada": "Informe ABC de pago único como gancho de L9, para comercios de más de 500 productos. Sumar algo que la plantilla gratis no da: lista de productos muertos con plata inmovilizada y sugerencia de compra.",
+  "entrevistar_a": [
+   "Dueños de ferreterías y casas de repuestos con sistema de caja, por visita.",
+   "Vendedores de Tiendanube con más de 300 productos, en grupos de Facebook de vendedores.",
+   "Encargados de compras de distribuidoras chicas."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo decidiste la última compra grande? ¿Qué miraste?",
+   "¿Sabés cuánta plata tenés parada en productos que no se venden? ¿Cómo lo sabés?",
+   "¿Tu sistema te da algún informe de ventas por producto? ¿Lo usás?",
+   "¿Cuándo fue la última vez que te quedaste sin algo que se vende mucho?",
+   "¿Pagaste alguna vez a alguien para analizar tus ventas?"
+  ],
+  "experimento": {
+   "hipotesis": "Los comercios con muchos productos pagan un informe que les muestre qué deja plata y qué está muerto.",
+   "prediccion": "De 15 comercios contactados, 5 mandan su export y 2 pagan USD 40.",
+   "perdida_maxima": "USD 30",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar la planilla ABC fija con productos muertos.",
+    "Ofrecer 3 informes gratis y medir cuánto lleva limpiar cada export.",
+    "Ofrecer el informe pago a otros 12."
+   ],
+   "sigue_si": "2 o más pagan y la limpieza baja a menos de 1 hora por archivo.",
+   "se_corta_si": "Nadie paga o cada export lleva más de 2 horas."
+  },
+  "puntuacion_revisada": 7.0,
+  "por_que_revisada": "Bajo de 7,6 porque como producto solo es chico y hay plantillas gratis. Se mantiene alto como gancho barato de L9, sin hardware.",
+  "veredicto": "Probar ya como gancho de L9, porque cuesta casi nada y enseña cuánto trabajo da cada export.",
+  "fuentes": [
+   "https://www.crehana.com/business/descargables/plantilla-analisis-abc/",
+   "https://www.mintlify.com/AngheloMP10/inventario-inteligente-python/quickstart",
+   "https://www.finaleinventory.com/guides/abc-analysis/",
+   "https://www.diariojornada.com.ar/353795/magazine/dia_de_los_ferreteros_el_cosito_del_coso_y_me_muestra_la_lija_otras_galimatias_de_un_oficio_centenario"
+  ]
+ },
+ {
+  "n": "M013",
+  "quien_lo_intento": "No encontré una app o startup argentina dedicada a medir productividad de operarios de depósito. Busqué app y tablero de líneas por hora para PyMEs en Argentina [https://docs.google.com/document/d/16CSZ2mWHIo6zrlJHhmtsSUCz8JTizdhc/export?format=pdf]. Apareció un procedimiento de un depósito argentino que usa el ERP CHESS con módulo de picking e indicadores; no es fuente oficial [https://docs.google.com/document/d/16CSZ2mWHIo6zrlJHhmtsSUCz8JTizdhc/export?format=pdf]. Avisos de trabajo de picking en Pilar y San Justo piden manejo de radiofrecuencia, lo que sugiere que los depósitos grandes ya miden con escáner [https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-operariosas-de-picking-zona-pilar-en-pilar-915C2F41290A32D661373E686DCF3405].",
+  "competencia": "WMS como Odoo o Zoho Inventory para PyMEs, sin precio verificado en Argentina [https://www.cleverence.com/articles/business-blogs-es/wms-for-business-owners-features-roi-and-top-10-solutions-4827/]. Un agregador muestra Brilliant WMS de USD 1.000 a 3.250 por mes para 50 usuarios, no oficial [https://www.spendbase.co/es/vendors/brilliant-wms/]. ERP CHESS con módulo de picking. El hueco: depósitos medianos sin WMS ni escáner.",
+  "regulacion": "No verificado. Medir a operarios puede chocar con convenios colectivos y con delegados gremiales; no lo leí en la fuente.",
+  "numeros": "Estimación: abono de USD 30 a 80 por depósito por mes. Costo casi cero si es una app no-code con carga desde el celular. El dueño paga si el número le permite ahorrar un turno o un operario: un operario cuesta varios cientos de dólares por mes, estimación sin fuente.",
+  "mercado": "Sin dato de depósitos medianos en Argentina.",
+  "variante_recomendada": "La original, con carga desde el celular, pero probada primero en el acopio de CEMEVA en cosecha, midiendo tiempos de descarga de camiones. Es un caso propio, con datos reales, y enseña si el dueño usa el número antes de venderlo afuera.",
+  "entrevistar_a": [
+   "Jefes de depósito de distribuidoras medianas sin WMS, por LinkedIn.",
+   "Encargados de planta de acopios en cosecha, por CEMEVA.",
+   "Operadores logísticos chicos del conurbano, en grupos de logística de LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuántos pedidos armó tu equipo ayer? ¿Cómo lo sabés?",
+   "¿Cuál fue el último día que no llegaron a despachar todo? ¿Qué pasó?",
+   "¿Cómo decidís cuánta gente poner en cada turno?",
+   "¿Probaste alguna vez medir tiempos? ¿Qué dijeron los operarios?",
+   "¿Cuánto pagás hoy por el sistema de depósito, si tenés uno?"
+  ],
+  "experimento": {
+   "hipotesis": "Un registro simple de inicio y fin desde el celular da números que el dueño usa para decidir.",
+   "prediccion": "En 2 semanas de uso, el registro cubre al menos 80% de los pedidos o camiones y el dueño cambia una decisión.",
+   "perdida_maxima": "USD 30",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar un formulario de inicio y fin con un tablero simple.",
+    "Usarlo en CEMEVA o Sporting durante 2 semanas.",
+    "Mostrarle al dueño líneas por hora o camiones por hora.",
+    "Preguntar qué decisión cambiaría."
+   ],
+   "sigue_si": "Se registra más del 80% y el dueño cambia algo.",
+   "se_corta_si": "Los operarios dejan de cargar antes de la primera semana."
+  },
+  "puntuacion_revisada": 6.3,
+  "por_que_revisada": "Bajo de 7,0 porque los depósitos grandes ya miden con escáner y en los medianos no hay evidencia de que el dueño pague solo por medir. Además puede haber resistencia gremial.",
+  "veredicto": "Probar si se puede hacer gratis en CEMEVA o Sporting, porque el caso propio enseña mucho y no cuesta casi nada.",
+  "fuentes": [
+   "https://docs.google.com/document/d/16CSZ2mWHIo6zrlJHhmtsSUCz8JTizdhc/export?format=pdf",
+   "https://ar.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-operariosas-de-picking-zona-pilar-en-pilar-915C2F41290A32D661373E686DCF3405",
+   "https://www.cleverence.com/articles/business-blogs-es/wms-for-business-owners-features-roi-and-top-10-solutions-4827/",
+   "https://www.spendbase.co/es/vendors/brilliant-wms/",
+   "https://research.upn.edu.pe/en/publications/implementaci%C3%B3n-del-estudio-de-tiempos-para-incrementar-la-product/"
+  ]
+ }
+]

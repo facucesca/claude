@@ -1,0 +1,222 @@
+[
+ {
+  "n": "M021",
+  "opinion": "Tu comentario dice que es más de lo mismo que la anterior y que el rubro tiene falta de regulación. Lo entiendo como dos cosas: que va en la misma familia que ALI-2-4 y ALI-3-2, y que el control flojo es a la vez el hueco y el problema. Ese es el punto débil: si la bromatología municipal casi no inspecciona, el productor chico no siente urgencia de pagar por tener sus registros en orden. Como producto suelto, un registro digital de higiene y temperatura es fácil de copiar y ya hay plantillas gratis de afuera. Solo tiene sentido como una pieza de un paquete más grande de orden sanitario para productores chicos.",
+  "hallazgos": "No apareció una app argentina específica de registros de temperatura y BPM para gastronomía. Lo que existe es de afuera: Qamarero, en español, con sensores y avisos; no se confirmó si opera en Argentina [https://qamarero.com/control-temperatura-restaurantes/] (consulta 2026-10-23). Hay plantillas digitales genéricas de registro de temperatura de Lumiform y SafetyCulture [https://lumiformapp.com/es/checklists-recursos/registros-de-temperatura] [https://safetyculture.com/es/listas-de-verificacion/registro-de-temperatura/] (consulta 2026-10-23). Ojo: en el registro figura ALI-4-2, sensores para cámaras de frío que fallan de noche, como NO elegida por vos; por eso no propongo la versión con sensores.",
+  "variantes": [
+   "La que pide tu comentario: un solo producto de orden sanitario para productores chicos que junte registros de higiene y temperatura, etiquetado y lotes, por WhatsApp y con planillas listas para mostrar en una inspección.",
+   "Cambiar el cliente: venderle al que compra, por ejemplo cadenas de cafeterías o almacenes naturales que exigen papeles a sus proveedores chicos, y que el proveedor llene los registros gratis.",
+   "Modo un solo jugador: un kit de planillas y checklist para habilitación municipal como infoproducto barato, para medir si alguien paga antes de construir nada."
+  ],
+  "puntuacion": 5.4,
+  "por_que_puntuacion": "Bajo de 7,2 porque el mismo control flojo que vos marcás hace que casi nadie sienta urgencia de pagar, y la versión con sensores ya la descartaste. Sirve como pieza de un paquete, no sola.",
+  "tema": "Comida y alimentos",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 50, estimación: planillas en Google y un bot de WhatsApp de prueba.",
+  "primer_paso": "Hablar con 10 productores chicos de comida casera o panificados y preguntar cuándo fue su última inspección y qué papeles les pidieron.",
+  "riesgo_principal": "Que sin inspecciones reales nadie pague por tener los registros en orden.",
+  "agrupar_con": ["M048", "M033"]
+ },
+ {
+  "n": "M033",
+  "opinion": "Tu comentario la pone en la misma bolsa que las anteriores: orden y papeles para productores chicos de alimentos con poco control. La idea de los barriles es más concreta que la de higiene, porque un barril perdido es plata que se ve. Pero el nicho es chico y ya hay software de afuera, como Kegshoe o Odoo, aunque no apuntan a Argentina. Además, la parte de lotes se parece a ALI-3-1, trazabilidad de lotes para fabricantes PyME, que no elegiste. Lo que vale de esta idea es el rastreo de barriles, que conecta con la familia de activos que se pierden.",
+  "hallazgos": "No apareció software de control de barriles desarrollado o vendido en Argentina. Kegshoe gestiona barriles pero lista como países Australia, Canadá, Chile y Estados Unidos [https://www.capterra.cl/software/176445/kegshoe-keg-tracking] (consulta 2026-10-23). Odoo tiene una guía para cervecerías con barriles y lotes, pero es un ERP general que hay que configurar [https://www.dasolo.ai/es/blog/odoo-por-sector-8/odoo-cervecerias-artesanas-produccion-lotes-269] (consulta 2026-10-23). BrewPlanner figura disponible en Argentina, sin detalle sobre barriles [https://www.capterra.com.ar/software/165682/brewplanner] (consulta 2026-10-23). Ojo: ALI-3-1, trazabilidad de lotes en fabricantes PyME, figura como NO elegida en el registro.",
+  "variantes": [
+   "La que pide tu comentario: meter barriles y lotes dentro del mismo paquete de orden sanitario para productores chicos de alimentos y bebidas.",
+   "Sacar la parte de lotes y quedarse con el rastreo de envases retornables: barriles, cajones, garrafas y pallets prestados a bares y clientes, con QR y foto al entregar y al retirar.",
+   "Otro cobro: cobrarle al bar un depósito por barril a través de la app y devolverlo al retirar, así la cervecería deja de perseguir barriles."
+  ],
+  "puntuacion": 5.2,
+  "por_que_puntuacion": "Nicho chico, la parte de lotes roza algo que ya no elegiste, y lo valioso es el rastreo de barriles, que conviene sumar a la familia de activos que se pierden.",
+  "tema": "Stock y depósito",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 100, estimación: etiquetas QR y una planilla con formulario.",
+  "primer_paso": "Llamar a 8 cervecerías artesanales y preguntar cuántos barriles tienen, cuántos perdieron el último año y cuánto vale cada uno.",
+  "riesgo_principal": "Que el mercado sea demasiado chico para un producto propio y termine siendo trabajo a medida.",
+  "agrupar_con": ["M021", "M048"]
+ },
+ {
+  "n": "M048",
+  "opinion": "Te encantó y tu comentario agranda la idea: no solo calcular la tabla y los sellos, sino que el que compra sepa qué tan sano es lo que come y qué lleva. Eso son dos productos. Para cumplir la ley, la herramienta es débil: ANMAT ya da una calculadora gratis y el Gobierno mandó al Congreso un proyecto para derogar la ley de etiquetado. Lo interesante es tu pregunta de consumidor: una ficha con ingredientes y valores nutricionales, con QR, que la casa de comida usa para vender mejor. Ahí el valor no depende de la ley, depende de que el cliente final lo pida.",
+  "hallazgos": "En mayo de 2026 el Poder Ejecutivo mandó al Senado un proyecto para derogar por completo la Ley 27.642, incluidos los octógonos [https://www.canal26.com/politica/2026/05/24/el-gobierno-avanza-contra-la-ley-de-etiquetado-frontal-que-pasara-con-los-octogonos-negros/] (consulta 2026-10-23). En julio de 2026 seguía en debate, con rechazo de nutricionistas y defensorías del pueblo [https://www.elancasti.com.ar/informacion-general/nutricionistas-locales-rechazan-la-derogacion-la-ley-etiquetado-frontal-n613402] [https://www.diariopanorama.com/noticia/554894/defensorias-pueblo-rechazan-proyecto-para-derogar-ley-etiquetado-frontal] (consulta 2026-10-23). No pude verificar si se aprobó.",
+  "variantes": [
+   "La que pide tu comentario: app donde la casa de comida carga la receta y sale la tabla nutricional, la lista de ingredientes y alérgenos, y una ficha con QR para el cliente que responde qué tan sano es y qué lleva.",
+   "Cambiar el cliente: venderle a viandas para empresas, gimnasios y dietéticas, donde el que compra ya pide calorías y proteínas.",
+   "Sacar la ley de en medio: un servicio de nutricionista más IA que certifica el menú una vez y cobra por la ficha, sin depender de los sellos."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "Bajo un poco porque la ley que le daba urgencia puede caerse y ANMAT ya da la calculadora gratis. Se sostiene por la versión para el consumidor que plantea tu comentario, que todavía no tiene demanda verificada.",
+  "tema": "Comida y alimentos",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 150, estimación: landing, fichas armadas con Claude y una tabla de composición pública.",
+  "primer_paso": "Armar a mano la ficha con QR para 5 casas de comida y viandas, y medir cuántos clientes la escanean y si el local la quiere pagar.",
+  "riesgo_principal": "Que el cliente final no mire la ficha y el local no vea razón para pagar si la ley se deroga.",
+  "agrupar_con": ["M021", "M033"]
+ },
+ {
+  "n": "M055",
+  "opinion": "La idea es buena en demanda: los conflictos con prepagas crecieron y la escalera es siempre la misma, nota escrita, Superintendencia y amparo. El hueco del medio sigue libre: no apareció una plataforma privada que arme el reclamo y lo siga. Pero tiene tres frenos: compite con canales gratis del Estado y defensorías públicas, toca datos de salud que la ley trata como sensibles y, si hace trámite por el afiliado, se acerca a ejercer como abogado. Para vos es construible sin programar, pero necesitás un abogado aliado desde el día uno.",
+  "hallazgos": "La escalera de reclamo descrita en prensa es nota escrita a la prepaga, luego la Superintendencia y luego el amparo; según el Colegio de Abogados la conflictividad subió entre 30 y 40 por ciento respecto de 2023 [https://www.lacapital.com.ar/la-ciudad/derecho-la-salud-que-deben-cubrir-las-prepagas-y-como-reclamar-las-negativas-n10163020.html] (consulta 2026-10-23). Una guía menciona que en junio de 2026 entró en vigencia la Resolución 951/2026 de la Superintendencia, que cambia el sistema de reclamos; no pude leer la norma [https://www.miobrasocial.com.ar/blog/reclamos-denuncias-obra-social-prepaga/] (consulta 2026-10-23). No apareció ninguna plataforma privada argentina que arme y siga el reclamo.",
+  "variantes": [
+   "La de la ficha: el afiliado sube la negativa, Claude arma la nota con las normas, la presenta y sigue plazos, y si falla deja el legajo listo para un abogado aliado.",
+   "Cambiar el cliente: venderle a estudios de abogados de salud un armador de legajos de amparo, así cobran menos y toman más casos.",
+   "Recortar al nicho más fuerte: solo reclamos por discapacidad, como terapias y prestaciones, donde la cobertura es obligatoria y las familias reclaman todo el año."
+  ],
+  "puntuacion": 6.0,
+  "por_que_puntuacion": "Demanda real y hueco del medio sin ocupar, pero compite con canales gratis y tiene riesgo legal y de datos sensibles.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Servicio con personas",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 80, estimación: landing, WhatsApp y una consulta a un abogado.",
+  "primer_paso": "Leer la Resolución 951/2026 con un abogado de salud y armar gratis 10 notas de reclamo reales de conocidos para medir cuántas se resuelven.",
+  "riesgo_principal": "Que se considere ejercicio ilegal de la abogacía o que la gente prefiera el canal gratis del Estado.",
+  "agrupar_con": ["M060"]
+ },
+ {
+  "n": "M056",
+  "opinion": "La idea ataca algo real: en Argentina nadie publica el precio particular de una resonancia o una cirugía, y conseguirlo cuesta llamadas. La búsqueda de hoy tampoco encontró un comparador de precios de contado. El problema es que la clínica no tiene razón para darte el precio a vos en vez de al paciente, y el paciente sin cobertura suele ir al hospital público. Lo más barato de probar es solo la tabla de precios de una práctica en una ciudad: si eso trae visitas, después se agrega la reserva y el cobro.",
+  "hallazgos": "No apareció ninguna plataforma argentina que compare precios particulares de resonancia. Lo único público son valores de convenio de obras sociales, como las resoluciones de OSEP Mendoza, que no son precios de contado [https://osepmendoza.com.ar/web/wp-content/uploads/2020/04/RS-DG-2024-573-.pdf] (consulta 2026-10-23).",
+  "variantes": [
+   "La de la ficha: el paciente sube la orden, Claude pide precio a 10 a 15 centros, arma la comparación y reserva con pago anticipado.",
+   "Datos primero: un sitio público con la tabla de precios de contado de 10 prácticas en una ciudad, actualizado cada mes, que gana por visitas y por derivar pacientes.",
+   "Otro cliente: venderle la comparación a empresas chicas y monotributistas sin prepaga como beneficio para sus empleados."
+  ],
+  "puntuacion": 6.0,
+  "por_que_puntuacion": "Hueco claro y prueba barata, pero depende de que las clínicas den el precio y de que el paciente pague por el atajo.",
+  "tema": "Salud y cuidado",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 60, estimación: landing y mensajes de WhatsApp a centros.",
+  "primer_paso": "Pedir por WhatsApp el precio de contado de una resonancia de rodilla a 15 centros de una ciudad y publicar la tabla.",
+  "riesgo_principal": "Que los centros no respondan o cambien el precio y la tabla pierda valor.",
+  "agrupar_con": ["M102"]
+ },
+ {
+  "n": "M060",
+  "opinion": "Es la versión general de la idea de prepagas: un Reclamador argentino hecho con IA. El hueco existe porque no apareció una plataforma argentina que cobre solo si ganás. Pero en Argentina el reclamo administrativo es gratis y lento, y las compensaciones fijas tipo Europa por vuelos no existen igual, así que el monto a cobrar es incierto. Afuera este modelo vive de comisiones del 30 por ciento sobre montos fijos y altos; acá eso es más difícil.",
+  "hallazgos": "Reclamador.es cobra el 30 por ciento de la compensación en reclamos de vuelos cancelados [https://www.genbeta.com/web/reclamador-es-apuesta-por-las-reclamaciones-colectivas-online-a-las-aerolineas] (consulta 2026-10-23). Hay un caso de Flybondi donde Defensa del Consumidor desestimó el reclamo al día siguiente [https://www.infoviajera.com/2024/04/cuando-la-aerolinea-me-perjudica-y-me-tiene-que-compensar-voy-a-seguir-el-reclamo-hasta-las-ultimas-consecuencias-y-luego/] (consulta 2026-10-23). Hubo un fallo contra Despegar y Aerolíneas Argentinas por vuelos cancelados de unos 30 millones de pesos [https://www.elonce.com/sociedad/fallo-contra-despegar-y-aerolineas-por-vuelos-cancelados.htm] (consulta 2026-10-23). No apareció una plataforma argentina que cobre solo si ganás.",
+  "variantes": [
+   "La de la ficha: Claude arma y presenta el reclamo por el canal oficial gratis y el usuario paga un porcentaje solo si cobra.",
+   "Recortar a vuelos: solo reclamos contra aerolíneas, donde hay fallos con montos grandes, con un abogado aliado que lleva los casos que van a juicio.",
+   "Otro cliente: venderle a la empresa una ventanilla para resolver reclamos antes de que lleguen a Defensa del Consumidor."
+  ],
+  "puntuacion": 5.6,
+  "por_que_puntuacion": "Hueco real, pero el canal gratis del Estado y los montos inciertos hacen difícil cobrar comisión; conviene fusionarla con la de prepagas.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 50, estimación: landing y redacción con Claude.",
+  "primer_paso": "Armar gratis 20 reclamos reales de conocidos con Claude y anotar cuántos se presentan, cuántos se resuelven y por cuánto.",
+  "riesgo_principal": "Que los montos recuperados sean tan chicos que el porcentaje no pague el trabajo.",
+  "agrupar_con": ["M055"]
+ },
+ {
+  "n": "M061",
+  "opinion": "Tu comentario la plantea como un PedidosYa de enfermeros particulares, una app intermediaria. La versión exacta ya apareció: DocYa, publicada en enero de 2026, conecta con médicos y enfermeros a domicilio, con mapa en tiempo real y pago en la app. Eso mata el hueco de ser el primero, aunque no se sabe cuánta tracción tiene. Además es salud: matrículas, responsabilidad si algo sale mal y enfermeros que trabajan informales. Para tu primer negocio la veo pesada; quedaría solo una versión más angosta, como cuidadores por hora, que no requieren matrícula.",
+  "hallazgos": "DocYa, app argentina de DOCYA S.A.S., conecta con médicos y enfermeros a domicilio, asigna al más cercano, muestra la llegada en el mapa y cobra en la app; dice que los profesionales están matriculados [https://apps.apple.com/ar/app/docya/id6753604975] (consulta 2026-10-23). Según un tercero se publicó el 2026-01-22 [https://mwm.ai/apps/docya/6753604975] (consulta 2026-10-23). No encontré prensa ni datos de tracción de DocYa. En directorios hay enfermeros particulares que ofrecen servicio por hora y por día [https://www.argentino.com.ar/enfermeras-servicio-acompanar-salud-F1409C7051AD2] (consulta 2026-10-23). Ojo: SAL-4-5, cubrir turnos de enfermería en residencias, figura como NO elegida.",
+  "variantes": [
+   "La que pide tu comentario: app tipo PedidosYa de enfermeros particulares para inyectables, curaciones y controles, con matrícula verificada y pago en la app.",
+   "Sacar la matrícula: cuidadores y acompañantes por hora para adultos mayores, con referencias verificadas, que es menos regulado.",
+   "Otro cliente: que pague la prepaga o la obra social que hoy cubre enfermería domiciliaria con orden médica y no tiene red ágil."
+  ],
+  "puntuacion": 4.9,
+  "por_que_puntuacion": "Bajo de 6,1 porque ya existe DocYa con la misma idea, y es salud con matrículas y responsabilidad.",
+  "tema": "Salud y cuidado",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 150, estimación: landing y un grupo de 10 enfermeros por WhatsApp.",
+  "primer_paso": "Bajar DocYa, pedir un servicio de prueba en tu zona y anotar si funciona, cuánto cobra y cuánto tarda.",
+  "riesgo_principal": "Que un error de un enfermero termine en un reclamo contra la plataforma.",
+  "agrupar_con": ["M074", "M077"]
+ },
+ {
+  "n": "M074",
+  "opinion": "La idea de que el perfil de referencias sea del trabajador y no de una plataforma es linda. Pero Zolvers ya ofrece perfiles con referencias comprobables en el segmento que más paga, las empleadas domésticas. El trabajador informal tiene poca plata para pagar un sello, y la familia que contrata no está acostumbrada a pagar por un informe. Sirve más como pieza de un marketplace de cuidadores u oficios que como negocio solo.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "La de la ficha: agente de voz que llama a ex empleadores y arma un perfil verificado con QR del trabajador.",
+   "Meterla adentro de un marketplace de cuidadores por hora como el sello de confianza que lo diferencia.",
+   "Otro cliente: venderle el chequeo de referencias a empresas de limpieza y constructoras chicas que toman gente por semana."
+  ],
+  "puntuacion": 5.4,
+  "por_que_puntuacion": "Zolvers ya cubre el segmento que paga y al resto le cuesta pagar; queda como pieza de otra idea.",
+  "tema": "Educación y trabajo",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 80, estimación: plan básico de un agente de voz no-code.",
+  "primer_paso": "Hacer a mano 10 llamadas de referencia para cuidadores de un grupo local y preguntarle a 10 familias si pagarían por el informe.",
+  "riesgo_principal": "Que ni el trabajador ni la familia quieran pagar por la verificación.",
+  "agrupar_con": ["M061", "M077"]
+ },
+ {
+  "n": "M077",
+  "opinion": "La idea de llamar todos los días al mayor sin aparato es simple y construible con herramientas no-code. El problema es que ATO, de fundadores argentinos, ya vende un asistente de voz con IA que arranca conversaciones y avisa a la familia, con más de 1.300 familias según la verificación anterior. Afuera AloneAssist hace exactamente esto. Te queda la versión sin aparato, que es más barata pero fácil de copiar para ATO. La puntuación baja por eso, aunque probarla cuesta poco y enseña a vender a familias.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "La de la ficha: llamada diaria por voz IA al teléfono del mayor, con resumen por WhatsApp al hijo.",
+   "Otro cliente: venderlo a municipios o centros de jubilados que hoy hacen acompañamiento telefónico con personas.",
+   "Cambiar el uso: llamada después de un alta médica para controlar medicación y síntomas por dos semanas, pagada por la clínica."
+  ],
+  "puntuacion": 5.3,
+  "por_que_puntuacion": "Construible y barata de probar, pero ATO ya ocupa el lugar en Argentina con inversión y clientes.",
+  "tema": "Salud y cuidado",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 50, estimación: plan de un agente de voz no-code y un número local.",
+  "primer_paso": "Probar con 5 familias conocidas durante 14 días y medir cuántas llamadas atiende el mayor y si el hijo pagaría.",
+  "riesgo_principal": "Que ATO o una prepaga ofrezcan lo mismo más barato o gratis.",
+  "agrupar_con": ["M061", "M074"]
+ },
+ {
+  "n": "M093",
+  "opinion": "Tu comentario dice que ya hay apps de comida con descuento y propone hacerlo con todo lo que sea desechable, aunque dudás. En comida el lugar está tomado: Cheaf, Wobox, Kigüi y Buen Provecho. La vuelta de otros rubros no apareció en Argentina, pero eso no prueba que haya demanda: cosmética, limpieza o farmacia cerca del vencimiento ya se liquidan por outlets y mayoristas. Coincido con tu duda: la veo floja para vos.",
+  "hallazgos": "Wobox se presenta como app argentina de rescate de alimentos y opera en más de 20 locales de Córdoba [https://infonegocios.info/enfoque/llega-wobox-la-app-que-transforma-el-excedente-gastronomico-en-negocio-ya-opera-en-mas-de-20-locales-en-cordoba] (consulta 2026-10-23). Kigüi funciona en supermercados con productos cerca del vencimiento y se asoció a la cadena GDN [https://mercado.com.ar/protagonistas/gdn-argentina-se-une-a-la-app-kigui-para-el-rescate-de-alimentos] (consulta 2026-10-23). No apareció ninguna app argentina de productos no alimentarios con este modelo.",
+  "variantes": [
+   "La que pide tu comentario: app de excedentes y productos por vencer fuera de comida, como cosmética, limpieza y artículos de farmacia de comercios chicos.",
+   "Cambiar el cliente: B2B, que la distribuidora le venda a comercios chicos el sobrestock por vencer en lotes, en vez de a consumidores.",
+   "Modo un solo jugador: herramienta para que el comercio vea qué se le vence en 30 días y lo ofrezca por su propio WhatsApp, sin marketplace."
+  ],
+  "puntuacion": 4.6,
+  "por_que_puntuacion": "En comida ya hay cuatro apps y fuera de comida no hay señal de demanda; tu propia duda es correcta.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50, estimación: preguntas a comercios y un grupo de WhatsApp.",
+  "primer_paso": "Preguntar a 10 perfumerías y farmacias chicas qué hacen hoy con lo que se les vence y cuánto pierden por mes.",
+  "riesgo_principal": "Que fuera de comida el excedente sea poco y ya se resuelva con outlets.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M102",
+  "opinion": "La vuelta de usar lo que la prepaga ya cubre y cobrar solo la coordinación está bien pensada. Pero el valor real es poco: el análisis ya lo cubre la prepaga y Wellbin ya guarda los estudios gratis. Necesitás médicos que firmen órdenes y vas a manejar datos de salud, que la ley trata como sensibles. Para tu primer negocio es mucho armado legal para un cobro chico.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "La de la ficha: membresía con orden, extracción a domicilio, resultados en línea de tiempo y seguimiento por WhatsApp.",
+   "Otro cliente: venderle a empresas el chequeo anual de sus empleados coordinado, donde paga la empresa.",
+   "Sacar lo médico: un tablero que ordena tus análisis viejos en una línea de tiempo con explicación simple, sin diagnóstico ni orden médica."
+  ],
+  "puntuacion": 5.0,
+  "por_que_puntuacion": "Buena vuelta, pero lo que se puede cobrar es chico y el armado legal y médico es pesado para Facu hoy.",
+  "tema": "Salud y cuidado",
+  "tipo": "Servicio con personas",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 200, estimación: landing, WhatsApp y una consulta legal.",
+  "primer_paso": "Ofrecer a 15 conocidos ordenarles sus análisis en un tablero gratis y medir cuántos mandan sus PDF.",
+  "riesgo_principal": "Que el manejo de datos de salud y las órdenes médicas traigan problemas legales.",
+  "agrupar_con": ["M056"]
+ }
+]

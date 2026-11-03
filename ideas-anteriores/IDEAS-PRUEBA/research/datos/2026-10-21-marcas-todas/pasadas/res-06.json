@@ -1,0 +1,122 @@
+[
+ {
+  "n": "M097",
+  "opinion": "Es la mejor idea de este lote. Facu la marcó como interesante y no agregó un giro, así que evalúo la versión original. El producto real no son los estudiantes sino el alcance: convertir un dolor confuso de una PyME en un proyecto chico con entregables y precio fijo. Ese paso es donde Claude ayuda de verdad y donde Facu, como ingeniero industrial, tiene oficio. El riesgo es que en la práctica se vuelva una consultora de estudiantes con Facu de jefe de proyecto, o sea trabajo a medida y no producto.",
+  "hallazgos": "No apareció una plataforma argentina nueva que haga esto. Lo más parecido sigue siendo Vínculos, la empresa junior de la UNCUYO que asesora PyMEs a precio diferencial; la nota no tiene fecha clara y no pude confirmar si sigue activa [https://www.unidiversidad.com.ar/la-unica-empresa-junior-de-la-argentina-funciona-en-la-uncuyo, consultado 2026-10-23]. Apareció una plataforma llamada Nexo como finalista de Emprende U 2026, pero no pude verificar qué hace ni si conecta estudiantes con PyMEs: no verificado [https://www.unidiversidad.com.ar/la-uncuyo-lanza-el-programa-nacional-de-voluntariado, consultado 2026-10-23]. El programa Compromiso Social Universitario es voluntario y sin pago, así que no compite.",
+  "variantes": [
+   "Versión original que marcó Facu: la PyME manda un audio, Claude arma un proyecto de 4 semanas con entregables y precio, dos estudiantes avanzados lo ejecutan y el pago se libera por hito.",
+   "Un solo rubro y un solo tipo de proyecto: solo proyectos de ingeniería industrial para PyMEs agroindustriales de la red de CEMEVA, como layout de depósito, costos o control de stock. Menos variedad, más fácil de estandarizar y de vender como paquete con precio fijo.",
+   "Vender el armador de alcance como producto aparte: una herramienta donde la PyME cuenta su problema y recibe un pliego claro para contratar a quien quiera, freelancer, estudiante o consultora. Se cobra por pliego y no hay que gestionar equipos."
+  ],
+  "puntuacion": 5.6,
+  "por_que_puntuacion": "Hay hueco verificado en Argentina y encaja con el oficio de Facu, pero la primera etapa es casi seguro servicio gestionado a mano y la demanda de PyMEs que paguen a estudiantes no está probada.",
+  "tema": "Educación y trabajo",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "Estimación: USD 20 a 100, casi todo en tiempo; el pago a estudiantes sale de lo que paga la PyME.",
+  "primer_paso": "Conseguir 3 PyMEs de la red de CEMEVA que cuenten un problema por audio, armar con Claude los 3 pliegos con precio y ver si al menos 2 aceptan pagar el primer hito.",
+  "riesgo_principal": "Que la calidad de los estudiantes sea despareja y Facu termine haciendo el trabajo él mismo, con lo que se vuelve una consultora a medida que no escala.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M107",
+  "opinion": "Facu la marcó en amarillo sin comentario. Tal como está, MCP a medida por PyME es justamente lo que Facu no quiere: trabajo a medida, técnico y con riesgo de seguridad que él no puede auditar sin programar. Lo que sí tiene sentido es la versión producto que ya está entre sus elegidas, F9: un conector único para un sistema muy usado en Argentina, como Tango, que se vende igual a muchas empresas. Mi opinión es que D9 debería fusionarse con F9 y dejar de evaluarse sola.",
+  "hallazgos": "No encontré ningún conector MCP público ni agencia argentina que conecte Tango Gestión con Claude; los resultados con el nombre Tango eran de otras empresas, como Tango Card [https://developers.tangocard.com/changelog/tango-api-mcp, consultado 2026-10-23]. Una nota de Contadores en Red dice que Tango es el sistema de gestión más elegido por las PyMEs argentinas y que tiene conectividad con sistemas externos; la nota es de un medio del sector y no trae cifras [https://contadoresenred.com/tango-delta-la-nueva-version-del-software-de-gestion-lider-para-administrar-pymes/, consultado 2026-10-23]. Tampoco encontré un asistente de IA propio de Tango Software: no verificado.",
+  "variantes": [
+   "Versión marcada por Facu: armar conectores MCP a medida para que Claude lea stock, ventas o tickets de cada PyME, cobrando por proyecto.",
+   "Versión producto, igual a su elegida F9: un solo conector para Tango o Colppy que cualquier PyME instala con una suscripción mensual. Ojo: los marketplaces de MCP pagos (D31, PD12, PX2) ya los dejó afuera, así que el canal tendría que ser venta directa o el contador de la PyME.",
+   "Sacar el MCP y vender el resultado: un tablero o reporte semanal por WhatsApp que lee el sistema de gestión y le cuenta al dueño qué stock falta o qué cliente dejó de comprar. La tecnología queda escondida."
+  ],
+  "puntuacion": 4.2,
+  "por_que_puntuacion": "Bajo de 5,0 porque en su forma original es trabajo a medida, técnico y riesgoso para alguien que no programa; su versión buena ya existe como F9.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Alta",
+  "plata_para_probar": "Estimación: USD 0 a 50 para la entrevista y un prototipo en modo solo lectura; más si hace falta pagar a un desarrollador que revise seguridad.",
+  "primer_paso": "Preguntar a 5 PyMEs de la red de CEMEVA qué sistema de gestión usan y qué pregunta le harían a Claude sobre sus datos, para saber si hay un sistema dominante.",
+  "riesgo_principal": "Un conector con permisos de escritura mal hecho puede romper o filtrar datos del cliente, y Facu no lo puede auditar solo.",
+  "agrupar_con": ["F9", "M110", "M112"]
+ },
+ {
+  "n": "M109",
+  "opinion": "Facu la marcó en amarillo sin comentario. La idea de fabricar apps con IA y venderlas como negocio en marketplaces tiene un problema de números: una app sin ingresos vale entre USD 100 y 5.000 y el comprador revisa la seguridad, con descuento por código hecho con IA. Eso es más un hobby que un negocio propio. Lo único que la salva es usarla como escuela: aprender a construir rápido y que alguna de esas apps se convierta en el producto principal en vez de venderla.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "Versión marcada por Facu: construir apps chicas con IA y venderlas en marketplaces de compraventa de negocios online.",
+   "Construir para quedarse y no para vender: hacer 3 apps chicas en 3 meses para el agro o la logística, medir cuál consigue usuarios que pagan y quedarse con esa como negocio. La venta queda como salida si no funciona.",
+   "Vender la app ya probada en un cliente: tomar la app que Facu hizo para CEMEVA y ofrecerla a otras acopiadoras como producto con suscripción."
+  ],
+  "puntuacion": 4.3,
+  "por_que_puntuacion": "Los precios de venta de apps sin ingresos son bajos y no construyen un activo propio; vale más como método de aprendizaje que como negocio.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "Estimación: USD 30 a 100 en herramientas no-code y dominio para una primera app.",
+  "primer_paso": "Listar qué partes de la app de CEMEVA le servirían a otra acopiadora y preguntarle a 2 de ellas si pagarían por usarla.",
+  "riesgo_principal": "Pasar meses construyendo apps que se venden por menos de lo que costó el tiempo de hacerlas.",
+  "agrupar_con": ["M111", "M110"]
+ },
+ {
+  "n": "M110",
+  "opinion": "Facu la marcó en amarillo sin comentario. ChatGPT sigue sin dejar cobrar dentro de la app por bienes digitales, así que es un canal para que te descubran, no un negocio en sí. Además pide armar un servidor MCP más una interfaz y pasar la revisión de OpenAI, algo difícil sin programar. Solo tiene sentido como vidriera de otro producto que ya exista.",
+  "hallazgos": "La documentación de OpenAI recomienda mandar al usuario a pagar en el sitio propio del desarrollador y dice que la aprobación de cobro hoy se limita a bienes físicos; el cobro dentro de ChatGPT está en beta para socios elegidos [https://developers.openai.com/apps-sdk/build/monetization, consultado 2026-10-23; la fecha de la página no es clara]. En el foro de OpenAI, desarrolladores preguntaban en enero de 2026 si podían vender suscripciones por fuera y citaban que las reglas solo permiten comercio de bienes físicos [https://community.openai.com/t/chatgpt-app-monetization-apps-sdk/1372343, consultado 2026-10-23]. No encontré fuente de 2026 que confirme cobro de bienes digitales: no verificado.",
+  "variantes": [
+   "Versión marcada por Facu: publicar una app en el directorio de ChatGPT y cobrar fuera de ChatGPT.",
+   "Usar ChatGPT solo como vidriera de un producto ya elegido: por ejemplo, que un productor pregunte en ChatGPT por el stock o el precio del grano y la app lo mande al producto principal de Facu.",
+   "Mismo concepto en Claude: armar el conector para Claude, que Facu ya usa, en vez de ChatGPT, y probarlo primero con sus propios clientes antes de pensar en un directorio público."
+  ],
+  "puntuacion": 3.9,
+  "por_que_puntuacion": "Sin cobro nativo y con dificultad técnica alta, es un canal y no un negocio; baja un poco porque la regla de bienes físicos sigue vigente.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "Estimación: USD 0 a 50; el costo real es tiempo técnico.",
+  "primer_paso": "No gastar tiempo ahora; anotar en la ficha del producto principal que, si funciona, se evalúa ChatGPT como canal.",
+  "riesgo_principal": "Que OpenAI cambie las reglas o rechace la app y todo el esfuerzo dependa de una sola plataforma.",
+  "agrupar_con": ["M107", "M112"]
+ },
+ {
+  "n": "M111",
+  "opinion": "Facu dice que puede ser pero que habría que ampliarla para entenderla mejor. La explico simple: Shopify tiene una tienda de apps donde cualquiera publica una herramienta que las tiendas instalan y pagan por mes. El mercado está muy competido, la revisión es dura y casi siempre hay que programar, por eso la investigación anterior la descartó. La versión argentina sería la tienda de apps de Tiendanube, pero esa idea, D19, Facu ya no la eligió, así que no la propongo como nueva.",
+  "hallazgos": "Tiendanube tiene un programa de socios tecnológicos para quienes crean apps, con visibilidad en su tienda de aplicaciones [https://www.tiendanube.com/socios/tecnologicos, consultado 2026-10-23]. Según su reglamento de Chile, Tiendanube retiene un 30% de lo que se cobra por apps o plantillas y revisa cada app antes de publicarla; no confirmé si en Argentina es igual [https://www.tiendanube.com/cl/reglamento-tiendas-nube, consultado 2026-10-23]. Comparado con Shopify, que no cobra comisión hasta USD 1 millón según el contexto previo, Tiendanube es más caro para el desarrollador.",
+  "variantes": [
+   "Versión ampliada que pide Facu: una app chica en la tienda de Shopify que resuelva un problema concreto del vendedor, por ejemplo stock o reposición, cobrada por suscripción mensual en dólares.",
+   "Equivalente local en Tiendanube: misma lógica pero para tiendas argentinas. Ojo: se parece a D19, que Facu no eligió, y la comisión sería de 30% si aplica la regla chilena.",
+   "Sacarla de la tienda de apps: la misma herramienta pero conectada a Mercado Libre, donde venden más PyMEs argentinas, vendida por fuera sin depender de la revisión de una plataforma."
+  ],
+  "puntuacion": 4.0,
+  "por_que_puntuacion": "Mercado ultracompetido, revisión exigente y necesidad de programar; la versión local en Tiendanube ya fue no elegida y cobra más comisión.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "Estimación: USD 0 a 50 para investigar reseñas y quejas de apps existentes.",
+  "primer_paso": "Leer las reseñas de 1 estrella de 10 apps de stock en la tienda de Shopify y anotar qué se repite, para ver si hay un hueco que Facu pueda llenar.",
+  "riesgo_principal": "Competir contra cientos de apps hechas por programadores con un producto que Facu no puede mantener solo.",
+  "agrupar_con": ["M109"]
+ },
+ {
+  "n": "M112",
+  "opinion": "Facu la marcó en amarillo sin comentario. x402 es un estándar para que agentes de IA paguen centavos en una moneda cripto atada al dólar por cada consulta de datos. Los números nuevos confirman que el volumen real es chico y que buena parte del movimiento es inflado. Hoy no es un negocio, es una apuesta a futuro que además pide programar y tiene un costado cripto que suma riesgo.",
+  "hallazgos": "Un análisis de Visa y Artemis estimó, al 21 de abril de 2026, un volumen ajustado de unos USD 19 millones en unos 134 millones de transacciones desde mayo de 2025, aunque su propio gráfico muestra unos USD 15 millones [https://thedefiant.io/news/infrastructure/visa-s-sheffield-pegs-adjusted-x402-volume-at-19m, consultado 2026-10-23]. Glenbrook reporta que pasaron los 200 millones de transacciones pero que el volumen real sigue siendo muy chico [https://glenbrook.com/payments_news/the-x402-foundation-activated-a-27-year-old-internet-code-200-million-transactions-later-the-real-volume-is-still-tiny/, consultado 2026-10-23]. Según una nota basada en Artemis, el volumen ajustado cayó cerca de 77% entre noviembre de 2025 y mayo de 2026; no lo pude contrastar con otra fuente [https://forkast.news/the-giants-are-building-on-x402-the-transaction-count-is-the-least-interesting-part/, consultado 2026-10-23]. En abril de 2026 se creó la x402 Foundation dentro de la Linux Foundation, con Coinbase, Cloudflare, Stripe, Visa y Google, según la misma cobertura.",
+  "variantes": [
+   "Versión marcada por Facu: publicar un servicio de datos que cobra por consulta a agentes de IA con x402.",
+   "Datos propios del agro argentino como activo: juntar y ordenar datos que Facu ya tiene cerca por CEMEVA, como precios o calidad de granos, y venderlos primero a personas por suscripción. Si un día los agentes pagan, se agrega x402 como un canal más. Ojo: un MCP pago de datos de nicho, PX2, ya no lo eligió.",
+   "Esperar y mirar: anotar x402 como tecnología a seguir en la etapa 2 y revisar los números cada 6 meses."
+  ],
+  "puntuacion": 3.5,
+  "por_que_puntuacion": "El volumen real mundial es chico y en baja, requiere código y cripto; baja de 4,5 porque los datos nuevos lo confirman.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Datos o información",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "Estimación: USD 0; no conviene gastar en esto ahora.",
+  "primer_paso": "Agendar una revisión de los números de x402 para abril de 2027 y no invertir tiempo antes.",
+  "riesgo_principal": "Construir para un mercado que puede no despegar nunca, con exposición a cripto y regulación cambiante.",
+  "agrupar_con": ["M107", "M110"]
+ }
+]

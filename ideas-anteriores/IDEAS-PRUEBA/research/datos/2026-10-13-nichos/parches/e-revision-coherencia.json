@@ -1,0 +1,58 @@
+[
+  {
+    "id": "IND-1-4",
+    "etiqueta": "Revisión de coherencia (Claude, 2026-10-13)",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "En otras filas de la misma familia (pedidos por WhatsApp/mail/PDF) aparecieron competidores en Argentina: Galo AI, startup argentina de pedidos B2B por WhatsApp para distribuidoras (ver COM-1-2); Duotach, bots a medida que cargan pedidos al ERP (ver ALI-3-3); Softland Pedidos IA, sin versión argentina confirmada (ver LOG-3-5). Ninguno confirmado para órdenes de compra en PDF de clientes industriales, pero son adyacentes.",
+    "hueco_ar": 4,
+    "nota": "baja de 5 a 4 por competidores adyacentes encontrados en la misma familia; la demanda local (pedido en Workana) sigue siendo una señal a favor."
+  },
+  {
+    "id": "LOG-3-5",
+    "etiqueta": "Revisión de coherencia (Claude, 2026-10-13)",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Además de Softland Pedidos IA: Galo AI (startup argentina, pedidos B2B por WhatsApp, ver COM-1-2) y Duotach (bots a medida que cargan pedidos al ERP, ver ALI-3-3).",
+    "hueco_ar": 3,
+    "nota": "baja de 4 a 3 por competidores de la misma familia encontrados en otras filas."
+  },
+  {
+    "id": "ALI-2-3",
+    "etiqueta": "Revisión de coherencia (Claude, 2026-10-13)",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Galo AI (startup argentina, empezó en alimentos y bebidas, ver COM-1-2) y Duotach (bots a medida para distribuidoras, ver ALI-3-3) cubren en parte la toma de pedidos por WhatsApp; no se confirmó que pasen el pedido a la planilla de producción de una panadería.",
+    "hueco_ar": 3,
+    "nota": "baja de 4 a 3 por competidores de la misma familia encontrados en otras filas."
+  },
+  {
+    "id": "LOG-1-2",
+    "etiqueta": "Revisión de coherencia (Claude, 2026-10-13)",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "En la fila gemela de agro (AGR-3-4) apareció QuadMinds (TMS con más de 500 clientes en 11 países según su sitio) con un módulo de 'liquidación de fletes'; no se verificó si audita facturas contra tarifas y reclama.",
+    "hueco_ar": 4,
+    "nota": "baja de 5 a 4 por QuadMinds, encontrado en la fila gemela AGR-3-4."
+  },
+  {
+    "id": "AGR-3-3",
+    "etiqueta": "Revisión de coherencia (Claude, 2026-10-13)",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "En la fila gemela de logística (LOG-1-5) apareció Avancargo: TMS argentino con 'fiscalización documental mediante inteligencia artificial', que declara más de 125.000 camiones fiscalizados y más de 2.000 dadores de carga (dato de su propio sitio).",
+    "hueco_ar": 2,
+    "nota": "baja de 4 a 2: Avancargo ya ofrece control documental de camiones con IA en Argentina."
+  },
+  {
+    "id": "SER-3-5",
+    "etiqueta": "Revisión de coherencia (Claude, 2026-10-13)",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "En la fila gemela de educación (EDU-4-3) apareció Certronic (Laborem, Argentina): según ITSitio (2025-09-26) controla más de 40.000 contratistas por día para empresas como Mercado Libre, J.P. Morgan, Acindar y Pampa. También FlowDocs (ver CON-1-5).",
+    "hueco_ar": 2,
+    "nota": "baja de 3 a 2: hay al menos dos plataformas locales de control de contratistas (Certronic, FlowDocs); el hueco posible queda en PyMEs y fleteros chicos."
+  },
+  {
+    "id": "CON-1-5",
+    "etiqueta": "Revisión de coherencia (Claude, 2026-10-13)",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Además de FlowDocs: Certronic (Laborem, Argentina), que según ITSitio (2025-09-26) controla más de 40.000 contratistas por día para grandes empresas (ver EDU-4-3).",
+    "hueco_ar": 2,
+    "nota": "baja de 3 a 2 por Certronic, encontrado en la fila gemela EDU-4-3."
+  }
+]

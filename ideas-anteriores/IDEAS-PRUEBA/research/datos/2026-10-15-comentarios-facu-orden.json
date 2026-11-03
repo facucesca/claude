@@ -1,0 +1,234 @@
+{
+ "_nota": "Comentarios de Facu en TODAS-LAS-IDEAS.xlsx, hoja 'Orden de Claude' (guardado 2026-10-15 11:52). Amarillo = pasa. Los cambios en la hoja 'Ideas' son copias accidentales (hojas agrupadas en Excel: mismas celdas que en 'Orden de Claude').",
+ "orden_de_claude": [
+  {
+   "codigo": "COM-3-5",
+   "puesto": 1,
+   "nivel": "1 · Indagar ya",
+   "idea": "Identificar una pieza por foto (sobre una regla) en ferreterías y bulonerías",
+   "amarillo": true,
+   "nota_facu": "si, se me ocurre bridnar tambien un servicio pick to light, ordenar el stock tener todo computarizado y tener en cuenta que las piezas pueden ir variando, hay que pensarlo y desarrollarlo es un tema muy complejo. Pero lo de al regal no hace falta que sea para bulonerias solo, se podria buscar por foto y por nombre, solo tiro ideas hay que definir todo bien si hacer el stock entero de multi nicho o centrarse en uno, lo anoto aca peroe ste pasa. no tomar nada como cierto al 100% de lo que hable aca ya vemos que sistemas son buenos y efectivos apra cada caso"
+  },
+  {
+   "codigo": "L9 + L5",
+   "puesto": 2,
+   "nivel": "1 · Indagar ya",
+   "idea": "Diagnóstico de stock en 5 minutos (subís el Excel → ABC, plata parada, quiebres, punto de pedido) + 1:1",
+   "amarillo": true,
+   "nota_facu": "p;odriamos unirlo con el 1, pero el excel deberia teenr ciertos parametros y esatr armado con ciertos datos para sacar. Capaz podria ser aprte de nuestra auditopria pero es algo muy poco escalable creo yo y esto no se si se hae mucho. No se hayq ue analizar estos dos me gustan pero no son al 100 mis favoritos, marquemos estos dos pasan pero hay que analizar. dejalso a los dos primeros integrados como servicio pero le podemos dar al vuelta apra automatizar y venderlo sin tener que estar atras de eso."
+  },
+  {
+   "codigo": "L14",
+   "puesto": 3,
+   "nivel": "1 · Indagar ya",
+   "idea": "Stock de piezas chicas (mercerías, bulonerías, ferreterías, multimarcas), adaptable y anti-robo",
+   "amarillo": true,
+   "nota_facu": "tambien entra en la misma bolsa de lso otros dos, juntemos esto como una idea integral, despues definimos rumbo. Estos 3 pasan"
+  },
+  {
+   "codigo": "LOG-1-4",
+   "puesto": 4,
+   "nivel": "1 · Indagar ya",
+   "idea": "Pedidos y cotizaciones de fletes por WhatsApp y mail cargados a mano",
+   "amarillo": false,
+   "nota_facu": "/"
+  },
+  {
+   "codigo": "C34",
+   "puesto": 5,
+   "nivel": "1 · Indagar ya",
+   "idea": "Calculadoras web de ingeniería industrial como imán de clientes",
+   "amarillo": true,
+   "nota_facu": null
+  },
+  {
+   "codigo": "LOG-3-4",
+   "puesto": 9,
+   "nivel": "2 · Ahondar después",
+   "idea": "Productividad de operarios de depósito sin medir",
+   "amarillo": true,
+   "nota_facu": null
+  },
+  {
+   "codigo": "K11",
+   "puesto": 13,
+   "nivel": "2 · Ahondar después",
+   "idea": "Control de vencimientos y FIFO para almacén o dietética",
+   "amarillo": true,
+   "nota_facu": null
+  },
+  {
+   "codigo": "L6",
+   "puesto": 16,
+   "nivel": "2 · Ahondar después",
+   "idea": "Uber de la logística empresarial (broker en un corredor)",
+   "amarillo": true,
+   "nota_facu": null
+  },
+  {
+   "codigo": "ALI-4-4",
+   "puesto": 17,
+   "nivel": "2 · Ahondar después",
+   "idea": "Calidad de fruta por foto",
+   "amarillo": true,
+   "nota_facu": null
+  },
+  {
+   "codigo": "C14",
+   "puesto": 18,
+   "nivel": "2 · Ahondar después",
+   "idea": "Estudio de tiempos remoto (el cliente filma, vos analizás)",
+   "amarillo": true,
+   "nota_facu": "mas de lo mismo va con ing ind, podemos afondar bien lo metamos en la misma bolsa como top 1 para saber donde entrar "
+  },
+  {
+   "codigo": "EDU-5-3",
+   "puesto": 24,
+   "nivel": "3 · En reserva",
+   "idea": "App de profesores particulares ('Instagram de profesores', pago retenido hasta puntuar la clase)",
+   "amarillo": true,
+   "nota_facu": "me gusta mucho este, debido a que somos un comisionista, no se que legalidad hay en el medi pero unimos alumnos con profesores y organizamos horarios, por ejemplo existe atc en argentina (alquila tu cancha) y los intermediarios siempre son lso que mas ganan como  amazon, uber, airbnb, etc... para mi el comisionista es un gran rubrro, tambien se me ocurrio por eso el uber de logisdtica b2b o b2c"
+  },
+  {
+   "codigo": "F17",
+   "puesto": 33,
+   "nivel": "3 · En reserva",
+   "idea": "IA para estudios contables argentinos",
+   "amarillo": true,
+   "nota_facu": "me gusta , hay que ver que problema repetitivo se tiene nen el dia a dia para indagar y resolver, pero estaria byuenoq eu averigues de leytes o tareas claramente repetitivas de contadores"
+  },
+  {
+   "codigo": "SER-4-4",
+   "puesto": 36,
+   "nivel": "3 · En reserva",
+   "idea": "Ausentismo: fichar con RFID y validar certificados médicos con IA",
+   "amarillo": true,
+   "nota_facu": "me gusta lo de lso certificados medicos con ia, estaria buenio que los busque en una base de datos de certificadosy lo compare comn lo que esta ahi y con el emdico que esta ahi "
+  },
+  {
+   "codigo": "L11",
+   "puesto": 37,
+   "nivel": "3 · En reserva",
+   "idea": "Plataforma de aprendizaje confiable",
+   "amarillo": true,
+   "nota_facu": "hopy es un problema la CANTIDAD DE INFORMACION, hay muchisimo y por todos lados tanmto que al menos a mi me pasa ya no se que ets abien mal de donde buscar quien miente quien no etc… entonces mi idea aca no seria ser uno mas del monton y poner una regulacion validacion o algo p[ero es medio rebuscado "
+  },
+  {
+   "codigo": "T19",
+   "puesto": 39,
+   "nivel": "3 · En reserva",
+   "idea": "Plantillas Remotion vendibles",
+   "amarillo": true,
+   "nota_facu": "si se automatiza la vendida de edicion y plantillas y creaciond e todo es un gran negocio que funcionaria practicament esolo, deberia estar ams arriba y creoq ue vale la pensa explotarlo"
+  },
+  {
+   "codigo": "I29",
+   "puesto": 41,
+   "nivel": "3 · En reserva",
+   "idea": "Video personalizado de Papá Noel",
+   "amarillo": true,
+   "nota_facu": "lo vamos a hacer de una pero mas cerca de navidad"
+  }
+ ],
+ "hoja_ideas_cambios_accidentales": [
+  {
+   "fila": 7,
+   "col": 4,
+   "id": 6,
+   "valor_original": "Plantillas de automatización n8n en español + afiliados de n8n",
+   "color_original": null,
+   "quedo": "Plantillas de automatización n8n en español + afiliados de n8n",
+   "color_quedo": "FFFF00"
+  },
+  {
+   "fila": 7,
+   "col": 17,
+   "id": 6,
+   "valor_original": 0.02,
+   "color_original": null,
+   "quedo": "si, se me ocurre bridnar tambien un servicio pick to light, ordenar el stock tener todo computarizado y tener en cuenta que las piezas pueden ir variando, hay que pensarlo y desarrollarlo es un tema muy complejo. Pero lo de al regal no hace falta que sea para bulonerias solo, se podria buscar por foto y por nombre, solo tiro ideas hay que definir todo bien si hacer el stock entero de multi nicho o centrarse en uno, lo anoto aca peroe ste pasa. no tomar nada como cierto al 100% de lo que hable aca ya vemos que sistemas son buenos y efectivos apra cada caso",
+   "color_quedo": null
+  },
+  {
+   "fila": 8,
+   "col": 4,
+   "id": 7,
+   "valor_original": "Extensión de Chrome paga para un nicho B2B",
+   "color_original": null,
+   "quedo": "Extensión de Chrome paga para un nicho B2B",
+   "color_quedo": "FFFF00"
+  },
+  {
+   "fila": 8,
+   "col": 17,
+   "id": 7,
+   "valor_original": 0.02,
+   "color_original": null,
+   "quedo": "p;odriamos unirlo con el 1, pero el excel deberia teenr ciertos parametros y esatr armado con ciertos datos para sacar. Capaz podria ser aprte de nuestra auditopria pero es algo muy poco escalable creo yo y esto no se si se hae mucho. No se hayq ue analizar estos dos me gustan pero no son al 100 mis favoritos, marquemos estos dos pasan pero hay que analizar. dejalso a los dos primeros integrados como servicio pero le podemos dar al vuelta apra automatizar y venderlo sin tener que estar atras de eso.",
+   "color_quedo": null
+  },
+  {
+   "fila": 9,
+   "col": 17,
+   "id": 8,
+   "valor_original": 0.01,
+   "color_original": "FFFF00",
+   "quedo": "tambien entra en la misma bolsa de lso otros dos, juntemos esto como una idea integral, despues definimos rumbo. Estos 3 pasan",
+   "color_quedo": "FFFF00"
+  },
+  {
+   "fila": 11,
+   "col": 4,
+   "id": 10,
+   "valor_original": "Bots de trading automático (grid, DCA, arbitraje, copy trading, Freqtrade)",
+   "color_original": null,
+   "quedo": "Bots de trading automático (grid, DCA, arbitraje, copy trading, Freqtrade)",
+   "color_quedo": "FFFF00"
+  },
+  {
+   "fila": 19,
+   "col": 4,
+   "id": 18,
+   "valor_original": "GPTs en la GPT Store y «wrappers» de IA genéricos",
+   "color_original": null,
+   "quedo": "GPTs en la GPT Store y «wrappers» de IA genéricos",
+   "color_quedo": "FFFF00"
+  },
+  {
+   "fila": 22,
+   "col": 4,
+   "id": 21,
+   "valor_original": "Vender APIs en RapidAPI o conectores MCP en marketplaces",
+   "color_original": null,
+   "quedo": "Vender APIs en RapidAPI o conectores MCP en marketplaces",
+   "color_quedo": "FFFF00"
+  },
+  {
+   "fila": 23,
+   "col": 4,
+   "id": 22,
+   "valor_original": "Newsletter automatizada con IA como negocio por sí sola",
+   "color_original": null,
+   "quedo": "Newsletter automatizada con IA como negocio por sí sola",
+   "color_quedo": "FFFF00"
+  },
+  {
+   "fila": 30,
+   "col": 4,
+   "id": 29,
+   "valor_original": "Servicio de GEO/AEO: lograr que las IAs recomienden a tu marca",
+   "color_original": null,
+   "quedo": "Servicio de GEO/AEO: lograr que las IAs recomienden a tu marca",
+   "color_quedo": "FFFF00"
+  },
+  {
+   "fila": 30,
+   "col": 17,
+   "id": 29,
+   "valor_original": 0.03,
+   "color_original": null,
+   "quedo": "me gusta mucho este, debido a que somos un comisionista, no se que legalidad hay en el medi pero unimos alumnos con profesores y organizamos horarios, por ejemplo existe atc en argentina (alquila tu cancha) y los intermediarios siempre son lso que mas ganan como  amazon, uber, airbnb, etc... para mi el comisionista es un gran rubrro, tambien se me ocurrio por eso el uber de logisdtica b2b o b2c",
+   "color_quedo": null
+  }
+ ]
+}

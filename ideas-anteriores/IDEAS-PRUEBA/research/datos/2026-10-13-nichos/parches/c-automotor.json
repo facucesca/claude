@@ -1,0 +1,177 @@
+[
+  {
+    "id": "AUT-1-1",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'inspección digital vehículo fotos presupuesto aprobación cliente WhatsApp software taller Argentina' (más los resultados de 'software taller mecánico Argentina estado del vehículo seguimiento cliente tablero'). (1) Appli-Car: la ficha de Comparasoftware (https://www.comparasoftware.com/appli-car, WebFetch 2026-10-13) dice que es un SaaS para talleres 'en Chile, Colombia y Argentina' y que 'El cliente recibe un enlace para ver y aprobar el presupuesto al instante', con envío por WhatsApp; la ficha NO menciona inspección con fotos. (2) EITS DVI (Efficiency IT Services, https://eitserv.tech/digital-vehicle-inspection, WebFetch 2026-10-13): inspección digital con fotos y 'El cliente aprueba trabajos adicionales desde WhatsApp con un tap'; apunta a talleres de América Latina y Argentina aparece solo en el menú de países (no verifiqué clientes argentinos). (3) En seguros sí existe autoinspección por foto: Federación Patronal 'SELF' (https://www.fedpat.com.ar/wp-content/uploads/2022/02/Instructivo-Inspeccion-SELF-2.pdf) y Provincia Seguros (nota de 2020 en https://www.baenegocios.com), pero eso es para aseguradoras, no para que el taller venda trabajos extra. No encontré AutoVitals ni Tekmetric vendiendo en Argentina.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: hay al menos dos productos que dicen hacer aprobación por WhatsApp para talleres de la región (uno con fotos), pero no pude verificar que estén establecidos en Argentina."
+  },
+  {
+    "id": "AUT-1-2",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'plataforma talleres buscar repuestos precio stock varias casas de repuestos Argentina'. No encontré un buscador B2B multi-proveedor para talleres (tipo PartsTech). Lo más cercano: Autominuto.com, que según una nota del 2020-04-10 (https://autotest.com.ar/noticias/autominuto-com-la-solucion-para-resolver-todo-lo-que-necesitas-para-tu-auto/, WebFetch 2026-10-13) conecta a conductores (consumidor final, no talleres) con talleres, lubricentros, gomerías y casas de repuestos para pedir presupuestos por mail; no verifiqué que siga activo. También aparecieron catálogos de un solo fabricante (Bosch) y tiendas oficiales en Mercado Libre (Ford), que no comparan proveedores. Una búsqueda sin resultados no prueba que no exista nada. Opinión sin verificar: muchos distribuidores podrían tener su propio portal B2B con stock, pero eso no resuelve la consulta a varios a la vez.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún agregador B2B de repuestos para talleres; no pongo 5 porque fue una sola búsqueda."
+  },
+  {
+    "id": "AUT-1-3",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'peritaje digital siniestros autos talleres aseguradoras Argentina plataforma presupuesto fotos'. Claims Services (insurtech argentina): en una entrevista de iProfesional del 2022-07-13 (https://www.iprofesional.com/tecnologia/365866-insurtech-inteligencia-artificial-transforma-negocio-del-seguro, WebFetch 2026-10-13) su CEO dice que la plataforma 'Fast Track' tiene 'más de 35 compañías aseguradoras trabajando' (más del 65% del mercado, dato del propio proveedor) y menciona una línea de 'Peritación Inteligente para la reparación de vehículos propios y de terceros' con análisis de fotos por IA. Además, aseguradoras con autoinspección por celular: Federación Patronal 'SELF' (https://www.fedpat.com.ar/wp-content/uploads/2022/02/Instructivo-Inspeccion-SELF-1.pdf) y Provincia Seguros (https://www.baenegocios.com/deportes/Provincia-Seguros-lanzo-un-nuevo-sistema-de-inspeccion-digital-para-el-ramo-Automotores-20201023-0031.html). No verifiqué si Tractable o Snapsheet tienen clientes en Argentina.",
+    "hueco_ar": 2,
+    "nota": "Sin cambio: hay un jugador local (Claims Services) que dice trabajar con la mayoría de las aseguradoras y ofrecer peritación con IA, y el cliente que decide es la aseguradora, no el taller."
+  },
+  {
+    "id": "AUT-1-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'software gestión taller de camiones flotas órdenes de trabajo Argentina'. No encontré software argentino específico para talleres de camiones con aprobación del transportista (tipo Fullbay o Decisiv). Lo que apareció: (1) YoFacturo (https://yo-facturo.com/blog/temas/vehiculos-flota-talleres/, WebFetch 2026-10-13): órdenes de trabajo, repuestos y mano de obra para talleres, con factura electrónica AFIP 'con un clic' y gestión de flotas propias; no describe funciones específicas para camiones ni aprobación del cliente-transportista. (2) Cars Solutions (Chiquiar-Myszka & Asociados), sistema hecho con GeneXus para los talleres que atendían camiones de La Serenísima y Danone, según una nota de 2002 (https://www.genexus.com/en/news/noticias-capacitacion/cars-solutions-in-argentina/auto/351/0); no sé si sigue vigente. (3) Software genérico de mantenimiento de flotas en Capterra (Fracttal One y otros, https://www.capterra.es/directory/30776/fleet-maintenance/software), que es del lado de la flota, no del taller; no verifiqué su presencia en Argentina. Una búsqueda sin resultados no prueba que no exista nada.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda solo aparecieron sistemas genéricos de taller/flota y uno viejo de 2002, nada específico para el flujo taller de camiones-transportista; no pongo 5 porque fue una sola búsqueda."
+  },
+  {
+    "id": "AUT-1-5",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'software taller mecánico Argentina estado del vehículo seguimiento cliente tablero'. (1) Appli-Car (ficha en https://www.comparasoftware.com/appli-car, WebFetch 2026-10-13): SaaS para talleres de 'Chile, Colombia y Argentina' con órdenes de trabajo con seguimiento en tiempo real y portal donde el dueño ve el estado de la reparación; no verifiqué cuántos talleres argentinos lo usan ni si mide productividad por mecánico. (2) YoFacturo (https://yo-facturo.com/blog/temas/vehiculos-flota-talleres/): órdenes de trabajo, historial del auto y recordatorios de VTV/service, con factura AFIP. (3) EITS DVI (https://eitserv.tech/digital-vehicle-inspection): portal del cliente con línea de tiempo en vivo 'sin app y sin login', para talleres de América Latina (Argentina solo figura en el menú de países). No encontré Autoflow ni Garage Hive en Argentina. No encontré una herramienta local que mida horas facturadas contra horas disponibles por mecánico.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: hay sistemas que dicen dar tablero y portal de estado en Argentina, pero son chicos o no verificados y no vi la medición de productividad por mecánico."
+  },
+  {
+    "id": "AUT-2-1",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'fotos autos usados inteligencia artificial fondo concesionarias Argentina'. No encontré una herramienta local de fotos con IA para concesionarias. Lo que apareció de Argentina es otra cosa: RunOne (pyme argentina) con Auto.Tienda, una vidriera digital y chatbots para concesionarias oficiales (Forbes Argentina, 2024-01-12, https://www.forbesargentina.com/negocios/con-operaciones-america-latina-europa-pyme-argentina-lanza-una-plataforma-impulsar-venta-autos-n46533, WebFetch 2026-10-13); la nota no menciona fotos. Abrí https://www.spyne.ai (WebFetch 2026-10-13): no menciona Argentina, América Latina ni español; tiene botones de 'Get Started' y apps, así que no sé si se puede contratar desde Argentina. No verifiqué Phyron en Argentina (solo apareció una alianza en España con Nextlane). Una búsqueda sin resultados no prueba que no exista nada.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no encontré nada local, pero no lo subo porque las herramientas globales de este tipo (y los editores de fondo genéricos con IA) podrían usarse desde Argentina; eso no lo pude verificar."
+  },
+  {
+    "id": "AUT-2-2",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'software tasación autos usados concesionarias Argentina precio de mercado'. (1) InfoAuto: app 'InfoAuto Argentina' (https://apps.apple.com/np/app/infoauto-argentina/id1550112119, WebFetch 2026-10-13) con guía de precios de usados, 'Precios Históricos', gráficos de tendencia y 'Plan para Particulares o Profesionales' pagos; Infoauto S.R.L. se presenta como consultora independiente con más de 25 años. (2) Guías de referencia de ACARA y de la Cámara del Comercio Automotor, según una nota de Monkey Motor (https://www.monkeymotor.net/2018/07/lista-de-precios-de-autos-usados-y-0-km.html; no la abrí). (3) Kavak tiene cotizador online de usados (https://www.kavak.com/ar/blog/guia-kavak-como-saber-cuanto-vale-mi-auto; no lo abrí). (4) Auto Action (startup brasileña) llegó a Argentina en marzo de 2019 con una herramienta de evaluación online del usado para concesionarias (https://infonegocios.info/y-ademas/llega-a-argentina-auto-action-la-plataforma-para-vender-vehiculos-usados-especializada-en-el-area-b2b, WebFetch 2026-10-13); no sé si sigue activa. (5) Autosoft figura en Capterra como software de concesionarias para Argentina (https://www.capterra.ae/software/1103968/Autosoft; no pude abrirlo, 403). No verifiqué vAuto ni INDICATA en Argentina.",
+    "hueco_ar": 2,
+    "nota": "Sin cambio: hay guías de precios establecidas (InfoAuto, ACARA, CCA) y herramientas de evaluación; el hueco que queda es la tasación con datos de mercado en vivo integrada, y eso no lo verifiqué."
+  },
+  {
+    "id": "AUT-2-3",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'software gestoría transferencias automotor concesionarias usados Argentina formularios 08 digital'. No encontré software privado de gestoría para concesionarias. Lo que sí apareció es la digitalización estatal: el formulario 08 tiene precarga electrónica desde 2017 que, según una nota de Parabrisas (https://parabrisas.perfil.com/noticias/mercado/2017-09-18-transferencia-de-vehiculos-el-formulario-08-ahora-se-puede-completar-a-traves-de-la-web.phtml; no la abrí), puede completarse 'a través de cualquier aplicación informática que lo permita'; y una nota de Diario Uno (https://www.diariouno.com.ar/tras-los-cambios-el-registro-del-automotor-sturzenegger-adelanto-que-la-transferencia-sera-digital-n1498239) dice que el gobierno anunció un 08 completamente digital. Se suma a lo ya verificado en la primera pasada (portal DNRPA con transferencia digital). Una búsqueda sin resultados de software privado no prueba que no exista.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: el Estado digitaliza parte del trámite (lo que achica y a la vez cambia el problema) y no encontré software privado para concesionarias en 1 búsqueda."
+  },
+  {
+    "id": "AUT-2-4",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'agente IA WhatsApp concesionarias Argentina responder consultas leads turnos service'. (1) Cliengo (https://guiawabusiness.cliengo.com/agente-ia-automotriz, WebFetch 2026-10-13): agente de IA para concesionarias por WhatsApp que responde por modelo y stock, agenda test drives y hace 'Recordatorios de service y agendado de turnos'; dice tener 'Operaciones reales en México, Colombia, Argentina, Chile, Perú'. No menciona integración con DMS. (2) RunOne (pyme argentina): chatbot 'SoyBot' web y por WhatsApp, usado por concesionarias como Fiat Taraborelli, VW y Ford Dietrich, Renault Lumiere y Chevrolet Beta (Forbes Argentina, 2024-01-12, https://www.forbesargentina.com/negocios/con-operaciones-america-latina-europa-pyme-argentina-lanza-una-plataforma-impulsar-venta-autos-n46533, WebFetch 2026-10-13). Un resultado de búsqueda decía que ACARA respaldó un chatbot y voicebot de RunOne para las concesionarias del país; no lo pude confirmar al abrir la nota (https://www.iproup.com/empleo/58738-startup-que-comercializa-autos-reemplaza-a-vendedores-por-ia, contenido cortado). (3) Botmaker con testimonio de Ford Argentina (verificado en la primera pasada). (4) Meta Business AI en WhatsApp Business disponible en Argentina, según una nota sin fecha visible (https://www.infogastronomica.com.ar/whatsapp-business-como-funciona-el-agente-de-ia-que-ahora-te-respondera-siempre-y-que-promete-aumentar-las-ventas/).",
+    "hueco_ar": 2,
+    "nota": "Sin cambio: hay varios proveedores con oferta para concesionarias en Argentina (Cliengo, RunOne); el único hueco posible es la integración con el DMS, que no verifiqué."
+  },
+  {
+    "id": "AUT-2-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'software reacondicionamiento usados concesionaria Argentina seguimiento unidades preparación venta'. No encontré software local de reacondicionamiento (tipo Rapid Recon). Apareció: Cars Solutions, un sistema de gestión de concesionarias argentino con módulo de usados, pero en una nota de 2002 (https://genexus.com/en/resultado-search/cars-solutions-in-argentina/auto/211/7); Auto Action, con evaluación online del usado (nota de 2019, https://infonegocios.info/y-ademas/llega-a-argentina-auto-action-la-plataforma-para-vender-vehiculos-usados-especializada-en-el-area-b2b); y plantas de reacondicionamiento propias (Kavak, nota de La Nación https://www.lanacion.com.ar/autos/innovacion-la-planta-de-reacondicionamiento-que-marca-un-antes-y-un-despues-en-la-compra-y-venta-de-nid06052022/; no la abrí), que son operación propia, no software vendido a terceros. Una búsqueda sin resultados no prueba que no exista nada.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún software de seguimiento del reacondicionamiento para concesionarias en Argentina; no pongo 5 por ser una sola búsqueda."
+  },
+  {
+    "id": "AUT-3-1",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'catálogo autopartes equivalencias aplicaciones software mostrador casa de repuestos Argentina'. (1) Etman (distribuidor argentino): 'Catálogo Digital' para comercios de autopartes con 'artículos equivalentes', 54.000 aplicaciones y 5 buscadores, instalación 'en forma totalmente gratuita', según una nota de 16 Válvulas del 2012-02-17 (https://www.16valvulas.com.ar/?p=45706, WebFetch 2026-10-13); no verifiqué que siga vigente. (2) Bosch Argentina: catálogo digital que busca por código Bosch, código original, 'código equivalente' o aplicación, nota del 2023-12-01 (https://www.autoweb.com.ar/?p=41543, WebFetch 2026-10-13). (3) partslink24 cobra en pesos (verificado en la primera pasada). No verifiqué si TecDoc tiene clientes en Argentina.",
+    "hueco_ar": 2,
+    "nota": "Sin cambio: ya hay catálogos con equivalencias gratuitos de distribuidores y fabricantes y uno internacional cobrado en pesos; el hueco sería unificar marcas, no el catálogo en sí."
+  },
+  {
+    "id": "AUT-3-2",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "2 búsquedas el 2026-10-13: 'software actualizar listas de precios proveedores repuestos Argentina importar Excel' y 'sistema de gestión casa de repuestos Argentina actualización masiva listas de precios proveedores'. (1) Fidel: documentación en https://mintlify.wiki/francoogilli/fidel-next/solutions/casas-de-repuestos (WebFetch 2026-10-13) lo presenta como 'el ERP diseñado para casas de repuestos argentinas'; importa la lista de precios en Excel del proveedor e 'identifica cada repuesto por su código de proveedor' para actualizar precios en forma masiva; varios proveedores por artículo; dice tener '+160 casas de repuestos' (dato del proveedor). No menciona IA ni lectura de PDF. No encontré su sitio oficial. (2) Dux Software: ayuda en https://intercom.help/duxsoftware/es/articles/8490423-actualizar-varias-listas-de-precio (WebFetch 2026-10-13) explica cómo actualizar varias listas de venta a la vez ('ya sea en PESOS o DÓLARES') e importar precios con una plantilla Excel propia; no habla de listas de proveedores. (3) Base (https://base.com/es-AR/blog/digitalizacion-ferretera-como-automatizar-catalogos-masivos/; no lo abrí): importa catálogos CSV con mapeo de campos y aplica subas por porcentaje a una categoría; orientado a ferretería y venta online. Ninguno de los que vi dice leer con IA listas de formato variable o en PDF.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: la importación de Excel por código de proveedor ya existe en un ERP local específico (Fidel), así que el hueco que queda es solo la lectura de formatos variables o PDF con IA."
+  },
+  {
+    "id": "AUT-3-3",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'software reposición stock casa de repuestos autopartes punto de pedido Argentina'. No encontré software local de planificación de demanda o reposición para repuestos (tipo Syncron o Netstock). Lo que apareció es parcial: (1) Fidel (https://mintlify.wiki/francoogilli/fidel-next/solutions/casas-de-repuestos, WebFetch 2026-10-13) tiene alertas de stock mínimo y máximo, que no es lo mismo que calcular la reposición con la demanda. (2) Stockfacil vende en Mercado Libre un 'Programa Gestion Casas De Repuestos' (https://www.mercadolibre.com.ar/pagina/stockfacil20151362; no pude abrirlo, 403), sin detalle de funciones de reposición. (3) Cars Solutions con módulo para casas de repuestos, nota de 2002. No verifiqué si Netstock tiene clientes en Argentina.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: los sistemas locales que vi solo traen alertas de mínimo y máximo; no encontré pronóstico de demanda para repuestos, pero fue 1 búsqueda y puede haber módulos en ERP generales."
+  },
+  {
+    "id": "AUT-3-4",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'Mercado Libre compatibilidades autopartes vendedores carga masiva Argentina'. (1) La documentación para desarrolladores de Mercado Libre Argentina (https://developers.mercadolibre.com.ar/referencias-de-dominios-productos-y-atributos-para-autopartes) aparece en los resultados con el dominio de vehículos 'MLA-CARS_AND_VANS' para compatibilidades y fecha de actualización 15/06/2026; no la pude abrir (403), así que solo vi el resumen del buscador. (2) UpSeller, un ERP de marketplaces, ofrece plantillas de compatibilidad para Mercado Libre de hasta 200 vehículos (https://www.upseller.com/es/help-doc-article-1906; no lo abrí). (3) Una nota de Portal Automotriz del 2021-06-03 (http://www.portalautomotriz.com/print/noticias/automotriz/mercado-libre-ayuda-a-los-vendedores-con-nuevas-herramientas-de-compatibilidades, WebFetch 2026-10-13) describe la herramienta de compatibilidades y a los integradores Aleph y AutoAzur, pero es de México, no de Argentina. No verifiqué RevolutionParts ni PCFitment en Argentina.",
+    "hueco_ar": 2,
+    "nota": "Sin cambio: confirma que Mercado Libre ya tiene compatibilidades en Argentina; el hueco posible es generar y cargar esos datos en masa, no la función."
+  },
+  {
+    "id": "AUT-3-5",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "2 búsquedas el 2026-10-13: 'casa de repuestos pedidos WhatsApp talleres automatizar carga sistema Argentina' (solo resultados genéricos de chatbots) y 'inteligencia artificial toma de pedidos WhatsApp distribuidoras mayoristas Argentina carga automática ERP'. Softland Pedidos IA (https://softland.com/co/productos/softland-pedidos-ia/, WebFetch 2026-10-13): recibe pedidos por WhatsApp y correo, 'interpreta los pedidos en formatos diversos (texto, audio, PDF, Excel, imágenes, etc)' y los 'envía los datos directamente al ERP Softland'; el selector de países del sitio incluye 'Argentina softland.com/ar/'. El folleto en softland.com/ar que apareció en la búsqueda devolvió 404. Límites: no es específico de autopartes y la integración verificada es solo con el ERP de Softland, no con los sistemas de las casas de repuestos. No verifiqué Conexiom ni Esker con clientes de autopartes en Argentina.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: ya existe un producto con presencia en Argentina que hace justo esto (pedidos por WhatsApp con IA al ERP), pero atado a su propio ERP y no pensado para repuestos, así que el hueco es parcial."
+  },
+  {
+    "id": "AUT-4-1",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'software lubricentro Argentina recordatorio próximo cambio de aceite WhatsApp clientes'. No encontré software argentino específico para lubricentros con recordatorios. Apareció: (1) Marketing Focal SA, 'AUTO Alerts', con dirección en 'Florida / Buenos Aires | Argentina', descripto como servicio de alertas de mantenimiento según los km estimados del vehículo, integrado con sistemas de concesionarias (https://b2brazil.com/hotsite/marketingfocalsa/auto-alerts3, WebFetch 2026-10-13); el directorio lo marca como 'Unverified Company' y no menciona lubricentros. (2) YoFacturo (https://yo-facturo.com/blog/temas/vehiculos-flota-talleres/) permite recordatorios de VTV o service por auto del cliente. (3) Agendas genéricas por WhatsApp con recordatorios de cambio de aceite, sin presencia argentina verificada (https://schedulingkit.com/es/whatsapp-booking/auto-repair). No verifiqué Steer ni AutoLeap en Argentina.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: hay piezas parciales (alertas para concesionarias, recordatorios en un sistema de facturación) pero nada específico para lubricentros; puede ser una función de sistemas que no aparecieron."
+  },
+  {
+    "id": "AUT-4-2",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'lavadero de autos membresía mensual lavado ilimitado suscripción Argentina'. No encontré lavaderos con membresía mensual ilimitada en Argentina ni software local para venderlas. Lo más cercano es de Paraguay: Wash and Go con membresías mensuales (https://infonegocios.com.py/amp/infomotor/lavar-el-auto-por-suscripcion-un-nuevo-concepto-lo-permite-en-menos-de-15-minutos-y-con-tecnologia-de-ultima-generacion; no lo abrí). Las notas argentinas que aparecieron hablan de precios por lavado (por ejemplo https://www.cronica.com.ar/sociedad/los-lavaderos-de-autos-pulen-su-estrategia-ante-una-demanda-frenada-cuanto-cuesta-dejar-limpito-el-coche/). No verifiqué DRB ni Rinsed en Argentina. Una búsqueda sin resultados no prueba que no exista nada.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ni el modelo de membresía ni el software en Argentina; ojo, que no exista también puede significar que falta el tipo de lavadero (túnel) que lo hace posible."
+  },
+  {
+    "id": "AUT-4-3",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'gomerías cotizar neumáticos stock distribuidor online plataforma B2B Argentina'. No encontré una plataforma B2B para que las gomerías coticen con el stock de sus distribuidores (tipo TireConnect). Lo que existe es del lado del consumidor: Mercado Libre vende neumáticos de Bridgestone, Continental, Goodyear, Michelin y Pirelli con 'la colocación sin cargo en más de 500 puntos', con disponibilidad por tienda, y participan gomerías con tienda oficial como Calzetta, Daytona, Neumen, Norauto y Vulcatires (nota del 2018-08-29, https://www.16valvulas.com.ar/?p=158044, WebFetch 2026-10-13); una nota de Perfil (https://www.perfil.com/noticias/cordoba/cambio-de-cubiertas-con-un-clic-mercado-libre-se-mete-en-el-negocio-de-la-instalacion-y-llega-a-cordoba.phtml; no la abrí) habla de más de 100 talleres en CABA y GBA. No verifiqué TireConnect ni Tire Guru en Argentina. Opinión sin verificar: los fabricantes o mayoristas podrían tener portales para revendedores.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda solo apareció venta al consumidor (Mercado Libre, que además compite con la gomería), no una herramienta B2B de cotización; no pongo 5 por ser una sola búsqueda."
+  },
+  {
+    "id": "AUT-4-4",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'gestión de neumáticos flotas camiones medición profundidad dibujo software Argentina'. No encontré proveedores con presencia verificada en Argentina. Aparecieron solo referencias de afuera: Savetyre (Brasil, RFID y medición de surcos, https://agencia.fapesp.br/una-plataforma-automatizada-monitorea-el-estado-de-los-neumaticos/31385), Goodyear Total Solution para flotas en Chile (https://noticias.autocosmos.cl/2020/06/12/total-solution-el-programa-de-servicios-de-goodyear-para-flotistas), Goodyear Tires-as-a-Service (Europa) y Michelin Connected Fleet (blog). No verifiqué Anyline ni TraXtion en Argentina. Opinión sin verificar: los programas de flotas de los fabricantes de neumáticos o las recapadoras podrían ofrecer esto en Argentina. Una búsqueda sin resultados no prueba que no exista nada.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció nada local; no pongo 5 porque fue una sola búsqueda y los fabricantes tienen programas regionales que podrían llegar a Argentina."
+  },
+  {
+    "id": "AUT-4-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'lavado de flotas camiones en predio del cliente service mantenimiento in situ empresas Argentina'. Car Wash Los Primos (perfil en ConnectAmericas, https://connectamericas.com/es/node/5779, WebFetch 2026-10-13): empresa argentina de unos 5 empleados que lava a domicilio 'todo tipo de vehículos', incluidas flotas de empresas en sus estacionamientos, desde 2012, con franquicias; el perfil figura como no verificado y no menciona camiones. No encontré operadores organizados de mantenimiento o service en el predio de flotas: el programa 'En la ruta del Cliente' de VW Camiones (16 Válvulas, 2012, https://www.16valvulas.com.ar/?p=55501, WebFetch 2026-10-13) son visitas comerciales, no service móvil. No verifiqué Spiffy ni Fleet Clean en Argentina.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: hay al menos un operador chico de lavado a domicilio para flotas, pero no encontré mantenimiento en el predio para flotas."
+  },
+  {
+    "id": "AUT-5-1",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'servicio impugnar multas de tránsito online Argentina abogados descargo fotomultas'. No encontré un servicio privado de impugnación de multas por suscripción (tipo Dvuelta). Los resultados son notas de cómo hacerlo uno mismo y canales oficiales: en CABA el descargo se puede hacer online o por WhatsApp con el asistente 'Boti' (nota de C5N, https://www.c5n.com/sociedad/como-podes-reclamar-las-multas-transito-y-acceder-descuentos-particulares-n218196; no la abrí), y notas de iProfesional sobre impugnación y prescripción (https://www.iprofesional.com/legales/439722-multas-de-transito-como-es-tramite-para-impugnarla-evitar-pago). Ojo con la mecánica local: según esas notas, pagar con descuento implica renunciar a impugnar, y si el descargo se rechaza se pierde el descuento. Una búsqueda sin resultados no prueba que no exista nada (puede haber abogados que lo ofrecen sin plataforma).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún servicio privado organizado; el canal oficial gratuito existe, lo que es una amenaza para el negocio más que un competidor."
+  },
+  {
+    "id": "AUT-5-2",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'comparar presupuestos talleres mecánicos online Argentina precio reparación plataforma'. (1) Autominuto.com: según una nota del 2020-04-10 (https://autotest.com.ar/noticias/autominuto-com-la-solucion-para-resolver-todo-lo-que-necesitas-para-tu-auto/, WebFetch 2026-10-13), el conductor pide un presupuesto y los comercios de la red se lo mandan por mail para elegir 'por precio, reputación o proximidad'; no verifiqué que siga activo ni su tamaño. (2) Referencia de precios: FAATRA (federación de talleres) publica valores orientativos de la hora de taller, por ejemplo $84.000 + IVA la hora de mecánica general para el 2.º trimestre de 2026, según iProfesional (https://www.iprofesional.com/management/456776-el-dato-que-sorprende-cuanto-cobra-un-mecanico-por-hora-en-junio-2026; no la abrí). No es un precio cerrado por reparación. Tallerator apareció pero es de España. No verifiqué ClickMechanic ni Autobutler en Argentina.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: hay un comparador local de presupuestos (Autominuto, sin confirmar que siga activo) y precios por hora de referencia, pero no un precio cerrado por reparación."
+  },
+  {
+    "id": "AUT-5-3",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'compraventa autos usados entre particulares pago seguro custodia fondos escrow Argentina'. No encontré un servicio de custodia del pago (escrow) para ventas entre particulares en Argentina. Lo más cercano: VendeTuAuto.com.ar (grupo Americas Car Group, llegó a Argentina en 2018), que según Auto Test del 2019-02-13 (https://autotest.com.ar/noticias/plataforma-para-evitar-el-fraude-en-la-venta-online-de-autos/, WebFetch 2026-10-13) hace la venta 'con escribano público', 'inspección gratuita del vehículo' y paga por transferencia bancaria; es compra por la plataforma, no custodia entre particulares, y no verifiqué que siga activa. En Chile existe TransaTuAuto con pago online y póliza de garantía (https://www.diarioestrategia.cl/texto-diario/mostrar/1529068/empresa-chilena-busca-digitalizar-mercado-automotriz-permite-compras-vehiculos-tarjeta; no la abrí). Una búsqueda sin resultados no prueba que no exista nada.",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no encontré escrow en 1 búsqueda, pero no lo subo porque el escribano más la transferencia digital del DNRPA ya cubren parte del riesgo y es la idea propia de Facu, donde conviene no inflar el hueco."
+  },
+  {
+    "id": "AUT-5-4",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'informe historial vehículo usado kilometraje choques por patente Argentina'. Datacar (https://www.datacar.com.ar/; el sitio devolvió 403 al abrirlo el 2026-10-13): según una nota de Monkey Motor del 2021-10-18 (https://www.monkeymotor.net/2021/10/datacar-informes-historial-automotor.html, WebFetch 2026-10-13), existe desde 2014 y vende por informe el historial por patente: cantidad de dueños, si fue taxi o remís, VTV, deudas de patente, infracciones, seguro, GNC y prendas; la nota NO menciona kilometraje ni siniestros, y la cobertura completa es CABA, Buenos Aires, Córdoba, Santa Fe y Mendoza. Sobre el kilometraje: hay un proyecto de ley (expediente 3777-D-2025, https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2025/PDF2025/TP2025/3777-D-2025.pdf) para crear un registro de km cargado en cada VTV; no sé si se aprobó. Una nota de iProfesional dice que la consulta de vehículos del Renaper muestra siniestros (no lo verifiqué).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: ya hay un informe privado establecido por patente (Datacar), pero no vi que incluya kilometraje ni choques, que es justo el núcleo de la fila; además el dato de km quizás no existe hoy en una fuente pública."
+  },
+  {
+    "id": "AUT-5-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Búsqueda 2026-10-13: 'pagar patente y multas del auto en cuotas con tarjeta app Argentina deudas vehículo'. No encontré un agregador privado que junte patente y multas de varias jurisdicciones y financie en cuotas (tipo Zapay). Lo que hay es estatal y por separado: ARBA permite pagar la patente mensual en hasta 10 cuotas con tarjeta de crédito, según Perfil (https://www.perfil.com/noticias/economia/vence-la-cuota-5-de-la-patente-bonaerense-hasta-cuando-puedo-pagar-arba-con-descuento-a35.phtml; no la abrí); AGIP Mobile permite pagar la patente de CABA con tarjeta (nota de C5N, https://www.c5n.com/sociedad/como-puedo-pagar-la-patente-vencida-agip-n125430/amp); y las multas se consultan en el sistema nacional y se pagan en el sitio de cada jurisdicción. Se suma a lo verificado en la primera pasada (SINAI solo consulta). Una búsqueda sin resultados no prueba que no exista nada.",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún agregador privado con financiación; ojo, que el Estado ya ofrece cuotas para la patente en provincia de Buenos Aires."
+  }
+]

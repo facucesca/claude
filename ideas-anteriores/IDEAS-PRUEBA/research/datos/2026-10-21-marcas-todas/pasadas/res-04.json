@@ -1,0 +1,182 @@
+[
+ {
+  "n": "M010",
+  "opinion": "Entendí que Facu imagina un solo mercado B2B global, dividido por nichos, donde el comprador encuentra proveedor y el proveedor encuentra comprador, y pide una vuelta de tuerca. Así planteado, es pelear contra Mercado Libre Negocios, que ya arma su catálogo con proveedores verificados. También están Markley y Compre Ahora. Un mercado general necesita miles de compradores y vendedores a la vez, y eso no se arranca con USD 1.300. Ojo: Facu ya descartó dos ideas vecinas, el portal de pedidos B2B por WhatsApp para distribuidoras y el catálogo B2B para mayoristas, así que la vuelta de tuerca tiene que ser otra cosa. Mi opinión: solo tiene sentido en un rubro chico que Facu conozca de adentro, como insumos y repuestos del agro.",
+  "hallazgos": "Mercado Libre Negocios llegó a Argentina después de México y Chile en 2024 y arma el catálogo con proveedores verificados [https://americaretail-malls.com/paises/brasil/mercado-libre-impulsa-el-comercio-mayorista-con-su-nueva-plataforma-b2b/]. Markley es una plataforma B2B chica de Argentina y Colombia, fundada en 2019, en etapa semilla, con portal de compras y comparación de cotizaciones [https://www.descubre.vc/markley]. Compre Ahora se presenta como mayorista B2B con clientes como Unilever y Molinos; la nota es vieja y sus cifras pueden estar desactualizadas [https://www.iprofesional.com/tecnologia/374571-compre-ahora-apunta-a-fintech-para-crecer-en-pymes]. No encontré un B2B vertical para agro o repuestos industriales en una búsqueda; no verificado. Consultado el 2026-10-23.",
+  "variantes": [
+   "La de Facu con vuelta de tuerca: el comprador no busca en un catálogo. Manda una foto o un audio de lo que necesita, la IA arma el pedido y tres proveedores del rubro cotizan en 24 horas. Se cobra comisión al proveedor que gana.",
+   "Vertical agro: repuestos e insumos para acopios, plantas de silos y transportistas de granos. CEMEVA sirve de primer cliente y de fuente de proveedores reales.",
+   "Al revés: el proveedor sube su sobrestock o lo que no rota y la plataforma lo ofrece a compradores del rubro. Se liga a la idea de stock de piezas chicas que Facu ya eligió."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "La versión general choca con Mercado Libre Negocios y necesita las dos puntas desde el día uno. Solo un rubro chico y conocido, como el agro, le da a Facu una ventaja real.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 150, estimación: landing, WhatsApp Business y algo de tiempo de Claude.",
+  "primer_paso": "Juntar 20 pedidos reales de repuestos o insumos de CEMEVA y de dos acopios vecinos, conseguir cotización de tres proveedores a mano por WhatsApp y medir si el comprador ahorra tiempo o plata.",
+  "riesgo_principal": "El problema del huevo y la gallina: sin compradores no vienen proveedores y al revés.",
+  "agrupar_con": ["D37 (rechazada, cuidado)", "H32 (rechazada, cuidado)", "COM-3-5"]
+ },
+ {
+  "n": "M011",
+  "opinion": "Facu lo ve como un mercado o un intermediario que ayude a que la venta del usado salga bien. Me parece mejor esa última parte: no ser otro sitio de avisos sino el que tasa, revisa y garantiza que el equipo no es robado. El problema es que ya hay jugadores que compran al instante, como Zelucash, y reacondicionadores grandes como Ferbi y Mercado Libre. Además, comprar celulares usados obliga a controlar IMEI y procedencia, y un error ahí es un problema legal. La versión más liviana para Facu es la herramienta de tasación y revisión para el comercio que recibe usados en parte de pago.",
+  "hallazgos": "Zelucash compra celulares en Argentina con cotización online por modelo y estado, y coordina envío y pago; su reputación figura sin verificar en un sitio de reseñas [https://tuquejasuma.com/zelucash]. Ferbi, de Mirgor, reacondiciona celulares en su laboratorio y los vende [https://www.forbesargentina.com/innovacion/compran-celulares-usados-darles-una-segunda-vida-como-sistema-precio-venden-dispositivos-n32954]. Trocafone, creada por argentinos, hoy concentra su comercio en Brasil según un directorio sin fecha clara [https://developargentina.com/directorio/trocafone]. En 2016 hizo un plan canje con Movistar en más de 60 locales, ya terminado [https://www.telesemana.com/blog/2016/10/19/movistar-argentina-firmo-un-pacto-con-trocafone-para-el-canje-de-celulares/]. No encontré tótems de compra al estilo ecoATM en Argentina; no verificado. Consultado el 2026-10-23.",
+  "variantes": [
+   "La de Facu: intermediario de la venta entre particulares. El vendedor carga el celular, un local socio lo revisa y verifica el IMEI, y la publicación sale con sello de revisado. Se cobra un fijo por revisión.",
+   "Para el comercio: app de tasación en el mostrador. El local que toma usados en parte de pago carga modelo, fotos y prueba de batería, y la app le dice cuánto ofrecer según precios reales de reventa. Abono mensual.",
+   "Cambiar el objeto: lo mismo para notebooks y consolas, donde casi no hay jugadores que compren al instante. No verificado."
+  ],
+  "puntuacion": 6.0,
+  "por_que_puntuacion": "El dolor existe, pero ya hay compradores al instante y reacondicionadores fuertes. El riesgo de equipos robados exige un proceso serio de control.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 100, estimación: planilla de precios con Claude y un formulario.",
+  "primer_paso": "Visitar 10 locales de celulares que toman usados en parte de pago y preguntar cómo tasan hoy, cuántos toman por mes y cuánto pierden por equipos mal tasados.",
+  "riesgo_principal": "Que un equipo robado o bloqueado pase por la plataforma y Facu quede pegado legalmente.",
+  "agrupar_con": ["M096", "M085", "TEL-4-1"]
+ },
+ {
+  "n": "M064",
+  "opinion": "La idea es cotizar desde el satélite y fotos, y además vender y ejecutar la obra a precio cerrado con una red de instaladores. La parte de medir sin ir es buena y Facu ya la eligió antes como CON-2-3. La parte de ejecutar la obra es otro negocio: es una constructora con red de oficios, con reclamos, garantías y gente. IguanaFix intentó algo parecido y en pintura terminaba dando solo un estimado, porque el estado de la pared cambia el precio. Para Facu hoy, me quedo con la herramienta de medir y cotizar, y dejo la ejecución para después.",
+  "hallazgos": "Una guía de Servidos estima impermeabilizar en Buenos Aires a mediados de 2026 entre $18.000 y $35.000 el m² llave en mano, y avisa que los precios cambian cada mes [https://servidos.ar/blog/cuanto-cuesta-impermeabilizar-techo-buenos-aires]. La misma guía dice que no hace falta matrícula, pero sí garantía por escrito del techista [https://servidos.ar/blog/cuanto-cuesta-impermeabilizar-techo-buenos-aires]. No encontré ningún servicio en Argentina que presupueste techos midiendo desde el satélite. No pude verificar si IguanaFix sigue operando en 2026. Consultado el 2026-10-23.",
+  "variantes": [
+   "La original con red: se mide y cotiza desde el satélite, y se arranca con dos o tres techistas de confianza en un solo barrio, cobrando una comisión por obra cerrada.",
+   "Sin ejecutar obra: la herramienta se le vende al techista o pintor. Pone la dirección y en 10 minutos tiene metros y presupuesto armado para mandar por WhatsApp. Abono mensual.",
+   "Otro cliente: administraciones de consorcios y countries, que necesitan cotizar muchos techos y frentes a la vez."
+  ],
+  "puntuacion": 5.4,
+  "por_que_puntuacion": "Medir sin ir tiene hueco, pero ejecutar la obra a precio cerrado es un negocio pesado de personas y reclamos. El precio cerrado se rompe por el estado de la superficie.",
+  "tema": "Hogar, obra y barrio",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 150, estimación: landing, mediciones a mano con Claude y Google Earth.",
+  "primer_paso": "Medir 20 techos de un barrio desde imagen satelital, compararlos con la medida real que tengan dos techistas y ver cuánto se equivoca la medición.",
+  "riesgo_principal": "Que el precio cerrado no cubra lo que aparece al llegar, como humedad o membrana vieja, y se coma la ganancia.",
+  "agrupar_con": ["M066", "CON-2-3"]
+ },
+ {
+  "n": "M066",
+  "opinion": "Facu pidió que se la expliquen mejor. Simple: ARBA mira desde el satélite las casas y, si ve una pileta o una ampliación que no está declarada, te sube el impuesto y te la cobra hacia atrás. La idea es darle al dueño el mismo análisis antes de que llegue ARBA: pone su dirección, la página compara lo que se ve desde arriba con lo que figura en su boleta y le dice qué le falta declarar, cuánto le costaría y qué le traba, como vender o heredar. Si quiere arreglarlo, tres agrimensores o arquitectos de su zona le cotizan el plano a precio cerrado. Lo flojo: ARBA ya deja declarar gratis online, y poca gente busca por su cuenta pagar más impuesto. El momento que duele de verdad es cuando vas a vender o escriturar y aparece el problema.",
+  "hallazgos": "ARBA anunció en 2014 un sistema de imágenes satelitales llamado MESI para detectar construcciones no declaradas y cruzarlo con datos de AFIP [https://archivo.consejo.org.ar/noticias14/presentarba_2205.html]. ARBA trabajó con CONAE para mejorar esa detección y se esperaba sumar imágenes de radar [https://www.infocampo.com.ar/?p=259911]. No encontré noticias de 2026 sobre piletas o mejoras detectadas; no verificado. No encontré nadie que le haga el pre-diagnóstico al dueño. Consultado el 2026-10-23.",
+  "variantes": [
+   "La original, explicada: diagnóstico satelital para el dueño más red de matriculados que cotizan el plano a precio cerrado. Se cobra el diagnóstico y una comisión del plano.",
+   "Cambiar el cliente: informe de metros antes de vender, para inmobiliarias y escribanos. Detecta a tiempo lo que puede trabar una escritura. Se cobra por informe.",
+   "Modo un solo jugador: el agrimensor usa la herramienta para encontrar clientes. Ve en su partido las casas con diferencias y les ofrece regularizar."
+  ],
+  "puntuacion": 5.6,
+  "por_que_puntuacion": "El hueco está, pero el dueño casi nunca quiere adelantarse a pagar más impuesto. La versión para venta de inmuebles tiene un dolor más claro.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Datos o información",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 150, estimación: landing, diagnósticos hechos a mano con Claude y Google Earth, algo de anuncios.",
+  "primer_paso": "Hablar con 5 inmobiliarias y 3 agrimensores de un partido para preguntar cuántas ventas se traban por metros sin declarar y cuánto cuesta regularizar.",
+  "riesgo_principal": "Que la gente no quiera pagar por descubrir que debe más impuesto.",
+  "agrupar_con": ["M064"]
+ },
+ {
+  "n": "M069",
+  "opinion": "Es la idea de Facu de traer a Argentina el escrow, el tercero que retiene la plata hasta que se cumple lo acordado. Ya se investigó a fondo: Escrow.com funciona para argentinos, el negocio genérico es chico y su volumen viene cayendo. Retener plata de terceros en Argentina entra en el terreno del BCRA. Los que ganaron lo hicieron en un nicho, como Caramel con autos usados. La mantengo como reserva de etapa 2, y la parte probable de hoy está en L1 y en el sello para tiendas.",
+  "hallazgos": "No encontré una plataforma argentina de escrow para compraventa de autos entre particulares [https://autotest.com.ar/noticias/plataforma-para-evitar-el-fraude-en-la-venta-online-de-autos/]. Apareció Lemonpay, que dice guardar la plata en un depósito bancario hasta confirmar la entrega; no verifiqué de qué país es ni si opera en Argentina [https://autotest.com.ar/noticias/plataforma-para-evitar-el-fraude-en-la-venta-online-de-autos/]. En Chile, Transatuauto.cl ofrece pago con garantía entre particulares con una póliza [https://www.diarioestrategia.cl/texto-diario/mostrar/1529068/empresa-chilena-busca-digitalizar-mercado-automotriz-permite-compras-vehiculos-tarjeta]. Consultado el 2026-10-23.",
+  "variantes": [
+   "La de Facu: escrow para transacciones con el exterior, montado sobre la API de Escrow.com, con español, guía paso a paso y foco en freelancers y exportadores chicos.",
+   "Sin tocar la plata: garantía con póliza, como en Chile. Una aseguradora cubre la operación y la plataforma solo verifica y coordina.",
+   "Nicho concreto: cierre seguro de autos usados, ver L1."
+  ],
+  "puntuacion": 5.3,
+  "por_que_puntuacion": "El escrow genérico es un negocio chico, regulado y con competidores globales que ya aceptan argentinos. Solo vale en un nicho y en etapa 2.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 a 50, estimación: solo entrevistas.",
+  "primer_paso": "Hacer 10 entrevistas a freelancers y exportadores chicos sobre veces que no les pagaron y qué usan hoy para protegerse.",
+  "riesgo_principal": "Manejar plata de terceros sin la figura legal correcta ante el BCRA.",
+  "agrupar_con": ["M085", "M075", "M096"]
+ },
+ {
+  "n": "M085",
+  "opinion": "Es la versión local del escrow: una app que retiene el pago hasta que se cumple lo acordado, para operaciones donde hay desconfianza. Facu la marcó sin comentario. La versión que tiene sentido sigue siendo el cierre seguro de autos usados entre particulares, donde el registro automotor hace de juez y no hay discusión de caja vacía. No encontré hoy a nadie en Argentina que lo haga. Igual, custodiar plata es terreno del BCRA, así que la primera versión tiene que coordinar que el pago y la firma pasen juntos sin tocar la plata.",
+  "hallazgos": "No encontré en Argentina un escrow para autos usados entre particulares en una búsqueda [https://autotest.com.ar/noticias/plataforma-para-evitar-el-fraude-en-la-venta-online-de-autos/]. VendeTuAuto.com.ar opera desde 2018 contra el fraude en usados, pero no detalla cómo maneja el pago [https://www.16valvulas.com.ar/?p=165398]. En Chile hay pago con garantía entre particulares con póliza [https://www.diarioestrategia.cl/texto-diario/mostrar/1529068/empresa-chilena-busca-digitalizar-mercado-automotriz-permite-compras-vehiculos-tarjeta]. Consultado el 2026-10-23.",
+  "variantes": [
+   "Cierre seguro de autos: se coordina el turno en el registro, el pago por transferencia inmediata en el mismo momento y la firma, sin custodiar plata. Cobro fijo por operación.",
+   "Otro objeto: maquinaria agrícola usada entre productores, donde los montos son altos y Facu tiene red por CEMEVA.",
+   "Con aseguradora: la plataforma verifica y una póliza cubre si algo sale mal, sin retener fondos."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "Hay un nicho claro y sin jugador local visible, pero toca plata ajena y regulación. Conviene validarla con entrevistas y dejar el producto para etapa 2.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 a 100, estimación: entrevistas y una consulta legal corta.",
+  "primer_paso": "Entrevistar a 10 personas que vendieron o compraron un auto usado a un particular en 2026 sobre cómo resolvieron el momento del pago y la firma.",
+  "riesgo_principal": "Que la figura legal obligue a ser proveedor de pagos regulado desde el arranque.",
+  "agrupar_con": ["M069", "M096", "M011"]
+ },
+ {
+  "n": "M075",
+  "opinion": "La idea es un sello de confianza para tiendas chicas que venden por Instagram, WhatsApp o Tiendanube, con una garantía al comprador si el pedido no llega. Me gusta porque ataca un hueco que nadie cubre: la transferencia por alias a una tienda de Instagram. Hoy no hay sello así en Argentina. Pero la garantía es dinero en riesgo y atrae a estafadores que quieren el sello para estafar mejor. Encontré a Verificado.ai, una startup chilena que certifica reseñas y ya tiene clientes en Argentina, así que la parte de reseñas no está vacía.",
+  "hallazgos": "Verificado.ai es una startup chilena que certifica reseñas de compras online y, según Capterra, tiene clientes en Chile, Perú, México, Argentina y Colombia, con precio inicial de USD 129 [https://www.capterra.co.uk/software/1100114/Verificado-ai]. Su origen y propuesta salen de una nota de 2023 [https://ecosistemastartup.com/verificado-ai-y-la-creacion-del-primer-sello-que-certifica-los-comentarios-de-las-compras-online/]. Capece lanzó en Perú en 2020 un Sello de Confianza Online [https://www.peru-retail.com/?p=145274]. Tiendanube aconseja revisar redes y quejas públicas para detectar tiendas falsas [https://www.tiendanube.com/blog/como-saber-si-una-tienda-online-es-segura/]. No encontré sello para tiendas de Instagram en Argentina. Consultado el 2026-10-23.",
+  "variantes": [
+   "La original sin garantía al inicio: auditoría con IA, sello verificable con link y reseñas de compras reales. La garantía se suma recién con datos de reclamos.",
+   "Del lado del comprador: el comprador pega el link de la tienda antes de transferir y recibe un informe de riesgo. Gratis para el comprador, la tienda paga para mejorar su puntaje.",
+   "Con pago protegido: la tienda con sello cobra por un link de pago que libera la plata al confirmar la entrega. Se apoya en un procesador con licencia."
+  ],
+  "puntuacion": 5.7,
+  "por_que_puntuacion": "El hueco de la transferencia a tiendas de Instagram es real y sin sello local. La garantía trae riesgo de fraude y un sello sin marca conocida vale poco al principio.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 150, estimación: landing, página de verificación y auditorías hechas con Claude.",
+  "primer_paso": "Auditar gratis 30 tiendas de Instagram con Claude, darles un sello beta con link y medir cuántas lo ponen en la bio y cuántas pagarían un abono.",
+  "riesgo_principal": "Que una tienda con sello estafe y el sello pierda toda credibilidad.",
+  "agrupar_con": ["M069", "M085", "M096"]
+ },
+ {
+  "n": "M096",
+  "opinion": "La idea es una garantía de 6 a 12 meses para lo que comprás usado a un particular, separada del mercado donde lo compraste. El hueco legal está confirmado: entre particulares no hay garantía de ley. Pero esto es, en el fondo, un seguro. Cobrar por cubrir fallas puede exigir una aseguradora detrás, y el número clave es cuántos reclaman y cuánto cuesta reparar, que hoy nadie sabe. La competencia real es comprar reacondicionado con garantía, como Ferbi o Mercado Libre.",
+  "hallazgos": "Según Defensa del Consumidor de Mendoza, la compraventa entre particulares no tiene garantía legal y los usados comprados a comercios tienen 3 meses [https://www.mendoza.gov.ar/prensa/defensa-del-consumidor-cuando-comienza-a-regir-la-garantia-de-un-producto/]. La misma fuente dice que la garantía extendida la cubre una aseguradora [https://www.mendoza.gov.ar/prensa/defensa-del-consumidor-cuando-comienza-a-regir-la-garantia-de-un-producto/]. Mercado Pago ofrece garantía extendida para electrónicos gestionada por Assurant; no aclara si sirve para usados [https://www.iprofesional.com/actualidad/391447-que-cubre-el-seguro-de-mercado-pago-5-beneficios-de-la-app]. Consultado el 2026-10-23.",
+  "variantes": [
+   "La original, con una aseguradora como socia: la plataforma revisa con fotos y número de serie, la aseguradora pone la póliza y la red de técnicos repara.",
+   "Para el revendedor chico: el que vende usados por Instagram compra la garantía para sus equipos y la usa para vender más rápido. Se cobra por equipo.",
+   "Sin garantía, solo revisión: un técnico revisa el equipo antes de la compra y emite un informe con fotos. Más barato y sin riesgo de reclamos."
+  ],
+  "puntuacion": 5.3,
+  "por_que_puntuacion": "El hueco legal es real, pero el negocio es un seguro con costo de reclamos desconocido y competencia de los reacondicionados. Para Facu hoy pesa el riesgo.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 100 a 300, estimación: fondo chico para reparar las fallas del piloto.",
+  "primer_paso": "Ofrecer gratis 3 meses de garantía en 30 ventas de 5 revendedores chicos y anotar cuántas fallan y cuánto cuesta repararlas.",
+  "riesgo_principal": "Que los reclamos y el fraude cuesten más de lo que se cobra.",
+  "agrupar_con": ["M011", "M075", "M085"]
+ },
+ {
+  "n": "M101",
+  "opinion": "La idea es una web donde ponés tu dirección y ves qué internet llega de verdad, con tests de velocidad y precios que suben los usuarios. Si no llega fibra, te anotás con tus vecinos y el proveedor tiende cuando hay suficientes pedidos. El hueco existe: no hay comparador por dirección en Argentina. Lo flojo es quién paga: los proveedores grandes no necesitan pagarle a nadie, y en las provincias medidas la fibra ya es más de la mitad de los accesos. Lo más prometedor es el pedido colectivo para cooperativas y proveedores chicos del interior.",
+  "hallazgos": "No encontré un mapa ni comparador argentino de cobertura por dirección. Cuantomecuesta.com tiene guía de precios actualizada a abril de 2026 [https://cuantomecuesta.com/ar/internet/]. Un estudio citado por Infonegocios dice que en CABA, Mendoza, Buenos Aires, Santa Fe y Córdoba la fibra ya es el 52,5% de los accesos y que el 57% de esos hogares tiene más de una opción [https://infonegocios.info/amp/nota-principal/4-de-cada-10-hogares-en-argentina-ya-navegan-con-mas-de-100-mbps-la-fibra-optica-ya-es-el-nuevo-estandar-53-del-total]. Consultado el 2026-10-23.",
+  "variantes": [
+   "La original: comparador por dirección más pedido colectivo de fibra. Los proveedores pagan por cada alta y por el mapa de demanda.",
+   "Solo para el que vende: el mapa de demanda se le vende a cooperativas y proveedores chicos del interior para decidir dónde tender. Se cobra por zona.",
+   "Otro país con datos abiertos: lo mismo en un país vecino donde el regulador publique cobertura por dirección. No verificado."
+  ],
+  "puntuacion": 4.8,
+  "por_que_puntuacion": "El hueco existe pero no está claro quién paga, y en las ciudades grandes la fibra ya está muy extendida. Queda lejos de las ventajas de Facu.",
+  "tema": "Otro",
+  "tipo": "Datos o información",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 150, estimación: landing con test de velocidad embebido y anuncios locales.",
+  "primer_paso": "Llamar a 5 cooperativas o proveedores chicos del interior y preguntar si pagarían por una lista de vecinos que quieren fibra en su zona.",
+  "riesgo_principal": "Que ningún proveedor pague por altas ni por el mapa.",
+  "agrupar_con": []
+ }
+]

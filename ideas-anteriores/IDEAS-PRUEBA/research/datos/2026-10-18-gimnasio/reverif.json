@@ -1,0 +1,1150 @@
+{
+ "verif": [
+  {
+   "lote": "rlote-01",
+   "verificaciones": [
+    {
+     "id_tmp": "N210",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "ARBA: Declaración Jurada de Mejoras online (trámite oficial)",
+       "url": "https://eleconomista.com.ar/economia/como-declarar-propiedades-arba-guia-paso-paso-contribuyentes-n81825",
+       "que_hace": "Trámite por internet, con CUIT y clave fiscal, para declarar fecha de construcción, destino y metros de las mejoras. Según la guía, lo presentan el dueño o agrimensores, arquitectos y maestros mayores de obra 'de manera gratuita' ante ARBA; los honorarios del profesional no figuran. No le dice al dueño qué tiene sin declarar ni le consigue un profesional. La guía la vi como resultado de búsqueda, no la leí.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "Dymaxion Labs, una agtech argentina (en su blog figura el título de que la compró el grupo argentino GDM), tuvo un proyecto 'Massive Change Detection' para monitorear obras no declaradas con imágenes satelitales y redes convolucionales. Lo dice un blog del BID que vi solo como resultado de búsqueda: el enlace redirige a la portada. Hoy su web (leída el 2026-10-19) ofrece solo inteligencia para agronegocios (plataforma Optimus) y no menciona catastro. Era del lado del fisco, no del dueño, y no sé si lo cerró o lo dejó: es un pivot, no un fracaso probado de esta idea.",
+     "evidencia_argentina": "Búsqueda 1 (2026-10-19), 'regularizar metros no declarados ARBA plataforma online agrimensor presupuesto': ninguna plataforma privada. Solo aparece el trámite oficial de ARBA (Declaración Jurada de Mejoras online, guía de El Economista) y, según el resumen del buscador, la frase de ARBA de que puede 'reclamar hasta cinco años atrás los metros construidos no declarados'. Búsqueda 2, 'app detecta construcciones no declaradas imagen satelital propietario Argentina startup': nada para dueños. Aparecen el operativo de ARBA con satélite y drones (según el resumen, 170.344 m² en Mar del Plata y 70.930 m² en Pinamar en enero de 2025; La Capital MdP y El Economista) y Dymaxion Labs con 'Massive Change Detection' (blog del BID). Búsqueda 3, 'plano de regularización casa presupuesto online arquitecto matriculado provincia de Buenos Aires plataforma precio cerrado': solo Habitissimo de México y trámites municipales (Gualeguaychú, CABA, y un plan de San Francisco, Córdoba, con colegios profesionales). Ninguna plataforma bonaerense con precio cerrado. Lecturas: dymaxionlabs.com (2026-10-19) hoy es solo agro; el blog del BID redirige; habitissimo.com.ar no resuelve (ENOTFOUND) y no sé si alguna vez operó acá. Dato nuevo que baja el 'por qué ahora' de 8 a 7: ARBA detecta por satélite desde hace años. Hay títulos como 'ARBA detectó e incorporó al catastro 15 millones de metros cuadrados que estaban sin declarar' (iProfesional, nota vieja según el buscador) y 'ARBA detectó más de 10 millones m² sin declarar en countries' (El Economista), e incorpora 'de oficio' lo que encuentra (ignacioonline.com.ar). El M2 de 2026 amplía algo que ya existía.",
+     "evidencia_afuera": "Sin cambios. Sigue sin verificar la duda del juez sobre qué tan bien cubre Google Open Buildings a la Argentina: no la chequeé en esta pasada.",
+     "score_ajustado": {
+      "innovacion": 7,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No encontré a nadie que le haga al dueño el pre-diagnóstico desde el satélite, ni una red de matriculados a precio cerrado: ese hueco sigue abierto. Ojo con dos cosas. ARBA ya deja declarar las mejoras online y gratis, así que lo que cobres tiene que ser el diagnóstico y el plano municipal, no el trámite. Y ARBA mide por satélite hace años e incorpora de oficio, así que lo de adelantarse no nace con el M2. Dymaxion Labs, una agtech argentina, tuvo un proyecto para detectar obras no declaradas del lado del fisco y hoy se dedica al agro.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://eleconomista.com.ar/economia/como-declarar-propiedades-arba-guia-paso-paso-contribuyentes-n81825 (resultado de búsqueda, 2026-10-19)",
+      "https://www.lacapitalmdp.com/arba-detecto-240-mil-metros-cuadrados-de-construcciones-millonarias-sin-declarar/ (resultado de búsqueda, 2026-10-19)",
+      "https://eleconomista.com.ar/economia/arba-detecto-mas-10-millones-m-declarar-countries-zonas-residenciales-n57883 (resultado de búsqueda, 2026-10-19)",
+      "https://www.iprofesional.com/impuestos/271894-arba-detecto-e-incorporo-al-catastro-15-millones-de-metros-cuadrados-que-estaban-sin-declarar (resultado de búsqueda, 2026-10-19)",
+      "https://www.ignacioonline.com.ar/arba-incorpora-de-oficio-propiedades/ (resultado de búsqueda, 2026-10-19)",
+      "https://www.iprofesional.com/impuestos/447800-arba-drones-ia-buscaran-edificios-silos-sin-declarar (resultado de búsqueda, 2026-10-19)",
+      "https://blogs.iadb.org/conocimiento-abierto/es/?p=9593 (resultado de búsqueda; al leerla redirige a la portada del blog)",
+      "https://dymaxionlabs.com/ (leída 2026-10-19)",
+      "https://www.habitissimo.com.mx/presupuesto/regularizar-vivienda (resultado de búsqueda, 2026-10-19)"
+     ]
+    },
+    {
+     "id_tmp": "N212",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "Un Ensayo para Mí (marca Trialtech)",
+       "url": "https://www.unensayoparami.org/",
+       "que_hace": "'Conectando pacientes con ensayos clínicos': buscador en castellano por enfermedad, formulario y 'Si cumples con los requisitos médicos te contactaremos'. Su fundadora y CEO es Georgina Sposetti. Muestra pocos estudios (psicosis asociada a Alzheimer y MASH) y tiene noticias de agosto de 2026. No dice el país ni cómo cobra. Perfil, un medio argentino, lo enlazó como 'Primera plataforma para encontrar estudios clínicos'.",
+       "parecido": "parecido"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1 (2026-10-19), 'buscador ensayos clínicos Argentina pacientes estudios reclutando plataforma': solo registros (ClinicalTrials.gov, ICTRP y el registro público de la ANMAT, citados en artículos de Salud y Fármacos) y notas de prensa; ningún buscador para pacientes. Búsqueda 2, 'startup reclutamiento pacientes ensayos clínicos Argentina inteligencia artificial': ninguna startup local de reclutamiento de pacientes (Seeds hace reclutamiento laboral); Sanofi dice que la IA le acortó el reclutamiento (Río Negro). Búsqueda 3, 'participar estudios clínicos Argentina pacientes voluntarios inscribirse sitio buscador estudios en curso': aparecen unensayoparami.org y una nota de Perfil con el enlace 'Primera plataforma para encontrar estudios clínicos'. Lecturas (2026-10-19): unensayoparami.org tiene buscador ('¿Eres paciente? ¿Cuál es tu enfermedad?'), formulario y contacto si cumplís los requisitos; CEO Georgina Sposetti; logo y dominios de Trialtech; noticias del 2026-08-10 al 2026-08-19. No dice país, cantidad total de estudios ni modelo de cobro. Perfil (2025-05-20): las empresas de CAEMe hacen 'más de 1000 ensayos clínicos' en el país, y la inversión en investigación clínica fue de USD 750 millones en 2023 (dato de la Secretaría de Innovación, Ciencia y Tecnología). La nota solo enlaza a 'un-ensayo-para-mi-primera-plataforma-para-encontrar-estudios-clinicos', que no leí. Que opere en Argentina lo infiero por esa cobertura: el sitio no lo dice.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 3,
+      "por_que_ahora": 7,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Ya hay alguien en castellano: 'Un Ensayo para Mí' (Trialtech, CEO Georgina Sposetti) conecta pacientes con ensayos mediante un buscador por enfermedad y un formulario que filtra a quién contactan. Perfil lo presentó como la 'primera plataforma para encontrar estudios clínicos'. Por lo que muestra, trabaja con pocos estudios elegidos y el filtro lo hace una persona. Tu vuelta sería el catálogo público completo con pre-chequeo de IA, pero el hueco ya no está vacío. Antes de seguir, averiguá cómo cobra y si opera en Argentina: el sitio no lo dice.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.unensayoparami.org/ (leída 2026-10-19)",
+      "https://www.perfil.com/noticias/sociedad/en-argentina-se-invierten-alrededor-de-usd-750-millones-en-investigacion-clinica.phtml (leída 2026-10-19; nota del 2025-05-20)",
+      "https://www.perfil.com/noticias/amp/sociedad/la-investigacion-medica-crece-la-anmat-ya-aprobo-mas-ensayos-clinicos-que-en-todo-2025.phtml (resultado de búsqueda, 2026-10-19)",
+      "https://www.saludyfarmacos.org/boletin-farmacos/boletines/may2011/ensayos-clinicos-argentina (resultado de búsqueda, 2026-10-19)",
+      "https://www.rionegro.com.ar/tecnologia/la-inteligencia-artificial-impulsa-terapias-mas-rapidas-y-precisas/?amp=1 (resultado de búsqueda, 2026-10-19)"
+     ]
+    },
+    {
+     "id_tmp": "N211",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "NegoZona",
+       "url": "https://www.negozona.com/",
+       "que_hace": "Marketplace argentino de fondos de comercio y franquicias, fundado en 2016, con versiones para España, México, Paraguay, Uruguay y Chile. Ofrece valuación online ('En sólo 5 minutos y con tres simples pasos tendrás el valor de tu negocio'), avisos de dueños y brokers y 'contacto directo entre compradores y vendedores'. Cobra por publicaciones y publicidad. No menciona verificación de números, data room ni pago retenido.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Mercado Libre Inmuebles, sección fondos de comercio",
+       "url": "https://inmuebles.mercadolibre.com.ar/fondo-de-comercio/venta/buenos-aires-interior/la-plata/",
+       "que_hace": "Clasificados de fondos de comercio con filtro de dueño directo o inmobiliaria. No tasa ni protege el cierre. Lo vi como resultado de búsqueda; la lectura directa da 403.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Sitio de Tiendas",
+       "url": "https://www.iproup.com/startups/50492-sitio-de-tiendas-expera-crecer-220-en-2024-y-festejar-su-cuarto-aniversario-a-lo-grande",
+       "que_hace": "Intermediaria fundada por Andrea Bertone para comprar y vender negocios digitales (tiendas online) en varios países. Según notas de prensa, más de 100 operaciones con un promedio de US$180.763, aunque otra nota habla de unas 50: las cifras no coinciden. Es otro tipo de negocio (online, no comercio a la calle). No la leí.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1 (2026-10-19), 'plataforma vender fondo de comercio Argentina tasación online pymes en venta': aparecen NegoZona (startup argentina de fondos de comercio y franquicias) y la sección de fondos de comercio de Mercado Libre Inmuebles. Búsqueda 2, 'marketplace compraventa de empresas y negocios en marcha Argentina startup': NegoZona de nuevo y Sitio de Tiendas (negocios digitales; las cifras no coinciden entre notas y las fechas de esas notas no están confirmadas). Búsqueda 3, 'tasación online gratis cuánto vale mi negocio pyme Argentina valuación empresa': ninguna herramienta nueva. Solo una nota de El Cronista sobre un proyecto argentino de franquicias y clasificados que lanzó una valuación online de comercios (por el contexto, probablemente NegoZona; no lo confirmé). Lecturas (2026-10-19): negozona.com muestra avisos de fondos de comercio y franquicias, 'Dueños y Brokers publican', 'Contacto directo entre compradores y vendedores' y la valuación 'En sólo 5 minutos'. No menciona verificación, data room ni pago retenido. Señal de actividad débil: una imagen de aviso con fecha 2026-06-01. La ficha de descubre.vc (sin fecha) dice: fundada en 2016, 'cercana a 70.000' usuarios, 'más de 700' negocios publicados, cobra por 'publicaciones y servicios publicitarios', con 'herramientas de valuación online'. Ese tamaño, más el cobro por aviso en vez de por éxito, me lleva a bajar el potencial de 6 a 5: sugiere un mercado chico.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 4,
+      "por_que_ahora": 5,
+      "potencial": 5
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Lo central ya existe: NegoZona, argentina desde 2016, es una bolsa de fondos de comercio y franquicias con valuación online 'en 5 minutos', o sea tu mismo gancho, y cobra por publicar y por publicidad. Lo que no tiene es justo tu diferencia: la tasación armada con Mis Comprobantes y extractos, el data room y el cierre con la plata retenida. Su ficha (sin fecha) habla de unos 70.000 usuarios y más de 700 negocios publicados: es un mercado chico, y tu cuña sería la confianza en los números.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.negozona.com/ (leída 2026-10-19)",
+      "https://www.descubre.vc/negozona (leída 2026-10-19; ficha sin fecha)",
+      "https://www.cronista.com/infotechnology/it-business/un-argentino-creo-una-web-que-te-dice-como-donde-y-a-cuanto-comprar-franquicias/ (resultado de búsqueda, 2026-10-19)",
+      "https://inmuebles.mercadolibre.com.ar/fondo-de-comercio/venta/buenos-aires-interior/la-plata/ (resultado de búsqueda, 2026-10-19)",
+      "https://www.iproup.com/startups/50492-sitio-de-tiendas-expera-crecer-220-en-2024-y-festejar-su-cuarto-aniversario-a-lo-grande (resultado de búsqueda, 2026-10-19)",
+      "https://www.iprofesional.com/negocios/416590-la-genial-y-millonaria-idea-que-se-le-ocurrio-a-emprendedora-argentina (resultado de búsqueda, 2026-10-19)"
+     ]
+    },
+    {
+     "id_tmp": "N216",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "YGO Argentina (plataforma y extensión de Chrome para Yu-Gi-Oh!)",
+       "url": "https://extscope.org/extension/cpcpnmpdkkiegjodokhpooekhmhkehca",
+       "que_hace": "La publica Ezequiel Leites. Sirve para inventario, decks y precios tomados de CardMarket, TCGPlayer y CardTrader, y para sincronizar torneos de Konami. Se conecta a una plataforma 'YGO Argentina' que pide login. La extensión tiene 2 instalaciones públicas. No tiene compraventa entre jugadores ni escaneo, y es de un solo juego.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1 (2026-10-19), 'app compra venta cartas Pokémon Magic Argentina coleccionistas plataforma': ninguna app argentina. Aparecen apps globales (Collectr, que según el resultado deja comprar faltantes vía eBay y TCGplayer; PokéCardex, con escáner) y la Tienda Bonanza TCG en Mercado Libre, que vende accesorios (fundas, carpetas), no cartas entre jugadores. Búsqueda 2, 'marketplace cartas coleccionables TCG Argentina escaneo precio pesos': nada local con escáner y pesos; aparecen la extensión 'YGO Argentina' y una nota de Olhar Digital sobre LigaMagic. Búsqueda 3, 'sitio argentino compra venta cartas sueltas Magic Pokémon Yu-Gi-Oh entre jugadores precios en pesos': otra vez nada local, solo CardTrader, TCGplayer y MyP Cards (Brasil, en reales). Lecturas (2026-10-19): Olhar Digital (2026-07-10) dice que 'A Argentina tem poucas dezenas' de tiendas de TCG, contra 'cerca de 700' en Brasil y unas 50 en Chile, y que 'sites argentinos e chilenos seguiram outros caminhos'. No nombra esos sitios, así que hay sitios argentinos que no encontré. ExtScope describe la extensión YGO Argentina (ver competidor). La ficha de Chrome Web Store no se pudo leer (demasiadas redirecciones). Bajo el potencial de 5 a 4 por el tamaño: pocas decenas de tiendas significa una red de nodos de entrega chica y, probablemente, un mercado chico.",
+     "evidencia_afuera": "Dato nuevo de la región: LigaMagic (Brasil), creada hace casi 25 años, ofrece a las tiendas especializadas marketplace, sistema de tienda virtual y soporte de torneos. Según la misma nota, Brasil concentra más del 60% de las transacciones de TCG de América Latina, aunque no cita fuente primaria (Olhar Digital, 2026-07-10). El modelo de la tienda como infraestructura ya existe en el país vecino. La nota no dice si LigaMagic opera en Argentina.",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 5,
+      "potencial": 4
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No apareció ningún mercado argentino de cartas con escáner, pago retenido y entrega en tienda. Lo más cercano es 'YGO Argentina', una herramienta de inventario y torneos de Yu-Gi-Oh! cuya extensión tiene 2 instalaciones. El freno es el tamaño: según Olhar Digital (2026-07-10), Argentina tiene 'pocas decenas' de tiendas de TCG contra unas 700 en Brasil, donde LigaMagic ya le da a las tiendas marketplace, sistema y torneos. Mi opinión: tu red de puntos de entrega arranca chica, y el que podría desembarcar acá es LigaMagic.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://olhardigital.com.br/2026/07/10/games-e-consoles/mercado-de-card-games-no-brasil-ligafest-2026/ (leída 2026-10-19)",
+      "https://extscope.org/extension/cpcpnmpdkkiegjodokhpooekhmhkehca (leída 2026-10-19)",
+      "https://chromewebstore.google.com/detail/cpcpnmpdkkiegjodokhpooekhmhkehca (resultado de búsqueda; no se pudo leer)",
+      "https://mercadolibre.com.ar/pagina/tienda_bonanza (resultado de búsqueda, 2026-10-19)",
+      "https://mwm.ai/es/apps/pok-cardex/6451395407 (resultado de búsqueda, 2026-10-19)",
+      "https://mwm.ai/es/apps/tcg/1560760961 (resultado de búsqueda, 2026-10-19)"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "rlote-02",
+   "verificaciones": [
+    {
+     "id_tmp": "N130",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Consorcio vecinal municipal de San Francisco (Córdoba), con LC Construcciones y Tresca S.A.",
+       "url": "https://www.lavozdesanjusto.com.ar/-anunciaron-pavimentacion-de--calles-en-el-barrio-20-de-junio----105229",
+       "que_hace": "El municipio pone el hormigón, el centro vecinal preselecciona las constructoras y cada frentista firma contrato y paga la mano de obra, contado o hasta en 48 cuotas (nota del 2021-04-28). Todo en papel: sin escrow ni verificación por fotos.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Consorcios vecinales y contribución de mejoras de Gualeguaychú (ordenanzas municipales)",
+       "url": "https://gualeguaychu.gov.ar/adjuntos/transparencia/ordenanzas/o1105707.pdf",
+       "que_hace": "Los frentistas financian los materiales y el municipio pone la mano de obra y los equipos; hubo un reclamo vecinal por el precio pactado al adherir. Esto sale del resumen del buscador: las ordenanzas no las leí.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Nobleza Obliga",
+       "url": "https://www.idealist.org/en/nonprofit/44ba1367962e438fb998c93671f85f5e-nobleza-obliga-buenos-aires",
+       "que_hace": "Crowdfunding de causas solidarias con sede en Buenos Aires (ficha de Idealist). No encontré que financie obras de cuadra y no verifiqué si sigue activa.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "No encontré empresas argentinas que lo hayan intentado y cerrado. Lo que sí apareció es fricción con el mecanismo público: en Bariloche hubo un fuerte rechazo vecinal a un plan de pavimento por contribución de mejoras (ANBariloche, 2022-05-17, según el resumen del buscador). Afuera, ioby (EE.UU.) cerró: es un dato del generador (ioby.org/about, consultado 2026-10-18) que no volví a verificar, y el motivo del cierre no está verificado.",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'pavimento por consorcio vecinal empresa frentistas adhesión cuotas': solo aparecieron esquemas municipales. Ordenanzas de consorcios vecinales de Gualeguaychú (frentistas pagan materiales, municipio pone mano de obra; un reclamo por el precio pactado al adherir), San Francisco (Córdoba) y Bariloche (plan de contribución de mejoras del 2022 con fuerte rechazo vecinal, que se retiraba si se oponía el 30 %). (2) 'crowdfunding cívico argentina vecinos financian obras del barrio plataforma': ninguna plataforma cívica argentina; solo Nobleza Obliga (crowdfunding solidario) y presupuesto participativo para juntas vecinales en Neuquén (noticiasnqn, sin leer). (3) 'app para que vecinos de una cuadra junten plata para cámaras o luminarias argentina': ninguna app. Solo grupos de WhatsApp y colectas: en Posadas, cámaras por cuadra (Misiones Online, 2017-04-10), y en Misiones, vecinos que compraron las luminarias y que igual la distribuidora EMSA no instalaba (Primera Edición). Lectura de La Voz de San Justo (2021-04-28), barrio 20 de Junio de San Francisco: el municipio pone el hormigón y el centro vecinal preseleccionó a LC Construcciones y Tresca S.A. Los vecinos pagan la mano de obra: $89.600 contado, $93.000 en 3 cuotas o 48 cuotas fijas de $5.400. Hubo libro de oposición por 30 días y contrato con cada vecino. No usan plataforma digital, salvo una encuesta virtual con unos 197 vecinos a favor. Conclusión: el cofinanciamiento obligatorio entre frentistas y municipio (el 'matching') ya es el estándar para pavimento, pero se hace en papel. Para obras chicas solo hay colectas informales.",
+     "evidencia_afuera": "Sin cambios en lo verificado. Spacehive sigue sin verificar (no usé búsquedas afuera). El cierre de ioby es un dato del generador que no volví a verificar.",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 5,
+      "por_que_ahora": 5,
+      "potencial": 4
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "La obra de cuadra que pagan los frentistas con aporte del municipio ya existe, pero en papel. En San Francisco (Córdoba, 2021) el municipio puso el hormigón, el centro vecinal eligió dos constructoras y cada vecino pagaba contado o en 48 cuotas. O sea, el matching municipal no es tu novedad; lo nuevo sería la capa digital (cobro, escrow por hitos, fotos). Para cámaras y luminarias solo hay WhatsApp y colectas, sin obligación de pagar: ahí está el hueco, y también el riesgo del vecino que no paga.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.lavozdesanjusto.com.ar/-anunciaron-pavimentacion-de--calles-en-el-barrio-20-de-junio----105229",
+      "https://www.anbariloche.com.ar/noticias/2022/05/17/85055-amplio-rechazo-de-vecinos-al-plan-de-pavimentacion-de-contribucion-por-mejoras",
+      "https://gualeguaychu.gov.ar/adjuntos/transparencia/ordenanzas/o1105707.pdf",
+      "https://www.idealist.org/en/nonprofit/44ba1367962e438fb998c93671f85f5e-nobleza-obliga-buenos-aires",
+      "https://www.noticiasnqn.com.ar/noticias/2025/09/15/320318-un-camino-para-financiar-obras-barriales",
+      "https://misionesonline.net/2017/04/10/vez-mas-vecinos-posadenos-se-organizan-contratar-camaras-seguridad-cuadra/",
+      "https://www.primeraedicion.com.ar/nota/238600/ni-comprando-todos-los-elementos-consiguen-que-emsa-vaya-a-ponerles-la-luz/",
+      "https://www.ioby.org/about (dato del generador, 2026-10-18)"
+     ]
+    },
+    {
+     "id_tmp": "N153",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Servidos.ar",
+       "url": "https://servidos.ar/blog/trabajos-de-aire-acondicionado-en-buenos-aires",
+       "que_hace": "Plataforma de oficios que no cobra comisión y conecta clientes con técnicos de aire acondicionado. No ofrece abono, alquiler ni financiación del equipo; en su blog (2026-02-20) le sugiere al técnico vender service anual a comercios por su cuenta.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Ecocontrol (representante de Carrier en el centro de la Provincia de Buenos Aires)",
+       "url": "https://www.ecohubmap.com/company/business/ecocontrol---climatización-filtrado-de-aire-y-tratamiento-de-agua/7s3tklfr3nufv",
+       "que_hace": "Proyecto, instalación y posventa de climatización. No menciona alquiler ni abono (según el resumen del buscador; no leí la página).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Climastar (Caseros)",
+       "url": "https://es.kompass.com/c/climastar/ar014613/",
+       "que_hace": "Venta, instalación, reparación y mantenimiento de aire acondicionado y calefacción. No menciona alquiler (según el resumen del buscador).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'aire acondicionado por abono mensual comercios argentina equipo instalación mantenimiento incluido': nada de abono con el equipo incluido. Solo precios de C5N (temporada 2025: instalación en un comercio hasta $700.000, service completo unos $35.000) y el blog de Servidos.ar. (2) 'climatización como servicio argentina alquiler aire acondicionado empresas largo plazo': solo instaladores y mantenimiento tradicionales (Ecocontrol, Climastar). El arrendamiento con mantenimiento aparece en una tesis de Colombia (UNAD) y los contratos de mantenimiento en Paraguay, no en Argentina. (3) 'aire acondicionado en alquiler mensual para comercios argentina': solo alquiler de locales 'con aire' en Mercado Libre y venta de equipos BGH en cuotas sin interés (El Cronista). Lectura del blog de Servidos.ar (2026-02-20): conecta técnicos sin comisión y no gestiona abonos ni financiación. Mano de obra de instalación de un split chico: $135.000 a $210.000; service: $35.000 a $80.000. La tabla dice 'actualizados a septiembre de 2026', una fecha que no cierra con la de publicación. No encontré a nadie que junte equipo, service y reparación en una cuota mensual para comercios.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 6,
+      "por_que_ahora": 5,
+      "potencial": 6
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No encontré a nadie en Argentina que venda 'aire por abono' a comercios con el equipo adentro (3 búsquedas). Hay piezas sueltas: técnicos (Servidos.ar los conecta sin comisión y les sugiere vender service anual a comercios), instaladores con mantenimiento y venta en cuotas sin interés. El hueco es juntar equipo, service y reparación en una sola cuota. Lo difícil sigue siendo quién pone el capital y quién se come la morosidad.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://servidos.ar/blog/trabajos-de-aire-acondicionado-en-buenos-aires",
+      "https://www.c5n.com/sociedad/se-acerca-el-verano-cuanto-cuesta-un-service-completo-del-aire-acondicionado-argentina-n179800",
+      "https://www.cronista.com/informacion-gral/una-reconocida-tienda-liquida-aires-acondicionados-con-hasta-50-de-descuento-como-aprovechar-la-promocion/",
+      "https://www.ecohubmap.com/company/business/ecocontrol---climatización-filtrado-de-aire-y-tratamiento-de-agua/7s3tklfr3nufv",
+      "https://es.kompass.com/c/climastar/ar014613/",
+      "https://repository.unad.edu.co/jspui/bitstream/10596/69056/3/jgacevedov.pdf"
+     ]
+    },
+    {
+     "id_tmp": "N188",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Prevención ART",
+       "url": "https://www.prevencionart.com.ar/",
+       "que_hace": "ART que ofrece a los empleadores 'Vigilancia de salud' (exámenes para detectar temprano enfermedades asociadas al trabajo), una red de prestadores médicos y un portal de autogestión (PreveNET). No pude ver qué muestra el portal.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "App de preocupacionales de la Provincia de Buenos Aires",
+       "url": "https://gba.gob.ar/node/35117",
+       "que_hace": "Desde el 2022-05-02 gestiona online los preocupacionales de la administración pública provincial (según el resumen del buscador; no leí la página). No atiende PyMEs.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Seres Salud",
+       "url": "https://ar.linkedin.com/in/seressalud",
+       "que_hace": "Prestador que ofrece exámenes preocupacionales a empresas, según su propia publicación en LinkedIn. Es oferta suelta, no un marketplace.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'plataforma exámenes preocupacionales online empresas argentina turnos red de centros': ningún marketplace privado. Aparecieron la app de la Provincia de Buenos Aires para la administración pública (2022) y un pliego de Trenes Argentinos que exige turno dentro de 72 h hábiles y resultados digitales en 48 h. (2) 'software medicina laboral pymes argentina legajo médico vencimientos exámenes periódicos': ningún software argentino concreto. Un blog (yo-facturo) dice que la mayoría de las PyMEs no tiene área de RR.HH. y lleva todo en carpetas y Excel, sin alertas de vencimiento; un pliego de SOFSE del 2014 cita la Res. SRT 37/2010. (3) 'preocupacionales online para pymes argentina resultados en plataforma web medicina laboral empresas': solo Seres Salud (prestador). Lecturas: (a) la Res. SRT 37/2010 en argentina.gob.ar (https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-37-2010-162399/texto) dio 404, así que quién paga los periódicos sigue sin verificar; (b) en la home de Prevención ART figuran 'Vigilancia de salud' con exámenes médicos, la 'Red de prestadores médicos' y 'Autogestión PreveNET', pero no dice si el empleador ve ahí resultados o vencimientos.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 4,
+      "potencial": 5
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No apareció ningún marketplace privado de preocupacionales con precio cerrado ni legajo armado con IA (3 búsquedas). Pero las ART ya hacen una parte: Prevención ART ofrece vigilancia de salud con exámenes, red de prestadores y un portal de autogestión. Quién paga los periódicos sigue sin verificar (la Res. SRT 37/2010 me dio 404). Conseguí la norma antes de armar nada: si los paga la ART, tu mercado se achica a preocupacionales y egresos.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.prevencionart.com.ar/",
+      "https://gba.gob.ar/node/35117",
+      "https://contrataciones-publico.sofse.gob.ar/descarga_contrataciones/MndzQlVncHFDNnVYZFAzclIreVcwUT09",
+      "https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/cllKZGszZVkrdGJwN2owZHZDem5aZz09",
+      "https://ar.linkedin.com/in/seressalud",
+      "https://yo-facturo.com/blog/gestion-de-empleados-pyme/"
+     ]
+    },
+    {
+     "id_tmp": "N196",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Perforistas con estudio geofísico previo (la nota no nombra empresas)",
+       "url": "https://www.tiempodesanjuan.com/sanjuan/2021/8/9/por-falta-de-agua-habra-menos-siembra-la-solucion-inmediata-es-un-golpe-al-bolsillo-320574.html",
+       "que_hace": "Antes de perforar hacen un estudio que estima la cantidad y la calidad del agua, pero igual cobran por metro y no garantizan el resultado (San Juan, 2021-08-09).",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "SEGEMAR, repositorio de perfiles de perforaciones",
+       "url": "https://repositorio.segemar.gov.ar/308849217/2882",
+       "que_hace": "Publica perfiles históricos de perforaciones (el ítem que encontré es de 1904-1915). No encontré un visor público por punto con profundidad, caudal y calidad.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19: (1) 'perforación de agua \"si no hay agua no se cobra\" argentina': la frase no aparece en ninguna fuente. Sí salió La Gaceta: un pozo financiado por Nación ($2 millones) nunca dio agua apta por salinidad y Enohsa lo pagó entero. (2) 'mapa de perforaciones agua subterránea argentina pozos profundidad caudal plataforma': ninguna plataforma. Solo el repositorio del SEGEMAR (perfiles históricos), un estudio de Mendoza (21.000 perforaciones entre 1953 y 2001, 9.817 activas, según el resumen del buscador) e informes técnicos sueltos. (3) 'perforaciones de agua con garantía de caudal argentina': solo obras públicas con el caudal fijado en el pliego (Brandsen: 40 m3/h por pozo) y una controversia en Bahía Blanca (caudal estimado de unos 150 m3/h contra 250 m3/h proyectados). Lectura de Tiempo de San Juan (2021-08-09): un particular paga $25.000 a $35.000 por metro (material y mano de obra), a 15-30 m de profundidad, con una inversión cercana a $1 millón. Los perforistas baratos no garantizan el costo final y perforan hasta dar con agua; los especializados hacen un estudio geofísico previo. La nota no nombra empresas. No busqué en clasificados, Facebook ni en bases provinciales (DPA, DGI, INTA), así que puede haber perforistas que ofrezcan garantías informales.",
+     "evidencia_afuera": "Sigue sin verificar que haya perforistas afuera que cobren por resultado: no me quedaron búsquedas para eso. El dato del USGS es del generador y no lo volví a verificar.",
+     "score_ajustado": {
+      "innovacion": 7,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 6,
+      "por_que_ahora": 4,
+      "potencial": 5
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No encontré en Argentina perforistas que garanticen caudal ni un mapa público de pozos que se pueda consultar por punto. Se cobra por metro y el riesgo lo pone el cliente: en San Juan (2021) eran $25.000-35.000 por metro y se perfora hasta dar con agua. Lo único parecido es el estudio geofísico previo que hacen los perforistas más serios. Ojo: no busqué en clasificados ni en bases provinciales, así que el hueco es probable pero no está confirmado.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.tiempodesanjuan.com/sanjuan/2021/8/9/por-falta-de-agua-habra-menos-siembra-la-solucion-inmediata-es-un-golpe-al-bolsillo-320574.html",
+      "https://www.lagaceta.com.ar/nota/582129/politica/pozo-costo-2-millones-pero-nunca-dio-agua.html",
+      "https://repositorio.segemar.gov.ar/308849217/2882",
+      "https://25.bdigital.uncu.edu.ar/objetos_digitales/1818/martiagrarias35-2.pdf",
+      "https://gba.gob.ar/recursoshidricos/noticias/provincia_licit%C3%B3_obras_de_agua_para_brandsen_y_monte",
+      "https://intranet.hcdiputados-ba.gov.ar/proyectos/10-11D688012018-04-0411-13-12.pdf"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "rlote-03",
+   "verificaciones": [
+    {
+     "id_tmp": "N195",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Servidos",
+       "url": "https://servidos.ar",
+       "que_hace": "Plataforma que conecta a la gente con oficios de su zona (CABA y GBA). Publicás el pedido gratis y los profesionales mandan presupuestos, según la página \"sin comisiones\". Su guía (2026-09-05, actualizada en octubre de 2026) explica cuatro métodos: prueba de presión, geófono, cámara térmica y gas trazador. Da precios de referencia y explica quién paga en un consorcio. No ofrece un informe escrito de causa ni de responsable.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Sustentia (Mendoza)",
+       "url": "https://www.mendoza.gov.ar/wp-content/uploads/sites/83/2022/07/Sustentia_Termografias_Info.pdf",
+       "que_hace": "Folleto de 2022 publicado en mendoza.gov.ar. Ofrece inspecciones termográficas para el hogar: filtraciones y humedad, aislación de techos y muros, suelo radiante. Promete rastrear filtraciones sin romper muros ni techos, y figura la web sustentia.com.ar. No verifiqué si sigue activa en 2026.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19:\n1) 'detección de filtraciones y humedad sin romper termografía informe Buenos Aires' → solo material técnico: blog de Fluke Argentina, Certicalia (España) y el repositorio del CONICET. Ningún proveedor porteño con informe.\n2) 'detección de pérdidas de agua sin romper geófono empresa Argentina humedad informe técnico' → la guía de Servidos para CABA y GBA, más consejos de Aguas Cordobesas y AySA. Las empresas con marca propia que aparecieron son españolas (Telefuga, No Más Fugas).\n3) 'detección de filtraciones con cámara térmica plomería Buenos Aires sin romper humedad vecino de arriba' → Fluke, un estudio de la Universidad de Costa Rica y el folleto de Sustentia (Mendoza).\n\nLecturas:\na) Servidos (nota del 2026-09-05, actualizada en octubre de 2026). Precios de referencia de octubre de 2026 para CABA y GBA, estimados por Servidos: visita y diagnóstico sin equipo, ARS 18.000-26.000; detección con equipo, ARS 37.000-74.000; arreglo completo de una pérdida oculta en el baño, ARS 127.000-370.000. Sobre quién paga en un consorcio, cita el art. 2041 inc. f del CCyC (las cañerías son comunes 'en toda su extensión') y aclara que hay fallos en los dos sentidos. Recomienda avisar por escrito al consorcio antes de romper, pero no ofrece un informe de causa ni de responsable.\nb) Folleto de Sustentia (2022). Está confirmado como oferta comercial de termografía de humedad para hogares.\n\nConclusión: el diagnóstico sin romper existe como servicio de oficio y de termografía. No apareció el paquete completo: diagnóstico a precio fijo, informe de responsable, reparación por una red y re-medición para dar el alta.\n\nNo verificado:\n- Si la asistencia al hogar de las aseguradoras argentinas incluye detección de pérdidas.\n- El tipo de cambio, así que no pude comparar los ARS 37.000-74.000 con los USD 40-80 que estima la ficha.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 4,
+      "por_que_ahora": 5,
+      "potencial": 5
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Diagnosticar sin romper ya se vende. En CABA y GBA los plomeros con geófono o cámara térmica cobran la 'detección con equipo' entre ARS 37.000 y 74.000 (guía de Servidos, octubre de 2026), y en Mendoza Sustentia ofrece termografía de humedad para casas. Servidos además explica gratis quién paga en un consorcio. Lo que no apareció es el informe de causa y responsable con la re-medición de alta: ese es el hueco, y antes de construir hay que probar que alguien lo paga aparte del arreglo.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://servidos.ar/blog/cuanto-cuesta-detectar-perdida-agua-oculta-buenos-aires (leída 2026-10-19)",
+      "https://www.mendoza.gov.ar/wp-content/uploads/sites/83/2022/07/Sustentia_Termografias_Info.pdf (leída 2026-10-19)",
+      "https://www.fluke.com/es-ar/informacion/blog/captura-de-imagenes-termograficas/por-que-la-captura-de-imagenes-termicas-es-esencial-para-detectar-danos-por-humedad",
+      "https://www.cadena3.com/noticia/aguas-cordobesas/como-detectar-una-perdida-de-agua_287183",
+      "https://www.que.es/2021/12/02/telefuga-expertos-en-redes-de-agua-averias-mantenimientos-y-localizacion-y-deteccion-de-fugas-de-agua/"
+     ]
+    },
+    {
+     "id_tmp": "N207",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Distribuidora Italia / Italia Maquinarias (Armstrong, Santa Fe; Franco Bosso)",
+       "url": "https://bichosdecampo.com/sorpresa-el-primer-importador-de-maquinaria-agricola-usada-es-un-industrial-del-sur-de-santa-fe-que-tambien-esta-preocupado-por-la-produccion-nacional/",
+       "que_hace": "Compra maquinaria agrícola usada en EE.UU. (su especialidad es John Deere), la reacondiciona en su planta de Armstrong y la vende al público. La primera sembradora se vendió en cuatro días, esperaban cosechadoras, sembradoras y pulverizadoras, y el proceso lleva hasta tres meses por máquina (Bichos de Campo, 2025-05-14). Es un revendedor con stock propio, no una búsqueda a pedido con inspección e instalación. No verifiqué su web propia.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Cancelarich Maquinarias (Buenos Aires)",
+       "url": "https://www.machinetools.com/en/brands/cancelarich",
+       "que_hace": "Según su ficha en machinetools.com, compra, vende, consigna, importa y exporta máquinas herramienta nuevas y usadas desde hace más de 20 años. Lo vi solo en el resumen del buscador, no abrí la página.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "No encontré una empresa que haya ofrecido esta compra a pedido y haya cerrado. Hay un antecedente regulatorio, no empresarial: según un resultado de Bichos de Campo en la búsqueda 3 (resumen del buscador, nota no leída), en 2016 el gobierno de Macri habilitó importar maquinaria usada con aranceles reducidos, y la iniciativa no prosperó.",
+     "evidencia_argentina": "Búsquedas del 2026-10-19:\n1) 'importación de maquinaria usada de Europa llave en mano Argentina servicio PyME' → ningún servicio llave en mano. Sí apareció normativa: la guía oficial de la Secretaría de Agricultura para importar maquinaria usada (alimentosargentinos.magyp.gob.ar), una nota del CPCE sobre VUCEA, notas de Diario Estrategia y DPL News sobre el Decreto 483/2026 y una de Letra P sobre la pelea de los industriales con Sturzenegger.\n2) 'empresa importadora maquinaria industrial usada Europa Argentina tornos inyectoras inspección traemos' → Cancelarich Maquinarias y vendedores europeos (Exapro, Maquinaria Industrial Donosti, Euromaher).\n3) 'importar tractores cosechadoras usadas de Estados Unidos Europa Argentina empresa servicio importación usados 2026' → notas de Bichos de Campo sobre la eliminación del CIBU, la alerta de las grandes marcas y el primer importador.\n\nLecturas:\na) Bichos de Campo, 2025-05-14: Italia Maquinarias importa usados de EE.UU., los reacondiciona y los vende. La nota habla de la decisión del Gobierno de eliminar el CIBU, sin número de norma.\nb) CPCE Córdoba, 2026-09-01: la RG ARCA 5892/2026 pasa a VUCEA los bienes del 'Régimen de Importación de Líneas de Producción Usadas', con vigencia desde el 2026-09-14.\n\nSolo vistos en el resumen del buscador (notas y decreto no leídos):\n- El Decreto 483/2026 exige que la maquinaria forme parte de una línea de producción completa y autónoma, con 20 años de antigüedad como máximo (30 si fue actualizada). Esos bienes pagan el 25% del arancel y no pagan la tasa de comprobación de destino (2%) ni la de estadística (3%). Además, la compra local exigida baja del 30% al 10% del FOB.\n- Según Bichos de Campo, en el Medio Oeste de EE.UU. una cosechadora John Deere S550 2012 usada cuesta unos USD 120.000, y en Argentina la nueva más básica de esa categoría no baja de USD 400.000.\n\nRiesgo: las cámaras de fabricantes y las grandes marcas se oponen (Letra P, Bichos de Campo), así que puede haber marcha atrás.\n\nNo verificado: si una máquina industrial suelta, que no forma parte de una línea completa, entra hoy sin certificado y con qué arancel. Es la primera pregunta para el despachante.\n\nNo apareció nadie que compre a pedido partiendo del cuello de botella, con inspección en origen e instalación.",
+     "evidencia_afuera": "Sin cambios en lo ya verificado. Sigue sin verificar si Surplex vende o envía a Latinoamérica. En la búsqueda aparecieron más vendedores europeos de usados, como Exapro y Maquinaria Industrial Donosti (San Sebastián, adapta máquinas a la norma CE): sirven como proveedores, no son competencia en Argentina.",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 4,
+      "por_que_ahora": 6,
+      "potencial": 6
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Ya hay quien trae usados. Italia Maquinarias (Armstrong, Santa Fe) importa John Deere usadas de EE.UU., las reacondiciona y las vende (Bichos de Campo, 2025-05-14), y en Buenos Aires Cancelarich compra, consigna e importa máquinas herramienta usadas. Lo que no apareció es la compra a pedido que arranca por tu cuello de botella, con inspección en origen e instalación. La puerta se abrió (se eliminó el CIBU en 2025 y las líneas de producción usadas van por VUCEA desde el 2026-09-14), pero los fabricantes locales la pelean y puede haber marcha atrás.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://bichosdecampo.com/sorpresa-el-primer-importador-de-maquinaria-agricola-usada-es-un-industrial-del-sur-de-santa-fe-que-tambien-esta-preocupado-por-la-produccion-nacional/ (leída 2026-10-19; nota del 2025-05-14)",
+      "https://web.cpcecba.org.ar/comercio-exterior-la-importacion-de-maquinaria-usada-se-incorpora-a-la-ventanilla-unica/ (leída 2026-10-19; nota del 2026-09-01)",
+      "https://www.machinetools.com/en/brands/cancelarich (solo resumen del buscador)",
+      "https://www.diarioestrategia.cl/texto-diario/mostrar/5930639/argentina-flexibiliza-regimen-importacion-maquinaria-usada-reforzar-competitividad-industrial (solo resumen del buscador)",
+      "https://dplnews.com/argentina-el-gobierno-nacional-simplifica-la-importacion-de-maquinaria-usada-para-incentivar-la-produccion-local/ (solo resumen del buscador)",
+      "https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/difusion-y-publicaciones/material/Importacion_maquinaria_usada.pdf",
+      "https://www.letrap.com.ar/economia/industriales-contra-federico-sturzenegger-la-idea-importar-maquinaria-usada-n5413778",
+      "https://bichosdecampo.com/y-que-piensan-el-viejo-john-y-sus-amigos-las-grandes-marcas-calificaron-la-importacion-de-maquinaria-usada-como-una-decision-abrupta-que-podria-destruir-el-futuro-del-sector-agricola"
+     ]
+    },
+    {
+     "id_tmp": "N213",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19:\n1) 'inventario forestal con dron o celular Argentina productores pino eucalipto' → solo investigación. INTA y la UNaM midieron alturas en bosque nativo con fotogrametría por dron (XIX Jornadas Técnicas Forestales, 2023). Otro trabajo del INTA relevó 34,4 ha. También aparecen la Universidad de Friburgo en las Yungas y pruebas del Banco Mundial en Santiago del Estero. Una nota de Perfil dice que universidades e instituciones privadas ya hacen inventarios forestales con drones, sin nombrar empresas. Ningún servicio para el productor chico.\n2) 'venta de monte en pie aserraderos plataforma subasta madera Misiones Corrientes productores' → ninguna plataforma argentina. Las subastas online que aparecieron son españolas (Maderea, E-Monte). Hay notas de MisionesOnline, sin fecha verificada, sobre sobreoferta de madera, raleos que según un productor 'no valen nada' y pymes madereras del sur de Misiones y el noreste de Corrientes que no consiguen materia prima. También aparece una propuesta de precio de referencia del monte en pie ante el INFOPRO (Cooperativa Agrícola de Montecarlo, sin fecha) y la figura del 'corredor de madera' como intermediario tradicional.\n3) 'Timbeter Katam Argentina app medición forestal rollizos cubicación celular' → ninguna de las dos aparece con presencia comercial en Argentina.\n\nLecturas: la etiqueta de MisionesOnline devolvió error 402 (no leída). La nota de Canal 12 Misiones (2023-04-20) trata un envío fluvial de Las Marías y no aporta.\n\nNo verificado: si hay consultoras forestales que miden con dron a pedido. Puede haberlas sin buena presencia web, y el buscador es de EE.UU.",
+     "evidencia_afuera": "Refuerza lo de la ficha, que el juez daba como no verificado:\n- Una tesis de la UFPR (Brasil, 2022) comparó la app Katam Forest con el inventario tradicional en plantaciones de Pinus taeda y no encontró diferencias estadísticas en DAP, área basal ni densidad (oasisbr.ibict.br, visto en el resumen del buscador).\n- Vinnova (Suecia) financió el proyecto 'Forest measurement by Smartphone in Chile' y dice que el método se adapta bien a los bosques de crecimiento rápido de Sudamérica (resumen del buscador).\n- Timbeter: una nota de 2020 decía que la suscripción con mediciones ilimitadas arrancaba en 125 EUR por mes. Puede estar desactualizado.\n\nNo volví a verificar el cronograma de la EUDR.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 7,
+      "por_que_ahora": 5,
+      "potencial": 4
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No encontré a nadie en Argentina que le mida el monte con celular o dron al productor chico, ni una subasta de monte en pie. Hay investigación (INTA, UNaM, Banco Mundial), y la venta es directa o por corredor. Katam anda en pino (una tesis de la UFPR de 2022 no le encontró diferencias con el inventario clásico), pero no vi que opere acá. Ojo con la demanda: notas de Misiones sin fecha verificada hablan de sobreoferta y de raleos que 'no valen nada'.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://repositorio.inta.gob.ar/handle/20.500.12123/19570?show=full",
+      "https://repositorio.inta.gob.ar/handle/20.500.12123/19566",
+      "https://www.perfil.com/noticias/ciencia/crece-el-uso-de-drones-como-herramienta-de-investigacion-cientifica.phtml",
+      "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099047501242314618",
+      "https://misionesonline.net/etiqueta/sobreoferta-de-madera/ (no se pudo leer: error 402)",
+      "https://oasisbr.ibict.br/vufind/Record/UFPR_f0418f98951a35c203340dfd62c28fa2",
+      "https://vinnova.se/en/p/forest-measurement-by-smartphone-in-chile2",
+      "https://www.canal12misiones.com/?p=199788 (leída 2026-10-19; no aporta)"
+     ]
+    },
+    {
+     "id_tmp": "N214",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Concesionarias o agencias que ofrecen planes 'adjudicados' (sin identificar)",
+       "url": "https://tuquejasuma.com/nissan-argentina/reclamos/cambio-en-las-condiciones-informadas-originalmente",
+       "que_hace": "En reclamos de usuarios aparece que, para acceder al auto, al suscriptor le ofrecieron comprar un plan adjudicado por un monto poco claro. En otro reclamo (https://tuquejasuma.com/volkswagen-argentina/reclamos/quiero-que-me-den-una-solucion) a alguien le vendieron un plan 'adjudicado' con entrega prometida que nunca llegó. No identifiqué a los vendedores. Es el mercado informal que la idea quiere ordenar: sin precio de referencia ni pago retenido.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsquedas del 2026-10-19:\n1) 'compramos tu plan de ahorro cesión de plan de ahorro Argentina plataforma' → ninguna plataforma que compre o publique planes. Aparecieron guías (El Cero KM, Autotest, Derecho en Zapatillas), el anexo de solicitud de cesión de Plan Rombo (el trámite oficial de la administradora) y proyectos de ley de la HCDN. Según el resumen del buscador, la guía de El Cero KM sugiere ceder publicando en redes o marketplaces y después pasar por la administradora, que puede pedir evaluación crediticia y cobrar tasas.\n2) 'vender plan de ahorro avanzado adjudicado compramos planes Argentina online' → ningún marketplace. Aparecieron reclamos en tuquejasuma.com (un plan 'adjudicado' vendido y nunca entregado, una oferta de comprar un plan adjudicado por un monto poco claro), la explicación de El Mejor Trato sobre cómo se adjudica, la venta online de planes nuevos de Ford (2013) y las condiciones de Toyota Plan, aprobadas por la IGJ.\n3) 'compro planes de ahorro caídos avanzados agencia Argentina cesión plan auto cuotas pagas' → solo normativa y crisis: RG IGJ 12/2022 (diferimiento de cuotas), RG IGJ 8/2023 y un fallo citado por Diario Judicial (2026-07-31) que ordena retrotraer las cuotas a valores del 2018-04-01. El fallo no lo leí y no sé si fue apelado.\n\nLecturas: el blog y la portada de elcerokm.com devolvieron error 429 dos veces, así que no sé qué hace esa empresa.\n\nLimitación: el buscador no cubre bien los clasificados argentinos. No revisé Mercado Libre ni Facebook Marketplace, donde probablemente estén los avisos de cesión (opinión).\n\nNo apareció ninguna calculadora del valor del plan, ni una bolsa formal, ni pago retenido hasta que se aprueba la cesión.",
+     "evidencia_afuera": "Sigue sin verificar, porque no me quedó presupuesto de búsqueda para esta idea: que la Lei 11.795/2008 de Brasil permita transferir la cuota con acuerdo de la administradora, y qué plataformas brasileñas compran y venden 'consórcio contemplado'. Lo de ABAC y Ryse queda como en la ficha.",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 5,
+      "por_que_ahora": 4,
+      "potencial": 4
+     },
+     "veredicto": "mantener",
+     "nota_para_facu": "No apareció ninguna plataforma que te diga cuánto vale tu plan ni que retenga la plata hasta que la administradora apruebe la cesión. Lo que hay es el trámite de cada administradora (Plan Rombo publica su formulario), guías que te mandan a publicar en redes y reclamos de gente a la que le ofrecieron planes 'adjudicados' por montos poco claros o que nunca recibió el auto. Hay dolor real y nadie formal lo atiende. Ojo: no pude revisar Mercado Libre ni ver qué hace El Cero KM (su web dio error).",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.planrombo.com.ar/informacion-util/documentacion/anexo-solicitud-de-cesion-gdbxrl",
+      "https://tuquejasuma.com/nissan-argentina/reclamos/cambio-en-las-condiciones-informadas-originalmente",
+      "https://tuquejasuma.com/volkswagen-argentina/reclamos/quiero-que-me-den-una-solucion",
+      "https://elcerokm.com/blog/tengo-un-plan-de-ahorro-pero-ya-no-lo-quiero-que-puedo-hacer (no se pudo leer: error 429; solo resumen del buscador)",
+      "https://www.elmejortrato.com.ar/planes-autos/planes-de-ahorro-sin-adjudicar/",
+      "https://abogados.com.ar/index.php/rg-igj-122022-planes-de-ahorro-nueva-extension-de-diferimiento-del-pago-de-cuotas-y-condonacion-de-intereses-punitorios/31395",
+      "https://www.diariojudicial.com/news-85082-cambio-de-planes (solo resumen del buscador)"
+     ]
+    }
+   ]
+  },
+  {
+   "lote": "rlote-04",
+   "verificaciones": [
+    {
+     "id_tmp": "N197",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "Mecano Ganadero (Red Acindar)",
+       "url": "https://www.mecanoganadero.com.ar/",
+       "que_hace": "Sitio leído el 2026-10-19. Está en 9 de Julio (Buenos Aires), opera desde 1968 y dice llevar más de 50 años diseñando y construyendo sistemas para manejar hacienda de forma eficiente. Declara un 'Estándar de bienestar animal', destaca la flexibilidad y la velocidad de armado, muestra una instalación completa de ejemplo ('La Querencia') y tiene más de 120 representantes en el país. En el sitio no vi diseño con IA, cálculo de animales por hora ni montaje con herreros locales y pago por etapa.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Farmquip (Santa Fe)",
+       "url": "https://www.expoagro.com.ar/wp-content/uploads/Expoagro-en-La-Rural-de-Corrientes-2019-Farmquip-desembarca-con-soluciones-para-el-ganado.docx",
+       "que_hace": "Dato de un documento de Expoagro de 2019, tomado del resumen del buscador. Es una empresa familiar con más de 30 años que fabrica bretes, mangas, cepos, paneles, tranqueras, casillas de pesaje y cargadores, y que hizo un cierre a rodillos para que el cepo sea silencioso. No verifiqué si sigue operando en 2026.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1, 'manga curva ganadera bienestar animal fabricante Argentina': apareció Mecano Ganadero en un documento de Expoagro (instalaciones hechas para la seguridad y el bienestar animal, más de 50 años de trayectoria). El resto eran notas colombianas (CONtexto Ganadero) y material técnico. Ningún fabricante presenta una manga curva de bajo estrés como producto propio. Búsqueda 2, 'diseño de instalaciones ganaderas mangas corrales bajo estrés Argentina servicio': salió solo material técnico. Por ejemplo, el libro de feedlot de Pordomingo (INTA Anguil y UNLPam, 2013) tiene un capítulo sobre estrés e instalaciones (mangas curvas, rampas, colores) y hay documentos del Sitio Argentino de Producción Animal. No apareció ningún servicio de diseño. Búsqueda 3, 'fabricantes de mangas cepos y corrales metálicos Argentina diseño e instalación a medida': aparecieron Farmquip (Santa Fe, nota de Expoagro de 2019) y Steelagro. Según el resumen, Steelagro diseña y fabrica cepos, porteras, corrales, embarcaderos y mangas, hace productos a medida y tiene distribuidores en todo el país; no tengo su URL confirmada. También salió un PDF del Sitio Argentino de Producción Animal con esquemas de mangas, entre ellos una 'manga completa tipo mecano de caños y chapa desarmable', o sea que el kit desarmable ya existe como formato. Lectura del sitio de Mecano Ganadero (2026-10-19): los datos de arriba. Conclusión: lo que compra el ganadero (una instalación de manejo diseñada, con criterio de bienestar animal, que se arma rápido y se vende en todo el país) ya lo vende un jugador grande y viejo, además de otros fabricantes. No apareció el diseño con IA desde la foto satelital, el cálculo de capacidad ni la red de herreros con precio cerrado y pago por etapa. No hice una búsqueda específica de 'diseño de mangas con inteligencia artificial'.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 2,
+      "por_que_ahora": 5,
+      "potencial": 4
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Al ganadero ya le venden la instalación de manejo diseñada y con criterio de bienestar animal: Mecano Ganadero (9 de Julio, Red Acindar, desde 1968, más de 120 representantes), además de Farmquip y Steelagro. Lo único tuyo sería el diseño con IA desde el satélite y el montaje con herreros locales y pago por etapa. Eso no lo encontré, pero competís contra una red ya armada. Opinión: si la seguís, probá vender solo el diseño y el cómputo de materiales (sin el fierro) a herreros y representantes.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.mecanoganadero.com.ar/ (leída 2026-10-19)",
+      "https://www.expoagro.com.ar/wp-content/uploads/TECNOLOGÍA-SUSTENTABLE-PARA-LA-GANADERÍA-DE-ARGENTINA-Y-LA-REGIÓN.docx (resumen del buscador, 2026-10-19)",
+      "https://www.expoagro.com.ar/wp-content/uploads/Expoagro-en-La-Rural-de-Corrientes-2019-Farmquip-desembarca-con-soluciones-para-el-ganado.docx (resumen del buscador, 2026-10-19)",
+      "https://www.produccion-animal.com.ar/informacion_tecnica/instalaciones/09-mangas_y_corrales_esquemas.pdf (resumen del buscador, 2026-10-19)",
+      "https://www.evelia.unrc.edu.ar/evelia/archivos/idAula86306874816/materiales/libro_feedlot_Pordomingo_INTA.pdf (resumen del buscador, 2026-10-19)"
+     ]
+    },
+    {
+     "id_tmp": "N202",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "DeRentas",
+       "url": "https://www.iproup.com/startups/53355-como-alquilar-un-auto-y-pagarlo-mientras-se-trabaja-en-uber-con-derentas",
+       "que_hace": "Alquila autos por semana a choferes de Uber, con seguro, mantenimiento y soporte incluidos y opción de compra a los 36 meses. Lanzó el esquema de alquiler con compra en 2024 (Descubre, 2024-07-05), lleva más de cinco años en Buenos Aires y llegó a Córdoba (Descubre, 2026-06-22). Según los resúmenes del buscador, que no leí completos, también administra unos 100 autos de terceros a cambio de un canon y tiene una alianza con Uber para que particulares compren autos y cobren una renta (iProfesional).",
+       "parecido": "casi igual"
+      },
+      {
+       "nombre": "ATUA",
+       "url": "https://infonegocios.info/nota-principal/la-nueva-renta-pasiva-invertir-us-15-000-en-autos-para-app-de-movilidad-y-ganar-hasta-850-000-por-mes-con-atua",
+       "que_hace": "InfoNegocios, 2026-05-13 (leída). El inversor compra un auto usado (2019-2020 en adelante, menos de 100.000 km) y 'el auto sigue estando a nombre del inversor'. ATUA lo subalquila a choferes de Uber, Cabify y DiDi, y se encarga de elegir al chofer (entrevista, licencia profesional, antecedentes), del mantenimiento en taller propio, del seguro comercial y de la gestión. Administra entre 120 y 150 autos, solo en Buenos Aires. La nota no menciona opción de compra para el chofer.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Autonomy",
+       "url": "https://www.forbesargentina.com/negocios/ronda-movilidad-startup-argentina-convierte-alquileres-autos-propios-levanto-us-8-millones-n96583/amp",
+       "que_hace": "Forbes Argentina (leída; la página no muestra la fecha). Ofrece autos 0 km a choferes de apps en alquiler o alquiler con opción de compra. Un solo pago incluye alquiler, seguro, habilitación y mantenimiento, y el auto pasa a ser del chofer a los 36 o 48 meses. Evalúa al chofer con un puntaje armado con su desempeño en las plataformas, no con su historial bancario. Tiene más de 1.500 autos (arrancó en 2023 con 10), recibe unas 3.000 solicitudes por mes y atiende la mitad. Tiene alianzas con DiDi, Uber y Cabify y una Serie A de US$ 8 millones (Magna Capital, Comafi, Natan VC, Murchison Ventures). La nota no dice quién financia cada auto.",
+       "parecido": "parecido"
+      }
+     ],
+     "intentos_previos": "ATUA pivoteó: según InfoNegocios (2026-05-13), arrancó como plataforma de alquiler de autos entre particulares y pasó a administrar autos para choferes de Uber, Cabify y DiDi. No encontré cierres ni denuncias en Argentina. El único caso de estafa que apareció fue en Paraguay: alguien alquilaba autos 'para hacer Uber' y los revendía (ABC Color, 2021-10-18).",
+     "evidencia_argentina": "Búsqueda 1, 'alquiler de autos para Uber con opción de compra Argentina': salió DeRentas en iProUP, en dos notas de Descubre (2024-07-05, lanzamiento del alquiler con compra; 2026-06-22, llegada a Córdoba) y en InfoNegocios Córdoba. Cobra un canon semanal con seguro, mantenimiento y soporte, y el auto se compra a los 36 meses. También salieron una nota de Forbes Argentina sobre financiar a choferes de plataformas para que compren un 0 km y un blog de DiDi Argentina que explica el leasing. Búsqueda 2, 'invertir en autos para choferes de aplicaciones Argentina plataforma renta': salieron ATUA (InfoNegocios), Autonomy (Forbes Argentina y Ecosistema Startup, Serie A de US$ 8 M), una nota de iProfesional sobre cuánto cuesta alquilar para DiDi y cuánto gana el inversor, y una de HoyDía con el alquiler semanal en Córdoba (entre $290.000 y $450.000). Según el resumen, DiDi tiene una alianza con Autonomy y un marketplace donde los dueños ofrecen autos a choferes; no lo leí. Búsqueda 3, 'estafa inversores autos para Uber Argentina flota rentabilidad denuncia': no apareció ninguna denuncia en Argentina. Salieron una nota de iProfesional sobre la alianza De Rentas y Uber para que particulares compren autos para la plataforma (tono promocional) y otra según la cual alquilar un auto para apps cuesta entre $280.000 y $380.000 por semana, según DeRentas, y el sector funciona en gran parte sin regulación específica. Lecturas: Forbes (Autonomy) e InfoNegocios (ATUA). Conclusión: las cuatro piezas de la idea ya existen en Argentina: la flota de inversores con el auto a su nombre (ATUA, DeRentas), el todo incluido para el chofer (las tres), la compra al final (DeRentas a 36 meses, Autonomy a 36-48) y el puntaje con datos de las apps (Autonomy). La única diferencia es la compra a los 12 meses, que es un parámetro y no otro negocio.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 2,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 1,
+      "por_que_ahora": 4,
+      "potencial": 5
+     },
+     "veredicto": "descartar",
+     "nota_para_facu": "Ya existe y tiene plata atrás. DeRentas alquila con todo incluido, vende el auto a los 36 meses y además gestiona autos de inversores con Uber. ATUA hace justo lo de 'el auto a nombre del inversor y ellos lo subalquilan'. Autonomy da 0 km con compra a 36-48 meses, puntúa al chofer con datos de las apps, tiene más de 1.500 autos y una Serie A de US$ 8 M. La demanda existe (Autonomy atiende la mitad de 3.000 pedidos por mes), pero lo que la frena es la plata para comprar autos. Descartala. MOV-5-4 (motos para repartidores) no la verifiqué.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.forbesargentina.com/negocios/ronda-movilidad-startup-argentina-convierte-alquileres-autos-propios-levanto-us-8-millones-n96583/amp (leída 2026-10-19)",
+      "https://infonegocios.info/nota-principal/la-nueva-renta-pasiva-invertir-us-15-000-en-autos-para-app-de-movilidad-y-ganar-hasta-850-000-por-mes-con-atua (leída 2026-10-19)",
+      "https://www.iproup.com/startups/53355-como-alquilar-un-auto-y-pagarlo-mientras-se-trabaja-en-uber-con-derentas (resumen del buscador)",
+      "https://www.descubre.vc/noticia/derentas-lanza-su-soluci-n-rent-to-own-para-conductores-de-uber-2024-07-05 (resumen del buscador)",
+      "https://www.descubre.vc/noticia/derentas-expande-su-servicio-de-alquiler-de-autos-para-conductores-de-uber-a-c-rdoba-2026-06-22 (resumen del buscador)",
+      "https://infonegocios.info/nota-principal/derentas-ya-funciona-en-cordoba-como-es-el-servicio-que-te-permite-manejar-un-0-km-para-uber-sin-comprarlo (resumen del buscador)",
+      "https://www.iprofesional.com/finanzas/442036-como-ser-socio-de-la-alianza-de-rentas-y-uber-y-cuales-son-sus-beneficios (resumen del buscador)",
+      "https://www.iprofesional.com/economia/452654-alquiler-auto-para-trabajar-uber-didi-cabify-cuanto-cuesta-cuanto-rinde (resumen del buscador)",
+      "https://www.iprofesional.com/finanzas/449243-cuanto-cuesta-alquilar-auto-para-trabajar-en-didi-y-cuanto-gana-inversor (resumen del buscador)",
+      "https://hoydia.com.ar/economia/chapas-alquiler-autos-uber-didi/amp/ (resumen del buscador)",
+      "https://ecosistemastartup.com/autonomy-cierra-serie-a-de-us8m-para-llevar-autos-a-choferes-de-apps/ (resumen del buscador)",
+      "https://preweb.didiglobal.com/ar/blog/conductores-repartidores-y-pasajeros/leasing-compra/ (resumen del buscador)",
+      "https://www.forbesargentina.com/negocios/financian-conductores-plataformas-comprar-0km-como-novedosa-herramienta-n55667 (solo el título)",
+      "https://www.abc.com.py/nacionales/2021/10/18/alquilaba-autos-para-hacer-uber-y-los-vendia/ (resumen del buscador)"
+     ]
+    },
+    {
+     "id_tmp": "N209",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Holi Haus",
+       "url": "https://www.rionegro.com.ar/arquitectura/las-casas-chinas-desembarcaron-en-la-patagonia-y-bariloche-lidera-la-demanda-como-son-y-cuanto-valen/",
+       "que_hace": "Dato del resumen del buscador; no leí la nota y no confirmé que Holi Haus salga en esta URL en particular. Importa casas chinas y las entrega llave en mano, desde la estructura hasta la domótica y los electrodomésticos, con showroom en Nordelta. No vi que analice el lote, gestione el permiso ni administre el alquiler.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Importadores de casas modulares chinas (las notas no los nombran)",
+       "url": "https://www.bloomberglinea.com/latinoamerica/argentina/casas-que-llegan-de-china-y-se-arman-en-una-hora-cuanto-cuesta-la-vivienda-prefabricada-en-argentina/",
+       "que_hace": "Bloomberg Línea, 2026-06-30 (leída). Habla de casas de 100 m² llave en mano por US$ 45.000-80.000, con fabricación, flete, impuestos y montaje. Cuenta el caso de una casa de 72 m² en Santa Fe por unos US$ 50.000, con fabricación, importación, despacho y montaje incluidos. No menciona platea, conexiones, permisos ni uso para alquilar.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1, 'casas modulares importadas de China Argentina llave en mano': en 2026 hay un boom de casas chinas en Argentina (Bloomberg Línea, 2026-06-30; iProfesional, 2026-07-13; Río Negro, donde Bariloche lidera la demanda; El Cronista; Canal26, 2026-06-03; NoticiasNQN, 2026-05-29). Bloomberg Línea (leída): la casa de 100 m² llave en mano cuesta US$ 45.000-80.000 y el módulo de fábrica US$ 18.000-35.000. Los impuestos son el 30-50% del valor CIF, el flete US$ 3.000-7.000 por contenedor de 40 pies y el montaje lleva 2-4 semanas y es el 10-20% del valor. El caso de Santa Fe sale cerca de US$ 700/m², contra US$ 1.000-1.200/m² de las modulares nacionales y US$ 1.400/m² de la obra tradicional. Con esto queda verificado lo que el generador marcó como no verificado (el costo puesto, los tributos y la ola de importación). iProfesional (leída): desde US$ 660/m² sin importación ni logística, módulos de 37, 56 y 74 m²; 'algunos municipios estudian cambios en sus normativas'; no nombra empresas. Búsqueda 2, 'casa modular para el fondo del terreno Argentina alquilar': no apareció nada sobre unidades en el fondo del lote. Salieron casas container y mini casas para turismo rural, glamping o alquiler temporario (Economía Sustentable, El Sol, iProfesional). Según el resumen, aparecen como fabricantes locales Bamboo Containers (módulo de 30 m²) y Patagona Home (platea de 40 m² por unos US$ 800); no confirmé en qué nota sale cada uno. Búsqueda 3, 'casas chinas prefabricadas Argentina importador empresa llave en mano': salió Holi Haus (llave en mano, showroom en Nordelta, según el resumen). En El Cronista, un ingeniero advierte que hay que comparar el costo instalado y habilitado (fundaciones, conexión de servicios, permisos) y que no cualquier cuadrilla sabe montar un módulo importado. Conclusión: el módulo llave en mano, importado o nacional, ya se vende y está de moda. No encontré el paquete 'casa del fondo' completo: qué permite tu lote, permiso con un matriculado, renta estimada y administración del alquiler.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 3,
+      "por_que_ahora": 6,
+      "potencial": 5
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Las casas chinas llave en mano ya son furor en 2026 (Bloomberg Línea, iProfesional, Río Negro). Hay importadores como Holi Haus, con showroom en Nordelta, y fabricantes nacionales de módulos y containers. Lo que no encontré es el paquete 'casa del fondo': qué te deja construir tu lote, el permiso con un matriculado, la renta estimada y la administración del alquiler. Opinión: si la seguís, el producto es ese papeleo más la cuenta de la renta, no el módulo, que ya lo vende cualquiera.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.bloomberglinea.com/latinoamerica/argentina/casas-que-llegan-de-china-y-se-arman-en-una-hora-cuanto-cuesta-la-vivienda-prefabricada-en-argentina/ (leída 2026-10-19; nota del 2026-06-30)",
+      "https://www.iprofesional.com/realestate/459612-boom-casas-chinas-prefabricadas-cuanto-cuestan-como-se-instalan-en-menos-de-24-horas (leída 2026-10-19; nota del 2026-07-13)",
+      "https://www.rionegro.com.ar/arquitectura/las-casas-chinas-desembarcaron-en-la-patagonia-y-bariloche-lidera-la-demanda-como-son-y-cuanto-valen/ (resumen del buscador)",
+      "https://www.cronista.com/economia-politica/con-us-100000-y-un-terreno-conviene-una-casa-china-que-riesgos-tiene-y-como-es-su-valor-de-reventa/ (resumen del buscador)",
+      "https://www.iprofesional.com/realestate/465275-casas-modulares-de-china-vs-argentina-que-cambia-y-cuanto-cuestan (resumen del buscador)",
+      "https://economiasustentable.com/noticias/asi-son-las-mini-casas-argentinas-ideales-para-turismo-rural-o-vivienda-permanente/ (resumen del buscador)",
+      "https://www.elsol.com.ar/arquitectura/tres-casas-containers-que-se-consiguen-en-argentina-por-menos-de-20-000-dolares/ (resumen del buscador)",
+      "https://www.canal26.com/tendencias/2026/06/03/son-furor-en-china-y-llegaron-a-la-argentina-cuanto-cuestan-las-casas-prefabricadas-que-se-arman-en-10-horas/ (solo el título)",
+      "https://www.noticiasnqn.com.ar/noticias/2026/05/29/337225-el-boom-de-las-casas-prefabricadas-chinas-llega-a-argentina (solo el título)"
+     ]
+    },
+    {
+     "id_tmp": "N208",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Waltz",
+       "url": "https://www.iprofesional.com/realestate/431631-creo-amazon-sector-inmobiliario-permite-invertir-en-miami-sin-tener-que-viajar",
+       "que_hace": "iProfesional, 2025-07-04 (leída). Plataforma de EE.UU. (CEO Yuval Golan) para que extranjeros, argentinos incluidos, compren un inmueble en EE.UU. sin viajar. Arma la LLC, saca el EIN, abre la cuenta bancaria y cambia divisas; presta hipotecas, compara seguros, da soporte legal y conecta con administradoras. Trabaja del lado del comprador, con atención en español. Dice haber crecido 200% en clientes argentinos y tener más de US$ 300 M en solicitudes. No busca propiedades, no inspecciona, no hace pagos por hitos y no administra directamente.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Kopel Sánchez (proyecto Cosmopolitan y plataforma Aladín)",
+       "url": "https://infonegocios.info/plus/compras-el-depto-ellos-hacen-todo-el-modelo-que-apunta-a-una-renta-del-7-en-uruguay-y-ya-eligio-el-30-de-los-compradores",
+       "que_hace": "InfoNegocios, 2026-09-01 (leída). Desarrolladora de Montevideo que vende departamentos y los administra en alquiler temporario con su propia plataforma, Aladín. Cobra 20% más gastos, ajusta precios con IA y proyecta una renta cercana al 7% (proyección, el edificio no estaba inaugurado). Alrededor del 20% de los compradores son argentinos y cerca del 30% ya sumó su unidad a Aladín. Trabaja del lado del vendedor.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Home Base (Asunción)",
+       "url": "https://infonegocios.com.py/infomicasa/paraguay-nuevo-hotspot-del-real-estate-como-invertir-por-primera-vez-y-obtener-hasta-9-de-rentabilidad-anual",
+       "que_hace": "Según el resumen del buscador, que no leí completo: desarrolladora paraguaya que acompaña al inversor (entre ellos argentinos) desde la elección del proyecto hasta la gestión del alquiler, a largo plazo o por plataforma. Trabaja del lado del vendedor.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "RE/MAX Premium",
+       "url": "https://www.elobservador.com.uy/nota/tras-las-paso-los-argentinos-duplicaron-consultas-para-comprar-propiedades-en-el-exterior-2019912105256/amp",
+       "que_hace": "Según el resumen del buscador, en una nota de 2019 (por la URL): vende la propiedad del cliente en Argentina y lo conecta con un agente de su red internacional (más de 130 países), de punta a punta. No verifiqué que siga vigente en 2026.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Bricksave (también Crowdium y Simplestate)",
+       "url": "https://www.iprofesional.com/tecnologia/265227-bricksave-la-startup-para-invertir-en-ladrillos-a-traves-de-financiamiento-colectivo",
+       "que_hace": "Según el resumen del buscador: dan renta en dólares con fracciones de inmuebles afuera (Bricksave en Barcelona, Miami y Nueva York desde US$ 1.000; Crowdium con vehículos en EE.UU.). No es comprar una propiedad entera. Las notas son viejas y no verifiqué su estado en 2026.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "intentos_previos": "",
+     "evidencia_argentina": "Búsqueda 1, 'comprar departamento en el exterior desde Argentina plataforma asesoramiento comprador': no apareció ninguna plataforma del lado del comprador. Salieron RE/MAX Premium con su red internacional (El Observador, nota de 2019) y notas viejas (2019-2022) de inmobiliarias que asesoran 'llave en mano'. Búsqueda 2, 'invertir en departamentos en Paraguay Uruguay desde Argentina administración alquiler plataforma': salieron desarrolladoras que venden a argentinos y además administran el alquiler, como Home Base (Asunción) y Kopel Sánchez con Aladín (Montevideo). En Ámbito, un desarrollador paraguayo dice que los argentinos compran departamentos de dos dormitorios con una renta del 8-10% anual (cifra de parte interesada). Búsqueda 3, 'invertir en inmuebles en el exterior desde Argentina plataforma': salieron Bricksave, Crowdium y Simplestate (fracciones y financiamiento colectivo), Waltz (compra remota en EE.UU.) y REITs por bolsa. Lecturas: iProfesional sobre Waltz (2025-07-04) e InfoNegocios sobre Kopel Sánchez (2026-09-01). Conclusión: para Florida ya hay alguien del lado del comprador (Waltz). En Uruguay y Paraguay, el 'comprás y ellos hacen todo' lo ofrece el mismo desarrollador. No encontré a nadie independiente, del lado del comprador, con pago protegido por hitos y revisión de títulos para Paraguay, Uruguay o España. Opinión, por conocimiento previo y sin verificar hoy: en EE.UU. el escrow y el seguro de título ya son estándar, así que ahí la idea agrega menos.",
+     "evidencia_afuera": "sin cambios",
+     "score_ajustado": {
+      "innovacion": 4,
+      "factibilidad_facu": 3,
+      "brecha_argentina": 3,
+      "por_que_ahora": 5,
+      "potencial": 5
+     },
+     "veredicto": "bajar",
+     "nota_para_facu": "Para EE.UU. ya está Waltz del lado del comprador: LLC, cuenta, hipoteca y contacto con administradoras, y +200% de clientes argentinos según iProfesional (2025-07-04). En Montevideo y Asunción, el 'comprás y ellos hacen todo' lo da el mismo desarrollador (Kopel Sánchez con Aladín, Home Base). El hueco que vi es un asesor independiente del comprador, con pago protegido por hitos y revisión de papeles, para Paraguay, Uruguay o España. Opinión: pide socios legales en cada país, así que es para la etapa 2.",
+     "busquedas_hechas": 3,
+     "fuentes": [
+      "https://www.iprofesional.com/realestate/431631-creo-amazon-sector-inmobiliario-permite-invertir-en-miami-sin-tener-que-viajar (leída 2026-10-19; nota del 2025-07-04)",
+      "https://infonegocios.info/plus/compras-el-depto-ellos-hacen-todo-el-modelo-que-apunta-a-una-renta-del-7-en-uruguay-y-ya-eligio-el-30-de-los-compradores (leída 2026-10-19; nota del 2026-09-01)",
+      "https://infonegocios.com.py/infomicasa/paraguay-nuevo-hotspot-del-real-estate-como-invertir-por-primera-vez-y-obtener-hasta-9-de-rentabilidad-anual (resumen del buscador)",
+      "https://www.ambito.com/negocios/paraguay-atrae-inversores-argentinos-cuanto-invierten-inmuebles-n5982512/amp (resumen del buscador)",
+      "https://www.elobservador.com.uy/nota/tras-las-paso-los-argentinos-duplicaron-consultas-para-comprar-propiedades-en-el-exterior-2019912105256/amp (resumen del buscador)",
+      "https://www.iprofesional.com/tecnologia/265227-bricksave-la-startup-para-invertir-en-ladrillos-a-traves-de-financiamiento-colectivo (resumen del buscador)",
+      "https://www.cronista.com/brand-strategy/fintech-propone-proyectos-en-usa-con-una-rentabilidad-estimada-del-28-en-dolares/ (resumen del buscador)",
+      "https://www.bloomberglinea.com/2022/09/08/invertir-en-real-estate-plataformas-ofrecen-ingresos-en-dolares-apostando-al-ladrillo/ (solo el título)"
+     ]
+    }
+   ]
+  }
+ ],
+ "contraste": [
+  {
+   "lote": "rclote-01",
+   "empresas": [
+    {
+     "clave": "Hogar, oficios, mantenimiento y reparaciones (lado consumidor y B2B2C: garantías de hogar, membresías de mantenimiento, marketplaces de oficios, inspección de vivienda, mantenimiento de alquileres, hardware antifugas, refacción pre-venta)||Curbio",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Germán Rasia (interiorista, home staging)",
+       "url": "https://www.lanacion.com.ar/lifestyle/home-staging-o-como-hacer-atractiva-tu-casa-nid1872662",
+       "que_hace": "Interiorista que hace home staging (preparar y decorar la propiedad para vender) desde 2012, según una nota de La Nación de fecha no verificada (dato del resumen del buscador; no leí la nota). No hace obra financiada ni cobra al escriturar.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Búsqueda 1 (2026-10-19) 'refacción de propiedad para vender pagás al escriturar argentina': ningún resultado sobre refacción financiada que se paga en la escritura; solo notas de costos de escrituración (https://www.ambito.com/economia/cuanto-sale-escriturar-una-casa-argentina-2024-n5995092, https://roomix.ai/blog/cuanto-cuesta-escriturar-propiedad-2026) y la guía de Mercado Libre que recomienda arreglar lo evidente antes de vender (https://www.mercadolibre.com.ar/blog/re-guia-para-vender-una-propiedad). Búsqueda 2 'home staging argentina empresa refacción antes de vender propiedad inmobiliaria': La Nación (https://www.lanacion.com.ar/lifestyle/home-staging-o-como-hacer-atractiva-tu-casa-nid1872662, fecha no verificada) cuenta que el interiorista Germán Rasia hace home staging desde 2012 y que, según él, en Argentina la idea de invertir antes de vender no está instalada y los dueños prefieren bajar el precio (tomado del resumen del buscador, no leí la nota); el resto de los resultados son de España (xatakahome.com, idealista.com). Lectura de https://roomix.ai/blog/home-staging-vender-propiedad (nota del 2026-04-16): Roomix es un portal/agregador de avisos con IA; no ofrece staging, refacción ni financiación y no nombra empresas argentinas de refacción pre-venta. Conclusión: no encontré ningún operador que haga la obra antes de vender y cobre al escriturar; solo home staging de interioristas (un caso en La Nación). Con 2 búsquedas no puedo descartar arreglos informales entre inmobiliarias, constructores e inversores.",
+     "importabilidad_ajustada": 2,
+     "nota": "No apareció nadie que te arregle la casa y te cobre en la escritura: el hueco está, pero el modelo exige financiar obras (promedio ~USD 50.000 según la ficha original) y vos tenés ~USD 1.300. Encima, un home stager local dice que acá el dueño prefiere bajar el precio antes que invertir (La Nación vía buscador, sin leer): demanda dudosa. Queda en 2.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||FirstVet",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "Aló Pet (también 'Aló' / 'Aló tu veterinario ahora')",
+       "url": "https://www.descubre.vc/e/alo-pet",
+       "que_hace": "Startup argentina incubada en la UNL: videoconsultas veterinarias 24/7 para dueños y para empresas (beneficio para empleados), turnos con especialistas y acuerdos B2B con aseguradoras y clínicas (sin nombres públicos). ~13 veterinarios; Uruguay desde 2023 y, según otra nota, Paraguay. No confirmé que siga activa al 2026-10-19 (alopet.pet solo mostró un eslogan).",
+       "parecido": "casi igual"
+      }
+     ],
+     "detalle": "Búsqueda 1 (2026-10-19) 'veterinario online videollamada 24 horas argentina app': La Capital (https://www.lacapital.com.ar/negocios/televeterinarios-online-una-aplicacion-atencion-virtual-24-horas-mascotas-n10073771.html, 2023 según el buscador) presenta una app argentina de atención veterinaria virtual 24 h; el perfil de descubre.vc (https://www.descubre.vc/e/alo-pet) dice que Aló Pet empezó a desarrollarse en 2020, opera en Argentina desde agosto de 2022 y combina venta directa con acuerdos B2B con aseguradoras y clínicas. Los demás resultados son de Colombia (Vet+O, 'Veterinaria Online': noticiasrcn.com, larepublica.co, agronegocios.co) o una petición en change.org para un consultorio virtual en San Isidro (propuesta, no servicio). Búsqueda 2 'Aló Pet telemedicina veterinaria argentina aseguradoras videoconsulta': confirma videoconsultas 24/7 para dueños y para empresas, turnos con especialistas (cardiología, dermatología, comportamiento, nutrición), ~13 veterinarios, expansión a Uruguay (https://www.descubre.vc/noticia/al-pet-anuncia-su-expansi-n-a-uruguay-2023-07-05; otro perfil dice octubre de 2023) y, según otra nota, Paraguay; incubada en la Universidad Nacional del Litoral (nota UNL 'Se presentará la empresa Aló tu veterinario ahora'). Ninguna fuente nombra aseguradoras clientes; fechas contradictorias (La Capital: empresa conformada en 2019; descubre.vc: operación desde 2022-08). Lectura de https://alopet.pet: solo mostró el título 'Alopet' y 'Cuidado divertido para tus mascotas', sin servicios ni precios; no pude confirmar si sigue activa con este modelo al 2026-10-19. Que FirstVet no opera en Argentina lo dice la ficha original (no lo re-verifiqué).",
+     "importabilidad_ajustada": 4,
+     "nota": "Ya existe: Aló Pet hace lo mismo que FirstVet (video 24/7, venta directa y B2B con aseguradoras y empresas) desde 2022 y salió a Uruguay. Si te interesa, lo tuyo tendría que ser el canal (pet shops, balanceado) y no el servicio; antes, chequear si Aló sigue viva y cuánto creció. Bajo de 7 a 4.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Salud, cuidado de adultos mayores, mascotas, salud mental y bienestar — con foco en la capa administrativa y de confianza (quién cobra, quién verifica, quién coordina)||Sword Health",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [],
+     "detalle": "Búsqueda 1 (2026-10-19) 'kinesiología virtual app argentina rehabilitación a distancia': ninguna app argentina comercial; solo proyectos académicos: un trabajo de la UNRaf sobre una app web de telerrehabilitación con estimación de pose y gamificación (https://repositorio.unraf.edu.ar/bitstreams/8daa3e6a-ab3a-4fcc-be7f-01f8faf6cbde/download) y 'Salud Móvil App' de Rosario (nacida en la pandemia para actividad física de pacientes crónicos); una nota de la OPS sobre telesalud en Salta (https://www.paho.org/es/noticias/28-2-2014-telemedicina-herramienta-para-atencion-calidad-grandes-distancias); en Chile, My Virtual Physioterapist de la U. de Talca (prenda con sensores + app; https://www.elmostrador.cl/agenda-pais/2022/07/12/my-virtual-physioterapist-registran-primera-patente-kinesiologica-del-pais/). Búsqueda 2 'Sword Health argentina kinesiología digital empresas ART': nada sobre Argentina ni ART; según https://swordhealth.com/llms-full.txt (vía buscador) Sword atiende miembros en EE.UU., Canadá y Portugal. Lectura de https://www.physitrack.com/es/insights/mejor-software-ejercicios-terapeuticos-fisioterapeutas-kinesiologos-sudamerica (2026-08-20, texto comercial de Physitrack): lista Physitrack, Wibbi (canadiense), The Rehab Lab, Hexfit y RehBody, software para que el kinesiólogo prescriba y siga ejercicios (otro cliente: el profesional, no el empleador); ninguno confirmado como argentino ni con operación local, ninguno menciona cámara o sensores ni venta a aseguradoras (Physitrack tiene un segmento 'Occupational Health & Case Management'). Conclusión: no encontré un servicio de kinesiología digital supervisada vendido a empresas, ART o prepagas en Argentina; con 2 búsquedas no descarto startups chicas que no aparezcan en el buscador.",
+     "importabilidad_ajustada": 5,
+     "nota": "No encontré a nadie haciendo Sword acá: solo tesis universitarias y software extranjero para kinesiólogos. El hueco parece real y la cámara + ergonomía de ingeniero industrial es tu ángulo, pero es salud regulada y venta larga a ART y empresas. Subo de 4 a 5, no más.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||DriveU (Humble Mobile Solutions)",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Te llevo (Rosario)",
+       "url": "https://www.cadena3.com/noticia/viva-la-radio/llego-te-llevo-la-app-para-contratar-conductores-si-saliste-en-tu-auto_337414",
+       "que_hace": "App para contratar un chofer profesional identificado que maneja tu auto desde cualquier punto de la ciudad hasta tu casa u otro destino; arrancó el 2022-09-23 según su creador (resumen del buscador, nota no leída). No verifiqué si sigue activa.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Designadoweb (Neuquén)",
+       "url": "https://www.lmneuquen.com/con-una-app-se-podra-contratar-un-conductor-designado-la-fiesta-la-confluencia-n883236",
+       "que_hace": "Conductor designado para volver a tu casa en tu auto si tomaste, con un segundo chofer que escolta; reserva anticipada o exprés si ya te paró un control; pago por Mercado Pago. Arrancó solo en la ciudad de Neuquén (nota del 2022-02-04; sitio designadoweb.com.ar). No verifiqué si sigue activa.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Búsqueda 1 (2026-10-19) 'chofer designado que maneja tu auto argentina app servicio': Designadoweb en Neuquén (https://www.lmneuquen.com/con-una-app-se-podra-contratar-un-conductor-designado-la-fiesta-la-confluencia-n883236), 'Te llevo' en Rosario (https://www.cadena3.com/noticia/viva-la-radio/llego-te-llevo-la-app-para-contratar-conductores-si-saliste-en-tu-auto_337414; arrancó el 2022-09-23 según su creador, dato del resumen del buscador) y ChoferGo (https://apps.apple.com/mx/app/chofergo/id1667351014, tienda de México, coordina por Instagram; no confirmé que opere en Argentina). Uber y Cabify, según el resumen del buscador, son viajes en el auto del conductor, no manejan el tuyo. Dato al costado: BAE Negocios (https://www.baenegocios.com/sociedad/Como-habilitar-a-conducir-a-cualquiera-con-un-simple-click-20250127-0052.html, 2025-01-27) explica que desde Mi Argentina se habilita a otra persona a manejar tu auto con la cédula digital (no leí la nota). Búsqueda 2 'conductor designado Buenos Aires servicio te llevamos en tu auto': ningún servicio de chofer para tu propio auto en CABA/AMBA; solo traslados con auto del proveedor (transfeero.com, daytrip.com). Lectura de la nota de LM Neuquén (2022-02-04): Designadoweb (designadoweb.com.ar), de Matías Jacobson y Diego Arias; solo viajes a viviendas dentro de la ciudad de Neuquén; $3.500 con reserva de 3 h y $5.000 exprés (precios de 2022); un segundo chofer escolta y vuelve con el primero; pago por Mercado Pago; acta acuerdo sobre la documentación del auto. No verifiqué si Designadoweb o Te llevo siguen operando hoy.",
+     "importabilidad_ajustada": 5,
+     "nota": "Existe en chiquito: dos intentos de 2022 (Neuquén y Rosario) y nada en Buenos Aires con 2 búsquedas. El hueco grande sigue, pero que nadie haya escalado desde 2022 es una alarma (¿poca demanda u operación cara con dos choferes por viaje?): averiguá qué les pasó antes de copiar. Bajo de 6 a 5.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Bring a Trailer (Hearst Autos)",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "BidBit Garage (BidBit Subastas Online)",
+       "url": "https://autotest.com.ar/noticias/lanzan-una-subasta-de-autos-clasicos-de-origen-europeo-y-americano/",
+       "que_hace": "Línea de subastas online de vehículos de colección dentro de BidBit (que también hace subastas judiciales, de flotas, leasing y prendas): categorías por época (Íconos 1960-1980, Young Timers 1980-2000), garantías de USD 500 a 5.000; se presentó como el primer portal argentino de subastas de vehículos de colección. Año no indicado; no verifiqué si sigue activa. La URL la asocié por el título, no leí la nota.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Motordil Subastas",
+       "url": "https://mercado.com.ar/ruta-digital/motordil-presenta-plataforma-digital-exclusiva-para-subastas-de-autos-y-motos-en-argentina",
+       "que_hace": "Plataforma de subastas online solo de autos y motos, presentada en noviembre de 2025, con una categoría de clásicos; llegó a Uruguay en 2026-06 y dice tener más de 250 subastas finalizadas (cifra propia). No vi curaduría editorial ni comunidad (no leí su sitio).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Búsqueda 1 (2026-10-19) 'subastas online autos clásicos argentina plataforma': BidBit Garage, línea de vehículos de colección de BidBit (autotest.com.ar); Narvaezbid con una subasta especial de clásicos (~2019, autotest.com.ar); Motordil Subastas (https://mercado.com.ar/ruta-digital/motordil-presenta-plataforma-digital-exclusiva-para-subastas-de-autos-y-motos-en-argentina, presentada en noviembre de 2025, con categoría de clásicos), que en 2026-06 llegó a Uruguay y dice tener más de 250 subastas finalizadas (https://www.autoblog.com.uy/2026/06/motordil-subastas-llega-uruguay-una.html; cifra de la empresa); Adrián Mercado (subastas generales de autos y camiones, nota de 2021 según el buscador). Búsqueda 2 'BidBit Garage subastas autos clásicos argentina': categorías Íconos (1960-1980) y Young Timers (1980-2000), lotes como Porsche 356 C 1964, Corvette 1957 y Jaguar XK 120 1952, garantías de USD 500 a 5.000; la nota no dice el año. Forbes Argentina 2022 sobre BidBit (https://www.forbesargentina.com/brandvoice/subastan-online-paran-crecer-como-funciona-bidbit-n21893; ojo: 'brandvoice' es contenido pago) la describe como plataforma para subastas judiciales, licitaciones y martilleros. También se mencionan Narvaez Superbid y Banco Ciudad. Lectura de https://www.baenegocios.com/negocios/Lanzan-una-SUBASTA-de-AUTOS-clasicos-y-PREMIUM-usados-en-Argentina-desde-1-500-000-como-participar-20240829-0028.html (2024-08-29): no era BidBit sino un remate puntual del Banco Ciudad de 23 vehículos de una aseguradora 'en diferentes condiciones', online desde el 2024-09-04, sin curaduría ni inspección independiente. Conclusión: hay subastas online de autos, algunas con clásicos, pero no encontré el modelo Bring a Trailer (curaduría editorial, 7 días de comentarios de la comunidad, prima al comprador, cierre de pago y papeles integrado). Pendiente, no verificado: si una subasta online en Argentina exige martillero matriculado.",
+     "importabilidad_ajustada": 4,
+     "nota": "La subasta online de clásicos ya existe acá (BidBit Garage, Motordil con categoría de clásicos), aunque como un rubro más de rematadoras generales. Lo que no vi es lo propio de Bring a Trailer: curaduría, comunidad y cierre seguro; si vas por acá, el producto es eso, no la subasta. Bajo de 5 a 4.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Autos, movilidad y logística de personas y cosas (contraste EE.UU./India/Italia vs. Argentina)||Wrench (y YourMechanic)",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Servidos.ar",
+       "url": "https://servidos.ar/servicios/mecanico-a-domicilio/buenos-aires/san-telmo",
+       "que_hace": "Marketplace de CABA y GBA donde mecánicos independientes con DNI verificado ofrecen servicio a domicilio; precios de referencia orientativos, el precio real lo da cada presupuesto; sin comisiones y el pago se arregla con el profesional; no ofrece precompra ni flotas.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Autominuto.com",
+       "url": "https://autotest.com.ar/noticias/autominuto-com-la-solucion-para-resolver-todo-lo-que-necesitas-para-tu-auto/",
+       "que_hace": "Servicio argentino que conecta conductores con talleres cercanos; no quedó claro si atiende a domicilio (nota no leída, fecha no verificada).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Búsqueda 1 (2026-10-19) 'mecánico a domicilio app argentina presupuesto online': Servidos.ar (marketplace de CABA y GBA con mecánicos a domicilio), Autominuto.com (https://autotest.com.ar/noticias/autominuto-com-la-solucion-para-resolver-todo-lo-que-necesitas-para-tu-auto/, conecta conductores con talleres cercanos; no queda claro si va a domicilio), Afiname (https://apps.apple.com/mx/app/afiname/id6755805994, tienda de México, no confirmado en Argentina) y Casa Click (https://www.iprofesional.com/tecnologia/416954-casa-click-crearon-app-para-ahorrar-plata-arreglos-aire-acondicionado: app argentina con IA para oficios del hogar, no mecánica; la fecha que muestra el buscador para iProfesional no es confiable). Búsqueda 2 'inspección precompra auto usado a domicilio argentina servicio': todos los resultados son de Chile: 2x3.cl (https://www.2x3.cl/servicios/revision-precompra-vehiculos/santiago), marketplace con inspectores precompra que van a domicilio y que retiene el pago hasta que se completa el servicio; nada argentino en esa búsqueda. Lectura de https://servidos.ar/servicios/mecanico-a-domicilio/buenos-aires/san-telmo: perfiles de profesionales independientes, precios de referencia orientativos (p. ej. $80.000-$160.000 cambio de aceite y filtro, agosto de 2026), el precio real lo da cada presupuesto, sin comisiones ni intermediación del pago, identidad verificada con DNI (no menciona títulos), CABA y GBA, trabajos con elevador en taller; no menciona precompra ni flotas. Conclusión: el mecánico a domicilio existe como directorio, no como marca con precio cerrado online, garantía y línea de flotas tipo Wrench; la inspección precompra estandarizada (tipo Lemon Squad) no apareció en Argentina en 1 búsqueda.",
+     "importabilidad_ajustada": 3,
+     "nota": "El mecánico a domicilio ya está acá como directorio (Servidos.ar, sin comisión), así que copiar Wrench no tiene mucha vuelta. El único cabo suelto es la inspección precompra estandarizada: en Chile existe con pago retenido (2x3.cl, tu lógica de escrow) y acá no la encontré en una búsqueda; hay que buscar más antes de entusiasmarse. Queda en 3.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Hover (y Roofr, que empaqueta lo mismo para techistas) — VARIANTE de CON-2-3 (ELEGIDA)",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "MIDDELO (app de medición de edificios)",
+       "url": "https://apps.apple.com/ec/app/middelo-medicion-de-edificios/id1098740544",
+       "que_hace": "App en español para medir fachadas y techo desde una foto con una referencia, estimar materiales y armar presupuesto; desarrollador Lisandro Rodriguez (país no indicado; no sé si está en la tienda argentina); 1 sola calificación: tracción casi nula. La descripción no menciona satélite, pedido de materiales ni cobros.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "OneEstimate",
+       "url": "https://oneestimate.ai/es/blog/mejores-herramientas-ia-construccion-2026",
+       "que_hace": "Software de presupuestos de obra con IA que, según su propio blog (vía buscador, no leído), trae precios por país incluida Argentina y mide sobre planos PDF; no mide desde fotos ni satélite. País de origen no verificado.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Búsqueda 1 (2026-10-19) 'medición de techos por foto satelital presupuesto argentina': nada para presupuestar obra; solo uso fiscal: ARBA busca implementar el sistema 'M2', que combina drones, imágenes satelitales e IA para detectar construcciones, ampliaciones y piletas no declaradas (https://www.iprofesional.com/impuestos/447800-arba-drones-ia-buscaran-edificios-silos-sin-declarar; el buscador muestra 9/8/2026, pero esas fechas de iProfesional no son confiables: en otra nota resultaron falsas), y un software del municipio de Tigre que cruza datos tributarios con imágenes satelitales (resumen del buscador). Búsqueda 2 'app presupuesto techo con fotos inteligencia artificial argentina medición superficie': MIDDELO (medición desde una foto), Medición Precisa AR (medición con realidad aumentada de interiores, iPhone), Roofy AI (https://mwm.ai/es/apps/roofy-ai/6758568735: techos por satélite + IA para inspección y potencial solar; país no verificado) y OneEstimate (presupuestos de obra con IA; según su propio blog, precios por país incluida Argentina y medición sobre planos PDF, no desde fotos). Ninguna argentina confirmada. Lectura de https://apps.apple.com/ec/app/middelo-medicion-de-edificios/id1098740544: desarrollador Lisandro Rodriguez (país no indicado), mide superficies y techo en una foto, estima materiales y presupuesto, gratis con compras de USD 2,49 a 99,99, 1 sola calificación, última versión 12.05.01 con fecha '01/04/2025'. Conclusión: no encontré un Hover/Roofr argentino (medición desde fotos o satélite + presupuesto + materiales del corralón + cobro). La ficha original ya lo cruzaba con CON-2-3 (ELEGIDA) y ENE-1-1/HOG-2-3 (PENDIENTES); no lo re-verifiqué en el registro.",
+     "importabilidad_ajustada": 7,
+     "nota": "Confirmado con 2 búsquedas: no hay un Hover/Roofr argentino; lo más cerca es una app de medición con una sola reseña y un presupuestador sobre planos. Encaja con lo tuyo (fotos + IA, producto para todos los techistas), por eso subo de 6 a 7. Dato jugoso: ARBA quiere medir construcciones con satélite, drones e IA para cobrar impuestos; falta verificar la precisión con imágenes de Argentina.",
+     "busquedas_hechas": 2
+    }
+   ]
+  },
+  {
+   "lote": "rclote-02",
+   "empresas": [
+    {
+     "clave": "Herramientas y marketplaces para PyMEs y comercios (software + marketplace + pagos)||Baton (referencia también: BizBuySell, el clasificado grande del rubro)",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "NegoZona",
+       "url": "https://www.negozona.com",
+       "que_hace": "Marketplace argentino de fondos de comercio y franquicias en venta. Según su perfil en descubre.vc se fundó en 2016. Tiene avisos con filtros por rubro, valuación online 'en sólo 5 minutos' en 3 pasos, publicación para dueños y brokers, y versiones para España, México, Paraguay, Uruguay y Chile. En la lectura no vi NDA, verificación de compradores, custodia de la seña ni comisión por éxito. Su perfil dice que gana con publicaciones y publicidad.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Sitio de Tiendas",
+       "url": "https://www.innovaciondigital360.com/industria-4-0/sitio-de-tiendas-compraventa-negocios-online/",
+       "que_hace": "Compraventa de negocios online ya validados (tiendas digitales) entre dueños y PyMEs o profesionales que compran. Una nota del 2026-07-31 habla de más de 100 operaciones; el dato sale del resumen del buscador, no leí la nota y no confirmé que sea argentina. Solo cubre negocios digitales, no fondos de comercio físicos.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consultas del 2026-10-19.\n\nBúsqueda 1: 'plataforma online compra venta de fondos de comercio y pymes argentina valuación'.\n- Salieron NegoZona (nota de El Cronista: https://www.cronista.com/infotechnology/it-business/un-argentino-creo-una-web-que-te-dice-como-donde-y-a-cuanto-comprar-franquicias/ ; perfil: https://www.descubre.vc/negozona) y Sitio de Tiendas (https://www.innovaciondigital360.com/industria-4-0/sitio-de-tiendas-compraventa-negocios-online/ ; nota no leída).\n- También una columna de Ámbito sobre cómo valuar un fondo de comercio: ganancia mensual por 18-24 meses de recupero. Es la opinión de un autor, no un dato de mercado: https://www.ambito.com/opiniones/cuanto-vale-mi-fondo-comercio-n5965651\n\nBúsqueda 2: 'NegoZona fondos de comercio franquicias venta valuación online'.\n- Según el perfil de descubre.vc: fundada en 2016, gana con publicaciones y publicidad, unos 70.000 usuarios y más de 700 negocios publicados. Son cifras del perfil, no verificadas.\n- CB Insights (https://www.cbinsights.com/company/negozona/) la muestra con NXTP como inversor, en una ronda de incubadora o aceleradora, y nombra a BuyCo como competidor (no verifiqué de dónde es).\n\nLectura de https://www.negozona.com:\n- Avisos de fondos de comercio y franquicias con filtros por rubro.\n- Valuación online 'en sólo 5 minutos' en 3 pasos.\n- Publicación para dueños y brokers.\n- Página de tarifas, pero sin precios en el texto.\n- Versiones para España, México, Paraguay, Uruguay y Chile.\n- Hay imágenes de avisos con fechas de 2025 y 2026-06-01 en el nombre del archivo, así que probablemente está activo.\n- No aparecen NDA, verificación de compradores, custodia de la seña ni comisión por éxito. O sea, no vi cubierta la parte de Baton que reemplaza al broker: el cierre estandarizado.\n\nNo verifiqué la categoría de fondos de comercio de Mercado Libre ni los grupos de Facebook que mencionó el agente anterior.",
+     "importabilidad_ajustada": 4,
+     "nota": "Ya hay un jugador local: NegoZona (desde 2016). Publica fondos de comercio y franquicias con valuación online, en 6 países. Lo que no vi es lo que hace valioso a Baton: NDA, números verificados, seña en custodia y cierre guiado por la Ley 11.867. Si se hace, hay que entrar por ahí (tu escrow) y no como otro sitio de avisos. La bajo a 4.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Inmuebles, construcción, energía y hogar inteligente||Yardzen",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [
+      {
+       "nombre": "Tujardínonline (España)",
+       "url": "https://www.habitissimo.es/pro/tujardinonline",
+       "que_hace": "Estudio español que diseña jardines a distancia para España y Latinoamérica a partir de fotos y un croquis. Entrega planos, plantación, riego, lista de materiales, vistas 3D y video. No nombra Argentina, no tiene red de ejecución acá y su ficha parece poco activa.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Ideal House (y apps parecidas: Neighborbrite, Airmore, GenRoom)",
+       "url": "https://ideal.house/es/landscaping",
+       "que_hace": "Apps globales de IA, en español, que rediseñan el patio a partir de una foto en segundos. No entregan planos de obra, cómputo de materiales ni contratistas.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consultas del 2026-10-19.\n\nBúsqueda 1: 'diseño de jardín online paisajismo render a distancia argentina'.\n- No apareció ningún servicio argentino de diseño de jardín 100% a distancia.\n- Tujardínonline (España), que dice diseñar online para España y Latinoamérica: https://www.habitissimo.es/pro/tujardinonline\n- Una paisajista freelance de Rosario en Behance.\n- Ofertas de render de jardín en Fiverr: https://fiverr.com/ga_lago/create-stunning-3d-landscape-garden-renderings\n- Estudios de render de Buenos Aires, pero de arquitectura, no de jardines: https://cadcrowd.com/l/ar/architectural-rendering\n\nBúsqueda 2: 'diseño de jardines con inteligencia artificial argentina subí fotos de tu patio paisajista online'.\n- Ninguna plataforma argentina.\n- Sí hay apps globales de IA en español que rediseñan el patio desde una foto:\n  - Neighborbrite: según un sitio de terceros, más de 500.000 usuarios y más de 15 millones de diseños (no verificado): https://similarlabs.com/es/p/neighborbrite\n  - Ideal House: https://ideal.house/es/landscaping\n  - Airmore: https://airmore.ai/es/ai-garden-design\n  - GenRoom: https://genroom.io/es/blog/ai-garden-design-tools\n  - AI Garden Planner, para profesionales: https://similarlabs.com/es/p/ai-garden-planner\n\nLectura de la ficha de Tujardínonline en habitissimo:\n- Diseña a distancia con fotos y un croquis.\n- Entrega planos, plan de plantación y de riego, lista de materiales y plantas, memoria paso a paso, vistas 3D y video.\n- Nombra Latinoamérica en general (muestra un proyecto en Santiago de Chile), no Argentina.\n- Parece poco activo: está en habitissimo desde 2012, sus reseñas son de hace unos 13 años y los pedidos de presupuesto figuran 'no disponibles'.\n- El único precio visible es 20 €/hora. El resumen del buscador mencionaba un presupuesto medio de 250 €, que no vi en la lectura.\n\nNo encontré una red de contratistas ni un vivero que venda diseño + ejecución online en Argentina. Con 2 búsquedas eso no prueba que no exista.",
+     "importabilidad_ajustada": 6,
+     "nota": "No encontré un Yardzen argentino. Pero el 'render de tu patio con una foto' ya lo dan gratis o barato apps globales en español, así que eso solo no vale. Lo que vale es lo local: plantas por zona, cómputo, plan de riego y el vivero o paisajista que lo hace. La bajo a 6.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Inmuebles, construcción, energía y hogar inteligente||Ownwell",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [],
+     "detalle": "Consultas del 2026-10-19.\n\nBúsqueda 1: 'reclamo valuación fiscal impuesto inmobiliario ARBA servicio online cobro por éxito argentina'.\n- No apareció ningún servicio que cobre por éxito.\n- Sí apareció cómo reclama uno solo ante ARBA: hay un formulario de autogestión y otros canales, que van al sistema SIRyC. Hay un tipo de reclamo 'Valuación Fiscal' (exclusivo de Catastro) que pide partido/partida y el valor reclamado: https://web.arba.gov.ar/sites/default/files/2023-12/sirycConsultayReclamosInstructivoContribuyente.pdf\n- En https://www.arba.gov.ar/archivos/Publicaciones/SIRYCConsultasyReclamos.pdf figura un dato viejo de una etapa de prueba: 90% de los reclamos resueltos en 1 a 7 días. No es específico de valuación.\n\nBúsqueda 2: 'reclamar valuación fiscal ABL AGIP inmobiliario estudio gestor pagar menos impuesto Buenos Aires'.\n- Tampoco apareció un servicio por éxito.\n- Aparece el trámite porteño 'Inmobiliario/ABL – Reclamos por empadronamiento VFH, VIR y VLR', explicado en sitios de guías: https://contadoresenred.com/caba-inmobiliario-abl-reclamos-por-empadronamiento-vfh-vir-y-vlr/ y https://papelea.com/ar/buenos-aires-ciudad/inmobiliario-abl-reclamos-por-empadronamiento-vfh-vir-y-vlr\n- También notas de 2022: https://www.letrap.com.ar/nota/2022-5-17-11-59-0-larreta-califico-de-discriminatorio-el-revaluo-de-inmuebles-portenos/amp y https://www.a24.com/politica/en-medio-la-discusion-el-revaluo-inmobiliario-la-ciudad-aclaro-que-pasara-el-costo-del-abl-n1007500/amp. Según el resumen del buscador, el Gobierno porteño decía que el Inmobiliario/ABL no está atado directamente a la valuación. Es una postura política; no leí las notas ni lo verifiqué.\n- El mismo resumen dice que la Ley Tarifaria calcula el tributo con la VFH y la 'Unidad de Sustentabilidad Contributiva' (no verificado).\n\nLectura de contadoresenred (nota del 2025-05-08):\n- El reclamo se hace online por TAD, con miBA y Clave Ciudad AGIP.\n- Es gratis según la Ley Tarifaria vigente.\n- Las copias certificadas las hace un escribano o una autoridad judicial; las firmas también un banco.\n- No menciona plazos ni exige un profesional.\n- Enlace oficial: buenosaires.gob.ar/tramites/inmobiliario-abl-reclamos-por-empadronamiento-vfh-vir-y-vlr\n\nConclusión: el trámite existe y es online, gratis en CABA y por SIRyC en PBA (ahí no verifiqué el costo). No encontré a nadie que lo venda como servicio por éxito.\n\nOpinión, no verificada: en Argentina la valuación fiscal suele quedar por debajo del valor de mercado. Si es así, el reclamo estilo Ownwell ('estás sobrevaluado contra tus vecinos') tendría poco lugar, y el lugar real serían los errores de empadronamiento (metros, categoría, destino).\n\nNo busqué tasas municipales ni otras provincias.",
+     "importabilidad_ajustada": 4,
+     "nota": "Nadie lo vende por éxito, pero el reclamo es gratis y online (TAD en CABA, SIRyC en ARBA) y no está claro cuánto baja la boleta si se corrige. Antes de nada: juntar 10 boletas reales y calcular el ahorro; si es chico, no paga. La bajo a 4.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Inmuebles, construcción, energía y hogar inteligente||Bilt Rewards",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Alquilando",
+       "url": "https://www.iproup.com/economia-digital/27375-alquilando-como-es-proptech-argentina-en-la-que-invirtio-google",
+       "que_hace": "Empresa argentina de tecnología inmobiliaria (proptech). Según el resumen del buscador de una nota de iProUP (no pude leerla), le garantiza al propietario el cobro puntual y las inmobiliarias cobran el alquiler por la plataforma. No vi puntos ni beneficios para el inquilino.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Hoggax",
+       "url": "https://www.iproup.com/startups/24703-garantia-de-alquiler-digital-como-funciona-hoggax",
+       "que_hace": "Garantía de alquiler digital, con pago financiado hasta en 36 meses. Compite con la variante 'tu alquiler te hace score', que también funciona como garantía.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Finaer + Mercado Libre",
+       "url": "https://www.iprofesional.com/actualidad/336187-mercado-libre-y-finaer-lanzan-oferta-de-garantias-para-alquiler",
+       "que_hace": "Garantías de alquiler ofrecidas junto con Mercado Libre. No pude confirmar la fecha de la nota.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Argenprop Garantías",
+       "url": "https://www.argenprop.com/Garantias-Alquiler",
+       "que_hace": "Garantía por seguro de caución o fianza, con respuesta en 24 h hábiles. Pide buen historial en el sistema financiero.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consultas del 2026-10-19.\n\nBúsqueda 1: 'app pagar alquiler con tarjeta de crédito puntos beneficios inquilinos argentina'.\n- Nada argentino.\n- Aparece Neat Pagos (Chile), que deja pagar el arriendo con tarjeta de crédito y sumar millas: https://www.neatpagos.com/blog/articulo/puntos-arriendo-un-ano-que-alcanza\n- Su propio blog avisa que hay que comparar la comisión contra lo que valen los puntos: https://www.neatpagos.com/blog/articulo/cuanto-cuesta-pagar-el-arriendo-con-tarjeta-de-credito-en-chile\n- También apareció una app de India, que no aplica.\n\nBúsqueda 2: 'plataforma pagar el alquiler online argentina inquilino propietario historial de pagos garantía'.\n- No hay ninguna plataforma que junte el pago online del alquiler con un historial o score del inquilino.\n- Alquilando: según el resumen del buscador, le garantiza el cobro puntual al propietario y las inmobiliarias cobran por la plataforma; el título de la nota dice que invirtió Google.\n- Garantías digitales:\n  - Hoggax, que financia la garantía hasta en 36 meses.\n  - Garantear: https://mercado.com.ar/ladrillos-y-proyectos/contratos-de-alquiler-en-ciudad-de-buenos-aires-predominio-del-peso-y-el-rol-de-garantear\n  - Argenprop Garantías.\n  - Mercado Libre + Finaer (fecha de la nota no confirmada).\n- Antecedente: GISA, del Colegio de Martilleros bonaerense (2016), que miraba el Veraz del inquilino. No sé si sigue: https://aldiaargentina.microjuris.com/2016/06/13/lanzan-un-sistema-de-garantias-en-alquileres-en-la-provincia-de-buenos-aires/amp/\n\nLectura: intenté la nota de iProUP sobre Alquilando y solo devolvió el título. Lo de Alquilando queda como resumen del buscador, sin verificar.\n\nNo encontré en Argentina ningún programa de puntos por pagar el alquiler.",
+     "importabilidad_ajustada": 2,
+     "nota": "No hay un Bilt argentino y tiene lógica: allá los puntos los paga la comisión de la tarjeta, y acá el alquiler va mayormente por transferencia (no verificado). La variante 'score del inquilino' cae en un rubro lleno de garantías digitales (Hoggax, Finaer con Mercado Libre, Argenprop, Alquilando). La bajo a 2.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Forage (parte de EAB) — simulaciones de trabajo virtuales pagadas por empleadores, con credencial para el estudiante",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Challenge Academy (UNL, proyecto Erasmus+ Linkyou)",
+       "url": "https://www.unl.edu.ar/noticias/news/view/challenge_academy_conectando_la_academia_con_empresas",
+       "que_hace": "Web donde las empresas suben desafíos reales y estudiantes y docentes proponen soluciones. Es académica y la financia la Unión Europea. No da credencial ni sirve para reclutar. La nota es de 2019 y no sé si sigue activa.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Econempleo (FCE-UBA, plataforma miECON)",
+       "url": "https://mercado.com.ar/agenda/econempleo-la-uba-conecta-el-talento-joven-con-el-sector-empresarial",
+       "que_hace": "Servicio de reclutamiento de la Facultad de Ciencias Económicas de la UBA: las empresas publican búsquedas y reciben postulaciones de estudiantes durante todo el semestre. Es una bolsa de empleo, no una simulación.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Desafío Sebrae",
+       "url": "https://www.unl.edu.ar/noticias/news/view/presentaron_el_desaf%C3%ADo_sebrae_un_juego_para_emprendedores",
+       "que_hace": "Competencia de simulación de gestión de empresas para estudiantes, que se hace en Argentina desde 2003. Es un juego, no una prueba de puesto ni sirve para reclutar. La nota es de la edición 2010 y no verifiqué si sigue.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consultas del 2026-10-19.\n\nBúsqueda 1: 'simulaciones de trabajo virtuales estudiantes empresas certificado plataforma argentina'.\n- No hay ninguna plataforma argentina de simulaciones de puesto con credencial pagada por empresas.\n- Aparecieron cosas de otro tipo:\n  - Un simulador de negocios online llamado CEO-Virtual. Según el resumen del buscador no da certificados ni trabaja con empresas; no encontré su URL.\n  - Simuladores de soldadura en realidad virtual para escuelas técnicas: https://blog.quakelogic.net/vr-welding-simulator-argentina/\n  - Material académico de la UNLP: https://sedici.unlp.edu.ar/handle/10915/178255\n  - Referencias de afuera: USALSIM (Universidad de Salamanca) y simuladores mineros de Chile: https://www.mch.cl/startup-chilena-crea-simuladores-virtuales-para-la-formacion-en-mineria/\n\nBúsqueda 2: 'plataforma desafíos reales de empresas para estudiantes reclutamiento jóvenes argentina prueba práctica'.\n- Challenge Academy (UNL).\n- Econempleo (FCE-UBA).\n- Desafío Sebrae.\n- Jóvenes Proyectos, que es de Madrid, no de Argentina.\n- El resumen del buscador cita un relevamiento de ManpowerGroup y Junior Achievement: el 70% dice que la falta de experiencia es el principal obstáculo para conseguir empleo formal. No leí la fuente; no verificado.\n\nLectura de la nota de la UNL sobre Challenge Academy (2019-10-17, actualizada el 2019-11-27):\n- Es una web donde las empresas suben desafíos reales y estudiantes y docentes proponen soluciones.\n- La financia Erasmus+ (Unión Europea).\n- No menciona credenciales ni reclutamiento.\n- No sé si sigue activa.\n\nNo volví a verificar Henry ni FirstJob, que los citó el agente anterior. Forage en sí está en inglés; no verifiqué si tiene empresas argentinas ni contenido en español.",
+     "importabilidad_ajustada": 7,
+     "nota": "No hay un Forage argentino. Solo hay cosas universitarias sueltas (Challenge Academy de la UNL, 2019; la bolsa de empleo de la FCE-UBA) y juegos tipo Desafío Sebrae. El hueco existe y encaja con vos (simulaciones de ingeniería industrial corregidas por IA). Quedan dos dudas: si acá las empresas pagan por reclutar juniors así, y que armar la simulación de cada empresa es trabajo a medida. La subo a 7.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Outschool — marketplace de clases online en vivo para chicos de 3 a 18",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Outschool (global, accesible desde Argentina)",
+       "url": "https://outschool.com/es/classes/chess-lessons-for-kids-Vdt3YcAB",
+       "que_hace": "Es la misma empresa, accesible desde Argentina con la página en español y precios en dólares (por ejemplo, ajedrez en grupo de 2 a 9 chicos a US$18 por semana). No verifiqué si las clases se dictan en español.",
+       "parecido": "casi igual"
+      },
+      {
+       "nombre": "Edubotika (Córdoba)",
+       "url": "https://gust.com/companies/edubotika",
+       "que_hace": "Enseña programación y robótica a chicos y jóvenes, orientada a colegios. No verifiqué si tiene cursos online abiertos a familias.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consultas del 2026-10-19.\n\nBúsqueda 1: 'plataforma clases online en vivo para chicos grupos reducidos profesores argentina'.\n- Nada argentino para chicos.\n- Salió EducaciónIT, que da cursos en vivo de tecnología para adultos (apareció en un blog de Coderhouse): https://www.coderhouse.com/ar/coderlibrary/educacionit-vale-la-pena-esta-plataforma-para-aprender-tecnologia\n- Y una nota de iProfesional sobre plataformas para dar clases: https://www.iprofesional.com/management/322424-las-mejores-plataformas-para-dictar-clases-virtuales\n\nBúsqueda 2: 'clases en vivo online para niños programación ajedrez robótica cursos cortos plataforma Latinoamérica Argentina Outschool'.\n- El propio Outschool tiene páginas en español con precios en dólares. Por ejemplo, ajedrez para 7 a 12 años en grupos de 2 a 9, a US$18 por semana (https://outschool.com/es/classes/chess-lessons-for-kids-Vdt3YcAB), y ajedrez para 5 a 9 años a US$15 por clase (https://outschool.com/es/classes/chess-for-sparrows-7R046eSV). No verifiqué si esas clases se dictan en español.\n- Edubotika (Córdoba): programación y robótica para chicos, orientada a colegios, según su perfil en Gust.\n- La DGE de Mendoza dio cursos de ajedrez online gratis, en contexto de pandemia: https://www.mendoza.gov.ar/prensa/dge-dictara-cursos-rapidos-de-ajedrez-online-para-alumnos-de-primaria-y-secundaria/\n\nLectura: intenté https://www.superprof.com.ar para ver cómo cobra y devolvió error 403. No pude verificar ni Superprof ni Tusclases, que los mencionó el agente anterior.\n\nResultado: no encontré un marketplace argentino de clases en vivo para chicos con profes independientes y pago en la plataforma.",
+     "importabilidad_ajustada": 5,
+     "nota": "No encontré un Outschool argentino. Lo que hay es el mismo Outschool en dólares y jugadores que hacen una parte, como Edubotika en robótica. Superprof no lo pude leer. Ojo: se pega mucho con 'profesores con pago protegido', que ya está entre tus 3 primeras; tratala como variante de esa, no como idea nueva.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Educación, trabajo, comunidad y vecindario (marketplaces de profes y clases, beneficios educativos del empleador, aprendizajes, redes universidad-empleador, credenciales, servicios locales y redes de barrio)||Nextdoor — red social de barrio",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Neibors",
+       "url": "https://www.lacapitalmdp.com/neibors-la-red-social-argentina-para-vecinos/",
+       "que_hace": "App gratis de recomendaciones entre vecinos (CABA, Ramos Mejía, Avellaneda y zona norte del GBA), con avisos de productos pero sin pagos dentro de la app. La nota es del 2018-05-09 y no sé si sigue activa.",
+       "parecido": "parecido"
+      }
+     ],
+     "detalle": "Consultas del 2026-10-19.\n\nBúsqueda 1: 'app red social de barrio vecinos argentina recomendaciones alertas'.\n- Neibors, 'la red social argentina para vecinos' (La Capital de Mar del Plata): https://www.lacapitalmdp.com/neibors-la-red-social-argentina-para-vecinos/\n- Notas sobre Nextdoor que hablan de EE.UU., Reino Unido, Francia, Italia y España, sin confirmar que opere en Argentina (Diario de Cuyo): https://www.diariodecuyo.com.ar/noticias/una-red-social-entre-vecinos-del-mismo-barrio-812574.html\n- La prueba de 'Vecindarios' de Facebook en 2021, que no dice que haya llegado a Argentina: https://www.baenegocios.com/amp/Facebook-lanza-una-nueva-funcion-para-comunicarte-con-tus-vecinos-20210509-0031/\n- Veci (Bogotá) y Fragnebenan (Austria), que son de afuera.\n\nBúsqueda 2: 'Neibors red social vecinos argentina app'.\n- Volvieron las mismas notas.\n- También 'Mr. Neiborhú', una app de ayuda entre vecinos que nació en la cuarentena; no encontré URL propia ni datos de actividad.\n- Un perfil de 'Vecinos360' en Gust que no abrí: https://gust.com/companies/vecinos360/financials\n\nLectura de la nota de La Capital (fechada el 2018-05-09):\n- Neibors es una app gratis para iOS y Android.\n- Tiene recomendaciones de servicios y comercios por categoría, con valoraciones.\n- Tiene avisos de productos, pero sin pagos dentro de la app.\n- Cubre CABA, Ramos Mejía, Avellaneda y zona norte del GBA.\n- No menciona alertas ni verificación de domicilio.\n\nNo encontré nada más reciente de Neibors: no sé si sigue activa.",
+     "importabilidad_ajustada": 2,
+     "nota": "Ya se intentó acá: Neibors (2018, CABA y GBA, recomendaciones entre vecinos, gratis), y no encontré nada reciente. Queda en 2: es una red social sin forma clara de cobrar, y la variante para countries choca con el registro (CON-4-3 NO, SEG-3-x PENDIENTE).",
+     "busquedas_hechas": 2
+    }
+   ]
+  },
+  {
+   "lote": "rclote-03",
+   "empresas": [
+    {
+     "clave": "Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Rocket Money (ex Truebill)",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [
+      {
+       "nombre": "ReSubs (app global en español)",
+       "url": "https://resubs.app/es/resources/best-rocket-money-alternatives",
+       "que_hace": "Registra suscripciones a mano, por CSV, leyendo Gmail o capturas con IA; tiene más de 30 guías de baja pero no cancela ni negocia por vos (según su propia web, leída 2026-10-19). No es argentina.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Stop debit de los bancos argentinos",
+       "url": "https://www.cronista.com/informacion-gral/stop-debit-como-frenar-un-debito-automatico-y-recuperar-el-dinero-que-te-descontaron/",
+       "que_hace": "Función bancaria para frenar a mano un débito automático puntual antes del vencimiento, con plazos distintos en cada banco (según Rankia y Cronista, resumen del buscador). No detecta suscripciones ni negocia.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consulta 2026-10-19. Búsqueda 1 'Rocket Money argentina app suscripciones': nada sobre Argentina; salen notas genéricas (Telemundo) y páginas de ReSubs, un competidor que dice que Rocket Money 'admite sobre todo bancos de EE. UU.' (dato de un competidor, puede estar sesgado). Búsqueda 2 'app para cancelar suscripciones y débitos automáticos argentina': ninguna app; solo guías de stop debit (https://www.rankia.com.ar/blog/mejores-cuentas-bancarias-argentina/4622815-como-pedir-stop-debit-debito-automatico y Cronista), la ayuda de Tiendanube para cortar su propio débito, y quejas de usuarios que no saben dar de baja cobros en dólares (JustAnswer; https://tuquejasuma.com/visa-argentina/reclamos/solicito-la-suspencion-y-baja-inmediata-a-las-suscripciones-antes-mencionadas). Lectura: https://resubs.app/es/resources/best-rocket-money-alternatives lista Monarch, YNAB, PocketGuard, Copilot (vinculación bancaria solo EE.UU.), Bobby y Tilla (carga manual) y ReSubs (manual, no cancela); ninguna menciona Argentina ni Latinoamérica. Conclusión: no encontré ninguna app argentina que detecte, dé de baja o negocie; los sustitutos son el stop debit y trackers globales manuales. No verifiqué si Mercado Pago u otras billeteras muestran o cancelan suscripciones dentro de su app. Opinión: las quejas en foros sugieren un dolor real, pero no lo cuantifiqué.",
+     "importabilidad_ajustada": 8,
+     "nota": "No encontré ninguna app en Argentina que detecte suscripciones, las dé de baja o negocie facturas: la gente se arregla con el stop debit del banco y quejándose en foros. Lo más parecido son trackers globales de carga manual (ReSubs). No verifiqué si acá hay un agregador bancario tipo Plaid; si no lo hay, leer el resumen de la tarjeta con IA es la puerta de entrada.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Bilt Rewards (+ Esusu como variante)",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "TuNota",
+       "url": "https://infonegocios.info/amp/enfoque/como-funciona-el-veraz-de-los-inquilinos-la-herramienta-web-que-quiere-cambiar-como-se-deciden-los-alquileres",
+       "que_hace": "'El Veraz de los inquilinos': registro nacional de incumplimientos de inquilinos que solo cargan corredores matriculados; lanzado en 2025-07, suscripción desde $25.000/mes (hasta 100 contratos), convenio con el Colegio Profesional Inmobiliario de Córdoba (nota del 2026-02-06). Registra lo malo, no los pagos al día.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Alquilando",
+       "url": "https://www.iproup.com/economia-digital/27375-alquilando-como-es-proptech-argentina-en-la-que-invirtio-google",
+       "que_hace": "Marketplace de alquileres de largo plazo, con inversión de Google, que suma servicios financieros para asegurar el cobro de la renta; según iProUP (2021, resumen del buscador) movía unos USD 35 M/año en pagos de alquiler. No vi puntos ni historial para el inquilino (no verificado).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consulta 2026-10-19. Búsqueda 1 'Bilt Rewards argentina alquiler puntos': solo páginas sobre el programa en EE.UU.; nada de puntos por pagar el alquiler en Argentina. Búsqueda 2 'plataforma para pagar el alquiler online argentina beneficios historial inquilino': aparecen TuNota, Alquilando (iProUP 2021), Alternativa Rent (alquiler amoblado sin garantía propietaria, que es otro problema) y WASI (tesis de posgrado de UdeSA, no es un producto). Lectura de la nota de Infonegocios sobre TuNota (2026-02-06): registra incumplimientos (no pagar en término, no devolver el inmueble, más ocupantes de los pactados); el inquilino tiene cuenta gratis para ver, responder y pedir rectificación; cobra suscripción mensual + puntos; tiene usuarios en Santa Fe, Córdoba, Mendoza, CABA, Río Negro y Neuquén. La nota no menciona historial positivo, certificado para el inquilino ni pago del alquiler por la plataforma, y no da cifras de usuarios. Hoggax y Garantor (garantías) los había visto el agente anterior; no los volví a verificar. En estas dos búsquedas no apareció nada que reporte alquileres pagados a Veraz o Nosis (lo de Esusu) ni puntos por pagar el alquiler (lo de Bilt).",
+     "importabilidad_ajustada": 5,
+     "nota": "Puntos por pagar el alquiler (lo de Bilt) no encontré en Argentina. Pero la variante Esusu ya tiene vecino: TuNota (2025-07) es 'el Veraz de los inquilinos' para corredores, con convenio con el Colegio Inmobiliario de Córdoba, y solo registra incumplimientos. Queda libre el historial positivo que el inquilino se lleva a otro alquiler, pero TuNota lo podría sumar rápido.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Zego",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Nación Seguros / Banco Nación (programa para repartidores)",
+       "url": "https://ellitoral.com/nacionales/delivery-cadete-repartidor-seguro-robos-proteccion-plan-nacion-afip-banco_0_8vEtLsls9f.amp.html",
+       "que_hace": "Pólizas de accidentes y responsabilidad civil para repartidores de apps (dplnews, fecha no leída) y un 'seguro gratuito' en prueba piloto de 60 días desde 2023-12-15, con acceso a ART, obra social y jubilación (El Litoral, 2023-11-07). No es por hora y no menciona robo de la moto. Vigencia 2026: no verificada.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Uber Eats + Seguros SURA",
+       "url": "https://www.iproup.com/innovacion/7929-tecnologia-inventos-tecnologicos-negocios-innovadores-Uber-Eats-delivery-tiene-nuevo-seguro-y-mas-localidades",
+       "que_hace": "Responsabilidad civil que se activa sola desde que el repartidor acepta un pedido hasta que lo entrega; la pone la plataforma y cubre solo a sus repartidores (resumen del buscador, fecha de la nota no leída).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consulta 2026-10-19. Búsqueda 1 'Zego seguro repartidores argentina': Zego no aparece en Argentina (sí en España en 2019, con póliza por minuto para riders de Deliveroo: https://www.merca2.es/2019/01/09/zego-deliveroo-uber-seguros-99168/). En Argentina salen: Banco Nación ofreciendo pólizas de accidentes y RC para repartidores (https://dplnews.com/?p=213269), Uber Eats con RC de SURA activada por pedido, y el fallo de 2019 en CABA que exigió seguro de vida y accidentes a las apps. Búsqueda 2 'seguro por hora para repartidores de moto delivery argentina': ningún producto por hora; vuelven el de Nación y el de Uber Eats/SURA. Lectura de El Litoral (2023-11-07): seguro gratuito para trabajadores de delivery y mensajería por formulario de Nación Seguros (sistema AFIP + Banco Nación), anunciado por el Ministerio de Economía; piloto de 60 días desde 2023-12-15; no habla de robo de la moto ni de cobertura por hora; la nota se contradice en la fecha de inicio. No verifiqué qué cobertura dan hoy PedidosYa o Rappi ni si el programa de Nación sigue en 2026.",
+     "importabilidad_ajustada": 4,
+     "nota": "No encontré seguro por hora para repartidores en Argentina. Lo que hay: Uber Eats pone RC por pedido con SURA, y Nación Seguros hizo un piloto gratis en 2023-12. La parte 'te cubro mientras trabajás' ya la ponen algunas apps; el hueco sería robo o daño de la moto y accidentes fuera de la app, y para eso hace falta sí o sí una aseguradora que emita.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Fintech de confianza, seguros y protección (EE.UU. y Reino Unido vs Argentina). Nota de método: el presupuesto compartido de WebSearch estaba agotado cuando arrancó esta tarea, así que toda la verificación se hizo con WebFetch directo a páginas primarias (sitios de las empresas, Wikipedia, SEC EDGAR) y a sitios argentinos concretos que conozco; donde no pude abrir una fuente o no pude buscar un equivalente argentino, lo digo como \"no verificado\" en vez de afirmar que no existe.||Root Insurance",
+     "existe_en_argentina": "existe y compite",
+     "competidores_argentina": [
+      {
+       "nombre": "Sancor Seguros - 'Auto Inteligente'",
+       "url": "https://www.icmif.org/news_story/sancor-seguros-launches-telematics-automotive-insurance-product-in-argentina/",
+       "que_hace": "Seguro de auto con telemática (precio según cómo manejás) que una de las aseguradoras grandes lanzó en 2018, primero en Rosario y después en el resto del país (resumen del buscador sobre la nota de ICMIF). No confirmé que siga vigente en 2026.",
+       "parecido": "casi igual"
+      }
+     ],
+     "detalle": "Consulta 2026-10-19. Búsqueda 1 'Root Insurance argentina seguro telemática': Root no opera en Argentina; aparece que Sancor Seguros lanzó 'Auto Inteligente' (Intelligent Auto) en 2018 (ICMIF). Búsqueda 2 'seguro de auto por kilómetro o según cómo manejás argentina': no apareció ningún producto argentino de pago por km; aparece miituo, que según Barchart amplía su seguro por km en Latinoamérica (https://www.barchart.com/story/news/31479364/miituo-expands-pay-per-kilometer-car-insurance-across-latin-america), pero no confirmé que opere en Argentina. Lectura: home de https://www.sancorseguros.com.ar (2026-10-19): no menciona Auto Inteligente, telemetría ni pago por uso, pero tampoco lista ningún producto de auto, así que no sirve para concluir; vigencia 2026 del producto: no verificada. El agente anterior había visto iúnigo y Prudencia sin telemática (no lo volví a verificar). No busqué competidores del modelo broker digital que propone la ficha (comparadores online de seguros). El estado 'existe y compite' se apoya en el lanzamiento de 2018; si Sancor lo discontinuó, igual queda probado que una grande ya intentó esto acá.",
+     "importabilidad_ajustada": 3,
+     "nota": "Root ya tuvo su versión local: Sancor Seguros lanzó en 2018 'Auto Inteligente' (telemática, precio según cómo manejás). No pude confirmar que siga en 2026. Además, la propia ficha pide que Facu sea productor asesor de seguros y que una aseguradora acepte el puntaje: mal encaje para arrancar con USD 1.300.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Sniffspot",
+     "existe_en_argentina": "no encontré nada",
+     "competidores_argentina": [
+      {
+       "nombre": "Sniffspot (su página de Buenos Aires)",
+       "url": "https://www.sniffspot.com/listings/ciudad-autonoma-de-buenos-aires",
+       "que_hace": "La misma empresa ya tiene página para Ciudad Autónoma de Buenos Aires, pero con 0 lugares publicados al 2026-10-19: está el cartel, no la oferta.",
+       "parecido": "casi igual"
+      },
+      {
+       "nombre": "Quintas pet friendly en Mercado Libre",
+       "url": "https://www.mercadolibre.com.ar/blog/re-alquiler-quintas-pet-friendly",
+       "que_hace": "Alquiler temporario por fin de semana de quintas con parque cercado que aceptan perros; es una escapada, no un turno por hora exclusivo para el perro.",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consulta 2026-10-19. Búsqueda 1 'Sniffspot argentina': la propia Sniffspot tiene página de Ciudad Autónoma de Buenos Aires; el otro resultado 'Argentine' es un barrio de Kansas City. Lectura de esa página: '0 spot found', es decir, cero anfitriones en CABA. Búsqueda 2 'alquilar patio o quinta por hora para perros argentina': ningún aviso por hora. Aparecen quintas pet friendly por fin de semana (blog de Mercado Libre; según el resumen del buscador, avisos de 2026-07 entre $120.000 y más de $290.000 el fin de semana, sobre todo en Pilar, Escobar y Los Cardales; no lo leí completo), casas con patio en Airbnb sin modalidad por hora, y una nota en español que explica el modelo Sniffspot (https://lachapulinaverde.substack.com/p/como-ganar-miles-de-dolares-con-tu). No encontré ningún marketplace argentino de patios o campos por hora para perros. No busqué en Instagram/Facebook 'campos para perros' ni guarderías, que pueden ser sustitutos informales.",
+     "importabilidad_ajustada": 8,
+     "nota": "No encontré ningún marketplace de patios por hora para perros en Argentina. La propia Sniffspot tiene página de CABA con 0 lugares (2026-10-19): si Facu no junta la oferta, la puede juntar ella. Lo único cercano son quintas pet friendly por fin de semana en Mercado Libre, que es otro uso.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Harvest Hosts",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "Mendoza Vanlife (programa de turismo de Mendoza)",
+       "url": "https://enolife.com.ar/es/motorhomes-podran-acampar-en-bodegas-vinedos-y-parques-con-el-programa-mendoza-vanlife/",
+       "que_hace": "Programa del organismo de turismo de Mendoza para que motorhomes y campers pernocten en viñedos privados y campings; los prestadores se inscriben online; al lanzarse ya se habían sumado 30 establecimientos de 12 departamentos. Fecha, costo para el viajero y membresía: no verificados.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "Ruta del Motorhome (Córdoba)",
+       "url": "https://openvan.camp/en/news/lifestyle/ruta-del-motorhome-en-argentina-los-10-destinos",
+       "que_hace": "Ruta oficial con 10 estaciones de servicio gratuitas de agua y vaciado de aguas grises y negras para motorhomes; no menciona pernocte en bodegas (resumen del buscador, no leído).",
+       "parecido": "solo una parte"
+      }
+     ],
+     "detalle": "Consulta 2026-10-19. Búsqueda 1 'Harvest Hosts argentina': nada en Argentina; Wikipedia describe su red en Norteamérica, con anfitriones también en Canadá y México (https://en.wikipedia.org/wiki/Harvest_Hosts). Búsqueda 2 'red de pernocte para motorhome en bodegas y estancias argentina': aparece Mendoza Vanlife; además, según resúmenes del agregador OpenVan.camp (no leídos), la Ruta del Motorhome de Córdoba, Tandil redactando una ordenanza que prohíbe pernoctar en lugares públicos de 22 a 8 h y Puerto Madryn prohibiendo el pernocte (https://openvan.camp/en/news/ban/motorhome-nuevas-reglas-para-estacionar-dormir-y). Lectura: https://openvan.camp/en/news/opening/motorhomes-podran-acampar-en-bodegas-vinedos-y (cita como fuente original a enolife.com.ar): programa lanzado por el organismo de turismo de Mendoza, viñedos privados y campings, inscripción online de prestadores, 30 establecimientos de 12 departamentos al lanzarse; no dice fecha, ni si es gratis para el viajero, ni si hay membresía. No encontré ninguna membresía privada nacional tipo Harvest Hosts. No busqué apps globales de mapas colaborativos de pernocte.",
+     "importabilidad_ajustada": 4,
+     "nota": "Ojo: el arranque que proponía la ficha (30 bodegas en Mendoza) ya lo hizo el gobierno provincial: Mendoza Vanlife sumó 30 establecimientos en 12 departamentos. No encontré ninguna membresía privada nacional tipo Harvest Hosts; si se intenta, mejor en otra región o como capa paga arriba del programa (rutas, reservas, venta de la caja de vinos). Opinión: que los municipios prohíban pernoctar en la calle juega a favor.",
+     "busquedas_hechas": 2
+    },
+    {
+     "clave": "Agro, alimentos, ocio y eventos — contraste EE.UU./Reino Unido/Nueva Zelanda vs. Argentina (consulta 2026-10-18). Nota de método: en esta corrida el cupo de búsquedas web (WebSearch) estaba agotado antes de empezar; verifiqué cada empresa abriendo directamente sus sitios oficiales y Wikipedia, y chequeé Argentina abriendo sitios locales conocidos (Acampante, Nilus, Bonvivir, Agrofy, Meitre, Kilimo, GetMyBoat/Argentina). Mercado Libre bloqueó el acceso automático (HTTP 403). Por eso, donde no pude confirmar ausencia digo \"no verificado\" en vez de \"no existe\".||Goldbelly",
+     "existe_en_argentina": "existe parcial",
+     "competidores_argentina": [
+      {
+       "nombre": "ArgentinaMarket",
+       "url": "https://caras.perfil.com/noticias/caras-like/argentina-market.phtml",
+       "que_hace": "Tienda online de productos regionales desde 2018, con envío a todo el país por correo privado, cobro con Mercado Pago y local en Martínez. Revende; no es un marketplace de productores famosos ni menciona frío. Vigencia 2026: no verificada.",
+       "parecido": "parecido"
+      },
+      {
+       "nombre": "The Argentino",
+       "url": "https://www.cronista.com/infotechnology/actualidad/dia-de-la-madre-para-extranjeros-como-comprar-lo-mejor-de-argentina-y-que-llegue-a-todo-el-mundo/",
+       "que_hace": "Marketplace para comprar productos argentinos y mandarlos al exterior (según Cronista, llegan a todo el mundo en 96 h). Choca con la palanca de mandarles la caja a argentinos que viven afuera.",
+       "parecido": "solo una parte"
+      },
+      {
+       "nombre": "Terracuna",
+       "url": "https://www.cadena3.com/noticia/sociedad/la-web-que-conecta-productos-regionales-con-todo-el-pais_288878",
+       "que_hace": "Marketplace que conectaba productores regionales con consumidores de todo el país, en prueba en 2021-04. Hoy terracuna.com redirige a otra empresa (bitsion.com): parece que no siguió.",
+       "parecido": "parecido"
+      }
+     ],
+     "detalle": "Consulta 2026-10-19. Búsqueda 1 'Goldbelly argentina': Goldbelly no envía a Argentina; su área es EE.UU. (https://en.wikipedia.org/wiki/Goldbelly), y lo único argentino es que vendió kits de asado de Francis Mallmann dentro de EE.UU. (https://afar.com/magazine/review-goldbelly-x-chef-francis-mallmann-meal-kits). Búsqueda 2 'marketplace de productos regionales con envío a todo el país argentina': Terracuna (Cadena 3, 2021-04), ArgentinaMarket (Caras), The Argentino (Cronista), MAPPA (feria presencial con 250 productores, no tienda online) y el Mercado de los Carruajes (vidriera física de productos cordobeses en Buenos Aires: https://infonegocios.info/nota-principal/abre-en-buenos-aires-el-mercado-de-los-carruajes-una-vidriera-para-los-productos-regionales-de-cordoba). Lectura: terracuna.com responde 301 y redirige a bitsion.com (2026-10-19), así que el marketplace ya no está en ese dominio; no sé por qué. No abrí ArgentinaMarket ni The Argentino: su vigencia en 2026 no está verificada. No encontré nada que haga lo central de Goldbelly: platos de restaurantes o productores famosos con cadena de frío a todo el país. Tampoco busqué proveedores de canastas o regalos empresariales, que serían competencia directa del primer canal que propone la ficha.",
+     "importabilidad_ajustada": 4,
+     "nota": "No hay un Goldbelly argentino (platos de lugares famosos, con frío, a todo el país). Sí hay tiendas de regionales con envío (ArgentinaMarket) y quien exporta (The Argentino, que choca con la palanca de mandar la caja afuera). Terracuna, el intento de marketplace de 2021, hoy redirige a otra web: no sé por qué no siguió, pero conviene averiguarlo antes de arrancar.",
+     "busquedas_hechas": 2
+    }
+   ]
+  }
+ ],
+ "gen": [],
+ "compact": [],
+ "juicios": null,
+ "pendientes": [],
+ "fallidos": [],
+ "motivo": "completo",
+ "usos": [
+  {
+   "momento": "antes de la tanda 1",
+   "cinco_horas": 22,
+   "semanal": 16
+  },
+  {
+   "momento": "final",
+   "cinco_horas": 25,
+   "semanal": 17
+  }
+ ]
+}

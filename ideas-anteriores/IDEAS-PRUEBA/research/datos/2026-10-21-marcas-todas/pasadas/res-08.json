@@ -1,0 +1,82 @@
+[
+ {
+  "n": "M068",
+  "opinion": "Facu puso 'tal vez' y no agregó giro, así que evalúo la idea tal cual: pesar hacienda sin tener que encerrarla. El problema es real, pero la solución conocida es una balanza al paso junto al bebedero, con caravana electrónica. Eso es hardware pesado de campo, con instalación, energía y conectividad rural. INTA ya lo probó con socios australianos y esperaba que alguna empresa lo comercialice, o sea que el que gana acá es un fabricante con espalda, no un emprendedor que no programa con USD 1.300. La ventaja de Facu por CEMEVA es el contacto con el agro, pero granos no es hacienda.",
+  "hallazgos": "INTA Anguil probó una balanza de pesada al paso junto al bebedero, con caravana electrónica y datos online, junto con la universidad australiana CQU y Datamuster. La nota decía que buscaban una empresa que lo comercialice. No verifiqué si hoy ya se vende [https://bichosdecampo.com/ganaderia-de-precision-en-el-inta-anguil-estan-probando-una-balanza-para-pesar-individualmente-los-bovinos, consultado 2026-10-23]. En Agrofy hay balanzas comerciales de hacienda con jaula y trailer, y de pesaje dinámico, de marcas como Distribal, Magris y Hook. No muestran precios [https://www.agrofy.com.ar/balanza-para-ganaderia-de-presiicon-dinamica.html, consultado 2026-10-23] [https://news.agrofy.com.ar/noticia/156720/basculas-magris-que-pesar-no-sea-problema, consultado 2026-10-23]. Busqué una app argentina que estime el peso del animal con una foto y no encontré ninguna. Eso no prueba que no exista: no verificado [búsqueda web 2026-10-23 sin resultados relevantes].",
+  "variantes": [
+   "Respeta el 'tal vez' de Facu: no fabricar balanzas. Ser el revendedor e instalador de la balanza al paso que desarrolló INTA, si alguna empresa ya la comercializa, cobrando instalación más un tablero mensual del peso del rodeo.",
+   "Sacar el hardware: una app que estima el peso del animal con fotos o video del celular, para el productor chico que hoy pesa a ojo. Es un solo jugador y es producto global. Ojo: la precisión es la gran duda.",
+   "Otro cliente: el consignatario o el feedlot que compra y vende hacienda y necesita saber el peso antes de cargar, como servicio de pesaje móvil por día."
+  ],
+  "puntuacion": 4.8,
+  "por_que_puntuacion": "El problema existe, pero la solución es hardware de campo caro y ya hay un desarrollo de INTA esperando un fabricante. Para Facu hoy no es construible sin capital ni equipo técnico.",
+  "tema": "Agro e industria",
+  "tipo": "Hardware más software",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 a 100 (estimación: solo entrevistas y viajes cortos al campo)",
+  "primer_paso": "Escribirle a INTA Anguil para saber si la balanza al paso ya se comercializa y con quién, y hablar con 5 ganaderos sobre cada cuánto pesan y cuánto pagarían.",
+  "riesgo_principal": "Hardware a la intemperie, caro de instalar y mantener, en un mercado donde ya hay fabricantes de balanzas con décadas de trayectoria.",
+  "agrupar_con": ["GIM-N003", "GIM-N004", "GIM-N197", "AGR-4-2"]
+ },
+ {
+  "n": "M070",
+  "opinion": "Facu la marcó como interesante y no agregó giro, así que evalúo la idea tal cual. Leer la historia laboral con IA ya no es diferencial. Hay calculadoras gratis y hasta guías para pasarle el PDF de Mi ANSES a ChatGPT. El valor real está en juntar diagnóstico de huecos, estrategia y derivación a un abogado previsional que paga por el caso. Eso no lo vi armado en ninguna plataforma. Es producto replicable, sin hardware, y se puede probar con una landing y Claude a mano. El riesgo fuerte es legal y de confianza: asesorar sobre jubilaciones roza el ejercicio de la abogacía y el público de 50 a 65 años desconfía de lo online.",
+  "hallazgos": "La historia laboral se baja gratis de Mi ANSES en PDF, con empleador, CUIT, fechas y estado de cada aporte. Tiene validez como constancia [https://www.canal26.com/general/anses-paso-a-paso-como-consultar-tu-historial-laboral-online--425306, consultado 2026-10-23] [https://www.canal26.com/general/2025/11/22/historial-laboral-como-consultar-los-aportes-desde-mi-anses/, consultado 2026-10-23]. Un período vacío no siempre es falta de aportes: a veces son aportes a cajas provinciales que se integran después. Eso hace que el diagnóstico automático pueda equivocarse [https://www.minutouno.com/economia/futuros-jubilados-el-tramite-online-anses-que-es-clave-tu-retiro-n6192832, consultado 2026-10-23]. Los medios grandes publican cómo revisar los aportes en 5 minutos, o sea que la primera capa es contenido gratis [https://www.cronista.com/informacion-gral/como-saber-en-5-minutos-si-tenes-todos-tus-aportes-jubilatorios-registrados-en-anses/, consultado 2026-10-23]. Busqué una plataforma que junte diagnóstico y derivación a abogado previsional y no encontré ninguna. No verificado que no exista. Tampoco verifiqué cuánto pagaría un abogado previsional por un caso derivado.",
+  "variantes": [
+   "Respeta la marca de Facu: la idea tal cual. Informe pago de USD 10 a 15 con Claude más derivación a abogados previsionales que pagan por caso cerrado. Con una aclaración visible de que no es asesoramiento legal.",
+   "Otro cliente: venderle la herramienta al abogado o al estudio previsional. El cliente le sube el PDF, la herramienta arma el diagnóstico y el abogado ahorra horas. Cobro mensual por estudio. Producto global, sin tener que conseguir jubilados.",
+   "Otro cobro: gratis para la persona y el ingreso viene solo del abogado, que paga por consulta calificada. Más fácil de escalar, pero depende de pocos estudios."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "Es construible sin programar, barato de probar y el armado completo no lo vi en Argentina. Pero el diagnóstico con IA ya es gratis en casa y el filo legal con la abogacía pesa.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 60 a 150 (estimación: landing gratis más USD 60 a 100 de publicidad en Facebook al público de 50 a 64 años)",
+  "primer_paso": "Llamar a 5 abogados previsionales para preguntarles cuánto pagarían por un cliente que llega con el diagnóstico hecho, y solo si dicen que sí, armar la landing.",
+  "riesgo_principal": "Que un colegio de abogados lo vea como ejercicio ilegal de la profesión, o que un diagnóstico equivocado por aportes de cajas provinciales le haga daño a una persona.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M071",
+  "opinion": "Facu solo la marcó en amarillo, sin comentario. Contar cuánta gente entra al local es útil para medir conversión y vendedores, pero acá el hueco es chico. Sumato ID ya lo hace en Argentina y FootfallCam tiene socios en cinco ciudades argentinas. El sensor se compra hecho, así que el producto es software y venta, y la venta a cadenas de ropa es larga. Sola es floja. Sirve como una pieza dentro de la idea de cámaras con IA de Facu (L12), no como negocio aparte.",
+  "hallazgos": "FootfallCam, empresa de contadores de personas, tiene socios en Buenos Aires, Córdoba, Rosario, Mendoza y Tucumán. No muestra precios [https://www.footfallcam.com/Home/WhereToBuy/Argentina, consultado 2026-10-23]. Un sensor infrarrojo de entradas y salidas, el Milesight VS360, se vende en España a 183,60 euros con IVA [https://www.domadoo.fr/es/dispositivos-lorawan/8498-milesight-contador-lorawan-de-personas-con-haz-ir.html, consultado 2026-10-23]. V-Count también ofrece conteo de personas en español [https://v-count.com/es/?p=53741, consultado 2026-10-23]. No encontré precios en pesos para Argentina: no verificado.",
+  "variantes": [
+   "Respeta la marca de Facu: un kit barato de sensor comprado más un tablero simple que cruza entradas con ventas del día, para el local chico que no llega a Sumato ni FootfallCam.",
+   "Sacar el hardware: usar la cámara de seguridad que el local ya tiene y que la IA cuente gente desde la grabación. Se une a L12, cámaras de seguridad con IA.",
+   "Otro cliente: ferias y exposiciones, donde el expositor quiere saber cuánta gente pasó por su stand. Ya lo marcó Facu como EVE-4-5."
+  ],
+  "puntuacion": 4.9,
+  "por_que_puntuacion": "Ya hay jugadores locales y extranjeros con socios en Argentina. Lo nuevo solo aparece si se combina con las cámaras de L12.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Hardware más software",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 200 a 300 (estimación: un sensor de unos 200 euros o una cámara barata, para probar en un local conocido)",
+  "primer_paso": "Pedirle a un local conocido un mes de grabaciones de su cámara y contar a mano con Claude las entradas para ver si el dato le cambia alguna decisión.",
+  "riesgo_principal": "Competir contra Sumato ID y FootfallCam, que ya venden lo mismo acá, con un producto que el dueño ve como lindo pero no urgente.",
+  "agrupar_con": ["L12", "EVE-4-5", "GIM-N069", "DEP-1-5"]
+ },
+ {
+  "n": "M099",
+  "opinion": "Facu la marcó sin comentario, y en su propia hoja Fase 2 ya la tenía como baja prioridad. Sigo pensando lo mismo: es una tecnología buscando un problema. Los stickers NFC lindos ya existen y se fabrican personalizados en China y en Latinoamérica. Las chapitas con QR o NFC para mascotas ya las venden emprendimientos argentinos y hasta una multinacional. Lo que vale de L13 no es la tecnología sino los casos concretos donde algo se pierde, como andamios, prendas de alquiler o llaves. Conviene disolverla en esos casos y no tratarla como idea propia.",
+  "hallazgos": "Beontag se presenta como el principal fabricante de inlays y etiquetas RFID y NFC de Latinoamérica [https://www.atlasrfidstore.com/beontag-rfid-inlays-tags/, consultado 2026-10-23]. Hay fabricantes que imprimen stickers NFC personalizados a color con chip codificado [https://www.rfidtagworld.com/showroom/custom-nfc-stickers, consultado 2026-10-23]. En Argentina ya existen chapitas inteligentes para mascotas: MiPetQR con QR y aviso por WhatsApp [https://infonegocios.info/plus/no-mas-chapita-para-el-boby-las-ventajas-de-ponerle-un-qr-al-collar-de-tu-mascota, consultado 2026-10-23], una línea con NFC y QR de un emprendedor local en 2020 [https://www.lacapital.com.ar/animal-a38301, consultado 2026-10-23], y GeoID de Bravecto, de MSD, lanzada en 2023 [https://www.forbesargentina.com/lifestyle/como-dispositivo-llega-argentina-recuperar-mascotas-caso-extravio-donde-conseguirlo-n29618, consultado 2026-10-23]. No verifiqué si siguen activas.",
+  "variantes": [
+   "Respeta la idea de Facu de hacer algo distinto: stickers NFC con diseño lindo para que la PyME sepa dónde están sus herramientas o equipos, con una app web simple de escanear y ver. Se une a ALQ-1-1, SEG-5-3 y EVE-2-5.",
+   "Otro cliente: marcas de productos que quieren probar que el suyo es original. Un sticker NFC que al escanearlo dice si es auténtico. Se une a BEL-4-2.",
+   "Modo un solo jugador: kit de stickers con diseño para la casa, como llaves, valijas o la mochila del chico, con una página que avisa al dueño si alguien lo encuentra. Ojo: se parece a las chapitas de mascotas que ya existen."
+  ],
+  "puntuacion": 4.5,
+  "por_que_puntuacion": "Sin un problema concreto atrás no hay negocio, y lo de stickers y chapitas ya está cubierto. Vale solo como herramienta dentro de casos de rastreo de cosas que se pierden.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Hardware más software",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 80 (estimación: un lote de 100 stickers NFC genéricos más una app no-code gratis)",
+  "primer_paso": "Elegir uno de los casos concretos de rastreo que Facu ya marcó y pegarle 30 stickers NFC a las herramientas de una PyME conocida durante dos semanas.",
+  "riesgo_principal": "Que sea un producto lindo sin dolor atrás, fácil de copiar y que se venda una vez y nunca más.",
+  "agrupar_con": ["ALQ-1-1", "SEG-5-3", "EVE-2-5", "ALQ-2-5", "L14", "MAS-4-2"]
+ }
+]

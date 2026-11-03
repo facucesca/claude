@@ -1,0 +1,452 @@
+[
+ {
+  "n": "M052",
+  "quien_lo_intento": "No encontré a nadie en Argentina ni en Latinoamérica con un puntaje por dirección. Busqué «puntaje barrio por dirección app argentina inmobiliaria seguridad inundación» y «app calificación de colonias o barrios para vivir México Chile Brasil puntaje»; solo aparecieron rankings de barrios en prensa y rankings de ecosistemas de startups [https://www.cadena3.com/noticia/sociedad/los-barrios-mas-seguros-de-caba-altos-precios-y-tranquilidad-para-mudarse_523879] [https://www.forbesargentina.com/lifestyle/buenos-aires-mejores-ciudades-latinoamerica-desarrollo-startups-n21393/amp]. Consulta del 2026-10-23.",
+  "competencia": "Mapa del Delito del gobierno ya estaba en el contexto previo. La Ciudad de Buenos Aires tiene Ciudad 3D, gratis, donde se busca una dirección y se ve la capa de riesgo hídrico por lote [https://www.canal26.com/clima/2026/10/21/no-se-inunda-mas-asi-es-el-mapa-de-riesgo-hidrico-que-muestra-las-zonas-de-buenos-aires-mas-vulnerables-ante-el-super-nino/]. La Provincia publica un Mapa de Riesgo Hídrico, pero pensado para el campo [https://www.gba.gob.ar/desarrollo_agrario/direccion_de_sustentabilidad_y_medio_ambiente/mapa_de_riesgo_hidrico]. Mudafy publica precio por metro cuadrado por barrio, actualizado a diario [https://mudafy.com.ar/prensa]. Argenprop y Zonaprop tienen mapa, pero sus fichas de app no mencionan puntaje de seguridad ni de inundación [https://apps.apple.com/do/app/argenprop/id400300356]. El hueco que queda: nadie junta todo en un solo número por cuadra. Pero cada pieza suelta ya es gratis.",
+  "regulacion": "No verificado. Dos puntos a revisar antes de lanzar: publicar que una cuadra «se inunda» o «es insegura» puede traer reclamos de propietarios, y los datos que carguen los usuarios caen bajo la ley de datos personales. No leí ninguna norma hoy.",
+  "numeros": "Estimación: el informe de cuadra para el inquilino a USD 3 a 5 tiene costo casi cero por operación, porque sale de datos abiertos y de Claude. El sello para inmobiliarias a USD 10 a 20 por mes por oficina es estimación sin base de mercado. El cuello de botella no es el margen, es el tráfico: para ganar USD 500 por mes con informes de USD 4 hacen falta unos 125 pagos por mes.",
+  "mercado": "Sin dato de cuántas mudanzas o alquileres hay por año. Señal de demanda: una nota de Noticias Argentinas dice que en los barrios más seguros de CABA las propiedades pueden valer hasta 30% más [https://www.cadena3.com/noticia/sociedad/los-barrios-mas-seguros-de-caba-altos-precios-y-tranquilidad-para-mudarse_523879].",
+  "variante_recomendada": "Arrancar solo en CABA, que es donde hay datos por dirección. Primero el informe de cuadra que paga el inquilino antes de firmar, no el sello para inmobiliarias, porque se prueba sin convencer a nadie grande. El momento ayuda: se prevé una primavera y un verano con lluvias intensas por El Niño, y la inundación es lo que más le preocupa a quien alquila.",
+  "entrevistar_a": [
+   "Personas que se mudaron en los últimos 6 meses en CABA, en grupos de Facebook de alquileres como «Alquileres CABA sin inmobiliaria».",
+   "Martilleros de inmobiliarias chicas de barrio, en el local o por el WhatsApp del aviso de Zonaprop.",
+   "Inquilinos que tuvieron un problema con la cuadra después de firmar, en grupos de inquilinos y vecinos de barrios inundables como Villa Lugano o Palermo sobre Juan B. Justo."
+  ],
+  "preguntas_entrevista": [
+   "La última vez que alquilaste, ¿cómo averiguaste cómo era la cuadra antes de firmar?",
+   "¿Te pasó algo con el lugar que no sabías al firmar? ¿Qué fue y cuánto te costó?",
+   "¿Cuánto tiempo le dedicaste a recorrer o averiguar la zona?",
+   "¿Pagaste por algún informe o consulta antes de alquilar? ¿Por cuál y cuánto?",
+   "¿A quién le preguntaste y qué te dijo?"
+  ],
+  "experimento": {
+   "hipotesis": "Quien está por alquilar en CABA paga USD 4 por un informe de la cuadra con inundación, delito y precio de la zona.",
+   "prediccion": "De 150 personas que entran a la página desde grupos de alquiler, al menos 6 pagan el informe.",
+   "perdida_maxima": "USD 60",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar con Claude una página por cuadra para 2 barrios con Ciudad 3D, Mapa del Delito y precios de Mudafy.",
+    "Ofrecer el informe completo en PDF a USD 4 con link de pago.",
+    "Compartir en 5 grupos de alquileres de CABA.",
+    "Contar visitas, pagos y comentarios."
+   ],
+   "sigue_si": "Pagan 6 o más y alguno pregunta por otra dirección.",
+   "se_corta_si": "Pagan menos de 2 o la gente dice que con Ciudad 3D gratis le alcanza."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "Baja porque la pieza más valiosa, la inundación por dirección, ya la da gratis el gobierno porteño, y fuera de CABA no hay datos por cuadra. Sigue siendo un hueco real como producto que junta todo.",
+  "veredicto": "Probar si el experimento del informe pago en CABA da al menos 6 ventas, porque sin eso es un negocio de tráfico lento que un portal grande puede copiar.",
+  "fuentes": [
+   "https://www.cadena3.com/noticia/sociedad/los-barrios-mas-seguros-de-caba-altos-precios-y-tranquilidad-para-mudarse_523879",
+   "https://mudafy.com.ar/prensa",
+   "https://apps.apple.com/do/app/argenprop/id400300356",
+   "https://www.canal26.com/clima/2026/10/21/no-se-inunda-mas-asi-es-el-mapa-de-riesgo-hidrico-que-muestra-las-zonas-de-buenos-aires-mas-vulnerables-ante-el-super-nino/",
+   "https://www.gba.gob.ar/desarrollo_agrario/direccion_de_sustentabilidad_y_medio_ambiente/mapa_de_riesgo_hidrico",
+   "https://www.forbesargentina.com/lifestyle/buenos-aires-mejores-ciudades-latinoamerica-desarrollo-startups-n21393/amp"
+  ]
+ },
+ {
+  "n": "M056",
+  "quien_lo_intento": "En Argentina no encontré a nadie que consiga y compare precios de contado con reserva. Busqué «plataforma cirugía precio cerrado paciente particular latinoamérica startup» y «resonancia magnética precio particular 2026 argentina». En México, Tani Salud lanzó en 2021 un marketplace de cirugías ambulatorias con precio transparente y levantó USD 700.000 en 2022 [https://elreferente.es/inversiones/tani-salud-levanta-700k-revolucionar-mercado-cirugias-latam/] [https://www.descubre.vc/noticia/tani-salud-levant-us-700k-en-su-ronda-pre-semilla-2022-03-29]. No encontré noticias de 2025 o 2026 sobre si sigue, creció o cerró: no verificado.",
+  "competencia": "cuantomecuesta.com, de Homo Deus Media, publica rangos de precio de consulta particular en Argentina. Son estimaciones referenciales, no relevamiento por centro, no tiene página de resonancias y no reserva ni deriva [https://cuantomecuesta.com/ar/medico-clinico/]. Tarjeta Integrar Plus y FavaSalud ya estaban en el contexto previo como tarjetas de descuento. El hueco sigue: precio real de contado por centro, qué incluye y turno reservado.",
+  "regulacion": "No verificado. Ojo con cobrarle una comisión al prestador por cada paciente derivado: en salud suele haber reglas de ética sobre compartir honorarios. No lo leí en la fuente hoy. Si la web solo publica precios y reserva, el riesgo es menor.",
+  "numeros": "No encontré precio de contado actual de una resonancia: el último dato publicado es de 2022 y no sirve por la inflación [https://www.iprofesional.com/salud/364231-cuanto-cuesta-hacerse-una-resonancia-magnetica-en-2022]. Estimación: una comisión del 5% al 10% sobre una práctica de USD 100 a 300 deja USD 5 a 30 por paciente. Cobrar por Mercado Pago: no pude leer la tabla oficial de costos, la página dio error [https://www.mercadopago.com.ar/costs-section]; una guía de terceros habla de 1,35% más IVA con QR y débito al instante, no verificado en la fuente oficial [https://www.iproup.com/finanzas/64002-mercado-pago-uala-modo-cual-es-mas-barato-para-cobrar-en-comercios-y-emprendimientos].",
+  "mercado": "Sin dato verificado hoy de cuántas personas sin prepaga hacen estudios de contado. Señal de contexto: un informe de IARAF citado por ConsultorSalud ubica a Argentina primera en suba de precios de salud entre 42 países [https://consultorsalud.com/argentina-tiene-los-servicios-de-salud-mas-caros].",
+  "variante_recomendada": "Datos primero: una tabla pública con el precio real de contado de 3 prácticas en una ciudad, relevada por WhatsApp con Claude, actualizada cada mes. Cuando haya visitas, se suma el voucher de turno pagado por adelantado. Así se prueba si los centros dan precios antes de armar la parte cara.",
+  "entrevistar_a": [
+   "Personas que se hicieron una resonancia o una ecografía pagando de su bolsillo en el último año, en grupos de Facebook de la ciudad elegida.",
+   "Recepcionistas o encargados de centros de diagnóstico chicos, llamando al teléfono de turnos.",
+   "Monotributistas sin prepaga, en grupos de emprendedores y de monotributo."
+  ],
+  "preguntas_entrevista": [
+   "La última vez que pagaste un estudio de tu bolsillo, ¿cómo elegiste dónde hacerlo?",
+   "¿A cuántos lugares llamaste y cuánto tardaste en conseguir el precio?",
+   "¿Cuánto pagaste al final y qué incluía?",
+   "¿Te cobraron algo que no esperabas, como contraste o informe?",
+   "¿Qué hiciste la última vez que el precio te pareció muy caro?"
+  ],
+  "experimento": {
+   "hipotesis": "Los centros de diagnóstico de una ciudad mediana dan su precio de contado por WhatsApp y la tabla trae consultas reales.",
+   "prediccion": "Al menos 10 de 15 centros responden con precio y la tabla recibe 300 visitas y 10 pedidos de turno en 3 semanas.",
+   "perdida_maxima": "USD 40",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Elegir una ciudad y 3 prácticas: resonancia de rodilla, ecografía abdominal y una endoscopía.",
+    "Pedir precio de contado por WhatsApp a 15 centros y anotar qué incluye.",
+    "Publicar la tabla en una página simple con botón de «pedir turno».",
+    "Compartirla en grupos de la ciudad y medir visitas y pedidos."
+   ],
+   "sigue_si": "Responden 10 o más centros y llegan 10 o más pedidos de turno.",
+   "se_corta_si": "Responden menos de 5 centros o nadie pide turno."
+  },
+  "puntuacion_revisada": 5.9,
+  "por_que_revisada": "Baja un poco porque no hay ningún dato de precio actual y el único caso parecido en la región, Tani Salud, no muestra señales públicas desde 2022. El hueco en Argentina sigue confirmado.",
+  "veredicto": "Probar si los centros contestan precios por WhatsApp, porque toda la idea depende de que el dato se pueda conseguir y eso se mide en una semana.",
+  "fuentes": [
+   "https://elreferente.es/inversiones/tani-salud-levanta-700k-revolucionar-mercado-cirugias-latam/",
+   "https://www.descubre.vc/noticia/tani-salud-levant-us-700k-en-su-ronda-pre-semilla-2022-03-29",
+   "https://cuantomecuesta.com/ar/medico-clinico/",
+   "https://www.iprofesional.com/salud/364231-cuanto-cuesta-hacerse-una-resonancia-magnetica-en-2022",
+   "https://www.mercadopago.com.ar/costs-section",
+   "https://www.iproup.com/finanzas/64002-mercado-pago-uala-modo-cual-es-mas-barato-para-cobrar-en-comercios-y-emprendimientos",
+   "https://consultorsalud.com/argentina-tiene-los-servicios-de-salud-mas-caros"
+  ]
+ },
+ {
+  "n": "M050",
+  "quien_lo_intento": "URG Urgencias lanzó en julio de 2024 en Córdoba y Rosario el servicio PAM: un colgante con detección automática de caídas y botón SOS, y un reloj Samsung con GPS, conectados a una central 24 horas [https://infonegocios.info/nota-principal/urg-invierte-150-millones-en-un-innovador-servicio-de-asistencia-para-adultos-mayores-cuanto-cuesta-y-como-funciona] [https://www.lacapital.com.ar/informacion-general/como-funcionan-los-dispositivos-urg-urgencias-que-detectan-caidas-adultos-mayores-n10197434.html]. Empresas de alarmas también suman servicios para adultos mayores [https://mercado.com.ar/tecnologia/tecnologia-y-monitoreo-redefinen-la-seguridad-de-adultos-mayores-ante-el-envejecimiento-demografico]. Para empleados, la Ciudad de Buenos Aires repartió botones antipánico a encargados de edificio y gastronómicos por convenio con sindicatos [https://www.lanacion.com.ar/seguridad/para-evitar-entraderas-entregaran-2900-botones-antipanico-a-encargados-de-edificio-nid1705238]. No encontré cierres.",
+  "competencia": "URG con central propia. Pulseras SOS simples de EXO y en Frávega, ya vistas en la primera pasada. Programas municipales de botón para comercios, como Guaymallén [https://www.elsol.com.ar/departamentales/han-entregado-mas-de-400-botones-antipanico-en-guaymallen/]. Para hoteles, afuera hay leyes que obligan a dar dispositivos de alerta, como en Nueva Jersey [https://www.nj.gov/labor/myworkrights/assets/PDFs/Panic Device PPT 8-21-25 SP.pdf]; en Argentina no encontré una empresa que lo venda a hoteles o clínicas. El hueco que queda: el aviso escalonado a familia y vecinos, sin pagar una central 24 horas.",
+  "regulacion": "La Disposición ANMAT 64/2025 incorporó la Resolución GMC MERCOSUR 25/2021: el software con fin médico, aunque sea una app de celular, es producto médico y necesita clasificación por riesgo, registro y vigilancia [https://www.allende.com/life-sciences/inteligencia-artificial-y-software-medico-en-argentina-desafios-regulatorios-para-el-regimen-de-productos-medicos-08-26-2026/]. Detectar un infarto casi seguro entra ahí: opinión mía, el artículo no analiza el caso. Si la detección de caídas o el botón SOS quedan afuera no lo pude verificar.",
+  "numeros": "Según el resumen de búsqueda, URG cobraba unos 16.000 pesos por mes el plan básico y 21.000 el premium, más el equipo. La nota es de 2024 y al abrirla no llegué a leer esa parte: no verificado como precio actual. Estimación: sin central 24 horas, un abono de USD 8 a 12 por mes sobre un reloj que ya existe deja casi todo de margen, pero el costo grande es el soporte y la responsabilidad cuando algo falla.",
+  "mercado": "Sin dato verificado hoy de cuántos adultos mayores viven solos en Argentina. El Censo 2022 de INDEC debería tenerlo, pero no lo leí.",
+  "variante_recomendada": "Tomar la idea de Facu de salvar vidas, pero achicada a caídas de adultos mayores que viven solos, sin hardware propio y sin prometer detectar infartos. Usar relojes que ya detectan caídas y sumar un aviso escalonado a hijos, vecino y emergencia, cobrado por mes. Es más barata que URG porque no paga central, y no necesita fabricar nada.",
+  "entrevistar_a": [
+   "Hijos de adultos mayores que viven solos, en grupos de Facebook de cuidadores y de familias de jubilados.",
+   "Cuidadoras domiciliarias, en grupos de empleo de cuidadores.",
+   "Clientes actuales de URG o de alarmas con botón, preguntando en grupos de Córdoba y Rosario."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que tu papá o tu mamá tuvo una caída o un susto estando solo? ¿Qué pasó?",
+   "¿Cómo te enteraste y cuánto tardaste en llegar?",
+   "¿Qué usan hoy para avisar? ¿Cuánto pagan por eso?",
+   "¿Probaron algún botón o reloj? ¿Por qué lo siguen usando o lo dejaron?",
+   "¿Quién más se entera hoy cuando pasa algo, un vecino, el portero?"
+  ],
+  "experimento": {
+   "hipotesis": "Los hijos de adultos mayores que viven solos y no usan URG lo dejan por precio o por incomodidad, y pagarían un aviso escalonado sin central.",
+   "prediccion": "De 12 hijos entrevistados, al menos 6 cuentan un susto en el último año y al menos 4 dejan una seña de USD 10 para un piloto.",
+   "perdida_maxima": "USD 50",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Conseguir 12 entrevistas con hijos de adultos mayores que viven solos.",
+    "Anotar qué usan hoy, cuánto pagan y qué pasó la última vez.",
+    "Al final ofrecer un piloto de un mes con seña de USD 10.",
+    "Contar sustos reales, gasto actual y señas."
+   ],
+   "sigue_si": "4 o más dejan seña y al menos la mitad ya tuvo un susto.",
+   "se_corta_si": "Menos de 2 dejan seña o la mayoría ya está conforme con URG o con un reloj comprado."
+  },
+  "puntuacion_revisada": 5.4,
+  "por_que_revisada": "Baja porque ya existe en Argentina un servicio con detección de caídas y central 24 horas, y la versión médica que plantea Facu cae bajo la norma de ANMAT. Sigue siendo una buena reserva para etapa 2.",
+  "veredicto": "No conviene como primer negocio porque URG ya cubre caídas con central y el riesgo de que falle en una emergencia es alto para alguien que arranca con USD 1.300; sí vale guardar las entrevistas para etapa 2.",
+  "fuentes": [
+   "https://infonegocios.info/nota-principal/urg-invierte-150-millones-en-un-innovador-servicio-de-asistencia-para-adultos-mayores-cuanto-cuesta-y-como-funciona",
+   "https://www.lacapital.com.ar/informacion-general/como-funcionan-los-dispositivos-urg-urgencias-que-detectan-caidas-adultos-mayores-n10197434.html",
+   "https://mercado.com.ar/tecnologia/tecnologia-y-monitoreo-redefinen-la-seguridad-de-adultos-mayores-ante-el-envejecimiento-demografico",
+   "https://www.lanacion.com.ar/seguridad/para-evitar-entraderas-entregaran-2900-botones-antipanico-a-encargados-de-edificio-nid1705238",
+   "https://www.elsol.com.ar/departamentales/han-entregado-mas-de-400-botones-antipanico-en-guaymallen/",
+   "https://www.nj.gov/labor/myworkrights/assets/PDFs/Panic Device PPT 8-21-25 SP.pdf",
+   "https://www.allende.com/life-sciences/inteligencia-artificial-y-software-medico-en-argentina-desafios-regulatorios-para-el-regimen-de-productos-medicos-08-26-2026/",
+   "https://abogados.com.ar/inteligencia-artificial-y-software-medico-en-argentina-desafios-regulatorios-para-el-regimen-de-productos-medicos/40131"
+  ]
+ },
+ {
+  "n": "M002",
+  "quien_lo_intento": "No encontré a nadie en Argentina que cargue papeles en portales del lado del proveedor. Busqué «servicio tercerizado carga de facturas portales de proveedores argentina pymes Ariba YPF» y «YPF proveedores cómo cargar facturas portal». Del lado del comprador sí hay: Interbanking compró en 2022 Cobranzas.com, una plataforma argentina de pago a proveedores que usan más de 140 grandes empresas, con más de 83.000 proveedores y más de 2 millones de facturas por mes [https://www.forbesargentina.com/money/interbanking-compra-una-plataforma-brindar-mas-servicios-empresas-profundiza-su-digitalizacion-n25293].",
+  "competencia": "Del lado del comprador: Cobranzas.com de Interbanking, SAP Ariba, Sovos y EDICOM. Ariba le da al proveedor una cuenta estándar gratis para recibir pedidos y mandar facturas [https://ence.es/wp-content/uploads/2022/07/Grupo-Ence-Ariba-Gestion-de-pedidos-y-facturas-para-proveedores-v5.0.pdf], y advierte que no todas las funciones están en todos los países [https://www.bhp.com/es/-/media/project/bhp1ip/bhp-com-en/documents/suppliers/251000_aribafaqs_-spanish.pdf]. Del lado del proveedor no apareció nadie. El hueco es justo el que marca Facu: el proveedor tiene que aprender un portal distinto por cada cliente. No encontré cómo funciona el portal de YPF: no verificado.",
+  "regulacion": "No verificado. Puntos a leer antes de cobrar: los términos de uso de cada portal sobre dar acceso a un tercero, y cómo se delega en ARCA la emisión de facturas. La versión que no toca claves esquiva casi todo esto.",
+  "numeros": "Estimación sin dato de mercado: abono de USD 30 a 60 por portal por mes para una PyME que vende a 3 a 8 grandes empresas, o sea USD 90 a 480 por cliente por mes. Costo por operación casi cero si la IA revisa el paquete y la persona carga. El valor para el cliente se mide en días de cobro adelantados y horas administrativas, que hay que medir en las entrevistas.",
+  "mercado": "No hay dato nacional. Señales: Cobranzas.com junta más de 83.000 proveedores en un solo portal [https://www.forbesargentina.com/money/interbanking-compra-una-plataforma-brindar-mas-servicios-empresas-profundiza-su-digitalizacion-n25293]. En Neuquén hay cerca de 900 proveedores certificados como neuquinos por la Ley Provincial 3.338, y Río Negro tiene un registro de 479 empresas que quieren entrar a Vaca Muerta [https://mase.lmneuquen.com/empresas/vaca-muerta-impulsa-los-proveedores-locales-ya-son-casi-900-las-empresas-certificadas-neuquen-n1247026] [https://mase.lmneuquen.com/vaca-muerta/casi-500-empresas-rio-negro-quieren-ser-parte-del-auge-vaca-muerta-n1242029].",
+  "variante_recomendada": "La de Facu, el intermediario multiportal, pero empezando por un solo rubro: los proveedores de Vaca Muerta, que venden a varias operadoras a la vez. Primero sin tocar claves: un manual vivo de cada portal más un revisor con IA que dice si el paquete de papeles va a ser rechazado. La carga por cuenta del cliente se suma después, cuando haya confianza y contrato.",
+  "entrevistar_a": [
+   "Administrativos de cuentas a cobrar de PyMEs neuquinas proveedoras, en las rondas de negocios con operadoras que se hacen en Neuquén o en LinkedIn.",
+   "Contadores de PyMEs proveedoras de petroleras o mineras, que suelen cargar esos papeles por sus clientes.",
+   "Dueños de PyMEs que venden a supermercados o a grandes industrias, en cámaras empresarias locales."
+  ],
+  "preguntas_entrevista": [
+   "¿En cuántos portales de clientes cargaste papeles el mes pasado?",
+   "¿Cuál fue la última factura que te rechazaron o te trabaron? ¿Por qué y cuántos días tardaste en cobrarla?",
+   "¿Cuántas horas por mes se van en cargar y seguir facturas en portales?",
+   "¿Quién lo hace hoy y cuánto le pagás?",
+   "¿Probaste alguna herramienta o le pagaste a alguien para que lo haga?"
+  ],
+  "experimento": {
+   "hipotesis": "Las PyMEs que venden a varias operadoras pierden días de cobro por rechazos en los portales y pagan para que alguien se los evite.",
+   "prediccion": "De 8 administrativos entrevistados, al menos 5 cuentan un rechazo en los últimos 3 meses y al menos 2 aceptan un piloto pago de USD 50 por un mes.",
+   "perdida_maxima": "USD 80",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Conseguir 8 entrevistas con administrativos de PyMEs proveedoras de Neuquén o Río Negro.",
+    "Anotar portales, horas por mes, rechazos y días de atraso.",
+    "Armar con Claude el manual del portal que más se repita.",
+    "Ofrecer un piloto de un mes de revisión de paquetes a USD 50."
+   ],
+   "sigue_si": "2 o más pagan el piloto y el mismo portal se repite en al menos 4 entrevistas.",
+   "se_corta_si": "Nadie paga o la mayoría dice que el portal le funciona bien."
+  },
+  "puntuacion_revisada": 7.6,
+  "por_que_revisada": "Baja un poco porque del lado del comprador ya hay jugadores grandes que juntan decenas de miles de proveedores, y eso puede achicar el dolor. Sigue siendo de las mejores: dolor repetido, producto igual para muchos y nadie del lado del proveedor.",
+  "veredicto": "Probar ya, con entrevistas a proveedores de Vaca Muerta, porque el hueco del lado del proveedor está confirmado y el experimento cuesta menos de USD 100.",
+  "fuentes": [
+   "https://www.forbesargentina.com/money/interbanking-compra-una-plataforma-brindar-mas-servicios-empresas-profundiza-su-digitalizacion-n25293",
+   "https://ence.es/wp-content/uploads/2022/07/Grupo-Ence-Ariba-Gestion-de-pedidos-y-facturas-para-proveedores-v5.0.pdf",
+   "https://www.bhp.com/es/-/media/project/bhp1ip/bhp-com-en/documents/suppliers/251000_aribafaqs_-spanish.pdf",
+   "https://www.argentina.gob.ar/node/82711",
+   "https://mase.lmneuquen.com/empresas/vaca-muerta-impulsa-los-proveedores-locales-ya-son-casi-900-las-empresas-certificadas-neuquen-n1247026",
+   "https://mase.lmneuquen.com/vaca-muerta/casi-500-empresas-rio-negro-quieren-ser-parte-del-auge-vaca-muerta-n1242029"
+  ]
+ },
+ {
+  "n": "M005",
+  "quien_lo_intento": "No encontré a nadie en Argentina con una web donde subís tu Excel y te devuelve ABC y punto de pedido. Busqué «análisis de inventario con IA subí tu excel stock pymes herramienta online español»; aparecieron guías y plantillas, no un producto [https://www.thebricks.com/resources/guide-how-to-create-an-inventory-tracking-system-in-excel-using-ai]. Afuera, Automat Inventory Analytics es una app de Shopify con plan gratis que lee Google Sheets y Excel, sin versión en español [https://apps.shopify.com/forecastingapp?locale=es].",
+  "competencia": "Plantillas para descargar como la de Crehana y módulos pagos de Odoo, ya vistos en la primera pasada. Sistemas completos como Zoho Inventory, citados en guías [https://siemprealdia.co/republica-dominicana/contabilidad/inteligencia-artificial-en-inventarios/]. El hueco: diagnóstico en español, sin instalar un sistema, con fórmulas de ingeniería y explicado para el dueño.",
+  "regulacion": "No aplica. Solo cuidar la confidencialidad de las ventas del cliente.",
+  "numeros": "Estimación: informe a USD 15 a 40 por única vez, o USD 10 a 20 por mes si llega solo cada mes. Costo de IA por informe por debajo de USD 1, estimación por el tamaño de un export de ventas. El 1:1 de Facu como opción cara: de referencia, un consultor argentino publica un taller de 8 horas a ARS 3.900.000, unos USD 2.540, y aclara que son valores orientativos [https://www.diegoceredi.com/blog/precio-capacitacion-ia-empresas-argentina].",
+  "mercado": "1,77 millones de certificados MiPyME en 2023, ya en el contexto previo. Hay unas 361.500 empresas privadas con empleados, según datos oficiales citados por BAE Negocios [https://www.baenegocios.com/economia/las-empresas-argentinas-tienen-en-promedio-12-9-empleados-lejos-de-las-economias-desarrolladas-6731/]. Sin dato de cuántas manejan stock ni de disposición a pagar.",
+  "variante_recomendada": "La de Facu automatizada: web de autoservicio que acepta una plantilla fija o el export de Tiendanube y Mercado Libre, calcula con fórmulas fijas y la IA explica. Las calculadoras de C34 funcionan como puerta gratis. El 1:1 queda como opción cara para pocos, no como el producto.",
+  "entrevistar_a": [
+   "Dueños de ferreterías, mercerías y repuesteras con 500 o más artículos, en el local o en grupos de comerciantes.",
+   "Vendedores de Tiendanube con más de 100 productos, en grupos de Facebook de vendedores de Tiendanube.",
+   "Contadores de comercios chicos, que ven el stock a fin de año."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que te quedaste sin un producto que se vendía bien? ¿Cuánto creés que perdiste?",
+   "¿Cómo decidís hoy cuánto comprar de cada cosa?",
+   "¿Cuánta mercadería tenés parada hace más de 6 meses? ¿Cómo lo sabés?",
+   "¿Pagaste alguna vez un sistema, un contador o un consultor por esto? ¿Cuánto?",
+   "¿Qué hiciste la última vez que te sobró stock?"
+  ],
+  "experimento": {
+   "hipotesis": "Un comercio con stock paga por un diagnóstico de su export de ventas si le muestra plata parada y quiebres concretos.",
+   "prediccion": "De 5 comercios que reciben el diagnóstico gratis, al menos 2 pagan USD 20 por el del mes siguiente.",
+   "perdida_maxima": "USD 30",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Pedir el export de ventas a 5 comercios conocidos.",
+    "Hacer el diagnóstico con una planilla fija y que Claude escriba la explicación.",
+    "Entregarlo en una charla de 15 minutos.",
+    "Ofrecer el próximo informe a USD 20."
+   ],
+   "sigue_si": "2 o más pagan y alguno cambia una compra por el informe.",
+   "se_corta_si": "Nadie paga o ninguno tiene el export en un formato usable."
+  },
+  "puntuacion_revisada": 7.3,
+  "por_que_revisada": "Baja un poco porque sigue sin haber ninguna señal de que el comercio pague. Se mantiene arriba porque el hueco en español está confirmado y es el que mejor usa el oficio de Facu.",
+  "veredicto": "Probar ya con los 5 diagnósticos a mano, porque cuesta casi nada y responde la única pregunta que falta: si alguien paga.",
+  "fuentes": [
+   "https://www.thebricks.com/resources/guide-how-to-create-an-inventory-tracking-system-in-excel-using-ai",
+   "https://apps.shopify.com/forecastingapp?locale=es",
+   "https://siemprealdia.co/republica-dominicana/contabilidad/inteligencia-artificial-en-inventarios/",
+   "https://www.diegoceredi.com/blog/precio-capacitacion-ia-empresas-argentina",
+   "https://www.baenegocios.com/economia/las-empresas-argentinas-tienen-en-promedio-12-9-empleados-lejos-de-las-economias-desarrolladas-6731/"
+  ]
+ },
+ {
+  "n": "M012",
+  "quien_lo_intento": "Sin búsqueda nueva para esta idea. Lo verificado antes: Hacé Cuentas ya posiciona calculadoras en español. No encontré un caso argentino de calculadoras de ingeniería industrial que se haya convertido en negocio.",
+  "competencia": "Hacé Cuentas y calculadoras genéricas, según el contexto previo. Las plantillas de Crehana y Odoo cubren ABC, vistas en M005. El hueco: calculadoras de oficio, como punto de pedido o lote económico, explicadas para el dueño de un comercio.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: sola casi no deja plata. La publicidad en una web chica de nicho da centavos por visita. El valor está en cuántos visitantes pasan al diagnóstico pago de L9: si 1 de cada 50 usuarios deja su contacto y 1 de cada 10 contactos compra un informe de USD 20, hacen falta 2.500 usos por mes para 5 ventas.",
+  "mercado": "Mismo universo que M005: unas 361.500 empresas privadas con empleados [https://www.baenegocios.com/economia/las-empresas-argentinas-tienen-en-promedio-12-9-empleados-lejos-de-las-economias-desarrolladas-6731/]. Sin dato de búsquedas de estas calculadoras.",
+  "variante_recomendada": "La de Facu, pero con el siguiente paso automático en vez de su hora: la calculadora da el resultado y ofrece el diagnóstico de L9 como producto pago. La consultoría personal queda solo para quien la pida. Así no repite lo poco escalable que él mismo criticó.",
+  "entrevistar_a": [
+   "Dueños de comercios con stock que buscaron en Google cómo calcular cuánto comprar, en grupos de comerciantes.",
+   "Estudiantes y jóvenes ingenieros industriales que trabajan en PyMEs, en grupos de la carrera.",
+   "Encargados de compras de PyMEs chicas, en LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "La última vez que tuviste que decidir cuánto comprar, ¿cómo hiciste la cuenta?",
+   "¿Buscaste alguna fórmula o herramienta en internet? ¿Cuál encontraste?",
+   "¿Qué hiciste con el resultado?",
+   "¿Pagaste alguna vez por una planilla o un curso de esto? ¿Cuánto?",
+   "¿Quién más en tu empresa hace esas cuentas?"
+  ],
+  "experimento": {
+   "hipotesis": "Una calculadora de punto de pedido compartida en grupos de comerciantes junta contactos interesados en un diagnóstico.",
+   "prediccion": "100 usos y 10 contactos dejados en 2 semanas.",
+   "perdida_maxima": "USD 20",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Publicar una sola calculadora de punto de pedido en Cloudflare con Claude.",
+    "Al final del resultado, ofrecer el diagnóstico de L9 a cambio del mail.",
+    "Compartir en 3 grupos de comerciantes.",
+    "Contar usos y contactos."
+   ],
+   "sigue_si": "Llegan 10 o más contactos.",
+   "se_corta_si": "Menos de 30 usos o menos de 3 contactos."
+  },
+  "puntuacion_revisada": 6.4,
+  "por_que_revisada": "Baja porque sola no genera plata y el tráfico de Google es lento. Vale solo como puerta de entrada de L9.",
+  "veredicto": "Probar si va pegada a L9 como puerta de entrada, porque como negocio suelto no alcanza.",
+  "fuentes": [
+   "https://www.baenegocios.com/economia/las-empresas-argentinas-tienen-en-promedio-12-9-empleados-lejos-de-las-economias-desarrolladas-6731/"
+  ]
+ },
+ {
+  "n": "M008",
+  "quien_lo_intento": "CleanUp, de Uruguay, ya vende software de gestión de limpieza a grandes empresas y busca expandirse en la región, visto en la primera pasada. En Argentina no encontré software específico. Busqué «software gestión empresas de limpieza argentina app control supervisión fotos» y solo aparecieron herramientas de afuera o de España [https://contractorplus.app/es/blog/9-best-janitorial-software-platforms-in-2026] [https://getquipu.com/blog/mejores-softwares-para-empresas-de-limpieza/].",
+  "competencia": "Contractor+, con checklists con fotos, GPS y reportes de evidencia [https://contractorplus.app/es/blog/9-best-janitorial-software-platforms-in-2026]. SafetyCulture, con versión gratis y plan desde USD 24 por mes [https://safetyculture.com/es/aplicaciones/software-de-control-de-limpieza]. Dklean, para supervisar personal en tiempo real [https://getquipu.com/blog/mejores-softwares-para-empresas-de-limpieza/]. CleanUp en la región. El hueco en Argentina: nada local, en pesos y por WhatsApp.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: abono de USD 3 a 5 por sitio limpiado por mes. Una empresa con 30 sitios pagaría USD 90 a 150 por mes. Costo por parte enviado casi cero. Contra eso compite SafetyCulture gratis para equipos chicos.",
+  "mercado": "Sin dato. No encontré cámara ni cifra de empresas de limpieza en Argentina. Un estudio sobre Córdoba describe el rubro como precarizado y tercerizado [https://repositorio.flacsoandes.edu.ec/handle/10469/15934].",
+  "variante_recomendada": "Un producto de prueba de servicio hecho para varios rubros a la vez: limpieza y vigilancia. El operario o el guardia escanea un QR por sector con foto y al cliente le llega un parte por WhatsApp. Así se junta con SEG-1-1, rondas de guardias, que está pendiente de marcar, y el mercado se agranda sin cambiar el producto.",
+  "entrevistar_a": [
+   "Dueños de empresas de limpieza de oficinas y consorcios de 10 a 50 empleados, por Google Maps y su WhatsApp.",
+   "Administradores de consorcios que contratan limpieza, en grupos de administradores.",
+   "Jefes de servicios generales de oficinas o clínicas, en LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuál fue el último cliente que perdiste? ¿Qué te reclamaba?",
+   "¿Cómo le mostrás hoy al cliente que limpiaste?",
+   "¿Cuánto tiempo pasan tus supervisores controlando sitios por semana?",
+   "¿Probaste alguna app de control? ¿Por qué la seguís usando o la dejaste?",
+   "¿Cuánto te costó el último reclamo, en descuento o en cliente perdido?"
+  ],
+  "experimento": {
+   "hipotesis": "Las empresas de limpieza de oficinas pierden clientes por reclamos y pagan por un parte automático con fotos.",
+   "prediccion": "De 8 empresas llamadas, al menos 4 cuentan un cliente perdido por reclamos en el último año y al menos 1 acepta un piloto de USD 30 por un mes.",
+   "perdida_maxima": "USD 40",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Llamar a 8 empresas de limpieza de oficinas.",
+    "Anotar reclamos, clientes perdidos y qué usan hoy.",
+    "Armar un parte por WhatsApp con QR y fotos con una herramienta no-code.",
+    "Ofrecer un piloto de un mes a USD 30."
+   ],
+   "sigue_si": "1 o más paga y 4 o más cuentan clientes perdidos.",
+   "se_corta_si": "Ninguna perdió clientes por esto o todas ya usan una app gratis."
+  },
+  "puntuacion_revisada": 6.2,
+  "por_que_revisada": "Baja porque afuera ya está resuelto con apps gratis o baratas y el rubro es muy sensible al precio. Sube algo si se junta con guardias como producto de prueba de servicio.",
+  "veredicto": "Probar si en 8 llamadas aparecen clientes perdidos por reclamos, porque si el dolor no cuesta plata nadie va a pagar otra app.",
+  "fuentes": [
+   "https://contractorplus.app/es/blog/9-best-janitorial-software-platforms-in-2026",
+   "https://safetyculture.com/es/aplicaciones/software-de-control-de-limpieza",
+   "https://getquipu.com/blog/mejores-softwares-para-empresas-de-limpieza/",
+   "https://repositorio.flacsoandes.edu.ec/handle/10469/15934"
+  ]
+ },
+ {
+  "n": "M022",
+  "quien_lo_intento": "Ya lo hacen consultores argentinos activos: Diego Ceredi y Duotach, vistos en la primera pasada. No encontré cierres. Busqué «capacitación inteligencia artificial empresas argentina precio in company pymes curso 2026». Coderhouse también publica guías de cuánto cuesta implementar IA en una empresa argentina [https://www.coderhouse.com/ar/coderlibrary/cuanto-cuesta-implementar-ia-empresa-argentina].",
+  "competencia": "Diego Ceredi publica precios de referencia en pesos, actualizados al 2026-10-10: taller in-company de 8 horas a ARS 3.900.000, unos USD 2.540; programa de implementación de ARS 4.500.000 a 11.000.000, unos USD 2.930 a 7.165; acompañamiento de ARS 3.000.000 a 5.000.000 por mes. Usa un dólar de ARS 1.535 y aclara que son orientativos [https://www.diegoceredi.com/blog/precio-capacitacion-ia-empresas-argentina]. Duotach cotiza por alcance. El hueco: PyMEs chicas que no pagan esos montos y rubros que nadie conoce por dentro, como acopios.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: Facu podría entrar con un setup cerrado de 4 semanas a USD 300 a 600, muy por debajo de la referencia de Ceredi, porque no tiene casos. Su costo son sus horas: unas 15 a 25 por cliente, estimación. Más un abono de USD 50 a 100 por mes de mantenimiento. Margen alto, pero limitado por horas.",
+  "mercado": "Unas 361.500 empresas privadas con empleados en Argentina [https://www.baenegocios.com/economia/las-empresas-argentinas-tienen-en-promedio-12-9-empleados-lejos-de-las-economias-desarrolladas-6731/]. Sin dato de cuántas ya usan IA.",
+  "variante_recomendada": "Arrancar por CEMEVA como caso medido y venderle el mismo método a otros acopios de granos, con precio cerrado y abono de mantenimiento. Es servicio puente para cobrar y aprender, con fecha de corte. No convertirlo en packs de Skills por oficio, porque eso Facu ya lo descartó.",
+  "entrevistar_a": [
+   "Dueños o administradores de acopios y cerealeras de la zona de CEMEVA, por contacto del papá.",
+   "Administrativos de agronomías y acopios que hacen cotizaciones y planillas a mano.",
+   "Dueños de PyMEs de 10 a 50 empleados que ya pagan ChatGPT o Claude, en grupos de empresarios locales."
+  ],
+  "preguntas_entrevista": [
+   "¿Qué tarea administrativa les comió más horas el mes pasado?",
+   "¿Alguien en la empresa usa ChatGPT o Claude hoy? ¿Para qué, concretamente, la última semana?",
+   "¿Pagaron alguna capacitación o consultor de sistemas en el último año? ¿Cuánto y qué quedó?",
+   "¿Cómo hacen hoy las cotizaciones o los informes que más se repiten?",
+   "¿Qué pasó la última vez que se fue la persona que sabía hacer eso?"
+  ],
+  "experimento": {
+   "hipotesis": "Un acopio de granos paga USD 300 por un setup de Claude si ve un caso medido en otro acopio.",
+   "prediccion": "De 10 acopios contactados con el caso CEMEVA, 3 aceptan una reunión y 1 paga un piloto de USD 300.",
+   "perdida_maxima": "USD 50",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Armar 3 procesos con Claude en CEMEVA y medir horas ahorradas por semana.",
+    "Escribir el caso en una página con números.",
+    "Contactar a 10 acopios por referencia del papá.",
+    "Ofrecer el setup de 4 semanas a USD 300."
+   ],
+   "sigue_si": "1 o más paga el piloto.",
+   "se_corta_si": "Ninguno acepta reunión o todos dicen que lo hacen solos."
+  },
+  "puntuacion_revisada": 6.8,
+  "por_que_revisada": "Se mantiene: es la más rápida para cobrar y los precios de la competencia muestran que se paga bien, pero sigue siendo trabajo a medida que no construye producto.",
+  "veredicto": "Probar ya como servicio puente con el caso CEMEVA, porque cobra rápido y enseña a vender, siempre con fecha de corte para que no se vuelva el destino.",
+  "fuentes": [
+   "https://www.diegoceredi.com/blog/precio-capacitacion-ia-empresas-argentina",
+   "https://www.coderhouse.com/ar/coderlibrary/cuanto-cuesta-implementar-ia-empresa-argentina",
+   "https://www.baenegocios.com/economia/las-empresas-argentinas-tienen-en-promedio-12-9-empleados-lejos-de-las-economias-desarrolladas-6731/"
+  ]
+ },
+ {
+  "n": "M032",
+  "quien_lo_intento": "Vixonic, en Argentina, ofrecía cartelería dinámica y turneros desde $ 990 por mes por pantalla con comodato a 36 meses; la nota no tiene fecha clara y el precio puede estar viejo [https://infonegocios.info/y-ademas/como-tener-carteleria-dinamica-o-turneros-desde-990-por-mes-la-propuesta-de-vixonic]. No encontré cierres ni a nadie que haga video de promos generado desde una planilla. Busqué «software cartelería digital argentina precio mensual pantalla menú pymes».",
+  "competencia": "Yo-Facturo dice que el software de cartelería para una PyME va de gratis a unos 15.000 pesos por mes, y que arrancar con 1 o 2 pantallas cuesta 200.000 a 300.000 pesos; es fuente con interés comercial [https://yo-facturo.com/blog/software-carteleria-digital-pymes/]. Yodeck figura desde USD 8 por mes [https://www.capterra.es/directory/10055/digital-signage/software]. Frávega vende pantallas con software gratis que cambia menús por horario [https://www.fravega.com/p/pantalla-digital-sin-marco-de-50-pulgadas-para-publicidad-co-22773579/]. Juuno y Easy Signage leen Google Sheets, vistos en la primera pasada. El hueco que queda es chico: el video de promo hecho solo con IA.",
+  "regulacion": "No verificado. Un precio mal mostrado puede ser reclamo por defensa del consumidor; no leí la norma hoy.",
+  "numeros": "Estimación: abono de ARS 10.000 a 15.000 por pantalla por mes, el techo que marca Yo-Facturo. El software base cuesta USD 8 por pantalla con Yodeck. Generar videos con IA puede costar USD 1 a 5 por pantalla por mes, estimación. Margen de unos USD 3 a 5 por pantalla, chico si no se venden muchas.",
+  "mercado": "Sin dato de cuántos locales usan pantallas en Argentina.",
+  "variante_recomendada": "Sin pantalla propia: vender solo el motor que convierte la planilla de precios en videos de promo, para que el local los pase en el televisor o el sistema que ya tenga. Es la única parte que nadie da gratis. Probarlo con heladerías y rotiserías que cambian precios seguido.",
+  "entrevistar_a": [
+   "Dueños de heladerías, rotiserías y panaderías con televisor en el mostrador, en el local.",
+   "Encargados de marketing de cadenas chicas de 3 a 10 locales de comida, en LinkedIn o Instagram.",
+   "Instaladores de cartelería y TV box, en Mercado Libre."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuántas veces cambiaste precios el último mes y cómo los actualizaste en el local?",
+   "¿Qué muestra hoy el televisor del local?",
+   "¿Quién arma los carteles o videos de promo y cuánto le pagás?",
+   "¿Te pasó que un cliente reclamara un precio viejo? ¿Qué hiciste?",
+   "¿Pagás algún sistema para las pantallas? ¿Cuánto?"
+  ],
+  "experimento": {
+   "hipotesis": "Un local de comida paga un abono por videos de promo que se regeneran solos cuando cambia la planilla de precios.",
+   "prediccion": "De 3 locales que lo prueban gratis 2 semanas, al menos 1 paga ARS 10.000 por el mes siguiente.",
+   "perdida_maxima": "USD 60",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Armar con Juuno o Yodeck y una planilla un loop de promos generado con IA.",
+    "Instalarlo gratis en 3 locales conocidos con el televisor que ya tienen.",
+    "Medir cuántas veces cambian precios y si lo dejan prendido.",
+    "Ofrecer el mes siguiente a ARS 10.000."
+   ],
+   "sigue_si": "1 o más paga y lo dejan prendido todo el piloto.",
+   "se_corta_si": "Ninguno paga o lo apagan antes de terminar."
+  },
+  "puntuacion_revisada": 5.8,
+  "por_que_revisada": "Baja porque el software de pantallas es barato o gratis en Argentina y la barrera de entrada es muy baja. Solo queda el video con IA como diferencia.",
+  "veredicto": "Probar si un local paga por el video automático en un piloto chico, porque la parte de pantallas ya está resuelta por herramientas baratas.",
+  "fuentes": [
+   "https://infonegocios.info/y-ademas/como-tener-carteleria-dinamica-o-turneros-desde-990-por-mes-la-propuesta-de-vixonic",
+   "https://yo-facturo.com/blog/software-carteleria-digital-pymes/",
+   "https://www.capterra.es/directory/10055/digital-signage/software",
+   "https://www.fravega.com/p/pantalla-digital-sin-marco-de-50-pulgadas-para-publicidad-co-22773579/"
+  ]
+ },
+ {
+  "n": "M014",
+  "quien_lo_intento": "Ya hay robots argentinos en Apify con casi nadie usándolos. El del Boletín Oficial, de Scrapers Lat, cobra desde USD 6,80 cada 1.000 resultados y muestra 3 usuarios en total y 1 por mes [https://apify.com/scrapers_lat/boletin-oficial-argentina-scraper]. También hay robots de Zonaprop, Inmoup, BCRA y datos abiertos argentinos [https://apify.com/benthepythondev/zonaprop-scraper.md] [https://apify.com/parseforge/bcra-argentina-statistics-scraper/api]. La variante que propuse en la primera pasada, boletines oficiales, ya existe y no tiene demanda.",
+  "competencia": "Además de los de Mercado Libre vistos antes, el mismo autor del Boletín tiene robots de registros de empresas de Argentina, Brasil, Chile y del diario oficial de México [https://apify.com/scrapers_lat/boletin-oficial-argentina-scraper]. Los nichos de Latinoamérica ya están ocupados por robots con pocos usuarios. Eso dice que el problema es la demanda, no la oferta.",
+  "regulacion": "Apify dejó de aceptar nuevos robots de alquiler el 2026-04-01 y los retiró el 2026-10-01; ahora se cobra por evento o por uso [https://use-apify.com/docs/apify-for-developers/monetize-actors]. La legalidad de cada scraping queda a cargo del autor: no verificado.",
+  "numeros": "El creador recibe en general el 80% de lo que cobra, menos reembolsos y costos de plataforma [https://use-apify.com/docs/apify-for-developers/monetize-actors]. Apify dijo que pagó USD 563.000 a creadores en septiembre de 2025, dato de la propia empresa. El mejor creador independiente ganaba más de USD 4.000 por mes en 2023 y varios más de USD 1.000 [https://blog.apify.com/programmer-passive-income-web-scraping/]. Estimación: a USD 5 cada 1.000 resultados, hacen falta unos 200.000 resultados por mes para ganar USD 800.",
+  "mercado": "Sin dato de demanda argentina. Los robots argentinos que vi tienen entre 0 y 3 usuarios por mes.",
+  "variante_recomendada": "Modo un solo jugador: no vender el robot sino el dato ya procesado y con alertas, que es la idea P3 que Facu ya eligió. Por ejemplo, un aviso semanal de sociedades nuevas o de precios de repuestos agrícolas para un rubro concreto. No proponer radar de licitaciones, porque eso Facu lo descartó.",
+  "entrevistar_a": [
+   "Vendedores B2B que buscan clientes nuevos, como aseguradores o proveedores de software contable, en LinkedIn.",
+   "Concesionarios de maquinaria agrícola y casas de repuestos, por contacto de CEMEVA.",
+   "Desarrolladores que publican en Apify, en el Discord de Apify, para saber qué les compra la gente."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo conseguiste el último cliente nuevo y de dónde sacaste el dato?",
+   "¿Cuánto tiempo por semana pasás buscando precios o contactos a mano?",
+   "¿Pagás alguna base de datos o servicio de alertas hoy? ¿Cuánto?",
+   "¿Qué dato te faltó la última vez que perdiste una venta?",
+   "¿Quién en tu empresa junta esa información hoy?"
+  ],
+  "experimento": {
+   "hipotesis": "Un rubro concreto paga por un aviso semanal con datos que hoy junta a mano.",
+   "prediccion": "De 15 contactos que reciben 2 avisos gratis, al menos 2 pagan USD 15 por el mes siguiente.",
+   "perdida_maxima": "USD 50",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Elegir un rubro y un dato, por ejemplo precios de repuestos agrícolas en Mercado Libre.",
+    "Juntar el dato con un robot de Apify que ya existe.",
+    "Mandar 2 avisos semanales gratis a 15 contactos.",
+    "Ofrecer el mes siguiente a USD 15."
+   ],
+   "sigue_si": "2 o más pagan.",
+   "se_corta_si": "Nadie paga o nadie abre los avisos."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "Baja porque los nichos argentinos ya tienen robots publicados con casi cero usuarios, lo que muestra poca demanda. La versión de vender el dato procesado se superpone con P3.",
+  "veredicto": "No conviene como negocio suelto de robots porque los nichos de la región ya están publicados y nadie los usa; sirve solo como herramienta interna de P3 o de la idea de stock.",
+  "fuentes": [
+   "https://apify.com/scrapers_lat/boletin-oficial-argentina-scraper",
+   "https://apify.com/benthepythondev/zonaprop-scraper.md",
+   "https://apify.com/parseforge/bcra-argentina-statistics-scraper/api",
+   "https://use-apify.com/docs/apify-for-developers/monetize-actors",
+   "https://blog.apify.com/programmer-passive-income-web-scraping/",
+   "https://apify.com/challenge"
+  ]
+ }
+]

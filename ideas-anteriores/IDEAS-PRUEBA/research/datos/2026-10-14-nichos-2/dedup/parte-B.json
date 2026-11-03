@@ -1,0 +1,696 @@
+{
+ "cruce": {
+  "ENE-1-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "CON-2-3",
+   "nota": "Mismo problema (ir a medir el techo para cotizar) que el ganador CON-2-3, con otro cliente: instaladores solares."
+  },
+  "ENE-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Trámite de conexión como usuario-generador; C31/F33 eran subsidios, otro problema y otro cliente."
+  },
+  "ENE-1-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Monitoreo multimarca de equipos solares instalados para el instalador; nada parecido en el registro."
+  },
+  "ENE-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Comparador de presupuestos solares; B25 solo comparte la parte de reseñas, no el problema."
+  },
+  "ENE-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Mercado de stock solar sobrante/repuestos; COM-3-5 solo comparte identificación por foto, no el problema."
+  },
+  "ENE-2-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Errores de lectura de medidores en cooperativas; L2 comparte OCR pero otro problema y otro cliente."
+  },
+  "ENE-2-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Detección de fugas de agua en redes; nada parecido."
+  },
+  "ENE-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Pérdidas no técnicas (robo de energía) en distribuidoras; LOG-4-2 es otro recurso y otro cliente."
+  },
+  "ENE-2-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Gestión de poda/vegetación en líneas eléctricas; nada parecido."
+  },
+  "ENE-2-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36",
+   "nota": "Inspección de red con fotos y checklist: es el generador de informes de relevamiento D36 (ganador) aplicado a cooperativas eléctricas."
+  },
+  "ENE-3-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-3-2, L13 (propia)",
+   "nota": "Control de envases retornables (garrafas), como los barriles de ALI-3-2 (ganador) y con la tecnología de L13."
+  },
+  "ENE-3-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "El núcleo es saber el nivel de cada tanque de GLP para rellenar; el ruteo (C8) y los sensores de frío (ALI-4-2) son otro problema."
+  },
+  "ENE-3-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-2-3",
+   "nota": "Financiar en cuotas una compra a hogares de bajos ingresos: problema vecino al fiado (COM-2-3, ganador), con otro producto y cliente."
+  },
+  "ENE-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medición remota de protección catódica de tanques enterrados; nada parecido."
+  },
+  "ENE-3-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "AUT-1-2",
+   "nota": "Comparar precio entre proveedores de GLP: misma mecánica que AUT-1-2 (ganador), pero el que compara es el hogar."
+  },
+  "ENE-4-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "LOG-4-2, ALI-1-4",
+   "nota": "Detectar faltantes/robo de combustible: mismo problema central que LOG-4-2 (rechazada), en estaciones en vez de flotas."
+  },
+  "ENE-4-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia), COM-2-4",
+   "nota": "Cámaras con IA cruzadas con ventas para detectar maniobras: vertical estaciones de L12 y COM-2-4 (ganadores)."
+  },
+  "ENE-4-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SER-1-3, COM-5-2",
+   "nota": "Conciliación manual de caja y medios de pago: el mismo dolor de conciliación ya rechazado, en otro rubro."
+  },
+  "ENE-4-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "CON-4-4, LOG-4-4",
+   "nota": "Vencimientos y pruebas obligatorias controlados con carpetas: mismo problema que CON-4-4/LOG-4-4 (rechazadas), otro cliente."
+  },
+  "ENE-4-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-2-3, LOG-4-2",
+   "nota": "Cuenta corriente con vales en papel sin control: más cerca del fiado en libreta (COM-2-3, ganador) que del robo de combustible (LOG-4-2, rechazada)."
+  },
+  "ENE-5-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Detección remota de fallas de ascensores para conservadoras; C17 (CMMS) es otro problema."
+  },
+  "ENE-5-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Monitoreo de grupos electrógenos; con ALI-4-2 solo comparte el patrón de sensores, no el problema ni el cliente."
+  },
+  "ENE-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36",
+   "nota": "Certificados e informes de revisión de gasistas: el generador de informes D36 (ganador) con plantilla para gasistas."
+  },
+  "ENE-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cadenas multisucursal que no controlan a sus técnicos tercerizados; C17/CON-2-1 son otro lado del problema."
+  },
+  "ENE-5-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "CON-2-3",
+   "nota": "Presupuesto remoto con precio cerrado para cambiar caldera: vecino de CON-2-3 (ganador); no es la plantilla rechazada H27/K2."
+  },
+  "SEG-1-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Prueba de rondas de vigiladores ante el cliente; nada parecido."
+  },
+  "SEG-1-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Control de camiones y patentes en portón con lectura automática: tecnología de L12 (ganador); LOG-3-3 era la espera, no el control."
+  },
+  "SEG-1-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Detección perimetral por video en predios grandes: aplicación de L12 (ganador)."
+  },
+  "SEG-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Robots de patrullaje; nada parecido en el registro."
+  },
+  "SEG-1-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "SAL-4-2, EDU-1-4",
+   "nota": "Personal verificado por horas (vigiladores): mismo patrón que SAL-4-2 y el tema 'cubrir ausencias' de EDU-1-4 (ganadores), otro cliente."
+  },
+  "SEG-2-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Filtrado de falsas alarmas con IA para centrales de monitoreo: aplicación directa de L12 (ganador), con otro cliente."
+  },
+  "SEG-2-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Videovigilancia con IA en obras y predios sin gente: L12 (ganador) con otro cliente."
+  },
+  "SEG-2-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Detectar cámaras caídas o tapadas: complemento de L12 (ganador)."
+  },
+  "SEG-2-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Búsqueda inteligente en grabaciones: función dentro de L12 (ganador)."
+  },
+  "SEG-2-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Botón de pánico silencioso para empleados que trabajan solos; nada parecido."
+  },
+  "SEG-3-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Detección perimetral en barrios cerrados: L12 (ganador)."
+  },
+  "SEG-3-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Portería virtual con video remoto: L12 (ganador); los CON-4-x solo comparten cliente edificio."
+  },
+  "SEG-3-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Lectura de patentes en barrios: L12 (ganador)."
+  },
+  "SEG-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Lockers para paquetes en barrios y edificios; nada parecido."
+  },
+  "SEG-3-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Fiscalizar infracciones al reglamento del barrio; CON-4-3 era atender reclamos, otro problema."
+  },
+  "SEG-4-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Diseño técnico de sistemas de cámaras para instaladores; K2/H27 eran planillas de precios."
+  },
+  "SEG-4-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Monitoreo mayorista con marca blanca para instaladores chicos; nada parecido en el registro."
+  },
+  "SEG-4-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Red de técnicos en otras ciudades para integradores B2B; CON-2-1 era despacho de técnicos del hogar."
+  },
+  "SEG-4-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36, IND-5-3",
+   "nota": "Constancia de pruebas por dispositivo con fotos: más cerca del informe D36 (ganador) que de las inspecciones en planta IND-5-3 (rechazada)."
+  },
+  "SEG-4-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Detección de armas por video con IA (versión ZeroEyes): tecnología de L12 (ganador)."
+  },
+  "SEG-5-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Registro digital de visitas en recepción; nada parecido."
+  },
+  "SEG-5-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Credenciales de acceso en el celular y altas/bajas a distancia: tecnología vecina de L13 (ganador)."
+  },
+  "SEG-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia), L14 (propia)",
+   "nota": "Control de llaves físicas: misma lógica de seguimiento de objetos que L13/L14 (ganadores)."
+  },
+  "SEG-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Asignación de cocheras en oficinas híbridas; solo comparte la mecánica de reservas."
+  },
+  "SEG-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Portero eléctrico al celular con accesos temporales; nada parecido en el registro."
+  },
+  "RES-1-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L7 (propia)",
+   "nota": "Trazabilidad de kilos reciclados para marcas con metas ambientales: comparte comprador corporativo con L7 (ganador), otro problema."
+  },
+  "RES-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cooperativas venden reciclables sin precio de referencia ni compradores alternativos; nada parecido."
+  },
+  "RES-1-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L10 (propia), L12 (propia)",
+   "nota": "Cámaras con IA para medir material vendible en el rechazo: tecnología de L10/L12 (ganadores)."
+  },
+  "RES-1-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Retiro programado de reciclables a hogares; nada parecido."
+  },
+  "RES-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Stock y margen por material en acopios de reciclables; los inventarios rechazados (C2) eran auditorías en comercios."
+  },
+  "RES-2-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Pedir volquete con precio cerrado; nada parecido en el registro."
+  },
+  "RES-2-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Seguimiento de volquetes en la calle; nada parecido en el registro."
+  },
+  "RES-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Sensores de llenado de contenedores para recolección municipal; nada parecido."
+  },
+  "RES-2-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "C8, LOG-2-1, ALI-5-5",
+   "nota": "Rutas armadas a mano + facturación de recolectores privados: el ruteo manual ya fue rechazado en varios rubros."
+  },
+  "RES-2-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Sensores de llenado y contaminación para generadores comerciales; nada parecido."
+  },
+  "RES-3-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "ALI-2-5",
+   "nota": "Libro y manifiestos de residuos peligrosos en papel: mismo patrón que ALI-2-5 (ganador), con otra norma y otro cliente."
+  },
+  "RES-3-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "K11",
+   "nota": "Vencimientos y stock de reactivos de laboratorio: mismo mecanismo que K11 (ganador), otro cliente."
+  },
+  "RES-3-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Retiro de residuos patogénicos para consultorios chicos; nada parecido."
+  },
+  "RES-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Retiro de residuos peligrosos por abono para talleres; los talleres del registro tenían otros problemas."
+  },
+  "RES-3-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "IND-2-1",
+   "nota": "Fichas de seguridad y rótulos SGA: mismo objeto que IND-2-1 (rechazada), del lado de la PyME que usa los químicos."
+  },
+  "RES-4-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Registro legal de vendedores en chatarrerías; nada parecido."
+  },
+  "RES-4-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "P3, P5",
+   "nota": "Precio de referencia de chatarra: más cerca de P3 (alertas de precios B2B de nicho, ganador) que de P5 (rechazada)."
+  },
+  "RES-4-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "COM-3-5",
+   "nota": "Identificar la aleación de lo que trae el cliente: misma idea que COM-3-5 (ganador), otro objeto."
+  },
+  "RES-4-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "PyMEs metalúrgicas venden viruta sin comparar precio; nada parecido en el registro (ver fusión con RES-1-2)."
+  },
+  "RES-4-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L1 (propia)",
+   "nota": "Vender auto chocado a desguace: comparte vendedor particular de autos con L1 (ganador), otro destino."
+  },
+  "RES-5-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Baja de equipos IT con borrado certificado; nada parecido."
+  },
+  "RES-5-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Compra instantánea de celulares usados; J1 era reventa propia sin celulares."
+  },
+  "RES-5-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L1 (propia), AUT-5-4",
+   "nota": "Certificar el estado de un celular usado: lógica de confianza en la compraventa de usados de L1 (ganador); AUT-5-4 (rechazada) es otro bien y otro cliente."
+  },
+  "RES-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Trazabilidad por número de serie en recicladoras de RAEE; nada parecido."
+  },
+  "RES-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Recupero de notebooks de empleados remotos; nada parecido."
+  },
+  "PET-1-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "LOG-1-3, LOG-1-2",
+   "nota": "Partes de servicio firmados que frenan o traban la facturación: mismo problema que LOG-1-3 (rechazada), con proveedores petroleros."
+  },
+  "PET-1-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-1-4, SAL-4-2",
+   "nota": "Cubrir picos con operarios habilitados: tema 'cubrir ausencias de personal' de EDU-1-4 (ganador) y SAL-4-2; SAL-4-5 (rechazada) es otro cliente."
+  },
+  "PET-1-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Carga de facturas en portales de proveedores de cada operadora; F24/B12 eran cobranzas, otro problema."
+  },
+  "PET-1-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L7 (propia)",
+   "nota": "Reportar emisiones a la operadora: L7 (huella de carbono, ganador) enfocada en proveedores petroleros."
+  },
+  "PET-1-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Trazabilidad por pieza de hierro de alta presión con certificados: tecnología de L13 (ganador)."
+  },
+  "PET-2-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Medir horas reales de equipos alquilados para facturar; LOG-4-2/4-3 son otros problemas (ver fusión con ALQ-1-2)."
+  },
+  "PET-2-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Disponibilidad y contratos de equipos alquilados en planillas; J34 era alquilar uno mismo a vecinos."
+  },
+  "PET-2-3": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L6 (propia)",
+   "nota": "Unir equipos ociosos con quien los necesita: misma lógica de capacidad ociosa que L6 (ganador)."
+  },
+  "PET-2-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia), L14 (propia)",
+   "nota": "Herramientas que se pierden entre cuadrillas: seguimiento de objetos con etiquetas como L13/L14 (ganadores)."
+  },
+  "PET-2-5": {
+   "estado": "R",
+   "repite_o_se_parece_a": "H25, H22, K5, F27",
+   "nota": "Fijar tarifas con inflación sin saber el precio de mercado: el monitoreo y la actualización de precios ya fueron rechazados varias veces."
+  },
+  "PET-3-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L6 (propia)",
+   "nota": "Despacho de camiones de arena entre cantera y locación: vecino de L6 (ganador)."
+  },
+  "PET-3-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Abastecimiento y disposición de agua de fractura; nada parecido."
+  },
+  "PET-3-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Nivel de tanques en locación para reabastecer; ALI-4-2 y C8 son otros problemas (ver fusión con ENE-3-2)."
+  },
+  "PET-3-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia)",
+   "nota": "Cámara con IA para detectar fatiga del chofer: tecnología de L12 (ganador), otro uso."
+  },
+  "PET-3-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "EDU-1-5",
+   "nota": "Traslado de operarios en combis: mismo tipo de solución que EDU-1-5 (ganador), otro cliente."
+  },
+  "PET-4-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Reservar y pagar alojamiento de cuadrillas; F27 era del lado del hotel, otro cliente."
+  },
+  "PET-4-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Asignar camas de campamento según rosters; nada parecido."
+  },
+  "PET-4-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Predecir fatiga antes del turno; nada parecido en el registro."
+  },
+  "PET-4-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Conteo de personas en emergencias con RFID: tecnología de L13 (ganador)."
+  },
+  "PET-4-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Empresas que alquilan casas para su personal sin estándar; CON-5 e I35 eran del lado del anfitrión."
+  },
+  "PET-5-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "D36",
+   "nota": "Informes de espesores y corrosión tipeados a mano: el generador de informes D36 (ganador) aplicado a inspección técnica."
+  },
+  "PET-5-2": {
+   "estado": "R",
+   "repite_o_se_parece_a": "LOG-4-4, CON-4-4, C17",
+   "nota": "Vencimientos de calibraciones perseguidos en planillas: mismo dolor de control de vencimientos ya rechazado."
+  },
+  "PET-5-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Gestión de detectores de gas personales y alarma de trabajador solo; nada parecido."
+  },
+  "PET-5-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L12 (propia), L7 (propia)",
+   "nota": "Monitoreo continuo de fugas de metano: vecino de L12 y L7 (ganadores)."
+  },
+  "PET-5-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Inspección interna de tanques con drones; C18 es control de calidad en planta, muy lejano."
+  },
+  "ALQ-1-1": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Equipos alquilados que se pierden: tecnología de seguimiento de L13 (ganador)."
+  },
+  "ALQ-1-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Cobrar las horas reales de uso de la maquinaria alquilada; nada parecido (ver fusión con PET-2-1)."
+  },
+  "ALQ-1-3": {
+   "estado": "R",
+   "repite_o_se_parece_a": "LOG-4-3, SER-3-3",
+   "nota": "Prueba con fotos del estado del equipo y de los daños: mismo problema que LOG-4-3/SER-3-3 (rechazadas), en renteras."
+  },
+  "ALQ-1-4": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L6 (propia)",
+   "nota": "Marketplace de disponibilidad de maquinaria entre renteras y contratistas: lógica de L6 (ganador); J34 era otro modelo."
+  },
+  "ALQ-1-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Logística de entregas y retiros y disponibilidad real de la rentera; nada idéntico en el registro."
+  },
+  "ALQ-2-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "C8, LOG-2-1, LOG-2-2",
+   "nota": "Rutas de limpieza armadas a mano y sin prueba del servicio: ruteo y prueba de entrega ya rechazados."
+  },
+  "ALQ-2-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Seguimiento de volquetes y días de alquiler; nada parecido (ver fusión con RES-2-2)."
+  },
+  "ALQ-2-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Pedido online de volquete con precio cerrado; nada parecido (ver fusión con RES-2-1)."
+  },
+  "ALQ-2-4": {
+   "estado": "R",
+   "repite_o_se_parece_a": "F28, CON-1-1, B30",
+   "nota": "Cómputo de piezas para cotizar: mismo tipo de tarea que F28 (rechazada) con un cliente más específico."
+  },
+  "ALQ-2-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L10 (propia), L13 (propia)",
+   "nota": "Piezas de andamio perdidas entre obras: conteo por foto o etiquetas de L10/L13 (ganadores)."
+  },
+  "ALQ-3-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Operar alquiler y reventa de prendas para marcas; D19 solo sería el canal."
+  },
+  "ALQ-3-2": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L13 (propia)",
+   "nota": "Prendas de alquiler perdidas entre local y tintorería: tecnología de L13 (ganador)."
+  },
+  "ALQ-3-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler de vestidos entre personas; J34 era alquilar herramientas propias a vecinos."
+  },
+  "ALQ-3-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler de trajes online con medidas a distancia; nada parecido."
+  },
+  "ALQ-3-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler online de vestidos con envío nacional; nada parecido (ver fusión con ALQ-3-3)."
+  },
+  "ALQ-4-1": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SAL-3-4, LOG-2-2",
+   "nota": "Entregas a domicilio coordinadas por teléfono sin prueba de entrega en el rubro salud: igual que SAL-3-4/LOG-2-2 (rechazadas)."
+  },
+  "ALQ-4-2": {
+   "estado": "R",
+   "repite_o_se_parece_a": "SAL-1-3, F22",
+   "nota": "Cadena de papeles y autorizaciones con obras sociales: mismo dolor que SAL-1-3/F22 (rechazadas), con el proveedor de equipamiento."
+  },
+  "ALQ-4-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Equipos de movilidad para turistas entregados en el hotel; nada parecido."
+  },
+  "ALQ-4-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Pasar oxígeno domiciliario de tubos a concentradores; nada parecido."
+  },
+  "ALQ-4-5": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Monitoreo del uso de CPAP alquilados; nada parecido."
+  },
+  "ALQ-5-1": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Deslinde de responsabilidad digital para renteras de aventura; CON-5-4 es otro cliente y otro problema."
+  },
+  "ALQ-5-2": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Estaciones de autoservicio de kayaks y SUP; nada parecido."
+  },
+  "ALQ-5-3": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Alquiler de equipo de camping con envío; nada parecido."
+  },
+  "ALQ-5-4": {
+   "estado": "N",
+   "repite_o_se_parece_a": "",
+   "nota": "Reserva online de equipo de ski; no es la agenda de turnos rechazada (H34), es alquiler de equipo."
+  },
+  "ALQ-5-5": {
+   "estado": "P",
+   "repite_o_se_parece_a": "L5 (propia)",
+   "nota": "Rentabilidad por unidad alquilada: mismo enfoque que L5 (IA analista de rentabilidad, ganador)."
+  }
+ },
+ "posibles_fusiones_dentro_de_mis_nichos": [
+  [
+   "RES-2-1",
+   "ALQ-2-3",
+   "pedir volquete online con precio cerrado"
+  ],
+  [
+   "RES-2-2",
+   "ALQ-2-2",
+   "seguimiento de volquetes y días de alquiler"
+  ],
+  [
+   "PET-2-1",
+   "ALQ-1-2",
+   "medir horas reales de uso de equipos alquilados para facturarlas"
+  ],
+  [
+   "PET-2-3",
+   "ALQ-1-4",
+   "marketplace de equipos o maquinaria ociosa"
+  ],
+  [
+   "PET-2-4",
+   "ALQ-1-1",
+   "herramientas y equipos que se pierden entre obras o cuadrillas"
+  ],
+  [
+   "ALQ-1-1",
+   "ALQ-2-5",
+   "piezas o equipos alquilados perdidos (andamios como caso)"
+  ],
+  [
+   "PET-2-2",
+   "ALQ-1-5",
+   "disponibilidad y movimientos de equipos alquilados en planillas"
+  ],
+  [
+   "ENE-3-2",
+   "PET-3-3",
+   "nivel remoto de tanques para reabastecer"
+  ],
+  [
+   "RES-1-2",
+   "RES-4-4",
+   "vender material reciclable o scrap sin precio de referencia"
+  ],
+  [
+   "RES-2-3",
+   "RES-2-5",
+   "sensores de llenado de contenedores"
+  ],
+  [
+   "PET-4-1",
+   "PET-4-5",
+   "alojamiento de personal en Vaca Muerta"
+  ],
+  [
+   "ALQ-3-3",
+   "ALQ-3-5",
+   "alquilar un vestido de fiesta para una noche"
+  ],
+  [
+   "SEG-1-3",
+   "SEG-3-1",
+   "detección perimetral por video en predios grandes"
+  ]
+ ]
+}

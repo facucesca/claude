@@ -1,0 +1,71 @@
+[
+ {
+  "id": "MOV-3-2",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "Brave 2026-10-14 'publicidad en autos de remis taxi Argentina empresa': hay publicidad en taxis ofrecida por agencias (VirtualMailer, https://virtualmailer.com.ar/publicidad-en-taxis-argentina/) y en Rosario se discute un piloto de publicidad en taxis (Rosario3, 2026-01-16, https://www.rosario3.com/informaciongeneral/publicidad-en-los-taxis-sugieren-una-rapida-implementacion-y-empezar-una-prueba-piloto-20260115-0057.html). No encontré una plataforma tipo Carvertise/Wrapify con medición por GPS de impresiones.",
+  "hueco_ar": 3,
+  "nota": "El medio existe en AR; lo que no encontré es la parte de medición (1 búsqueda).",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "MOV-3-3",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "Brave 2026-10-14 'app viajes compartidos combis entre pueblos interior Argentina reservar asiento': aparecen apps de carpooling entre particulares (Carpoolear https://carpoolear.com.ar/, BlaBlaCar https://www.blablacar.ar/, Viatik, Andiamo, Sfera) y una app de viajes compartidos en Sierras Chicas, Córdoba (La Voz). No encontré software para que remiserías/combis del interior armen rutas a demanda tipo Padam/Liftango.",
+  "hueco_ar": 3,
+  "nota": "Competencia indirecta: el carpooling entre particulares compite por el mismo pasajero.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "MOV-4-2",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "Brave 2026-10-14 'plataforma comparar escuelas de manejo instructores Argentina reseñas reservar clases': ya hay directorios que comparan autoescuelas con precios y reseñas (Autoescuelas.ar https://www.autoescuelas.ar/autoescuelas — 'filtra por provincia, ciudad y calificación'; examendemanejo.com.ar/escuelas-de-manejo/) y Superprof publica instructores de manejo con reserva (https://www.superprof.com.ar/clases/manejo/argentina/). No verifiqué tráfico ni si permiten reservar/pagar online como EzLicence.",
+  "hueco_ar": 2,
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "MOV-4-4",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "WebSearch 2026-10-14 'curso online reeducación vial recuperar puntos licencia de conducir Argentina': en CABA existe modalidad virtual del curso de reeducación vial para recupero de puntos, dictado por instituciones autorizadas (Asociación Civil Creando Conciencia Urbana y Sistemas Reid SA), según protocolo oficial (https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-DIS-MJGGC-DGDEI-10-20-ANX.pdf) y El Economista (https://eleconomista.com.ar/actualidad/como-recuperar-puntos-scoring-caba-n75549). No verifiqué otras provincias.",
+  "hueco_ar": 2,
+  "nota": "Corrección al detalle: al menos en CABA el curso ya se puede hacer online; el mercado está regulado y con proveedores autorizados por la jurisdicción.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "MOV-5-3",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "WebSearch 2026-10-14 'bicicletas por suscripción mensual o leasing para empleados de empresas Argentina': no encontré servicios de bici por suscripción mensual en Argentina; solo ejemplos europeos (Kleta, Decathlon España). Existen bicis públicas compartidas (ej. Ecobici en CABA), que no es lo mismo (no verificado en esta búsqueda).",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "MOV-5-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "Misma WebSearch 2026-10-14: no encontré leasing de bicis para empleados de empresas privadas en Argentina. Antecedente: la Municipalidad de San Martín (nota de Diario de Cuyo) ofreció a sus empleados bicis en 12 cuotas sin interés descontadas del sueldo (Diario de Cuyo 2021-11-01, https://www.diariodecuyo.com.ar/noticias/empleados-de-san-martin-van-a-poder-comprar-bicis-en-12-cuotas-sin-interes-177692.html).",
+  "hueco_ar": 4,
+  "nota": "No hay en AR beneficio impositivo equivalente al de Alemania (no lo verifiqué; a revisar con contador).",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "MUN-2-2",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "WebSearch 2026-10-14 'municipio Argentina telegestión alumbrado público luminarias LED inventario arbolado digital': Rosario anunció 35.000 luminarias LED con telegestión (La Capital, https://www.lacapital.com.ar/la-ciudad/el-municipio-va-la-instalacion-35-mil-luces-led-2023-n10024458.html) y un artículo técnico 2020 describe su sistema de telegestión con índice de apagado <1% (https://www.editores-srl.com.ar/sites/default/files/fernando_deco_20201204_evolucion_del_alumbrado_publico_en_la_ciudad_de_rosario.pdf). Philips/Signify tiene folleto para municipios argentinos (images.philips.com, 2016). No verifiqué cuántos municipios chicos la tienen.",
+  "hueco_ar": 2,
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "MUN-2-3",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "Misma WebSearch 2026-10-14 (alumbrado + 'inventario arbolado digital'): no aparecieron inventarios digitales de arbolado municipal en Argentina ni proveedores locales; solo la cifra de intervenciones en arbolado de Rosario.",
+  "hueco_ar": 4,
+  "nota": "Búsqueda compartida con MUN-2-2; 'no encontré' no es 'no existe'.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ },
+ {
+  "id": "TUR-3-5",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "WebSearch 2026-10-14 'propina digital QR Argentina guías turismo mozos app propinas': Mercado Pago lanzó propina por QR en julio 2024 (La Nación, https://www.lanacion.com.ar/tecnologia/como-es-la-nueva-funcion-de-mercado-pago-para-pagar-la-propina-desde-la-app-nid25072024/) y la cordobesa Tipeando permite dejar propina por QR sin registrarse (Forbes AR, https://www.forbesargentina.com/negocios/no-tengo-efectivo-como-funciona-app-permite-dejar-propina-traves-codigo-qr-n49769). Ambas apuntan a gastronomía; no encontré solución específica para guías/choferes ni para turistas extranjeros con tarjeta del exterior.",
+  "hueco_ar": 3,
+  "nota": "El hueco real es el turista extranjero sin cuenta local; no verifiqué si MP/Tipeando aceptan tarjetas extranjeras.",
+  "etiqueta": "2.ª pasada 2026-10-14"
+ }
+]

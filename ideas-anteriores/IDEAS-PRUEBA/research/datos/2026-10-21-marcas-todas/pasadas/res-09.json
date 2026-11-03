@@ -1,0 +1,122 @@
+[
+ {
+  "n": "M019",
+  "opinion": "Entendí que Facu propone tres caminos: una app por rubro con los cálculos hechos, un dron que mide todo o un sistema en el celular donde se cargan metros y alturas aproximadas. La versión más simple, cargar medidas a mano y que la app saque litros, mano de obra y precio, es la única construible sin programar. El problema es que esa versión ya existe gratis en calculadoras web, así que sola no se cobra. El valor real está en medir sin ir, y eso es foto con IA o dron, que es difícil y caro. Mi opinión: sirve como herramienta de venta para pintores, no como negocio solo.",
+  "hallazgos": "No apareció una app argentina que mida paredes por foto para pintores. [https://contractorplus.app/es/blog/how-to-estimate-painting-jobs] Ya hay calculadoras web gratis en español que sacan litros según medidas, manos y rendimiento. [https://hacecuentas.com/calculadora-pintura-paredes-habitacion-litros] Contractor+ ofrece presupuestos para contratistas en español, sin medición por foto ni precios en pesos. [https://contractorplus.app/es/blog/painting-software-buyers-guide-12-features-painters-actually-need] Una nota de 2026 marca que el error común es confundir m² de piso con m² de pared: una pieza de 3 por 4 tiene 12 m² de piso y unos 36 m² de pared. [https://roomix.ai/blog/cuanto-cuesta-pintar-casa-2026] Las reglas de ANAC para volar drones con fines comerciales: no verificado.",
+  "variantes": [
+   "La de Facu, versión celular: el pintor carga largo, ancho y alto de cada ambiente, la app descuenta aberturas y arma un presupuesto con su logo para mandar por WhatsApp. Cobro mensual bajo al pintor.",
+   "Presupuesto a distancia por video: el cliente graba un video de la casa, una persona con IA estima metros y el pintor recibe el presupuesto armado. Se cobra por presupuesto, sin hardware.",
+   "Mismo motor para instaladores solares que necesitan medir techos (ENE-1-1), donde el ticket es mucho más alto que en pintura."
+  ],
+  "puntuacion": 6.2,
+  "por_que_puntuacion": "La versión que Facu puede hacer ya está gratis en la web, y la versión valiosa, medir por foto o dron, es técnicamente difícil. Baja respecto de 7,2 porque el hueco es de tecnología, no de mercado.",
+  "tema": "Hogar, obra y barrio",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "Estimación: USD 0 a 100 (planilla o formulario no-code y anuncios mínimos)",
+  "primer_paso": "Armar en una planilla con formulario el presupuestador por medidas y dárselo a 10 pintores de grupos de Facebook para ver si lo usan y si pagarían.",
+  "riesgo_principal": "Que el pintor no pague por algo que hoy hace a ojo o con una calculadora gratis.",
+  "agrupar_con": ["M054", "ENE-1-1"]
+ },
+ {
+  "n": "M054",
+  "opinion": "Facu ve un hueco real: en la obra chica el jefe de obra suele ser un albañil con experiencia, sin orden ni herramientas. Su giro clave es que la pague el dueño de la obra, no el albañil, y que sea barata. Eso tiene sentido: el que pone la plata es el que quiere control de avance, gastos y fotos. El riesgo es que el albañil no quiera cargar nada y la app muera sin uso. Si se diseña para que el albañil solo mande fotos y audios por WhatsApp y otro ordene, puede andar.",
+  "hallazgos": "Softland vende un ERP de obra en Argentina con presupuestos, certificaciones y avance, pensado para constructoras medianas o grandes. [https://softland.com/ar/?p=30284] Brickup RDO hace partes diarios de obra con fotos, clima y previsto contra realizado. [https://mwm.ai/es/apps/brickup-rdo/6504710548] SuiviChantier de Francia tiene plan gratis para menos de 3 empleados y PRO a 50 € por mes. [https://www.appvizer.es/construccion/obra/suivichantiercom] Fieldwire ofrece gestión en obra en español. [https://www.fieldwire.com/es/lp/software-de-gestion-en-obra] En dos búsquedas no apareció una app argentina pensada para el dueño de una obra chica con un albañil a cargo. [https://servidos.ar/p/9qes0J/maria-victoria-ferreyra] Que no exista: no verificado del todo.",
+  "variantes": [
+   "La de Facu: el dueño de la obra paga un abono por obra; el albañil manda fotos y audios por WhatsApp; un bot arma el parte diario, la lista de materiales pedidos y los pagos hechos.",
+   "Vendérsela a corralones: el corralón la regala a sus clientes de obra chica y gana porque los pedidos de materiales salen de la app hacia él.",
+   "Modo un solo jugador: un cuaderno de obra para el dueño, sin que el albañil use nada; el dueño carga gastos y fotos y ve cuánto lleva gastado contra el presupuesto."
+  ],
+  "puntuacion": 6.3,
+  "por_que_puntuacion": "Hay dolor y no apareció competidor local para la obra chica, pero lograr que el albañil cargue datos es el gran riesgo. Sube apenas porque el giro de que pague el dueño está bien pensado.",
+  "tema": "Hogar, obra y barrio",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "Estimación: USD 0 a 150 (grupo de WhatsApp más planilla, sin app al principio)",
+  "primer_paso": "Conseguir 3 familias que estén haciendo una obra chica y llevarles a mano durante 2 semanas un parte diario por WhatsApp con fotos, gastos y avance, y preguntarles cuánto pagarían.",
+  "riesgo_principal": "Que el albañil no quiera ser controlado y no mande nada.",
+  "agrupar_con": ["M019", "M079"]
+ },
+ {
+  "n": "M057",
+  "opinion": "Facu la marcó como interesante sin comentario, así que evalúo la idea tal cual. Lo nuevo y fuerte es que la Provincia de Buenos Aires habilitó en 2026 la generación comunitaria, lo que crea la figura legal que la idea necesita. Juntar 30 a 100 vecinos es lento y caro de coordinar, y el ticket por vecino es alto en un país con poca financiación. Es más un negocio de armado de grupos que un software. Me parece buena para aprender el sector energía, pero el ciclo de venta es largo para la etapa 1.",
+  "hallazgos": "La Provincia de Buenos Aires habilitó la generación distribuida comunitaria con la Resolución 17/2026 del Ministerio de Infraestructura: permite asociar varios usuarios con más de 10 kW, todos conectados a la misma distribuidora, con un Usuario Generador Comunitario Titular responsable y crédito en la factura. [https://www.econoblog.com.ar/?p=152945] Forbes Argentina dice que los paneles en el hogar todavía no despegan en el país. [https://www.forbesargentina.com/money/paneles-solares-hogar-una-tendencia-furor-mundo-pero-todavia-despega-argentina-n39595] En una búsqueda nueva tampoco apareció una plataforma argentina de compra colectiva de paneles. [https://www.ocu.org/vivienda-y-energia/paneles-fotovoltaicos/informe/autoconsumo-colectivo] Texto oficial de la resolución y cómo se aplica en la práctica: no verificado.",
+  "variantes": [
+   "Tal cual: compra en grupo por barrio cerrado o country de zona norte, con licitación entre instaladores y comisión por lote ganado.",
+   "Solo el papeleo: gestionar la alta como usuario-generador comunitario para cooperativas y grupos que ya tienen instalador, cobrando por expediente (se cruza con ENE-1-2).",
+   "Cambiar de cliente: compra en grupo para PyMEs de un mismo parque industrial, donde el consumo y el ticket son más altos y deciden menos personas."
+  ],
+  "puntuacion": 6.4,
+  "por_que_puntuacion": "La resolución bonaerense de 2026 abre un hueco real y no hay plataforma local. Le pongo un techo porque coordinar decenas de vecinos con ticket alto es lento y Facu no tiene ventaja en energía.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "Estimación: USD 50 a 200 (landing gratis y posteos en grupos de vecinos)",
+  "primer_paso": "Leer la Resolución 17/2026 completa y publicar una landing de Solar en grupo en 2 barrios bonaerenses para contar cuántos vecinos se anotan en 2 semanas.",
+  "riesgo_principal": "Que se anoten muchos curiosos y pocos con plata para pagar la instalación.",
+  "agrupar_con": ["ENE-1-2", "ENE-1-4"]
+ },
+ {
+  "n": "M079",
+  "opinion": "Facu mismo dejó dudas y pidió explicarla mejor. Explicada: el dueño paga una cuota fija por mes y, cuando se rompe algo de la casa, se lo arreglan sin pagar aparte. Si cubre todo, es en los hechos un seguro y puede caer bajo la regulación de seguros, que no es para alguien con USD 1.300. Además, el que más se anota es el que tiene la casa más rota. La versión que sí funciona es más chica: mantenimiento preventivo con visitas programadas y arreglos menores con tope.",
+  "hallazgos": "Existe un plan de asistencia al hogar con hasta 2 eventos por rubro por año y tope de $10.000 por evento, para arreglos menores de plomería y electricidad; no pude confirmar qué empresa lo emite. [https://directo31buscador-e6jpm.kinsta.page/assets/pdf/tyc_asistencia_hogar-vf-2023_v2.pdf] Una calculadora sugiere reservar entre 1% y 3% del valor de la propiedad por año para mantenimiento. [https://hacecuentas.com/calculadora-costo-mantenimiento-hogar-anual] No apareció una oferta argentina de abono mensual de mantenimiento con precio publicado. [https://servidos.ar/clasificados/servicios] Si cubrir todo exige registrarse como aseguradora ante la SSN: no verificado.",
+  "variantes": [
+   "La de Facu, acotada: abono mensual con una visita preventiva por trimestre y arreglos menores sin cargo con tope de horas; lo grande se presupuesta aparte.",
+   "Vendérsela a administradores de consorcios o inmobiliarias que alquilan: el abono cubre las unidades en alquiler y el inquilino llama a un solo número.",
+   "Producto sin personas: un plan de mantenimiento de la casa por app que avisa qué revisar cada mes y conecta con oficios cuando hace falta."
+  ],
+  "puntuacion": 5.4,
+  "por_que_puntuacion": "Como la pensó Facu es un seguro, con riesgo regulatorio y de que se anoten solo las casas con problemas. Baja de 5,8 porque además es servicio con personas, no producto global.",
+  "tema": "Hogar, obra y barrio",
+  "tipo": "Servicio con personas",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "Estimación: USD 100 a 300 (landing, anuncios y un oficio de confianza para las primeras visitas)",
+  "primer_paso": "Preguntarle a 15 dueños de casa cuánto gastaron en arreglos el último año y si pagarían una cuota fija por visitas preventivas con tope.",
+  "riesgo_principal": "Que funcione como un seguro sin serlo y un par de arreglos grandes se coman toda la plata de las cuotas.",
+  "agrupar_con": ["M054", "M106"]
+ },
+ {
+  "n": "M100",
+  "opinion": "Facu la marcó como interesante, pero ya hay competencia directa en Argentina. Kigüi hace descuentos por vencimiento desde 2022 y Cheaf vende bolsas sorpresa con retiro desde 2025. Entrar de cero contra dos jugadores con años y plata no tiene sentido para la etapa 1. Ojo también: el control de mermas y vencimientos para almacenes, C9, es algo que Facu ya no eligió. Solo vale si se mete adentro de la idea de stock que sí eligió, K11.",
+  "hallazgos": "Cheaf llegó a Argentina con bolsas sorpresa de panadería, frutas y verduras, fiambres y lácteos al 50% del precio. [https://americaretail-malls.com/paises/argentina/la-app-cheaf-aterriza-en-argentina-para-salvar-comida-con-descuento/] Kigüi funciona por reintegro: el cliente fotografía el producto y el ticket y recibe entre 10% y 30%, y según sus fundadores paga la marca. [https://economiasustentable.com/noticias/como-funciona-la-app-que-recompensa-a-consumidores-que-eligen-productos-con-fechas-de-vencimiento-cercanas] Estado de las dos en 2026: no verificado.",
+  "variantes": [
+   "Tal cual pero solo para almacenes y dietéticas de un barrio, por canal de WhatsApp, donde Cheaf y Kigüi no llegan. Habría que confirmar que no llegan.",
+   "Sumarlo como función de la idea de stock que Facu ya eligió (K11, control de vencimientos y FIFO): la alerta de vencimiento dispara el descuento.",
+   "Otro cliente: excedentes por vencer de distribuidoras mayoristas vendidos a comedores o a revendedores, no al consumidor final."
+  ],
+  "puntuacion": 4.6,
+  "por_que_puntuacion": "Hay competencia directa con plata y años en el mercado, y la parte de mermas para almacenes ya la descartó Facu. Solo sirve como pieza de otra idea.",
+  "tema": "Comida y alimentos",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "Estimación: USD 0 a 50 (canal de WhatsApp con un almacén conocido)",
+  "primer_paso": "Pedirle a un almacén conocido que durante 2 semanas publique lo que vence en un canal de WhatsApp con precio que baja cada día, y medir cuánto se vendió.",
+  "riesgo_principal": "Que Cheaf o Kigüi ya cubran el mismo barrio y el almacén no vea razón para cambiar.",
+  "agrupar_con": ["K11", "ALI-2-2"]
+ },
+ {
+  "n": "M106",
+  "opinion": "La intención de Facu es noble y el dato lo respalda: la mayoría de las trabajadoras de casas particulares están en negro. Pero es un negocio de personas, no un producto, y él mismo lo marcó así. El margen depende de cobrarle al hogar más que el piso legal más cargas, en un mercado donde el competidor es la informalidad, que siempre es más barata. Sirve como empresa de servicios si el cliente es una empresa, un country o un consorcio, que necesitan factura y no pueden contratar en negro.",
+  "hallazgos": "El piso de octubre de 2026 para tareas generales es $4.064,08 la hora con retiro y $498.582,06 por mes, por la Resolución 6/2026 de la Comisión Nacional de Trabajo en Casas Particulares, con suba de 1,6% en noviembre y otra en diciembre. [https://www.todojujuy.com/empleadas-domesticas-aumentan-los-sueldos-octubre-noviembre-y-diciembre-2026-n297275] Una nota de 2024 estima unas 1,7 millones de personas en trabajo doméstico y solo 500.000 registradas. [https://www.noticiasnqn.com.ar/noticias/2024/09/30/304117-mas-de-un-millon-de-trabajadoras-domesticas-en-argentina-quedan-fuera-del-blanqueo-un-duro-golpe-a-la-formalizacion] No hay modalidad de servicio doméstico que no deba registrarse ante ARCA, sin importar las horas. [https://www.iprofesional.com/management/416722-arca-afip-cuando-es-obligatorio-registrar-empleada-domestica] Si una empresa que emplea y manda trabajadoras a hogares queda en el régimen de casas particulares o en el convenio de limpieza: no verificado. Precio por hora de Zolvers: no verificado.",
+  "variantes": [
+   "La de Facu: empresa que emplea en blanco y por encima del piso, y vende horas a hogares con factura, garantía de reemplazo y trabajadora estable.",
+   "Cambiar de cliente: limpieza en blanco para oficinas chicas, consultorios, countries y consorcios, que necesitan factura y valoran la estabilidad.",
+   "Producto en vez de empresa: una app que le hace al hogar toda la registración en ARCA, recibos, aguinaldo y aumentos, para que tener a la empleada en blanco sea fácil."
+  ],
+  "puntuacion": 5.0,
+  "por_que_puntuacion": "Hay un problema real y grande, pero es un servicio con personas que compite contra la informalidad y tiene riesgo laboral alto. La variante de app para registrar podría puntuar mejor, pero hay que ver competencia.",
+  "tema": "Hogar, obra y barrio",
+  "tipo": "Servicio con personas",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "Estimación: USD 50 a 150 (encuesta y landing; contratar gente real es mucho más)",
+  "primer_paso": "Preguntar a 20 hogares y 5 consorcios u oficinas cuánto pagarían por hora por una trabajadora en blanco con reemplazo garantizado y comparar con el piso legal más cargas.",
+  "riesgo_principal": "Que el precio necesario para pagar en blanco y ganar quede muy arriba del valor informal y nadie lo pague.",
+  "agrupar_con": ["M079"]
+ }
+]

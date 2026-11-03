@@ -1,0 +1,434 @@
+[
+ {
+  "n": "M015",
+  "quien_lo_intento": "Baufest, empresa argentina de software, armó en 2021 un desarrollo de visión por computadora para medir daño y maduración de fruta en embarques de exportadores. Se entrenó con cientos de fotos. La nota no dice que se venda como producto ni da su precisión [https://mercado.com.ar/tecnologia/baufest-utiliza-ia-para-detectar-danos-en-frutas, nota del 2021-09-09, consulta 2026-10-23]. Busqué startup argentina de IA para calidad de fruta en empaques del Alto Valle y no apareció ninguna [búsqueda 2026-10-23]. Tevel, que aparece con drones cosechadores en el Alto Valle, es israelí y no hace control de calidad [https://www.rionegro.com.ar/?p=3029677].",
+  "competencia": "En Argentina no encontré un producto local a la venta. Afuera ya están Clarifresh, Intello Labs, DiMuto con Intel y Hectre Arc, según la primera pasada. Las máquinas calibradoras de los empaques grandes ya clasifican por color y calibre: no verificado qué parte del defecto cubren. El hueco posible es el control en destino o en recepción para empaques medianos que no tienen línea óptica: no verificado.",
+  "regulacion": "No hay norma que exija usar IA. Lo que manda es la inspección de SENASA para exportar y las normas de calidad del comprador. Una nota cuenta que Brasil rechazó un embarque por larvas, sin fecha confirmada [https://www.ambito.com/peras-a5124651]. Cómo se reclama calidad entre exportador y comprador: no verificado.",
+  "numeros": "Sin precios publicados de la competencia. Estimación: un informe por contenedor podría cobrarse USD 20 a 50 si evita un descuento por reclamo. El razonamiento es que un descuento chico sobre un contenedor de fruta ya vale más que eso. El costo por informe con Claude es de centavos. El costo grande es armar el modelo: miles de fotos etiquetadas de una fruta y un defecto, meses de trabajo.",
+  "mercado": "Hasta fines de febrero de 2025 se certificaron 66.949 toneladas de pera exportada desde el sur, según datos de SENASA citados por prensa [https://www.noticiasnqn.com.ar/noticias/2025/03/26/311300-exportacion-de-frutas-certifican-el-envio-de-76848-toneladas-desde-el-sur-argentino]. El sector está en crisis: el stock de pera en frío pasó de 33.000 toneladas en 2023 a 52.000 en 2024 y Rusia dejó de comprar unas 40.000 toneladas [https://www.rionegro.com.ar/economia/sobrestock-y-bajas-ventas-el-panorama-de-la-fruticultura-en-rio-negro-de-cara-a-la-temporada-2025-3855009/?amp=1]. Cantidad de empaques: sin dato.",
+  "variante_recomendada": "No la app general de Facu, que no tiene quién pague. Probaría el informe de reclamo: el exportador o su agente en destino saca fotos al abrir el contenedor y recibe un informe con porcentaje de daño para negociar. Al principio lo arma Claude con revisión humana, sin modelo propio entrenado.",
+  "entrevistar_a": [
+   "Jefes de calidad de empaques medianos de pera y manzana del Alto Valle; se los encuentra vía la Cámara Argentina de Fruticultores Integrados (CAFI) y LinkedIn.",
+   "Exportadores de fruta fresca que venden a Brasil y Europa; listados de exportadores de SENASA y ferias como Fruit Attraction.",
+   "Inspectores independientes de calidad en destino, por ejemplo surveyors contratados por importadores; LinkedIn buscando 'fruit quality inspector'."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue el último reclamo de calidad que les hizo un comprador y cómo terminó?",
+   "¿Cuánta plata perdieron en ese reclamo, entre descuento, flete y fruta tirada?",
+   "¿Qué pruebas tenían a mano para discutirlo y quién las juntó?",
+   "¿Hoy le pagan a alguien para inspeccionar la fruta en destino? ¿Cuánto?",
+   "¿Qué hicieron distinto después de ese reclamo?"
+  ],
+  "experimento": {
+   "hipotesis": "Los exportadores de pera y manzana pierden plata en reclamos de calidad y pagarían por un informe con fotos que los ayude a negociar.",
+   "prediccion": "De 15 exportadores o empaques contactados, al menos 5 cuentan un reclamo concreto del último año y 2 aceptan mandar fotos de un lote real.",
+   "perdida_maxima": "USD 60",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar con Claude un informe de muestra con fotos públicas de pera dañada.",
+    "Contactar 15 empaques o exportadores por LinkedIn y por CAFI.",
+    "Hacer las entrevistas con las preguntas de arriba.",
+    "Ofrecer 2 informes gratis sobre lotes reales y pedir que digan cuánto pagarían."
+   ],
+   "sigue_si": "5 o más cuentan un reclamo con monto y al menos 1 ofrece pagar por el siguiente informe.",
+   "se_corta_si": "Menos de 3 recuerdan un reclamo concreto o todos dicen que el seguro o el comprador ya lo resuelven."
+  },
+  "puntuacion_revisada": 5.8,
+  "por_que_revisada": "Baja porque el único intento argentino visto es de 2021 y no se volvió producto, y porque el sector frutícola está en crisis de precios, con poca plata para gastar en herramientas nuevas.",
+  "veredicto": "Probar si las entrevistas muestran reclamos con monto concreto, porque sin ese dolor medido el modelo de IA es un gasto de meses sin cliente.",
+  "fuentes": [
+   "https://mercado.com.ar/tecnologia/baufest-utiliza-ia-para-detectar-danos-en-frutas",
+   "https://www.rionegro.com.ar/?p=3029677",
+   "https://www.ambito.com/peras-a5124651",
+   "https://www.noticiasnqn.com.ar/noticias/2025/03/26/311300-exportacion-de-frutas-certifican-el-envio-de-76848-toneladas-desde-el-sur-argentino",
+   "https://www.rionegro.com.ar/economia/sobrestock-y-bajas-ventas-el-panorama-de-la-fruticultura-en-rio-negro-de-cara-a-la-temporada-2025-3855009/?amp=1"
+  ]
+ },
+ {
+  "n": "M027",
+  "quien_lo_intento": "No encontré a nadie en Argentina ni en Latinoamérica que venda estudio de tiempos por video con IA a PyMEs. Busqué 'estudio de tiempos con video inteligencia artificial software español Latinoamérica pymes'. Lo más cercano es SPOT, de El Salvador, que hace análisis de video con IA, sin confirmar que mida tiempos [https://eonetwork.org/gsea-finalists/julio-abrego/].",
+  "competencia": "Afuera: DeepHow, Coats GSD RealMotion y el análisis por video de MTM, ya vistos en la primera pasada. Squint, app de EE.UU., genera instrucciones de trabajo a partir de video y es gratis para bajar; no encontré que mida tiempos ni sus precios [https://apps.apple.com/us/app/id1621043749]. Ninguna aparece con oferta en castellano para PyMEs argentinas: no verificado. El hueco es el idioma, el protocolo de filmación y el informe listo para un dueño de PyME.",
+  "regulacion": "No aplica como norma. Ojo con filmar empleados: hay que avisarles y cuidar los datos personales. El detalle legal no verificado.",
+  "numeros": "Estimación: un diagnóstico por video de una línea a USD 150 a 300, por comparación con lo que cobra una consultoría chica de un día. Costo directo bajo: Claude y el tiempo de Facu, unas 4 a 8 horas por línea si el protocolo está bien armado. Margen alto por operación, pero es horas de Facu: no escala sin automatizar el análisis.",
+  "mercado": "Sin dato del número de plantas PyME que harían esto. No busqué el padrón de industrias de INDEC en esta pasada.",
+  "variante_recomendada": "La bolsa que pide Facu, pero con un solo producto: diagnóstico por video de precio fijo para un rubro, con informe Yamazumi en castellano. Sirve para conseguir casos y aprender qué partes del análisis se pueden automatizar. Si en 3 casos la IA hace más de la mitad del trabajo, recién ahí pensar en producto.",
+  "entrevistar_a": [
+   "Jefes de producción de PyMEs metalúrgicas o de alimentos de 20 a 100 empleados; cámaras industriales locales y la red de CEMEVA.",
+   "Ingenieros industriales que ya hacen consultoría de mejora; grupos de egresados y LinkedIn.",
+   "Dueños de talleres de confección o armado; parques industriales de la zona."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que midieron cuánto tarda un puesto y cómo lo hicieron?",
+   "¿Qué decisión tomaron con ese número?",
+   "¿Le pagaron a alguien de afuera para mejorar la producción en los últimos dos años? ¿Cuánto?",
+   "¿Dónde se les acumula trabajo hoy en la planta y cómo se dan cuenta?",
+   "¿Alguna vez filmaron un puesto de trabajo? ¿Qué pasó con ese video?"
+  ],
+  "experimento": {
+   "hipotesis": "Una PyME paga por un diagnóstico de una línea si solo tiene que filmar con el celular siguiendo un protocolo.",
+   "prediccion": "De 3 diagnósticos gratis, al menos 1 planta pide un segundo pago, y el análisis con Claude lleva menos de 6 horas por línea.",
+   "perdida_maxima": "USD 50",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Escribir el protocolo de filmación de una página.",
+    "Hacer el primer diagnóstico en CEMEVA y medir las horas.",
+    "Ofrecer 2 más gratis a PyMEs conocidas.",
+    "Al entregar, ofrecer una segunda línea a USD 150."
+   ],
+   "sigue_si": "Al menos 1 de 3 paga la segunda línea y las horas por línea bajan en cada caso.",
+   "se_corta_si": "Ninguna paga o cada análisis lleva más de 10 horas."
+  },
+  "puntuacion_revisada": 6.0,
+  "por_que_revisada": "Baja un poco porque sigue siendo servicio a medida, lo que Facu dijo que no quiere, y no aparece una herramienta que automatice el análisis en castellano para revender.",
+  "veredicto": "Probar si se usa como puerta de entrada para aprender y conseguir casos, no como negocio en sí, porque como producto todavía no existe.",
+  "fuentes": [
+   "https://eonetwork.org/gsea-finalists/julio-abrego/",
+   "https://apps.apple.com/us/app/id1621043749",
+   "https://mtm.org/en/software/ai-video-analysis"
+  ]
+ },
+ {
+  "n": "M049",
+  "quien_lo_intento": "No encontré a nadie que haga inspección independiente de maquinaria agrícola usada en Argentina. Busqué 'peritaje inspección maquinaria agrícola usada tasación independiente argentina servicio'. Solo apareció material de CESVIMAP, de España, sobre peritaje de maquinaria [https://documentacion.fundacionmapfre.org/documentacion/media/group/1118684.do].",
+  "competencia": "Agroads y Metalfor certifican como vendedores, ya visto antes. Lo que sí apareció es un motivo nuevo: el Decreto 273/25 eliminó el certificado de importación de bienes usados y abrió la entrada de maquinaria usada [https://bichosdecampo.com/y-que-piensan-el-viejo-john-y-sus-amigos-las-grandes-marcas-calificaron-la-importacion-de-maquinaria-usada-como-una-decision-abrupta-que-podria-destruir-el-futuro-del-sector-agricola]. Eso suma equipos de origen dudoso y hace más útil un tercero que inspeccione. Hueco: nadie independiente.",
+  "regulacion": "Decreto 273/25, según Bichos de Campo del 2025-04-18: elimina el CIBU y facilita importar usados. No lo leí en el Boletín Oficial: condiciones exactas no verificadas. Para inspeccionar no hace falta matrícula según lo que encontré: no verificado.",
+  "numeros": "Estimación: cobro de USD 100 por inspección al comprador, como en la primera pasada. Pago al mecánico local USD 40 a 50. Costo de cobro: no pude leer la tarifa oficial de Mercado Pago; una nota de 2023 da 6,49% + IVA para cobro inmediato con crédito, dato viejo [https://www.iprofesional.com/tecnologia/386153-mercado-pago-que-debes-saber-sobre-comisiones-plazos-y-montos]. Margen estimado USD 40 a 50 por inspección antes de publicidad.",
+  "mercado": "AFAT estima que entre 60% y 75% de las ventas de equipos nuevos incluye tomar un usado como parte de pago [https://bichosdecampo.com/y-que-piensan-el-viejo-john-y-sus-amigos-las-grandes-marcas-calificaron-la-importacion-de-maquinaria-usada-como-una-decision-abrupta-que-podria-destruir-el-futuro-del-sector-agricola]. En 2025 se patentaron 4.882 tractores nuevos en once meses y ACARA estima casi 4.000 tractores chinos importados [https://bichosdecampo.com/claroscuro-en-2025-crecio-fuerte-la-facturacion-de-maquinaria-agricola-pero-se-vendieron-menos-tractores-y-sembradoras-aunque-mas-cosechadoras/]. Ventas de usados por año: sin dato.",
+  "variante_recomendada": "La original, cobrada al comprador, pero arrancando con un solo tipo de máquina: tractores de 100 a 200 HP. Sumar desde el inicio el usado importado, que es lo nuevo por el Decreto 273/25. La versión cobrada al vendedor queda para después, cuando el sello tenga nombre.",
+  "entrevistar_a": [
+   "Productores y contratistas que compraron un tractor usado en otra provincia en el último año; grupos de Facebook y WhatsApp de compraventa de maquinaria.",
+   "Concesionarios que toman usados como parte de pago; concesionarios de la zona de CEMEVA.",
+   "Mecánicos rurales y contratistas con tiempo libre en contraestación; talleres de la zona."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo fue la última vez que compraste una máquina usada lejos de tu casa?",
+   "¿Viajaste a verla? ¿Cuánto te costó el viaje y cuánto tiempo perdiste?",
+   "¿Te pasó comprar algo que salió peor de lo que te dijeron? ¿Cuánto te costó arreglarlo?",
+   "¿A quién llamaste para que la revise y cuánto le pagaste?",
+   "¿Qué papeles o fotos le pediste al vendedor antes de cerrar?"
+  ],
+  "experimento": {
+   "hipotesis": "Un comprador de maquinaria usada paga USD 100 por una inspección estandarizada hecha por un mecánico de la zona antes de viajar.",
+   "prediccion": "Con 10 publicaciones en grupos de compraventa, al menos 3 piden precio y 1 paga una inspección en 3 semanas.",
+   "perdida_maxima": "USD 150",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Armar con Claude el checklist de tractor y un informe de muestra con semáforo.",
+    "Conseguir un mecánico de la zona de CEMEVA que haga la primera.",
+    "Publicar la oferta en 10 grupos de compraventa de maquinaria.",
+    "Cobrar por link de pago y medir cuántos preguntan y cuántos pagan."
+   ],
+   "sigue_si": "Al menos 1 inspección pagada y 3 consultas serias.",
+   "se_corta_si": "Cero pagos y menos de 3 consultas en 4 semanas."
+  },
+  "puntuacion_revisada": 6.8,
+  "por_que_revisada": "Sube un poco porque sigue sin aparecer un inspector independiente y la apertura a usados importados crea un motivo nuevo para pagar por revisar.",
+  "veredicto": "Probar ya, porque se testea con un checklist, un mecánico conocido y menos de USD 150, y el hueco sigue abierto.",
+  "fuentes": [
+   "https://documentacion.fundacionmapfre.org/documentacion/media/group/1118684.do",
+   "https://bichosdecampo.com/y-que-piensan-el-viejo-john-y-sus-amigos-las-grandes-marcas-calificaron-la-importacion-de-maquinaria-usada-como-una-decision-abrupta-que-podria-destruir-el-futuro-del-sector-agricola",
+   "https://bichosdecampo.com/claroscuro-en-2025-crecio-fuerte-la-facturacion-de-maquinaria-agricola-pero-se-vendieron-menos-tractores-y-sembradoras-aunque-mas-cosechadoras/",
+   "https://www.iprofesional.com/tecnologia/386153-mercado-pago-que-debes-saber-sobre-comisiones-plazos-y-montos"
+  ]
+ },
+ {
+  "n": "M063",
+  "quien_lo_intento": "Bastó, de Río Cuarto, arrancó pruebas a campo en marzo de 2020 y planeaba vender desde 2021 a productores medianos y grandes [https://bichosdecampo.com/el-caso-basto-vacas-con-collares-que-reemplazan-el-alambrado-y-permiten-realizar-un-pastoreo-de-precision, nota del 2020-08-25]. Su financiamiento registrado es chico, USD 70.000, ya visto antes. Halter, de Nueva Zelanda, entró a Uruguay en septiembre de 2026 con un piloto de 6 meses y 100 vacas en INIA La Estanzuela [https://www.elobservador.com.uy/el-unicornio-neozelandes-halter-desembarca-uruguay-traves-un-acuerdo-inia-aplicar-su-tecnologia-alambrado-virtual-el-manejo-del-ganado-n6058238]. También buscaba en junio de 2026 un especialista en Buenos Aires con viajes por Argentina, Uruguay y Brasil [https://jobs.blackbird.vc/companies/halter/jobs/84476853-customer-onboarding-specialist].",
+  "competencia": "Bastó: precio no publicado, no verificado. Halter: suscripción anual con precio a cotizar según campo y cantidad de animales. Su ejecutiva dijo que prefieren instalarse directo en cada mercado y no operar con terceros [https://www.elobservador.com.uy/el-unicornio-neozelandes-halter-desembarca-uruguay-traves-un-acuerdo-inia-aplicar-su-tecnologia-alambrado-virtual-el-manejo-del-ganado-n6058238]. Eso le cierra a Facu la puerta de ser integrador de Halter.",
+  "regulacion": "No encontré una norma argentina sobre collares de cerco virtual. Bienestar animal y homologación de equipos de radio: no verificado.",
+  "numeros": "Sin precios verificados de Bastó ni Halter. Estimación: el collar es el costo grande y Facu tendría que comprarlo o financiarlo. Con USD 1.300 de ahorros no alcanza ni para un rodeo chico si cada collar sale cientos de dólares: estimación por precios de collares de afuera, no verificados hoy.",
+  "mercado": "El stock bovino cerró 2025 en 50.920.790 cabezas, 1,36% menos que el año anterior, según el Ministerio con datos de SENASA [https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_interes/informes/_archivos/000001=Series%20de%20stock%20bovino%20y%20mapas/000000_Stock/251231_Informe%20cierre%20de%20existencias%20bovinas%20al%2031-12-2025.pdf]. Cuántos productores usan cerco virtual: sin dato.",
+  "variante_recomendada": "Sacar el collar, como dice la segunda variante de la primera pasada. Probar solo el plan de pastoreo por WhatsApp con agua y pesaje, que no compiten con Halter ni piden capital. El paquete con collares queda para etapa 2 o como socio de Bastó si Bastó quiere.",
+  "entrevistar_a": [
+   "Ganaderos de cría de 200 a 1.000 cabezas de la zona de CEMEVA; remates y la red de clientes de la empresa.",
+   "Asesores de grupos CREA de ganadería; regionales CREA.",
+   "El equipo comercial de Bastó, para saber precio y si busca instaladores; contacto por su web o LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo decidiste la última rotación de potreros y cuánto te llevó?",
+   "¿Cuánto gastaste en alambrado o en personal para mover hacienda el último año?",
+   "¿Cuándo fue la última vez que se te quedó sin agua un bebedero y cuánto tardaste en enterarte?",
+   "¿Pesás la hacienda? ¿Cada cuánto y con qué?",
+   "¿Pagás hoy algún servicio por mes para el campo? ¿Cuál y cuánto?"
+  ],
+  "experimento": {
+   "hipotesis": "Un ganadero mediano paga por mes un plan de pastoreo con IA por WhatsApp aunque no tenga collares.",
+   "prediccion": "De 10 entrevistados, 3 aceptan una prueba gratis de un mes y 1 acepta pagar USD 30 por mes después.",
+   "perdida_maxima": "USD 80",
+   "duracion": "5 semanas",
+   "pasos": [
+    "Hacer 10 entrevistas en la zona de CEMEVA.",
+    "Escribirle a Bastó por precio y por si busca instaladores.",
+    "Armar con Claude un plan de rotación semanal para 3 campos con los datos que dé el productor.",
+    "Al mes, ofrecer seguir pagando."
+   ],
+   "sigue_si": "Al menos 1 paga el segundo mes o Bastó ofrece un acuerdo de reventa.",
+   "se_corta_si": "Ninguno quiere la prueba gratis o todos dicen que su agrónomo ya lo hace."
+  },
+  "puntuacion_revisada": 5.3,
+  "por_que_revisada": "Baja porque Halter llega a la región con equipo propio y sin terceros, y el paquete con collares pide un capital que Facu no tiene.",
+  "veredicto": "No conviene en la versión con collares, porque compite con un unicornio que no quiere intermediarios y pide plata que Facu no tiene; solo probar la versión sin hardware.",
+  "fuentes": [
+   "https://bichosdecampo.com/el-caso-basto-vacas-con-collares-que-reemplazan-el-alambrado-y-permiten-realizar-un-pastoreo-de-precision",
+   "https://www.elobservador.com.uy/el-unicornio-neozelandes-halter-desembarca-uruguay-traves-un-acuerdo-inia-aplicar-su-tecnologia-alambrado-virtual-el-manejo-del-ganado-n6058238",
+   "https://jobs.blackbird.vc/companies/halter/jobs/84476853-customer-onboarding-specialist",
+   "https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_interes/informes/_archivos/000001=Series%20de%20stock%20bovino%20y%20mapas/000000_Stock/251231_Informe%20cierre%20de%20existencias%20bovinas%20al%2031-12-2025.pdf"
+  ]
+ },
+ {
+  "n": "M051",
+  "quien_lo_intento": "Apareció Elaborar, una cooperativa de Pérez, Santa Fe, que funciona como incubadora productiva. El emprendedor se asocia y usa sus habilitaciones, su personal y su planta; produce veganos, empanadas, pastas y dulces para distintas marcas [https://www.conclusion.com.ar/?p=1296848, solo el resumen de búsqueda; la página no se pudo leer]. No es una plataforma: es una planta compartida. No encontré una plataforma argentina que conecte marcas con plantas a façon.",
+  "competencia": "Sin plataforma local. Lo que existe son plantas que fabrican para terceros y cooperativas como Elaborar. Afuera, PartnerSlate, ya visto antes. Hueco: nadie junta la capacidad libre de muchas plantas en un solo lugar.",
+  "regulacion": "La marca necesita que su producto tenga registro de producto (RNPA) atado al establecimiento elaborador con registro (RNE), según el Código Alimentario. Lo dejo como no verificado hoy porque no lo leí en la fuente en esta pasada.",
+  "numeros": "Estimación: cobro de USD 100 a 200 por proyecto publicado a la marca, tomando como referencia los USD 199 de PartnerSlate vía RangeMe. Si el match se cierra, una comisión del 3% a 5% del primer pedido: estimación sin fuente. Costo: horas de Facu buscando plantas, alto al principio.",
+  "mercado": "Sin dato de cuántas marcas chicas buscan quien les fabrique ni cuántas plantas tienen capacidad libre.",
+  "variante_recomendada": "Explicada simple: un buscador de quién te fabrica, atendido a mano por Facu al principio. Probaría primero del lado de la marca, con un servicio de búsqueda de planta a precio fijo, y la calculadora de capacidad libre para la planta como regalo para que se sume.",
+  "entrevistar_a": [
+   "Fundadores de marcas chicas de snacks, salsas o bebidas que venden por Instagram y dietéticas.",
+   "Dueños o jefes de planta de PyMEs de alimentos que ya fabrican a façon; cámaras de alimentos provinciales.",
+   "Técnicos del INTI que asisten a emprendedores de alimentos."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo encontraste a quién te fabrica hoy y cuánto tardaste?",
+   "¿Cuántas plantas contactaste antes y por qué no funcionaron?",
+   "¿Cuál fue el pedido mínimo que te pidieron?",
+   "¿Le pagaste a alguien para que te ayude a conseguir planta o registros?",
+   "Para la planta: ¿cuándo fue la última vez que tuviste una línea parada por falta de pedidos?"
+  ],
+  "experimento": {
+   "hipotesis": "Las marcas chicas de alimentos pagan por que les encuentren una planta con mínimos bajos.",
+   "prediccion": "De 20 marcas contactadas, 8 cuentan que les costó encontrar planta y 2 aceptan pagar USD 50 por una búsqueda.",
+   "perdida_maxima": "USD 100",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Llamar a 20 marcas chicas de Instagram.",
+    "Armar una lista de 15 plantas que fabrican para terceros.",
+    "Ofrecer la búsqueda a USD 50 a las marcas con dolor.",
+    "Medir cuántas plantas aceptan recibir pedidos."
+   ],
+   "sigue_si": "2 o más marcas pagan y 5 o más plantas aceptan sumarse.",
+   "se_corta_si": "Menos de 5 marcas cuentan dificultad o ninguna planta quiere mostrar capacidad."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "Baja porque aparecen alternativas como las plantas compartidas tipo Elaborar y sigue sin dato de cuántas operaciones habría por año.",
+  "veredicto": "Probar si las llamadas a marcas muestran que buscar planta es un dolor caro, porque con pocas operaciones por año el marketplace no cierra.",
+  "fuentes": [
+   "https://www.conclusion.com.ar/?p=1296848"
+  ]
+ },
+ {
+  "n": "M076",
+  "quien_lo_intento": "No encontré una plataforma argentina dedicada a rollos y fardos. Lo que hay son avisos sueltos en Agroads con precio 'consultar' [https://www.agroads.com.ar/seccion.asp?subcat=151] y un registro oficial de Santa Fe, ROPECA, donde aparecen 5.500 rollos de alfalfa en Ceres con precio 'a convenir' [https://www.santafe.gov.ar/ropeca/public/solicitudes/34]. Busqué precio y app de Pastech y no apareció nada: no verificado.",
+  "competencia": "Agroads e Infoagro con avisos, ROPECA como registro oficial gratis en Santa Fe y Pastech solo como herramienta de pasto. La Cámara Argentina de la Alfalfa junta precios de sus socios: no encontré la publicación de 2026 [https://bichosdecampo.com/hay-que-caminar-y-buscar-precio-como-lita-de-lazzari-los-productores-de-alfalfa-recomiendan-comprar-los-fardos-con-tiempo-y-esfuerzo-para-evitar-aumentos-desmedidos]. Hueco: precio de referencia público por zona y flete incluido.",
+  "regulacion": "No aplica para comprar y vender rollos. Transporte de carga: no verificado.",
+  "numeros": "Un aviso de Agroads ofrece rollos de alfalfa a $110 por kilo, sin fecha clara [https://www.agroads.com.ar/seccion.asp?subcat=151]. Estimación: un rollo de unos 400 kg rondaría entonces $44.000; con una comisión del 3% serían unos $1.300 por rollo. Una carga de 30 rollos dejaría unos $40.000, menos de USD 40 al tipo de cambio que no verifiqué. Margen chico por operación: se necesita mucho volumen.",
+  "mercado": "Las exportaciones de alfalfa crecieron 90% en el primer trimestre de 2026 y el mercado principal es el interno para alimento animal [https://www.argentina.gob.ar/node/501994]. Toneladas que se comercian en el mercado interno: sin dato.",
+  "variante_recomendada": "Modo un solo jugador primero: calculadora de balance forrajero por WhatsApp con alerta de faltante. Después, un precio de referencia semanal por zona armado con avisos y consultas, que nadie publica hoy. La bolsa con flete solo si la calculadora junta usuarios.",
+  "entrevistar_a": [
+   "Ganaderos de cría y tambos que compraron rollos en el último invierno; veterinarias rurales de la zona.",
+   "Productores de alfalfa que venden rollos; Cámara Argentina de la Alfalfa.",
+   "Fleteros que llevan rollos; contactos de CEMEVA."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que te faltó rollo y cómo lo conseguiste?",
+   "¿Cuánto pagaste por rollo y cuánto por el flete?",
+   "¿A cuántos llamaste antes de cerrar?",
+   "¿Cómo calculás hoy cuánto forraje vas a necesitar en invierno?",
+   "¿Cuándo te enteraste de que te iba a faltar? ¿Qué hubieras hecho distinto con dos meses de aviso?"
+  ],
+  "experimento": {
+   "hipotesis": "Los ganaderos usan una calculadora de balance forrajero gratis por WhatsApp y dejan sus datos para recibir ofertas de rollos.",
+   "prediccion": "En 2 semanas, 30 ganaderos la usan y 10 dejan su faltante para recibir ofertas.",
+   "perdida_maxima": "USD 60",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar la calculadora con Claude en una planilla o bot de WhatsApp.",
+    "Difundirla en 10 grupos de ganaderos y veterinarias de una zona.",
+    "Juntar 3 o 4 vendedores de rollos de la zona.",
+    "Conectar a mano los primeros faltantes con vendedores y preguntar si pagarían una comisión."
+   ],
+   "sigue_si": "30 usos y al menos 2 operaciones cerradas por el contacto.",
+   "se_corta_si": "Menos de 10 usos en 3 semanas."
+  },
+  "puntuacion_revisada": 5.9,
+  "por_que_revisada": "Se mantiene: el hueco existe y el mercado crece, pero el margen por rollo es chico y hay registros gratis como ROPECA.",
+  "veredicto": "Probar si se arranca por la calculadora gratis, porque es barata y mide interés antes de armar una bolsa de margen chico.",
+  "fuentes": [
+   "https://www.agroads.com.ar/seccion.asp?subcat=151",
+   "https://www.santafe.gov.ar/ropeca/public/solicitudes/34",
+   "https://bichosdecampo.com/hay-que-caminar-y-buscar-precio-como-lita-de-lazzari-los-productores-de-alfalfa-recomiendan-comprar-los-fardos-con-tiempo-y-esfuerzo-para-evitar-aumentos-desmedidos",
+   "https://www.argentina.gob.ar/node/501994"
+  ]
+ },
+ {
+  "n": "M021",
+  "quien_lo_intento": "No encontré una app argentina de registros de higiene y temperatura para cocinas chicas. Busqué 'app registros BPM temperatura cocina argentina digital bromatología'. Aparecen Qamarero, española, con software de controles sanitarios para restaurantes [https://qamarero.com/software-appcc-restaurantes/], y plantillas de SafetyCulture en español [https://safetyculture.com/library/hospitality/bpm-znxkbybmnrne6dif].",
+  "competencia": "Qamarero y SafetyCulture desde afuera, más planillas gratis. Si operan en Argentina: no verificado. Hueco: nada local y barato, pero tampoco se ve quién lo pide.",
+  "regulacion": "El Código Alimentario Argentino, Ley 18.284 y Decreto 2126/71, fija los requisitos. Habilitan y controlan las bromatologías provinciales y municipales, así que cambia según el lugar. No encontré si aceptan registros digitales en lugar de papel: no verificado.",
+  "numeros": "Estimación: abono de USD 5 a 10 por mes, por comparación con apps chicas de gestión. Es poco para pagar la venta, que es uno a uno. Costo por cliente bajo, pero se necesitan cientos de clientes para que valga la pena.",
+  "mercado": "Sin dato de cuántos productores chicos de alimentos hay.",
+  "variante_recomendada": "No como producto suelto. Si algo, como una pestaña del producto de orden sanitario junto con ALI-2-4, y solo si las entrevistas muestran que la inspección pide esos registros.",
+  "entrevistar_a": [
+   "Productores chicos de comida casera y panificados habilitados; ferias y mercados de productores.",
+   "Encargados de cocinas de cafeterías chicas.",
+   "Inspectores o técnicos de bromatología municipal."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue tu última inspección y qué papeles te pidieron?",
+   "¿Te observaron algo? ¿Qué te costó arreglarlo?",
+   "¿Cómo anotás hoy temperatura y limpieza?",
+   "¿Pagás a alguien por temas de habilitación? ¿Cuánto?",
+   "Para el inspector: ¿qué es lo que más falta en los registros de los chicos?"
+  ],
+  "experimento": {
+   "hipotesis": "Las inspecciones piden registros de higiene y temperatura a los productores chicos.",
+   "prediccion": "De 10 productores, menos de 4 recuerdan que les pidieron esos registros en el último año.",
+   "perdida_maxima": "USD 20",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Hacer 10 entrevistas en ferias de productores.",
+    "Hablar con 1 técnico de bromatología.",
+    "Anotar qué papeles se piden de verdad."
+   ],
+   "sigue_si": "6 o más cuentan que se los pidieron y tuvieron problemas.",
+   "se_corta_si": "Menos de 4 recuerdan que se los pidieron."
+  },
+  "puntuacion_revisada": 5.0,
+  "por_que_revisada": "Baja porque el propio comentario de Facu apunta a falta de control, y sin control no hay urgencia de pagar; además hay plantillas gratis.",
+  "veredicto": "No conviene como producto suelto, porque nadie lo exige con fuerza y lo gratis alcanza; solo sirve como parte de ALI-2-4.",
+  "fuentes": [
+   "https://qamarero.com/software-appcc-restaurantes/",
+   "https://safetyculture.com/library/hospitality/bpm-znxkbybmnrne6dif"
+  ]
+ },
+ {
+  "n": "M048",
+  "quien_lo_intento": "Para el lado del consumidor, la UADE hizo 'Know your food', app que explica qué tan sano es un alimento envasado leyendo el código de barras [https://www.unidiversidad.com.ar/una-app-argentina-permite-conocer-que-tan-saludable-es-un-alimento-al-escanear-el-codigo-de-barras-del-envase]. No sirve para comida casera sin envase. Para el lado del emprendedor, no encontré una herramienta argentina paga de tabla nutricional; busqué 'calculadora rotulado nutricional emprendedores alimentos argentina'.",
+  "competencia": "La calculadora gratis de ANMAT, ya vista antes. Consultoras y nutricionistas que hacen tablas: precios no verificados. Hueco: la ficha con QR para comida casera, que no apareció.",
+  "regulacion": "El proyecto del Ejecutivo para derogar toda la Ley 27.642 está en el Senado. En julio de 2026 legisladores dialoguistas dijeron que no hay apuro [https://www.iprofesional.com/politica/417309-etiquetado-frontal-javier-milei-preve-eliminar-otra-ley-kirchnerista]. No encontré noticias de octubre de 2026: estado actual no verificado. La ley sigue vigente mientras no se derogue.",
+  "numeros": "Estimación: ficha con QR a USD 20 a 40 por receta cargada una vez, o abono de USD 10 por mes para el local. Costo con Claude y una tabla de composición de alimentos: casi cero por receta. Falta una revisión de nutricionista para dar confianza, que costaría aparte: no verificado.",
+  "mercado": "Sin dato de cuántas casas de comida y viandas hay en Argentina.",
+  "variante_recomendada": "La de Facu, enfocada en el que compra: ficha con QR que dice qué lleva y qué tan sano es. Empezar por viandas para empresas y gimnasios, donde el cliente ya pide calorías y proteínas, así no depende de la ley.",
+  "entrevistar_a": [
+   "Dueños de viandas saludables que venden por Instagram y WhatsApp.",
+   "Encargados de casas de comida casera de barrio.",
+   "Nutricionistas que ya asesoran a emprendimientos de comida."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que un cliente te preguntó qué lleva o cuántas calorías tiene un plato?",
+   "¿Qué le respondiste y cómo lo calculaste?",
+   "¿Pagaste alguna vez a un nutricionista por tu menú? ¿Cuánto?",
+   "¿Perdiste alguna venta por no saber decir alérgenos o calorías?",
+   "¿Cómo mostrás hoy los ingredientes a tus clientes?"
+  ],
+  "experimento": {
+   "hipotesis": "Las viandas saludables pagan por una ficha con QR porque sus clientes preguntan qué comen.",
+   "prediccion": "De 5 fichas gratis, los clientes escanean el QR al menos 50 veces en 2 semanas y 2 locales aceptan pagar USD 20 por más fichas.",
+   "perdida_maxima": "USD 40",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar a mano con Claude 5 fichas con QR.",
+    "Dárselas a 5 viandas o casas de comida.",
+    "Medir escaneos con un acortador de enlaces.",
+    "Ofrecer más fichas pagas."
+   ],
+   "sigue_si": "50 escaneos o más y 2 locales pagan.",
+   "se_corta_si": "Menos de 15 escaneos o ningún local paga."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "Baja un poco porque la ley sigue en el aire y no apareció evidencia de que el cliente final pida la ficha; la versión para viandas salva parte de la idea.",
+  "veredicto": "Probar si se va por viandas y gimnasios, porque ahí la pregunta de qué tan sano es ya existe y no depende de la ley.",
+  "fuentes": [
+   "https://www.unidiversidad.com.ar/una-app-argentina-permite-conocer-que-tan-saludable-es-un-alimento-al-escanear-el-codigo-de-barras-del-envase",
+   "https://www.iprofesional.com/politica/417309-etiquetado-frontal-javier-milei-preve-eliminar-otra-ley-kirchnerista",
+   "https://www.canal26.com/politica/2026/05/24/el-gobierno-avanza-contra-la-ley-de-etiquetado-frontal-que-pasara-con-los-octogonos-negros/"
+  ]
+ },
+ {
+  "n": "M037",
+  "quien_lo_intento": "Go2Future abrió con la marca MiniGo una tienda autónoma en Colegiales en mayo de 2022 y el piloto no se sostuvo; su CEO dijo que el país no estaba preparado para vender directo al consumidor [https://www.iproup.com/startups/34982-supermercado-sin-cajeros-en-argentina-como-funciona]. Después repitió la experiencia con Carrefour en Pilar [https://www.iproup.com/innovacion/38568-supermercados-sin-filas-ni-cajeros-un-modelo-llega-a-argentina]. Qué pasó en 2024 y 2025: no verificado. Sensify, de Rosario, monitorea heladeras comerciales y tiene módulos de visión que reconocen marcas; recibió inversión de Kamay, el fondo de Arcor y Coca-Cola, y tiene clientes en 6 países [https://www.ambito.com/startup-nacional-sensify-recibe-inversion-del-fondo-arcor-y-coca-cola-n5907197].",
+  "competencia": "Para la versión por foto de celular: Ailet tiene oficinas en Latinoamérica y su proceso es que el vendedor saca la foto en la app [https://ailet.com/assets/img/partnership/Ailet-Partnership-Program.pdf]. ShelfWatch de ParallelDots funciona sin internet [https://www.paralleldots.com/resources/blog/all-in-one-image-recognition-platform]. Pazo detecta faltantes con una sola foto [https://www.gopazo.com/shelf-image-recognition]. Precios: no publicados. Hueco: estas apuntan a marcas grandes; para distribuidoras medianas del canal tradicional no vi oferta: no verificado.",
+  "regulacion": "No aplica para fotos de góndola.",
+  "numeros": "Estimación: abono de USD 200 a 500 por mes a una distribuidora mediana, por un panel de faltantes por almacén. Costo por foto analizada con IA: centavos. El riesgo de margen está en la precisión: si hay que revisar a mano, el costo sube.",
+  "mercado": "Canal tradicional cerca del 35% del consumo masivo y más de 194.700 puntos de venta, según NielsenIQ citado antes. Cantidad de distribuidoras medianas: sin dato.",
+  "variante_recomendada": "Auditoría por foto de celular para una sola distribuidora mediana de una sola categoría, por ejemplo bebidas o golosinas. El preventista saca la foto y la distribuidora recibe un listado de faltantes por almacén. Nada de cámaras fijas.",
+  "entrevistar_a": [
+   "Gerentes comerciales de distribuidoras medianas de consumo masivo; cámaras de distribuidores y LinkedIn.",
+   "Preventistas de distribuidoras; se los encuentra en los mismos almacenes de barrio.",
+   "Responsables de trade marketing de marcas medianas regionales."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que se enteraron tarde de que un almacén no tenía su producto?",
+   "¿Cuánto vendieron de menos ese mes, aunque sea a ojo?",
+   "¿Cómo les reportan hoy los preventistas lo que ven en góndola?",
+   "¿Pagan hoy por algún relevamiento de góndola? ¿A quién y cuánto?",
+   "¿Qué hicieron con el último relevamiento que tuvieron?"
+  ],
+  "experimento": {
+   "hipotesis": "Una distribuidora mediana paga por saber qué falta en cada almacén a partir de fotos de celular.",
+   "prediccion": "Con fotos de 20 almacenes, Claude acierta en al menos 80% de los faltantes revisados a mano, y 1 de 3 distribuidoras pide una prueba paga.",
+   "perdida_maxima": "USD 60",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Sacar fotos de góndola en 20 almacenes del barrio.",
+    "Pasarlas por Claude y revisar a mano los aciertos.",
+    "Armar un panel simple de faltantes por almacén.",
+    "Mostrarlo a 3 distribuidoras y pedir una prueba paga de un mes."
+   ],
+   "sigue_si": "80% de aciertos o más y 1 distribuidora acepta pagar.",
+   "se_corta_si": "Menos de 60% de aciertos o ninguna distribuidora muestra interés."
+  },
+  "puntuacion_revisada": 6.3,
+  "por_que_revisada": "Baja un poco porque aparecen jugadores con presencia en Latinoamérica como Ailet y uno local con plata de Arcor y Coca-Cola, Sensify, aunque el hueco en distribuidoras medianas sigue sin cubrir.",
+  "veredicto": "Probar si la prueba con 20 almacenes da buena precisión, porque es barata y la duda central es si la distribuidora paga, no la técnica.",
+  "fuentes": [
+   "https://www.iproup.com/startups/34982-supermercado-sin-cajeros-en-argentina-como-funciona",
+   "https://www.iproup.com/innovacion/38568-supermercados-sin-filas-ni-cajeros-un-modelo-llega-a-argentina",
+   "https://www.ambito.com/startup-nacional-sensify-recibe-inversion-del-fondo-arcor-y-coca-cola-n5907197",
+   "https://ailet.com/assets/img/partnership/Ailet-Partnership-Program.pdf",
+   "https://www.paralleldots.com/resources/blog/all-in-one-image-recognition-platform",
+   "https://www.gopazo.com/shelf-image-recognition"
+  ]
+ },
+ {
+  "n": "M020",
+  "quien_lo_intento": "No encontré a nadie en Argentina. Busqué 'pick to light Argentina proveedor depósito instalación' y solo aparecieron fabricantes de afuera.",
+  "competencia": "PICK TO LIGHT, del País Vasco, parte de AIOI Systems de Japón, dice tener más de 4.500 sistemas instalados [https://emo-milano.com/?p=4653]. Lightning Pick, de Norteamérica, vende hardware modular [https://lightningpick.com/advantages/hardware-advantages/sw-series/]. Ninguno con representante argentino visible: no verificado. Puede ser hueco o falta de demanda.",
+  "regulacion": "No aplica. Si se fabrica, habría que ver seguridad eléctrica: no verificado.",
+  "numeros": "YUtag desde 85 euros por posición, ya visto antes. Estimación: un depósito chico con 100 posiciones serían 8.500 euros solo en luces importadas, mucho para una PyME. La versión casera bajaría el costo pero pide electrónica que Facu no hace.",
+  "mercado": "Sin dato de depósitos que armen pedidos pieza por pieza en Argentina.",
+  "variante_recomendada": "No probar el hardware ahora. Si las entrevistas de la idea integral de stock muestran que armar pedidos es lento, probar con luces inteligentes comerciales controladas desde una planilla, sin fabricar nada.",
+  "entrevistar_a": [
+   "Encargados de depósito de bulonerías y casas de repuestos.",
+   "Jefes de logística de distribuidoras de ferretería.",
+   "Integradores de sistemas de depósito en Buenos Aires; LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuánto tardaron en armar el último pedido grande?",
+   "¿Cuántos errores de pedido tuvieron el último mes y cuánto les costaron?",
+   "¿Cómo encuentra hoy el operario dónde está cada pieza?",
+   "¿Invirtieron algo en el depósito en el último año? ¿En qué y cuánto?",
+   "¿Qué pasa cuando falta el operario que sabe dónde está todo?"
+  ],
+  "experimento": {
+   "hipotesis": "En depósitos de piezas chicas, el tiempo de búsqueda es un dolor caro.",
+   "prediccion": "De 5 depósitos, al menos 3 cuentan errores de pedido con costo concreto en el último mes.",
+   "perdida_maxima": "USD 20",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Hacer 5 entrevistas en bulonerías y casas de repuestos.",
+    "Medir con cronómetro el armado de 3 pedidos en uno de ellos.",
+    "Anotar cuánto tiempo es búsqueda."
+   ],
+   "sigue_si": "3 o más depósitos cuentan errores con costo y la búsqueda pasa la mitad del tiempo de armado.",
+   "se_corta_si": "Menos de 2 lo ven como problema."
+  },
+  "puntuacion_revisada": 4.8,
+  "por_que_revisada": "Baja porque es hardware, Facu no hace electrónica, no hay proveedor local y el costo importado es alto para una PyME.",
+  "veredicto": "No conviene ahora, porque pide meses de hardware sin ventas; solo como módulo futuro de la idea integral de stock.",
+  "fuentes": [
+   "https://emo-milano.com/?p=4653",
+   "https://lightningpick.com/advantages/hardware-advantages/sw-series/"
+  ]
+ }
+]

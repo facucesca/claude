@@ -1,0 +1,202 @@
+[
+ {
+  "n": "M003",
+  "opinion": "Entendí que Facu quiere algo simple: el taller pregunta por un repuesto y la app le dice qué negocio cercano lo tiene. La idea es buena porque el dolor es diario y nadie muestra stock en vivo en Argentina. El problema de fondo no es la app, es conseguir el stock de cada casa de repuestos, que usa sistemas distintos y muchas veces desactualizados. Sin ese dato la app es un directorio más, como Autominuto o Inforepuestos. Por eso conviene empezar sin integración: el taller pide por la app y las casas responden si lo tienen, como una subasta inversa rápida.",
+  "hallazgos": "No apareció una app argentina con stock en vivo de repuestos en comercios cercanos. Autominuto conecta conductores con talleres y comercios de autopartes cercanos, pero la nota no dice que muestre stock [https://autotest.com.ar/noticias/autominuto-com-la-solucion-para-resolver-todo-lo-que-necesitas-para-tu-auto/]. Ford tiene tienda propia con stock y precio, pero de una sola marca y sin cercanía [https://noticias.autocosmos.com.ar/2025/05/11/ford-lanza-su-tienda-de-accesorios-y-repuestos-en-argentina]. Mister Auto vende repuestos en Argentina por Mercado Libre, sin búsqueda por cercanía [https://eleconomista.com.ar/autos/mister-auto-anuncio-su-nuevo-paso-pais-n49118]. Repuestosya es un e-commerce de autopartes de Rosario fundado en 2018, según CB Insights [https://www.cbinsights.com/company/repuestosya]. Consultas del 2026-10-23.",
+  "variantes": [
+    "Versión de Facu: app o bot de WhatsApp donde el taller pide un repuesto con foto o código y las casas de la zona contestan \"lo tengo, a tanto\" en minutos. No hace falta integrar stock al principio.",
+    "Del lado de la casa de repuestos: herramienta que lee el Excel o el export de stock de la casa y lo publica como buscador. Se cobra abono a la casa y la búsqueda es gratis para talleres.",
+    "Otro rubro con el mismo motor: repuestos de maquinaria agrícola en zonas rurales, donde una pieza parada en cosecha cuesta mucho. Usa la red de CEMEVA."
+  ],
+  "puntuacion": 7.6,
+  "por_que_puntuacion": "Dolor real y hueco verificado, pero el valor depende de lograr que las casas carguen o respondan stock, que es un problema de red difícil. La versión de pedido y respuesta baja ese riesgo.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 150 (estimación: grupo de WhatsApp Business más un formulario y algo de nafta para visitar casas).",
+  "primer_paso": "Visitar 10 talleres y 10 casas de repuestos de una zona y armar a mano un grupo de pedidos por una semana para contar cuántos pedidos salen y cuántos se resuelven.",
+  "riesgo_principal": "Que las casas de repuestos no respondan rápido ni compartan stock, y el taller vuelva al teléfono.",
+  "agrupar_con": ["M009", "M004"]
+ },
+ {
+  "n": "M004",
+  "opinion": "La idea fuerte es la de Facu: sacar una foto de la pieza sobre una regla y que el sistema diga qué es, qué medida tiene y dónde está en el depósito. En su comentario del 2026-10-15 la agranda: no solo bulonerías, búsqueda por foto y por nombre, y un servicio de orden de stock con pick-to-light. Mi opinión es que hay que separar las dos cosas. La identificación por foto es software y se puede probar barato. Ordenar el stock y poner luces es un servicio con hardware y mucho trabajo por local, que va contra su preferencia de producto global. Empezaría por un solo rubro, tornillería, donde las medidas son estándar y la regla da escala.",
+  "hallazgos": "No apareció una app lista para identificar tornillos por foto en ferreterías. Sí hay modelos y datasets abiertos de detección de tornillos en Roboflow Universe, que sirven para construir una prueba [https://universe.roboflow.com/apozo-motedis-com/modelo-alex-screw] [https://universe.roboflow.com/aduana/tornillo-2mhft]. En sistemas para ferreterías argentinas solo apareció GesCom, de facturación y stock, sin búsqueda por foto [https://www.sourceforge.net/projects/stockyfact]. Rundoo es un sistema para ferreterías de afuera, sin presencia visible en Argentina [https://theretailexec.com/es/tools/mejores-sistemas-pos-ferreterias/]. Consultas del 2026-10-23.",
+  "variantes": [
+    "Versión de Facu: foto sobre una regla más búsqueda por nombre, que devuelve la pieza, la medida y la ubicación en el local. Primero solo software; el orden y el pick-to-light quedan como servicio aparte más adelante.",
+    "Modo un solo jugador para el cliente final: el que entra a la ferretería con un tornillo en la mano saca la foto en su celular y la app le dice la medida exacta para pedirla. Se cobra a la ferretería como herramienta de mostrador.",
+    "Para mantenimiento industrial: identificar rodamientos, retenes o bulones de máquinas por foto en plantas y acopios, empezando por clientes del agro."
+  ],
+  "puntuacion": 7.8,
+  "por_que_puntuacion": "Hueco claro y encaja con su oficio de stock, pero la precisión de la IA con piezas parecidas no está probada. La prueba técnica es barata y define todo.",
+  "tema": "Stock y depósito",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 100 (estimación: créditos de una API de visión con IA y una regla impresa).",
+  "primer_paso": "Sacar 50 fotos de tornillos conocidos sobre una regla y probar con Claude o Gemini si aciertan medida y tipo en al menos 8 de cada 10.",
+  "riesgo_principal": "Que la IA confunda piezas casi iguales, como roscas o largos parecidos, y el mostrador deje de confiar.",
+  "agrupar_con": ["M009", "M020", "M003"]
+ },
+ {
+  "n": "M005",
+  "opinion": "Facu dice que estas dos le gustan pero no son sus favoritas, que como servicio son poco escalables y que habría que darle la vuelta para automatizarlo y venderlo sin estar atrás. Coincido con él. L9 como diagnóstico automático tiene sentido: subís tu Excel y te devuelve ABC, plata parada y punto de pedido con fórmulas fijas, y la IA solo explica. L5 sola, una IA que dice si algo será rentable, es floja porque no tiene datos para decirlo con seriedad. El punto débil que él marca es real: el Excel tiene que venir con ciertas columnas, y muchos comercios no lo tienen así. Eso se resuelve con una plantilla obligatoria o leyendo exports conocidos como Tiendanube o Mercado Libre.",
+  "hallazgos": "No apareció una web gratis en español donde subas tu Excel y te devuelva el análisis ABC. Lo que hay son plantillas para descargar, como la de Crehana [https://www.crehana.com/business/descargables/plantilla-analisis-abc/], y módulos pagos dentro de Odoo [https://apps.odoo.com/apps/modules/17.0/sr_inventory_abc_analysis_report]. Consultas del 2026-10-23.",
+  "variantes": [
+    "Versión de Facu automatizada: web de autoservicio que lee el export de ventas, da el diagnóstico con fórmulas fijas y la IA lo explica. Se cobra por informe y el 1:1 queda como opción cara, no como obligación.",
+    "Conectado al sistema de origen: en vez de subir Excel, se lee directo desde Tiendanube o Mercado Libre y llega un informe mensual por mail. Se cobra abono.",
+    "Para el agro: diagnóstico de stock de insumos para acopios y agronomías, usando lo que Facu conoce de CEMEVA."
+  ],
+  "puntuacion": 7.5,
+  "por_que_puntuacion": "Construible casi gratis y con hueco verificado en español, pero no hay dato de que los comercios paguen por un diagnóstico sin solución. L5 sola baja el promedio.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 80 (estimación: formulario, una planilla con fórmulas y una página simple).",
+  "primer_paso": "Pedirle el export de ventas a 5 comercios conocidos, hacerles el diagnóstico a mano con una planilla fija y preguntar si pagarían el próximo y cuánto.",
+  "riesgo_principal": "Que el comercio lea el informe una vez, no cambie nada y no vuelva a pagar.",
+  "agrupar_con": ["M007", "M012", "M024"]
+ },
+ {
+  "n": "M007",
+  "opinion": "Es la misma familia que L9: el informe ABC es la pieza concreta que el comercio recibe. Sola es chica, pero como primer producto pago del diagnóstico funciona muy bien. Lo valioso es que no requiere hardware ni integración: alcanza con un export de ventas. El riesgo es el de siempre: exports desordenados y clientes que no saben sacarlos. Facu no dejó comentario, así que la evalúo tal como está.",
+  "hallazgos": "Sin búsqueda nueva específica. Se usó la búsqueda de M005: no hay web gratis en español para subir el Excel y obtener el ABC, solo plantillas como la de Crehana [https://www.crehana.com/business/descargables/plantilla-analisis-abc/] y módulos de Odoo [https://apps.odoo.com/apps/modules/17.0/sr_inventory_abc_analysis_report]. Consultas del 2026-10-23.",
+  "variantes": [
+    "Informe ABC pago de una sola vez, en PDF y Excel, como gancho del diagnóstico de L9.",
+    "Para vendedores de Tiendanube: informe automático mensual de qué productos dejan plata y cuáles están muertos. Ojo: la calculadora de rentabilidad para vendedores de Mercado Libre (K10) Facu no la eligió, así que esto se enfoca en stock y no en comisiones.",
+    "Para distribuidoras chicas: ABC por cliente además de por producto, para ver qué clientes dejan plata."
+  ],
+  "puntuacion": 7.2,
+  "por_que_puntuacion": "Fácil y barato de probar, pero es un módulo y no un negocio solo. Vale como puerta de entrada de L9.",
+  "tema": "Stock y depósito",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 50 (estimación: planilla propia y tiempo).",
+  "primer_paso": "Armar la planilla ABC fija y probarla con los exports de 3 comercios reales para ver cuánto hay que limpiar cada archivo.",
+  "riesgo_principal": "Que cada export venga distinto y haya que limpiarlo a mano, lo que lo vuelve trabajo a medida.",
+  "agrupar_con": ["M005", "M012"]
+ },
+ {
+  "n": "M008",
+  "opinion": "El problema es claro: la empresa de limpieza no puede demostrar que limpió y pierde clientes por reclamos. Facu marcó el problema pero su comentario va hacia otra idea, las empleadas domésticas en blanco, que está en otra fila, así que acá evalúo el problema original. Afuera ya está resuelto con apps de inspección con fotos, y hasta hay un software uruguayo, CleanUp, que apunta a la región. Eso achica mucho el hueco en Argentina. Es producto global, pero vendido a un rubro con márgenes chicos y muy sensible al precio.",
+  "hallazgos": "CleanUp es un software uruguayo para empresas de limpieza que planifica tareas, monitorea la operación y genera reportes auditables, y ya trabaja con grandes empresas y busca expandirse en la región [https://www.elobservador.com.uy/cafe-y-negocios/la-familia-uruguaya-que-creo-el-primer-software-gestion-limpieza-latinoamerica-trabaja-grandes-empresas-y-ya-avanza-su-expansion-regional-n6046724/amp]. SafetyCulture tiene versión gratis para equipos chicos y plan desde USD 24 por mes [https://safetyculture.com/es/aplicaciones/software-de-control-de-limpieza]. Auditclean es una app gratis para iPad basada en una norma europea [https://apps.apple.com/cl/app/auditclean/id1352253978]. No apareció software argentino específico. Consultas del 2026-10-23.",
+  "variantes": [
+    "Problema original en modo simple: el operario saca fotos con QR por sector y al cliente le llega un parte automático por WhatsApp. Sin app que instalar.",
+    "Cambiar de cliente: venderlo a los administradores de consorcios para controlar a cualquier proveedor de servicio, no solo limpieza.",
+    "Juntarlo con HOG-3-4, control de insumos de limpieza repartidos en edificios, que está pendiente de marcar y es parecido a L14."
+  ],
+  "puntuacion": 6.4,
+  "por_que_puntuacion": "El problema existe, pero ya hay competencia regional y global con planes gratis. El hueco argentino es más chico que lo que decía el Excel.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 100 (estimación: formulario con fotos y un bot de WhatsApp de prueba).",
+  "primer_paso": "Llamar a 5 empresas de limpieza de oficinas y preguntar cuántos clientes perdieron por reclamos el último año y qué usan hoy para controlar.",
+  "riesgo_principal": "Que CleanUp o SafetyCulture gratis ya cubran la necesidad y el rubro no quiera pagar otra cosa.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M009",
+  "opinion": "Facu pide juntar L14 con COM-3-5 y AUT-1-2 como una idea integral y después definir el rumbo. Estoy de acuerdo en que son la misma familia: saber qué pieza es, cuánta hay y dónde está. Pero la versión integral, con orden, antirrobo, peso y pick-to-light, es un proyecto enorme para alguien que no programa y tiene USD 1.300. Mi sugerencia es definir el rumbo por la pieza más chica que se pueda vender sola, que es la identificación por foto o el buscador de stock. El hardware por peso o luces queda como etapa siguiente. En Argentina los sistemas de ferretería que aparecen son de facturación y stock básico, sin nada de esto.",
+  "hallazgos": "En sistemas para ferreterías en Argentina solo apareció GesCom, de facturación y control de stock, con licencia abierta [https://www.sourceforge.net/projects/stockyfact]. También aparecen proyectos académicos de stock para ferreterías, no productos comerciales. Rundoo es un sistema de afuera para ferreterías, sin presencia visible en Argentina [https://theretailexec.com/es/tools/mejores-sistemas-pos-ferreterias/]. No se verificó cuántas ferreterías, bulonerías y mercerías hay en Argentina. Consultas del 2026-10-23.",
+  "variantes": [
+    "Versión de Facu, idea integral en capas: capa 1, identificar y buscar la pieza por foto o nombre; capa 2, ubicación ordenada en el local; capa 3, hardware de peso o luces para conteo y antirrobo.",
+    "Solo el conteo: balanza cuentapiezas conectada a una planilla en la nube para hacer inventarios de tornillería en minutos. Sin IA, hardware que ya existe.",
+    "Para mayoristas de bulonería en lugar de comercios chicos: tienen más stock, más plata y el dolor del pedido mal armado es mayor."
+  ],
+  "puntuacion": 7.5,
+  "por_que_puntuacion": "Es el interés más constante de Facu y no se ve competencia local, pero la versión integral es muy grande. Su valor real depende de elegir una capa chica para empezar.",
+  "tema": "Stock y depósito",
+  "tipo": "Hardware más software",
+  "etapa": "Combinar con otra",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 200 (estimación: visitas a comercios y una prueba de foto con IA; sin hardware todavía).",
+  "primer_paso": "Visitar 10 ferreterías y bulonerías, medir con cronómetro cuánto tardan en encontrar 5 piezas y preguntar qué sistema usan y cuánto pierden por faltantes.",
+  "riesgo_principal": "Querer construir todo junto y pasar meses sin vender nada.",
+  "agrupar_con": ["M004", "M003", "M020", "M024"]
+ },
+ {
+  "n": "M012",
+  "opinion": "Facu la quiere como calculadora de varios índices con fórmulas en una página web, y la consultoría personal más cara para el que quiere más. Es casi gratis de hacer y usa su oficio. Pero sola gana muy poco y el tráfico de Google es lento e incierto. Como puerta de entrada al diagnóstico de L9 tiene más sentido. También hay que tener en cuenta que la consultoría 1:1 es justo lo poco escalable que él mismo critica en L9.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+    "Versión de Facu: web con calculadoras de punto de pedido, lote económico, OEE y takt time, y un botón para pedir la consultoría paga.",
+    "Calculadora que da un resultado y ofrece el diagnóstico automático de L9 como siguiente paso pago, en vez de la consultoría con horas de Facu.",
+    "Calculadoras para el agro: costo de secado, merma por humedad, capacidad de silo. Usa CEMEVA y tiene menos competencia que las genéricas."
+  ],
+  "puntuacion": 6.8,
+  "por_que_puntuacion": "Barata y propia, pero sola no genera ingresos y depende de tráfico lento. Sirve como imán de clientes, no como negocio.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Contenido o infoproducto",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 10 a 50 (estimación: dominio y una página no-code).",
+  "primer_paso": "Publicar una sola calculadora de punto de pedido y compartirla en 3 grupos de comerciantes para ver cuántos la usan y cuántos dejan su contacto.",
+  "riesgo_principal": "Que no llegue tráfico o que nadie pase de la calculadora gratis a pagar.",
+  "agrupar_con": ["M005", "M007"]
+ },
+ {
+  "n": "M013",
+  "opinion": "El problema es real: muchos depósitos no saben cuánto produce cada operario. Facu no dejó comentario. Lo que encontré sugiere que la medición suele venir dentro de los sistemas de depósito con escáner, que son caros y de empresa grande. El hueco podría estar en depósitos medianos sin esos sistemas. El riesgo es que medir operarios genere resistencia del personal y de los gremios, y que el dueño no quiera pagar solo por medir.",
+  "hallazgos": "Las guías sobre picking dicen que los indicadores más usados son líneas por hora, errores cada mil líneas y exactitud de inventario por ubicación [https://www.cleverence.com/articles/business-blogs-es/directed-picking-software-2025-top-tools-features-roi-guide-4821/]. Un documento de un almacén de Pilar menciona el ERP CHESS con módulo de picking, pero no es fuente oficial [https://docs.google.com/document/d/16CSZ2mWHIo6zrlJHhmtsSUCz8JTizdhc/export?format=pdf]. No se verificó si hay un producto argentino dedicado solo a medir productividad. Consultas del 2026-10-23.",
+  "variantes": [
+    "Problema original: tablero simple donde el operario marca inicio y fin de cada pedido desde el celular y el jefe ve líneas por hora y errores.",
+    "Medición por cámara: una cámara en la zona de armado cuenta pedidos y tiempos sin que el operario cargue nada. Más hardware, menos carga manual.",
+    "Para acopios de granos: medir tiempos de descarga de camiones y de cada operario en cosecha, usando CEMEVA como primer caso."
+  ],
+  "puntuacion": 6.6,
+  "por_que_puntuacion": "Usa su experiencia de depósito, pero el competidor real son los sistemas de depósito ya instalados y la resistencia del personal a ser medido.",
+  "tema": "Stock y depósito",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 80 (estimación: formulario móvil y planilla con tablero).",
+  "primer_paso": "Probar el registro de inicio y fin de pedidos durante una semana en un depósito conocido, como CEMEVA o Sporting, y ver si el dueño usa los números.",
+  "riesgo_principal": "Que los operarios no carguen los datos o los carguen mal porque los miden.",
+  "agrupar_con": ["M020"]
+ },
+ {
+  "n": "M020",
+  "opinion": "El pick-to-light ilumina el lugar donde está lo que hay que sacar. Hecho casero con Arduino es barato en piezas, pero para Facu, que no hace electrónica, implica meses de armado y soporte de hardware. Además en Argentina no aparecen proveedores con precios publicados, lo que puede ser hueco o señal de poca demanda. Lo veo como módulo de la idea integral de stock, no como arranque.",
+  "hallazgos": "No apareció un proveedor argentino de pick-to-light con precios publicados. Un sistema europeo, YUtag, figura desde 85 euros por unidad, sin contar software ni transmisor [https://mpi.motionminers.com/en/offerings/yuma-technologie-yutag-pick-by-light]. Lightning Pick se presenta como proveedor líder en Norteamérica, sin datos de Argentina [https://www.supplychainbrain.com/directories/98-suppliers-guide/listing/331-lightning-pick-technologies]. Consultas del 2026-10-23.",
+  "variantes": [
+    "Módulo de la idea integral de stock: luces solo en los cajones de piezas más buscadas, conectadas al buscador por foto.",
+    "Sin hardware propio: luces inteligentes baratas que ya vienen con app, controladas desde una planilla, para probar si el operario ahorra tiempo.",
+    "Revender e instalar un sistema importado en vez de fabricarlo, cobrando la instalación y el orden del depósito."
+  ],
+  "puntuacion": 6.2,
+  "por_que_puntuacion": "Encaja con su tema, pero es hardware que no sabe armar, con soporte y garantía. Sin demanda verificada en Argentina.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Hardware más software",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 80 a 250 (estimación: kit de LEDs, placa y soporte para un estante de prueba).",
+  "primer_paso": "Preguntar a 5 depósitos o bulonerías cuánto tardan en armar un pedido y si pagarían por bajar ese tiempo, antes de comprar ninguna pieza.",
+  "riesgo_principal": "Pasar meses armando hardware que nadie compra o que falla en el uso diario.",
+  "agrupar_con": ["M009", "M004", "M013"]
+ },
+ {
+  "n": "M024",
+  "opinion": "El control de vencimientos y FIFO resuelve un problema real en almacenes y dietéticas: tirar mercadería vencida. Ojo con la regla de no repetir: C9, control de mermas y vencimientos para almacenes, Facu no la eligió, y esta es casi lo mismo. Además ya hay sistemas argentinos como Control Comercio que traen control de vencimientos. El ticket es bajo y la carga manual de cada lote se abandona. Solo tiene sentido como módulo de un sistema de stock más grande.",
+  "hallazgos": "Control Comercio dice operar en Argentina hace 15 años, con funciones para alimentos y bebidas, control de vencimientos, versión web y app [https://www.comparasoftware.com/control-comercio]. La página de precios encontrada era de México, así que el precio argentino no se verificó. ExpAlert es un proyecto de la competencia de Google AI para seguir vencimientos, no específico de Argentina [https://ai.google.dev/competition/projects/expalert?hl=es-419]. Consultas del 2026-10-23.",
+  "variantes": [
+    "Como módulo de la idea integral de stock: alertas de vencimiento solo para los comercios que ya usan el diagnóstico de L9.",
+    "Carga por foto: el empleado saca foto de la etiqueta y la IA lee la fecha de vencimiento, para evitar la carga manual que hace que se abandone.",
+    "Para agronomías: vencimientos de agroquímicos por lote. Ojo, AGR-5-2 Facu no la eligió, así que solo valdría dentro de un sistema más grande."
+  ],
+  "puntuacion": 5.6,
+  "por_que_puntuacion": "Es casi igual a C9, que Facu no eligió, ya hay sistemas argentinos que lo traen y el ticket es bajo. Solo sirve como módulo.",
+  "tema": "Stock y depósito",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 40 (estimación: planilla con alertas y prueba de lectura de etiquetas con IA).",
+  "primer_paso": "Preguntar a 5 dietéticas cuánto tiraron el último mes por vencimientos y qué sistema usan hoy.",
+  "riesgo_principal": "Que la carga de lotes se abandone a las pocas semanas y que el sistema de caja ya lo resuelva.",
+  "agrupar_con": ["M005", "M009"]
+ }
+]

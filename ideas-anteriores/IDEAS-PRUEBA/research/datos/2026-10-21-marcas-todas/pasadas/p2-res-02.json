@@ -1,0 +1,454 @@
+[
+ {
+  "n": "M018",
+  "quien_lo_intento": "El que más lo intentó es Veesion, de Francia. La nota de iProfesional que se citaba es del 2023-04-20, no de 2026. Ahí decía estar en decenas de tiendas argentinas, con pilotos en dos cadenas grandes que no nombra, y vender por suscripción en forma directa y a través de empresas de seguridad. También decía que sirve en negocios chicos con pocas cámaras y que detecta entre 10 y 15 robos por semana por local; es un dato de la propia empresa [https://www.iprofesional.com/tecnologia/380616-inteligencia-artificial-para-detectar-robos-en-tiempo-real]. Forbes Argentina le contaba más de 1.200 clientes en 17 países en 2023 [https://www.forbesargentina.com/innovacion/desarrollan-software-detecta-gestos-sospechosos-hurto-supermercados-n33239]. Busqué startups argentinas de detección de hurtos con cierre o ronda de inversión y no encontré ninguna.",
+  "competencia": "Veesion no publica precios: no verificado cuánto cobra. Vende también a través de empresas de seguridad, o sea que ya tiene canal en el interior [https://www.iprofesional.com/tecnologia/380616-inteligencia-artificial-para-detectar-robos-en-tiempo-real]. Afuera hay otros como Batech en México y KSI Vision en Uruguay, según lo visto antes. El hueco posible es el autoservicio chino o de barrio que no compra a un integrador y necesita un precio publicado y una instalación en una tarde. No pude confirmar si Veesion atiende ese segmento.",
+  "regulacion": "La Ley 25.326 protege los datos personales. La Disposición AAIP 4/2019 define los datos biométricos y la Ley 27.699 aprobó el Convenio 108+, que sube esa definición de rango [https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151]. Si el sistema solo mira gestos y no reconoce caras, el riesgo baja, pero el video de clientes sigue siendo dato personal. Qué carteles y registros exige la AAIP para videovigilancia en comercios: no verificado.",
+  "numeros": "Una nota de Perú Retail sin fecha dice que el índice de pérdidas de los supermercados argentinos es del 1,6% de la facturación; no es confiable para usar como dato [https://www.peru-retail.com/?p=11079]. Estimación: un abono razonable para un autoservicio chico estaría entre USD 30 y 60 por mes por local, pensando en que el dueño pague una fracción chica de lo que cree perder. El costo de procesar video con IA por cámara no lo verifiqué. Si Facu revende un producto ajeno, su margen es la comisión del proveedor, que no está publicada.",
+  "mercado": "No hay censo de autoservicios chinos. Una nota de Perú Retail sin fecha estima que superaron los 10.000 locales y que tenían el 8,7% de la venta de alimentos, bebidas, limpieza y tocador [https://www.peru-retail.com/?p=17712]. Es un dato viejo y sin fecha: tomarlo como orden de magnitud, no como cifra actual.",
+  "variante_recomendada": "No construir el detector. Primero medir si el autoservicio chico paga: ofrecer una prueba de dos semanas con un producto que ya exista, como revendedor o socio de un proveedor, en una ciudad del interior. Si 3 de cada 10 locales quieren seguir pagando, recién ahí pensar un producto propio para ese segmento.",
+  "entrevistar_a": [
+   "Dueños o encargados de autoservicios chinos y de barrio, recorriendo los locales en persona en una ciudad mediana.",
+   "Instaladores de cámaras de seguridad de la zona, buscados en Mercado Libre, Google Maps y grupos de Facebook de seguridad electrónica.",
+   "Encargados de prevención de pérdidas de cadenas regionales de supermercados, por LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que descubriste que te robaron mercadería? ¿Qué pasó?",
+   "¿Cómo te diste cuenta y cuánto calculás que fue?",
+   "¿Qué hacés hoy para evitarlo: cámaras, empleado mirando, otra cosa?",
+   "¿Cuánto pagaste por las cámaras y quién te las instaló?",
+   "¿Alguien te ofreció algún sistema para detectar robos? ¿Qué le contestaste?"
+  ],
+  "experimento": {
+   "hipotesis": "Los dueños de autoservicios chicos sienten el robo hormiga como un problema concreto y aceptan probar un sistema pago.",
+   "prediccion": "De 15 autoservicios visitados, al menos 4 dicen haber detectado un robo en el último mes y al menos 2 aceptan una prueba con precio.",
+   "perdida_maxima": "USD 60",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Escribir a Veesion y a 2 proveedores más preguntando si aceptan revendedores en el interior y en qué condiciones.",
+    "Visitar 15 autoservicios con las preguntas de la entrevista.",
+    "Ofrecer a los interesados una prueba con precio mensual concreto.",
+    "Anotar cuántos tienen cámaras IP utilizables y cuántos aceptan."
+   ],
+   "sigue_si": "Al menos 2 locales aceptan probar pagando y algún proveedor acepta trabajar con Facu.",
+   "se_corta_si": "Menos de 2 interesados o ningún proveedor acepta revendedores."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "Baja porque Veesion está en Argentina desde 2023, vende por empresas de seguridad y dice servir a comercios chicos. Construir un detector propio es muy difícil para alguien que no programa.",
+  "veredicto": "Probar si un proveedor existente acepta a Facu como revendedor, porque construir el producto propio contra Veesion hoy no tiene sentido.",
+  "fuentes": [
+   "https://www.iprofesional.com/tecnologia/380616-inteligencia-artificial-para-detectar-robos-en-tiempo-real",
+   "https://www.forbesargentina.com/innovacion/desarrollan-software-detecta-gestos-sospechosos-hurto-supermercados-n33239",
+   "https://www.peru-retail.com/?p=11079",
+   "https://www.peru-retail.com/?p=17712",
+   "https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151"
+  ]
+ },
+ {
+  "n": "M017",
+  "quien_lo_intento": "No encontré a nadie en Argentina que venda un detector de colados para gimnasios. Busqué molinete, antipassback y colados en gimnasios de Argentina. Solo apareció un molinete de fabricación nacional, Heracles, con lector de huellas en un gimnasio, mencionado en un perfil de LinkedIn; es una fuente débil [https://uy.linkedin.com/in/alejandro-vazquez-61685232].",
+  "competencia": "GymAr es un software argentino de gestión para gimnasios con precios en pesos y cobro por Mercado Pago; no vi el precio del plan [https://www.comparasoftware.com/gymar]. YoFacturo recomienda control de acceso por huella o QR y cuenta que hay gimnasios de barrio que validan a mano con una foto en pantalla [https://yo-facturo.com/blog/sistema-gestion-gimnasio-fitness/]. Los molinetes ya dejan pasar a una persona por vez [https://yo-facturo.com/blog/torniquete-vs-molinete-para-gimnasio-y-club/]. El hueco es chico: donde hay molinete, colarse es difícil; donde no hay, el dueño valida a mano.",
+  "regulacion": "Una tarjeta o sticker RFID no es dato biométrico. Si se usa huella o cámara que identifique personas, entra la definición de dato biométrico de la Disposición AAIP 4/2019 y la Ley 27.699 [https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151]. Un sensor que solo cuenta pasos no toca datos personales.",
+  "numeros": "Cuotas de 2025: gimnasios low cost entre $29.990 y $42.990 por mes; premium entre $60.000 y $98.000 [https://www.iprofesional.com/negocios/433377-boom-del-entrenamiento-de-fuerza-y-gimnasios-low-cost-que-mueve-al-mercado-del-fitness-en-argentina]. Estimación: si un gimnasio de 300 socios tiene un 3% de colados, son 9 personas por $35.000, unos $315.000 por mes; un abono de entre el 10% y el 20% de eso sería defendible. El 3% es supuesto mío, no dato. Precio de un sensor de paso más lector RFID por puerta: no verificado.",
+  "mercado": "Hay 8.662 gimnasios activos y unas 3,6 millones de personas que van con regularidad, según un relevamiento privado de Mercado Fitness y Trainingym publicado el 2025-07-25 [https://www.iprofesional.com/negocios/433377-boom-del-entrenamiento-de-fuerza-y-gimnasios-low-cost-que-mueve-al-mercado-del-fitness-en-argentina].",
+  "variante_recomendada": "La de Facu sirve solo en gimnasios sin molinete, donde hoy se valida a mano. Ahí probaría un contador de pasos barato en la puerta que se compara con los ingresos registrados del día y avisa la diferencia. Evitar la gestión de socios y cuotas, porque Facu ya no la eligió antes.",
+  "entrevistar_a": [
+   "Dueños de gimnasios de barrio sin molinete, recorriendo gimnasios del barrio o por Instagram.",
+   "Encargados de recepción de gimnasios low cost, en persona.",
+   "Instaladores de molinetes y control de acceso, buscados en Mercado Libre y Google Maps."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que descubriste a alguien entrenando sin pagar? ¿Cómo te enteraste?",
+   "¿Cómo controlás hoy quién entra?",
+   "¿Cuánto te costó el sistema de acceso que tenés y por qué elegiste ese?",
+   "¿Cuántos socios con cuota vencida siguieron viniendo el mes pasado?",
+   "¿Qué hiciste la última vez que encontraste un colado?"
+  ],
+  "experimento": {
+   "hipotesis": "En gimnasios sin molinete entra más gente de la que se registra, y al dueño le importa.",
+   "prediccion": "En un gimnasio sin molinete, el conteo de la puerta supera en más de un 5% a los ingresos registrados durante una semana.",
+   "perdida_maxima": "USD 80",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Entrevistar a 5 dueños de gimnasio con las preguntas.",
+    "Conseguir uno sin molinete que acepte la prueba.",
+    "Contar entradas una semana con un contador simple o a mano en horas pico.",
+    "Comparar con los ingresos registrados y mostrarle la diferencia al dueño."
+   ],
+   "sigue_si": "La diferencia supera el 5% y el dueño pregunta cuánto cuesta tenerlo fijo.",
+   "se_corta_si": "La diferencia es menor al 2% o ningún dueño de los 5 lo ve como problema."
+  },
+  "puntuacion_revisada": 5.2,
+  "por_que_revisada": "Baja porque el molinete ya resuelve casi todo y donde no hay molinete el gimnasio suele ser chico y paga poco. No encontré a nadie con este problema contado en primera persona.",
+  "veredicto": "Probar si las 5 entrevistas muestran colados reales en gimnasios sin molinete, porque si no el problema no paga una cuota.",
+  "fuentes": [
+   "https://uy.linkedin.com/in/alejandro-vazquez-61685232",
+   "https://www.comparasoftware.com/gymar",
+   "https://yo-facturo.com/blog/sistema-gestion-gimnasio-fitness/",
+   "https://yo-facturo.com/blog/torniquete-vs-molinete-para-gimnasio-y-club/",
+   "https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151",
+   "https://www.iprofesional.com/negocios/433377-boom-del-entrenamiento-de-fuerza-y-gimnasios-low-cost-que-mueve-al-mercado-del-fitness-en-argentina"
+  ]
+ },
+ {
+  "n": "M039",
+  "quien_lo_intento": "No encontré jardines ni colegios argentinos con RFID para chicos. Busqué pulseras RFID para niños en colonias y jardines de Argentina. Lo más cercano: EFESUR con pulseras RFID para egresados en Bariloche [https://www.itsitio.com/?p=14554]. En la Fiesta del Poncho 2026 en Catamarca se usaron pulseras de reencuentro con QR, conectadas al 911, para chicos o adultos que se pierden [https://www.elancasti.com.ar/informacion-general/como-funcionan-las-pulseras-reencuentro-la-fiesta-del-poncho-n617633/amp]. Hubo un proyecto de declaración en la Legislatura bonaerense que pedía pulseras para menores en lugares con mucha gente; no consta que se aprobara [https://intranet.hcdiputados-ba.gov.ar/proyectos/12-13d6710.doc].",
+  "competencia": "Hay pulseras de identificación simples con un teléfono de contacto, sin electrónica [https://www.paris.cl/2-pulsera-identificacion-para-ninos-reutilizable-id-sos-MKTPHYZ3IR.html]. En jardines no apareció ningún competidor. El hueco existe, pero puede ser porque nadie lo está pidiendo.",
+  "regulacion": "Ley 25.326 de datos personales. La Disposición AAIP 4/2019 y la Ley 27.699 definen los datos biométricos [https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151]. Para menores, una fuente secundaria dice que se piden mejores esfuerzos para confirmar que consiente quien tiene la responsabilidad parental; no lo leí en la norma: no verificado. Un RFID asociado al nombre del chico es dato personal de un menor. La responsabilidad civil del proveedor si falla la lectura: no verificado.",
+  "numeros": "No verifiqué precios de etiquetas UHF lavables ni de lectores de portal. Estimación: un lector de puerta que lea a distancia cuesta varios cientos de USD por aula, y un jardín con 6 aulas ya pasa los USD 1.000 en hardware. Eso es casi todo el ahorro de Facu para un solo piloto. Una pulsera QR para eventos cuesta centavos por unidad, también estimación.",
+  "mercado": "Sin dato: no busqué la cantidad de jardines y colonias en Argentina.",
+  "variante_recomendada": "Dejar el RFID en aulas para más adelante, como dijo Facu. Si quiere probar el problema del chico que se pierde, la versión barata es la pulsera QR de reencuentro para colonias de verano, piletas de clubes y eventos: el adulto que lo encuentra escanea y avisa al padre. No hay hardware fijo y la responsabilidad es menor.",
+  "entrevistar_a": [
+   "Coordinadores de colonias de verano de clubes, por Instagram y en persona en los clubes de barrio.",
+   "Directoras de jardines privados, por contacto directo o por conocidos.",
+   "Organizadores de eventos familiares masivos, como fiestas municipales, por el área de cultura del municipio."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que no encontraban a un chico? ¿Qué pasó y cuánto tardaron?",
+   "¿Cómo controlan hoy que estén todos al subir al micro o al salir de la pileta?",
+   "¿Qué les pidieron los padres después de ese episodio?",
+   "¿Gastaron plata en algo para controlar a los chicos? ¿En qué?",
+   "¿Quién decide una compra así y de qué presupuesto sale?"
+  ],
+  "experimento": {
+   "hipotesis": "Las colonias de verano tienen episodios de chicos perdidos y pagarían por un sistema simple de reencuentro.",
+   "prediccion": "De 8 coordinadores de colonia, al menos 5 cuentan un episodio del último año y 2 aceptan probar pulseras QR pagas en la temporada.",
+   "perdida_maxima": "USD 50",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Entrevistar a 8 coordinadores de colonia antes de la temporada de verano.",
+    "Armar una pulsera QR de muestra que lleve a una página con el contacto del padre.",
+    "Ofrecer un precio por chico por temporada.",
+    "Contar quiénes aceptan."
+   ],
+   "sigue_si": "Al menos 2 colonias aceptan pagar por la temporada.",
+   "se_corta_si": "Menos de 3 coordinadores cuentan episodios reales o nadie acepta pagar."
+  },
+  "puntuacion_revisada": 4.8,
+  "por_que_revisada": "Baja porque el hardware por aula es caro para el ahorro de Facu, toca datos de menores y el propio Facu dijo que no lo ve en colegios. No apareció ninguna señal de que los jardines lo pidan.",
+  "veredicto": "No conviene ahora la versión RFID en jardines; probar si las colonias de verano confirman el problema, con la pulsera QR barata.",
+  "fuentes": [
+   "https://www.itsitio.com/?p=14554",
+   "https://www.elancasti.com.ar/informacion-general/como-funcionan-las-pulseras-reencuentro-la-fiesta-del-poncho-n617633/amp",
+   "https://intranet.hcdiputados-ba.gov.ar/proyectos/12-13d6710.doc",
+   "https://www.paris.cl/2-pulsera-identificacion-para-ninos-reutilizable-id-sos-MKTPHYZ3IR.html",
+   "https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151"
+  ]
+ },
+ {
+  "n": "M042",
+  "quien_lo_intento": "Hasar ya instalaba en 2019 una cámara en la puerta con software web para cruzar visitas con tickets; no encontré qué pasó después [https://www.baenegocios.com/negocios/Por-caida-de-ventas-las-marcas-suman-tecnologia-para-conocer-a-sus-clientes-20190922-0021.html]. Porter ofrecía en 2018 una app de conteo para retail: cámara a USD 300 más USD 29 por mes, o alquiler a USD 50 por mes por local; precios viejos y no sé si sigue [https://portermetrics.com/wp-content/uploads/2018/07/Porter_-App-de-conteo-de-tráfico-para-retail-3.pdf]. No encontré cierres ni notas de prensa sobre fracasos.",
+  "competencia": "FootfallCam tiene socios en Buenos Aires, Córdoba, Rosario, Mendoza y Tucumán y no publica precios [https://www.footfallcam.com/Home/WhereToBuy/Argentina]. Agent DVR cuenta personas sobre cámaras IP comunes desde USD 14,95 por mes, procesando en la computadora del local sin subir video [https://www.ispyconnect.com/es/analytics]. Sumato ID hace analítica con cámaras, según lo visto antes. El hueco no es la tecnología: es un informe simple que le diga al comerciante chico qué hacer con el número.",
+  "regulacion": "Si solo cuenta personas sin identificarlas, no hay dato personal en juego. Si mide edad, sexo o caras, entra en dato biométrico según la Disposición AAIP 4/2019 y la Ley 27.699 [https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151]. Conviene quedarse en el conteo anónimo.",
+  "numeros": "Costo verificado: Agent DVR desde USD 14,95 por mes por instalación [https://www.ispyconnect.com/es/analytics]. Estimación: cobrar entre USD 40 y 60 por mes por local con el informe semanal, tomando como techo los USD 50 que pedía Porter en 2018. Margen estimado de USD 25 a 45 por local, sin contar las horas de instalación y soporte de Facu, que al principio van a ser muchas.",
+  "mercado": "Sin dato de cuántos locales en Argentina tienen cámaras IP utilizables. Como referencia de un solo rubro, hay 8.662 gimnasios según Mercado Fitness y Trainingym, 2025-07-25, donde la ocupación por hora también importa [https://www.iprofesional.com/negocios/433377-boom-del-entrenamiento-de-fuerza-y-gimnasios-low-cost-que-mueve-al-mercado-del-fitness-en-argentina].",
+  "variante_recomendada": "La de Facu, en modo kit: software existente de conteo sobre la cámara del local más un informe semanal escrito con IA que cruza entradas con ventas. Apuntar a cadenas chicas de 3 a 10 locales o franquicias, que comparan sucursales y ya entienden el dato. La versión para ferias queda descartada, como pidió Facu.",
+  "entrevistar_a": [
+   "Dueños de cadenas chicas de ropa, cafeterías o heladerías con 3 a 10 locales, por LinkedIn e Instagram.",
+   "Franquiciados de marcas conocidas en shoppings, en persona.",
+   "Administradores de centros comerciales chicos o galerías, por la administración del lugar."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo sabés hoy cuánta gente entra a cada local?",
+   "¿Cuándo fue la última vez que cambiaste algo del local por un dato? ¿Qué dato era?",
+   "¿Qué hiciste la última vez que un local vendía menos que otro?",
+   "¿Pagaste alguna vez por un contador de personas o un informe de tráfico? ¿Qué pasó?",
+   "¿Qué cámaras tenés y quién las mantiene?"
+  ],
+  "experimento": {
+   "hipotesis": "Un dueño de locales usa un informe semanal de entradas contra ventas y lo quiere seguir recibiendo pagando.",
+   "prediccion": "El dueño abre al menos 3 de los 4 informes semanales y acepta pagar USD 40 por mes al terminar.",
+   "perdida_maxima": "USD 60",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Conseguir un local conocido con cámara IP apuntando a la puerta.",
+    "Instalar la prueba gratis de un software de conteo existente.",
+    "Pedir las ventas diarias y armar un informe semanal con IA.",
+    "Mandarlo por WhatsApp y anotar si lo lee y qué pregunta.",
+    "Al final, ofrecer el precio."
+   ],
+   "sigue_si": "El dueño lo usa para decidir algo y acepta pagar.",
+   "se_corta_si": "No abre los informes o dice que es interesante pero no paga."
+  },
+  "puntuacion_revisada": 5.8,
+  "por_que_revisada": "Baja un poco porque la tecnología ya está resuelta y barata, y la competencia tiene socios en cinco ciudades. Queda como prueba barata porque se arma con software existente.",
+  "veredicto": "Probar ya con un solo local conocido, porque cuesta menos de USD 60 y responde la duda central: si el comerciante usa el dato.",
+  "fuentes": [
+   "https://www.baenegocios.com/negocios/Por-caida-de-ventas-las-marcas-suman-tecnologia-para-conocer-a-sus-clientes-20190922-0021.html",
+   "https://portermetrics.com/wp-content/uploads/2018/07/Porter_-App-de-conteo-de-tráfico-para-retail-3.pdf",
+   "https://www.footfallcam.com/Home/WhereToBuy/Argentina",
+   "https://www.ispyconnect.com/es/analytics",
+   "https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151",
+   "https://www.iprofesional.com/negocios/433377-boom-del-entrenamiento-de-fuerza-y-gimnasios-low-cost-que-mueve-al-mercado-del-fitness-en-argentina"
+  ]
+ },
+ {
+  "n": "M044",
+  "quien_lo_intento": "Veesion entró a Argentina con robo en comercios; la nota es del 2023-04-20 [https://www.iprofesional.com/tecnologia/380616-inteligencia-artificial-para-detectar-robos-en-tiempo-real]. Hasar vendía conteo con cámara en 2019 [https://www.baenegocios.com/negocios/Por-caida-de-ventas-las-marcas-suman-tecnologia-para-conocer-a-sus-clientes-20190922-0021.html]. No encontré startups argentinas de cámaras con IA que hayan cerrado o levantado plata.",
+  "competencia": "En robo: Veesion, sin precio publicado. En conteo: FootfallCam con socios en cinco ciudades [https://www.footfallcam.com/Home/WhereToBuy/Argentina] y Agent DVR desde USD 14,95 por mes [https://www.ispyconnect.com/es/analytics]. Como rubro está ocupado. Los huecos están en problemas puntuales, como M018 y M042.",
+  "regulacion": "Ley 25.326, Disposición AAIP 4/2019 y Ley 27.699 cuando hay identificación de personas [https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151]. Si el servicio incluye monitoreo de seguridad para terceros, puede hacer falta habilitación provincial como empresa de seguridad: no verificado.",
+  "numeros": "Ver M018 y M042. Como rubro no tiene un número de unidad propio.",
+  "mercado": "Sin dato del mercado de videovigilancia con IA en Argentina.",
+  "variante_recomendada": "No investigarla sola. Usar M042, conteo en locales, como puerta de entrada al rubro porque es la prueba más barata. Si funciona, el mismo cliente puede pedir después lo de robos.",
+  "entrevistar_a": [
+   "Instaladores de cámaras de seguridad de una ciudad mediana, por Google Maps y Mercado Libre.",
+   "Dueños de comercios con 4 o más cámaras, en persona.",
+   "Gerentes de seguridad de cadenas regionales, por LinkedIn."
+  ],
+  "preguntas_entrevista": [
+   "¿Qué te pidió el último cliente que no le pudiste dar con las cámaras comunes?",
+   "¿Cuándo fue la última vez que alguien revisó la grabación? ¿Para qué?",
+   "¿Cuánto cobrás por instalar y por mantener?",
+   "¿Te ofrecieron algún software con IA? ¿Qué pasó?",
+   "¿Qué problema de tus clientes te consume más tiempo?"
+  ],
+  "experimento": {
+   "hipotesis": "Los instaladores de cámaras tienen clientes que piden funciones de IA y no las pueden dar.",
+   "prediccion": "De 6 instaladores, al menos 3 nombran el mismo pedido de clientes.",
+   "perdida_maxima": "USD 20",
+   "duracion": "1 semana",
+   "pasos": [
+    "Llamar o visitar a 6 instaladores.",
+    "Hacer las preguntas y anotar los pedidos repetidos.",
+    "Elegir el pedido más repetido para el siguiente experimento."
+   ],
+   "sigue_si": "Aparece un pedido que se repite en 3 o más instaladores.",
+   "se_corta_si": "Cada instalador cuenta algo distinto o nadie pide IA."
+  },
+  "puntuacion_revisada": 5.0,
+  "por_que_revisada": "Baja porque como idea suelta es un rubro y no un negocio, y los jugadores fuertes ya están acá. Su valor está en M018 y M042.",
+  "veredicto": "No conviene como idea suelta, porque es demasiado amplia; sirve como paraguas para probar M042 primero.",
+  "fuentes": [
+   "https://www.iprofesional.com/tecnologia/380616-inteligencia-artificial-para-detectar-robos-en-tiempo-real",
+   "https://www.baenegocios.com/negocios/Por-caida-de-ventas-las-marcas-suman-tecnologia-para-conocer-a-sus-clientes-20190922-0021.html",
+   "https://www.footfallcam.com/Home/WhereToBuy/Argentina",
+   "https://www.ispyconnect.com/es/analytics",
+   "https://abogados.com.ar/sistemas-biometricos-en-argentina-hoy-status-juridico-y-tendencias/40151"
+  ]
+ },
+ {
+  "n": "M043",
+  "quien_lo_intento": "No encontré a nadie en Argentina. Busqué trámite de equivalencias universitarias, demoras y plataformas. Afuera, la Universidad Federal de Uberlândia en Brasil describe un sistema donde la IA arma un parecer previo y el profesor decide, según lo visto antes. No encontré notas sobre demoras actuales del trámite en universidades argentinas.",
+  "competencia": "En Argentina no apareció nadie. Afuera existen DegreeSight y TES, según lo visto antes. Coincido con Facu: la comparación con IA ya existe y no es una ventaja.",
+  "regulacion": "Cada universidad tiene su norma. La UTN usa la Ordenanza 1549, con dictamen de departamentos y resolución del Consejo Directivo, según lo visto antes. La Facultad de Lenguas de la UNC pide certificado analítico y programa autenticado de cada materia [https://lenguas.unc.edu.ar/prospective-students/equivalency-request]. Para títulos secundarios extranjeros, la Resolución 480/2026 pasó el trámite a una plataforma digital [https://www.baenegocios.com/politica/el-gobierno-simplifico-la-convalidacion-de-titulos-secundarios-extranjeros-para-estudiar-en-el-pais/]. El Estado ya digitaliza esa parte.",
+  "numeros": "Estimación: cobrar al alumno entre USD 20 y 50 por carpeta armada. El costo de IA por carpeta es bajo, menos de USD 1, también estimación. El problema no es el costo: el que firma es el consejo, y la carpeta no acorta ese paso.",
+  "mercado": "Sin dato de cuántos alumnos piden equivalencias por año en Argentina.",
+  "variante_recomendada": "Respetar el comentario de Facu y pausarla. Si quiere probar algo, la única versión con algún sentido es la del alumno: armarle la carpeta y estimar qué materias le reconocen antes de cambiarse de carrera.",
+  "entrevistar_a": [
+   "Alumnos que se cambiaron de carrera o de universidad en los últimos dos años, por grupos de Facebook y centros de estudiantes.",
+   "Personal de la secretaría académica de una facultad, en persona.",
+   "Responsables de admisión de institutos terciarios privados, por teléfono."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo pediste tu última equivalencia? ¿Cuánto tardó?",
+   "¿Qué te pidieron y qué fue lo que más te costó juntar?",
+   "¿Pagaste algo en el proceso, como certificaciones o un gestor?",
+   "¿Qué materias te reconocieron y cuáles no? ¿Sabías antes?",
+   "¿Qué hiciste mientras esperabas la resolución?"
+  ],
+  "experimento": {
+   "hipotesis": "Los alumnos que se cambian de carrera pagan por saber de antemano qué materias les reconocen.",
+   "prediccion": "Un posteo en 3 grupos de estudiantes trae al menos 10 interesados y 2 que pagan USD 20 por un informe.",
+   "perdida_maxima": "USD 30",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Hacer 5 entrevistas con las preguntas.",
+    "Publicar la oferta del informe previo en 3 grupos.",
+    "Armar a mano con IA los informes que se paguen.",
+    "Contar pagos."
+   ],
+   "sigue_si": "Al menos 2 pagos y alguien recomienda el servicio a otro.",
+   "se_corta_si": "Menos de 10 interesados o ningún pago."
+  },
+  "puntuacion_revisada": 4.6,
+  "por_que_revisada": "Baja porque el cuello de botella es el consejo que firma, la comparación con IA ya existe afuera y el cliente institucional compra lento. Facu mismo duda de la idea.",
+  "veredicto": "No conviene ahora, porque no ataca el paso que demora el trámite y no aprovecha ninguna ventaja de Facu.",
+  "fuentes": [
+   "https://lenguas.unc.edu.ar/prospective-students/equivalency-request",
+   "https://www.baenegocios.com/politica/el-gobierno-simplifico-la-convalidacion-de-titulos-secundarios-extranjeros-para-estudiar-en-el-pais/"
+  ]
+ },
+ {
+  "n": "M006",
+  "quien_lo_intento": "AccessIn nació en Mendoza en 2016 para controlar ingresos y egresos en barrios privados y edificios; no sé si sigue activa [https://www.losandes.com.ar/accessin-ya-funciona-en-mendoza-y-se-extiende-al-resto-del-pais]. Simple Solutions aparece en una nota del 2026-03-05 sobre control de accesos en barrios y edificios, que habla de visitas, personal doméstico, proveedores y obras, pero no de paquetes [https://mercado.com.ar/ruta-digital/control-de-accesos-en-edificios-y-barrios-privados-trazabilidad-ante-mayor-circulacion]. Boxeway sigue siendo la referencia local de lockers, según lo visto antes. No encontré cierres.",
+  "competencia": "Control de Accesos, de ConsorcioAbierto, es gratis, escanea DNI y registra egresos, sin paquetes [https://apps.apple.com/us/app/id1580932238]. Unica, de Seguridad Unica SRL, autoriza visitas momentáneas como delivery, sin registro de paquetes [https://apps.apple.com/us/app/id1641828407]. Portería Home ofrece gestión de paquetes y aviso al residente; es de tienda extranjera y no verifiqué que opere en Argentina [https://mwm.ai/apps/porteria-home/6743350985]. Hueco: el registro de paquetes y de motos de reparto, que las apps locales que vi no muestran. Riesgo: cualquiera de ellas lo puede sumar.",
+  "regulacion": "No hay una norma específica. Registrar DNI y foto de repartidores es tratamiento de datos personales bajo la Ley 25.326, con aviso y finalidad clara. El resto lo define el reglamento interno de cada barrio.",
+  "numeros": "Estimación: abono por barrio entre USD 50 y 150 por mes según cantidad de lotes, pensado como una parte chica de las expensas totales. Costo por operación muy bajo si el aviso va por WhatsApp; el precio por mensaje de la API de WhatsApp no lo verifiqué. Margen alto si es software, pero los primeros meses Facu va a tener que capacitar a cada guardia.",
+  "mercado": "ARBA detectó 871 barrios cerrados en la provincia de Buenos Aires en 2020. El 82,9% está en el AMBA; Pilar tiene 137, Tigre 80 y Escobar 42 [https://www.perfil.com/noticias/politica/casas-piletas-y-hasta-countries-completos-sin-declarar-irregularidades-detras-de-la-polemica-por-las-tomas-tierras.phtml]. Hay que sumar edificios grandes con encargado; sin dato.",
+  "variante_recomendada": "La de Facu: el guardia saca foto al paquete y al repartidor, el sistema avisa al vecino por WhatsApp y queda registrada la entrada y salida de cada moto. Arrancar sin lockers, en barrios de 100 a 400 lotes de Pilar o Escobar. Si los barrios ya usan una app de acceso, ofrecerle el módulo a esa app en vez de competir.",
+  "entrevistar_a": [
+   "Jefes de guardia de barrios cerrados de Pilar, Escobar o Tigre, en la entrada del barrio.",
+   "Administradores de barrios y consorcios, por la Cámara o por sus páginas.",
+   "Vecinos de comisiones de seguridad de barrios, por grupos de Facebook de cada barrio."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuántos paquetes llegaron ayer a la guardia? ¿Cuántos siguen ahí?",
+   "¿Cuándo fue el último reclamo por un paquete perdido? ¿Cómo se resolvió?",
+   "¿Cómo registran hoy la entrada y salida de las motos de reparto?",
+   "¿Qué app o sistema usan para los accesos y cuánto pagan?",
+   "¿Quién decidió esa compra y cuánto tardó?"
+  ],
+  "experimento": {
+   "hipotesis": "La guardia de un barrio mediano maneja suficientes paquetes y reclamos como para que la administración pague un registro simple.",
+   "prediccion": "En una semana entran más de 30 paquetes por día y hay al menos 1 reclamo; 1 de 3 administraciones acepta un piloto pago de USD 50 por mes.",
+   "perdida_maxima": "USD 80",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Contar paquetes, motos y paquetes sin retirar en la guardia de 2 barrios durante una semana.",
+    "Armar el registro con foto y aviso por WhatsApp con una herramienta no-code.",
+    "Presentar los números a 3 administraciones.",
+    "Ofrecer un piloto pago de un mes."
+   ],
+   "sigue_si": "Una administración paga el piloto y la guardia lo usa todos los días.",
+   "se_corta_si": "Menos de 10 paquetes por día o ninguna administración acepta pagar."
+  },
+  "puntuacion_revisada": 6.6,
+  "por_que_revisada": "Baja algo porque ya hay apps de acceso instaladas en barrios que pueden sumar paquetes, y existe Portería Home afuera. Sigue alta porque el hueco local es real, el mercado está concentrado en pocas zonas y se prueba sin hardware.",
+  "veredicto": "Probar ya, porque contar paquetes en dos guardias cuesta casi nada y responde si el volumen justifica un abono.",
+  "fuentes": [
+   "https://www.losandes.com.ar/accessin-ya-funciona-en-mendoza-y-se-extiende-al-resto-del-pais",
+   "https://mercado.com.ar/ruta-digital/control-de-accesos-en-edificios-y-barrios-privados-trazabilidad-ante-mayor-circulacion",
+   "https://apps.apple.com/us/app/id1580932238",
+   "https://apps.apple.com/us/app/id1641828407",
+   "https://mwm.ai/apps/porteria-home/6743350985",
+   "https://www.perfil.com/noticias/politica/casas-piletas-y-hasta-countries-completos-sin-declarar-irregularidades-detras-de-la-polemica-por-las-tomas-tierras.phtml"
+  ]
+ },
+ {
+  "n": "M016",
+  "quien_lo_intento": "No encontré a nadie en Argentina. Busqué volquetes con pedido online, plataformas y precios de volquetes en Buenos Aires para 2026, y alquiler de baños químicos con precio. Solo aparecieron licitaciones públicas y avisos sin precio.",
+  "competencia": "Los volqueteros figuran en guías con teléfono y sin precio, según lo visto antes. En otro rubro, Servidos publica precios de referencia por zona para oficios y dice no cobrar comisión [https://servidos.ar/servicios/pintor/buenos-aires]; muestra que publicar precios atrae tráfico, y podría sumar volquetes. Hueco: nadie publica precio cerrado de volquete o baño químico con pedido online.",
+  "regulacion": "En CABA, la Disposición 103/2009 de Higiene Urbana dice que el volquete va solo en lugares de estacionamiento autorizado, paralelo al cordón, a más de 10 metros de una parada de colectivo, y de noche o fin de semana en calles con estacionamiento prohibido [https://boletinoficial.buenosaires.gob.ar/normativaba/norma/128056]. Para descargar en el Centro de Reciclaje de la Ciudad, la empresa se inscribe en el Registro de Transportadores de Materiales Áridos [https://buenosaires.gob.ar/tramites/inscripcion-en-el-registro-de-transportadores-de-materiales-aridos-y]. Cada municipio tiene su ordenanza, por ejemplo Chacabuco [https://chacabuco.gob.ar/wp-content/uploads/pdfobrasparticulares/004_Volquetes y Contenedores.pdf]. El que cumple es el volquetero, no la plataforma.",
+  "numeros": "Precio de un volquete en 2026: no verificado. Comisión de cobro: una tabla publicada por Ámbito daba 0,8% más IVA con dinero en cuenta y 6,49% más IVA con crédito en el momento; la nota no es reciente y conviene confirmarlo en Mercado Pago [https://www.ambito.com/informacion-general/una-una-todas-las-comisiones-que-se-lleva-mercado-pago-cada-venta-n5766651]. Estimación: una comisión del 10% sobre el alquiler, cobrando solo una seña por la plataforma para no pagar la comisión sobre todo el monto.",
+  "mercado": "Sin dato del mercado de volquetes. Como señal de actividad, los permisos de edificación nacionales subieron 8,2% interanual en el primer cuatrimestre de 2025, pero estaban 17,7% abajo de 2022, según datos del INDEC citados por la UGD [https://ugd.edu.ar/images/odem2024/odem202508.pdf].",
+  "variante_recomendada": "Datos primero: llamar a los volqueteros de una zona, publicar una tabla de precios por barrio y tamaño, y tomar pedidos por WhatsApp con una seña. La plataforma con pago completo viene después, si los volqueteros respetan el precio. Sumar el baño químico recién cuando el volquete funcione.",
+  "entrevistar_a": [
+   "Volqueteros de una zona, por teléfono desde guías y Google Maps.",
+   "Maestros mayores de obra y contratistas chicos, por grupos de Facebook de construcción.",
+   "Particulares que estén por hacer una reforma, por grupos de vecinos."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que pediste un volquete? ¿Cuántas llamadas hiciste?",
+   "¿Cuánto pagaste y cuántos días lo tuviste?",
+   "¿Qué salió mal: demora, multa, precio distinto al acordado?",
+   "Para el volquetero: ¿cuántos pedidos te entran por semana y por dónde llegan?",
+   "Para el volquetero: ¿pagaste alguna vez por publicidad o por clientes? ¿Cuánto?"
+  ],
+  "experimento": {
+   "hipotesis": "Una página con precio cerrado de volquetes por zona recibe pedidos reales y los volqueteros aceptan una comisión.",
+   "prediccion": "En 3 semanas entran al menos 8 pedidos por WhatsApp y 3 de 10 volqueteros aceptan pagar comisión.",
+   "perdida_maxima": "USD 120",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Llamar a 10 volqueteros de una zona y armar la tabla de precios.",
+    "Acordar con 3 una comisión por pedido derivado.",
+    "Publicar una página simple con la tabla y botón de WhatsApp.",
+    "Hacer anuncios chicos en Google o Facebook para esa zona.",
+    "Contar pedidos y comisiones cobradas."
+   ],
+   "sigue_si": "Al menos 8 pedidos y alguna comisión cobrada de verdad.",
+   "se_corta_si": "Menos de 3 pedidos o ningún volquetero acepta comisión."
+  },
+  "puntuacion_revisada": 6.2,
+  "por_que_revisada": "Baja un poco porque no es producto global sino ciudad por ciudad, y no hay precios ni márgenes verificados del rubro. Se mantiene en la mitad alta porque el hueco local parece real y la prueba es barata.",
+  "veredicto": "Probar ya en una sola zona, porque con USD 120 se sabe si hay pedidos y si el volquetero paga comisión.",
+  "fuentes": [
+   "https://servidos.ar/servicios/pintor/buenos-aires",
+   "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/128056",
+   "https://buenosaires.gob.ar/tramites/inscripcion-en-el-registro-de-transportadores-de-materiales-aridos-y",
+   "https://chacabuco.gob.ar/wp-content/uploads/pdfobrasparticulares/004_Volquetes y Contenedores.pdf",
+   "https://www.ambito.com/informacion-general/una-una-todas-las-comisiones-que-se-lleva-mercado-pago-cada-venta-n5766651",
+   "https://ugd.edu.ar/images/odem2024/odem202508.pdf"
+  ]
+ },
+ {
+  "n": "M019",
+  "quien_lo_intento": "Hover, de EE.UU., convierte unas 8 fotos del celular en un modelo 3D medido de la casa, sobre todo techos y fachadas, y levantó varias rondas de inversión [https://venturebeat.com/business/hover-raises-25-million-to-turn-pictures-of-homes-into-3d-models]. No encontré que opere en Latinoamérica [https://hover.to/product]. En Argentina no encontré a nadie que mida por foto para pintores.",
+  "competencia": "Servidos publica precios de referencia de octubre de 2026 para CABA y GBA, solo mano de obra: pintura interior de $4.800 a $8.500 por m²; un ambiente completo de $140.000 a $290.000; un departamento de 2 a 3 ambientes de $296.000 a $824.000; enduido de $3.200 a $9.500 por m²; cielorrasos de más de 2,60 m con recargo del 20% al 30% [https://servidos.ar/servicios/pintor/buenos-aires]. Hay calculadoras de litros gratis, según lo visto antes. Hueco: el presupuesto armado con mano de obra, materiales y recargos, listo para mandar.",
+  "regulacion": "Para el dron: la Resolución ANAC 550/2025, publicada el 2025-08-08, aprobó las partes 100 a 102 de las RAAC para drones [https://www.argentina.gob.ar/node/475294]. Según notas de prensa, los drones de hasta 250 gramos vuelan sin registro, pero no leí los requisitos para uso comercial: no verificado [https://www.unidiversidad.com.ar/drones-en-argentina-la-nueva-resolucion-flexibiliza-el-uso-abre-polemicas-y-deja-vacios-legales]. La versión de celular no tiene regulación.",
+  "numeros": "Con los precios de Servidos, un departamento de 2 a 3 ambientes vale entre $296.000 y $824.000 de mano de obra [https://servidos.ar/servicios/pintor/buenos-aires]. Estimación: si la herramienta le hace ganar al pintor un trabajo más por mes, un abono de USD 5 a 10 se paga solo. El costo por presupuesto es casi cero si es una planilla. El riesgo es que el pintor no pague ni eso.",
+  "mercado": "Sin dato de cuántos pintores trabajan en Argentina.",
+  "variante_recomendada": "La de Facu en versión celular: el pintor carga medidas de cada ambiente y la app arma el presupuesto con mano de obra, materiales, enduido y recargos por altura, con su nombre, para mandar por WhatsApp. El dron queda descartado por costo y permisos. No mezclar con agenda o cobro de técnicos, que Facu ya no eligió.",
+  "entrevistar_a": [
+   "Pintores independientes, por grupos de Facebook de pintores y por Servidos.",
+   "Pinturerías de barrio que reciben pintores, en persona.",
+   "Particulares que pidieron presupuesto de pintura hace poco, por grupos de vecinos."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo hiciste tu último presupuesto? ¿Cuánto tardaste?",
+   "¿Cuántos presupuestos mandaste el mes pasado y cuántos te aceptaron?",
+   "¿Cuándo fue la última vez que te quedaste corto en el presupuesto? ¿Qué pasó?",
+   "¿Usás alguna app o planilla? ¿Pagás por alguna herramienta?",
+   "¿Cuántas veces fuiste a medir a una casa y no te dieron el trabajo?"
+  ],
+  "experimento": {
+   "hipotesis": "Los pintores usan un presupuestador por medidas que les ahorra tiempo y les da imagen profesional.",
+   "prediccion": "De 10 pintores que lo prueban, 4 lo usan en al menos 3 presupuestos reales en 2 semanas y 2 aceptan pagar USD 5 por mes.",
+   "perdida_maxima": "USD 40",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Armar el presupuestador en una planilla con formulario, con los rangos de Servidos como precios de ejemplo.",
+    "Dárselo a 10 pintores de grupos de Facebook.",
+    "Contar cuántos presupuestos reales salen de la herramienta.",
+    "Ofrecer el abono al final."
+   ],
+   "sigue_si": "4 o más pintores lo usan de verdad y 2 pagan.",
+   "se_corta_si": "Menos de 2 lo usan más de una vez."
+  },
+  "puntuacion_revisada": 5.4,
+  "por_que_revisada": "Baja porque la versión construible sin programar compite con calculadoras gratis, y el pintor independiente paga poco por herramientas. Medir sin ir, que es lo valioso, es técnicamente difícil.",
+  "veredicto": "Probar si 10 pintores aceptan usar la planilla en presupuestos reales, porque si no la usan gratis tampoco la van a pagar.",
+  "fuentes": [
+   "https://venturebeat.com/business/hover-raises-25-million-to-turn-pictures-of-homes-into-3d-models",
+   "https://hover.to/product",
+   "https://servidos.ar/servicios/pintor/buenos-aires",
+   "https://www.argentina.gob.ar/node/475294",
+   "https://www.unidiversidad.com.ar/drones-en-argentina-la-nueva-resolucion-flexibiliza-el-uso-abre-polemicas-y-deja-vacios-legales"
+  ]
+ },
+ {
+  "n": "M054",
+  "quien_lo_intento": "No encontré una app argentina pensada para el dueño de una obra chica con un albañil a cargo. Busqué apps de control de obra para dueños y albañiles en Argentina. Lo que aparece está hecho para empresas: Trowel, de España, para costos y documentos por obra [https://www.capterra.es/software/1080571/TrowelApp]; Brickup RDO, de Brasil, para el parte diario con fotos y gastos [https://mwm.ai/es/apps/brickup-rdo/6504710548]; Buildpeer para obras grandes en Latinoamérica [https://www.buildpeer.com/en/contacta-a-ventas-old]. No encontré cierres ni pivotes.",
+  "competencia": "Softland vende un sistema de obra para constructoras medianas y grandes, según lo visto antes. SuiviChantier, de Francia, cobra 50 € por mes el plan PRO, según lo visto antes. Hueco: nadie le vende al particular que hace una obra chica y quiere ver avance, gastos y fotos sin pedirle al albañil que use una app.",
+  "regulacion": "No aplica a la app. La obra en sí puede necesitar permiso municipal, pero eso es del dueño.",
+  "numeros": "Estimación: abono por obra entre USD 10 y 25 por mes pagado por el dueño, en obras chicas que duran de 2 a 6 meses; un cliente deja entre USD 20 y 150 en total. El costo de mensajes y de IA por obra es bajo. El costo real es el tiempo de Facu si ordena él los partes al principio. Es poco plata por cliente: hace falta mucho volumen o venderlo por otra vía, como corralones.",
+  "mercado": "Sin dato de obras chicas. El INDEC mide permisos de edificación en 246 municipios, obra nueva y ampliaciones [https://www.indec.gob.ar/ftp/cuadros/economia/actualizacion_metodologica_permisos_edificacion.pdf]; en el primer cuatrimestre de 2025 subieron 8,2% interanual [https://ugd.edu.ar/images/odem2024/odem202508.pdf]. Muchas obras chicas no piden permiso y no aparecen en esa estadística.",
+  "variante_recomendada": "La de Facu, pero sin que el albañil tenga que aprender nada: el albañil manda fotos y audios a un número de WhatsApp, y el dueño recibe cada semana un resumen de avance, gastos y materiales pedidos. Primero hacerlo a mano con 3 familias para ver si pagan. La vía de corralones queda para después, si el dueño sí lo usa.",
+  "entrevistar_a": [
+   "Familias que estén haciendo una ampliación o reforma, por grupos de vecinos y conocidos.",
+   "Albañiles con experiencia que hacen de jefe de obra, en corralones a primera hora.",
+   "Encargados de corralones de barrio, en persona."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última vez que te enteraste tarde de un gasto o de un atraso en la obra? ¿Qué pasó?",
+   "¿Cómo sabés hoy cuánto llevás gastado contra lo presupuestado?",
+   "¿Cada cuánto vas a ver la obra y por qué?",
+   "¿Pagaste a alguien para que controle, como un arquitecto o maestro mayor de obras? ¿Cuánto?",
+   "Para el albañil: ¿cómo le contás hoy al dueño cómo va la obra?"
+  ],
+  "experimento": {
+   "hipotesis": "El dueño de una obra chica paga por un resumen semanal de avance y gastos armado con lo que manda el albañil por WhatsApp.",
+   "prediccion": "De 3 familias, el albañil manda fotos al menos 3 veces por semana en 2 de ellas, y 2 familias aceptan pagar USD 15 por mes al final.",
+   "perdida_maxima": "USD 50",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Conseguir 3 familias con obra en curso.",
+    "Pedirle al albañil que mande fotos y audios a un número de WhatsApp.",
+    "Armar a mano con IA un resumen semanal para el dueño.",
+    "Al final, ofrecer el precio."
+   ],
+   "sigue_si": "El albañil sigue mandando sin que se lo pidan y 2 familias pagan.",
+   "se_corta_si": "El albañil deja de mandar en la primera semana o nadie paga."
+  },
+  "puntuacion_revisada": 5.8,
+  "por_que_revisada": "Baja un poco porque el ticket por cliente es chico y la obra termina, así que hay que conseguir clientes nuevos todo el tiempo. Se sostiene porque el hueco en Argentina parece real y la prueba a mano es barata.",
+  "veredicto": "Probar ya con 3 familias a mano, porque el riesgo central, que el albañil no mande nada, se mide en una semana y casi sin plata.",
+  "fuentes": [
+   "https://www.capterra.es/software/1080571/TrowelApp",
+   "https://mwm.ai/es/apps/brickup-rdo/6504710548",
+   "https://www.buildpeer.com/en/contacta-a-ventas-old",
+   "https://www.indec.gob.ar/ftp/cuadros/economia/actualizacion_metodologica_permisos_edificacion.pdf",
+   "https://ugd.edu.ar/images/odem2024/odem202508.pdf"
+  ]
+ }
+]

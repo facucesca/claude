@@ -1,4 +1,4 @@
-# Lo que necesitan los programas que generan las plantillas, instructivos y PDFs.
+# Lo que necesitan los programas del proyecto (Excel, PDFs y el backup de juguetes).
 # Se instala solo al abrir una sesión de Claude (ver .claude/hooks/session-start.sh).
 shapely
 ezdxf

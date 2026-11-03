@@ -1,0 +1,162 @@
+[
+ {
+  "n": "M022",
+  "opinion": "Es la idea más rápida para cobrar del lote. Vos sabés usar Claude mejor que casi cualquier dueño de PyME, y eso hoy se paga. El problema es que es trabajo a medida por empresa, justo lo que dijiste que no querés como destino. Y la competencia local ya existe: hay consultores y agencias que venden exactamente esto en Argentina. Ojo: la salida obvia para volverla producto, packs de Skills por oficio, ya la descartaste antes (A22, D16, F18, G14), así que no la propongo como variante.",
+  "hallazgos": "Diego Ceredi vende consultoría de Claude y Gemini para PyMEs argentinas, con diagnóstico, hoja de ruta, implementación y capacitación del equipo [https://www.diegoceredi.com/consultoria-ia] (consultado 2026-10-23). Duotach ofrece Claude para empresas en Argentina: implementación, capacitación con casos reales y agentes con Claude Code, cotizado por alcance [https://duotach.com/servicios/claude-para-empresas-argentina] (consultado 2026-10-23). Un blog de consultora estima USD 3.000 a 15.000 el primer año de implementación de IA en una mediana empresa argentina. Es dato de un vendedor, no independiente [https://www.diegoceredi.com/blog/implementar-ia-pyme-guia-paso-a-paso] (consultado 2026-10-23). En el registro, los packs de Skills por oficio figuran como no elegidos: A22, D16, F18 y G14 [C:\\FACU\\IDEAS-PRUEBA\\research\\datos\\registro-de-ideas.csv].",
+  "variantes": [
+   "Respeta la marca de Facu: setup de Claude para PyMEs con un método fijo de 4 semanas y precio cerrado. Se vende como servicio puente para cobrar y aprender, no como destino.",
+   "Arrancar por CEMEVA y acopios de granos: armar el setup para la empresa del papá, medir horas ahorradas y usarlo como caso para venderle a otros acopios. El cliente es uno solo al principio, pero el rubro es conocido.",
+   "Abono mensual de mantenimiento: después del setup, cobrar un fijo por actualizar instrucciones y sumar procesos nuevos cada mes. Convierte un proyecto suelto en ingreso recurrente."
+  ],
+  "puntuacion": 6.6,
+  "por_que_puntuacion": "Cobra rápido y usa lo que ya sabés, pero es a medida, ya tiene competidores locales y la forma de volverla producto ya la rechazaste. Baja algo respecto del 7,2 por eso.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Servicio con personas",
+  "etapa": "Probar barato",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 50 (estimación: solo tu tiempo y la suscripción de Claude que ya tenés)",
+  "primer_paso": "Armar en CEMEVA 3 procesos con Claude, medir cuántas horas por semana ahorran y escribir el caso en una página.",
+  "riesgo_principal": "Anthropic y las propias PyMEs aprenden solas a hacerlo y el servicio pierde valor en uno o dos años.",
+  "agrupar_con": ["F5"]
+ },
+ {
+  "n": "M036",
+  "opinion": "Te gusta por el modelo de comisionista, y eso tiene lógica. Pero en clases particulares el problema conocido es que alumno y profe se conocen en la plataforma y después arreglan por WhatsApp. Ahí se pierde la comisión. Tu idea de retener el pago hasta que se puntúa la clase ataca justo eso, porque le da al alumno una razón para pagar adentro. El costo es que retener plata de terceros está regulado y hay que hacerlo con un procesador habilitado. Superprof está en todo el país y tiene buena puntuación en Trustpilot, así que la queja pública no es tan fuerte como se pensaba.",
+  "hallazgos": "Superprof funciona en las 23 provincias argentinas, con clases presenciales y online [https://infonegocios.info/plus/superprof-profes-para-todo-en-un-solo-lugar-clases-de-cocina-portugues-canto-tenis-y-mas] (consultado 2026-10-23). Superprof Argentina figura con 4,5 sobre 5 y unas 1.964 reseñas en Trustpilot, según el resumen del buscador. No abrí la página [https://ca.trustpilot.com/review/superprof.com.ar] (consultado 2026-10-23). Corrige el dato previo de \"muchas quejas públicas\": hay quejas, pero el puntaje general es alto. TeachApp gestionaba clases y pago desde la app, según una nota de 2017. No verificado que siga activa [https://www.educaciontrespuntocero.com/noticias/encuentra-clases-particulares-teachapp/] (consultado 2026-10-23). No encontré una app argentina actual con agenda, cobro anticipado y pago retenido. Comisiones de los competidores: no verificado.",
+  "variantes": [
+   "Respeta el comentario de Facu: app de profes con agenda, cobro anticipado por Mercado Pago, pago liberado al puntuar, reseñas y bonos por paquete de clases. Comisión por clase.",
+   "Modo un solo jugador: herramienta para que el profe que ya tiene alumnos maneje agenda, cobro adelantado y cancelaciones. Cobra abono mensual al profe. No necesita juntar dos lados al principio.",
+   "Empezar por un solo rubro con mucha cancelación, como apoyo para ingreso a la universidad o idiomas, en una sola ciudad."
+  ],
+  "puntuacion": 6.5,
+  "por_que_puntuacion": "Es global y te gusta mucho, pero el gran competidor es fuerte y bien puntuado, la gente se escapa por WhatsApp y retener pagos está regulado.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 100 (estimación: formulario, link de pago y algo de anuncios)",
+  "primer_paso": "Hablar con 10 profes particulares y preguntar cuántas clases por mes les cancelan y si cobrarían por adelantado con una app.",
+  "riesgo_principal": "Alumno y profe se conocen en la app y arreglan las clases siguientes por afuera, sin comisión.",
+  "agrupar_con": ["M078"]
+ },
+ {
+  "n": "M043",
+  "opinion": "Tu comentario es razonable: la comparación con IA ya existe afuera. En Argentina cada universidad tiene su ordenanza y sus dictámenes, y el trámite pasa por consejos directivos. Eso es lento por diseño y la IA no lo saltea. El cliente es la universidad, que compra lento y con poca plata. La variante más viable es del lado del alumno, que sí sufre el trámite.",
+  "hallazgos": "Las equivalencias en la UTN se tramitan por el Reglamento de Estudios, Ordenanza 1549, con dictamen de departamentos y resolución del Consejo Directivo [https://www.frro.utn.edu.ar/ordenanzas/archivo/9280/] (consultado 2026-10-23). La UNCuyo usa su propia ordenanza para equivalencias [https://digesto.ingenieria.uncuyo.edu.ar/view/inline/regulation/file/8908] (consultado 2026-10-23). En Brasil, la Universidad Federal de Uberlândia describe un sistema donde la IA arma un parecer previo y el profesor decide [https://repositorio.ufu.br/handle/123456789/39923?locale=es] (consultado 2026-10-23). No encontré un producto argentino que lo haga.",
+  "variantes": [
+   "Respeta el comentario de Facu: no competir con lo que ya existe afuera y usarlo solo como referencia, o descartarla.",
+   "Del lado del alumno: servicio que arma la carpeta de equivalencias con IA, compara programas y estima qué materias le reconocen antes de cambiarse de carrera. Cobro por carpeta.",
+   "Para institutos terciarios privados que reciben pases: herramienta que pre-arma el dictamen. Ciclo de venta más corto que una universidad nacional."
+  ],
+  "puntuacion": 5.4,
+  "por_que_puntuacion": "Hay hueco local, pero el cliente compra lento y el trámite depende de consejos y ordenanzas que la IA no acelera.",
+  "tema": "Educación y trabajo",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: Claude y un formulario)",
+  "primer_paso": "Preguntar en 3 grupos de estudiantes que se cambiaron de carrera cuánto tardó su trámite y si pagarían para armar la carpeta.",
+  "riesgo_principal": "El cuello de botella es el consejo que firma, no la comparación, así que nadie paga por acelerarla.",
+  "agrupar_con": ["M094"]
+ },
+ {
+  "n": "M086",
+  "opinion": "La parte del despacho de salida está probada en la región: hay apps en Paraguay, Brasil y México. En Argentina el intento más cercano, yoautorizo.com, parece haber cerrado, y eso es una alerta que hay que entender antes de invertir. El carpool es la parte más difícil y más riesgosa: implica chicos, autos de terceros y seguros. Yo arrancaría solo con la salida ordenada y dejaría el carpool para después.",
+  "hallazgos": "Oink es una app en español, de Roshka S.A., donde los padres avisan que llegan y el personal ve qué alumno sale y con quién. No dice si está en Argentina [https://apps.apple.com/mx/app/oink/id6751863068] (consultado 2026-10-23). Quick Pickup llegó a Paraguay en 2018 para ordenar entrada y salida, nació en Brasil en 2013 y funciona en 180 colegios de ese país, según la nota [https://www.ultimahora.com/impulsan-una-app-evitar-las-dobles-filas-frente-colegios-n2871514] (consultado 2026-10-23). No encontré una app argentina activa de despacho de salida.",
+  "variantes": [
+   "Respeta la marca de Facu: salida ordenada por app más carpool entre familias verificadas del mismo colegio.",
+   "Solo despacho de salida, sin carpool: abono por alumno al colegio. Menos riesgo legal y se prueba con planilla y WhatsApp.",
+   "Traer un producto de afuera: contactar a Quick Pickup u Oink para representarlos en Argentina, en vez de construir desde cero."
+  ],
+  "puntuacion": 5.6,
+  "por_que_puntuacion": "Está probada en la región y no hay nada activo acá, pero el intento local parece cerrado y el carpool agrega mucho riesgo.",
+  "tema": "Logística y reparto",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: Google Sheets, WhatsApp y una pantalla prestada)",
+  "primer_paso": "Escribirle a yoautorizo.com para saber por qué no siguió, y cronometrar la salida de un colegio cercano.",
+  "riesgo_principal": "Los colegios no pagan por algo que hoy resuelven con un preceptor y gritos en la puerta.",
+  "agrupar_con": ["EDU-1-5", "M095"]
+ },
+ {
+  "n": "M095",
+  "opinion": "Micole ya ocupa este espacio y además publica guías de cuotas por ciudad. Eso achica bastante el hueco de la cuota real. Lo que no vi es la cuota colegio por colegio con recibo verificado ni las vacantes en vivo. Competir de frente con Micole es duro. Solo tiene sentido si el dato propio es mejor, y juntarlo cuesta mucho trabajo manual.",
+  "hallazgos": "Micole publica guías de cuotas por ciudad para 2026 y 2027: Mar del Plata, Rosario, Tucumán y Tierra del Fuego, con rangos sin fuente oficial [https://www.micole.net/ar/articulos/escolarizacion-y-eleccion-de-centro/costes-y-cuotas-financiacion-ar/cuanto-cuesta-colegio-privado-rosario-2026-v2] (consultado 2026-10-23). En el Gran San Juan hay listas de espera y las cuotas subieron cerca de 50% interanual, según la nota [https://www.tiempodesanjuan.com/economia/los-colegios-privados-san-juan-2026-listas-espera-conseguir-cupos-y-precios-que-subieron-cerca-del-50-interanual-n416042] (consultado 2026-10-23). En San Nicolás los aranceles de junio de 2026 iban de unos $80.000 a $220.000 según el aporte estatal [https://diarioelnorte.com.ar/wp-content/uploads/2026/06/Diario-EL-NORTE-–-edicion-digital-–-lunes-1o-de-junio-de-2026.pdf] (consultado 2026-10-23). No encontré un comparador colegio por colegio con cuota verificada.",
+  "variantes": [
+   "Respeta la marca de Facu: buscador de colegios con cuota real y vacantes, gratis para familias y pago por los colegios.",
+   "Solo el dato de cuotas: las familias suben su recibo y a cambio ven las cuotas de todos. Se vende después como informe a colegios y cámaras.",
+   "Vacantes en vivo para una sola ciudad con listas de espera, como San Juan: los colegios con lugar libre pagan por aparecer."
+  ],
+  "puntuacion": 5.0,
+  "por_que_puntuacion": "Micole ya compite y ya publica cuotas por ciudad. El hueco que queda es chico y caro de llenar a mano.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Datos o información",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 100 (estimación: anuncios a familias y un formulario)",
+  "primer_paso": "Publicar una planilla con la cuota de 30 colegios de un barrio y medir cuántas familias suben su recibo en dos semanas.",
+  "riesgo_principal": "Micole copia la cuota verificada antes de que juntes datos suficientes.",
+  "agrupar_con": ["M086"]
+ },
+ {
+  "n": "M028",
+  "opinion": "El problema es real y masivo: el fiado de almacén pierde plata con la inflación y con clientes que no pagan. Pero hay apps gratis que ya hacen la libreta digital, y Treinta opera en el país. Una libreta digital sola no alcanza, porque el almacenero no paga por anotar. Lo que podría pagar es cobrar mejor: recordatorio automático, link de pago y ajuste del monto. Sin nota de Facu, evalúo la idea tal como estaba.",
+  "hallazgos": "Mis Fiados es una app en español para registrar fiados con montos, fechas y recordatorios a clientes. No pude verificar de qué país es [https://apps.apple.com/mx/app/mis-fiados/id6739773148] (consultado 2026-10-23). Fiado App es una fintech de microcréditos de El Salvador, no una libreta de almacén [https://vc4a.com/ventures/fiado-app/] (consultado 2026-10-23). No encontré una app argentina específica de fiado. Treinta en Argentina: se usó lo verificado antes.",
+  "variantes": [
+   "La idea original: libreta digital de fiado con recordatorio por WhatsApp y link de Mercado Pago.",
+   "Fiado que no pierde contra la inflación: el almacenero fija un tope y un ajuste mensual y la app le avisa al cliente. Cobro por abono mensual al almacén.",
+   "Venderlo a distribuidoras mayoristas para que se lo den gratis a sus almaceneros, y cobrarle a la distribuidora por saber qué almacenes tienen riesgo de no pagar."
+  ],
+  "puntuacion": 6.3,
+  "por_que_puntuacion": "El problema es enorme, pero ya hay apps gratis y el almacenero paga poco. Hay que encontrar quién paga de verdad.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: planilla, WhatsApp y visitas a almacenes)",
+  "primer_paso": "Visitar 10 almacenes de tu zona y preguntar cuánta plata tienen en fiado y cuánta perdieron el último año.",
+  "riesgo_principal": "El almacenero sigue con la libreta de papel porque es gratis y no le ve valor a pagar.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M094",
+  "opinion": "Coincido con tu duda. Hay muchos trabajos académicos argentinos sobre esto, pero casi todos son investigación, no producto comprado. Varias universidades ya lo hacen con sus propios equipos y datos de SIU-Guaraní. Venderle a una universidad es lento y no aprovecha tu ventaja. Para hoy, pausa.",
+  "hallazgos": "UTN Córdoba desarrolla un modelo de IA para predecir riesgo de abandono [https://sedici.unlp.edu.ar/bitstream/handle/10915/195998/Documento_completo.pdf?sequence=1] (consultado 2026-10-23). La UNPA armó un prototipo con datos de SIU-Guaraní y redes neuronales [https://sedici.unlp.edu.ar/bitstream/handle/10915/195765/Documento_completo.pdf?sequence=1] (consultado 2026-10-23). La Universidad Austral participa en un proyecto internacional de IA para prevenir deserción, con universidades de México y Chile [https://www.austral.edu.ar/en/la-universidad-austral-se-suma-a-un-proyecto-internacional-que-utilizara-inteligencia-artificial-para-prevenir-la-desercion-estudiantil/] (consultado 2026-10-23). No encontré cuántas universidades lo usan de forma institucional.",
+  "variantes": [
+   "Respeta la duda de Facu: pausar o descartar.",
+   "Para institutos terciarios privados y academias, que pierden cuota por cada alumno que se va: alerta simple de riesgo con asistencia y pagos atrasados.",
+   "Otro cliente: academias de idiomas o gimnasios, donde el abandono también es plata perdida y la venta es más rápida."
+  ],
+  "puntuacion": 4.6,
+  "por_que_puntuacion": "Las universidades ya lo investigan con equipos propios, la venta es lenta y no usa la ventaja de Facu.",
+  "tema": "Educación y trabajo",
+  "tipo": "Datos o información",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 (estimación: solo entrevistas)",
+  "primer_paso": "Preguntarle a un instituto terciario privado cuántos alumnos pierde por año y cuánto vale cada uno.",
+  "riesgo_principal": "El cliente ya tiene equipo propio que hace lo mismo como investigación.",
+  "agrupar_con": ["M043"]
+ },
+ {
+  "n": "M078",
+  "opinion": "Entiendo tu problema: hay tanta información que no sabés en quién confiar. Es real, pero vos mismo decís que la solución es rebuscada, y coincido. Ser el que valida exige una reputación que tarda años. Además, el que cobra comisión por recomendar cursos tiene conflicto de interés. Para la etapa 1 es floja. Como proyecto largo, sí puede tener sentido.",
+  "hallazgos": "No encontré un comparador argentino de cursos con reseñas verificadas. Coderhouse publica una guía para comparar plataformas, pero es una página comercial de un vendedor de cursos [https://www.coderhouse.com/ar/coderlibrary/comparar-plataformas-educacion-online-argentina] (consultado 2026-10-23). Afuera existe Class Central: se usó lo verificado antes.",
+  "variantes": [
+   "Respeta el comentario de Facu: sello de validación de cursos en español con reseñas verificadas de alumnos que completaron el curso.",
+   "Un solo tema y un solo público: guía honesta de qué cursos sirven para un oficio concreto, por ejemplo Excel para ingenieros. Se cobra por suscripción, no por comisión, para evitar el conflicto de interés.",
+   "Modo empresa: las PyMEs pagan para saber qué cursos sirven para capacitar a su gente."
+  ],
+  "puntuacion": 5.2,
+  "por_que_puntuacion": "El problema es real, pero la confianza tarda años, las comisiones son chicas y el modelo tiene conflicto de interés.",
+  "tema": "Educación y trabajo",
+  "tipo": "Contenido o infoproducto",
+  "etapa": "Reserva para etapa 2",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 30 (estimación: un newsletter gratis)",
+  "primer_paso": "Hacer un newsletter gratis que reseñe 5 cursos de un solo tema y medir cuántos suscriptores llegan en dos semanas.",
+  "riesgo_principal": "Nadie confía en un validador nuevo y sin trayectoria.",
+  "agrupar_con": ["M036"]
+ }
+]

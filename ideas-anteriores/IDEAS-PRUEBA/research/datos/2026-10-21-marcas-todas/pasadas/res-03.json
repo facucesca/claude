@@ -1,0 +1,162 @@
+[
+ {
+  "n": "M025",
+  "opinion": "Es una idea barata y global, pero el terreno de las calculadoras para el público general en Argentina ya está ocupado. Hoy hay sitios que hacen justo eso, como hacecuentas.com e indicadores.ar, con sueldo neto, Ganancias y cálculo inverso. Competir de frente por \"sueldo neto\" o \"plazo fijo vs dólar\" es pelear contra sitios que llevan ventaja en Google. Tiene sentido solo si se achica a un nicho donde Facu sabe más que el resto, como industria, stock o agro. Así sirve de imán de clientes para sus otros productos y no como negocio de publicidad.",
+  "hallazgos": "Ya hay calculadoras argentinas de sueldo neto 2026 con Ganancias incluido y cálculo de bruto desde neto: hacecuentas.com tiene varias páginas sobre sueldos, consulta 2026-10-23 [https://hacecuentas.com/calculadora-sueldo-neto]. Indicadores Argentina tiene su propia calculadora de sueldo neto, consulta 2026-10-23 [https://indicadores.ar/calculadora-sueldo-neto]. También existe calcularsueldo.com.ar con el mismo cálculo, consulta 2026-10-23 [https://calcularsueldo.com.ar/?p=2837]. Opinión: el segmento de finanzas personales está saturado en Argentina.",
+  "variantes": [
+   "Portfolio chico de calculadoras para PyMEs industriales y de distribución (stock, costos, capacidad) que derive a L9 y a la consultoría, unido con C34 y D38.",
+   "Calculadoras para el agro y la ganadería (balance forrajero, costo de flete por tonelada, secado de granos) aprovechando el conocimiento de CEMEVA, en un nicho con menos competencia.",
+   "Versión en inglés de las mismas herramientas de nicho, para captar tráfico global con publicidad y afiliados de software de inventario."
+  ],
+  "puntuacion": 6.3,
+  "por_que_puntuacion": "Baja respecto de 7,2 porque el público general ya tiene varias calculadoras argentinas buenas. Solo rinde si se enfoca en un nicho y sirve de imán para otro negocio.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 20 a 80 (estimación: dominio y hosting barato, el resto con Claude)",
+  "primer_paso": "Listar 30 búsquedas de nicho industrial y agro, revisar en Google qué resultados aparecen hoy y publicar 3 calculadoras donde la competencia sea floja.",
+  "riesgo_principal": "Que el tráfico tarde meses en llegar y que los resúmenes de IA de Google hagan el cálculo directo.",
+  "agrupar_con": ["M035", "C34", "A2 (propia)", "M076"]
+ },
+ {
+  "n": "M027",
+  "opinion": "Facu dice que es más de lo mismo de ingeniería industrial y que conviene juntar todo eso en una sola bolsa, como top 1, para decidir por dónde entrar. Estoy de acuerdo con juntarlas: C14, C20, C34, D38 y A2 son la misma familia. El problema es que el estudio de tiempos con video ya tiene software con IA afuera, como DeepHow, Coats GSD RealMotion y el análisis por video de MTM. Como servicio en Argentina puede andar para aprender y vender los primeros casos, pero no es un producto propio. Ojo: C13, el estudio de tiempos con video para talleres, Facu no la eligió, así que la bolsa debería ir por el lado remoto y exportable.",
+  "hallazgos": "DeepHow, con NVIDIA y Yazaki, mide tiempos de ciclo automáticamente desde video y clasifica acciones en valor agregado y desperdicio, consulta 2026-10-23 [https://www.webull.com/news/15237375574893568]. Coats Digital lanzó GSD RealMotion, que detecta movimientos desde video para estudios de método en confección, consulta 2026-10-23 [https://www.imarcengineering.com/news/coats-digital-gsd-realmotion-ai-time-motion-studies]. La asociación MTM ofrece análisis por IA de video que devuelve tiempo estándar y potencial de mejora, con requisitos de cámara fija, consulta 2026-10-23 [https://mtm.org/en/software/ai-video-analysis]. No encontré una oferta argentina de este tipo en esta búsqueda: no verificado.",
+  "variantes": [
+   "La bolsa que pide Facu: una sola oferta de ingeniería industrial remota con tres puertas de entrada, calculadoras gratis, diagnóstico por video pago y abono mensual de mejora, para medir cuál vende primero.",
+   "Revendedor y operador en español de una herramienta de afuera como MTM o similar: Facu arma el protocolo de filmación, sube el video y entrega el informe en castellano a plantas de Argentina y Latinoamérica.",
+   "Paquete cerrado de precio fijo para un solo rubro, por ejemplo frigoríficos o plantas de alimento balanceado, con el mismo protocolo y el mismo informe para todos."
+  ],
+  "puntuacion": 6.6,
+  "por_que_puntuacion": "Es el oficio de Facu y sirve para aprender, pero el análisis automático ya lo hace software de afuera y la versión de Facu es servicio por horas.",
+  "tema": "Agro e industria",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 100 (estimación: un trípode, plantilla de informe y contactos propios)",
+  "primer_paso": "Ofrecer un diagnóstico por video gratis a 3 PyMEs conocidas, empezando por CEMEVA, y medir cuánto tiempo lleva analizarlo con ayuda de IA.",
+  "riesgo_principal": "Que quede como consultoría a medida, que justo es lo que Facu no quiere.",
+  "agrupar_con": ["M080", "M035", "M025", "C13", "C34", "A2 (propia)"]
+ },
+ {
+  "n": "M035",
+  "opinion": "Es la misma idea que C34 y P2, aplicada a logística. Calcular el lote económico o el punto de pedido no es un hueco: ya hay calculadoras gratis en español como Miniwebtool y MetricGate. El valor no está en la fórmula sino en lo que viene después, que es llevar al usuario a un diagnóstico o a una herramienta de stock como L9. Sola no es negocio. Como imán de clientes para el territorio stock, vale.",
+  "hallazgos": "Miniwebtool tiene en español una calculadora de lote económico con punto de reorden, gráfico y fórmula paso a paso, consulta 2026-10-23 [https://miniwebtool.com/es/calculadora-de-cantidad-economica-de-pedido-eoq/]. MetricGate ofrece el mismo cálculo con análisis de sensibilidad y descuentos por volumen, consulta 2026-10-23 [https://metricgate.com/docs/es/inventory-eoq-model/]. Qoblex y ecommerce-platforms también tienen la suya gratis, consulta 2026-10-23 [https://qoblex.com/resources/free-tools/eoq-calculator/] [https://ecommerce-platforms.com/es/?p=80763]. No encontré una versión pensada para PyMEs argentinas con inflación y precios en pesos: no verificado.",
+  "variantes": [
+   "Calculadora de punto de pedido con inflación y plazo del proveedor en pesos, para distribuidoras argentinas, que termine en \"subí tu Excel de stock y te devolvemos un diagnóstico\" como entrada a L9.",
+   "Versión de un solo jugador: planilla gratis descargable que hace el cálculo para todos los artículos de una vez, a cambio del mail.",
+   "Calculadora de cubicaje de camión para fleteros y acopios de granos, conectada con lo que Facu conoce de CEMEVA."
+  ],
+  "puntuacion": 6.2,
+  "por_que_puntuacion": "Construible y barata, pero la fórmula ya está gratis en español y su valor es solo indirecto.",
+  "tema": "Stock y depósito",
+  "tipo": "Producto web o app",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 20 a 80 (estimación: mismo sitio que las otras calculadoras)",
+  "primer_paso": "Armar con Claude una calculadora de punto de pedido con inflación en pesos y mostrarla a 5 distribuidoras para ver si dejan sus datos.",
+  "riesgo_principal": "Que nadie llegue por Google porque ya hay muchas calculadoras genéricas.",
+  "agrupar_con": ["M025", "M027", "C34", "L9"]
+ },
+ {
+  "n": "M037",
+  "opinion": "La versión con cámaras que descuentan lo que se lleva el cliente, al estilo Amazon Go, ya se probó en Argentina y es cara y de hardware pesado. No la recomiendo para Facu hoy. La versión que sí tiene sentido es la auditoría de góndola por foto de celular para distribuidoras y marcas del canal tradicional. En esta búsqueda no apareció una startup argentina con app de celular para eso, pero sí jugadores cercanos como Sumato-id con góndola inteligente para Coca-Cola. Sigue siendo la mejor candidata a startup del territorio cámaras, con la duda central sin responder: si las distribuidoras pagan por saber qué falta.",
+  "hallazgos": "Sumato-id es una startup argentina de visión por computadora que, según DF, hizo con Coca-Cola Argentina una góndola inteligente que mide tráfico, interés y stock; la fecha de la nota no la pude confirmar, consulta 2026-10-23 [https://www.df.cl/aniversario/robots-asistentes-virtuales-y-computer-vision-como-la-inteligencia]. En la misma nota aparece Price Lab, startup peruana con un robot que fotografía góndolas, consulta 2026-10-23 [https://www.df.cl/aniversario/robots-asistentes-virtuales-y-computer-vision-como-la-inteligencia]. No encontré una app argentina de auditoría de góndola por foto de celular documentada en 2026: no verificado que no exista.",
+  "variantes": [
+   "Auditoría de góndola por foto de celular para una distribuidora mediana: el preventista saca la foto y la IA marca faltantes y precios.",
+   "Pedido sugerido para el almacenero: saca foto de su estante y la app le arma el pedido al distribuidor, cobrando al distribuidor por pedido.",
+   "Lo mismo fuera del súper: foto de estantería de repuestos o de insumos de un acopio para contar stock, unido con L9."
+  ],
+  "puntuacion": 6.6,
+  "por_que_puntuacion": "La versión por foto tiene hueco aparente y une cámaras con stock, pero la versión original con cámaras fijas es 2/10 y todavía nadie confirmó que las distribuidoras paguen.",
+  "tema": "Cámaras, sensores y hardware",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 200 (estimación: uso de API de visión e IA y algunos viajes a almacenes)",
+  "primer_paso": "Sacar fotos de góndola en 20 almacenes del barrio, pasarlas por Claude para contar faltantes y mostrarle el resultado a 3 distribuidoras.",
+  "riesgo_principal": "Que las distribuidoras ya tengan este dato por sus preventistas y no paguen por él.",
+  "agrupar_con": ["L12", "COM-2-4", "L9"]
+ },
+ {
+  "n": "M076",
+  "opinion": "Me gusta más que el promedio porque junta tres cosas de Facu: agro, ingeniería industrial y conectar dos partes. La búsqueda de hoy confirma que no hay una plataforma específica para rollos y fardos en Argentina. Según la Cámara Argentina de la Alfalfa, comprar hoy implica \"levantar el teléfono\" y pagar de más por intermediarios y flete. El riesgo es el típico de los marketplaces: el primer contacto se hace en la plataforma y la operación se cierra por WhatsApp. Por eso la calculadora gratis es clave como gancho.",
+  "hallazgos": "José Brigante, de la Cámara Argentina de la Alfalfa, dijo que alfalfa hay pero hay que salir a buscar, y que el flete y los intermediarios encarecen la compra urgente; la nota da precios por kilo de megafardo y su suba con flete Córdoba a Buenos Aires, fecha de la nota no confirmada, consulta 2026-10-23 [https://bichosdecampo.com/hay-que-caminar-y-buscar-precio-como-lita-de-lazzari-los-productores-de-alfalfa-recomiendan-comprar-los-fardos-con-tiempo-y-esfuerzo-para-evitar-aumentos-desmedidos]. Infoagro tiene avisos de rollos de alfalfa en Córdoba, con el aviso visto ya caducado, consulta 2026-10-23 [https://www.infoagro.com/compraventa/oferta.asp?id=19033]. Agrofy tiene sección de insumos para ganadería, pero no confirmé que se vendan rollos ahí: no verificado [https://news.agrofy.com.ar/tags/rollos-alfalfa].",
+  "variantes": [
+   "La original: calculadora de balance forrajero gratis por WhatsApp que convierte el faltante o sobrante en un aviso de compra o venta de rollos por zona.",
+   "Modo un solo jugador primero: solo la calculadora con alerta \"te faltan 80 rollos en julio\", sin bolsa, y la bolsa recién cuando haya 300 usuarios.",
+   "Bolsa de rollos con flete incluido y precio cerrado, donde Facu arma el viaje con fleteros conocidos de CEMEVA y cobra un margen por tonelada."
+  ],
+  "puntuacion": 6.1,
+  "por_que_puntuacion": "Sube un poco respecto de 5,8 porque se confirmó que no hay bolsa específica y que el dolor de buscar y pagar flete existe; sigue el riesgo de que se cierre por fuera.",
+  "tema": "Agro e industria",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 150 (estimación: calculadora web hecha con Claude, número de WhatsApp y difusión en grupos)",
+  "primer_paso": "Armar la calculadora de balance forrajero y difundirla en 10 grupos de ganaderos y veterinarias de una zona, midiendo cuántos la usan en dos semanas.",
+  "riesgo_principal": "Que compradores y vendedores se pasen el teléfono y cierren la operación sin la plataforma.",
+  "agrupar_con": ["M025", "AGR-4-2", "AGR-4-4"]
+ },
+ {
+  "n": "M080",
+  "opinion": "Es un servicio a medida, justo lo que Facu dijo que quiere evitar. Compite con el INTI y con consultores con más años y canas, y un ingeniero de 22 años vende con menos credibilidad. Puede servir como abono después de otro trabajo, por ejemplo después de un diagnóstico por video. Sola no la recomiendo. Encaja en la bolsa de ingeniería industrial que pidió Facu en C14, como una pieza más y no como entrada.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "Abono de mejora mensual como segundo paso de la bolsa de ingeniería industrial, vendido solo a quien ya compró un diagnóstico.",
+   "Versión producto: un tablero de mejora continua con plantillas A3 y recordatorios por WhatsApp que la PyME usa sola, con cuota mensual baja.",
+   "Programa grupal: 8 PyMEs en una misma cohorte online, cada una resuelve un problema por mes, para cobrar menos por cabeza y no vender horas."
+  ],
+  "puntuacion": 5.3,
+  "por_que_puntuacion": "Baja de 5,8 porque es trabajo por horas, compite con el INTI y no construye un producto propio.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: plantillas y contactos propios)",
+  "primer_paso": "Ofrecerle a una PyME conocida un mes de mejora gratis con método A3 y medir si al final pagaría por seguir.",
+  "riesgo_principal": "Que la PyME abandone el abono a los pocos meses y quede como horas sueltas.",
+  "agrupar_con": ["M027", "C34"]
+ },
+ {
+  "n": "M090",
+  "opinion": "Facu duda si ya existe. Sí existe: HireRight compró Inquiro Vitae, hay Referencias Laborales y aparecen otros como LatamLook y Didit con APIs de verificación. Además la ley pide consentimiento por escrito del candidato y los datos penales son sensibles. Armar una base de datos propia de antecedentes es riesgoso legalmente y no tiene hueco claro. No la recomiendo como está.",
+  "hallazgos": "Según Chequeado, las apps de transporte piden certificado de antecedentes penales o hacen verificación automática, y Uber además usa selfies aleatorias, consulta 2026-10-23 [https://chequeado.com/nota/apps-de-movilidad-urbana-en-argentina-que-dicen-las-principales-narrativas-que-circulan-sobre-seguridad-y-uso]. Una guía de Deel dice que en Argentina estas verificaciones deben cumplir la ley de datos personales con consentimiento por escrito, consulta 2026-10-23 [https://www.deel.com/es/blog/verificacion-de-antecedentes-argentina/]. Didit ofrece APIs de verificación de identidad y validación contra burós de crédito en Argentina, consulta 2026-10-23 [https://didit.me/es/blog/argentina-credit-bureau-database-validation-es/]. LatamLook dice consultar antecedentes en 16 países, según un comunicado promocional, consulta 2026-10-23 [https://www.que.es/2024/10/29/la-importancia-de-la-verificacion-de-antecedentes-en-un-mundo-cada-vez-mas-competitivo-y-latamlook-com/].",
+  "variantes": [
+   "La de Facu ajustada: no una base propia, sino un servicio que junta en un solo informe lo que el propio candidato autoriza, como certificado de Reincidencia, licencia y referencias, para flotas chicas y transportistas.",
+   "Legajo digital del chofer: el chofer arma una vez su carpeta verificada y la comparte con cada empresa que lo contrata, y paga la empresa por consultarla.",
+   "Revender una API existente como Didit para PyMEs de logística que no saben integrarla, con un formulario simple."
+  ],
+  "puntuacion": 4.5,
+  "por_que_puntuacion": "Ya existe con jugadores grandes y la base de datos propia choca con la ley de datos personales.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Datos o información",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 300 (estimación: consulta con un abogado de datos personales antes de cualquier prueba)",
+  "primer_paso": "Preguntarle a 5 transportistas o flotas chicas cómo chequean hoy a sus choferes y si pagarían por un legajo verificado.",
+  "riesgo_principal": "Un problema legal por manejar datos penales sin consentimiento correcto.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M098",
+  "opinion": "El buscador oficial del Ministerio de Salud ya muestra precios de todos los medicamentos gratis, y el listado de PAMI con descuento. Lo que no muestra es precio por farmacia, stock ni el precio final con cada obra social o prepaga. Ese hueco es real, pero llenarlo es difícil: cada cobertura aplica descuentos distintos y las farmacias no publican esos datos. Si el precio de lista lo fija el laboratorio, la diferencia entre farmacias es chica y el valor baja. Además es salud y consumo masivo, lejos de la ventaja de Facu.",
+  "hallazgos": "Una nota de agosto de 2026 sigue presentando el buscador oficial de precios de medicamentos como herramienta para conocer el precio antes de ir a la farmacia, consulta 2026-10-23 [https://www.sitioandino.com.ar/sociedad/como-conocer-el-precio-los-medicamentos-antes-ir-la-farmacia-n5693060]. El buscador permite filtrar por marca, componente y tipo de venta, y PAMI aplica 50 a 80% de descuento sobre su listado, consulta 2026-10-23 [https://www.memo.com.ar/salud/precios-de-medicamentos/]. Farmatodo Argentina tiene app de pedidos con entrega en menos de 45 minutos, pero no compara farmacias, consulta 2026-10-23 [https://apps.apple.com/us/app/-/id6745529152]. No encontré un comparador privado por farmacia con cobertura aplicada: no verificado que no exista.",
+  "variantes": [
+   "La original achicada: solo remedios crónicos de una obra social grande, con precio final por farmacia del barrio relevado con fotos de tickets.",
+   "Para farmacias y no para pacientes: herramienta que le dice a la farmacia independiente qué remedios le faltan y cuáles le piden y no tiene, cobrando abono, unida al territorio stock.",
+   "Para empresas: aviso de reposición de remedios crónicos de los empleados con la farmacia más barata, como beneficio que paga el empleador."
+  ],
+  "puntuacion": 4.9,
+  "por_que_puntuacion": "El hueco existe, pero conseguir los datos de descuento por cobertura es muy difícil y el buscador oficial gratis cubre la parte fácil.",
+  "tema": "Salud y cuidado",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 50 a 150 (estimación: landing y relevamiento a mano en farmacias)",
+  "primer_paso": "Relevar a mano el precio de 10 remedios crónicos en 10 farmacias de un barrio para ver si la diferencia entre ellas justifica la app.",
+  "riesgo_principal": "Que la diferencia de precio entre farmacias sea tan chica que a nadie le importe comparar.",
+  "agrupar_con": []
+ }
+]

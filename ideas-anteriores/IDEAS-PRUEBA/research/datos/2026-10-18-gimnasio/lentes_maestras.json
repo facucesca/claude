@@ -1,0 +1,74 @@
+[
+ {
+  "lente": "El parche casero",
+  "que_mirar": "Donde alguien resuelve algo con una planilla, un grupo de WhatsApp, un cuaderno o un sobrino, hay un trabajo que nadie hace bien.",
+  "pregunta": "¿Qué está haciendo esta persona a mano que no debería? ¿Cuánto le cuesta el parche (tiempo, plata, bronca)?",
+  "libros": "Mom Test (\"el parche casero\" y \"el precio ancla del parche\"), Christensen (\"soluciones improvisadas\"), Blank (\"la escalera del dolor y la solución casera\"), Altman (\"el que ya paga por arreglárselas mal\")"
+ },
+ {
+  "lente": "El trabajo, no el producto",
+  "que_mirar": "La gente contrata cosas para avanzar en una circunstancia concreta, con una parte funcional, una social y una emocional.",
+  "pregunta": "¿Para qué trabajo me \"contratarían\"? ¿Qué tienen que \"despedir\" para contratarme? ¿Qué pasa el día que les pasa el problema?",
+  "libros": "Christensen (todo el libro), Mom Test (\"el motivo debajo del pedido\"), Blank (\"un día en la vida\")"
+ },
+ {
+  "lente": "Seguí la cola",
+  "que_mirar": "Donde hay fila, espera o cuello de botella, hay un recurso escaso que vale lo que factura todo el sistema.",
+  "pregunta": "¿Quién está esperando a quién? ¿Qué recurso caro está parado mientras otro se desborda?",
+  "libros": "Goldratt (todo el libro), Altman (\"los desperdicios a la vista\"), Unfair Advantage (\"radar de qué paja + 7 desperdicios\")"
+ },
+ {
+  "lente": "Modo un solo jugador",
+  "que_mirar": "Antes de la red, una herramienta que le sirva a un lado aunque el otro no exista.",
+  "pregunta": "Si mañana tengo cero usuarios del otro lado, ¿qué le doy a este que igual le sirva?",
+  "libros": "Ries (\"modo un solo jugador\"), Lean Analytics (\"comprá la oferta, ganate la demanda\"), Hvidkjaer (\"un jugador primero\"), Blank (\"agregador de una sola categoría\")"
+ },
+ {
+  "lente": "El humano detrás de la cortina",
+  "que_mirar": "Hacelo a mano para un cliente antes de construir nada; automatizá recién lo que se repite.",
+  "pregunta": "Si esta semana lo hago a mano para una persona, ¿me paga? ¿Qué parte repetí tres veces?",
+  "libros": "Ries (\"PMV conserje y Mago de Oz\"), Lean Analytics (\"conserje antes que código\"), Altman (\"hacé cosas que no escalan\")"
+ },
+ {
+  "lente": "¿Quién paga de verdad?",
+  "que_mirar": "El que sufre, el que usa, el que decide y el que paga suelen ser personas distintas. El negocio aparece cuando le cobrás al que puede pagar.",
+  "pregunta": "¿Quién tiene la billetera? ¿Hay un tercero (empresa, aseguradora, marca, Estado) al que le conviene que esto se resuelva?",
+  "libros": "Blank (\"quién usa, quién paga, quién decide\"), Ries (\"mismo producto, otro pagador\"), Mom Test (\"el que paga no es el que sufre\"), Bhargava-Herman (\"lente Zipix\")"
+ },
+ {
+  "lente": "La dependencia que acaba de cumplirse",
+  "que_mirar": "Cada negocio nuevo depende de algo que recién se volvió barato, legal o posible.",
+  "pregunta": "¿Qué cambió en los últimos 24 meses que hace posible esto y antes no? Si nada cambió, ¿por qué no lo hizo nadie?",
+  "libros": "Blank (\"¿por qué ahora?\"), Altman (\"la ola que recién empieza\"), Unfair Advantage (\"cruce de olas\", \"ventana regulatoria\"), Hvidkjaer (\"muertos por llegar temprano\", \"regla nueva y parque viejo\")"
+ },
+ {
+  "lente": "El combo que saca coordinación",
+  "que_mirar": "Juntar piezas que existen vale solo si la combinación elimina un trabajo de coordinación que hoy hace el cliente.",
+  "pregunta": "¿Cuántos proveedores tiene que coordinar hoy el cliente para resolver esto? ¿Qué pasa si los coordino yo con una sola factura?",
+  "libros": "Blank (\"el combo iPod\"), Hvidkjaer (\"combo que saca coordinación\"), Bhargava-Herman (\"el paquete que sí se sostiene\"), Christensen (\"el paquete alrededor del trabajo\")"
+ },
+ {
+  "lente": "Clon con aduana",
+  "que_mirar": "Lo que funciona afuera y no cruzó la frontera, pero separando qué está probado, qué fracasó parecido, y cuál es la única suposición que queda sin probar en Argentina.",
+  "pregunta": "¿Qué ya demostró otro? ¿Qué intento parecido murió acá y por qué? ¿Cuál es mi acto de fe?",
+  "libros": "Ries (\"analogía y antilogía\"), Blank (\"clon con aduana\"), Hvidkjaer (\"mercado espejo con 5% de cambio\"), Bhargava-Herman (\"industria dormida y el modelo Uber trasplantado\")"
+ },
+ {
+  "lente": "Capacidad ociosa",
+  "que_mirar": "Activos caros que trabajan pocas horas: cocinas, galpones, máquinas, techos, salas, vehículos, personas entre temporadas.",
+  "pregunta": "¿Qué cosa cara está parada más del 50% del tiempo? ¿Quién pagaría por esas horas muertas?",
+  "libros": "Goldratt (\"horas muertas del recurso caro\", \"la jugada Europa\"), Hvidkjaer (\"caja de temporada y capacidad ociosa\"), Lean Analytics (\"inventario que se vence\")"
+ },
+ {
+  "lente": "Confianza como producto",
+  "que_mirar": "Donde la gente no se anima a pagar, prestar, alquilar o contratar por desconfianza, el que garantiza cobra.",
+  "pregunta": "¿Dónde se pierde una venta porque las dos partes no se conocen? ¿Qué pasaría si yo retengo la plata, verifico y libero?",
+  "libros": "Unfair Advantage (\"estatus prestado\"), Hvidkjaer (\"intermediario sin stock que garantiza\"), Lean Analytics (\"fuga de la transacción\"), Mom Test (\"monedas de compromiso\")"
+ },
+ {
+  "lente": "Cambiar cómo se cobra",
+  "que_mirar": "El mismo servicio, cobrado de otra forma (abono en vez de visita, resultado en vez de equipo, el que vende en vez del que compra), es otro negocio.",
+  "pregunta": "¿Qué pasa si no vendo el equipo sino el resultado? ¿Si cobro por mes y no por vez? ¿Si le cobro al otro lado?",
+  "libros": "Blank (\"cambiar la forma de cobrar\"), Bhargava-Herman (\"cambiar cómo se cobra\"), Hvidkjaer (\"margen que sobrevive al cobro\"), Goldratt (\"ingresos por hora de restricción\")"
+ }
+]

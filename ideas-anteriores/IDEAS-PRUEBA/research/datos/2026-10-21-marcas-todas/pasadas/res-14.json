@@ -1,0 +1,120 @@
+[
+ {
+  "n": "M103",
+  "opinion": "Facu la marcó en amarillo sin comentario, así que evalúo la idea tal cual. Es un servicio de horas, no un producto global. El oficio de editar lo tiene mucha gente y el precio está bajo: hay agencias de EE.UU. que contratan editores argentinos por USD 5,50 a 8,50 la hora. Sin saber editar y sin querer mostrar la cara, Facu arrancaría desde abajo en un mercado lleno. Solo tiene sentido si se piensa como un paso para armar después una herramienta propia, y eso hoy no lo veo cerca.",
+  "hallazgos": "Una agencia de EE.UU. busca editor de video remoto en Argentina, pagado en dólares, de USD 5,50 a 8,50 por hora [https://ar.indeed.com/q-revstone-empleos.html, consultado 2026-10-23]. Avisos para editores en Argentina piden manejo de IA aplicada a la edición y Shorts, Reels y TikTok; un aviso de Pavago ubica el sueldo en ARS 120.000 a 180.000 por mes según su propio estudio, cifra que no pude verificar por otra vía [https://www.marketingmonk.so/jobboard/jobs/video-editor-at-pavago-dr3ohr, consultado 2026-10-23]. No encontré tarifas por video de agencias argentinas: no verificado.",
+  "variantes": [
+   "Tal cual la marcó Facu: edición de videos largos con IA para canales de YouTube en inglés, cobrando por video y no por hora.",
+   "Modo un solo jugador: armar una plantilla de flujo de trabajo con IA (guion, cortes, miniaturas) y venderla como infoproducto a editores que ya existen, sin editar uno mismo.",
+   "Otro cliente: edición de videos de capacitación interna para plantas industriales y agro, aprovechando el lenguaje de ingeniería industrial y el contacto con CEMEVA."
+  ],
+  "puntuacion": 4.4,
+  "por_que_puntuacion": "Es venta de horas en un mercado saturado y barato, y Facu no tiene el oficio. Baja respecto de 5,2 porque el precio real verificado en Argentina es muy bajo.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Servicio con personas",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: prueba gratis de un editor con IA y tiempo propio)",
+  "primer_paso": "Editar gratis un video largo de un canal chico con Descript o CapCut y medir cuántas horas lleva y si el dueño pagaría por el siguiente.",
+  "riesgo_principal": "Competir por precio contra miles de editores baratos sin tener oficio ni diferencial.",
+  "agrupar_con": ["M104", "M115"]
+ },
+ {
+  "n": "M104",
+  "opinion": "Facu la marcó en amarillo sin comentario. Un canal propio es un activo y no necesita mostrar la cara, eso encaja con él. Pero la mediana gana USD 0 y YouTube viene desmonetizando canales hechos en serie con poca intervención humana. La política no prohíbe la IA, castiga lo repetitivo y de plantilla, así que solo sobrevive un canal con investigación y mirada propia de verdad. Lo veo como experimento chico de aprendizaje, no como negocio principal.",
+  "hallazgos": "YouTube no prohibió la IA; desmonetiza canales de producción masiva y repetitiva bajo la política de contenido inauténtico, con una ola de casos reportada desde fines de 2025 y enero de 2026 [https://piunikaweb.com/2026/01/12/youtube-inauthentic-content-policy-enforcement-reports/, consultado 2026-10-23]. Un sitio de terceros dice que en julio de 2026 YouTube separó tres categorías no monetizables, entre ellas personajes de IA que dan consejos de salud, finanzas o legales: no verificado en fuente oficial [https://air.io/en/monetization/youtube-monetization-policy-changes-2026-a-complete-dated-timeline, consultado 2026-10-23]. Eso pega de lleno en el nicho de finanzas para EE.UU. del contexto previo.",
+  "variantes": [
+   "Tal cual: canal largo en inglés de historia o documental hecho con IA, pero con guion investigado por Facu y un ritmo de un video por semana, no en serie.",
+   "Nicho propio: canal de agro e industria explicada en español (cómo funciona un acopio, una planta, la logística del grano), donde Facu tiene ventaja real y casi no hay competencia.",
+   "Otro cobro: el canal como vidriera para vender un producto propio de etapa 1, y no para cobrar publicidad."
+  ],
+  "puntuacion": 4.6,
+  "por_que_puntuacion": "Activo propio y sin cara, pero la mediana es cero y el riesgo de desmonetización está confirmado. Baja algo porque el nicho de finanzas parece justo el que YouTube más restringe.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Contenido o infoproducto",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 30 a 100 (estimación: 4 videos a USD 2,50 a 5 cada uno más una suscripción de voz o imagen)",
+  "primer_paso": "Publicar 4 videos en el nicho de agro e industria explicada en 4 semanas y medir retención y suscriptores por video.",
+  "riesgo_principal": "Que YouTube lo trate como contenido inauténtico y no lo monetice nunca.",
+  "agrupar_con": ["M103", "M115"]
+ },
+ {
+  "n": "M114",
+  "opinion": "Facu la marcó en amarillo, pero el estudio anterior ya la había puesto como trampa y lo nuevo lo confirma. Spotify filtra subidas masivas, duplicados y temas cortísimos, y pide declarar el uso de IA a través de las distribuidoras. La IA declarada está permitida, pero el modelo de subir en masa para cobrar regalías es justo lo que el filtro persigue. No le veo camino a esta versión. Prefiero decirlo claro antes que endulzarla.",
+  "hallazgos": "Spotify anunció en septiembre de 2025 etiquetas de IA con el estándar DDEX, un filtro de spam musical y que borró más de 75 millones de temas spam en 12 meses [https://techcrunch.com/2025/09/25/spotify-updates-ai-policy-to-label-tracks-cut-down-on-spam/, consultado 2026-10-23]. Según una guía de terceros, a marzo de 2026 distribuidoras como DistroKid, CD Baby y Believe ya aplican la declaración DDEX y la música con IA declarada se permite: no verificado en fuente oficial de Spotify [https://dynamoi.com/learn/ai-music-distribution/spotify-ai-music-policy, consultado 2026-10-23].",
+  "variantes": [
+   "Tal cual la marcó Facu: música con IA en Spotify, pero pocos temas, bien hechos y declarados, como prueba de aprendizaje y no de ingreso.",
+   "Otro cliente: música funcional con IA con licencia para comercios o videos, aunque ojo que se parece a E36 (jingles con IA), que Facu no eligió."
+  ],
+  "puntuacion": 2.6,
+  "por_que_puntuacion": "Las plataformas persiguen activamente el modelo de subida masiva y la mediana de regalías es mínima. Baja de 3,3 porque el filtro de spam y la declaración ya están en marcha.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Contenido o infoproducto",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 20 a 60 (estimación: un mes de Suno más una distribuidora)",
+  "primer_paso": "No recomiendo dar un paso; si quiere probar igual, subir un solo EP declarado como IA y medir reproducciones a 30 días.",
+  "riesgo_principal": "Borrado del catálogo o baneo de la cuenta por spam.",
+  "agrupar_con": ["M115"]
+ },
+ {
+  "n": "M115",
+  "opinion": "Es una idea propia de Facu, sin comentario nuevo, y el estudio del 2026-10-08 ya la había descartado. Lo nuevo de hoy confirma el motivo: YouTube castiga lo hecho en serie con mínima intervención humana, que es justo la definición de automatización absoluta. Las apps que pagan por vistas cambian reglas seguido y ahí no hay activo propio. No le veo futuro como está. Cuidado con las variantes de clips: varias ya las rechazó Facu.",
+  "hallazgos": "La política de contenido inauténtico de YouTube apunta a videos con mínima participación del creador y señales de producción masiva; los reportes dicen que la mayoría de los afectados manejaban 10 o más canales automatizados [https://www.subsub.io/blog/inauthentic-content-why-so-many-creators-are-getting-demonetized, consultado 2026-10-23]. No busqué datos de otras apps que pagan por vistas: no verificado.",
+  "variantes": [
+   "Tal cual la pensó Facu: automatizar clips en varios canales, pero con un humano que elija y edite cada clip, para no caer en lo inauténtico.",
+   "Herramienta en vez de canal: un flujo no-code que arme borradores de clips para que los revise un creador; ojo que los clips desde charlas o webinars (O7, T5, T14) ya los rechazó Facu, así que esta variante queda marcada."
+  ],
+  "puntuacion": 2.6,
+  "por_que_puntuacion": "Lo 100% automático es exactamente lo que las plataformas desmonetizan. Baja de 3,0 porque la tendencia de castigo se confirmó.",
+  "tema": "Video y contenido con IA",
+  "tipo": "Contenido o infoproducto",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 80 (estimación: herramientas de clips con IA por un mes)",
+  "primer_paso": "No recomiendo probarla; si insiste, un solo canal con 20 clips revisados a mano durante dos semanas para medir si alguno monetiza.",
+  "riesgo_principal": "Desmonetización o baneo de todos los canales a la vez.",
+  "agrupar_con": ["M104", "M103", "M114"]
+ },
+ {
+  "n": "M051",
+  "opinion": "Facu pidió que se la expliquen mejor. En simple: hay fábricas chicas de alimentos con máquinas paradas parte de la semana, y hay marcas nuevas de snacks o salsas que no tienen fábrica y no consiguen quién les produzca pocas unidades. La plataforma junta a los dos. A la fábrica le das una calculadora que le dice cuántas horas libres tiene y cuánto le cuesta una hora más; a la marca, un cotizador y quién le puede fabricar. Me gusta porque usa ingeniería industrial de verdad y es parecida a IND-4-4, que Facu ya eligió. Lo flojo: en Argentina son pocas operaciones, cada match lleva mucho trabajo humano y las plantas son reservadas con su capacidad.",
+  "hallazgos": "Hoy no encontré ninguna plataforma argentina que conecte marcas chicas con plantas a façon; solo aparece una plataforma oficial del Ministerio para PyMEs de alimentos cuyo alcance no pude verificar [https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/difusion-y-publicaciones/material/Servicios%20_para_Pymes_Alimentarias_Brochure.pdf, consultado 2026-10-23]. PartnerSlate, el modelo de EE.UU., levantó USD 4 millones y tiene una base de casi 6.000 fabricantes en Norteamérica [https://www.foodnavigator-usa.com/Article/2023/06/12/PartnerSlate-connects-food-brands-with-co-manufacturers-raises-4-million-in-funding, consultado 2026-10-23]. Vía RangeMe, publicar un proyecto cuesta USD 199 de lista, lo que da una idea del cobro a la marca [https://rangeme.com/blog/partnerslate-to-streamline-co-man-searches-for-rangemes-200k-subscribers/, consultado 2026-10-23]. INTI asistió a una marca nueva en formulación, rotulado y armado de planta, así que es un aliado posible [https://thefoodtech.com/industria-alimentaria-hoy/la-industria-argentina-adopta-la-tendencia-plant-based-con-apoyo-del-inti, consultado 2026-10-23].",
+  "variantes": [
+   "Versión explicada que pidió Facu: directorio anónimo de plantas con horas libres más un cotizador para marcas, cobrando USD 100 a 200 por proyecto publicado a la marca, como PartnerSlate.",
+   "Modo un solo jugador: solo la calculadora de capacidad ociosa y costo por hora para plantas PyME, como producto propio, sin marketplace al principio.",
+   "Otro rubro: lo mismo para cosmética a façon, que ya está en el registro como BEL-5-3 pendiente, o para agroindustria cercana a CEMEVA."
+  ],
+  "puntuacion": 6.2,
+  "por_que_puntuacion": "Hueco en Argentina confirmado y buen encaje con su carrera, pero el volumen local es chico y cada match pide mucho trabajo a mano. Casi igual que 6,3.",
+  "tema": "Agro e industria",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 150 (estimación: dominio, formulario y calculadora en Cloudflare, más tiempo de contacto)",
+  "primer_paso": "Llamar a 20 marcas chicas de alimentos de Instagram y preguntar cómo encontraron quién les fabrica y cuánto tardaron.",
+  "riesgo_principal": "Que haya pocas operaciones al año y que las plantas no quieran mostrar su capacidad libre.",
+  "agrupar_con": ["IND-4-4", "BEL-5-3"]
+ },
+ {
+  "n": "M062",
+  "opinion": "Facu pidió que se la expliquen mejor. En simple: una junta es cuando 10 personas ponen, por ejemplo, $ 50.000 por mes y cada mes una se lleva todo; la boliviana se llama pasanaku. Hoy se arma por WhatsApp y de palabra, y el problema es que alguien deje de pagar después de cobrar. La app pone reglas escritas, sortea los turnos de forma que se pueda revisar, recuerda y registra los pagos, y arma un historial de quién cumplió. La plata nunca pasa por la app, eso evita regulación. Me gusta el hueco, pero el sustituto gratis de WhatsApp es fuerte y el antecedente de Bolivia creció poco.",
+  "hallazgos": "Hoy tampoco apareció ninguna app argentina de juntas o pasanaku; las búsquedas devolvieron solo planes de ahorro de autos y noticias de plazo fijo [https://vehiculos.mercadolibre.com.ar/planes-de-ahorro/2026/_ITEM*CONDITION_2230581, consultado 2026-10-23]. PasanaQ, hoy Sommos, tiene sede en Santa Cruz de la Sierra, registra la actividad de los grupos y arma perfiles de crédito alternativos; no encontré nada de su llegada a Argentina [https://www.descubre.vc/e/pasana-q, consultado 2026-10-23]. El censo 2001 contó 233.464 bolivianos en Argentina, 119.114 en el área metropolitana; es un dato viejo y no busqué el censo 2022 [https://www.redalyc.org/pdf/151/15125609007.pdf, consultado 2026-10-23].",
+  "variantes": [
+   "Versión explicada que pidió Facu: bot de WhatsApp más planilla que administra la junta, sin tocar la plata, cobrando una cuota chica por ciclo.",
+   "Otro cliente: juntas de empleados dentro de una empresa, vendidas al área de recursos humanos como beneficio, empezando por la empresa de la familia.",
+   "Otro cobro: gratis para los participantes y cobro al organizador de la junta, que es quien hoy carga con el trabajo y el riesgo."
+  ],
+  "puntuacion": 5.8,
+  "por_que_puntuacion": "Hueco real en Argentina y fácil de probar con un bot, pero cobrar contra WhatsApp gratis es difícil y el caso boliviano creció poco. Baja un poco de 6,1 por eso.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 50 a 200 (estimación: bot de WhatsApp no-code y planilla para una junta real)",
+  "primer_paso": "Armar y administrar una junta real de 10 personas con un bot y una planilla durante un ciclo, y preguntar al final si pagarían por seguir.",
+  "riesgo_principal": "Que la gente prefiera seguir por WhatsApp gratis y que un incumplimiento le caiga como culpa a la app.",
+  "agrupar_con": []
+ }
+]

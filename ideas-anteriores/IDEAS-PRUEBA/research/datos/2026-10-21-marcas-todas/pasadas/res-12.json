@@ -1,0 +1,141 @@
+[
+ {
+  "n": "M029",
+  "opinion": "Facu la marcó sin comentario, así que evalúo la idea tal cual: fotos más checklist que salen como informe PDF con IA. Me parece una buena herramienta, pero como producto suelto es fina. Afuera ya hay apps de inspección con fotos y PDF, y los formularios genéricos lo hacen gratis. Lo nuevo sería que la IA redacte los hallazgos, y eso todavía necesita que una persona escriba o revise cada observación. Sirve más como acelerador de un oficio puntual que como empresa en sí.",
+  "hallazgos": "Site Report Pro en iOS ya arma informes PDF con hasta 8 fotos por incidencia, sin IA declarada [https://apps.appfollow.io/ios/site-report-pro-audit-pdf-go/1246734455?country=es] (consulta 2026-10-23). Sitemate ofrece fotos anotadas, modo sin conexión y PDF con firmas [https://help.sitemate.com/en/articles/10382882-inspection-photos] (consulta 2026-10-23). Jotform tiene plantillas gratis de inspección móvil con fotos y PDF, sin programar [https://www.jotform.com/es/app-templates/app-de-inspeccion-movil] (consulta 2026-10-23). SafetyCulture tiene en español una plantilla de informe de visita de higiene y seguridad [https://safetyculture.com/library/professional-services/informe-de-visita-higiene-y-seguridad] (consulta 2026-10-23). Un artículo en español recomienda que una persona escriba la observación junto a cada foto antes de pasarla por IA [https://omidsaffari.com/es/blog/informe-de-inspeccion-de-vivienda] (consulta 2026-10-23). No encontré una app argentina que haga esto con IA: no verificado que no exista.",
+  "variantes": [
+   "Tal cual la marcó Facu: herramienta para encargados de depósito y consultores que convierte fotos y checklist en informe PDF con hallazgos.",
+   "Elegir un solo oficio con informe obligatorio y repetido, por ejemplo técnicos de higiene y seguridad que visitan obras y fábricas, y venderles la plantilla con IA por mes.",
+   "Para el agro: informe de visita de acopio o planta de granos con fotos y checklist, probado primero en CEMEVA y después ofrecido a otros acopios."
+  ],
+  "puntuacion": 6.4,
+  "por_que_puntuacion": "Es construible sin programar y barata de probar, pero ya hay herramientas parecidas y el diferencial de la IA es chico. Baja un poco porque falta un cliente concreto que pague.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 50 (estimación: Claude y Google Docs que ya tiene)",
+  "primer_paso": "Hacer 3 informes reales con fotos de CEMEVA y mostrárselos a 5 técnicos de higiene y seguridad para preguntar cuánto tardan hoy y si pagarían.",
+  "riesgo_principal": "Que los técnicos sigan con su plantilla de Word porque el ahorro de tiempo no alcanza para pagar una suscripción.",
+  "agrupar_con": ["L9", "L10"]
+ },
+ {
+  "n": "M031",
+  "opinion": "Facu la marcó sin comentario. Es un problema real: las tiradas mínimas de packaging son altas y una marca chica no llega. Pero el negocio es imprenta o reventa de cajas, no software, y choca con su preferencia por producto global. Además Vistaprint ya vende cajas desde 1 unidad afuera. Puede servir como intermediario que junta pedidos chicos de varias marcas, y ahí sí se parece a lo que le gusta.",
+  "hallazgos": "Vistaprint ofrece cajas personalizadas con pedido mínimo de 1 unidad; no aclara si envía a Argentina, no verificado [https://www.vistaprint.com/es/empaque/empaques-minoristas] (consulta 2026-10-23). VAN Envases es una fábrica argentina de envases de cartón con más de 30 años, que por su perfil trabaja tiradas grandes [https://connectamericas.com/pt/company/van-envases-impresos] (consulta 2026-10-23). Una nota del sector dice que las tiradas que se ofrecen suelen ser muy grandes para negocios chicos [https://www.interempresas.net/Envase/306699-Printbox-muestra-su-rentabilidad-durante-la-crisis-del-COVID.html] (consulta 2026-10-23). No encontré un servicio argentino online de cajas impresas en pocas unidades: no verificado.",
+  "variantes": [
+   "Tal cual: tienda online de cajas impresas a medida para marcas chicas, tercerizando la impresión en una gráfica.",
+   "Compra agrupada: la plataforma junta pedidos chicos de varias marcas de Tiendanube en una sola tirada grande y reparte el costo.",
+   "Sin fabricar: diseñador con IA que arma el troquel y el arte de la caja y lo manda a la gráfica que el cliente elija."
+  ],
+  "puntuacion": 5.2,
+  "por_que_puntuacion": "La demanda es probable, pero el negocio depende de márgenes de imprenta y logística, no de software. Le exige capital de trabajo y no aprovecha su ventaja.",
+  "tema": "Marketplace o intermediario",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 100 a 300 (estimación: muestras de cajas y un anuncio chico)",
+  "primer_paso": "Pedir presupuesto a 3 gráficas de packaging por 50, 200 y 1.000 cajas, y preguntar a 10 marcas de Tiendanube si pagarían la diferencia.",
+  "riesgo_principal": "Que el precio por unidad en tiradas chicas sea tan alto que la marca chica no lo pague.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M032",
+  "opinion": "Facu la marcó sin comentario. Me sigue pareciendo de las mejores de su lote porque calza con inflación y con locales que cambian precios seguido. Pero el hueco es más chico de lo que parecía: afuera ya hay varias herramientas que leen una planilla de Google y la muestran en un televisor. Lo que podría diferenciar es el video con promos generado con IA y el foco en cadenas argentinas chicas. Hay que probar si eso se vende o si alcanza con una herramienta genérica.",
+  "hallazgos": "Easy Signage permite conectar una hoja de Google con precios y platos para pantallas de menú [https://easysignage.com/use-cases/digital-menu-board/] (consulta 2026-10-23). Juuno convierte un smart TV en cartelera de menú y muestra hojas de Google en vivo [https://juuno.co/usecases/digital-menu-boards] (consulta 2026-10-23). Foodee arma un menú web desde Google Sheets con precios que se actualizan solos [https://workspace.google.com/marketplace/app/foodee_live_menu_builder/257029339305?hl=es] (consulta 2026-10-23). Una guía de un proveedor argentino estima 200.000 a 300.000 pesos de inversión inicial para 1 o 2 pantallas y software de 0 a 15.000 pesos por mes; es fuente con interés comercial [https://yo-facturo.com/blog/software-carteleria-digital-pymes/] (consulta 2026-10-23). Una nota de prensa de agosto de 2026 dice que Supermercados El Jamón pondrá unos 3 millones de etiquetas electrónicas con Hanshow; está alojada en un dominio no oficial y no es de Argentina, no verificado [https://ikamthbvbboumabhthnd.supabase.co/storage/v1/object/public/media/post/2026/08/supermercados-el-jamon-impulsa-la-digitalizacion-de-toda-su-red-comercial-con.docx] (consulta 2026-10-23). No encontré un software argentino que haga exactamente esto: no verificado.",
+  "variantes": [
+   "Tal cual: el local cambia el precio en la planilla y cada pantalla muestra un video con promos regenerado con IA, por abono mensual por pantalla.",
+   "Un solo jugador: kit armado con TV Box ya configurado y la planilla lista, vendido a heladerías, rotiserías y panaderías con 1 a 3 pantallas.",
+   "Sin pantalla propia: vender solo el motor que genera los videos de promo desde la planilla, para que el local los pase en el sistema de cartelería que ya tenga."
+  ],
+  "puntuacion": 6.6,
+  "por_que_puntuacion": "Es construible con no-code y tiene un dolor claro con inflación. Baja algo porque ya hay herramientas de afuera que leen Google Sheets y el diferencial es el video con IA.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Hardware más software",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 80 a 200 (estimación: un TV Box, la prueba de una herramienta y un piloto en un local)",
+  "primer_paso": "Armar un piloto con Juuno o Easy Signage y una planilla en un local conocido durante dos semanas y medir cuántas veces cambian precios.",
+  "riesgo_principal": "Que el local no pague abono porque una herramienta gratis o barata de afuera ya resuelve lo mismo.",
+  "agrupar_con": ["CUL-5-3"]
+ },
+ {
+  "n": "M082",
+  "opinion": "Facu la marcó sin comentario. No es una idea de negocio, es un método. Y es un método que ya se está usando en este proyecto con los Excel de nichos. Tiene un sesgo que hay que nombrar: que una startup de EE.UU. reciba inversión no prueba que una PyME argentina vaya a pagar. Lo tomaría como una lente más para encontrar ideas, no como fila para elegir.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "Tal cual: método fijo de copiar startups financiadas de EE.UU., validar el dolor en Argentina como servicio manual y recién después hacer producto.",
+   "Al revés: buscar qué resolvieron startups de Brasil, México o Colombia, que tienen problemas más parecidos a los argentinos que EE.UU.",
+   "Como rutina: una hora por semana revisando listas de startups financiadas y anotando 3 candidatas en el registro de ideas."
+  ],
+  "puntuacion": 5.0,
+  "por_que_puntuacion": "Como método es útil, pero no es un negocio que se pueda empezar. Por eso no puede competir en puntaje con las ideas concretas.",
+  "tema": "Otro",
+  "tipo": "Datos o información",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 (estimación: solo tiempo)",
+  "primer_paso": "Sumar este método a las lentes del gimnasio de ideas y usarlo para validar la idea que Facu elija primero.",
+  "riesgo_principal": "Confundir inversión en EE.UU. con demanda que paga en Argentina.",
+  "agrupar_con": []
+ },
+ {
+  "n": "M108",
+  "opinion": "Facu la marcó sin comentario. Mantengo lo de antes: para personas no hay negocio, porque no pagan. Para empresas hay demanda real por exigencias de exportación y de clientes grandes, pero ya hay varias empresas argentinas haciendo esto. El único ángulo que veo es el de proveedores chicos a los que una operadora o un exportador les pide datos, y eso se parece más a un servicio que a un producto.",
+  "hallazgos": "Dendro es una plataforma argentina de Buenos Aires, fundada en 2022, que calcula la huella de carbono de empresas con estándares GHG Protocol; figura en etapa Pre-Seed [https://www.descubre.vc/dendro] (consulta 2026-10-23). Cacta es una empresa argentina con software de huella de carbono para el agro [https://noticias.perfil.com/noticias/informacion-general/invento-argentino-cual-es-el-innovador-software-para-medir-emisiones-de-carbono.phtml] (consulta 2026-10-23). The Carbon Sink ofrece medición gratis y venta de compensaciones [https://eleconomista.com.ar/negocios/un-plataforma-argentina-compenso-mas-3200-toneladas-c02-su-primer-ano-n54533] (consulta 2026-10-23). Una encuesta de SAP citada por Economía Sustentable dice que el 51% de las compañías argentinas tiene estrategia de sostenibilidad [https://economiasustentable.com/noticias/tecnologias-para-la-sustentabilidad-asi-podes-medir-y-reducir-tu-huella-de-carbono] (consulta 2026-10-23). No pude confirmar si estas empresas siguen activas hoy.",
+  "variantes": [
+   "Tal cual: app de huella de carbono con suscripción y seguimiento, solo para empresas.",
+   "Para proveedores: responder los pedidos de datos de emisiones que operadoras y exportadores exigen a sus proveedores chicos. Se parece a PET-1-4.",
+   "Para acopios de granos: módulo de datos de origen y emisiones para cumplir la EUDR, probado en CEMEVA."
+  ],
+  "puntuacion": 4.3,
+  "por_que_puntuacion": "Para personas no hay quien pague y para empresas ya hay al menos tres jugadores argentinos. La baja de puntaje es porque el hueco en Argentina es más chico de lo que se creía.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 a 50 (estimación: entrevistas)",
+  "primer_paso": "Preguntarle a CEMEVA y a 3 acopios vecinos si algún comprador ya les pidió datos de emisiones o de la EUDR.",
+  "riesgo_principal": "Competir con Dendro, Cacta y la herramienta gratuita VISEC sin una ventaja clara.",
+  "agrupar_con": ["PET-1-4"]
+ },
+ {
+  "n": "M113",
+  "opinion": "Facu la marcó sin comentario y en el estudio del 2026-10-08 quedó descartada. Sigo igual: ya hay apps gratis que comparan precios del súper. Las personas no pagan por saber cuánto llevan en el carrito. No veo un giro que la salve sin volverse otra idea.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "Tal cual: app que lee la etiqueta de precio con la cámara y suma el total del carrito.",
+   "Otro cliente: el mismo lector de etiquetas para relevadores de precios de marcas, que hoy anotan a mano en góndola. Se acerca a L10.",
+   "Otro cobro: gratis para el comprador y pago para el súper chico que quiere aparecer como el más barato del barrio."
+  ],
+  "puntuacion": 3.5,
+  "por_que_puntuacion": "Ya existen apps gratis como Ratoneando y Precios Claros y la persona no paga. Baja un poco porque no apareció nada nuevo a favor.",
+  "tema": "Comida y alimentos",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 (estimación: no conviene gastar)",
+  "primer_paso": "No probarla; si interesa la cámara sobre etiquetas, ir por la variante de relevadores junto con L10.",
+  "riesgo_principal": "Nadie paga porque la alternativa gratis ya alcanza.",
+  "agrupar_con": ["L10"]
+ },
+ {
+  "n": "M116",
+  "opinion": "Facu mismo dijo que era medio rebuscada y la descartó. Coincido. Mercado Pago, Rapipago y Extracash ya cubren el intercambio de efectivo con miles de puntos. Y lo propio de la idea es lo más difícil: custodiar plata de terceros y manejar efectivo, con regulación y riesgo de robo. No le busco variante que valga la pena.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "Tal cual: puntos donde una persona deja efectivo y recibe transferencia, con la plata retenida en una cuenta de la app hasta completar el cambio.",
+   "Sin tocar la plata: solo un mapa de comercios que dan efectivo por transferencia, cobrado como publicidad al comercio."
+  ],
+  "puntuacion": 1.8,
+  "por_que_puntuacion": "La necesidad ya está cubierta por redes enormes y la parte nueva es custodia de fondos regulada. Facu ya la descartó.",
+  "tema": "Trámites, seguros y finanzas",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 (estimación: no conviene gastar)",
+  "primer_paso": "No probarla; dejarla registrada como descartada.",
+  "riesgo_principal": "Custodiar plata de terceros sin licencia del BCRA y quedar expuesto a lavado, robo o billetes falsos.",
+  "agrupar_con": []
+ }
+]

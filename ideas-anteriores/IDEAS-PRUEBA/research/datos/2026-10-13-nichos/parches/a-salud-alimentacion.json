@@ -1,0 +1,219 @@
+[
+  {
+    "id": "SAL-2-1",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Sigue sin aparecer financiación específica para odontología en Argentina. En los resultados hubo contexto de precios (implante 'desde 1,6 millones de pesos', Misiones Online 2025-10-09: https://misionesonline.net/2025/10/09/odontologos-afirman-que-descuidar-la-salud-bucal-puede-salir-caro-hoy-un-implante-se-cobra-desde-1-6-millones-de-pesos/) y la alianza Straumann + Sunbit, pero esa es en EE.UU. (https://sunbit.com/knowledge-center/press/straumann-group-selects-sunbit-technology-to-expand-patient-access-to-best-in-class-financing-options/). Ni Cherry ni Sunbit aparecieron operando en Argentina. Sustitutos genéricos que ya existen: cuotas con tarjeta y GOcuotas (Córdoba, cuotas con débito para comercios en general: https://www.descubre.vc/gocuotas, dato de la primera pasada). Consulta: 'financiación tratamientos odontológicos implantes ortodoncia cuotas pacientes Argentina fintech' (2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sin cambio: con 2 búsquedas (la de la primera pasada y esta) no apareció financiación dental específica, pero las cuotas con tarjeta y las fintech genéricas cubren parte del problema, por eso no llega a 5."
+  },
+  {
+    "id": "SAL-2-4",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "No encontré un software independiente que pre-audite la facturación odontológica a obras sociales. Lo que existe son los canales de las entidades: FOPBA pasa a facturación 100% digital con Jerárquicos Salud desde el 2026-09-01 (https://fopba.org.ar/wp-content/uploads/2026/08/CIRCULAR-100-2026-JERARQUICOS-SALUD-DIGITAL-1.docx), e IOSFA exige validar al afiliado en su validador online y aplica débitos si no se cumple el convenio (https://prestadores.iosfa.gob.ar/descargas/normativa/Normas_de_Auditoria_de_Liquidacion_de_Prestaciones_2020.pdf). Develop Argentina tiene una nota de blog sobre software para clínicas y consultorios (https://developargentina.com/blog/software-clinicas-consultorios-argentina-2026), sin que se vea un producto de pre-auditoría dental. Vyne y Zuub no aparecieron en Argentina. Consulta: 'software facturación obras sociales odontología Argentina validación online auditoría débitos' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: confirmé que las federaciones y los círculos ya dan el canal de facturación (eso es presencia parcial), pero no apareció ningún software que controle los débitos antes de presentar."
+  },
+  {
+    "id": "SAL-2-5",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "AgendaPro Argentina (https://agendapro.com/ar/dental/software-odontologico) tiene recordatorios automáticos por WhatsApp, SMS o mail con doble confirmación y un 'CRM odontológico' para mandar comunicaciones a cada paciente; la página no dice explícitamente que reactive pacientes inactivos ni que siga presupuestos. Sultapp, CRM de Consulmed (empresa argentina de servicios odontológicos), aparece en la tesis de UdeSA 2024, que estima unos 70.000 odontólogos y un 3% que usa CRM (https://repositorio.udesa.edu.ar/jspui/bitstream/10908/23801/1/%5bP%5d%20%5bW%5d%20MBA%20Nervi%2c%20Santiago%20Luis.pdf). Dental Intelligence y Lighthouse 360 no aparecieron en Argentina. Consulta: 'software odontológico Argentina recordatorio pacientes inactivos seguimiento presupuestos CRM consultorio dental' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: AgendaPro, que está establecido, cubre los recordatorios, pero no encontré a nadie que haga la reactivación de inactivos y el seguimiento de presupuestos como Dental Intelligence."
+  },
+  {
+    "id": "SAL-4-1",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré software argentino para que una empresa de cuidado domiciliario gestione rotas de cuidadores, ausencias y control de visitas. Lo que aparece apunta a las familias, no a la agencia: Cuidarlos, app argentina que conecta familias con cuidadores (iProUP: https://www.iproup.com/innovacion/25572-cuidarlos-app-para-hallar-cuidadores-domiciliarios-para-adultos), y CUIDARnos, fundación con plataforma, capacitación y seguimiento por georreferenciación (Cadena 3, 2026-03-13: https://www.cadena3.com/noticia/sociedad/una-fundacion-presenta-una-innovadora-solucion-para-el-cuidado-de-ancianos_529184). Birdie y AlayaCare no aparecieron en Argentina. No encontré en 1 búsqueda ('software gestión empresas cuidado domiciliario adultos mayores Argentina turnos cuidadores', 2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció software B2B para agencias de cuidado, solo marketplaces para familias (el tope es 4 porque fue una sola búsqueda)."
+  },
+  {
+    "id": "SAL-4-2",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Cuidarlos (creada por Iván Spollansky) conecta familias con cuidadores y acompañantes 'en forma autónoma y sin intermediarios'; según iProfesional (2023-08-11) tiene más de 4.000 cuidadores calificados y un sistema de reputación (https://www.iprofesional.com/salud/386550-cuidado-de-ancianos-una-app-argentina-brinda-la-solucion), y según iProUP la inversión inicial superó los US$500.000 (https://www.iproup.com/innovacion/25572-cuidarlos-app-para-hallar-cuidadores-domiciliarios-para-adultos). CUIDARnos, impulsada por Gustavo Grobocopatel y Alejandro Gramajo, conecta familias con cuidadores capacitados de una red cooperativa (Cadena 3, 2026-03-13: https://www.cadena3.com/noticia/sociedad/una-fundacion-presenta-una-innovadora-solucion-para-el-cuidado-de-ancianos_529184). No verifiqué si alguna cobra por hora, si chequea antecedentes o si da reemplazo cuando falta el cuidador. Tampoco verifiqué si Cuidarlos sigue activa en 2026 (la nota es de 2023). Homage y Papa no aparecieron en Argentina. Consulta: 'app para contratar cuidadores de adultos mayores por hora Argentina' (2026-10-13).",
+    "hueco_ar": 2,
+    "nota": "Baja de 3 a 2: hay dos jugadores locales que resuelven justo el problema (marketplace familia-cuidador), uno con 4.000+ cuidadores y otro con patrocinadores fuertes; quedaría diferenciarse por la verificación, el reemplazo y el cobro por hora."
+  },
+  {
+    "id": "SAL-4-3",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "La búsqueda trajo solo productos españoles, sin confirmar que vendan en Argentina: GerApp (app para familias), Gerisoft Familias (https://www.alimarket.es/sanidad/noticia/387876/el-grupo-l-onada-presenta-su-nueva-aplicacion-para-movil--gerisoft-familias-), Geriges (https://www.softwaredoit.es/geriges/geriges.html) y Gestión de Residencias (https://www.gestionderesidencias.es/?p=483). No apareció ningún proveedor argentino. Person Centred Software y Nourish no aparecieron en Argentina. No encontré en 1 búsqueda ('software para residencias geriátricas Argentina historia clínica registro de cuidados app familias', 2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún proveedor local, solo españoles que podrían entrar (el tope es 4 por haber hecho una sola búsqueda)."
+  },
+  {
+    "id": "SAL-4-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré un buscador o comparador argentino de residencias con vacantes. Hay registros oficiales que sirven para ver si una residencia está habilitada, pero no muestran disponibilidad: el resumen de la búsqueda cita el registro de CABA con 592 residencias y 22.470 camas habilitadas (dato visto en el resumen, sin abrir la fuente primaria). También aparecen directorios de avisos como argentino.com.ar para Córdoba (https://www.argentino.com.ar/hogar-residencia-geriatrica-privada-calidad-de-vida-F1B07C1061AD1). El resumen menciona además 'portales privados que asesoran a familias para elegir residencia', pero sin nombrarlos, así que no pude verificarlos. A Place for Mom y Aline no aparecieron en Argentina. Consulta: 'buscador de geriátricos y residencias para adultos mayores Argentina comparar vacantes' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no apareció ningún competidor con nombre, pero hay indicios de portales de asesoramiento sin identificar y de directorios, así que no subo el puntaje hasta verificarlos."
+  },
+  {
+    "id": "SAL-4-5",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No apareció ninguna app ni plataforma argentina para cubrir turnos de enfermería o cuidadores en residencias. Los resultados fueron normas públicas sobre reemplazos (por ejemplo, disposiciones de hospitales del GCABA: https://buenosaires.gob.ar/sites/default/files/2024-08/DI-2024-29935259-GCABA-HGARM.pdf) y referencias de afuera: una app chilena de personal de salud a demanda (Emol, 2023-03-15: https://www.emol.com/noticias/Economia/2023/03/15/1089407/app-ofrece-flexibilidad-laboral-salud.html) y CareRev de EE.UU. Florence e IntelyCare no aparecieron en Argentina. No encontré en 1 búsqueda ('app cubrir turnos enfermería reemplazos personal salud por turno Argentina', 2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció nada local y hay un caso chileno que muestra que el modelo funciona en la región; ojo con los límites laborales para intermediar personal."
+  },
+  {
+    "id": "SAL-5-1",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "Hay varias herramientas locales. AgendaPro Argentina para veterinarias (https://agendapro.com/ar/veterinario/software-para-clinica-veterinaria): se presenta como 'Software para Veterinarios líder en Argentina', con recordatorios automáticos de turnos 1 a 3 días antes, que promete por WhatsApp, más ficha clínica y control de vacunas y desparasitaciones; la página no dice explícitamente que mande recordatorios de vacunas. VetPaw, 'desarrollado en Argentina' según ComparaSoftware (https://www.comparasoftware.com/vetpaw): turnos online con confirmación automática, libreta de vacunación digital, recordatorios automáticos para dueños y app para dueños, a ARS 30.000/mes en su plan de lanzamiento. Tibu, app argentina con IA: según NoticiasNQN (2025-07-06) envía recordatorios de vacunas y seguimientos y está en 'más de 100 clínicas veterinarias en América Latina' (https://www.noticiasnqn.com.ar/noticias/2025/07/06/316494-un-argentino-creo-una-app-con-ia-que-revoluciona-la-atencion-veterinaria-y-ya-impacta-en-miles-de-mascotas). Volki también tiene recordatorios e integración con WhatsApp, pero no confirmé su origen (https://www.capterra.com/p/240877/Volki/). PetDesk y Vetstoria no aparecieron en Argentina. Consulta: 'software veterinaria Argentina recordatorio vacunas WhatsApp turnos' (2026-10-13). Corrige a la primera pasada: AgendaPro sí tiene una página específica para veterinarias en Argentina.",
+    "hueco_ar": 2,
+    "nota": "Baja de 3 a 2: hay al menos tres productos locales (AgendaPro, VetPaw y Tibu) que ya hacen recordatorios de turnos y vacunas."
+  },
+  {
+    "id": "SAL-5-2",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré una plataforma B2B para que las veterinarias comparen y compren a varios distribuidores (tipo Vetcove), ni una tienda online propia de la veterinaria para la venta recurrente de alimento (tipo Vetsource). Lo único local: Drovet, distribuidora veterinaria con sede en Rosario y 12 puntos de venta en Argentina, que según la ficha tiene tienda online para pequeños animales (https://www.3tres3.com/fr/guide333/entreprises/drovet-lideres-en-distribucion-veterinaria/seguidores); es un distribuidor, no un comparador. Forveter (España) y Petzone (Paraguay) aparecieron como modelos, pero no operan en Argentina. No encontré en 1 búsqueda ('plataforma compras veterinarias distribuidores Argentina pedidos alimento balanceado tienda online veterinaria', 2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció un comparador de compras ni una tienda de venta recurrente para veterinarias, solo distribuidores con su propio e-commerce."
+  },
+  {
+    "id": "SAL-5-3",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "No encontré una herramienta para que la veterinaria arme y cobre sus propios planes de salud (tipo Covetrus CarePlans). Lo que hay son planes y seguros que le venden directo al dueño y que compiten por el mismo bolsillo. Companion, prepaga para perros y gatos: desde $30.000/mes, reintegros del 60% al 100% y 4.000 mascotas aseguradas (InfoNegocios, 2026-06-01: https://infonegocios.info/default/companion-la-prepaga-para-mascotas-que-ya-tiene-4-000-animales-asegurados-apunta-a-50-000-antes-de-fin-de-ano). Vetify: plan de salud con costo mensual fijo, reintegros y atención 24/7 (Mercado, 2026-03-10: https://mercado.com.ar/finanzas/vetify-apunta-a-ordenar-el-gasto-en-salud-de-mascotas-cerca-de-70-000-mensuales). También aparecen Iké (iProfesional: https://www.iprofesional.com/negocios/410002-cuanto-sale-contratar-una-obra-social-para-mascotas-en-argentina) y la promoción de OMINT que suma mascotas a la cobertura familiar (https://www.canal26.com/planeta/2026/02/20/medicina-para-mascotas-una-prepaga-saco-una-promocion-que-incluye-a-los-perros-y-gatos-en-la-cobertura-familiar/). Ninguna de estas notas menciona herramientas para las veterinarias. Consulta: 'plan de salud mascotas suscripción mensual veterinaria Argentina' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no hay competencia directa para la veterinaria, pero las prepagas para mascotas (Companion, Vetify, Iké) ya ocupan la idea de 'pagar un fijo por mes' del lado del dueño."
+  },
+  {
+    "id": "SAL-5-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Tibu, app argentina con IA para veterinarias, según NoticiasNQN (2025-07-06) hace 'carga automática de datos tras una consulta', historia clínica digital y sugerencias de diagnóstico, y está en más de 100 clínicas de América Latina (https://www.noticiasnqn.com.ar/noticias/2025/07/06/316494-un-argentino-creo-una-app-con-ia-que-revoluciona-la-atencion-veterinaria-y-ya-impacta-en-miles-de-mascotas; también la menciona https://ecosistemastartup.com/startup-argentina-revoluciona-la-atencion-veterinaria-con-ia/). La nota no confirma que grabe o transcriba la consulta como ScribbleVet. ScribbleVet y Talkatoo no aparecieron en Argentina. Consulta: 'inteligencia artificial historia clínica veterinaria dictado consulta Argentina' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Baja de 4 a 3: apareció un jugador local con IA (Tibu) que automatiza la carga de la historia clínica, aunque no está confirmado que sea un escriba por voz."
+  },
+  {
+    "id": "SAL-5-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré financiación específica para cirugías veterinarias (tipo Scratchpay). Sustitutos que ya existen: cuotas sin interés del Banco Nación en veterinarias adheridas (Sitio Andino, 2026-08-04: https://www.sitioandino.com.ar/economia/banco-nacion-y-veterinarias-dias-descuento-y-condiciones-n5721931); planes con reintegros que incluyen cirugías, como Vetify (https://mercado.com.ar/finanzas/vetify-apunta-a-ordenar-el-gasto-en-salud-de-mascotas-cerca-de-70-000-mensuales) y Companion; y GOcuotas, que da cuotas genéricas a comercios (https://www.descubre.vc/gocuotas). Scratchpay y Cherry no aparecieron en Argentina. Consulta: 'financiación en cuotas cirugía veterinaria Argentina pagar tratamiento mascota cuotas' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no hay un jugador específico, pero las cuotas con tarjeta y bancos y los seguros con reintegro cubren buena parte del problema."
+  },
+  {
+    "id": "ALI-2-2",
+    "presencia_ar": "alta",
+    "presencia_ar_detalle": "Cheaf, de origen mexicano: más de 700 comercios en todo el país (supermercados, panaderías, cafeterías y restaurantes, por ejemplo Vea, Disco, Jumbo, Le Ble, Hausbrot, Pandanés y Gontran Cherrier), más de 1 millón de usuarios en Argentina, oficina local y descuentos de hasta 65% (Mercado, 2026-05-17: https://mercado.com.ar/gestion-sustentable/cheaf-suma-mas-de-700-comercios-y-ofrece-excedentes-con-hasta-65-descuento). Buen Provecho, app uruguaya que según los resultados de búsqueda opera en CABA (Barrio Norte, en expansión a Palermo, Belgrano y Núñez) con panaderías, restaurantes y pizzerías, y descuentos de 35% a 50% (iProUP: https://www.iproup.com/coffee-break/54964-startup-uruguaya-para-evitar-el-desperdicio-de-alimentos-llega-al-pais; al abrir la nota no pude ver el texto completo). También aparece una app que opera en supermercados de Mendoza (Los Andes, 2025-06-25: https://www.losandes.com.ar/economia/nueva-app-permite-comprar-comida-50-descuento-mendoza-como-funciona-n5953066). No confirmé que Too Good To Go esté en Argentina. Consulta: 'app venta excedentes panaderías comida que sobra con descuento Argentina desperdicio' (2026-10-13).",
+    "hueco_ar": 1,
+    "nota": "Baja de 3 a 1: Cheaf ya es grande en Argentina (700+ comercios, 1M+ usuarios, cadenas de panaderías como cliente) y además está Buen Provecho."
+  },
+  {
+    "id": "ALI-2-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "ANMAT tiene una calculadora oficial y de acceso abierto (sellos.anmat.gob.ar/Calculadora, lanzada el 2022-04-05 según Hoy Día: https://hoydia.com.ar/?p=107140). Pero hay que cargarle los valores nutricionales ya calculados (calorías, azúcares, grasas, sodio) y solo dice qué sellos corresponden; no arma la tabla nutricional a partir de la receta. No apareció ningún software privado argentino que calcule el rótulo desde la receta (tipo ReciPal o Nutritics), y ninguno de esos dos apareció en Argentina. Consulta: 'software rotulado nutricional sellos octógonos ley etiquetado frontal calculadora Argentina' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: la calculadora gratuita de ANMAT cubre el último paso (qué sellos van), pero no el cálculo de la tabla desde la receta, que es donde está el costo del laboratorio o bromatólogo."
+  },
+  {
+    "id": "ALI-2-5",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No apareció ninguna app argentina de registros BPM/HACCP digitales para gastronomía. Los resultados fueron extranjeros: Alcomo HACCP (Alemania, Suiza y Austria), Záznamy (https://www.epixtechnology.com/node/98) y HACCP Pro. FoodDocs y Trail no aparecieron en Argentina. Hay una solución local parcial para la parte de temperaturas: el controlador Good Cold de Sensify registra y reporta la temperatura de cámaras frigoríficas (ver ALI-4-2). No encontré en 1 búsqueda ('app registros digitales BPM HACCP planillas control temperatura limpieza gastronomía Argentina', 2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no hay app local de checklists BPM, pero la parte de temperatura ya la cubre al menos un proveedor local (Good Cold), por eso no lo subo a 4."
+  },
+  {
+    "id": "ALI-3-1",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré un software comercial argentino vigente y específico de trazabilidad de lotes para PyMEs alimentarias. Hubo software piloto financiado por PROCAL II (Ministerio de Agricultura) para olivícolas y fideeras entre 2012 y 2014 (https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/ProcalII/proyectospilotos/2012/PP_soft_trazabilidad_olivosx.pdf); no sé si sigue mantenido. Una empresa argentina de premezclas (Profeed) usa el ERP libre Tryton para trazar lotes (https://www.tryton.org/success-stories/profeed). MRPeasy (extranjero) vende trazabilidad para pequeños fabricantes en español (https://www.mrpeasy.com/es/software-de-trazabilidad-alimentaria/). Para la regulación, ANMAT exige un sistema de trazabilidad y un plan de retiro documentado (https://argentina.gob.ar/sites/default/files/anmat_manual_de_recomendaciones_para_gestion_de_incidentes_y_retiro_productos_empresas_alimentarias.pdf). Katana y Unleashed no aparecieron en Argentina. Consulta: 'software trazabilidad de lotes PyME alimentaria Argentina producción materia prima retiro de producto' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no apareció un vertical local, pero los ERP generalistas con control de lotes (Tryton, MRPeasy y probablemente ERP argentinos; esto último es opinión no verificada) cubren el problema en parte."
+  },
+  {
+    "id": "ALI-3-2",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "BrewPlanner figura en Capterra Argentina como disponible en el país y en español, desde US$45 (dato del resumen de búsqueda; al abrir la ficha https://www.capterra.com.ar/software/165682/brewplanner devolvió 403, así que no lo pude confirmar), con producción, recetas e inventario, sin confirmar que siga los barriles. microbrew.ar es una app gratuita de investigadores con apoyo de CONICET y de la empresa InnQube (Bariloche) que registra variables de cada lote, con foco en levaduras y fermentación (https://rionegro.gov.ar/articulo/50591/rio-negro-acompana-un-proyecto-innovador-para-la-industria-de-la-cerveza). No vi un seguimiento de barriles hecho en Argentina. Ekos y Breww no aparecieron operando en Argentina. Consulta: 'software gestión cervecería artesanal Argentina control de barriles lotes producción' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: hay herramientas parciales (BrewPlanner en el directorio y microbrew.ar para lotes), pero ninguna local que siga barriles por cliente."
+  },
+  {
+    "id": "ALI-3-3",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Duotach, consultora de Buenos Aires ('marca de Sysentify LLC'), arma a medida bots de WhatsApp con IA que leen pedidos por texto o audio, los cruzan con el catálogo y el stock y los cargan al ERP (menciona Bejerman y Odoo); apunta a distribuidoras y mayoristas (post del 2026-06-28: https://duotach.com/blog/bot-whatsapp-tomar-pedidos). Es servicio a medida, no un producto. Softland Pedidos IA hace exactamente esto (WhatsApp, mail, audio, PDF e imágenes hacia el ERP) pero aparece en los sitios de Softland de otros países, como https://softland.com/cr/productos/softland-pedidos-ia/; la página de Softland Argentina (https://softland.com/ar/) no lo lista y la URL /ar del producto da 404 (WebFetch 2026-10-13). Choco y REKKI no aparecieron en Argentina. Consulta: 'toma de pedidos por WhatsApp con inteligencia artificial distribuidoras mayoristas alimentos Argentina carga automática ERP' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: hay una consultora local que lo hace a medida y un producto regional (Softland) que todavía no se ve en Argentina; el hueco existe, pero la categoría se está llenando rápido."
+  },
+  {
+    "id": "ALI-3-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré una fuente que confirme que las cadenas argentinas le den a la PyME datos de sell-out por sucursal, ni una plataforma que los junte como Crisp o Alloy. El resumen de búsqueda menciona Krikos360, una plataforma que 'ya utilizan más de 60 cadenas y 2.000 proveedores en todo el país' (sale de un perfil de LinkedIn: https://ar.linkedin.com/in/ezequielcristini). No pude abrir la fuente (LinkedIn bloqueó el WebFetch) ni verificar qué datos le muestra al proveedor. También aparece el Registro de Proveedores de Supermercados de la Ley de Góndolas (https://www.argentina.gob.ar/servicio/inscribir-mi-pyme-en-el-registro-de-proveedores-de-supermercados), que no comparte ventas. Consulta: 'datos sell-out por sucursal supermercados proveedores PyME Argentina plataforma portal proveedores ventas stock' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no se confirmó ningún competidor directo, pero Krikos360 (sin verificar) podría ser la infraestructura cadena-proveedor; hay que revisarlo antes de subir el puntaje."
+  },
+  {
+    "id": "ALI-3-5",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "En 2 búsquedas no apareció ningún software ni servicio argentino para conciliar o recuperar las notas de débito y deducciones de las cadenas. Lo único relevante es de regulación: en 2019 la AFIP proyectaba que solo el emisor de la factura pudiera hacer notas de crédito y débito y que las bonificaciones se registraran en la factura (Ámbito, 2019-07-23: https://www.ambito.com/la-afip-planea-mayor-control-los-supermercados-n5044233). No verifiqué si eso quedó vigente (RG 4540/2019), y si quedó, la mecánica argentina puede ser distinta a la de EE.UU. Vividly e iNymbus no aparecieron en Argentina. Consultas: 'conciliación notas de débito supermercados proveedores Argentina deducciones reclamo software' y 'recupero de débitos y descuentos de cadenas de supermercados para proveedores Argentina auditoría cuenta corriente servicio' (2026-10-13).",
+    "hueco_ar": 5,
+    "nota": "Sube de 3 a 5: 2 búsquedas distintas sin ningún competidor local; antes de entusiasmarse hay que confirmar con entrevistas cómo funcionan hoy los débitos en Argentina, dada la norma de AFIP."
+  },
+  {
+    "id": "ALI-4-1",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "No encontré casos de supermercados argentinos que usen IA para pedir frutas y verduras. Los resultados fueron Afresh con Albertsons en EE.UU. (Forbes Argentina: https://www.forbesargentina.com/innovacion/como-esta-startup-impide-28000-millones-dolares-terminen-basura-todos-anos-n39071), la francesa Ida y una guía general de Coderhouse sobre IA en el retail argentino (https://www.coderhouse.com/ar/coderlibrary/ia-para-retail-fisico-argentina-supermercados-tiendas). La primera pasada ya había encontrado a TOTVS Napse promoviendo herramientas predictivas de stock con IA, sin un producto de frescos (https://economiasustentable.com/noticias/argentina-desperdicia-80-000-toneladas-anuales-de-alimentos-en-gondolas-y-buscan-frenarlo-con-inteligencia-artificial/). Afresh y Freshflow no aparecieron en Argentina. Consulta: 'inteligencia artificial pedidos frutas y verduras supermercados Argentina reducir merma frescos pronóstico demanda' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: no hay un vertical de frescos, pero un proveedor grande de software para retail (TOTVS Napse) ya ofrece predicción de stock con IA y podría sumar frescos."
+  },
+  {
+    "id": "ALI-4-2",
+    "presencia_ar": "media",
+    "presencia_ar_detalle": "Good Cold, de Sensify (Sensify Solutions SA, dirección en San Justo, Buenos Aires, www.goodcold.com.ar), es un controlador con WiFi para cámaras frigoríficas: tiene dashboard en tiempo real, set point, estado de la puerta, gráficos, alertas configurables (por ejemplo, 'puerta abierta por 10 min') que llegan por mail, y reportes. Lo confirmé leyendo su manual (https://sensify.com.ar/manuales/Instructivo_Sensify_GoodCold.pdf); el manual no menciona alertas por WhatsApp ni SMS. Sensify también trabaja con grandes marcas de bebidas, lácteos y helados y con un supermercado en monitoreo de heladeras comerciales (https://sensifycloud.com/). Además existen sensores genéricos como Shelly. ComplianceMate y SmartSense no aparecieron en Argentina. Consulta: 'sensor monitoreo temperatura cámaras frigoríficas alerta celular WhatsApp Argentina carnicerías comercios' (2026-10-13).",
+    "hueco_ar": 2,
+    "nota": "Baja de 3 a 2: hay un producto local establecido (Good Cold) que hace justo esto (monitoreo remoto, alertas y reportes de cámaras); el espacio que queda es chico (alertas por WhatsApp, precio para comercios chicos, registros para bromatología)."
+  },
+  {
+    "id": "ALI-4-3",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré software para mayoristas frutihortícolas que maneje pedidos por WhatsApp, cuenta corriente y cobranza. Lo que apareció es contexto: el Mercado Central reúne unas 700 empresas mayoristas, productores y consignatarios (dato del resumen de búsqueda; no identifiqué de qué nota sale, así que no está verificado) y publica precios mayoristas en compromiso.mercadocentral.gob.ar. Notch y Ordermentum no aparecieron en Argentina. No encontré en 1 búsqueda ('software mayoristas frutas y verduras Mercado Central Argentina cuentas corrientes pedidos cobranza', 2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún vertical para el rubro (el tope es 4); opinión no verificada: los sistemas genéricos de facturación y cuenta corriente probablemente sean el sustituto."
+  },
+  {
+    "id": "ALI-4-4",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Baufest tiene un sistema de visión por computadora que, en los embarques de fruta, clasifica la maduración y los daños por enfermedad o golpes y genera informes; apunta a exportadores (Mercado, 2021-09-09: https://mercado.com.ar/tecnologia/baufest-utiliza-ia-para-detectar-danos-en-frutas). La nota no habla de calibre ni de recepción en el empaque, no nombra clientes y no confirma el país de origen de Baufest. Hay investigación de la UNSE sobre visión artificial para daños en fruta (https://amcaonline.org.ar/ojs/index.php/mc/article/download/4272/4198), que no es una empresa. Clarifresh e Intello Labs no aparecieron en Argentina. Consulta: 'inspección calidad fruta con inteligencia artificial foto empaque exportación Argentina calibre defectos startup' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: hay un desarrollo local parcial (Baufest, para embarques, de 2021) y no apareció nadie que haga la inspección por foto en la recepción con datos compartidos entre productor, empaque y comprador."
+  },
+  {
+    "id": "ALI-4-5",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "En 2 búsquedas no apareció software para que los consignatarios liquiden a los productores. Lo más cercano es Im Packing (Yerba Buena, Tucumán, grupo Infomanager): software de gestión y trazabilidad para empaques frutihortícolas, con más de 50 proyectos en Argentina, Chile y Perú (https://es.linkedin.com/company/impacking). No confirmé que haga liquidaciones de consignación, y su dominio im-packing.com no resolvió. Contexto del sector: la comisión del consignatario rondaría el 10-12% más flete y descarga (dato visto en el resumen de búsqueda), y la Res. MAGyP 376/2015 (SIOFRUTAS) alcanza las operaciones de consignación (https://magyp.gob.ar/sitio/areas/ss_control_comercial/normativa/_archivos/000000_2015/000010_Resolución_MAGYP_Nro_0376_2015_Productos Frutícolas (SIOFRUTAS).pdf). Reserva y Produce Pro no aparecieron en Argentina. Consultas: 'software consignatarios frutihortícolas Argentina liquidación a productores consignación mercado concentrador' y 'sistema para consignatarios mercado de abasto liquidación productores programa gestión puestero frutas verduras Argentina' (2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: 2 búsquedas sin un software de consignación; no le pongo 5 porque Im Packing es un proveedor vecino del rubro que podría cubrirlo."
+  },
+  {
+    "id": "ALI-5-1",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No apareció ninguna tecnología de pesaje o registro de desperdicio (tipo Winnow o Leanpath) usada en comedores u hoteles argentinos. Solo aparecen estudios: una aproximación al desperdicio en comedores universitarios del Plan Nacional de Reducción de Pérdidas y Desperdicio de Alimentos (2024: https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/PDA/documentos/aproximacion_DA_en_comedores_universitarios_2024.pdf) y un estudio de un comedor institucional de Buenos Aires en Ecología Austral (https://bibliotecadigital.exactas.uba.ar/download/ecologiaaustral/ecologiaaustral_v032_n02_p415.pdf). Winnow y Leanpath no aparecieron en Argentina. No encontré en 1 búsqueda ('medición desperdicio de alimentos cocinas comedores hoteles Argentina balanza tecnología reducir desperdicio', 2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún proveedor local, solo estudios académicos y del Estado (el tope es 4 por haber hecho una sola búsqueda)."
+  },
+  {
+    "id": "ALI-5-2",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "En 2 búsquedas no apareció ninguna herramienta argentina para conciliar las liquidaciones de PedidosYa o Rappi ni para disputar reembolsos del lado del restaurante. Los resultados fueron reclamos de consumidores (Sernac Chile 2024: https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2024/12/30/mas-de-12-mil-reclamos-contra-apps-de-delivery-en-2024-la-mayoria-por-reembolsos-segun-el-sernac.shtml; quejas de usuarios argentinos sobre 'reintegros parciales': https://tuquejasuma.com/pedidos-ya/reclamos/pedidos-ya-reintegros-parciales) y una nota de 2020 sobre comisiones (https://www.diariodecuyo.com.ar/noticias/hay-quejas-de-los-comerciantes-por-las-altas-comisiones-que-les-cobra-pedidos-ya-225169.html). La primera pasada ya había visto que Fudo y Maxirest integran los pedidos pero no mencionan disputas. Voosh y DTiQ no aparecieron en Argentina. Consultas: 'restaurantes reclamos reembolsos PedidosYa Rappi conciliación liquidaciones software Argentina' y 'PedidosYa liquidación comercios descuentos pedidos incompletos reclamo restaurante herramienta gestión delivery Argentina' (2026-10-13).",
+    "hueco_ar": 5,
+    "nota": "Sube de 3 a 5: 2 búsquedas distintas sin ningún competidor local; queda sin verificar si en Argentina las apps le descuentan al local por pedidos incompletos como en EE.UU., y depende de dos plataformas (riesgo)."
+  },
+  {
+    "id": "ALI-5-3",
+    "presencia_ar": "baja",
+    "presencia_ar_detalle": "Intuitivo, startup argentina fundada en 2019, convierte heladeras en puntos de venta autónomos con cámaras e IA (se compra con QR y Mercado Pago). Tiene acuerdos con Grido (5 heladeras en franquicias: https://infonegocios.info/nota-principal/grido-ya-instalo-5-heladeras-inteligentes-con-ayuda-de-intuitivo-y-espera-en-el-corto-plazo-llegar-a-tener-20-en-el-pais), con YPF y con Mahou, y según la prensa con Tesla para alimentar a sus empleados (https://economiasustentable.com/noticias/que-magnate-ultra-reconocido-eligio-a-una-startup-argentina-para-alimentar-a-sus-empleados/; https://www.iproup.com/innovacion/42531-intuitivo-la-startup-argentina-con-ia-que-conquista-el-mundo). Vende la tecnología; no encontré un operador que use estas heladeras para dar comida a empresas medianas en Argentina (tipo Foodles o 365 Retail Markets). Foodles y 365 no aparecieron en Argentina. Consulta: 'heladeras inteligentes micro market autoservicio oficinas empresas Argentina comida empleados' (2026-10-13).",
+    "hueco_ar": 3,
+    "nota": "Sin cambio: la tecnología ya existe localmente (Intuitivo, que podría ser proveedor o competidor), pero no apareció ningún operador de micro-mercados para oficinas."
+  },
+  {
+    "id": "ALI-5-4",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No apareció software de catering hecho en Argentina ni confirmación de que los extranjeros vendan acá. Better Cater tiene ficha en Capterra Argentina (https://www.capterra.com.ar/reviews/121288/better-cater), pero eso no prueba que tenga clientes locales. Anolla está en español (https://anolla.com/es/software-de-catering) y hay una guía de Odoo para catering (https://www.dasolo.ai/es/blog/odoo-por-sector-8/odoo-empresas-catering-presupuestos-274), ninguno con presencia argentina confirmada. Caterease y Total Party Planner no aparecieron en Argentina. No encontré en 1 búsqueda ('software para catering de eventos Argentina presupuestos costeo menú orden de producción', 2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún vertical local de catering de eventos (el tope es 4); opinión: los sistemas gastronómicos locales podrían cubrir el costeo de recetas."
+  },
+  {
+    "id": "ALI-5-5",
+    "presencia_ar": "no encontrada",
+    "presencia_ar_detalle": "No encontré software argentino para emprendimientos de viandas por suscripción (pedidos semanales, consolidar la producción, etiquetas y rutas). Aparecieron casos de negocio, no herramientas: The Healthy Club (Forbes Argentina: https://www.forbesargentina.com/negocios/se-fundio-reinvento-su-modelo-negocio-ahora-llego-argentina-inversion-us-300000-historia-the-healthy-club-n86522) y deliverys saludables de Córdoba (https://infonegocios.info/y-ademas/no-todo-es-lomito-pizza-o-milanesa-crecen-los-deliverys-de-comida-saludable-en-cordoba). Lo demás fue software genérico de restaurantes (https://developargentina.com/blog/software-para-restaurantes-argentina-2026) y de logística de paquetería. Sprwt y GoPrep no aparecieron en Argentina. No encontré en 1 búsqueda ('sistema gestión viandas saludables semanales Argentina pedidos suscripción producción etiquetas reparto software', 2026-10-13).",
+    "hueco_ar": 4,
+    "nota": "Sube de 3 a 4: en 1 búsqueda no apareció ningún vertical para viandas por suscripción (el tope es 4); el sustituto es WhatsApp + planillas + software gastronómico genérico."
+  }
+]

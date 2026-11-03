@@ -1,7 +1,7 @@
 #!/bin/bash
 # Prepara la sesión de Claude: instala lo que usan los programas del proyecto.
 # Anda en la nube y en la compu. Nunca corta la sesión: si algo falla, lo deja escrito
-# ("INSTALACIÓN: ...") para que Claude se lo explique a Camila.
+# ("INSTALACIÓN: ...") para que Claude lo explique.
 set -uo pipefail
 
 cd "${CLAUDE_PROJECT_DIR:-.}"

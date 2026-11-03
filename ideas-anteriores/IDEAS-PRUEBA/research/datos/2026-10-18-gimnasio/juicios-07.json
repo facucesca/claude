@@ -1,0 +1,357 @@
+{
+ "lotes": [
+  {
+   "lote": "lote-07",
+   "juicios": [
+    {
+     "id_tmp": "N180",
+     "estado_registro": "nueva",
+     "parecidas_confirmadas": [
+      {
+       "id": "LOG-4-4",
+       "nombre": "Vencimientos de licencias, psicofísicos, seguros y VTV perseguidos con planillas",
+       "decision": "NO",
+       "relacion": "Coincide solo la línea de flotas chicas con recordatorios de VTV (está en cliente_que_paga y en las palancas): hay que sacarla. El núcleo (conductor + centros RTO + pre-chequeo por foto) no está en el registro."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "mantener",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 4,
+      "potencial": 5
+     },
+     "nota_para_facu": "Lo nuevo es el comparador de turnos de RTO más el pre-chequeo con 3 fotos. Lo flojo: todo el 'por qué ahora' depende del Decreto 196/2025, que el generador citó de memoria y no pudo verificar, y la RTO es provincial (en PBA el turno se saca por planta concesionaria). Que no haya un comparador en Argentina quedó sin verificar (búsqueda limitada el 2026-10-18). Sacá la parte de flotas, que es LOG-4-4 (ya la rechazaste), y antes de gastar un peso leé el decreto."
+    },
+    {
+     "id_tmp": "N181",
+     "estado_registro": "repetida",
+     "parecidas_confirmadas": [
+      {
+       "id": "AGR-4-1",
+       "nombre": "Registros de rodeo y caravanas en cuadernos y planillas",
+       "decision": "NO",
+       "relacion": "Mismo cliente (ganadero) y mismo objeto (caravanas e identificación del rodeo). Antes era un registro; ahora es un servicio a campo con carga en SIGSA. Tu regla dice que plantearlo distinto no lo hace nuevo."
+      },
+      {
+       "id": "AGR-4-4",
+       "nombre": "Pesar hacienda exige encierre y manga; se pesa poco",
+       "decision": "ELEGIDA",
+       "relacion": "Mismo cliente; la lectura en manga para pesar aparece solo como palanca."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "descartar",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 6,
+      "por_que_ahora": 9,
+      "potencial": 5
+     },
+     "nota_para_facu": "La obligación es real y está verificada en SENASA: binomio obligatorio para terneros desde el 2026-01-01 (Res. 530/2025 y 841/2025). Pero el cliente y el objeto son los mismos que AGR-4-1, que dijiste NO. Además necesita gente en el campo, lectores y stock de caravanas (capital de trabajo). Si querés reabrir AGR-4-1 a conciencia, este es el ángulo; si no, queda afuera. Que no haya competidores en Argentina no se verificó."
+    },
+    {
+     "id_tmp": "N182",
+     "estado_registro": "repetida",
+     "parecidas_confirmadas": [
+      {
+       "id": "EDU-4-4",
+       "nombre": "Nadie sabe qué operario está habilitado para qué máquina",
+       "decision": "NO",
+       "relacion": "El mismo problema de fondo: saber qué empleado tiene vigente la habilitación obligatoria. Allá era en la industria; acá, en la gastronomía."
+      },
+      {
+       "id": "EDU-4-1",
+       "nombre": "Capacitar en seguridad a operarios sin computadora y dejar constancia",
+       "decision": "REPETIDA",
+       "relacion": "Capacitación obligatoria por empleado con constancia para la inspección."
+      },
+      {
+       "id": "EDU-4-5",
+       "nombre": "Empresas de transporte capacitan choferes sin registro ni seguimiento",
+       "decision": "NO",
+       "relacion": "El mismo patrón (capacitación obligatoria sin registro), en otro rubro."
+      },
+      {
+       "id": "ALI-2-5",
+       "nombre": "Registros de higiene y temperatura en papel para bromatología",
+       "decision": "ELEGIDA",
+       "relacion": "Mismo cliente y mismo control bromatológico, pero otra obligación. A lo sumo sirve como módulo de esa idea."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "descartar",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 5,
+      "por_que_ahora": 5,
+      "potencial": 5
+     },
+     "nota_para_facu": "El núcleo, un tablero de qué empleado tiene el carnet vigente más el curso, es el problema que ya rechazaste tres veces (EDU-4-4, EDU-4-1, EDU-4-5), ahora en gastronomía. Además, según la noticia oficial del Decreto 697/2026, los carnets pasan a tener validez permanente: se cae la renovación cada 3 años, que era lo recurrente. Si avanzás con ALI-2-5 (elegida), esto puede entrar como módulo. Los competidores en Argentina no se verificaron."
+    },
+    {
+     "id_tmp": "N183",
+     "estado_registro": "repetida",
+     "parecidas_confirmadas": [
+      {
+       "id": "MUN-3-5",
+       "nombre": "Nadie controla si los comercios mantienen al día matafuegos e instalaciones contra incendio después de habilitarse",
+       "decision": "SALIO-parecida-a-NO",
+       "relacion": "El mismo problema de fondo: un equipo de emergencia que se compra y después nadie mantiene ni controla. Allá pagaba el municipio y acá el establecimiento; cambia el aparato (matafuego o DEA)."
+      },
+      {
+       "id": "CON-4-4",
+       "nombre": "Vencimientos legales del edificio controlados de memoria",
+       "decision": "NO",
+       "relacion": "Perseguir vencimientos de elementos de seguridad (parches, baterías, capacitaciones) es el mismo trabajo que ya rechazaste."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "descartar",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 4,
+      "potencial": 5
+     },
+     "nota_para_facu": "Lo de sensor barato, DEA de cualquier marca y RCP adentro está bueno. Pero el problema de fondo ('se compra, se vence y nadie controla') es el de MUN-3-5 y CON-4-4, que ya sacaste. El propio archivo reconoce que la fiscalización es débil y que no verificó la Ley 27.159 ni su reglamentación. Si el abono incluye el equipo, hace falta capital. Que no exista algo así en Argentina quedó sin verificar."
+    },
+    {
+     "id_tmp": "N184",
+     "estado_registro": "repetida",
+     "parecidas_confirmadas": [
+      {
+       "id": "K34",
+       "nombre": "Relevamientos para estudios de Higiene y Seguridad (sin firma)",
+       "decision": "NO",
+       "relacion": "La misma tarea (ir a medir y relevar para HyS). Ahora la paga la PyME en vez del profesional."
+      },
+      {
+       "id": "C26",
+       "nombre": "Back-office con IA para profesionales de Higiene y Seguridad",
+       "decision": "NO",
+       "relacion": "El mismo trabajo: la IA arma el protocolo o informe que hoy el profesional hace a mano."
+      },
+      {
+       "id": "D36",
+       "nombre": "Generador de informes de relevamiento con IA (fotos + checklist → PDF)",
+       "decision": "ELEGIDA",
+       "relacion": "Pariente en la técnica (fotos a PDF), pero esta idea es la versión de HyS que rechazaste, no el generador general."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "descartar",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 5,
+      "por_que_ahora": 4,
+      "potencial": 5
+     },
+     "nota_para_facu": "Es K34 y C26 (servicios para HyS, los dos NO) dados vuelta para que pague la PyME; el propio generador lo marcó como cercano. Ninguna resolución SRT ni la periodicidad anual quedaron verificadas. Además depende de matriculados que pueden saltearse la plataforma después del primer contacto. Que no exista un marketplace así en Argentina no se verificó."
+    },
+    {
+     "id_tmp": "N185",
+     "estado_registro": "nueva",
+     "parecidas_confirmadas": [
+      {
+       "id": "RES-3-5",
+       "nombre": "Las PyMEs no tienen las fichas de seguridad ni los rótulos de los químicos que usan, y no saben cómo clasificar el residuo",
+       "decision": "SALIO-parecida-a-NO",
+       "relacion": "Vecina lejana: la misma PyME que no conoce su situación ambiental, pero otra obligación (fichas y rótulos de químicos, no el seguro ambiental ni el NCA). No la bloquea."
+      },
+      {
+       "id": "SER-3-1",
+       "nombre": "Cotizar el mismo riesgo entrando a cada aseguradora por separado",
+       "decision": "REPETIDA",
+       "relacion": "Solo se parece el cotizador multi-aseguradora, y allá el cliente era el productor de seguros. Que no sea el centro de esta idea."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "mantener",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 4,
+      "potencial": 5
+     },
+     "nota_para_facu": "Lo único verificado es la Ley 25.675, art. 22 (seguro ambiental obligatorio para actividades riesgosas). La fórmula del NCA y cómo está hoy el mercado de seguros ambientales no se verificaron, y no hay un cambio legal 2025-2026 que lo empuje. Hace falta un PAS matriculado aliado para cobrar la comisión, y la venta a industriales es lenta. El 'calendario ambiental' no puede ser el centro: ya rechazaste varios calendarios de vencimientos. La competencia en Argentina no se verificó."
+    },
+    {
+     "id_tmp": "N186",
+     "estado_registro": "parecida",
+     "parecidas_confirmadas": [
+      {
+       "id": "L7 (propia)",
+       "nombre": "App de huella de carbono para personas o empresas",
+       "decision": "ELEGIDA",
+       "relacion": "Pariente: un reporte ambiental que exige el cliente. Acá el dato es otro (deforestación por parcela) y el cliente también (exportador a la UE). Variante nueva."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "mantener",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 4,
+      "brecha_argentina": 6,
+      "por_que_ahora": 8,
+      "potencial": 6
+     },
+     "nota_para_facu": "Las fechas son reales y están verificadas en la Comisión Europea (2026-12-30 para grandes y medianos, 2027-06-30 para micro y pequeños), pero la UE ya postergó y simplificó dos veces. Compite con osapiens (2.500+ clientes, global) y con VISEC en soja y carne. El hueco sería el cuero y la madera de PyMEs, y eso no se verificó. Pide algo de GIS y venderles a importadores europeos, y con inglés básico eso es una traba real."
+    },
+    {
+     "id_tmp": "N187",
+     "estado_registro": "nueva",
+     "parecidas_confirmadas": [],
+     "duplicada_de": "N074",
+     "veredicto": "descartar",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 5
+     },
+     "nota_para_facu": "Es la misma idea que N074 (abrir un local: ruta de habilitación, proveedores y suscripción de vencimientos), que tiene el id más bajo y es igual de completa, así que queda N074. Vale rescatar de acá los datos verificados de la habilitación exprés de CABA (hasta 200 m², gratis, sin profesional, Res. 96/AGC/25) y sumarlos a N074. Ojo: si CABA ya la da gratis y automática, el valor está en los demás municipios."
+    },
+    {
+     "id_tmp": "N188",
+     "estado_registro": "parecida",
+     "parecidas_confirmadas": [
+      {
+       "id": "SER-4-4",
+       "nombre": "Controlar ausentismo y validar certificados médicos de empleados",
+       "decision": "ELEGIDA",
+       "relacion": "Mismo cliente (RRHH de PyME) y mismo terreno médico. Cambia la obligación: exámenes preocupacionales y periódicos en vez de certificados de ausentismo. Variante."
+      },
+      {
+       "id": "LOG-4-4",
+       "nombre": "Vencimientos de licencias, psicofísicos, seguros y VTV perseguidos con planillas",
+       "decision": "NO",
+       "relacion": "Solo se parece la parte de perseguir vencimientos de exámenes por empleado: no hay que venderlo como calendario."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "mantener",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 4,
+      "potencial": 5
+     },
+     "nota_para_facu": "Es una variante de SER-4-4 (elegida). La norma de exámenes (Res. SRT 37/2010) no se verificó, y el propio archivo dice que las ART ya tienen redes de prestadores: antes que nada, confirmá quién paga cada examen. Vas a manejar datos de salud (consentimiento, ley de datos personales). Que no exista un marketplace con precio cerrado en Argentina quedó sin verificar."
+    },
+    {
+     "id_tmp": "N189",
+     "estado_registro": "repetida",
+     "parecidas_confirmadas": [
+      {
+       "id": "C26",
+       "nombre": "Back-office con IA para profesionales de Higiene y Seguridad",
+       "decision": "NO",
+       "relacion": "El mismo trabajo: la IA hace el escritorio del profesional de HyS (redactar y dibujar el plan) y el profesional solo firma. Cambia quién paga."
+      },
+      {
+       "id": "CON-4-4",
+       "nombre": "Vencimientos legales del edificio controlados de memoria",
+       "decision": "NO",
+       "relacion": "Agendar simulacros y renovaciones periódicas es el calendario de obligaciones de seguridad que ya rechazaste (y los consorcios son uno de los canales)."
+      },
+      {
+       "id": "MUN-3-5",
+       "nombre": "Nadie controla si los comercios mantienen al día matafuegos e instalaciones contra incendio después de habilitarse",
+       "decision": "SALIO-parecida-a-NO",
+       "relacion": "Vecina: cumplimiento contra incendio después de habilitar."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "descartar",
+     "score_ajustado": {
+      "innovacion": 6,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 4,
+      "potencial": 4
+     },
+     "nota_para_facu": "Acá la IA hace el trabajo de escritorio del profesional de HyS: es C26 (NO) vendido del otro lado. Los simulacros agendados son el calendario de obligaciones que ya rechazaste (CON-4-4). La Ley 5920 de CABA no se verificó, y si el plan falla hay responsabilidad civil. Que no exista algo así en Argentina no se verificó."
+    },
+    {
+     "id_tmp": "N190",
+     "estado_registro": "repetida",
+     "parecidas_confirmadas": [
+      {
+       "id": "LOG-1-5",
+       "nombre": "Alta y control de documentación de fleteros tercerizados (seguros, habilitaciones)",
+       "decision": "NO",
+       "relacion": "El mismo problema: la empresa que contrata necesita verificar que el tercerizado tenga habilitación y seguro al día. Acá el tercerizado es un operador de drones."
+      },
+      {
+       "id": "SER-3-5",
+       "nombre": "Controlar seguros y ART vigentes de contratistas y fleteros",
+       "decision": "NO",
+       "relacion": "El mismo problema de verificar credenciales y seguros del contratista."
+      },
+      {
+       "id": "AGR-3-3",
+       "nombre": "Controlar a mano documentos y seguros de fleteros tercerizados",
+       "decision": "NO",
+       "relacion": "Lo mismo, con clientes del agro, que también son uno de los compradores de esta idea."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "descartar",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 6,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 3
+     },
+     "nota_para_facu": "El centro es verificar que el contratista tenga registro, certificado y seguro al día: es el problema de LOG-1-5, SER-3-5 y AGR-3-3 (todos NO), ahora con drones. El reglamento de ANAC sí está verificado (Decreto 663/2024, Res. 550/2025), pero el propio archivo dice que el mercado es chico, y la bolsa de operadores se pisa con N058. Que no exista algo así en Argentina no se verificó."
+    },
+    {
+     "id_tmp": "N191",
+     "estado_registro": "parecida",
+     "parecidas_confirmadas": [
+      {
+       "id": "ALI-2-4",
+       "nombre": "Rotulado nutricional y sellos de advertencia calculados a mano",
+       "decision": "ELEGIDA",
+       "relacion": "Mismo cliente (fabricante PyME de alimentos). Cambia la obligación: inscribir el establecimiento y el producto en el registro único, no el rótulo. Variante."
+      },
+      {
+       "id": "ALI-2-5",
+       "nombre": "Registros de higiene y temperatura en papel para bromatología",
+       "decision": "ELEGIDA",
+       "relacion": "Mismo cliente, otra obligación sanitaria."
+      },
+      {
+       "id": "BEL-5-1",
+       "nombre": "El legajo técnico, el rótulo INCI y la inscripción en ANMAT se arman a mano para cada producto",
+       "decision": "PENDIENTE",
+       "relacion": "El mismo patrón (inscripción del producto ante el regulador) en cosmética; está pendiente, así que no bloquea."
+      }
+     ],
+     "duplicada_de": "",
+     "veredicto": "mantener",
+     "score_ajustado": {
+      "innovacion": 5,
+      "factibilidad_facu": 5,
+      "brecha_argentina": 6,
+      "por_que_ahora": 7,
+      "potencial": 5
+     },
+     "nota_para_facu": "Es una variante de ALI-2-4 y ALI-2-5 (elegidas). El Decreto 697/2026 solo se vio por la noticia oficial, sin leer el texto. Y la misma noticia dice que los registros ya otorgados siguen siendo válidos: la ola es de productos y empresas nuevas, no de miles a la vez. Se pisa con N054 (análisis exigidos + red de laboratorios); si te gusta, conviene juntarlas. La competencia en Argentina no se verificó."
+    }
+   ]
+  }
+ ],
+ "faltaron": []
+}

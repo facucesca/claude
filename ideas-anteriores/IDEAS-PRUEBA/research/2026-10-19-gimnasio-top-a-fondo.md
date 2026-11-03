@@ -1,0 +1,3832 @@
+# Top a fondo — las mejores ideas del gimnasio, investigadas para decidir si probarlas
+
+**Fecha:** 2026-10-19. Cada ficha la armó un agente investigador con búsquedas reales (hasta 8 búsquedas y 5 lecturas por idea). Lo que es estimación propia está marcado como tal. El experimento de cada ficha cuesta menos de USD 200 y dura unas dos semanas. Índice general en `research/2026-10-18-gimnasio-de-ideas.md`; la hoja `TOP A FONDO` de `GIMNASIO-DE-IDEAS.xlsx` tiene lo mismo para marcar.
+
+| Puesto | Idea | Veredicto del investigador |
+|---|---|---|
+| 1 | Comprador de salud de contado: el agente que consigue el precio particular que nadie publica | Probarla solo si se cambia el diseño: paga el paciente (fee fijo o por ahorro) y le paga al centro directo, se cotiza en privado en vez de publicar una tabla co |
+| 2 | Fasón con turnos libres: plantas PyME de alimentos que fabrican lotes chicos para marcas emergentes (ficha a fondo) | Probarla solo con dos condiciones. Primero, que Facu confirme que dijo NO a IND-3-5, D24 y C5 por el rubro y no por el modelo de intermediario. Segundo, hacerla |
+| 3 | Apelador de prepagas y obras sociales: arma y sigue con IA la denuncia ante la Superintendencia (Res. 951/2025 y 951/2026) | Probarla solo si el experimento muestra que el afiliado paga. Desde 2025 y 2026 la vía estatal es gratis, no pide reclamo previo y obliga a contestar en 5 días  |
+| 4 | Inspección de maquinaria agrícola usada a pedido del comprador: mecánico local + informe estandarizado por IA | Vale probarla solo si Facu consigue 2-3 mecánicos de confianza en una zona con muchos avisos y acepta que el experimento mide plata, no entusiasmo. El hueco es  |
+| 5 | Pasaporte europeo en el limbo: diagnóstico de todas las rutas (Italia después del fallo 63/2026 y la consulta al TJUE; España después del cierre de la ley de nietos) y carpeta armada a precio fijo | Probarla solo si se acepta como un negocio de temporada (2026-2028) y se le cobra todo al solicitante. El fallo 63/2026 achicó la puerta italiana; la consulta a |
+| 6 | Reparalo o cambialo: veredicto por foto antes de llamar al técnico, con una seña que se descuenta del arreglo | Probarla solo si se cumplen dos cosas. Primero, que Facu confirme que descartó AUT-5-2 (NO) por el rubro autos y no por el problema '¿me cobran de más?'. Segund |
+| 7 | Solar en grupo por barrio: lote licitado entre instaladores + usuario-generador comunitario | Probarla solo si en la primera semana Facu consigue dos cosas: un barrio o pueblo con canal propio (grupo de vecinos, cooperativa o la red de CEMEVA) y al menos |
+| 8 | Junta digital por WhatsApp (pasanaku, tanda, pandero): un administrador que no toca la plata, con reglamento, sorteo y registro de cumplimiento | Probarla solo si el experimento de señas sale bien. La coordinación ya existe gratis (Tandapp, apps de pasanaku, tutanda), el fee por participante exige unos 1. |
+| 9 | Antes de que te mida ARBA: diagnóstico de metros sin declarar + matriculados a precio cerrado (ficha a fondo) | Probarla solo si se apunta al momento con plazo (la notificación de ARBA o la venta) y no al miedo preventivo, y si aparecen matriculados que coticen sin visita |
+| 11 | Reclamá sin hacer cola: asistente de reclamos de consumo con IA y cobro solo si cobrás | Probarla solo si la consulta legal del día 0 aprueba el formato 'vos presentás, nosotros redactamos y seguimos, cobramos solo si cobrás', y por un solo rubro co |
+| 12 | Broker hipotecario digital: en qué banco te aprueban, con tus papeles reales (sin la cuenta regresiva) | Probarla solo si se achica a un informe que paga el comprador (en qué banco calificás, por cuánto y qué te falta, con tus papeles reales). Las comisiones de ase |
+| 13 | Jubilarse bien: diagnóstico con IA de la historia laboral de Mi ANSES, 5 años antes de la edad (ficha a fondo) | Probarla solo con dos condiciones. Primera: que pague la persona, su hijo o un contador, nunca el abogado por caso, porque en CABA está prohibido (Ley 23.187, a |
+| 16 | Sponsoreo hiperlocal con prueba por foto: paquetes de clubes de barrio para marcas (y Patrocinio Deportivo en CABA) | Probarla solo si Facu puede recorrer 20 clubes de su ciudad en una semana y acepta que la única señal válida es una seña pagada. La tecnología no es el problema |
+| 17 | Cuadra: puntaje de cualquier dirección antes de mudarte | Probarla solo como prueba de cobro, no como proyecto. El dato es real, gratis y con licencia CC-BY, y en Argentina nadie lo vende. Pero nadie cobra por esto acá |
+| 18 | Casero digital para la casa de fin de semana | Probarla solo si Facu tiene acceso real a una zona (una casa de la familia o de amigos más un prestador local que ya tenga llaves) y puede sacar otro experiment |
+| 25 | Arreglos de calzado, ropa y cuero con presupuesto por foto y retiro agrupado (importación de SOJO / The Seam) | Probarla, pero solo así: arrancando por calzado y abrigos (las zapatillas son el 80% de los arreglos del zapatero de Neuquén), con seña del 50%, con ronda agrup |
+| 27 | Niñera compartida en blanco: dos familias, una niñera y los papeles partidos (ficha a fondo) | Probarla solo si pasa dos filtros baratos. Uno: en los días 1 y 2, un abogado laboralista confirma una forma de registrar a la misma niñera con dos familias sin |
+| 29 | Propietario tranquilo: mesa de mantenimiento del alquiler por abono, con árbitro IA | Probarla solo si es como pre-venta con seña en 14 días y buscando un canal desde el día uno (Mob, garantías, inmobiliarias). El piloto gratis de 60 días que pro |
+
+
+## 1. Comprador de salud de contado: el agente que consigue el precio particular que nadie publica
+
+Qué es: una web + WhatsApp donde el paciente que paga de su bolsillo dice qué estudio o cirugía programada le indicaron. Un agente (Claude) le pide precio de contado a 10-15 centros, ordena qué incluye cada uno y le devuelve una comparativa con turno.
+Para quién: los 16,3 millones de personas que dependen solo del sistema público (35,8 %, Censo 2022) y quienes tienen cobertura pero pagan particular para no esperar. Se arranca con 1 práctica (resonancia) en 1 ciudad.
+Quién paga: conviene arrancar con un fee fijo (o por ahorro) que paga el paciente, y que el paciente le pague al centro directo. La comisión del centro estilo MDsave choca con lo que cuesta cobrar todo por Mercado Pago (≈7,6 % con IVA, según guías no oficiales) y roza la prohibición de 'participar honorarios' de la Ley 17.132.
+Vuelta de tuerca: en EE.UU., MDsave publica precios cerrados que negocia con cada prestador. Acá nadie los publica (y en CABA la ley limita anunciarlos), así que el agente los consigue a pedido, en privado, y arma una base de precios que crece con cada ronda. Esa base es el activo.
+Por qué ahora: la IA hace por centavos (≈USD 0,01-0,5 por ronda, estimación) el trabajo de escribirles a 15 centros y leer las respuestas. Además, la suba de las prepagas empujó a más gente al pago particular o al hospital público (dato cualitativo, sin cifra verificada).
+
+**Veredicto:** Probarla solo si se cambia el diseño: paga el paciente (fee fijo o por ahorro) y le paga al centro directo, se cotiza en privado en vez de publicar una tabla con nombres, y se guardan datos mínimos (sin órdenes médicas). Así, 14 días y USD 150 alcanzan para medir lo esencial: si los centros dan precio cerrado por escrito y si la gente paga por la comparativa. Opinión: como negocio de etapa 1 es chico y tiene fricción legal; vale por lo que enseña sobre marketplaces de dos lados y por la base de precios como activo, y Brasil muestra que la idea sola no alcanza.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA: no encontré a nadie. Búsqueda del 2026-10-19: 'startup argentina plataforma precios particulares estudios médicos turnos sin obra social comparar clínicas'. Solo aparecieron comparadores de prepagas:
+- ElegíMejor: fundada en 2017, gratis para el usuario, cobra comisión a la prepaga cuando se concreta la afiliación. Ámbito la presentó en 2017 como 'el primer comparador de prepagas' e Infonegocios contó que lanzó un servicio para empresas.
+- miobrasocial.com.ar.
+El verificador anterior hizo 3 búsquedas más y tampoco encontró un MDsave argentino. No hay notas de cierres ni pivotes porque no aparece nadie que lo haya intentado con prensa, lo que no prueba que nadie lo intentó.
+
+BRASIL: ahí sí lo intentaron, y es la lección más útil. Búsqueda en portugués: 'marketplace exames cirurgias preço fechado particular pagamento antecipado ... encerrou/pivotou'.
+- Vidia: según su perfil en Dealroom, es un marketplace digital para comprar cirugías, pensado para gente sin plan de salud, que conecta pacientes con hospitales privados con capacidad ociosa. Es esta idea casi textual. Estado actual NO VERIFICADO: Dealroom devolvió error 403 al abrirla, así que el dato sale del resumen del buscador.
+- Melvi: Dealroom la describe en pasado como un marketplace brasileño para reservar en el día consultas, terapias y estudios con descuentos negociados, cobrando por uso. El tiempo verbal sugiere que dejó de operar; cuándo y por qué, NO VERIFICADO (también 403).
+- Saúde iD (Grupo Fleury, grupo brasileño grande de diagnóstico): según el resumen del buscador, una nota de Outras Palavras de 2021 ('O iFood da saúde') la describe como un marketplace con precios fijos de cirugías, pago anticipado y paquetes 'all inclusive', y plantea dudas por el endeudamiento de los pacientes (no abrí la nota). Una nota patrocinada por la propia empresa en NeoFeed (2021-10-26) dice que ofrecía turnos, teleconsultas, compra de cirugías 'all inclusive' y descuentos en farmacias y estudios. Las cifras que da son de la empresa: 40 mil atenciones por mes en promedio (pico de 70 mil), 3,6 millones de pacientes con acceso y 450 médicos. No encontré nada posterior a 2021: si sigue, cambió o cerró, NO VERIFICADO.
+- Nombres que aparecieron solo como títulos: TI Inside (2021-06-30), sobre marketplaces como nueva vía de acceso a la salud; Mundo dos Exames (perfil en Gust); Saúde Pra Já (MIT Solve).
+- Otra solución para el mismo dolor del prestador: según el título de una nota de Startups.com.br, la gestora Ouro Preto armó un fondo de R$ 250 millones para adelantarles cobros a prestadores de salud. Es decir, 'la clínica cobra tarde' también se resuelve con financiamiento, sin darle un descuento a un marketplace.
+
+LECTURA (opinión): en Brasil, hacia 2020-2021, el modelo atrajo a startups y a un grupo grande ya instalado. No encontré señales de que alguno haya crecido después, y uno figura en pasado. Es una luz amarilla, no una prueba. Antes de dedicarle más de 2 semanas, conviene una hora en LinkedIn para ver si Vidia y Melvi siguen y escribirle a un fundador: el que ya lo intentó sabe cuánto le costó cada paciente y por qué paró.
+
+EE.UU.: MDsave y Sesame siguen activos según sus webs (ver ficha), no lo repito.
+
+### Competencia en Argentina
+
+QUIÉN EXISTE HOY (búsquedas del 2026-10-19 más lo que encontró el verificador):
+
+1) El statu quo: el paciente escribe o llama centro por centro. Es gratis, lento y no permite comparar qué incluye cada precio. Es el competidor real.
+
+2) El hospital público: gratis y, en algunos distritos, con turnos online (iProfesional, hospitales bonaerenses: https://www.iprofesional.com/economia/403751-te-quedaste-sin-prepaga-como-sacar-turnos-online-en-hospitales-bonaerenses). Hueco: la demora, que no verifiqué. Para el 35,8 % sin cobertura el servicio compite contra 'gratis con espera': se vende tiempo, no acceso.
+
+3) cuantomecuesta.com/ar: guía gratuita de rangos de precios sin cobertura (mayo 2026). Consulta con clínico ARS 25.000-90.000 y chequeo anual ARS 100.000-400.000 (https://cuantomecuesta.com/ar/medico-clinico/). También publica rangos de prepagas 2026: desde ARS 98.057 por mes (Hominis, Premedic) hasta más de ARS 1.044.750 por mes (planes premium de OSDE o Swiss Medical) (https://cuantomecuesta.com/ar/prepaga-salud/). Lo que hace bien: aparece en Google cuando alguien busca 'cuánto cuesta'. Hueco: da rangos, no un precio cerrado por centro, y no reserva ni cobra.
+
+4) ElegíMejor y miobrasocial.com.ar: comparan y cotizan prepagas. ElegíMejor es gratis para el usuario, cobra comisión a la prepaga por afiliación (monto no público) y lanzó un servicio para empresas (https://infonegocios.info/y-ademas/elegimejor-com-ar-la-startup-que-compara-prepagas-y-lanza-un-servicio-para-empresas). Lo que hacen bien: demuestran que en Argentina funciona que pague el prestador, al menos para planes de salud. Hueco: no venden prácticas sueltas. Riesgo: son los mejor ubicados para sumar precios particulares si ese mercado aparece.
+
+5) Tarjetas de descuento con red de prestadores:
+- Integrar Plus, del Consejo Profesional de Ciencias Económicas de CABA: solo para matriculados y familias; costaba ARS 300 por mes en 2019, precio actual no verificado (https://consejo.org.ar/noticias/2019/tarjeta-integrar-plus-conseguila).
+- FavaSalud (Favacard): descuentos en farmacias más odontología, emergencias y consultas a domicilio, según un directorio de empresas.
+Lo que hacen bien: precio preferencial con una red ya armada. Hueco: no comparan ni cierran precio por práctica. Además cobran cuota mensual, que es justo lo que conviene evitar por la Ley 26.682 (ver regulación).
+
+6) Federaciones y colegios médicos que publican el valor de la consulta particular. La Federación Médica y el Círculo Médico de Mendoza informan una consulta general sin cobertura de ARS 50.000, y ARS 24.000 para quien tiene obra social o prepaga (no queda claro si es copago o plus). Fuente: Sitio Andino; el buscador muestra fecha 2026-08-04 pero el enlace dice 'a partir del 1 de enero', así que la vigencia exacta no está clara. Es transparencia parcial y solo para consultas.
+
+7) Doctoralia Argentina: NO VERIFICADO (el verificador no pudo abrirla).
+
+HUECO: nadie junta precios de contado de la MISMA práctica en varios centros, aclara qué incluye cada uno y cierra el turno. Quién podría taparlo rápido (opinión): una red grande de diagnóstico que publique online su propio precio particular, como hizo Fleury en Brasil, o un comparador de prepagas que se expanda.
+
+### Regulación
+
+Es mi lectura, no asesoramiento legal. El 2026-10-19 leí en InfoLEG las leyes 17.132 y 25.326: la herramienta me devolvió resúmenes por artículo con citas cortas, no el texto completo. La 26.682 la vi solo a través del buscador.
+
+1) LEY 17.132, ejercicio de la medicina (InfoLEG, texto actualizado: http://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/19429/texact.htm). Según su art. 1, rige en la Capital Federal (hoy CABA) y en los territorios nacionales. Cada provincia tiene su propia ley y su colegio médico; no las leí.
+- Art. 10, anuncios: todo lo que exceda nombre, profesión, título, especialidad y contacto requiere autorización previa. Prohíbe anunciar precios de consulta, 'ventajas económicas' o servicios gratuitos (salvo entidades de bien público), y también sanciona a los medios que difundan anuncios no autorizados.
+  Consecuencia: la estrategia SEO de la ficha original ('publicar la tabla de precios por centro') es riesgosa en CABA. Una tabla pública con nombre del centro, precio y descuento puede leerse como anuncio prohibido, y la web como medio sancionable. Zona gris: la norma habla de 'precios de consulta' y de anuncios de profesionales; no está claro si alcanza a los estudios de un establecimiento.
+  Diseño seguro: cotizar en privado, a pedido de cada paciente, y publicar solo rangos agregados sin nombres (como hace cuantomecuesta).
+- Art. 20, prohibiciones a los médicos. Entre sus incisos: 'participar honorarios'; obtener beneficios de establecimientos que vendan elementos de diagnóstico o tratamiento; e inducir a los pacientes a comprar en farmacias, ópticas u ortopedias determinadas. En la lectura no apareció ninguna norma que prohíba explícitamente que un tercero cobre comisión por derivar pacientes.
+  Consecuencia: una comisión porcentual sobre los honorarios de un médico se parece a 'participar honorarios'. Un fee fijo por servicio cobrado a un establecimiento (persona jurídica) es más defendible, pero no lo vi resuelto en la norma.
+  Regla dura: nunca pagarle nada al médico que indica el estudio.
+- Sanciones (arts. 125 a 129): apercibimiento, multa, inhabilitación y clausura.
+
+2) LEY 25.326, protección de datos personales (InfoLEG: http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm).
+- Art. 2: los datos de salud son datos sensibles.
+- Art. 5: hace falta consentimiento libre, expreso e informado, por escrito o por un medio equivalente.
+- Art. 7: nadie está obligado a dar datos sensibles. Solo pueden recolectarse por razones de interés general autorizadas por ley, o con fines estadísticos o científicos sin identificar al titular. Además prohíbe formar archivos que revelen datos sensibles de forma directa o indirecta (con excepciones para iglesias, partidos y sindicatos).
+- Art. 8: los establecimientos sanitarios y los profesionales de la salud sí pueden tratar los datos de salud de sus pacientes, respetando el secreto profesional.
+- Art. 9: exige medidas de seguridad.
+- Art. 21: deben inscribirse las bases privadas destinadas a dar informes.
+Consecuencia: leída al pie de la letra, una plataforma que no es establecimiento sanitario y guarda órdenes médicas (o un registro tipo 'Juan Pérez, resonancia de rodilla') queda en zona incómoda.
+Diseño mínimo: no pedir la orden (solo la práctica y la ciudad); no guardar DNI ni diagnóstico; base de precios anónima (práctica, centro y precio, sin paciente); borrar los contactos al cerrar cada caso; consentimiento expreso. Antes de escalar, consultar a un abogado de datos personales.
+
+3) LEY 26.682 de medicina prepaga y su Decreto 1993/2011 (https://www.argentina.gob.ar/normativa/nacional/norma-190606/texto; lo leí a través del buscador, no abrí la página). Define como empresa de medicina prepaga a quien brinda prestaciones de salud mediante asociación voluntaria y sistemas de pago de adhesión. Sin autorización de la Superintendencia de Servicios de Salud (SSS), nadie puede brindar prestaciones bajo esa modalidad.
+Consecuencia: vender una práctica suelta con voucher (pago por uso) no parece prepaga. En cambio, una cuota mensual que dé acceso a precios o prestaciones (membresía, 'cuenta corriente de salud' para empleados) se acerca a la definición: hay que evitarla. No encontré ninguna resolución de la SSS sobre tarjetas de descuento (búsqueda del 2026-10-19).
+
+4) Pendiente, no leído hoy: la Ley 24.240 de defensa del consumidor y la regla del botón de arrepentimiento para ventas online (aplicarían al fee o al voucher), y las políticas de Google y Meta para anuncios de salud.
+
+### Números de unidad
+
+TICKET (precio de la práctica): NO VERIFICADO para 2026. No encontré un precio particular confiable de resonancia para 2026 (búsqueda del 2026-10-19; la nota de iProfesional que aparece es de 2022 y no da montos). Anclas verificadas:
+- Consulta general sin cobertura en Mendoza: ARS 50.000 (Federación Médica y Círculo Médico, vía Sitio Andino; vigencia exacta no clara).
+- Consulta con clínico: ARS 25.000-90.000; chequeo anual: ARS 100.000-400.000 (cuantomecuesta, mayo 2026).
+- En EE.UU., resonancia sin contraste: ≈USD 900 de promedio nacional estimado (MDsave).
+El experimento da el ticket real.
+
+TARIFAS USADAS:
+- Mercado Pago (link de pago o checkout): 6,29 % + IVA con acreditación inmediata (≈7,61 % con el IVA del 21 %) y 1,49 % + IVA a 35 días (≈1,80 %). Fuente: un blog de facturación (yo-facturo) y una guía de Shopify, ambos de 2026. NO lo confirmé en la página oficial, y otra guía da 3,29 % + IVA para QR o link. Verificarlo en el panel de Mercado Pago (Tu negocio > Costos) antes de fijar precios.
+- Claude (tabla oficial de precios, versión cacheada al 2026-10-06), en USD por millón de tokens de entrada / salida: Haiku 5.5, 0,10 / 0,50; Sonnet 5.5, 2 / 10; Opus 5.5, 4 / 20.
+- WhatsApp: en la prueba alcanza con la app WhatsApp Business (gratis) y el mail. NO verifiqué la tarifa de la API de WhatsApp Business para Argentina. De memoria, en la API los mensajes que inicia la empresa (por ejemplo, pedirle precio a un centro) usan plantillas pagas: buscar la tabla de Meta antes de automatizar.
+- No incluí impuestos (monotributo, ingresos brutos).
+
+COSTO DE IA POR RONDA (estimación): interpretar la práctica, redactar 15 pedidos, leer 15 respuestas y armar la comparativa suma ≈21.000 tokens de entrada y 5.600 de salida.
+- Sonnet 5.5: ≈USD 0,10.
+- Haiku 5.5: ≈USD 0,005.
+- Opus 5.5: ≈USD 0,20.
+Con reintentos y contexto reenviado (de 3 a 5 veces más), el techo es ≈USD 0,5. La IA no es el costo: el costo es el tiempo humano y conseguir cada paciente.
+
+TRES FORMAS DE COBRAR (estimaciones; T = precio de la práctica):
+A) Estilo MDsave: la plataforma cobra el total y le paga al centro, quedándose con una comisión c de 5-10 % (lo que proponía la ficha). Margen = c − 7,61 % con acreditación inmediata, o sea entre −2,6 % y +2,4 % de T antes de IA y tiempo: NO CIERRA. Con acreditación a 35 días el margen sube a 3,2 %-8,2 % de T, pero hay dos problemas: o Facu le adelanta la plata al centro (capital de trabajo que con USD 1.300 no escala), o el centro espera 35 días y se cae el argumento del 'flujo inmediato'. Solo cerraría cobrando por transferencia bancaria (costo no verificado) o pasándole el recargo al paciente.
+B) Fee fijo que paga el paciente (recomendado para probar), y el paciente le paga al centro directo. Con un fee de USD 8 (supuesto dentro de los USD 5-10 de la ficha): 8 − 0,61 de Mercado Pago − hasta 0,5 de IA ≈ USD 6,9 por operación.
+- Haciendo todo a mano (≈60 minutos de Facu por ronda, estimación), eso da ≈USD 7 por hora: no paga.
+- Si se reutiliza la base (un precio vigente para la misma práctica y ciudad, ≈10 minutos por pedido), sube a ≈USD 40 por hora.
+Conclusión: el negocio está en la base de precios reutilizable, no en cada ronda.
+C) Fee fijo que paga el centro por cada paciente atendido (por ejemplo USD 10, supuesto), facturado a fin de mes por transferencia: ≈USD 9,5 por operación. Depende de que los centros firmen y de la zona gris de 'participar honorarios'.
+
+CORRECCIÓN A LA TESIS DE LA FICHA (opinión razonada): la ficha dice que el pago anticipado le da flujo de caja a la clínica y que eso paga el descuento. Pero esa comparación es contra las obras sociales, que pagan tarde. El paciente de la plataforma es particular y hoy ya paga en el momento: adelantarle unos días al centro vale poco. Si hay descuento, lo paga el volumen extra (capacidad ociosa), no la financiación. Hay que preguntarlo en las entrevistas. Además, saqué la financiación en cuotas porque es vecina de SAL-2-1, que Facu rechazó.
+
+EQUILIBRIO ILUSTRATIVO (estimación): ganar USD 1.000 netos por mes con el modelo B exige ≈145 operaciones por mes (≈5 por día). Como cada paciente compra poco y una sola vez, conseguirlo tiene que costar menos de ≈USD 7. Con anuncios pagos es difícil (costo por clic no verificado), así que hace falta un canal orgánico: Google con rangos agregados, boca en boca, o secretarias de consultorios que lo recomienden, sin pagarles por derivar.
+
+### Tamaño del mercado
+
+VERIFICADO, CON UNA SALVEDAD: el dato sale del resumen del buscador sobre notas que informan los resultados definitivos del Censo 2022 del INDEC (publicación 'Salud y Previsión Social'; notas de El Heraldo, TodoJujuy, El Sol y otras, que no abrí). Según ese resumen:
+- 60,9 % de la población tiene obra social o prepaga (incluye PAMI).
+- 3,3 % tiene programas o planes estatales.
+- 35,8 % depende solo del sistema público: 16.317.432 personas sin obra social, prepaga ni plan estatal.
+Otra fuente que cita al INDEC da casi 40 %, probablemente porque suma los planes estatales. Hay que confirmarlo en la tabla del INDEC antes de usarlo en público.
+
+POR JURISDICCIÓN:
+- CABA: 18,5 % sin obra social, prepaga ni plan estatal (Dirección General de Estadística y Censos de CABA, informe 1880 de 2024, según el resumen del buscador).
+- Mendoza: 37,9 % depende solo del sistema público (título de una nota de Unidiversidad).
+
+SEGUNDO SEGMENTO (gente con cobertura que igual paga particular por la demora, por un copago o porque bajó de plan): SIN DATO cuantificado. Hay notas cualitativas, como la de La Capital de Mar del Plata: 'por el alza de prepagas y el empleo en negro, cada vez son más las personas que recurren al hospital público'. El informe de salud EISS 2024 del IIESS-CONICET (marzo 2026) podría tener números, pero no lo leí.
+
+NO ENCONTRÉ: cuántas prácticas particulares se hacen por año, cuántos centros de imágenes hay por ciudad, ni el precio de una resonancia en 2026.
+
+PRIMERA CIUDAD: la de Facu, para poder ir en persona.
+- Si es CABA: menos gente sin cobertura (18,5 %), pero más ingreso y más densidad. Ahí rige la Ley 17.132 (art. 10).
+- Si es Mendoza: 37,9 % depende solo del sistema público y la federación publica el precio de la consulta particular (ARS 50.000), lo que indica que el pago particular es habitual.
+- Para Rosario u otra ciudad no verifiqué el dato. Contar los centros en Google Maps es el paso 1 del experimento.
+
+ESTIMACIÓN MUY GRUESA (cálculo de orden de magnitud, con supuestos sin dato): si el 5 % de esos 16,3 millones paga de su bolsillo al menos una práctica programada por año, son ≈815.000 operaciones por año. Con un fee de USD 8 serían ≈USD 6,5 millones por año si todos usaran el servicio; con el 1 % del mercado, ≈USD 65.000 por año. Ese 5 % podría ser 1 % o 15 %: el número solo sirve para ver el orden de magnitud.
+Opinión: cobrándole el fee al paciente es un negocio chico, de etapa 1. Para crecer en serio necesita cirugías (ticket y fee más altos), el segmento con cobertura y copago, o clientes empresa.
+
+### A quién entrevistar
+
+1) Pacientes que pagaron de su bolsillo una práctica programada en los últimos 12 meses (resonancia, tomografía, ecografía, cirugía menor), sin cobertura o con copago alto.
+Dónde: tu círculo (familia, facultad, conocidos de conocidos), grupos de Facebook barriales y de compra-venta de tu ciudad, grupos de monotributistas, y la salida de 2 o 3 centros de diagnóstico (con respeto y sin insistir). Se puede hacer por llamada o audio de WhatsApp, sin mostrar la cara. Meta: 10.
+
+2) Quien atiende el WhatsApp o el teléfono cuando alguien pregunta '¿cuánto sale particular?' en centros de imágenes y clínicas chicas (recepción o administración).
+Dónde: en persona, en un horario tranquilo, en 5 centros de la lista de Google Maps. Meta: 5.
+
+3) Dueños o gerentes de centros de diagnóstico y clínicas medianas, que son quienes deciden precios, descuentos y acuerdos.
+Dónde: LinkedIn, y las cámaras del sector y la Sociedad Argentina de Radiología. Las cámaras que recuerdo son ADECRA+CEDIM, CONFECLISA y CADIME; los nombres son de memoria, verificarlos antes de contactar. Meta: 3.
+
+4) Secretarias de cirujanos y traumatólogos que arman presupuestos particulares (honorarios + quirófano + anestesia + materiales + internación).
+Dónde: el WhatsApp de consultorios de traumatología y cirugía general de tu ciudad. Meta: 3.
+
+5) Quienes ya lo intentaron: fundadores de Vidia o Melvi (Brasil) y de ElegíMejor (Argentina).
+Dónde: LinkedIn, con un mensaje corto en portugués o inglés que Claude te ayuda a escribir. Meta: 1 o 2. Es la entrevista que más tiempo y plata te ahorra.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. (Paciente) Contame la última vez que tuviste que pagar de tu bolsillo un estudio o una práctica programada: ¿qué era, cuándo fue y quién te la indicó?
+2. (Paciente) ¿Cómo averiguaste cuánto salía? ¿A cuántos lugares llamaste o escribiste, y cuánto tiempo pasó desde que empezaste a preguntar hasta que tuviste el turno?
+3. (Paciente) ¿Cuánto pagaste al final y qué incluía? ¿Te cobraron algo aparte que no esperabas (contraste, informe, anestesia, materiales)?
+4. (Paciente) ¿Por qué no lo hiciste por el hospital público o por tu cobertura? ¿Qué demora te daban ahí?
+5. (Paciente) ¿Cómo pagaste (efectivo, transferencia, tarjeta, cuotas)? ¿Te ofrecieron descuento por pagar de contado o por adelantado?
+6. (Paciente) ¿Después te enteraste de que en otro lado salía distinto? ¿Cuánto más o cuánto menos?
+7. (Paciente) ¿Te ayudó alguien a buscar (un familiar, la secretaria del médico, un conocido)? ¿Le pagaste o le devolviste el favor de alguna forma?
+8. (Paciente) ¿Tenés alguna práctica pendiente ahora? ¿Qué hiciste hasta hoy para resolverla?
+9. (Centro) La semana pasada, ¿cuántas consultas de precio particular recibieron, cuántas terminaron en turno y quién las respondió? ¿Cuántos turnos de resonancia quedaron libres?
+10. (Centro) ¿Trabajan hoy con alguien que les acerque pacientes particulares (gestores, empresas, mutuales)? ¿Cómo le pagan? ¿Y cuántos días tardan en cobrarles a las obras sociales y prepagas?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** En la ciudad de Facu pasan dos cosas: (a) al menos la mitad de los centros de imágenes le da a un intermediario, por escrito, un precio de contado cerrado para la misma práctica, con una diferencia de 40 % o más entre el más barato y el más caro; y (b) hay pacientes que pagan un fee de gestión para recibir esa comparativa y sacan turno con el precio conseguido.
+- **Predicción (antes de empezar):** Escrita antes de arrancar (son estimaciones, sin datos previos). Centros: de 15 contactados, 9 responden en 72 h y 7 dan precio cerrado por escrito con lo que incluye; en la misma práctica, el más caro cuesta 1,5 veces o más que el más barato; 2 centros aceptan por escrito el acuerdo (fee fijo o descuento por paciente atendido). Pacientes: con USD 80 de anuncios y 10 publicaciones en grupos llegan 250 visitas, 15 pedidos de cotización (6 %), 5 fees pagados (1 de cada 3 pedidos) y 2 turnos confirmados con el precio conseguido.
+- **Pérdida máxima:** USD 150: anuncios USD 80 (con tope automático en Google Ads o Meta); imprevistos, saldo de celular y comisiones de Mercado Pago sobre fees devueltos USD 40; una herramienta paga, si hiciera falta, USD 30. La landing va gratis en Google Sites o Carrd, el formulario en Tally (gratis), WhatsApp Business es gratis y Claude ya lo tenés. Los fees devueltos no cuentan como pérdida: es plata de los pacientes.
+- **Duración:** 14 días corridos (2 semanas) desde el día 1, más 1 día para el post-mortem.
+- **Pasos:**
+  1. Día 0: escribir la predicción con fecha en una planilla, antes de mandar el primer mensaje. Elegir 1 ciudad (la tuya) y 2 prácticas fáciles de comparar: resonancia de rodilla sin contraste y ecografía abdominal. Listar 15 centros con Google Maps; contarlos ya da el primer dato del tamaño del mercado.
+  2. Días 1 a 3, lado de los centros: escribirles a los 15 por WhatsApp o mail presentándote como lo que sos ('estoy armando un servicio que les acerca pacientes particulares con turno'), nunca haciéndote pasar por paciente. Pedir el precio de contado, qué incluye (informe, imágenes, contraste, sedación), hasta cuándo vale, la demora del turno y los medios de pago. Claude redacta los mensajes y pasa las respuestas a una planilla con el mismo formato para todos.
+  3. Días 2 a 4: armar la landing, sin cara ('Te conseguimos el precio particular de tu estudio en 48 h'). El formulario de Tally pide SOLO la práctica, la ciudad y un contacto (nunca la orden ni el DNI) y un consentimiento expreso para usar esos datos. Se muestran rangos de precios sin nombres de centros, por el art. 10 de la Ley 17.132.
+  4. Días 3 a 12, lado de los pacientes: Google Ads por USD 80 con tope, a búsquedas como 'resonancia particular [ciudad]' o 'cuánto sale una resonancia sin obra social'. Si Google rechaza el anuncio por su política de salud, pasar el presupuesto a Meta con un anuncio de texto e imagen. Además, 10 publicaciones de texto en grupos de Facebook de la ciudad.
+  5. Compromiso del paciente: para recibir la comparativa paga un fee de gestión de ≈USD 5 en pesos por link de Mercado Pago. Se le devuelve si en 48 h no le conseguís al menos 3 precios cerrados. Medir los pedidos, los fees pagados, los turnos confirmados y, cuando se haga la práctica, si el centro respetó el precio.
+  6. Días 5 a 12, compromiso de los centros: mandarles a los que respondieron un acuerdo de 1 página (precio garantizado por 15 días para los pacientes del servicio, más un fee fijo por paciente atendido o un descuento por pago en el acto). Medir cuántos lo firman o lo aceptan por mail, y cuántos dueños te dan 15 minutos de llamada.
+  7. En paralelo: 10 entrevistas a pacientes y 5 a centros con el guion, y 1 mensaje por LinkedIn a fundadores de Vidia o Melvi.
+  8. Día 14: comparar los resultados con la predicción y decidir con los criterios. Borrar los datos de contacto de los pacientes y escribir el post-mortem: qué se aprendió, aunque haya fallado.
+- **Sigue si:** Sigue, con una segunda ronda en otra práctica u otra ciudad y probando el precio del fee, si se cumplen las dos condiciones. 1) Centros: 6 o más dan precio cerrado por escrito, y en la misma práctica el más caro cuesta 40 % o más que el más barato. 2) Pacientes: 4 o más fees pagados y 2 o más turnos confirmados con el precio conseguido. El acuerdo con los centros define quién paga: si al menos 1 lo firma, se prueba el modelo C (paga el centro); si ninguno lo firma, queda el modelo B (paga el paciente).
+- **Se corta si:** Corta si pasa cualquiera de estas cosas: 1) menos de 5 de los 15 centros dan precio por escrito en 72 h (no hay materia prima); 2) la diferencia entre el más barato y el más caro es menor a 20 % (no hay valor que capturar); 3) con 200 visitas o más hay menos de 2 fees pagados (la gente no paga por esto); 4) un colegio, un centro o un abogado advierte formalmente sobre la publicidad de precios o los datos de salud, y no se resuelve cotizando en privado. Si el resultado queda en el medio (por ejemplo, los centros responden pero los pacientes no pagan): una sola semana extra cambiando una sola variable (la práctica, o la variante de hijos en el exterior) y después se decide, sin estirarlo más.
+
+### Cinco formas de retorcerla
+
+- OTRO CLIENTE: hijos en el exterior que pagan la salud de sus padres en Argentina. El hijo que vive en España o EE.UU. paga en euros o dólares un voucher de precio cerrado y el padre solo va al turno; el agente hace la ronda de precios y coordina. Suma el cobro desde el exterior de la idea A1 (pagos seguros con el exterior, elegida por Facu), así que es una variante parecida a A1. No verifiqué cuántos argentinos viven afuera ni si alguien ya lo ofrece.
+- OTRO COBRO: fee por ahorro. El paciente sube el presupuesto que ya tiene y paga solo si el agente le consigue la misma práctica más barata (por ejemplo, 20 % de la diferencia, con tope). Alinea incentivos, no necesita comisión del centro (esquiva el 'participar honorarios') y el paciente le paga al centro directo (esquiva el ≈7,6 % de Mercado Pago sobre el total).
+- OTRO PAÍS: México o Perú, donde el pago de bolsillo en salud pesaría más que en Argentina. NO lo verifiqué hoy: antes de moverse, chequear el gasto de bolsillo por país en la base de gasto en salud de la OMS. Mismo idioma y mismo agente, pero otras leyes de publicidad médica y de datos para leer.
+- OTRO ACTIVO: análisis clínicos particulares. Son de ticket bajo, se hacen seguido y están estandarizados, así que son fáciles de comparar. Sirven como producto de entrada que trae tráfico y clientes que vuelven, justo lo que le falta a la resonancia; la resonancia y la cirugía quedan como productos de margen.
+- PONER UN HUMANO (del lado de la oferta): en vez de comparar, armar con 2 o 3 cirujanos y un anestesista entre 3 y 5 paquetes quirúrgicos de precio cerrado (hernia, vesícula, várices) y venderlos. El agente hace la logística y el humano pone el paquete. Ticket y fee más altos y menos guerra de precios; ojo con la publicidad de precios (Ley 17.132, art. 10) y con la responsabilidad profesional.
+
+### Riesgos
+
+- Publicidad de precios: en CABA, la Ley 17.132 (art. 10) prohíbe anunciar precios de consulta y 'ventajas económicas', y sanciona a los medios que difundan anuncios no autorizados. Una tabla pública con centro, precio y descuento mata el SEO que proponía la ficha. En las provincias rige otra ley, que no leí.
+- Comisión por paciente derivado: se parece a 'participar honorarios' (Ley 17.132, art. 20) si quien paga es un médico. Nunca pagarle nada al médico que indica el estudio ni a su secretaria. Con establecimientos es zona gris.
+- Datos de salud: leída al pie de la letra, la Ley 25.326 (arts. 7 y 8) deja en zona incómoda a una plataforma que no es establecimiento sanitario y guarda órdenes médicas. Hay que guardar los datos mínimos y consultar a un abogado antes de escalar.
+- Si se agrega una cuota mensual o una membresía, el modelo se acerca a la definición de prepaga (Ley 26.682 y Decreto 1993/2011) y necesitaría autorización de la Superintendencia de Servicios de Salud.
+- Cobrar el total por Mercado Pago con acreditación inmediata (≈7,6 % con IVA, según guías no oficiales) se come una comisión de 5-10 %: el modelo MDsave tal como está no cierra.
+- Los centros pueden no darle un precio por escrito a un intermediario, o dar uno y cobrar otro en la ventanilla. Cada diferencia termina en un reclamo contra la plataforma.
+- Desintermediación y poca recompra: el paciente compra una vez y la próxima va directo al centro más barato. Conseguir cada paciente tiene que costar menos de ≈USD 7.
+- Inflación: los precios cotizados vencen rápido y la base se desactualiza (no verifiqué la tasa mensual de 2026). Hay que definir cada cuánto se vuelve a cotizar.
+- El competidor gratis es el hospital público: al que no tiene cobertura se le vende rapidez, no acceso, y nadie midió cuánto está dispuesto a pagar por esa rapidez.
+- Un jugador grande puede hacerlo solo (como Fleury con Saúde iD en Brasil), o un comparador de prepagas como ElegíMejor puede sumar prácticas sueltas.
+- En Brasil no se ve ningún caso exitoso: Melvi figura en pasado, y de Vidia y Saúde iD no encontré noticias después de 2021 (no verifiqué si cerraron).
+- Responsabilidad y reputación: si algo sale mal en el centro, el paciente culpa a quien se lo recomendó. Hacen falta términos claros (la plataforma solo intermedia y el centro lo elige el paciente) y nunca dar consejo médico.
+- Los anuncios de salud en Google y Meta pueden tener restricciones que traben la prueba (no verificado).
+
+### Fuentes
+
+- https://www.mdsave.com/ (MDsave; ficha original, consultado 2026-10-18)
+- https://sesamecare.com/ (Sesame; ficha original, consultado 2026-10-18)
+- https://infonegocios.info/y-ademas/elegimejor-com-ar-la-startup-que-compara-prepagas-y-lanza-un-servicio-para-empresas
+- https://www.ambito.com/895357-franceses-crean-el-primer-comparador-de-prepagas-en-argentina
+- https://www.descubre.vc/eligí-mejor
+- https://www.miobrasocial.com.ar/cotizar/
+- https://cuantomecuesta.com/ar/medico-clinico/
+- https://cuantomecuesta.com/ar/prepaga-salud/
+- https://www.sitioandino.com.ar/sociedad/ir-al-medico-cada-vez-mas-caro-los-elevados-costos-las-consultas-partir-este-1-enero-n5690965 (consulta particular en Mendoza; vigencia no clara)
+- https://consejo.org.ar/noticias/2019/tarjeta-integrar-plus-conseguila
+- https://dunsguide.com/company/f8898276b2dbb597e3f835f3924d5764/favacard-sa
+- https://www.iprofesional.com/economia/403751-te-quedaste-sin-prepaga-como-sacar-turnos-online-en-hospitales-bonaerenses
+- https://www.iprofesional.com/salud/364231-cuanto-cuesta-hacerse-una-resonancia-magnetica-en-2022 (de 2022 y sin montos; descartada como fuente de precio)
+- https://elheraldo.com.ar/noticias/interes-general/datos-definitivos-del-censo-2022-la-argentina-tiene-46234830-habitantes (Censo 2022; dato vía resumen del buscador)
+- https://www.todojujuy.com/pais/censo-2022-argentina-hay-46234830-habitantes-n242673 (Censo 2022; dato vía resumen del buscador)
+- https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2024/07/IR_2024_1880.pdf (CABA 18,5 % sin cobertura; dato vía resumen del buscador)
+- https://www.unidiversidad.com.ar/salud-379-de-la-poblacion-de-mendoza-depende-solo-del-sistema-publico
+- https://www.lacapitalmdp.com/por-el-alza-de-prepagas-y-el-empleo-en-negro-cada-vez-son-mas-las-personas-que-recurren-al-hospital-publico/
+- https://iiess.conicet.gov.ar/wp-content/uploads/2026/06/INFORME-SALUD-EISS-2024_25-marzo-2026-1.pdf (no leído)
+- http://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/19429/texact.htm (Ley 17.132, leída 2026-10-19)
+- http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm (Ley 25.326, leída 2026-10-19)
+- https://www.argentina.gob.ar/normativa/nacional/norma-190606/texto (Decreto 1993/2011, reglamentario de la Ley 26.682; vía buscador)
+- https://app.dealroom.co/companies/vidia (devolvió 403; dato vía resumen del buscador)
+- https://app.dealroom.co/companies/melvi_1 (devolvió 403; dato vía resumen del buscador)
+- https://outraspalavras.net/outrasaude/o-ifood-da-saude/ (no la abrí; dato vía resumen del buscador)
+- https://neofeed.com.br/tag/saude-id (nota patrocinada del 2026-10-21... ver detalle: nota del 2021-10-26)
+- https://tiinside.com.br/30/06/2021/marketplaces-surgem-como-nova-alterativa-de-acesso-aos-cuidados-da-saude/
+- https://startups.com.br/negocios/healthtechs/com-fidc-de-r-250m-ouro-preto-entra-em-antecipacao-de-recebiveis-em-saude/
+- https://gust.com/companies/mundo-dos-exames
+- https://solve.mit.edu/challenges/heath-in-fragile-contexts-challenge/solutions/77581
+- https://yo-facturo.com/blog/link-de-pago-mercado-pago/ (comisiones de Mercado Pago, fuente no oficial)
+- https://www.shopify.com/es/blog/mercado-pago-metodos-de-pago (comisiones de Mercado Pago, fuente no oficial)
+- https://platform.claude.com/docs/en/about-claude/pricing (precios de Claude; tabla cacheada al 2026-10-06)
+
+---
+
+## 2. Fasón con turnos libres: plantas PyME de alimentos que fabrican lotes chicos para marcas emergentes (ficha a fondo)
+
+Qué es: un concierge (y más adelante una bolsa) que en 10 días hábiles le consigue a una marca emergente de alimentos 2 o 3 plantas PyME habilitadas para fabricarle a façon lotes chicos. La planta no tiene que mostrar en público que le sobra capacidad.
+Para quién: marcas sin planta propia de salsas, snacks, panificados secos y bebidas (AMBA primero), y plantas con RNE vigente y turnos libres.
+Quién paga: la marca paga por adelantado la búsqueda (≈US$60, con devolución si no aparecen 2 plantas). La planta paga un referido del 5% del primer pedido, o un abono cuando haya flujo. Los números son estimaciones a validar.
+Vuelta de tuerca: importa PartnerSlate (EE.UU., casi 6.000 co-fabricantes en su base, US$4 M en 2023) y le suma lo que traba acá: RNE vigente y categorizado para ESE producto, la nota cruzada lista (es el camino legal para fabricar tu marca en planta ajena) y juntar pedidos compatibles para que a la planta le convenga el cambio de línea.
+Por qué ahora: en agosto de 2026 el bloque alimentos y bebidas usó el 66,4% de su capacidad (INDEC). Marcas conocidas ya pasan a façon (Tía Maruca, abril de 2026). Y Claude arma el brief, la ficha técnica y el checklist sin necesidad de analistas.
+
+**Veredicto:** Probarla solo con dos condiciones. Primero, que Facu confirme que dijo NO a IND-3-5, D24 y C5 por el rubro y no por el modelo de intermediario. Segundo, hacerla solo como concierge pago de 2 semanas, con tope de US$150. A favor: un tercio de la capacidad del bloque alimentos está ociosa (INDEC, agosto de 2026) y el camino legal para fabricar en planta ajena existe (nota cruzada). En contra: tickets chicos, el riesgo de que se salteen al intermediario después de la presentación, y ningún dato de cuántas marcas buscan planta.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA: no encontré a nadie que haya armado (ni cerrado) una plataforma de fasón alimentario. Hice 9 búsquedas en total: 4 del verificador (2026-10-18) y 5 mías (2026-10-19). Las mías: 'capacidad ociosa plantas elaboradoras… programa… red de plantas', 'elaboración a façon para emprendedores lote mínimo… RNPA', 'plataforma argentina conecta marcas con fasoneros… cerró', y dos de LatAm (abajo). Lo más cercano que apareció:
+(a) Mercado XL (iProUP, 2020): fabricantes que les venden a minoristas, no producción por encargo. No sé si sigue activo.
+(b) Kitchenita: cocinas ociosas de restaurantes para conceptos de delivery, no plantas con RNE.
+(c) Una planta pública compartida en San Martín de los Andes: microemprendedores producen por turnos, solo vegetales y farináceos, con cursos obligatorios. Lo saqué de un extracto del buscador (probable fuente: argentina.gob.ar/node/58039, no la abrí).
+Señales del mercado:
+- Tía Maruca dejó de producir en su planta de San Juan y pasó a fabricar a façon en plantas de terceros (Infobae, 2026-04-19).
+- En textil, dfac ('De Fábrica al Consumidor') cerró porque las marcas para las que fabricaba pasaron a importar (iProfesional, 2026; extracto del buscador, fecha exacta no confirmada). Es un aviso: la importación le puede sacar demanda al fasón local.
+LATAM:
+- Maqui opera en Colombia y Ciudad de México, pero es una plataforma para maquilas de MODA, no de alimentos (Forbes Colombia, 2024-03-08).
+- Econexia (Ministerio de Comercio de Colombia, 2020) conecta empresarios por 'ecosistemas', incluido agroindustria y alimentos, pero no vi que haga maquila (Portafolio).
+- En Brasil no apareció ninguna plataforma de producción de alimentos por encargo. Solo vecinos: distribución B2B (NetFoods, Praso) y excedentes (Food to Save).
+- No encontré cierres ni pivotes documentados. No sé si es porque nadie lo intentó o porque el buscador encuentra mal a los chicos.
+AFUERA: PartnerSlate (EE.UU.) sigue activa. Según FoodNavigator (2023-06-12): levantó US$4 millones de capital semilla liderado por Supply Change Capital, decía tener 'nearly 6,000 co-manufacturers' en su base y había triplicado proyectos en los 4 meses posteriores a la beta. La nota no dice cómo cobra. Un extracto del buscador muestra en su web un cargo a la marca de US$49 (tachado US$199) por perfil + proyecto; no lo verifiqué en la página. El año de fundación no está claro (las fuentes dicen 2015 y 2021). Opinión: no encontré rondas posteriores a 2023 (lo busqué una sola vez), lo que sugiere un negocio de escala modesta, no explosiva.
+
+### Competencia en Argentina
+
+Al 2026-10-19 no encontré en Argentina ninguna plataforma que cruce marcas con plantas de alimentos a façon ni que publique capacidad ociosa. La competencia real son sustitutos:
+1) Boca a boca, Google e Instagram, llamando a 30 plantas. Es gratis. Hay que ganarle en tiempo y certeza, no en precio.
+2) El Estado, gratis. La 'Plataforma para PyMEs de alimentos y bebidas' del MAGyP (https://plataformapyme.magyp.gob.ar/) ofrece guías para 'habilitar, registrar, rotular y comercializar' (servicio SAIPA), material de exportación y 16 cursos virtuales + 3 tutoriales que ya hicieron más de 86.000 usuarios. También tiene un 'Catálogo de Oferta Exportable'. Lo leí en el folleto del MAGyP el 2026-10-19 (no tiene fecha visible). Hace bien: es oficial y gratis. Deja un hueco: no conecta marcas con plantas ni muestra mínimos ni turnos. Consecuencia: explicar trámites no vale como gancho; el valor tiene que estar en VERIFICAR que tal planta tiene RNE vigente y categorizado para tu producto y acepta tu lote.
+3) Plantas o salas compartidas públicas, como la de San Martín de los Andes. Hacen bien: le dan al microemprendedor un lugar habilitado barato. El hueco: son locales y chicas, y no sirven cuando la marca ya necesita volumen.
+4) Vecinos: Kitchenita (https://www.descubre.vc/kitchenita), cocinas ociosas de restaurantes para delivery, y Mercado XL (https://www.iproup.com/economia-digital/16113-mercado-xl-como-funciona-el-servicio-que-conecta-a-fabricantes-con-minoristas), de fabricantes a minoristas, 2020, estado actual desconocido. Ninguno fabrica por encargo para marcas.
+5) Tecnólogos y consultores de alimentos que gestionan el RNPA y 'te consiguen' un elaborador. Es mi hipótesis del competidor informal más probable, pero no encontré nombres ni precios publicados (no verificado). Hay que confirmarlo en las entrevistas: pueden ser competencia o canal.
+Precios públicos: ninguno, salvo los servicios estatales, que son gratis. Referencia de afuera: PartnerSlate, US$49 por proyecto (extracto del buscador, no verificado).
+Hueco que nadie cubre: decir 'esta planta tiene RNE vigente para tu categoría, acepta 1.000 unidades y tiene turno en 60 días', y juntar pedidos chicos compatibles para que el cambio de línea le convenga a la planta.
+
+### Regulación
+
+Aplica. No prohíbe el modelo, pero lo condiciona.
+LEÍDO EN LA FUENTE: Mendoza, Departamento de Higiene de los Alimentos, 'Requisitos para inscribir, re-inscribir o modificar un RNPA' (2020-12-01), https://www.mendoza.gov.ar/wp-content/uploads/sites/7/2020/12/Requisitos-RNPA-y-modelo-NOTA-CRUZADA-1.pdf
+- PERMITE: para un 'PRODUCTO ELABORADO POR TERCERO' alcanza con adjuntar una nota cruzada o un contrato de elaboración (sellado en ATM o en la bolsa de comercio, o incluso sin sellar). Según el modelo de nota, la razón social titular del producto (la marca) le pide a un tercero elaborador, identificado por su RNE, que elabore, fraccione o envase el producto con su marca, y el elaborador acepta. O sea: en Mendoza, una marca sin planta puede ser titular del RNPA fabricando en planta ajena.
+- EXIGE:
+  · El RNE del elaborador tiene que estar vigente y 'categorizado correctamente' para ese producto.
+  · Información nutricional bajo declaración jurada en SIFeGA. No hace falta presentar análisis, pero hay que poder respaldarla en una inspección.
+  · Si el rótulo usa el logo de marca registrada: registro en el INPI a nombre del titular, o autorización de uso.
+  · 'Libre de gluten': análisis oficial de no más de 6 meses.
+  · Orgánico: certificadora aprobada por SENASA.
+- PROHÍBE: elaborar con el RNPA vencido. Se puede reinscribir desde 60 días hábiles antes hasta 180 días hábiles después del vencimiento.
+- Ojo: es el procedimiento de Mendoza. CABA, Buenos Aires y Córdoba tienen su propia autoridad sanitaria. La página de CABA es https://buenosaires.gob.ar/gcaba_historico/tramites/registro-nacional-de-productos-alimenticios-rnpa-registro-nacional-de-establecimientos y no la leí. Tampoco verifiqué si un monotributista persona humana puede ser titular del RNPA.
+- Implicancia para el producto: el filtro clave del matching es 'RNE vigente + categoría correcta para el producto del brief', y entregar la nota cruzada lista. Es verificable y es justo lo que la marca no sabe.
+NO LEÍDO HOY (a verificar):
+- Ley 18.284 y Decreto 2126/71 (Código Alimentario Argentino, la base de todo).
+- Ley 27.642 de etiquetado frontal: le pega a la marca y conecta con ALI-2-4.
+- Decreto 35/2025 (https://www.argentina.gob.ar/normativa/nacional/decreto-35-2025-408481/texto). Según resúmenes de Beccar Varela y abogados.com.ar, modificó los arts. 2 y 4 del Decreto 2126/71 sobre importación y exportación de alimentos, con un anexo de países con control equivalente. Si es así, a una marca le puede convenir importar el producto terminado: es una amenaza, no algo que habilite el modelo.
+- Un extracto del buscador dice que ANMAT prohíbe productos con RNE/RNPA inexistentes o ajenos y cita la Disposición 543/2021, que no leí. Recomendar una planta irregular es un riesgo de reputación.
+PLATA: si se ofrece 'seña protegida', no hay que custodiar fondos propios. La ficha A1 del proyecto registra que la Com. 'A' 6859 del BCRA (2020-01-09) regula la custodia de fondos de clientes; no lo re-verifiqué hoy. Conviene usar el split de Mercado Pago para marketplaces, que está disponible en Argentina (https://www.mercadopago.com.ar/developers/es/docs/split-payments/split-1-1/overview, consultado en el proyecto el 2026-10-15).
+
+### Números de unidad
+
+Una 'operación' = una búsqueda asistida para una marca.
+INGRESO (estimación):
+- Marca: US$60 por búsqueda, en pesos al tipo de cambio del día. Está dentro del rango US$50-150 de la ficha y cerca de los US$49 que cobra PartnerSlate por proyecto (dato no verificado).
+- Planta: referido del 5% del primer pedido. Supongo un primer pedido de US$1.500-5.000: entre 1.000 y 2.500 unidades a US$1,5-2 cada una llave en mano (materia prima + envase + façon). Esa cifra es una estimación SIN fuente; el experimento junta cotizaciones reales. El 5% da US$75-250, y solo se cobra si el pedido se cierra y se factura.
+COSTOS POR OPERACIÓN:
+- IA (estimación de consumo): ~40.000 tokens de entrada y 10.000 de salida (brief, ficha técnica, 5-8 mensajes a plantas, checklist y compromiso de confidencialidad). Según la tabla de precios de Anthropic (https://platform.claude.com/docs/en/about-claude/pricing; copia de la documentación de Claude Code al 2026-10-06, no abrí la página hoy), por millón de tokens:
+  · Claude Sonnet 5.5: US$2 de entrada / US$10 de salida → US$0,18.
+  · Claude Haiku 5.5: US$0,10 / US$0,50 (prompts de hasta 100K tokens) → menos de US$0,01.
+  · Claude Opus 5.5: US$4 / US$20 → US$0,36.
+  · En el experimento el costo extra es US$0, porque se usa la suscripción.
+- WhatsApp: con la app WhatsApp Business, US$0. Si más adelante se usa la API: el proyecto registró USD 50-115 por mes para un bot PyME en Argentina (Develop Argentina, un vendedor, 2026-06-25) y ~USD 0,04-0,07 por mensaje de marketing (Kommo y Develop Argentina, vendedores). No lo re-verifiqué hoy; la tarifa oficial está en https://developers.facebook.com/docs/whatsapp/pricing/.
+- Cobro: con link de Mercado Pago, tarjeta de crédito y plata al instante, 6,49% + IVA ≈ 7,85%. Es un dato de 2023 (iProfesional, 2023-08-01, https://www.iprofesional.com/tecnologia/386153-mercado-pago-que-debes-saber-sobre-comisiones-plazos-y-montos); la tarifa actual no la verifiqué. Sobre US$60 da ≈US$4,7. Por transferencia contra factura, que es lo normal en B2B, el costo es ≈0 (estimación; depende del banco).
+- Tiempo de Facu (estimación): 3-5 horas por búsqueda. 1 h para el brief y la ficha, 1-2 h para contactar 5-8 plantas, 1-2 h para el seguimiento y la presentación.
+MARGEN (estimación):
+- Cobrando solo a la marca: 60 − 4,7 − 0,2 ≈ US$55 por búsqueda, o sea US$11-18 por hora de Facu.
+- Si 1 de cada 2 búsquedas cierra un primer pedido y la planta paga el referido, se suman US$37-125 esperados: US$92-180 por búsqueda, US$18-60 por hora.
+- Para sacar US$1.000 por mes netos hacen falta ~18 búsquedas pagas por mes cobrando solo a la marca, o ~8 si la mitad cierra con un referido de ~US$150.
+- Para facturar necesita monotributo (el costo mensual no lo verifiqué hoy).
+
+### Tamaño del mercado
+
+DATO VERIFICADO: informe de INDEC 'Utilización de la capacidad instalada en la industria. Agosto de 2026', publicado el 2026-10-15 (https://www.indec.gob.ar/uploads/informesdeprensa/capacidad_10_263AAA0A2B86.pdf):
+- Productos alimenticios y bebidas usó el 66,4% de su capacidad (agosto 2025: 66,6%). El nivel general de la industria fue 58,5%.
+- Entre enero de 2025 y agosto de 2026, el bloque alimentos osciló entre 57,6% (marzo 2025) y 69,2% (septiembre 2025). Es decir, entre 31% y 42% de la capacidad quedó sin usar.
+- INDEC atribuye la baja interanual sobre todo a la carne vacuna.
+- Opinión: es un promedio dominado por plantas grandes (frigoríficos, lácteos, molinos). No prueba que haya turnos libres en las líneas que importan acá (salsas, snacks, panificados secos) ni que esas líneas acepten lotes chicos.
+NO LO SÉ: cuántas plantas con RNE hacen façon y cuántas marcas emergentes de alimentos hay, ni en Argentina ni en AMBA. En esta ronda no conseguí ese dato (ni de INDEC, ni de COPAL, ni de ANMAT). Hay un indicio débil: los cursos virtuales del MAGyP sobre inocuidad y rotulado tuvieron más de 86.000 usuarios (folleto del MAGyP, sin fecha), pero eso mide interés, no empresas.
+PRIMERA CIUDAD: AMBA. Es una estimación: concentra plantas y marcas, y Facu puede ir a visitarlas; no lo verifiqué con un dato.
+LO QUE TIENE QUE SER CIERTO (estimación): para llegar a 18 búsquedas pagas por mes, con 5-10% de conversión entre las marcas que están buscando planta, hacen falta 180-360 marcas por mes buscando (o cambiando de) planta y alcanzables en AMBA. Con la conversión en frío que predigo para el experimento (3%), serían ~600 contactos por mes.
+CÓMO CERRAR EL DATO: pedir a ANMAT/INAL o a la autoridad sanitaria de CABA y PBA la cantidad de RNE por categoría (por acceso a la información pública), y contar durante el experimento cuántas plantas del AMBA se anuncian 'a façon'.
+
+### A quién entrevistar
+
+1) Dueño o jefe de producción de una planta PyME del AMBA que ya fabrica a façon (salsas y conservas, galletitas y panificados secos, snacks y granolas, bebidas). Dónde encontrarlo:
+- Google Maps y anuncios que digan 'elaboración a façon' o 'fabricamos tu marca'.
+- El 'Catálogo de Oferta Exportable' del MAGyP (https://plataformapyme.magyp.gob.ar/).
+- Parques industriales del conurbano.
+- Cámaras sectoriales de alimentos (no verifiqué cuáles tienen padrón público).
+2) Fundador/a de una marca emergente que ya terceriza. Se reconoce porque la etiqueta dice 'elaborado por… para…'. Dónde encontrarla:
+- Góndolas de dietéticas y almacenes naturales (la etiqueta dice quién fabrica).
+- Instagram y tiendas de Tiendanube.
+- Ferias de emprendedores y de alimentos regionales, por ejemplo Caminos y Sabores en Buenos Aires (no verifiqué la edición 2026).
+3) Alguien que quiso lanzar un alimento envasado y abandonó, o que sigue produciendo en su cocina porque no consiguió planta. Este es el más valioso para la Mom Test. Dónde: grupos de Facebook de emprendedores gastronómicos, comentarios en publicaciones de plantas, cursos de manipulación de alimentos.
+4) Tecnólogo/a o consultor/a de alimentos que gestiona RNE, RNPA y rotulado para marcas chicas. Es el intermediario humano de hoy: puede ser competidor o canal. Dónde: LinkedIn ('tecnólogo de alimentos' + 'RNPA') y colegios o consejos profesionales.
+5) Responsable de una planta o sala compartida pública, o de una planta piloto (municipios como San Martín de los Andes, INTI, universidades). Sabe cuántos microemprendedores piden turno y cuántos 'egresan' a una planta privada. Dónde: áreas de producción municipales y provinciales.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. (Marca) Contame la última vez que buscaste quién te fabrique: ¿qué producto era, cuándo fue y por dónde empezaste a buscar?
+2. (Marca) ¿A cuántas plantas contactaste, cuántas te contestaron y cuánto tiempo pasó desde el primer llamado hasta tener el primer lote en la mano?
+3. (Marca) ¿Qué te pidieron (lote mínimo, seña, RNE o RNPA, marca registrada, materia prima propia) y en cuál de esas cosas te trabaste?
+4. (Marca) ¿Cuánto gastaste en ese proceso además del lote: tecnólogo, análisis, viajes, muestras, trámites? ¿Tenés a mano la factura o el presupuesto?
+5. (Marca) La última vez que tu planta te falló, te subió el mínimo o se demoró, ¿qué hiciste? ¿Tenés hoy una segunda planta?
+6. (Planta) En los últimos 12 meses, ¿cuántos clientes nuevos a façon tuviste y cómo te llegó cada uno?
+7. (Planta) Contame el último pedido de una marca chica que rechazaste o que salió mal: ¿qué pasó y por qué?
+8. (Planta) El mes pasado, ¿cuántos turnos u horas estuvo parada cada línea y qué hiciste para llenarlos (marcas blancas, descuentos, vendedores)?
+9. (Planta) ¿Cuánto tiempo y plata te lleva un cambio de línea (limpieza, alérgenos, ajustes) y, por eso, cuál es el lote más chico que te conviene aceptar?
+10. (Planta) ¿Alguna vez pagaste por conseguir clientes (vendedor a comisión, feria, directorio, publicidad)? ¿Cuánto pagaste y qué resultado tuvo?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Las marcas emergentes de alimentos del AMBA pagan por adelantado (≈US$60, en pesos) una búsqueda asistida que les consigue 2 plantas habilitadas en 10 días hábiles. Y las plantas PyME con turnos libres comparten su capacidad, aceptan lotes de 1.000 unidades o menos y firman un acuerdo de referido del 5% para recibir esos pedidos.
+- **Predicción (antes de empezar):** Escrita antes de empezar. PLANTAS: 60 contactadas → 18 responden → 8 comparten su lote mínimo y los turnos libres de los próximos 60 días → 5 firman el referido. De esas 8, al menos 4 aceptan lotes de 1.000 unidades o menos. MARCAS: 100 contactadas, más US$60 de anuncios → 12 completan el brief gratis → 3 pagan la búsqueda (3% de las contactadas, 25% de los briefs) → 2 reciben 2 o más cotizaciones en 10 días hábiles → 1 le paga una seña o una muestra a una planta antes del día 28.
+- **Pérdida máxima:** US$150 de tope duro. US$60 de anuncios en Meta (piezas de texto, sin cara); US$30 de viáticos para visitar 2 plantas; US$20 de muestras o envíos; US$40 de imprevistos (comisiones de Mercado Pago en devoluciones, dominio opcional). Lo que se les devuelve a las marcas no cuenta como pérdida, porque es plata de ellas. No incluye las ~45 horas de trabajo de Facu.
+- **Duración:** 14 días corridos (por ejemplo, del 2026-10-26 al 2026-11-08), más un control sin gasto el día 28 (2026-11-23) para ver si alguna marca le pagó una seña o una muestra a una planta.
+- **Pasos:**
+  1. Día 0: copiar la predicción con fecha en una planilla, antes de contactar a nadie.
+  2. Día 1: elegir 3 categorías (salsas y conservas; galletitas y panificados secos; snacks y granolas) y definir el brief mínimo: producto, unidades por lote, envase, precio objetivo, fecha, y si ya tiene receta, marca o RNPA.
+  3. Días 1-2: con Claude, armar una landing de una página con marca anónima (Cloudflare Pages o Carrd), con un formulario de Tally o Google Forms para el brief y un link de pago de Mercado Pago por la búsqueda, con la garantía de devolución por escrito. Armar también un acuerdo de referido de una página y un compromiso de confidencialidad.
+  4. Días 2-5, primero la oferta: hacer una lista de 60 plantas del AMBA que anuncian 'a façon' o 'fabricamos tu marca' (Google Maps, Instagram, Catálogo de Oferta Exportable del MAGyP). Escribirles por WhatsApp o mail: 'tengo marcas buscando elaborador en tu categoría; ¿cuál es tu lote mínimo y qué turnos tenés libres en los próximos 60 días?'. Anotar en la planilla el RNE (número y categorías), el lote mínimo, los plazos y si firma el referido.
+  5. Días 4-10, después la demanda: 100 contactos a marcas emergentes (mensajes de Instagram desde la cuenta anónima, mails a tiendas de Tiendanube, grupos de emprendedores gastronómicos), más US$60 de anuncios de texto en Meta que lleven a la landing. Primero se pide el brief gratis; a quien lo completa se le ofrece la búsqueda paga.
+  6. Días 6-14, entrega a mano (concierge): por cada búsqueda paga, Claude arma una ficha técnica anónima. Facu la manda a las plantas compatibles (RNE vigente y categoría correcta), junta 2 o más cotizaciones y presenta a las partes con el modelo de nota cruzada. Si en 10 días hábiles no aparecen 2 plantas interesadas, devuelve la plata.
+  7. Días 7-14: hacer 10 entrevistas con el guion (5 marcas y 5 plantas), por teléfono o videollamada sin cámara.
+  8. Día 14: comparar lo que pasó con la predicción, decidir con los criterios y escribir un post-mortem de una página. Día 28: controlar si alguna marca le pagó una seña o una muestra a una planta.
+- **Sigue si:** Se sigue (4 semanas más, misma ciudad, sumando una categoría) si se cumplen las tres condiciones: 3 o más marcas pagaron la búsqueda; 4 o más plantas firmaron el referido; y al menos la mitad de las búsquedas pagas recibió 2 o más cotizaciones en 10 días hábiles. Además, si 2 o más plantas ofrecen pagar un abono por recibir briefs, se prueba cobrarle a la planta.
+- **Se corta si:** Se corta si pasa cualquiera de estas cosas: 1 marca o ninguna pagó después de 100 contactos y US$60 de anuncios; 2 plantas o menos firmaron el referido; más del 70% de los briefs quedó por debajo del lote mínimo de todas las plantas consultadas (o sea, la capacidad ociosa no se vende en lotes chicos); o 7 de cada 10 entrevistados consiguieron planta en menos de 2 semanas por boca a boca (no hay un dolor por el que pagar). Zona gris (2 pagos o 3 plantas): una sola ronda más de 2 semanas cambiando una sola variable (precio o canal), y después se decide sin otra prórroga.
+
+### Cinco formas de retorcerla
+
+- OTRO CLIENTE: cadenas regionales de supermercados, dietéticas y almacenes naturales que quieren marca propia. Un solo cliente trae varios productos y volumen que se repite; la plataforma le arma la línea con 2 o 3 plantas. Más ticket y menos clientes. No está en el registro.
+- OTRO COBRO, 'turno compartido': se juntan 4 a 6 marcas chicas con la misma base (granola, salsa, galletita) en un solo turno de producción, cada una con su etiqueta, y se cobra por unidad o por fracción del turno. Ataca el problema del lote mínimo agrupando productos parecidos para hacer menos cambios de línea. El mecanismo se parece a las compras agrupadas (J21 y ONG-4-5, ambas NO), pero el cliente y el problema son otros.
+- OTRO PAÍS: México, donde 'maquila de alimentos' es un término y una práctica establecidos. En la búsqueda del 2026-10-19 solo apareció Maqui, que es de moda. Mismo idioma; habría que estudiar COFEPRIS, el regulador mexicano (no lo investigué). Es distinta de la palanca Chile/Uruguay de la ficha.
+- OTRO ACTIVO: cocinas y salas habilitadas que quedan ociosas a la tarde o el fin de semana (comedores de empresas, clubes, colegios, plantas piloto universitarias o municipales), alquiladas por turno a microemprendedores que todavía no llegan al lote mínimo de una planta. Es el escalón anterior al fasón. Kitchenita hace algo parecido, pero para delivery.
+- PONER UN HUMANO: una red de tecnólogos de alimentos freelance que funcionen como 'gestores de lanzamiento' con precio cerrado (formulación, escalado, RNPA con nota cruzada, rótulo y auditoría de la planta). La plataforma vende el paquete y cobra comisión, y la planta es el último paso. Así el competidor informal pasa a ser la oferta.
+
+### Riesgos
+
+- Capacidad ociosa no es lo mismo que capacidad vendible a marcas chicas. Entre cambio de línea, limpieza y control de alérgenos, un lote de 1.000 unidades puede no pagar la preparación de la línea (desde la ingeniería industrial: SMED y lote económico). Si las plantas mantienen mínimos altos aunque trabajen al 66%, no hay negocio.
+- El promedio de INDEC (66,4%) lo mueven los frigoríficos y las plantas grandes. No está medido cuánta capacidad sobra en las líneas que sirven acá (salsas, snacks, panificados secos).
+- Que se salteen al intermediario: después de la primera presentación, la marca y la planta siguen solas por WhatsApp. El referido del 5% es difícil de controlar y de cobrar.
+- Tickets chicos y ciclos largos: muestras, rótulo y RNPA llevan semanas, así que el primer pedido llega después de las 2 semanas del experimento. Si la planta no paga, cada búsqueda deja US$11-18 por hora de Facu (estimación).
+- Se parece a ideas que Facu rechazó: IND-3-5 (marcas chicas que no encuentran talleres textiles, NO), D24 (directorio de nicho con IA, NO), C5 (selección de proveedores logísticos para marcas, NO). Además, el gancho de la planta de la ficha (medidor de capacidad ociosa/OEE) se parece a C16 (OEE light, NO), aunque también a A2 (calculadora de índices de ingeniería industrial, ELEGIDA). A favor: se parece a IND-4-4 y ALI-2-4, que son ELEGIDAS.
+- La información regulatoria es gratis: el MAGyP ofrece guías de trámites y cursos sin costo, así que el 'paquete regulatorio' por sí solo no es una barrera para la competencia.
+- Responsabilidad y reputación: si se recomienda una planta con el RNE vencido o mal categorizado y ANMAT prohíbe el producto, la marca le va a echar la culpa al intermediario. Hay que verificar el RNE y dejar por escrito que la responsabilidad sanitaria es del titular y del elaborador.
+- Confidencialidad de las recetas: un acuerdo de confidencialidad entre partes chicas es difícil de hacer cumplir, y muchas marcas no van a querer mandar la fórmula.
+- Importación: si el Decreto 35/2025 facilitó importar alimentos de países con control equivalente (según resúmenes jurídicos; no lo leí), a algunas marcas les puede convenir importar el producto terminado. En textil, dfac cerró porque sus marcas pasaron a importar.
+- Un concierge no escala: si el matching sigue siendo a mano, termina siendo una consultora de una persona y no el producto global que Facu busca.
+
+### Fuentes
+
+- INDEC, Utilización de la capacidad instalada en la industria, agosto de 2026 (publicado 2026-10-15), leído completo el 2026-10-19: https://www.indec.gob.ar/uploads/informesdeprensa/capacidad_10_263AAA0A2B86.pdf
+- Mendoza, Depto. de Higiene de los Alimentos, Requisitos RNPA y modelo de nota cruzada (2020-12-01), leído completo el 2026-10-19: https://www.mendoza.gov.ar/wp-content/uploads/sites/7/2020/12/Requisitos-RNPA-y-modelo-NOTA-CRUZADA-1.pdf
+- MAGyP, Instrumentos y Servicios para PyMEs Alimentarias (folleto sin fecha), leído completo el 2026-10-19: https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/difusion-y-publicaciones/material/Servicios%20_para_Pymes_Alimentarias_Brochure.pdf
+- Plataforma para PyMEs de alimentos y bebidas del MAGyP (citada en el folleto, no la abrí): https://plataformapyme.magyp.gob.ar/
+- FoodNavigator, PartnerSlate connects food brands with co-manufacturers, raises $4 million (2023-06-12), leído el 2026-10-19: https://www.foodnavigator.com/Article/2023/06/12/PartnerSlate-connects-food-brands-with-co-manufacturers-raises-4-million-in-funding
+- BevNET, Co-Packer Connector Platform Raises $4M (2023; solo extracto del buscador): https://bevnet.com/news/2023/co-packer-connector-platform-raises-4m
+- PartnerSlate, sitio oficial (consultado por el generador el 2026-10-18; el precio de US$49 sale de un extracto del buscador, no verificado): https://www.partnerslate.com
+- Perfil, uso de la capacidad instalada en agosto según el INDEC (extracto del buscador): https://www.perfil.com/noticias/economia/el-uso-de-la-capacidad-instalada-de-la-industria-alcanzo-el-58-en-agosto-segun-el-indec-a40.phtml
+- Forbes Colombia, Maqui, plataforma para maquilas de moda (2024-03-08; extracto del buscador): https://forbes.co/2024/03/08/emprendedores/maqui-la-plataforma-que-apuesta-a-romper-la-brecha-tecnologica-de-las-maquilas
+- Portafolio, Econexia, plataforma del Ministerio de Comercio de Colombia (2020; extracto del buscador): https://www.portafolio.co/negocios/presentan-plataforma-digital-econexia-para-impulsar-la-reactivacion-economica-543749
+- Startups.com.br, Food to Save (vecino en Brasil; extracto del buscador): https://startups.com.br/negocios/food-to-save-expande-sacolas-surpresa-para-industrias
+- Decreto 35/2025, texto oficial (no lo leí): https://www.argentina.gob.ar/normativa/nacional/decreto-35-2025-408481/texto
+- Beccar Varela, resumen del Decreto 35/2025 (extracto del buscador): https://beccarvarela.com/novedades/modificaciones-introducidas-al-codigo-alimentario-argentino-caa-decreto-35-2025/
+- abogados.com.ar, Decreto 35/25 sobre importación y exportación de alimentos (extracto del buscador): https://abogados.com.ar/decreto-3525-modificacion-en-los-procedimientos-para-la-importacion-y-exportacion-de-alimentos/36408
+- Trámite RNPA/RNE de CABA (no lo leí): https://buenosaires.gob.ar/gcaba_historico/tramites/registro-nacional-de-productos-alimenticios-rnpa-registro-nacional-de-establecimientos
+- Planta compartida para microemprendedores en San Martín de los Andes (extracto del buscador; fuente probable, no la abrí): https://www.argentina.gob.ar/node/58039
+- iProfesional, cierre de dfac, fabricante textil cuyas marcas pasaron a importar (2026, fecha exacta no confirmada; extracto del buscador): https://www.iprofesional.com/negocios/452136-marca-argentina-ropa-cierra-liquida-todo-perder-clientes-importaciones-abril-2026
+- Infobae, Tía Maruca deja de producir en San Juan y pasa a fabricar a façon (2026-04-19; según el verificador): https://www.infobae.com/economia/2026/04/19/la-historica-marca-de-galletitas-tia-maruca-deja-de-producir-en-san-juan-que-pasara-con-la-firma/
+- iProUP, Mercado XL (2020; según el verificador): https://www.iproup.com/economia-digital/16113-mercado-xl-como-funciona-el-servicio-que-conecta-a-fabricantes-con-minoristas
+- Kitchenita (según el verificador): https://www.descubre.vc/kitchenita
+- Anthropic, precios de la API (tabla de la documentación de Claude Code al 2026-10-06; no abrí la página hoy): https://platform.claude.com/docs/en/about-claude/pricing
+- iProfesional, comisiones de Mercado Pago (2023-08-01; dato viejo, tomado de un documento del proyecto): https://www.iprofesional.com/tecnologia/386153-mercado-pago-que-debes-saber-sobre-comisiones-plazos-y-montos
+- Mercado Pago Developers, Split de Pagos 1:1 para marketplaces (consultado en el proyecto el 2026-10-15): https://www.mercadopago.com.ar/developers/es/docs/split-payments/split-1-1/overview
+- Meta, precios de la API de WhatsApp Business (no consultado hoy): https://developers.facebook.com/docs/whatsapp/pricing/
+- Registro de exclusión del proyecto (IND-3-5, C16, D24, C5, A2, IND-4-4, ALI-2-4, BEL-5-3, J21, ONG-4-5): C:\Users\Facuc\AppData\Local\Temp\claude\C--FACU-IDEAS-PRUEBA\e86dcafd-a207-4f61-98cd-f2b55e2d9bfe\scratchpad\insumos\exclusion-registro.tsv
+
+---
+
+## 3. Apelador de prepagas y obras sociales: arma y sigue con IA la denuncia ante la Superintendencia (Res. 951/2025 y 951/2026)
+
+Qué es: una web que lee la negativa de la prepaga o de la obra social. Arma la nota formal y la denuncia ante la Superintendencia de Servicios de Salud (SSSalud), listas para que el afiliado las presente por TAD. Después sigue la CONSTA y la INTIMA y, si eso no alcanza, deja el legajo y el plazo del amparo listos para un abogado.
+Para quién: afiliados a prepagas y obras sociales nacionales con negativas o demoras. Se arranca por familias con CUD y pacientes de alto costo en CABA, donde el 81,5 % de la población tiene obra social o prepaga (Censo 2022).
+Quién paga: el afiliado, con un fee fijo de unos USD 20 en pesos (hipótesis a validar). Si el afiliado no paga, se prueba otro pagador (empleadores) antes de construir nada.
+Vuelta de tuerca: importa Claimable (EE.UU., USD 39,95 por apelación), pero en vez de una carta es un "perseguidor" de la escalera argentina (nota, SSSalud, amparo). Se queda con el escalón del medio, que hoy nadie vende.
+Por qué ahora: la Res. SSS 951/2025 (BO 2025-06-12) y su reescritura, la 951/2026 (BO 2026-05-28), crearon una denuncia sin reclamo previo, con 5 días hábiles para que conteste la entidad, la INTIMA y plazos más cortos en discapacidad. Además, Claude hace el trabajo de papeles por USD 0,5 a 1,5 por caso (estimación).
+
+**Veredicto:** Probarla solo si el experimento muestra que el afiliado paga. Desde 2025 y 2026 la vía estatal es gratis, no pide reclamo previo y obliga a contestar en 5 días hábiles: eso hace más fácil ganar los casos, pero también hacerlos sin pagarle a nadie. Además, en Chile el negocio masivo lo pagaban las aseguradoras vía costas, no el afiliado. Si con USD 170 no aparecen al menos 6 pagos en 14 días, no construir: pasar a otro pagador o a otra idea.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA: no apareció nadie. El 2026-10-19 busqué "gestoría reclamos prepaga obra social online reintegros discapacidad servicio pago" y solo salieron normas, guías y un estudio de amparos. Antes, el verificador hizo 4 búsquedas (apps de reclamos con IA, plataformas online de reclamos a la SSSalud, legaltech de amparos de salud, startups para afiliados) y tampoco encontró ninguna plataforma privada. No hay cierres ni pivotes que contar porque no hay intentos visibles; no puedo descartar emprendimientos chicos sin prensa.
+
+LATAM, CHILE (el antecedente más parecido en volumen; todo sale de resúmenes del buscador, no leí las notas completas):
+- Desde por lo menos 2010 hasta 2022 hubo litigio masivo de afiliados contra las Isapres por las alzas de los planes.
+- Quién pagaba: el afiliado no. Los abogados cobraban las costas, que pagaban las Isapres; solo en 2010 fueron más de $1.670 millones chilenos (CIPER, 2013-03-26).
+- En 2015 la Corte Suprema subió las costas de $50.000 a $130.000 en 6.383 recursos (DF).
+- IPSUSS (2017): las costas eran el motor del negocio, y cuando la Corte de Apelaciones de Santiago bajó las costas individuales, bajó la cantidad de recursos.
+- En 2022 un solo abogado encabezaba el ranking con más de 16.000 causas (La Tercera, con datos de Altura Management). La nota se titula "El negocio de demandar a las isapres por los planes de salud se traba"; no confirmé el motivo de la traba.
+- Ese mismo año la Corte Suprema acogió los primeros recursos contra las alzas anuales y criticó a la Superintendencia de Salud (El Mostrador, 2022-08-25).
+- Un boletín legislativo de 2023 estima $143.989 millones chilenos pagados en costas entre 2010 y 2019.
+
+QUÉ LE ENSEÑA A FACU:
+1) Representar en masa al afiliado con escritos estándar puede llegar a decenas de miles de casos.
+2) Allá pagaba la aseguradora, vía costas, no el afiliado: nunca se probó que el afiliado pague de su bolsillo.
+3) El negocio dependía de decisiones de jueces y reguladores, y se achicó cuando esas decisiones cambiaron. Acá la Res. 951 ya se reescribió en menos de un año.
+
+EE.UU.: Claimable y Fight Health Insurance (ya están en la ficha). Brasil y Colombia: no los busqué por falta de presupuesto, queda pendiente.
+
+### Competencia en Argentina
+
+1) SUPERINTENDENCIA DE SERVICIOS DE SALUD (gratis)
+- Canales: denuncia por TAD con clave de ARCA o Mi Argentina, según la página oficial, que el verificador leyó solo a través del buscador (https://www.argentina.gob.ar/reclamar-por-problematicas-de-cobertura-prestacional). Hay una página propia para discapacidad: https://www.argentina.gob.ar/servicio/denunciar-por-prestaciones-de-discapacidad.
+- Lo bueno: es gratis, no pide reclamo previo, la entidad tiene que contestar en 5 días hábiles y puede recibir multas (Res. 951/2025 y 951/2026).
+- El hueco: no te ayuda a escribir ni a fundar el reclamo. El afiliado tiene que saber qué pedir y qué adjuntar, y seguir solo la CONSTA y la INTIMA.
+
+2) ABOGADOS DE AMPAROS DE SALUD
+- Precio: el piso legal en causas nacionales y federales es 20 UMA (Ley 27.423), o sea $2.485.100 con la UMA de $124.255 vigente desde agosto de 2025. A veces aceptan anticipos, pagos escalonados o cuotas (iProfesional, 2025-10-25).
+- Si el afiliado gana, las costas las paga el vencido, es decir, la prepaga (Ley 16.986, art. 14). Si la prepaga cede antes del informe, no hay costas (inferencia: ahí el abogado le cobra al cliente).
+- Ejemplo de estudio con página de amparos por discapacidad: https://stabogados.com.ar/civil/amparos/discapacidad/ (no publica precio).
+- Lo bueno: la vía judicial es la que más presiona.
+- El hueco: los casos chicos o medianos (reintegros, demoras, insumos) que no justifican un juicio, y todo el tramo anterior al juicio.
+
+3) DEFENSORÍAS PÚBLICAS Y DEFENSA DEL CONSUMIDOR (gratis; Diario Jornada 2024 y Ventanilla Única Federal, ya citados en la ficha)
+- Su capacidad y sus tiempos: no verificados.
+
+4) SITIOS DE GUÍAS
+- miobrasocial.com.ar (https://www.miobrasocial.com.ar/blog/reclamos-denuncias-obra-social-prepaga/).
+- contadoresenred.com: explica el "procedimiento sumarísimo" de la Res. 155/2018, que la Res. 951/2025 derogó en su art. 11.
+- Papelea.
+- Lo bueno: ya posicionan en Google.
+- El hueco: información genérica o vieja; no hacen el trabajo ni siguen el caso.
+
+5) PREPAGAS QUE USAN IA PARA ATENDER A SUS PROPIOS AFILIADOS (Premedic con su "Médico IA", Infobae 2026-07-21, en la ficha)
+- Hoy no son competencia, pero muestran que el otro lado también se automatiza.
+
+Plataforma privada que arme y siga el reclamo: no encontrada.
+
+### Regulación
+
+1) RES. SSS 951/2025 (firmada 2025-06-10, BO 2025-06-12). Leída en https://www.argentina.gob.ar/normativa/nacional/norma-413974/texto
+- Aprueba el Procedimiento General de Denuncias, Faltas Formales y Sanciones.
+- Deroga las Res. SSS 75/1998, 155/2018, 607/2022, 711/2024 y 721/2024 (art. 11).
+- Permite que el beneficiario denuncie por TAD u "otros medios habilitados". No exige reclamo previo a la entidad ni abogado.
+- Si falta documentación, el denunciante tiene 5 días corridos para completarla; si no, el expediente pasa a "Guarda Temporal".
+- Fijaba 5 días corridos para que la entidad conteste y un tope de 30 días hábiles para todo el trámite (art. 6).
+- Si la entidad no contesta o contesta evasivamente, se presume el incumplimiento (art. 2 a).
+- Multas en "módulos", cada uno igual al haber mínimo jubilatorio (art. 3 d). A las prepagas se les cobra por juicio ejecutivo.
+- Crea un Ranking de Cumplimiento público (art. 7).
+- No menciona apoderados ni gestores.
+
+2) RES. SSS 951/2026 (firmada 2026-05-22, BO 2026-05-28). Leída en https://www.argentina.gob.ar/normativa/nacional/norma-426183/texto
+- Sustituye los arts. 1 a 6, 8 y 10 y los Anexos I a III de la 951/2025.
+- Crea la INTIMA (intimación de cumplimiento) y la CONSTA (constancia de estado que se le notifica al beneficiario).
+- Plazos en días hábiles: 5 para contestar la denuncia y 5 para cumplir la INTIMA.
+- Los plazos se pueden acortar por urgencia, riesgo de vida, continuidad de tratamiento o discapacidad. En esos casos, que falte documentación no frena la intervención inicial.
+- Ya no fija un plazo total para el trámite.
+- Cumplir después de la INTIMA no evita la multa.
+- Tampoco menciona gestores ni reclamo previo.
+- No confirmé si mantiene la presunción del viejo art. 2. El art. 7 (ranking) no está entre los sustituidos.
+- Consecuencia para el producto: tiene que entregar el expediente completo y que lo presente el titular.
+
+3) LEY 16.986 DE AMPARO. Leída en http://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/46871/norma.htm
+- Plazo de 15 días hábiles desde el acto (art. 2 e).
+- No procede si hay vías administrativas o judiciales que den protección (art. 2 a).
+- Se puede presentar "por sí o por apoderados" (art. 5).
+- Costas al vencido, salvo que el acto cese antes del informe (art. 14).
+- Los amparos contra prepagas se tramitan con este nombre; por ejemplo, "Maffia c/ OSDE s/ amparo ley 16.986" (vLex).
+- Consecuencia para el producto: alarma de plazo, derivar a tiempo y nunca firmar escritos judiciales.
+
+4) LEY 25.326 DE DATOS PERSONALES. Leída en http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm
+- La información de salud es dato sensible (art. 2).
+- El consentimiento tiene que ser libre, expreso, informado y por escrito o un medio equivalente (art. 5).
+- Nadie puede ser obligado a dar datos sensibles; solo se pueden recolectar y tratar por razones de interés general autorizadas por ley, y está prohibido formar archivos que los revelen (art. 7, incs. 1 a 3).
+- Los profesionales y establecimientos de salud pueden tratar los datos de sus pacientes, con secreto profesional (art. 8).
+- Exige medidas de seguridad (art. 9).
+- Los archivos privados destinados a dar informes se tienen que inscribir en un registro (art. 21).
+- Sanciones administrativas (art. 31; las multas del texto son las originales) y penales (art. 32).
+- Es el riesgo legal más serio: una base de negativas con diagnósticos choca con la letra del art. 7. Mitigación (opinión, a validar con un abogado de datos): consentimiento escrito, guardar lo mínimo, borrar al cerrar el caso y que presente el titular.
+
+5) LEY 27.423 (honorarios)
+- Piso de 20 UMA para amparos, según iProfesional. No leí la ley.
+
+6) EJERCICIO DE LA ABOGACÍA (Ley 23.187 para CABA; art. 247 del Código Penal)
+- NO los leí hoy. Es la primera pregunta para el abogado que revise las plantillas.
+
+### Números de unidad
+
+TICKET (estimación): USD 20 por caso, cobrado en pesos.
+- Razonamiento: Claimable cobra USD 39,95 en EE.UU. En Argentina hay que quedar muy por debajo del piso de un amparo (20 UMA = $2.485.100, iProfesional 2025-10-25) y competir con un canal gratis.
+- A un dólar supuesto de $1.500 (no verificado), USD 20 son unos $30.000, cerca del 1,2 % de ese piso.
+
+COSTOS POR CASO:
+- Cobro con link de Mercado Pago: alrededor de 6,29 % + IVA (7,61 %) con acreditación inmediata, o 4,99 % + IVA (6,04 %) a 14 días, según yo-facturo.com 2026. Son valores referenciales, no oficiales: confirmarlos en el panel. Son USD 1,2 a 1,5 por caso.
+- IA (estimación): Claude Sonnet 5.5 cuesta USD 2 por millón de tokens de entrada y USD 10 de salida; Opus 5.5, USD 4 y USD 20 (tabla de precios de Anthropic, platform.claude.com/docs/en/about-claude/pricing, versión del 2026-10-06). Un caso lee la negativa, la receta y el resumen de historia clínica más la base de normas (unos 40.000 tokens) y redacta la nota y la denuncia (unos 8.000 tokens). Con 3 vueltas da USD 0,5 (Sonnet) a USD 1,0 (Opus); con el legajo para amparo, hasta USD 1,5.
+- WhatsApp: en el experimento se usa la app WhatsApp Business, sin costo por mensaje (no verificado hoy). Para escalar con la API de Meta no verifiqué la tarifa por mensaje en Argentina. Supuesto de trabajo, que no es la tarifa real: USD 0,50 por caso.
+- Web y no-code: cerca de 0 por caso con planes gratuitos.
+- Impuestos: no calculados (monotributo, no verificado).
+- Revisión humana (estimación): 20 a 40 minutos por caso. Valuando la hora en USD 10 (supuesto), son USD 3 a 7.
+
+MARGEN POR CASO (estimación):
+- 20 − 1,5 − 1,0 − 0,5 ≈ USD 17 antes de las horas de Facu.
+- Unos USD 12 con 30 minutos de revisión.
+
+QUÉ DICEN LOS NÚMEROS:
+- Con anuncios pagos, un ticket de USD 20 solo cierra si cada cliente pagado cuesta menos de USD 12 a 17.
+- Si cuesta más, hacen falta canales gratis (grupos, centros, médicos, SEO), un ticket más alto en casos de alto costo (USD 40 a 60, estimación) o cobro al éxito sobre reintegros (10 a 15 % de lo recuperado, estimación).
+- Para ganar USD 1.000 por mes después de costos variables hacen falta entre 60 y 85 casos pagos por mes (estimación).
+
+### Tamaño del mercado
+
+DATO VERIFICADO
+- Según el Censo 2022 (INDEC, citado por el Instituto de Estadística de la Ciudad, informe IR 2024-1880, julio de 2024), tiene obra social o prepaga (incluido PAMI) el 60,9 % de la población del país y el 81,5 % de la de CABA.
+- En Rosario, el 27 % no tiene obra social ni prepaga (La Capital, sobre el mismo censo).
+
+ESTIMACIÓN
+- Con 46,04 millones de habitantes en el país y 3,12 millones en CABA (cifras del Censo 2022 de memoria, no verificadas hoy), da unos 28 millones de personas con cobertura en el país y unos 2,5 millones en CABA.
+- Es un techo. La denuncia ante la SSSalud sirve para obras sociales nacionales y prepagas, no para PAMI ni para las obras sociales provinciales (esto último es conocimiento general, no verificado hoy).
+- El padrón total de la SSSalud de 2025-2026 no lo encontré (2 búsquedas).
+
+CONTEXTO
+- La SSSalud dijo que más de 3 millones de personas eligieron a dónde mandar sus aportes en los primeros seis meses después del fin de la triangulación (BAE Negocios, 2025-07-17). Hay rotación entre entidades, y cada cambio puede traer conflictos de cobertura (inferencia).
+
+FRECUENCIA DEL PROBLEMA: sin dato
+- No encontré cuántas denuncias recibe por año la SSSalud (búsqueda del 2026-10-19) ni cuántos amparos de salud hay.
+- Lo único es la estimación del Colegio de Abogados de que los amparos crecieron entre 30 y 40 % en 2024 contra 2023 (La Capital, noviembre de 2024, ya en la ficha).
+
+PRIMERA CIUDAD: CABA (la de mayor cobertura), o la ciudad donde viva Facu, para poder ir en persona a los centros.
+
+LO QUE HACE FALTA (estimación)
+- 60 a 85 casos pagos por mes son unos 700 a 1.000 por año: entre el 0,03 y el 0,04 % de los ~2,5 millones de personas con cobertura en CABA.
+- El tamaño no es el límite. El límite es llegar al afiliado justo cuando le niegan algo, y que pague.
+
+### A quién entrevistar
+
+1) MADRES Y PADRES DE CHICOS CON CUD que en los últimos 6 meses tuvieron cortes o demoras de terapias, topes de sesiones, problemas con el acompañante terapéutico, el transporte o la escolaridad.
+- Dónde: grupos de Facebook de familias TEA o con discapacidad de la ciudad (pedir permiso a los admins), salas de espera de centros de terapias y escuelas especiales.
+- Sin mostrar la cara: un mensaje de texto y una charla de 15 minutos por WhatsApp o llamada.
+
+2) PACIENTES CRÓNICOS O DE ALTO COSTO, O SUS FAMILIARES (oncología, diabetes con insumos, esclerosis múltiple, fertilidad) que tuvieron una negativa o pagaron de su bolsillo mientras esperaban.
+- Dónde: asociaciones de pacientes de cada enfermedad; farmacias que entregan medicamentos de alto costo (preguntarle al farmacéutico quién está peleando una autorización); hilos de r/argentina y foros sobre "la prepaga no me cubre".
+- En los perfiles 1 y 2, buscar tanto a quien ya hizo la denuncia en la SSSalud como a quien abandonó (para no caer en el sesgo de supervivencia).
+
+3) ADMINISTRATIVAS DE CENTROS DE TERAPIAS, KINESIOLOGÍA O CONSULTORIOS, que ven negativas todos los días. Interesan como canal de derivación, no como clientes, porque el lado del prestador ya está en el registro (SAL-2-4, SAL-1-3).
+- Dónde: en persona en los centros, con un flyer impreso.
+
+4) PERSONAL DE DEFENSORÍAS DEL PUEBLO (CABA o provincia), de las Defensorías Públicas Oficiales y de la atención al público de la SSSalud. Saben cuántos casos llegan, de qué tipo y por qué la gente abandona.
+- Dónde: pedir la entrevista por mail institucional o ir a la mesa de entradas.
+
+5) RESPONSABLES DE RRHH DE EMPRESAS CON PREPAGA CORPORATIVA (para la variante "otro cliente").
+- Dónde: LinkedIn y cámaras empresarias de la ciudad.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última vez que tu prepaga u obra social te negó, te cortó o te demoró algo. ¿Qué era y más o menos en qué fecha fue?
+2. ¿Qué hiciste ese mismo día? Contame los pasos en orden, aunque parezcan obvios.
+3. ¿Cuántas veces tuviste que insistir y por qué canales (teléfono, mail, sucursal, app)? ¿Cuánto tiempo te llevó en total?
+4. Mientras tanto, ¿pagaste algo de tu bolsillo (el remedio, la terapia, un traslado)? ¿Cuánto fue?
+5. ¿Hiciste alguna denuncia formal (Superintendencia, Defensa del Consumidor, Defensoría)? Si la hiciste, ¿cómo te enteraste, cuánto te llevó y qué pasó? Si no, ¿qué te frenó?
+6. ¿Hablaste con un abogado o con un gestor? ¿Cómo lo encontraste y qué te cobró, o cómo te dijo que cobraba?
+7. ¿Quién te ayudó de verdad en ese momento (el médico, un familiar, un grupo, la administrativa del centro)? ¿Qué hizo exactamente?
+8. De todo el proceso, ¿qué parte te costó más: saber qué te correspondía, juntar los papeles, escribir el reclamo o sostener la insistencia?
+9. ¿Cómo terminó y cuánto tardó? ¿Te lo cubrieron, lo pagaste vos o lo dejaste?
+10. ¿Tenés algo pendiente ahora? Si querés, mandame la negativa con tus datos tapados y te cuento qué dice la norma, sin costo.
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Los afiliados con una negativa o demora reciente de su prepaga u obra social pagan un fee fijo de unos USD 20 (en pesos) para que les armen la denuncia ante la SSSalud y la nota formal, aunque la vía estatal sea gratis desde la Res. SSS 951/2025. Al menos 1 de cada 4 que suben su caso para el triage gratis, paga.
+- **Predicción (antes de empezar):** Escrita antes de empezar: 250 visitas, 25 negativas subidas con documentos (10 %) y 7 pagos de unos USD 20 (28 % de las subidas). Cada cliente pagado cuesta unos USD 15 (USD 100 de anuncios dividido 7) y Facu dedica 35 minutos o menos por caso. Supuesto no verificado: un costo por clic en Google Ads de USD 0,40 a 0,60 para estas búsquedas en Argentina, lo que da unas 200 visitas pagas más unas 50 de grupos y centros.
+- **Pérdida máxima:** USD 170 como tope: USD 100 de Google Ads, hasta USD 50 por una hora de un abogado de salud que revise las 5 plantillas (honorario estimado, no verificado) y USD 20 de dominio y herramientas. Claude va con la suscripción que Facu ya usa; si usa la API, son menos de USD 5 para 30 casos (estimación). La plata cobrada y devuelta no suma pérdida.
+- **Duración:** 14 días de captación y cobro (si arranca el 2026-10-20, cierra el 2026-11-02). Después, seguimiento sin gasto hasta el día 45 (2026-12-03) para ver cómo responden las entidades.
+- **Pasos:**
+  1. Día 0: escribir en un documento con fecha la hipótesis, la predicción y los criterios de seguir o cortar, antes de gastar un peso.
+  2. Días 1-2: con Claude, armar 5 plantillas (medicamento de alto costo, prestaciones de discapacidad, reintegro, demora de autorización, prótesis o insumos) basadas en las Res. SSS 951/2025 y 951/2026, el PMO y la ley que corresponda en cada caso. Pagar una hora a un abogado de salud para que revise las plantillas (no cada caso) y preguntarle por el límite con el ejercicio de la abogacía.
+  3. Días 2-3: landing sin cara (Carrd o Google Sites) y formulario (Tally o Google Forms) para subir la negativa. El formulario incluye el consentimiento expreso y por escrito para datos de salud (Ley 25.326, arts. 5 y 7) y aclara que los documentos se borran a los 30 días de cerrar el caso. Botón de WhatsApp Business. Oferta: 'Triage gratis en 24 h: te decimos si te corresponde y qué presentar. Si querés, armamos la denuncia ante la Superintendencia y la nota a tu prepaga, listas para presentar por TAD, por $X. Si no te las entregamos en 48 h, te devolvemos la plata.'
+  4. Día 3: crear un link de pago de Mercado Pago con precio fijo (acreditación a 14 días, para pagar menos comisión).
+  5. Días 3-14: Google Ads de búsqueda, solo en la ciudad elegida, con USD 100 en total (unos USD 9 por día) sobre 15 a 20 búsquedas de alta intención: 'prepaga no me cubre', 'obra social me negó', 'denuncia superintendencia de salud', 'reclamo prepaga discapacidad', 'reintegro prepaga reclamo'.
+  6. Días 3-14: publicar un texto (sin cara) en 10 grupos de Facebook de familias con discapacidad y de pacientes de la ciudad, con permiso de los admins. Dejar un flyer con QR en 5 centros de terapias o farmacias, en persona.
+  7. En cada caso: triage con Claude en menos de 24 h. Si paga, entregar en menos de 48 h el PDF de la nota, el texto de la denuncia, la lista de adjuntos y una guía paso a paso de TAD. Facu anota los minutos que le lleva cada caso.
+  8. Planilla diaria: visitas, negativas subidas, triages, pagos, minutos por caso y, para quien no paga, el motivo, preguntado por WhatsApp ('¿qué te frenó?').
+  9. Día 14: comparar contra la predicción, decidir si sigue o corta según los criterios y escribir el post-mortem.
+  10. Días 15-45 (sin gasto): seguir los casos presentados (CONSTA, INTIMA, respuesta de la entidad) para medir resultados, y borrar los documentos a los 30 días de cada cierre.
+- **Sigue si:** Para seguir 4 semanas más a escala chica: 6 pagos o más, 20 negativas subidas o más en 14 días, cada cliente pagado cuesta USD 17 o menos (el margen por caso antes de horas) y Facu dedica 40 minutos o menos por caso. Además, al día 45 al menos 1 de cada 3 casos presentados tiene respuesta favorable o una INTIMA de la SSSalud; si no, el producto vende pero no resuelve, y hay que revisar las plantillas antes de crecer.
+- **Se corta si:** Menos de 3 pagos con 20 subidas o más: la gente quiere ayuda pero no paga. Se corta el cobro al afiliado y, como único experimento siguiente, se prueba otro pagador (empleadores con prepaga corporativa). Menos de 10 subidas: el canal no trae casos, se corta. Más de 60 minutos por caso: es un servicio artesanal, no un producto. Si llega cualquier intimación del Colegio de Abogados o un reclamo por datos personales, se frena y se consulta con un abogado.
+
+### Cinco formas de retorcerla
+
+- Otro cliente, empleadores con prepaga corporativa: la empresa paga un abono por empleado y ofrece un 'defensor de cobertura' como beneficio. El reclamo sale con el peso de la cuenta corporativa, que es un cliente grande de la prepaga. Es una hipótesis sin verificar. No propongo a los abogados como cliente porque se parece a SER-2-5, que Facu descartó.
+- Otro cobro, abono anual para familias con CUD: en discapacidad los conflictos se repiten (cortes de terapias, topes de sesiones, transporte, acompañante; es la lista de stabogados.com.ar). Un precio por año con reclamos ilimitados convierte un ticket chico en ingreso recurrente. Alternativa: cobro al éxito sobre reintegros, entre 10 y 15 % de lo recuperado (estimación).
+- Otro país, Chile: ya demostró que hay demanda masiva de afiliados contra aseguradoras (más de 16.000 causas de un solo abogado en 2022, La Tercera), pero por vía judicial y pagada con costas. La variante es usar el mismo motor para la vía administrativa chilena o para Colombia (tutela en salud). No verifiqué ninguna de las dos vías.
+- Otro activo, los datos: cada caso deja una negativa anonimizada (qué se negó, qué entidad, qué norma, cómo terminó). Con miles de casos sale un índice público '¿quién cubre de verdad?', cruzado con el Ranking de Cumplimiento de la SSSalud (Res. 951/2025, art. 7). Sirve para atraer gente por SEO y prensa sin mostrar la cara, y para ayudar a elegir prepaga. Solo con datos agregados, por la Ley 25.326.
+- Poner un humano gratis, el médico tratante: la IA redacta el informe de necesidad médica (lo que Claimable llama evidencia clínica) y el médico del paciente solo lo revisa y lo firma. Sube la tasa de éxito sin sumar costo. Al revés, sacar a Facu del medio: una versión 'hacelo vos' a precio mínimo (USD 3 a 5, estimación) que arma el texto y la guía de TAD, para medir cuánta gente lo hace sola.
+
+### Riesgos
+
+- Competir con lo gratis: la vía de la SSSalud no cuesta nada y desde las Res. 951/2025 y 951/2026 es más simple (sin reclamo previo, 5 días hábiles, INTIMA). El afiliado puede preferir hacerla solo, con una guía gratis.
+- Nadie probó que el afiliado pague: en Chile el litigio masivo lo financiaban las Isapres a través de las costas (CIPER 2013, IPSUSS 2017). Acá también las costas las paga el vencido (Ley 16.986, art. 14), así que los abogados pueden cobrarle a la prepaga y no al afiliado.
+- Datos de salud: la letra del art. 7 de la Ley 25.326 restringe recolectar datos sensibles y prohíbe formar archivos que los revelen, con sanciones administrativas y penales (arts. 31 y 32). Hay que diseñar para no guardar datos y validarlo con un abogado de datos antes de escalar.
+- Ejercicio de la abogacía: vender la redacción de reclamos podría verse como asesoramiento jurídico (Ley 23.187 y art. 247 del Código Penal, no leídos hoy). Nunca firmar escritos judiciales; las plantillas, revisadas por un abogado.
+- Plazos: el amparo vence a los 15 días hábiles del acto (Ley 16.986, art. 2 e). Si el producto demora el caso en la vía administrativa, puede perjudicar al paciente. Hacen falta una alarma de plazo y derivación temprana en las urgencias.
+- Reglas que cambian rápido: la 951/2025 se reescribió en menos de un año (951/2026) y se eliminó el tope de 30 días hábiles. Hay que mantener actualizados las plantillas y los plazos, y un cambio de gestión puede debilitar esta vía.
+- Fricción de TAD: presenta el titular con su clave de ARCA o Mi Argentina, y muchos pueden abandonar en ese paso (hipótesis a medir en el experimento).
+- Conseguir clientes puede salir caro: las búsquedas de alta intención las pelean estudios de abogados y sitios de guías, y Facu no quiere mostrar la cara. Con un ticket de USD 20, cada cliente pagado tiene que costar menos de USD 12 a 17.
+- Riesgo humano y de reputación: son usuarios vulnerables (discapacidad, cáncer). Prometer de más o equivocarse de norma puede costarle un tratamiento a alguien. Nunca garantizar resultados.
+- Depende de que la SSSalud aplique de verdad las multas. No verifiqué cómo multa en la práctica; si la INTIMA no se ejecuta, la vía pierde fuerza.
+
+### Fuentes
+
+- Res. SSS 951/2025, texto oficial: https://www.argentina.gob.ar/normativa/nacional/norma-413974/texto (consultado 2026-10-19)
+- Res. SSS 951/2026, que modifica la 951/2025, texto oficial: https://www.argentina.gob.ar/normativa/nacional/norma-426183/texto (consultado 2026-10-19)
+- Ley 25.326 de Protección de Datos Personales, InfoLEG: http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm (consultado 2026-10-19)
+- Ley 16.986 de Acción de Amparo, InfoLEG: http://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/46871/norma.htm (consultado 2026-10-19)
+- iProfesional, honorarios de amparos de salud contra prepagas (2025-10-25): https://www.iprofesional.com/legales/439513-como-se-calculan-los-honorarios-de-abogados-por-iniciar-un-amparo-de-salud-contra-prepagas (consultado 2026-10-19)
+- vLex, 'Maffia, Mariana y otro c/ OSDE s/ amparo ley 16.986' (solo el título, visto en el buscador): https://ar.vlex.com/vid/maffia-mariana-c-osde-654796453
+- SSSalud, reclamar por problemas de cobertura (vía buscador, verificador): https://www.argentina.gob.ar/reclamar-por-problematicas-de-cobertura-prestacional
+- SSSalud, denunciar por prestaciones de discapacidad (título visto en el buscador): https://www.argentina.gob.ar/servicio/denunciar-por-prestaciones-de-discapacidad
+- CIPER Chile (2013-03-26), costas pagadas por las Isapres (resumen del buscador): https://www.ciperchile.cl/2013/03/26/explosivo-aumento-de-la-inconstitucionalidad-con-que-funcionan-las-isapres-en-chile/
+- DF Chile, la Corte Suprema aumenta las costas en recursos contra Isapres (resumen del buscador): https://www.df.cl/mercados/suprema-aumenta-costas-en-recursos-contra-isapres
+- IPSUSS (2017), judicialización de las Isapres (resumen del buscador): https://ipsuss.cl/ipsuss/site/docs/20170721/20170721143207/judicializaci__n_isapres_junio_2017.pdf
+- La Tercera, 'El negocio de demandar a las isapres por los planes de salud se traba' (resumen del buscador): https://www.latercera.com/pulso/noticia/el-negocio-de-demandar-a-las-isapres-por-los-planes-de-salud-se-traba/5PSRFB6HBJCSZH7E3GVRBW5GTY/
+- El Mostrador (2022-08-25), la Corte Suprema y las alzas de planes de Isapres (resumen del buscador): https://www.elmostrador.cl/noticias/opinion/2022/08/25/corte-suprema-sorprende-con-sentencia-sobre-alza-anual-de-planes-de-salud-de-afiliados-a-isapres/
+- Boletín legislativo N.º 15.674-07 (2023), costas pagadas por las Isapres entre 2010 y 2019 (resumen del buscador): https://www.diarioconstitucional.cl/wp-content/uploads/2023/02/Boletin-N°-15.674-07-Salud.pdf
+- Instituto de Estadística y Censos de la Ciudad, IR 2024-1880, cobertura de salud según el Censo 2022 (resumen del buscador): https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2024/07/IR_2024_1880.pdf
+- La Capital, el 27 % de los rosarinos no tiene obra social ni prepaga (Censo): https://www.lacapital.com.ar/la-ciudad/nuevo-dato-del-censo-el-27-los-rosarinos-no-tiene-obra-social-o-prepaga-n10143922.html
+- BAE Negocios (2025-07-17), más de 3 millones eligieron el destino de sus aportes: https://www.baenegocios.com/amp/Adios-a-la-triangulacion-en-salud-mas-de-3-millones-de-afiliados-ahora-eligen-libremente-el-destino-de-sus-aportes-20250717-0036/
+- Yo-facturo, comisiones del link de pago de Mercado Pago 2026 (referenciales, no oficiales): https://yo-facturo.com/blog/link-de-pago-mercado-pago/
+- Anthropic, precios de la API de Claude (tabla del 2026-10-06): https://platform.claude.com/docs/en/about-claude/pricing
+- Estudio de amparos de discapacidad (competencia humana): https://stabogados.com.ar/civil/amparos/discapacidad/
+- Guía de reclamos de miobrasocial.com.ar (competencia en SEO): https://www.miobrasocial.com.ar/blog/reclamos-denuncias-obra-social-prepaga/
+- Contadores en Red, normas y formulario de reclamos (cita la Res. 155/2018, ya derogada): https://contadoresenred.com/obras-sociales-y-medicina-prepaga-normas-y-formulario-para-reclamos/
+- De la ficha original: https://getclaimable.com/ ; https://www.diariojornada.com.ar/382231/economia/recrudecen_conflictos_entre_afiliados_y_prepagas_por_las_prestaciones ; https://www.lacapital.com.ar/la-ciudad/derecho-la-salud-que-deben-cubrir-las-prepagas-y-como-reclamar-las-negativas-n10163020.html ; https://www.infobae.com/inhouse/2026/07/21/accesible-innovadora-y-dinamica-una-propuesta-de-salud-integral-que-crece-en-la-argentina/
+
+---
+
+## 4. Inspección de maquinaria agrícola usada a pedido del comprador: mecánico local + informe estandarizado por IA
+
+1) Qué es: una web donde el comprador pide la inspección de una máquina agrícola usada que está lejos. Un mecánico de la zona la revisa con un checklist guiado (fotos, video de arranque y en marcha, horómetro, número de serie) y Claude arma un informe estandarizado con semáforo y una lista de lo que NO se revisó.
+2) Para quién: contratistas rurales y productores que compran tractores, cosechadoras, pulverizadoras o sembradoras usadas a cientos de km, por Agroads, Agrofy o MercadoLibre.
+3) Quién paga: el comprador, un precio fijo por máquina y por adelantado (en el experimento, USD 120, y USD 180 si es cosechadora). El inspector se queda con el 60-65%.
+4) Vuelta de tuerca: en Argentina la confianza en el usado siempre la puso el que vende (ULLA en 2019, Metalfor en 2020, Vip Agro en 2023, el sello de Agroads). Esto la pone del lado del que compra y sirve para cualquier aviso de cualquier vendedor. Es parecida a L1 (ELEGIDA), llevada a maquinaria.
+5) Por qué ahora: entre 2021 y 2024 las máquinas subieron 46-47% en dólares, así que equivocarse cuesta más. El Decreto 273/2025 abrió la importación de usados, con lo que circulan más máquinas de historia desconocida. Y la visión por IA permite que el informe de cualquier mecánico se pueda comparar con el de otro.
+
+**Veredicto:** Vale probarla solo si Facu consigue 2-3 mecánicos de confianza en una zona con muchos avisos y acepta que el experimento mide plata, no entusiasmo. El hueco es real: en Argentina la confianza en el usado siempre la puso el vendedor y nadie ofrece inspección a pedido del comprador. Pero el mercado es chico y el único intento independiente parece haber cerrado. Si en 14 días no hay 3 pagos de desconocidos, cortar o girar al sello que paga el vendedor.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA: todos los intentos que encontré son del lado del vendedor. Ninguno es una inspección que pida el comprador.
+- Vip Agro (nota de Bichos de Campo del 2023-12-29, leída el 2026-10-19): catálogo online de maquinaria usada revisada antes de publicarse, con informe técnico de la consultora Mecatech. Socios: Francisco Soriano y los ingenieros agrónomos Santiago Tourn y Francisco Guerrero Mackinlay. Tenía poco stock (sembradoras, pulverizadoras, fertilizadoras), precios publicados y llevaba un mes en marcha. La nota no da cifras de ventas ni dice quién pagaba la verificación. El 2026-10-19 el dominio vipagro.com.ar no respondía (error DNS ENOTFOUND): puede haber cerrado o haberse mudado, NO lo confirmé. Opinión: el modelo de catálogo propio verificado obliga a conseguir stock y vender máquinas, que es lo difícil; la inspección a pedido no necesita stock. Mecatech ya hace informes técnicos de maquinaria: puede ser aliado o competidor (no verifiqué si atiende a compradores).
+- ULLA Maquinarias (concesionario), 2019-01-25: lanzó un Programa de Usados Certificados para unidades usadas que entran a sus concesionarios. Las diagnostican sus propios técnicos y entregan un certificado de garantía con las reparaciones hechas; la nota no dice plazo ni alcance de la garantía. Estado actual: no verificado.
+- Metalfor (fabricante), 2020-11-06: vende en Agrofy usados de su stock revisados en fábrica (dato del verificador).
+- Agroads: etiqueta 'Usado Verificado' sin ninguna inspección descripta (dato del generador del 2026-10-18; no lo volví a revisar).
+- Italia Maquinarias (Armstrong, Santa Fe): fue de las primeras en importar usados después del Decreto 273/2025 y los reacondiciona para revender (Bichos de Campo, según el resumen del buscador).
+LATAM: en una búsqueda en portugués ('vistoria cautelar máquinas agrícolas usadas laudo técnico trator') no apareció ningún servicio de inspección pre-compra de maquinaria agrícola en Brasil. Sí apareció que el 'laudo' que piden los bancos para financiar un tractor usado mira valor y vida útil, no la mecánica, y la recomendación de llevar un mecánico de confianza (Aegro) y de exigir una prueba con carga (Correio Braziliense).
+CIERRES O PIVOTES: no encontré ninguno documentado de una red independiente de inspectores, ni en Argentina ni en LatAm. Búsquedas hechas: '"usados certificados" maquinaria agrícola Argentina', 'revisión mecánica antes de comprar cosechadora o tractor usado', 'importar maquinaria usada de EE.UU. inspección previa', 'tasación maquinaria agrícola usada honorarios'.
+AFUERA (del verificador): Fendt SMART Check (España) es gratis y está atado a la marca y al concesionario. IronClad de Ritchie Bros. y Tractor Zoom siguen sin verificar.
+
+### Competencia en Argentina
+
+Nadie publica precios. Hoy compiten:
+1) El propio comprador, que viaja o manda a un mecánico o contratista conocido. Es la competencia más fuerte y es informal; no encontré ofertas de revisión pre-compra de maquinaria con tarifa publicada.
+2) Programas de usados del vendedor: ULLA Maquinarias (2019, con garantía propia) https://news.agrofy.com.ar/noticia/179198/lanzamiento-nuevo-programa-usados-certificados y Metalfor en Agrofy (2020) https://news.agrofy.com.ar/noticia/190333/maquinaria-agricola-oportunidad-negocio-detras-usados-seleccionados. Lo que hacen bien: el que vende pone la garantía y asume el riesgo, algo que un inspector no puede dar. El hueco: solo cubren su propio stock, no la máquina de un particular o de otro concesionario.
+3) Portales: Agroads https://www.agroads.com.ar/ con su etiqueta 'Usado Verificado' (sin inspección descripta) y Agrofy https://www.agrofy.com.ar/ (no pude verificar si ofrece inspección). Lo que hacen bien: concentran la demanda. El hueco: publican pero no inspeccionan. Pueden copiar la idea; conviene tratarlos como canal.
+4) Vip Agro (catálogo verificado, 2023) https://bichosdecampo.com/?p=162442: el dominio no respondía el 2026-10-19.
+5) Reacondicionadores e importadores de usados (Italia Maquinarias, Armstrong): venden usados reacondicionados con su propia revisión. También pueden ser clientes de un chequeo en origen.
+6) Tasadores y peritos: la búsqueda no encontró honorarios publicados para tasar maquinaria en Argentina.
+En resumen, ningún actor argentino ofrece una inspección independiente, a pedido del comprador, para la máquina de cualquier vendedor y con un informe estándar.
+
+### Regulación
+
+No encontré ninguna norma que habilite o prohíba un servicio privado de inspección pre-compra (tampoco lo busqué en el texto de las leyes). Lo que sí toca la idea:
+1) Decreto 273/2025 (importación de bienes de capital usados). Según Bichos de Campo eliminó el CIBU y las licencias no automáticas: alcanza con una declaración jurada y los aranceles, con un tope de 35% para tractores y cosechadoras. NO lo leí en el Boletín Oficial (se agotaron las lecturas); la fuente es secundaria. Además, SENASA inspecciona la maquinaria usada importada y exige que llegue limpia, sin tierra ni restos vegetales (Revista Cultivar y un documento del MAGyP que apareció en la búsqueda pero no abrí). Para la idea significa más máquinas de historia desconocida y abre la variante de un chequeo en origen.
+2) Código Civil y Comercial: vicios ocultos (arts. 1051-1058) y cláusulas que limitan la responsabilidad (art. 1743). Intenté leerlos en InfoLEG el 2026-10-19 y devolvió 403, así que NO están verificados. Por qué importa (lo que sigue es memoria mía, a confirmar con un abogado): el vendedor no respondería por defectos que el comprador conoció o debió conocer con un examen adecuado. Si es así, un informe de inspección puede cambiar quién carga con el defecto que no se detectó y llevar el reclamo hacia el inspector. Por eso el informe tiene que listar lo que NO se revisó (por ejemplo, el interior del motor o la prueba bajo carga) y el contrato tiene que fijar el alcance.
+3) Palabras con reglas propias (no verificado): 'tasación' (martilleros, Ley 20.266) y 'peritaje' (colegios profesionales provinciales). Hasta consultarlo, llamar al producto 'informe de inspección' y al precio 'referencia de mercado por comparables'.
+4) Registro de la máquina (no verificado hoy): tractores y cosechadoras se inscriben en el registro automotor (DNRPA). Sumar un informe de dominio (prendas, embargos) sería útil. ACARA advierte que la informalidad es muy alta en tractores de menos de 100 HP.
+5) Pagos: si Facu cobra y le paga al inspector, es un servicio con subcontratista. Si más adelante se retiene el pago de la máquina hasta la entrega (escrow, como en N142), entran las reglas del BCRA para proveedores de servicios de pago: no las leí.
+
+### Números de unidad
+
+PRECIO (decisión de diseño, no es un dato): en el experimento, USD 120 por tractor, sembradora o pulverizadora y USD 180 por cosechadora, dentro de 60 km del inspector. La ficha proponía USD 150-400.
+REPARTO: el inspector se lleva 62,5% y la plataforma 37,5%.
+COSTOS POR OPERACIÓN:
+- IA (Claude). Precios por millón de tokens según la referencia de la API que trae Claude Code (guardada el 2026-10-06; página oficial https://platform.claude.com/docs/en/about-claude/pricing, que no abrí hoy): Sonnet 5.5, USD 2 de entrada y USD 10 de salida; Haiku 5.5, USD 0,10 / 0,50; Opus 5.5, USD 4 / 20. En los modelos de alta resolución una foto usa hasta ~4.784 tokens (lado largo de 2.576 px; misma referencia; https://platform.claude.com/docs/en/build-with-claude/vision). Estimación: 150 fotos × 4.784 = 717.600 tokens, USD 1,44 con Sonnet 5.5 en el peor caso. Achicando las fotos a ~1.600 tokens cada una son 240.000 tokens, USD 0,48. El informe más el razonamiento suman ~20.000 tokens de salida, USD 0,20. Treinta cuadros del video, USD 0,10-0,30. Total de IA: USD 0,7-2,5 por informe. En el experimento no cuesta nada extra: se hace a mano con la suscripción de Claude que Facu ya usa.
+- WhatsApp: la app WhatsApp Business (gratis según lo que conozco; no lo verifiqué hoy). En el experimento no hace falta la API, cuya tarifa para Argentina no verifiqué.
+- Cobro: no encontré la comisión vigente del link de pago de Mercado Pago en Argentina (búsqueda del 2026-10-19; la página oficial no muestra porcentajes). Referencias de otros países, según el resumen del buscador: Chile 3,19% + IVA con el dinero al instante, México 3,49% + MXN 4. Supuesto de trabajo: 6% + IVA ≈ 7,3% (estimación conservadora, a confirmar en la cuenta). En el experimento conviene cobrar por transferencia bancaria (normalmente sin costo para quien recibe; no verificado).
+- Viáticos: incluidos hasta 60 km; más lejos se cobra un adicional por km (tarifa a definir; no consulté el precio del combustible).
+- Reserva para devoluciones y reclamos: 5% (estimación).
+- Seguro de responsabilidad civil profesional: costo no verificado; preguntarle a un productor de seguros.
+MARGEN POR OPERACIÓN (estimación; restando inspector, 7,3% de cobro, USD 2 de IA y 5% de reserva):
+- USD 120: 120 − 75 − 8,8 − 2 − 6 = USD 28 (24%).
+- USD 180: 180 − 112,5 − 13,1 − 2 − 9 = USD 43 (24%).
+- USD 250: queda ≈ USD 61.
+Todo esto es antes de 1 a 1,5 horas de coordinación de Facu por caso. Cobrando por transferencia el margen sube unos 7 puntos.
+Para ganar USD 1.000 por mes de contribución harían falta ~36 inspecciones a USD 120, ~23 a USD 180 o ~16 a USD 250 (estimación).
+
+### Tamaño del mercado
+
+DATO VERIFICADO (por el resumen del buscador; no abrí el PDF): en 2025 se vendieron en Argentina más de 17.000 máquinas agrícolas nuevas (cosechadoras, tractores, sembradoras e implementos), 5,9% más que el año anterior, por $2,9 billones (BCR con datos del INDEC, https://www.bcr.com.ar/es/print/pdf/node/115175). Según ACARA, el mercado de tractores de 2025 quedó estancado frente a 2024 y hay mucha informalidad por debajo de 100 HP (Bichos de Campo, por resumen del buscador). Precios: el valor promedio de cosechadoras, tractores y sembradoras vendidas subió 47%, 46% y 38% en dólares entre 2021 y 2024 (Bichos de Campo).
+NO ENCONTRÉ: cuántas transferencias de maquinaria usada registra el DNRPA, cuántos compradores de usados hay, ni cuántos avisos activos tiene cada portal. Tampoco consulté en esta sesión el Censo Nacional Agropecuario (cantidad de explotaciones).
+ESTIMACIÓN PROPIA (gruesa): si por cada máquina nueva se venden entre 1 y 3 usadas (supuesto sin fuente), habría ~17.000-51.000 operaciones de usados por año. Si en el 1-2% de los casos el comprador está lejos y paga una inspección, serían ~170-1.000 inspecciones por año en todo el país, o sea entre ~USD 5.000 y 60.000 de contribución anual con márgenes de USD 28-61. Opinión: cobrándole solo al comprador, el negocio es chico; crece si se suman el sello que paga el vendedor y los financiadores.
+PRIMERA ZONA: no tengo datos por ciudad. Propuesta: un radio de 60-100 km alrededor del acopio CEMEVA (Facu sabe dónde queda; acá no figura) o una zona con muchos avisos en Agroads donde Facu tenga 2-3 mecánicos de confianza.
+
+### A quién entrevistar
+
+1) Contratistas rurales (siembra, cosecha, pulverización) que compraron una máquina usada a más de 150 km en los últimos 24 meses. Dónde encontrarlos: clientes y fleteros del acopio CEMEVA; la federación y las cámaras provinciales de contratistas (FACMA; contacto no verificado); grupos de Facebook y WhatsApp de contratistas. Meta: 5 entrevistas.
+2) Productores medianos que compraron o vendieron un usado por Agroads, Agrofy o MercadoLibre. Dónde: productores clientes del acopio; grupos CREA y cooperativas de la zona; escribirle al vendedor de un aviso que ya figure como vendido. Meta: 5.
+3) Mecánicos rurales independientes y talleres de maquinaria agrícola (la oferta). Dónde: Google Maps ('taller maquinaria agrícola' + localidad), ex-mecánicos de concesionarios, docentes de mecánica de escuelas agrotécnicas. Meta: 3, más las 10 llamadas del experimento.
+4) Vendedores de usados: concesionarios y agencias de usados (por ejemplo en el sur de Santa Fe, donde está Italia Maquinarias) y particulares con un aviso activo. Lo central: cuántos compradores de lejos perdieron porque no podían ver la máquina. Meta: 3.
+5) Quien financia o importa usados: oficiales de crédito agro de bancos y empresas de leasing, e importadores o reacondicionadores (Italia Maquinarias, Armstrong). Qué exigen hoy antes de prestar o comprar, quién lo hace y cuánto pagan. Meta: 2.
+Las ferias del sector caen fuera de la ventana de dos semanas.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última máquina usada que compraste: qué era, dónde estaba, cuánto pagaste y cómo la encontraste.
+2. ¿Fuiste a verla? ¿Quién fue, cuántos kilómetros hiciste, cuántos días perdiste y cuánto gastaste en el viaje?
+3. ¿Qué revisaste y con quién? ¿Le pagaste a alguien para que la mire? ¿Cuánto le pagaste y cómo lo conseguiste?
+4. Después de comprarla, ¿apareció algo que no sabías? ¿Cuándo lo descubriste y cuánto te costó arreglarlo?
+5. En los últimos dos años, ¿cuántas máquinas te interesaron pero no fuiste a ver porque estaban lejos? ¿Qué pasó con esas compras?
+6. ¿Cómo pagaste la seña y el saldo? ¿Cómo te aseguraste de que el vendedor era el dueño y de que la máquina no tenía prenda ni embargo?
+7. La última vez que vendiste una máquina, ¿cuántos interesados vinieron a verla y cuántos se fueron sin comprar? ¿Alguno pidió que la revisara un tercero?
+8. ¿Quién en tu zona revisa máquinas de otros? ¿Cuánto cobra y cuánto tarda en ir?
+9. La última vez que un aviso decía 'impecable' y no podías comprobarlo, ¿qué hiciste y a quién llamaste?
+10. ¿Estás mirando algún aviso ahora? ¿Qué te falta saber de esa máquina para decidir si viajás o no?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Compradores de maquinaria agrícola usada que está lejos pagan por adelantado (no solo dicen que pagarían) una inspección independiente de USD 120-180 antes de viajar o de transferir la seña, y hay mecánicos locales dispuestos a hacerla por ~60% de ese precio.
+- **Predicción (antes de empezar):** En 14 días: 20 pedidos de cotización con el link del aviso; 4 inspecciones pagadas por adelantado, de las cuales al menos 3 son de compradores fuera de la red de CEMEVA; 3 inspecciones hechas en 72 horas o menos; 3 de 10 mecánicos llamados aceptan una fecha concreta por USD 75-80; 4 de cada 5 vendedores dejan inspeccionar.
+- **Pérdida máxima:** USD 180. Inspección de muestra: USD 80 (mecánico USD 60 + combustible USD 20, estimación). Anuncios: USD 60. Dominio y página: USD 0-15. Comisiones de cobro y devoluciones: USD 25. Las inspecciones que se vendan se pagan con la plata del cliente, cobrada antes de coordinar.
+- **Duración:** 14 días: del 2026-10-20 al 2026-11-02. Decisión el 2026-11-03.
+- **Pasos:**
+  1. 2026-10-20/21: armar con Claude un checklist por tipo de máquina (tractor, cosechadora, pulverizadora, sembradora). Incluye fotos obligatorias, video de arranque en frío y en marcha, horómetro, números de serie, motor y chasis, pérdidas, juegos y una prueba funcional. Sumar un formulario de carga con subida de fotos (Tally o Google Forms) y una plantilla de informe con semáforo y la lista de lo que NO se revisó.
+  2. 2026-10-21/22: hacer una inspección de muestra sobre una máquina en venta cerca, con permiso del vendedor, que se queda con el informe gratis. Pagarle al mecánico. Sale un informe PDF de ejemplo sin datos personales.
+  3. 2026-10-22: armar una página de una sola pantalla en Cloudflare Pages. Lleva el informe de muestra, qué incluye y qué no, un precio fijo en pesos (equivalente a USD 120, o USD 180 si es cosechadora), el plazo de 72 horas, la promesa 'si en 48 h no conseguimos inspector, te devolvemos todo' y un botón a WhatsApp Business. Se muestra la marca, sin cara.
+  4. 2026-10-22/23: llamar a 10 mecánicos o talleres en 2-3 zonas con muchos avisos (sacadas de Agroads o Agrofy) y ofrecerles USD 75-80 por inspección con el checklist. Contar cuántos aceptan una fecha concreta.
+  5. 2026-10-23 al 2026-11-02: buscar clientes por cuatro canales y contarlos por separado. (a) Difusión de WhatsApp desde el acopio a sus clientes. (b) 3-4 grupos de Facebook de compraventa de maquinaria, con texto e informe de muestra. (c) USD 60 en anuncios de Meta o Google para 'tractor usado' y 'cosechadora usada'. (d) Un mensaje a 20 vendedores con aviso en las zonas donde hay mecánico, preguntando si dejarían que un comprador de lejos haga revisar la máquina.
+  6. Regla fija: no se coordina nada sin pago adelantado (total, o 50% de seña si el cliente lo pide). Llevar una planilla con cada caso: consulta, cotización, pago, inspección y qué hizo el comprador después (compró sin viajar, renegoció el precio o desistió).
+  7. 2026-11-03: comparar los resultados con la predicción escrita y decidir. Escribir un post-mortem de una página aunque salga bien.
+- **Sigue si:** Seguir, con un piloto de 6 semanas en 2 zonas que además pruebe el sello pagado por el vendedor, si se cumplen las tres cosas: al menos 3 inspecciones pagadas por desconocidos a USD 100 o más; al menos 2 mecánicos que aceptan cobrar 65% del precio o menos; y al menos 1 comprador que cambió su decisión por el informe (renegoció, compró sin viajar o desistió).
+- **Se corta si:** Cortar o girar si pasa cualquiera de estas: menos de 8 pedidos de cotización en 14 días (no hay demanda por esos canales); 0-1 pagos con 15 o más cotizaciones (la gente pregunta pero no paga); ningún mecánico acepta cobrar 65% del precio o menos; o más de la mitad de los vendedores no deja inspeccionar. Con exactamente 2 pagos es zona gris: una semana más probando el sello que paga el vendedor antes de decidir.
+
+### Cinco formas de retorcerla
+
+- Otro cliente, quien financia: un informe de estado más la identidad de la máquina (serie, motor y chasis leídos por foto) para bancos, leasing y financieras de concesionarios antes de tomar un usado en prenda; paga el financiador con un abono. En Brasil, el laudo que piden los bancos mira valor y vida útil, no la mecánica (Aegro); en Argentina no verifiqué qué piden hoy. No está en el registro.
+- Otro cobro, paga el vendedor: un informe pre-venta con sello, adjunto al aviso de Agroads, Agrofy o MercadoLibre y válido por 30 días; el comprador lo ve gratis. Es lo que hacen ULLA (2019) y Metalfor (2020) con su stock, pero independiente y para cualquier vendedor, incluidos los particulares. Ojo: el que paga elige al inspector y el comprador puede desconfiar.
+- Otro país, chequeo en origen para importar usados de EE.UU. (Decreto 273/2025): un inspector independiente allá, un informe en español hecho por IA y la verificación de la limpieza que exige SENASA antes de embarcar. Clientes: importadores y reacondicionadores (Italia Maquinarias) y productores que importan directo. Es parecida a ESP-4-3 (PENDIENTE: mercadería importada que llega fallada y ya pagada). Pide inglés (Claude ayuda) y pierde la ventaja de la red local de Facu.
+- Otro activo, pulverizadoras autopropulsadas y drones pulverizadores usados: son equipos caros y la falla clave (picos, bomba, caudalímetro, electrónica) se puede probar con un ensayo funcional estándar, como medir el caudal por pico con jarra y cronómetro, y documentarla con fotos. Así el informe deja de ser la opinión del mecánico y pasa a ser una medición. Es opinión mía; no verifiqué cuántos se venden usados.
+- Sacar el humano, autoinspección guiada del vendedor: el vendedor filma con la app siguiendo un guion (arranque en frío, horómetro, serie, pérdidas) mientras el comprador mira por videollamada, y la IA verifica que sea la misma máquina del aviso y que el video sea de hoy. Costaría USD 20-40, sin viajes y escalable. Es manipulable, así que sirve como primer filtro antes de pagar la inspección presencial.
+
+### Riesgos
+
+- Mercado chico y de baja frecuencia: un contratista compra una máquina usada cada varios años. No encontré cuántas operaciones de usados hay; mi estimación es de 170 a 1.000 inspecciones por año en todo el país.
+- Antecedente flojo: el único intento independiente que encontré (Vip Agro, 2023) tenía el dominio caído el 2026-10-19. Los programas que siguen son de vendedores (ULLA, Metalfor), que además dan garantía, algo que un inspector no puede dar.
+- Responsabilidad por un informe equivocado: el reclamo puede ir contra el inspector y contra Facu. Hacen falta un contrato con el alcance claro, la lista de lo que no se revisó y un seguro de responsabilidad civil (costo no verificado). No pude leer en la fuente las reglas del Código Civil y Comercial sobre vicios ocultos.
+- Conflicto de interés del inspector local: en un pueblo, el mecánico puede conocer al vendedor o deberle favores. Para mitigarlo: fotos con fecha, hora y ubicación, rotar inspectores y que la IA controle el informe contra el aviso.
+- Lo que la IA no ve: fallas internas de motor, transmisión o hidráulica bajo carga. La prueba con carga y el análisis de aceite (costo no verificado) aumentan el valor del informe, pero también el costo.
+- Vendedores que no dejan inspeccionar o que preparan la máquina (por ejemplo, calientan el motor antes de la visita para esconder problemas de arranque).
+- Papeles: ACARA advierte informalidad muy alta en tractores de menos de 100 HP. Una máquina puede verse bien y tener prenda, embargo o no tener papeles; el informe de dominio es otro trámite (no verificado).
+- Portales y concesionarios pueden copiarlo (Agroads ya usa la palabra 'verificado'). Conviene tratarlos como canal y no como enemigos.
+- Riesgo político: la industria local (AFAT) se opone a la importación de usados. Si se revierte el Decreto 273/2025, se pierde parte del 'por qué ahora'.
+- Tiempo de Facu: al principio todo se coordina a mano. Si no se automatizan la agenda, el cobro y el armado del informe, se vuelve un trabajo de horas y no un producto.
+
+### Fuentes
+
+- https://bichosdecampo.com/?p=162442 (Vip Agro, nota del 2023-12-29; leída 2026-10-19)
+- https://vipagro.com.ar/ (el dominio no respondía, error DNS ENOTFOUND, el 2026-10-19)
+- https://news.agrofy.com.ar/noticia/179198/lanzamiento-nuevo-programa-usados-certificados (ULLA Maquinarias, 2019-01-25; leída 2026-10-19)
+- https://news.agrofy.com.ar/tags/certificacion (índice de notas; leído 2026-10-19)
+- https://news.agrofy.com.ar/noticia/190333/maquinaria-agricola-oportunidad-negocio-detras-usados-seleccionados (Metalfor, 2020-11-06; dato del verificador)
+- https://www.agroads.com.ar/ (etiqueta 'Usado Verificado'; dato del generador del 2026-10-18)
+- https://bichosdecampo.com/sorpresa-el-primer-importador-de-maquinaria-agricola-usada-es-un-industrial-del-sur-de-santa-fe-que-tambien-esta-preocupado-por-la-produccion-nacional/ (Italia Maquinarias; por resumen del buscador del 2026-10-19, no abierta)
+- https://bichosdecampo.com/como-fue-que-llegamos-a-hablar-del-ingreso-de-maquinaria-agricola-usada-porque-aca-los-equipos-pueden-llegar-a-valer-160-mas-caros-que-en-el-extranjero/ (subas de precio en USD 2021-2024; por resumen del buscador)
+- https://bichosdecampo.com/argentina-hablita-la-importacion-de-maquinaria-agricola-usada-para-cumplir-con-una-exigencia-de-trump/ (Decreto 273/2025; dato del verificador)
+- https://bichosdecampo.com/se-pico-ya-hay-maquinaria-usada-que-busca-ingresar-por-el-puerto-de-zarate-pero-antes-deberia-ser-desinfectada/ (controles sanitarios; por resumen del buscador)
+- https://www.revistacultivar.com.br/noticias/argentina-intensifica-controle-de-maquinas-agricolas-usadas-para-barrar-pragas (SENASA y maquinaria usada importada; por resumen del buscador)
+- https://alimentosargentinos.magyp.gob.ar/HomeAlimentos/difusion-y-publicaciones/material/Importacion_maquinaria_usada.pdf (MAGyP; apareció en la búsqueda, no abierto)
+- https://www.bcr.com.ar/es/print/pdf/node/115175 (ventas de maquinaria 2025, BCR con datos del INDEC; por resumen del buscador, no abierto)
+- https://bichosdecampo.com/claroscuro-en-2025-crecio-fuerte-la-facturacion-de-maquinaria-agricola-pero-se-vendieron-menos-tractores-y-sembradoras-aunque-mas-cosechadoras/ y https://bichosdecampo.com/?p=271640 (mercado 2025 y dichos de ACARA; por resumen del buscador, no identifiqué cuál de las dos)
+- https://aegro.com.br/tags/financiamento-de-trator-usado-pelo-pronaf/ (Brasil: laudo bancario frente a revisión mecánica; por resumen del buscador)
+- https://www.correiobraziliense.com.br/cbradar/rocadeira-seminova-vicio-oculto-trator-danos/ (Brasil: prueba con carga; por resumen del buscador)
+- https://www.mercadopago.com.ar/herramientas-para-vender/link-de-pago (sin porcentajes visibles; por resumen del buscador del 2026-10-19)
+- https://www.mercadopago.cl/herramientas-para-vender/link-de-pago y https://www.mercadopago.com.mx/herramientas-para-vender/link-de-pago (tarifas de referencia de otros países; por resumen del buscador)
+- https://platform.claude.com/docs/en/about-claude/pricing (precios de Claude, tomados de la referencia de Claude Code guardada el 2026-10-06; no abierta)
+- https://platform.claude.com/docs/en/build-with-claude/vision (tokens por imagen, misma referencia; no abierta)
+- https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/norma.htm (Código Civil y Comercial; devolvió 403 el 2026-10-19, no leído)
+- https://www.agronewscastillayleon.com/programa-fendt-smart-check (Fendt SMART Check, España; dato del verificador)
+- https://www.inspectify.com/ y https://www.shopgarage.com/ (modelos de afuera; datos del generador del 2026-10-18)
+
+---
+
+## 5. Pasaporte europeo en el limbo: diagnóstico de todas las rutas (Italia después del fallo 63/2026 y la consulta al TJUE; España después del cierre de la ley de nietos) y carpeta armada a precio fijo
+
+1) Qué es: una página donde el argentino con abuelos italianos o españoles carga su árbol y sus actas. Recibe un informe que le dice en qué grupo cae según la ley italiana vigente (art. 3-bis, confirmado por la Corte Constitucional el 2026-04-30) y qué puertas le quedan. Después se le arma la carpeta a precio fijo.
+2) Para quién: argentinos de 20 a 45 años que quedaron afuera o en duda (bisnietos, nietos de un abuelo que se naturalizó argentino) y los 366.579 que pidieron la ciudadanía española por la ley de nietos hasta el 2025-07-31 (dato oficial), muchos todavía sin resolver.
+3) Quién paga: solo el solicitante (informe de unos USD 12; carpeta de unos USD 300 más los costos de terceros a precio de costo). Se descarta cobrarles comisión a abogados italianos, porque el art. 37 de su código deontológico lo prohíbe (según fuentes secundarias).
+4) La vuelta de tuerca: diagnóstico de todas las rutas a la vez, el limbo judicial explicado caso por caso y, con lógica de SMED (cambio rápido de formato), adelantar fuera de la cola solo los pasos 'sin arrepentimiento', así la persona está lista si el TJUE abre la puerta. Todo con precio publicado.
+5) Por qué ahora: la Corte confirmó la ley (sentencia 63/2026), pero el 2026-07-23 le mandó la pregunta al Tribunal de Justicia de la UE y suspendió juicios (ordenanza 147/2026). España cerró la ley de nietos el 2025-10-22 con cientos de miles de expedientes en cola. Mucha gente tiene que decidir qué hacer mientras espera.
+
+**Veredicto:** Probarla solo si se acepta como un negocio de temporada (2026-2028) y se le cobra todo al solicitante. El fallo 63/2026 achicó la puerta italiana; la consulta al TJUE (ordenanza 147/2026) deja un limbo que genera demanda de diagnóstico, pero con fecha de vencimiento; y la comisión de abogados italianos choca con el art. 37. Si en 2 semanas no aparecen 12 o más informes pagos y 2 o más señas, se cierra. Si aparecen, es un buen negocio intermedio para aprender a vender a personas sin mostrar la cara, no una startup (opinión).
+
+### Quién lo intentó y qué le pasó
+
+Hice dos búsquedas el 2026-10-19: plataformas o startups en Argentina, y empresas brasileñas después del decreto (en portugués). Esto es lo que encontré.
+- Argentina: no apareció ninguna startup ni plataforma paga de ciudadanía con software propio. La búsqueda 'startup plataforma online ciudadanía italiana española Argentina...' devolvió solo notas sobre cómo hacer el trámite. Lo único digital son herramientas gratis sin un modelo de cobro visible:
+  (a) Italtest: test de 47 preguntas que lanzó en agosto de 2024 el diseñador Marcos Lizenberg, antes de la reforma. No verifiqué si se actualizó. https://www.lagaceta.com.ar/nota/1046342/sociedad/comproba-si-podes-recibir-ciudadania-italiana-traves-este-test-gratuito.html
+  (b) Una 'calculadora de costo de ciudadanía italiana Argentina' en hacecuentas.com. Existe, pero al abrirla devolvió error 403: no sé qué calcula ni si está al día. https://hacecuentas.com/calculadora-costo-ciudadania-italiana-argentina
+- Brasil, el mercado más grande: no encontré datos de cierres ni despidos de 'assessorias' después del decreto. Sí apareció una nota de Folha Vitória (2025): a una pareja de Espírito Santo su assessoria le dijo que no viajara a Italia, dos días antes del embarque. El decreto cortó de un día para el otro el negocio de viajar para tramitar en un comune italiano. Lo vi en el buscador, no abrí la nota: https://www.folhavitoria.com.br/cotidiano/casal-do-es-desabafa-apos-decreto-rigido-para-emitir-cidadania-italiana-sensacao-de-luto/
+- Afuera: Italian Citizenship Assistance (EE.UU.) publicó en julio de 2026 'Success for ICA Clients: Case Filed after March 28, 2025'. Solo vi el título en el buscador. Muestra que los estudios siguen vendiendo la vía judicial después del corte. https://italiancitizenshipassistance.com/2026/07/
+- Lección (opinión): los que vendían una sola puerta (vía comune, vía consular) quedaron expuestos a un cambio de ley. Los que regalan un test no muestran forma de cobrar; no sé si la buscaron. Nadie demostró todavía que la gente pague por el diagnóstico solo, y eso es lo primero que tiene que medir el experimento.
+
+### Competencia en Argentina
+
+Los precios salen del resumen del buscador; no abrí las notas.
+1) Gestores y estudios (vía consular y judicial):
+- Canal26 (2026-04-01) estima USD 800-1.200 por armar la carpeta con los documentos oficiales y hasta €5.000 por la vía judicial completa: https://www.canal26.com/economia/2026/04/01/cuanto-cuesta-tramitar-la-ciudadania-italiana-en-abril-de-2026-valores-actualizados-tasas-y-gastos-reales/
+- Study in Europe da €1.500-5.000 para un caso sencillo (apostillas, traducciones y honorarios): https://www.studyineurope.eu/es/study-in-italy/for-argentinian-students/italian-citizenship/
+- Italianismo informa que desde 2025 la tasa judicial (contributo unificato) es de €600 por solicitante: https://www.italianismo.com.br/es/tribunal-passa-a-cobrar-taxa-por-requerente-em-sentencas-de-cidadania-italiana/ . Agrega que una circular de marzo de 2025 permite arrancar con €43, con riesgo de multa: https://italianismo.com.br/es/acao-de-cidadania-pode-comecar-com-taxa-minima-de-e-43-mas-ha-risco/
+- Lo que hacen bien: ejecutan el trámite y tienen red de abogados en Italia.
+- El hueco: cada uno vende su propia puerta y los precios no están publicados. Además la confianza está golpeada: la verificación previa encontró denuncias públicas contra gestores, aunque sin identificar la nota.
+2) Gratis:
+- Italtest (test de 2024, anterior a la reforma).
+- La calculadora de hacecuentas.com (contenido no verificado).
+- Las páginas oficiales de los consulados. El consulado de Morón publica un formulario de árbol genealógico (abril de 2025; no lo abrí): https://consmoron.esteri.it/wp-content/uploads/2025/04/Istanza_albero-genealogico.pdf
+- Sitios de genealogía con búsquedas de actas gratis (El Observador, 2026-07-30, visto en el buscador).
+- Según el resumen del buscador, patronatos como INCA y ACLI asisten a menor costo (no verificado).
+- El sustituto más peligroso (opinión): cualquiera le puede preguntar gratis a un chatbot de IA.
+3) De afuera, sin presencia encontrada en Argentina: Boundless y Lexidy (ya están en la ficha) e ICA (EE.UU.).
+El hueco (opinión): de lo que encontré, nadie explica caso por caso qué significa para cada familia la combinación de sentencia 63/2026, ordenanza 147/2026 y cierre de la ley de nietos, y nadie publica un precio fijo por carpeta. El diagnóstico solo se copia fácil; lo que se puede defender es diagnóstico actualizado más ejecución más historial de casos resueltos.
+
+### Regulación
+
+LEÍDO EN LA FUENTE (2026-10-19)
+1) Italia, art. 3-bis de la Ley 91/1992 (lo introdujo el DL 36/2025, convertido en Ley 74/2025). Lo tomo del comunicado oficial de la Corte Constitucional del 2026-04-30: https://www.cortecostituzionale.it/uploads/release/69f32d0fb5ace.pdf
+- Qué prohíbe: se considera que nunca adquirió la ciudadanía quien nació en el exterior, aunque sea antes de la ley, y tiene otra ciudadanía.
+- Qué permite (las excepciones):
+  a) que su estado se reconozca por una solicitud presentada hasta las 23:59 del 2025-03-27;
+  b) que el padre, la madre, un abuelo o una abuela tenga, o haya tenido al morir, SOLO la ciudadanía italiana;
+  c) que el padre o la madre haya vivido en Italia al menos 2 años seguidos después de adquirir la ciudadanía y antes del nacimiento del hijo.
+- La ordenanza 147 nombra además una condición a-bis) que no leí en la ley.
+- Qué decidió la Corte (sentencia 63/2026, sobre el pedido del Tribunal de Turín): declaró las cuestiones en parte infundadas y en parte inadmisibles. Para la Corte es una 'preclusión originaria', no una revocación. No afecta a quienes ya fueron reconocidos ni a quien presentó la solicitud o recibió el turno. En ese caso también rechazó el argumento europeo (art. 9 TUE y 20 TFUE). El comunicado menciona 'medidas compensatorias' para facilitar el ingreso a Italia y la ciudadanía de extranjeros de origen italiano; no leí su detalle.
+2) Italia, ordenanza 147/2026 (decidida el 2026-06-09, depositada el 2026-07-23, GU n. 30 del 2026-07-29), sobre pedidos de los tribunales de Mantua y Campobasso: https://www.cortecostituzionale.it/scheda-pronuncia/2026/147
+- La Corte le preguntó al Tribunal de Justicia de la UE si los art. 9 TUE y 20 TFUE se oponen al art. 3-bis en cuanto excluye a los nacidos en el exterior antes de que entrara en vigor.
+- Suspendió esos juicios hasta que el TJUE responda.
+- Consecuencia: la puerta de los bisnietos no está cerrada del todo, pero queda en espera y sin fecha.
+3) España, Ley 20/2022 de Memoria Democrática. Según la nota oficial del Ministerio del 2025-10-01, el plazo vencía el 2025-10-22, tras la prórroga aprobada el 2024-07-09: https://mptmd.gob.es/content/dam/mpt/prensa/notas_de_prensa/notas/2025/10/20251001__ARGENTINA.pdf . Hoy no se aceptan solicitudes nuevas; solo quedan expedientes en trámite.
+
+LEÍDO EN FUENTES SECUNDARIAS (no en el texto oficial)
+4) Código Deontológico Forense italiano, art. 37 (https://simoneconcorsi.it/accaparramento-della-clientela/ y https://miolegale.it/codici/codice-deontologico-forense/ , vía buscador):
+- El abogado no puede conseguir clientes a través de agencias o 'procacciatori'.
+- No puede pagarles a colegas ni a terceros comisiones por presentarle un cliente o conseguirle un encargo.
+- Consecuencia: el ingreso de la ficha original 'fee de derivación del 10-15% de los honorarios del abogado' se queda sin base en Italia.
+- En España no lo verifiqué.
+
+NO LEÍDO HOY (aplicaría en Argentina; verificar en https://www.argentina.gob.ar/normativa antes de cobrar)
+- Ley 24.240 de Defensa del Consumidor (derecho de arrepentimiento en ventas a distancia) y el 'botón de arrepentimiento' (Res. SCI 424/2020).
+- Ley 25.326 de Protección de Datos Personales: se manejan DNI, actas y datos familiares.
+- Normas de ejercicio de la abogacía (por ejemplo, la Ley 23.187 en CABA) y el art. 247 del Código Penal, por el riesgo de que el informe se considere asesoramiento legal.
+- La nacionalidad española por residencia de 2 años para iberoamericanos (art. 22 del Código Civil español) tampoco la leí hoy.
+
+Opinión: vender 'análisis documental e informativo', con aviso explícito y revisión humana, y que el consejo legal lo den profesionales que le cobran directo al cliente. No usar bots para los turnos consulares (Prenot@mi), que figuraban en la ficha: no verifiqué sus términos de uso.
+
+### Números de unidad
+
+TICKET (estimación, a validar en el experimento)
+- Informe personalizado: USD 12.
+- Seña reembolsable para la carpeta: USD 25.
+- Carpeta lista: honorario fijo de USD 300, más los costos de terceros a precio de costo (actas, apostillas, traducción pública, envíos). No verifiqué hoy esas tarifas.
+
+COBRO CON MERCADO PAGO
+- Dato verificado el 2026-10-19 en la página oficial de Link de pago (https://www.mercadopago.com.ar/herramientas-para-vender/link-de-pago): 6,29% si se acredita al instante, 4,39% a 10 días, 3,39% a 18 días y 1,49% a 35 días.
+- La página no dice si es más IVA. Aclara que no incluye retenciones ni impuestos ajenos a MP y que puede variar por impuestos provinciales (https://www.mercadopago.com.ar/ayuda/33392). Las notas de prensa que vi en el buscador hablan de '+ IVA'.
+- Supuesto prudente (estimación): más 21% de IVA, o sea 7,61% al instante y 1,80% a 35 días.
+
+IA
+- Dato: precios de la API de Claude por millón de tokens, según la referencia oficial (tabla actualizada al 2026-10-06; https://platform.claude.com/docs/en/about-claude/pricing). Opus 5.5: USD 4 de entrada y USD 20 de salida. Sonnet 5.5: USD 2 / USD 10. Haiku 5.5: USD 0,10 / USD 0,50.
+- Estimación por informe: 25.000 tokens de entrada (reglas, respuestas y 4 a 6 fotos de actas) y 6.000 de salida (incluye el razonamiento). Con Opus 5.5: 0,10 + 0,12 = USD 0,22. Con Sonnet 5.5: unos USD 0,11.
+- Estimación por carpeta: menos de USD 2 de IA (10 a 20 llamadas).
+
+WHATSAPP
+- Se atiende con la app WhatsApp Business, que es gratis.
+- La API de Meta cobra por mensaje de plantilla, pero no verifiqué hoy la tarifa para Argentina; por eso no se usa en el experimento.
+
+MARGEN POR INFORME (estimación)
+- 12 − 0,91 (MP al instante con IVA) − 0,22 (IA) = USD 10,87, antes de publicidad y tiempo.
+- Con unos 15 minutos de revisión humana por informe, solo cierra si conseguir cada comprador cuesta menos de USD 8-10.
+
+MARGEN POR CARPETA (estimación)
+- 300 − 5,41 (MP a 35 días con IVA) − 2 (IA) = unos USD 292,6, por 4 a 8 horas de coordinación.
+- Equivale a USD 37-73 por hora.
+
+CONCLUSIÓN (opinión)
+- El informe es la puerta de entrada y casi no deja plata.
+- La plata está en la carpeta, que es un servicio con tiempo humano, no un producto puro.
+- Ingreso descartado: la comisión de abogados italianos (art. 37).
+
+### Tamaño del mercado
+
+DATOS VERIFICADOS
+- España (nota oficial del Ministerio del 2025-10-01, con datos al 2025-07-31): Argentina registró 366.579 solicitudes por la Ley de Memoria Democrática, el 40% del total mundial de 876.321. De esas, 174.277 estaban aprobadas y 61.499 inscriptas. Fuente: https://mptmd.gob.es/content/dam/mpt/prensa/notas_de_prensa/notas/2025/10/20251001__ARGENTINA.pdf
+- Cálculo propio a esa fecha: 192.302 solicitudes sin aprobar y 112.778 aprobadas pero sin inscribir.
+- Según el resumen del buscador, los medios hablaron de unas 625.000 solicitudes en Argentina (nota del 2025-10-17) y de unas 600.000 solo en la capital (septiembre de 2025). No pude atribuir cada cifra a una URL exacta; las candidatas son Noticias NQN y Canal26 (ver fuentes). Ninguna está verificada en una fuente oficial.
+
+ITALIA
+- Según Italianismo, que cita a ISTAT (visto en el buscador; no abrí la nota), en 2024 se reconocieron 113.221 ciudadanías a descendientes que viven en el exterior, y el 22,3% fue en Argentina: https://italianismo.com.br/it/brasil-liderou-reconhecimento-de-cidadania-italiana-em-2024-aponta-istat/
+- Cálculo propio: unos 25.250 argentinos reconocidos en 2024, el último año completo con la regla vieja. Ese era el tamaño anual del negocio de las gestorías.
+- La ficha cita 989.901 italianos inscriptos en el AIRE en Argentina (2025, según Wikipedia; es una fuente secundaria).
+- Ojo (opinión, a partir de la ley): los italianos nacidos en Argentina tienen doble ciudadanía, así que no cumplen 'solo italiana'. Sus hijos nacidos acá no califican por la condición b), salvo por la c).
+
+LO QUE NO SE SABE
+- No hay dato de cuántos argentinos califican con la regla nueva (abuelo que nunca se naturalizó, o padre con 2 años en Italia). No lo encontré.
+
+PRIMERA CIUDAD
+- AMBA (Buenos Aires), porque ahí se concentran los consulados (el español de Buenos Aires y los italianos de Buenos Aires, Morón y otros; es conocimiento general).
+- No tengo un dato verificado por ciudad.
+
+ESCENARIO (estimación, no dato)
+- Si en 12 meses compran el informe 1.000 personas (alrededor del 0,3% de las 366.579 solicitudes españolas, más casos italianos) y 50 contratan la carpeta, los ingresos son USD 12.000 + 15.000 = USD 27.000 por año.
+- Es el tamaño de un negocio intermedio, no de una startup.
+
+### A quién entrevistar
+
+1) Nietos y bisnietos de italianos que quedaron afuera con el corte del 2025-03-27 y que ya habían gastado en actas o en un gestor (25 a 45 años). Dónde: grupos de Facebook de ciudadanía italiana por consulado, los comentarios de las notas sobre el fallo en las cuentas de los medios, y conocidos de la facultad o de la familia.
+2) Argentinos con un expediente de ley de nietos presentado y sin resolver o sin inscribir. Dónde: grupos de Facebook de ley de nietos y las colectividades españolas de Buenos Aires (centros gallegos, asturianos, vascos).
+3) Gestores independientes de ciudadanía en AMBA, Rosario y Córdoba (son el lado de la oferta y un posible cliente B2B). Dónde: Google Maps e Instagram ('gestoría ciudadanía italiana'). Qué preguntar: qué pasó con su cartera después del 2025-03-28 y qué hacen con los casos que ya no califican.
+4) Traductores públicos de italiano matriculados. Dónde: el directorio del Colegio de Traductores Públicos de la Ciudad de Buenos Aires. Qué preguntar: precio por foja, plazos y si aceptan trabajo por paquete.
+5) Abogados en Italia con clientes argentinos. Dónde: LinkedIn y las webs de los estudios ('avvocato cittadinanza italiana Argentina'). Qué preguntar: cómo consiguen clientes sin pagar comisiones (art. 37) y qué hacen con los juicios suspendidos por la consulta al TJUE.
+Todas las entrevistas se pueden hacer por llamada sin cámara, así que no hace falta mostrar la cara.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última vez que hiciste algo concreto por tu ciudadanía: pedir un acta, sacar un turno o pagarle a alguien. ¿Qué hiciste y cuándo fue?
+2. ¿Cuánto llevás gastado en total (actas, apostillas, traducciones, gestor, abogado, tasas)? ¿En qué se fue la mayor parte?
+3. ¿Cómo elegiste a quién pagarle o a quién preguntarle? ¿Qué fue lo que te hizo confiar?
+4. ¿Qué hiciste cuando te enteraste del cambio de marzo de 2025 o del fallo de abril de 2026? ¿A quién consultaste y qué te dijo?
+5. ¿Qué paso o qué documento te tuvo trabado más tiempo? ¿Cuánto tiempo y cuánta plata perdiste ahí?
+6. ¿Alguna vez pagaste algo de este trámite que después no te sirvió? ¿Qué pasó?
+7. Hoy, mientras esperás (un turno, una resolución, un fallo), ¿qué estás haciendo? ¿Qué mirás o a quién seguís para enterarte?
+8. ¿Para qué querés el pasaporte? ¿Qué hiciste en el último año para eso (buscar trabajo afuera, averiguar visas, planear la mudanza)?
+9. ¿Quién más de tu familia está en esto? ¿Quién juntó los papeles y quién pone la plata?
+10. Si ya sabés que por sangre no te alcanza, ¿qué averiguaste o qué pagaste para otras opciones (España por residencia, visas, trabajo afuera)?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Al menos 1 de cada 10 personas que completan un diagnóstico gratis de 12 preguntas paga USD 12 por un informe personalizado de rutas, actualizado a la sentencia 63/2026, la ordenanza 147/2026 y el cierre de la ley de nietos. Y al menos 2 de esas personas dejan una seña reembolsable de USD 25 para que les armen la carpeta.
+- **Predicción (antes de empezar):** Con USD 100 de anuncios más publicaciones gratis en grupos: 150 diagnósticos completos, 15 informes pagos (el 10%) y 3 señas de USD 25. El costo de conseguir cada informe pago sería de unos USD 6,7 (100/15). La revisión humana tendría que llevar 15 minutos o menos por informe, con 0 errores graves.
+- **Pérdida máxima:** USD 150 en total: USD 100 de anuncios, USD 12 de dominio (estimación), USD 10 de API de Claude y USD 28 para imprevistos (por ejemplo, que un gestor o abogado revise las reglas una vez). Si no se presta el servicio, las señas se devuelven. Lo que se cobre no se descuenta de esta pérdida máxima.
+- **Duración:** 14 días: del 2026-10-21 al 2026-11-03.
+- **Pasos:**
+  1. 2026-10-21: armar con Claude la tabla de reglas a partir de los textos oficiales: el comunicado de la Corte del 2026-04-30 (art. 3-bis), la ordenanza 147/2026, la nota del Ministerio español del 2025-10-01 y la página del consulado de Buenos Aires. Seis grupos: (1) Italia por la regla vieja (solicitud o turno antes del corte); (2) Italia por padre o abuelo con ciudadanía solo italiana; (3) Italia por padre o madre con 2 años en Italia; (4) Italia en espera del TJUE; (5) España, ley de nietos en trámite; (6) sin vía por sangre: rutas de residencia a verificar.
+  2. 2026-10-22: formulario de 12 preguntas en Tally con lógica condicional, que muestra gratis en qué grupo cae la persona. Landing sin cara en Cloudflare Pages o Carrd, con 3 casos tipo, el precio publicado y el aviso 'información, no asesoramiento legal'.
+  3. 2026-10-23: crear dos Link de pago de Mercado Pago: el informe (USD 12 en pesos) y la seña reembolsable de USD 25, con condiciones escritas (se devuelve en 7 días si la carpeta no arranca).
+  4. 2026-10-23: probar todo el circuito gratis con 3 conocidos y medir minutos y errores por informe. Ajustar la plantilla: documentos que faltan, costo y plazo por ruta, qué cambia si el TJUE dice que sí o que no, y qué conviene NO gastar todavía.
+  5. Del 2026-10-24 al 2026-11-01: Meta Ads por USD 100 en dos conjuntos de USD 50 ('Italia después del fallo' y 'España después del cierre'), con textos e infografías sin cara. Además, 8 a 10 publicaciones en grupos de Facebook respetando las reglas de cada grupo.
+  6. Cada informe pago: las fotos de las actas llegan por WhatsApp Business o por mail; Claude redacta el informe y Facu lo revisa contra la tabla de reglas. Se entrega en 48 horas o menos y se anotan los minutos y los errores de cada uno.
+  7. A cada comprador: pedirle una llamada de 20 minutos sin cámara con el guion y ofrecerle la seña de la carpeta. Anotar quién la deja y quién no.
+  8. 2026-11-02 y 2026-11-03: armar el tablero con visitas, diagnósticos, pagos, señas, costo por pago, minutos por informe, errores y conversión por conjunto (Italia o España). Aplicar los criterios y escribir el post-mortem en el proyecto.
+- **Sigue si:** Se sigue si hay 12 o más informes pagos, 2 o más señas, un costo por informe pago de USD 10 o menos y 0 errores graves. En ese caso, el paso siguiente es un piloto de 4 semanas: entregar 2 o 3 carpetas reales a precio fijo y probar el informe a USD 18.
+- **Se corta si:** Se corta si hay 5 informes pagos o menos, si no hay ninguna seña, si cada informe pago cuesta más de USD 20 o si la revisión encuentra 2 o más errores graves: cerrar y escribir el post-mortem. En la zona gris (6 a 11 informes) se hace una sola semana más cambiando el mensaje, no el producto. Si el conjunto 'España' convierte el doble que 'Italia', el próximo experimento es la variante de seguimiento de la ley de nietos.
+
+### Cinco formas de retorcerla
+
+- Otro cliente (y otro momento): seguimiento de expedientes de ley de nietos ya presentados. Al 2025-07-31 había 192.302 solicitudes argentinas sin aprobar y 112.778 aprobadas sin inscribir (cálculo sobre la nota oficial). El producto es un tablero por familia: qué falta, en qué orden y qué turno sacar después de la aprobación, con cobro por familia. Es el mismo cliente, pero con una necesidad que no depende de ningún fallo.
+- Otro cobro: pago protegido por hitos. La familia deposita el precio de la carpeta y cada proveedor (buscador de actas, traductor público, abogado) cobra solo cuando entrega su parte. La plataforma le cobra un honorario fijo al cliente y nada al abogado, así esquiva el art. 37. Es una variante parecida a A1 (escrow con el exterior, idea propia de Facu) y al patrón de 'profesores con pago protegido'.
+- Otro país de origen: el mismo motor de diagnóstico aplicado a otras ciudadanías por ascendencia con colectividades grandes en Argentina (por ejemplo, la polaca, la alemana o la croata). No verifiqué hoy las reglas de ninguna: es lo primero que hay que chequear antes de proponerla en serio.
+- Otro activo: los papeles de la familia. El acta de nacimiento del bisabuelo, su certificado de no naturalización y la traducción sirven para todos los primos que descienden de él. La plataforma encuentra a los parientes que comparten ese antepasado, reutiliza la carpeta ya hecha y divide los costos, incluida la tasa de €600 por solicitante en los juicios. Conecta dos partes: el primo que ya juntó todo y el que recién empieza.
+- Sacar el humano: una 'carpeta hágalo usted mismo' con IA, por un pago único. Genera en italiano los pedidos de actas para cada comune, revisa que nombres y fechas coincidan entre todas las actas y arma el índice en el orden que pide el consulado. Las diferencias de escritura entre actas italianas y argentinas traban carpetas (conocimiento general, no verificado hoy). Es producto puro: no le lleva horas a Facu por cada cliente.
+
+### Riesgos
+
+- Hay un evento binario sin fecha: el TJUE puede abrirles la puerta a los nacidos antes de la ley (y la demanda explota) o cerrarla (y el mercado italiano se reduce a los casos de padre o abuelo con ciudadanía solo italiana). El producto se reescribe con cada fallo, e Italia ya cambió la regla de un día para el otro (2025-03-28).
+- Cobrarles comisión a abogados italianos choca con el art. 37 de su código deontológico (según fuentes secundarias). El abogado que la pague se expone a una sanción, y la plataforma queda asociada a captación indebida de clientes.
+- Responsabilidad por un diagnóstico mal hecho: si el informe dice 'calificás' y no es así, la familia gasta cientos de dólares en actas. Hacen falta revisión humana, un aviso explícito y leer las normas argentinas de consumo, datos personales y ejercicio de la abogacía, que no leí hoy.
+- Sustitutos gratis: tests como Italtest, calculadoras como la de hacecuentas, los consulados, los grupos y cualquier chatbot de IA. El diagnóstico solo se copia en una tarde; sin ejecución y sin casos resueltos, no hay foso.
+- Confianza: es un rubro con denuncias públicas contra gestores (según la verificación previa, sin nota identificada), y la marca sería sin cara, de un fundador de 22 años sin matrícula. La conversión probablemente sea más baja que la de un estudio con nombre (opinión).
+- Es un negocio de temporada: la cola española se va a ir resolviendo y el grupo que califica en Italia se achica. La ventana probable es 2026-2028 (estimación).
+- Anuncios: Meta puede tratar los avisos sobre inmigración o ciudadanía como 'temas sociales' y pedir verificación de identidad, o rechazarlos (no verificado para Argentina).
+- Se manejan datos sensibles de las familias (DNI, actas, domicilios): una filtración destruye la marca. Aplica la Ley 25.326, que no leí hoy.
+- Riesgo de deriva hacia ideas ya rechazadas: si el producto termina siendo un 'gestor digital' genérico (I13, NO), traducción no jurada (I15, NO) o 'juntar partidas' (FUN-5-3, salió parecida a NO), cae en territorio que Facu ya descartó.
+- Depende de terceros lentos (comuni italianos, registros civiles, sistemas de turnos de los consulados): esos plazos no los controla la plataforma (conocimiento general, no verificado hoy).
+- Ética: en pleno limbo hay presión para vender esperanza (juicios para bisnietos). Hace falta una regla escrita de 'no gastes todavía' para el grupo que espera al TJUE.
+
+### Fuentes
+
+- https://www.cortecostituzionale.it/uploads/release/69f32d0fb5ace.pdf: comunicado de la Corte Constitucional del 2026-04-30 sobre la sentencia 63/2026, con el texto de las condiciones del art. 3-bis. Lo leí el 2026-10-19 extrayendo el texto del PDF.
+- https://www.cortecostituzionale.it/scheda-pronuncia/2026/63: ficha de la sentencia 63/2026, enlazada desde el comunicado. No la abrí.
+- https://www.cortecostituzionale.it/scheda-pronuncia/2026/147: ordenanza 147/2026, consulta prejudicial al TJUE y suspensión de los juicios. La leí el 2026-10-19.
+- https://giustiziainsieme.it/print/articolo_pdf?id=4079: comentario de U. Scotti que menciona la ordenanza 147/2026. La vi en el buscador el 2026-10-19; no la abrí.
+- https://mptmd.gob.es/content/dam/mpt/prensa/notas_de_prensa/notas/2025/10/20251001__ARGENTINA.pdf: nota del Ministerio de Política Territorial y Memoria Democrática del 2025-10-01 (366.579 solicitudes argentinas, 174.277 aprobadas, 61.499 inscriptas, plazo hasta el 2025-10-22). La leí el 2026-10-19.
+- https://www.noticiasnqn.com.ar/amp/noticias/2025/10/18/322048-ley-de-nietos-el-22-de-octubre-vence-el-plazo-para-solicitar-la-ciudadania-espanola: cifras de medios sobre la ley de nietos. La vi en el buscador el 2026-10-19.
+- https://www.canal26.com/internacionales/2025/09/18/fin-de-la-ley-de-nietos-octubre-es-la-fecha-limite-que-hay-que-saber-para-tramitar-la-ciudadania-espanola/: cierre de la ley de nietos. La vi en el buscador el 2026-10-19.
+- https://www.mercadopago.com.ar/herramientas-para-vender/link-de-pago: tarifas de Link de pago (6,29% / 4,39% / 3,39% / 1,49%). La leí el 2026-10-19.
+- https://www.mercadopago.com.ar/ayuda/33392: variación de costos por impuestos provinciales, citada por la página de MP. No la abrí.
+- https://platform.claude.com/docs/en/about-claude/pricing: precios de la API de Claude. Los tomé de la tabla de la referencia oficial cargada el 2026-10-19 (actualizada al 2026-10-06); no abrí la página.
+- https://simoneconcorsi.it/accaparramento-della-clientela/: art. 37 del Código Deontológico Forense italiano. Lo vi en el buscador el 2026-10-19.
+- https://miolegale.it/codici/codice-deontologico-forense/: Código Deontológico Forense italiano. Lo vi en el buscador el 2026-10-19.
+- https://www.canal26.com/economia/2026/04/01/cuanto-cuesta-tramitar-la-ciudadania-italiana-en-abril-de-2026-valores-actualizados-tasas-y-gastos-reales/: costos de la carpeta y de la vía judicial. Lo vi en el buscador el 2026-10-19.
+- https://www.studyineurope.eu/es/study-in-italy/for-argentinian-students/italian-citizenship/: rango de €1.500-5.000. Lo vi en el buscador el 2026-10-19.
+- https://www.italianismo.com.br/es/tribunal-passa-a-cobrar-taxa-por-requerente-em-sentencas-de-cidadania-italiana/: tasa judicial de €600 por solicitante. La vi en el buscador el 2026-10-19.
+- https://italianismo.com.br/es/acao-de-cidadania-pode-comecar-com-taxa-minima-de-e-43-mas-ha-risco/: circular que permite arrancar con €43. La vi en el buscador el 2026-10-19.
+- https://italianismo.com.br/it/brasil-liderou-reconhecimento-de-cidadania-italiana-em-2024-aponta-istat/: ISTAT 2024 (113.221 reconocimientos; Argentina, 22,3%). Lo vi en el buscador el 2026-10-19.
+- https://hacecuentas.com/calculadora-costo-ciudadania-italiana-argentina: calculadora gratis. Existe, pero al abrirla el 2026-10-19 devolvió error 403.
+- https://www.lagaceta.com.ar/nota/1046342/sociedad/comproba-si-podes-recibir-ciudadania-italiana-traves-este-test-gratuito.html: Italtest (de la verificación previa).
+- https://www.folhavitoria.com.br/cotidiano/casal-do-es-desabafa-apos-decreto-rigido-para-emitir-cidadania-italiana-sensacao-de-luto/: assessoria brasileña que canceló un viaje por el decreto. La vi en el buscador el 2026-10-19.
+- https://italiancitizenshipassistance.com/2026/07/: ICA, caso presentado después del 2025-03-28. Lo vi en el buscador el 2026-10-19.
+- https://consmoron.esteri.it/wp-content/uploads/2025/04/Istanza_albero-genealogico.pdf: formulario de árbol genealógico del consulado de Morón. No lo abrí.
+- https://consbuenosaires.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino/cittadinanza/: reglas del consulado de Buenos Aires (de la ficha original, verificadas el 2026-10-18).
+- https://www.elobservador.com.uy/lifestyle/tres-paginas-gratuitas-buscar-archivos-abuelos-bisabuelos-y-antepasados-espana-italia-y-todo-el-mundo-n6052523: sitios gratis para buscar actas (2026-07-30). Lo vi en el buscador.
+
+---
+
+## 6. Reparalo o cambialo: veredicto por foto antes de llamar al técnico, con una seña que se descuenta del arreglo
+
+Qué es: una web con WhatsApp donde mandás 3 o 4 fotos del lavarropas, la heladera o el aire que falló (el equipo, la chapa con marca y modelo y el código de error). En 2 horas recibís un veredicto: falla probable, rango de costo del arreglo, precio del nuevo en cuotas y si conviene arreglarlo o cambiarlo.
+Para quién: hogares de una ciudad con un equipo grande roto y fuera de garantía. CABA/GBA es la zona con precios verificados; si no, la ciudad de Facu.
+Quién paga: el cliente deja una seña de ARS 5.000, contra una visita que sale ARS 10.000-25.000 según Servidos (julio 2026). El técnico de la red la descuenta del arreglo y la seña queda como comisión. Si conviene cambiar el equipo, se cobra por Afiliados de Mercado Libre.
+Vuelta de tuerca: primero la decisión y después el oficio, al revés que Servidos, IguanaFix, HomeSolution y Clickie. Claude arma el presupuesto y la garantía por escrito que pide la Ley 24.240 (arts. 21 y 24), y la plata se libera cuando el cliente confirma con una foto del arreglo.
+Por qué ahora: un veredicto con visión cuesta centavos (USD 0,07-0,23, estimación con precios de Claude), Mercado Libre lanzó afiliados en Argentina en 2026 y se compran menos equipos nuevos (heladeras −14,9% y lavarropas −10,2% en unidades, INDEC 2T2026). La ventana es corta: Clickie ya diagnostica con IA a partir del texto.
+
+**Veredicto:** Probarla solo si se cumplen dos cosas. Primero, que Facu confirme que descartó AUT-5-2 (NO) por el rubro autos y no por el problema '¿me cobran de más?'. Segundo, que la encare como experimento para aprender marketplace de servicios con seña cobrada, no como negocio de lead al retailer: con los precios de hoy el arreglo vale 2%-28% del nuevo, así que 'cambiá' va a ser minoría, y Clickie (USD 150 mil, IA por texto) y Servidos (sin comisión) ya ocupan la intermediación. Sigue solo si en 2 semanas hay al menos 5 señas pagas y 4 trabajos cerrados con precisión de 70% o más.
+
+### Quién lo intentó y qué le pasó
+
+No encontré a nadie que haya intentado el veredicto 'arreglar o cambiar'. Sí lo intentaron con la parte de marketplace de oficios con IA:
+- Casa Click (Córdoba), iProfesional del 2024-11-14 (https://www.iprofesional.com/tecnologia/416954-casa-click-crearon-app-para-ahorrar-plata-arreglos-aire-acondicionado): tenía unos 700 usuarios y casi 100 profesionales (gasistas, plomeros, electricistas, técnicos de aire). Planeaba cobrar 15% al profesional, pero lo postergó. Decía estar 'preparando un modelo que lea imágenes' para identificar el problema por foto. Buscaba una ronda de USD 1 millón para diciembre de 2024.
+- Clickie (Córdoba, fundada en 2023), Forbes Argentina del 2026-06-08 (https://www.forbesargentina.com/negocios/el-momento-uber-oficios-startup-cordobesa-usa-inteligencia-artificial-ordenar-negocio-arreglos-hogar-n92074). Probablemente sea Casa Click con otro nombre (misma ciudad, mismo año, misma comisión del 15%); no lo confirmé.
+  - Qué hace la IA: propone un diagnóstico a partir del texto (no de fotos), sugiere un precio de referencia y asigna al técnico.
+  - Cobro: 15% al técnico, 5% al usuario 'en algunos casos', y el plan Clickie Pro de USD 15/mes baja la comisión al 12%.
+  - Tracción: 18.000 usuarios y '5.000 técnicos activos', aunque su propio fact sheet de mayo de 2026 dice 5.117 registrados y 1.164 habilitados. Cierra unas 150 órdenes por mes, con un GMV cercano a ARS 10 M/mes que crece 25-30% mensual.
+  - Plata: ronda ángel de USD 150 mil (Fernando Canzani y Toronto Trust).
+  - Dónde: Córdoba y CABA; apunta a GBA y a Santiago de Chile.
+  - Lectura (opinión): si es la misma empresa, levantó mucho menos que el millón que buscaba, y el diagnóstico por foto anunciado en 2024 no aparece en 2026. Aun con fondeo y miles de técnicos, cierra unos 150 trabajos por mes.
+- IguanaFix (Argentina, 2013): vendió la operación de Brasil a MadeiraMadeira en 2022 y sigue en Argentina y México. Superó los 150 mil servicios en Argentina, y el service de aire es lo más pedido (descubre.vc e Infonegocios, ya citados en la ficha). Fue una salida parcial, no un cierre.
+- GetNinjas (Brasil), el marketplace de servicios más grande de la región, que cotiza en bolsa. Según resultados de búsqueda (no leí las notas enteras; investidor10 y bpmoney):
+  - Perdió R$ 17,84 M en el 2T23.
+  - Reag Investimentos tomó el control por OPA y pasó de 32,15% a 66%.
+  - El fundador dejó de ser CEO en el 1T24 y hubo recorte de gastos.
+  - En el 1T24 facturó R$ 16,7 M y ganó R$ 2,9 M.
+  - Anunció un cambio de nombre para 2025.
+- Lavuro (pre-seed de USD 100 mil, según Dealroom) y ROL (etapa seed, según descubre.vc): marketplaces tempranos de los que no encontré novedades.
+- Qué busqué sin encontrar cierres: 'startup técnicos a domicilio marketplace oficios cerró/cierre/dejó de operar' e 'IguanaFix 2025 2026'. No apareció ningún cierre en Argentina.
+- Lección (opinión): en la región, los marketplaces de oficios sobreviven pero crecen lento; el diagnóstico por foto se anunció y no se vio funcionando.
+
+### Competencia en Argentina
+
+- Servidos (CABA y GBA) (https://servidos.ar/blog/cuanto-cuesta-arreglar-lavarropas-heladera-buenos-aires):
+  - Qué hace: presupuesto gratis, sin comisión, identidad del técnico verificada con DNI y pago directo al técnico.
+  - Precios que publica (julio 2026): visita de diagnóstico ARS 10.000-25.000, que suele descontarse; bomba de lavarropas ARS 25.000-65.000; plaqueta de lavarropas ARS 60.000-155.000; carga de gas de heladera ARS 20.000-47.000; compresor con repuesto ARS 62.000-155.000.
+  - Qué hace bien: SEO con guías de precios, que ya es medio veredicto.
+  - Qué hueco deja: no compara contra el precio del nuevo ni retiene el pago.
+- Clickie (Córdoba y CABA) (Forbes Argentina, 2026-06-08):
+  - Qué hace: su IA diagnostica a partir del texto, sugiere un precio de referencia y asigna al técnico.
+  - Precios: 15% al técnico y 5% al usuario en algunos casos; Clickie Pro sale USD 15/mes y deja la comisión en 12%.
+  - Qué hace bien: tiene mucha oferta de técnicos, fondeo y un seguro de accidentes personales gratis por servicio.
+  - Qué hueco deja: en la nota no aparece ni 'arreglar o cambiar', ni diagnóstico por foto, ni pago protegido.
+- IguanaFix (Argentina y México) (https://www.descubre.vc/iguanafix): el marketplace histórico; no verifiqué hoy sus precios ni comisiones.
+- HomeSolution (Argentina y Uruguay) (https://homesolution.net): recibís propuestas de varios profesionales y pagás directo; no verifiqué sus precios.
+- Lavuro y ROL: tempranos, sin precios públicos encontrados.
+- Services oficiales de las marcas: no verificados.
+- Hueco que queda (opinión): nadie junta en una sola respuesta 'cuánto cuesta arreglarlo' contra 'cuánto sale el nuevo en cuotas'. Nadie retiene el pago hasta la foto del arreglo terminado. Y no vi que alguno arme el presupuesto (art. 21) ni la garantía por escrito (art. 24) de la Ley 24.240. Pero es un hueco angosto: es una función, no una empresa, y Clickie o Servidos la pueden sumar en semanas.
+
+### Regulación
+
+Ley 24.240 de Defensa del Consumidor, texto actualizado en InfoLEG, leído el 2026-10-19 (https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm).
+
+Qué dice:
+- Art. 11 (texto según la Ley 26.361): la garantía legal es de 6 meses para cosas nuevas y de 3 meses para usadas, desde la entrega; el garante paga fletes y gastos.
+- Art. 12: fabricantes, importadores y vendedores tienen que asegurar servicio técnico y repuestos.
+- Art. 15: el garante entrega una constancia de la reparación.
+- Art. 16: el tiempo sin uso del equipo se suma a la garantía.
+- Art. 17: si la reparación no queda bien, el consumidor elige entre reemplazo, devolución o rebaja de precio, más daños.
+- Art. 20: en una reparación se presume que se usan materiales nuevos o adecuados, salvo pacto escrito.
+- Art. 21: el presupuesto tiene que traer los datos del prestador, el trabajo, los materiales con su precio, la mano de obra, el plazo, la garantía, el plazo para aceptarlo y los números de inscripción impositiva y previsional.
+- Art. 22: los costos no previstos se avisan antes de hacerlos.
+- Art. 23: los defectos que aparecen dentro de los 30 días se corrigen sin costo.
+- Art. 24: la garantía del servicio va por escrito.
+- Art. 40: por daños del servicio responden solidariamente productor, fabricante, importador, distribuidor, proveedor, vendedor y quien puso su marca.
+
+Qué permite: intermediar y dar un rango de costo orientativo. No encontré ninguna prohibición en estos artículos.
+
+Qué obliga y cómo se usa en el producto:
+- Si el equipo tiene menos de 6 meses o garantía de fábrica, el veredicto tiene que mandar al service oficial (arts. 11 y 12), no a un técnico de la red.
+- El técnico tiene que entregar presupuesto y garantía por escrito (arts. 21 y 24). Claude puede armar esos papeles solo, y eso es una ventaja del producto.
+- El rango que da la plataforma hay que rotularlo como 'estimación, no presupuesto'.
+
+Riesgo: si la plataforma aparece como proveedora del arreglo, puede quedar alcanzada por el art. 40. No verifiqué jurisprudencia sobre marketplaces. Para bajarlo: presentarse como intermediario, términos claros y no cobrar el trabajo entero durante el experimento.
+
+No leídas hoy (no verificado):
+- Ley 25.326 de datos personales (fotos y direcciones de los clientes).
+- Normas del BCRA para proveedores de servicios de pago, si se retiene plata de terceros.
+- Normas de ENARGAS para artefactos a gas.
+- Régimen de monotributo, necesario para facturar las señas y cobrar los afiliados de Mercado Libre.
+
+### Números de unidad
+
+Los USD están calculados a ARS 1.400 por USD. Es un supuesto que no verifiqué al 2026-10-19; si el dólar está más alto, los USD bajan.
+
+1) Ticket del arreglo (dato; fuente comercial, según el resumen del buscador de la guía de Servidos, CABA/GBA, julio 2026):
+- Visita: ARS 10.000-25.000, que muchos técnicos descuentan del arreglo.
+- Lavarropas: bomba ARS 25.000-65.000; plaqueta ARS 60.000-155.000.
+- Heladera: carga de gas ARS 20.000-47.000; compresor con repuesto ARS 62.000-155.000.
+- Ticket promedio de oficios en Clickie: ≈ ARS 67.000 (estimación: GMV de ~ARS 10 M/mes dividido ~150 órdenes/mes, Forbes Argentina del 2026-06-08).
+
+2) Precio del nuevo (estimación: ventas dividido unidades, INDEC 2T2026):
+- Heladera ≈ ARS 964.000 (ARS 129.755,5 M / 134.592 unidades). Es una cota alta, porque el monto incluye freezers y las unidades no.
+- Lavarropas, secarropas y lavavajillas ≈ ARS 554.000 (168.726,3 M / 304.655 unidades).
+- Aire ≈ ARS 531.000 (51.493,5 M / 97.008 unidades).
+- Consecuencia (opinión): el arreglo típico cuesta entre 2% y 28% del nuevo. 'Arreglá' va a ganar casi siempre; 'cambiá' queda para equipos viejos, fallas repetidas o arreglos con poca chance de salir bien. Por eso el lead de reemplazo, que la ficha ponía como el ingreso principal, rinde menos de lo que parecía.
+
+3) Costos por operación:
+- IA (estimación). Precios de la API de Claude cacheados al 2026-10-06, por millón de tokens de entrada/salida: Haiku 5.5 USD 0,10/0,50, Sonnet 5.5 USD 2/10, Opus 5.5 USD 4/20. Cada foto a máxima resolución usa hasta unos 4.784 tokens.
+  - 4 fotos más las instrucciones son ≈ 22.000 tokens de entrada y 3.000-7.000 de salida.
+  - Eso da USD 0,07-0,11 por veredicto con Sonnet 5.5, USD 0,15-0,23 con Opus 5.5 y menos de USD 0,01 con Haiku 5.5.
+  - En el experimento, usando la suscripción de Claude, el costo extra es 0.
+  - En la documentación de la API que consulté solo aparecen imágenes y PDF como entrada, no audio. Por eso no se usa el 'ruido': se pide foto de la chapa y del código de error.
+- WhatsApp: 0 con la app WhatsApp Business. Las tarifas de la API no las verifiqué hoy.
+- Mercado Pago: NO VERIFICADO. La página oficial dice que la comisión depende de la provincia, el medio de pago y el plazo de acreditación (https://www.mercadopago.com.ar/herramientas-para-vender/link-de-pago). Para la cuenta uso un supuesto de 4%-7% + IVA, de memoria; hay que confirmarlo en 'Tu negocio > Costos'.
+- Afiliados de Mercado Libre: hasta 15% según la categoría (Forbes Argentina, marzo 2026). El porcentaje de electrodomésticos no es público (no verificado), y para cobrar hace falta monotributo.
+
+4) Margen por operación (estimación):
+- a) Trabajo cerrado con la seña de ARS 5.000 como comisión (7,5% de ARS 67.000): ≈ ARS 4.600 netos (USD 3,3). Con un fee del 12% (ARS 8.000): ≈ ARS 7.400 (USD 5,3).
+- Si la plataforma cobrara el arreglo entero para retenerlo (pago protegido), con el supuesto Mercado Pago se llevaría ARS 3.200-5.700 de los 67.000 y se comería casi toda la comisión. Hay que cobrar un cargo de protección aparte o no retener la plata al principio.
+- b) 'Cambiá' por afiliado: con un 3% supuesto sobre ARS 550.000-960.000 da ARS 16.500-29.000 por compra (USD 12-21). Pero solo el 23,2% de las ventas del rubro es online (INDEC 2T2026).
+- c) Por pedido, con la mezcla de la predicción (15% paga seña, 10% de los gratis cierra trabajo, 20% sale 'cambiá' y de esos 10% compra por el link): ≈ ARS 1.400-2.300 (USD 1-1,6).
+- Conclusión (opinión): cada pedido tiene que costar menos de USD 1-1,6 en adquisición. La pauta paga sola no cierra; hacen falta canales gratis.
+
+### Tamaño del mercado
+
+Datos:
+- Viviendas particulares: 17.783.029 en el país (Censo 2022 definitivo, según notas que lo resumen) y 1.638.764 en CABA (dato provisorio de la DGEC de Entre Ríos con base INDEC). Incluyen viviendas vacías. No encontré el número de hogares.
+- Equipos nuevos vendidos en el 2T2026 (INDEC, informe del 2026-08-21, cadenas encuestadas):
+  - 134.592 heladeras (−14,9% interanual).
+  - 237.662 lavarropas (−10,2%).
+  - 66.993 secarropas y lavavajillas (−10,6%).
+  - 97.008 aires (−2,9%; es temporada baja).
+  - 192.155 calefones y termotanques (−4,3%).
+- El rubro vendió ARS 1,54 billones en el trimestre: 23,2% online y 60,3% con tarjeta de crédito.
+- Fallas y arreglos: no hay dato oficial. Referencias privadas: IguanaFix superó 150 mil servicios en Argentina (Infonegocios, sin fecha verificada) y Clickie cierra unas 150 órdenes/mes (Forbes, 2026-06-08).
+
+Estimación propia. Supuestos sin fuente: 3 equipos grandes por hogar, 10% por año con una falla que necesita técnico y ~85% de las viviendas ocupadas.
+- CABA: ≈ 1,4 M de hogares × 0,3 ≈ 420.000 fallas/año (unas 35.000 por mes).
+- País: ≈ 15 M de hogares × 0,3 ≈ 4,5 M de fallas/año.
+- A ARS 67.000 por arreglo, el país movería ≈ ARS 300.000 M/año (≈ USD 215 M; estimación muy gruesa).
+
+Primera ciudad: CABA/GBA, que es donde hay precios verificados (Servidos), o la ciudad de Facu.
+
+Captura realista (opinión): llegar a 150-200 trabajos/mes en una ciudad, que es lo que hace Clickie con fondeo, deja ≈ ARS 0,7-1,5 M/mes (USD 500-1.000) con los márgenes calculados. Es un negocio intermedio chico, salvo que pase a varias ciudades o al canal de marcas.
+
+### A quién entrevistar
+
+1) Dueños que tuvieron una falla de heladera, lavarropas o aire en los últimos 90 días (unos 10).
+   Dónde: grupos de Facebook de barrio de la ciudad elegida, familia y conocidos, y gente que publica en Facebook Marketplace o Mercado Libre 'lavarropas/heladera que no anda' o 'para repuesto'. Esos últimos ya decidieron cambiar: preguntarles cómo lo decidieron y con qué números.
+2) Técnicos independientes de línea blanca y aire (5 a 8).
+   Dónde: sus perfiles en Servidos, Clickie, HomeSolution e IguanaFix, los avisos de Google Maps 'service lavarropas/heladeras' de la ciudad, y los que recomiendan en las casas de repuestos de línea blanca (en el mostrador los conocen a todos).
+3) Vendedores de casas de electrodomésticos (3), de cadena e independientes.
+   Qué preguntarles: cuántos clientes llegan 'porque se le rompió', si hoy pagan algo por referidos y si tienen plan canje o cuotas para ese caso.
+4) Encargados de edificio y porteros (3 a 5).
+   Son los que les recomiendan técnico a los vecinos. Sirven como canal, no como clientes: los problemas de consorcios ya fueron NO en el registro (CON-4-*).
+5) Una o dos personas de service oficial de alguna marca o de su call center.
+   Qué preguntarles: qué parte de las visitas termina en 'no era falla' o fuera de garantía. Es la base de la variante de marcas.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última vez que se te rompió un equipo grande de la casa (heladera, lavarropas, aire, termotanque): ¿qué equipo era, cuántos años tenía y qué hacía raro?
+2. ¿Qué fue lo primero que hiciste? ¿A quién le preguntaste o qué buscaste, y en qué orden?
+3. ¿Le mandaste fotos, un video o el código de error a alguien antes de que viniera un técnico? ¿Qué te contestaron y cuánto tardaron?
+4. ¿Cuánto pagaste de visita o diagnóstico? ¿Te lo descontaron del arreglo? ¿Cómo lo pagaste?
+5. ¿Cuánto gastaste en total al final (repuesto, mano de obra o el equipo nuevo) y en cuántos días quedó resuelto? ¿Qué hiciste mientras tanto?
+6. ¿Cómo decidiste entre arreglarlo o cambiarlo? ¿Qué número tenías a mano cuando decidiste y cuál te faltó?
+7. ¿Te dieron el presupuesto y la garantía por escrito? ¿Volvió a fallar? ¿Qué pasó cuando lo reclamaste?
+8. Si lo cambiaste: ¿dónde lo compraste, en cuántas cuotas, cuánto tardaste en decidir y qué hiciste con el viejo?
+9. (A técnicos) De tus últimas 10 visitas, ¿en cuántas no terminaste haciendo el trabajo, por qué (no convenía, no aceptaron el precio, no había repuesto) y cobraste esas visitas?
+10. (A técnicos) El mes pasado, ¿cuánto pagaste para conseguir clientes (plataformas, avisos, comisiones) y cuántos trabajos te trajo cada canal?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Si a dueños de heladeras, lavarropas y aires con falla en una zona (CABA/GBA o la ciudad de Facu) les ofrecemos un veredicto a distancia en 2 horas, armado con fotos del equipo, de la chapa y del código de error, al menos 15% de los que mandan el pedido paga una seña de ARS 5.000. Esa seña se descuenta del arreglo, y los técnicos de la red cierran al menos 4 trabajos aceptándola como comisión. Además, el veredicto acierta la falla y el rango de costo en al menos 70% de los trabajos cerrados.
+- **Predicción (antes de empezar):** Escrita antes de correr el experimento: 40 pedidos completos en 10 días, de los cuales 6 pagan la seña (15%). Por lo que dicen los precios, al menos 65% de los veredictos sale 'arreglá', como mucho 25% sale 'cambiá' y alrededor del 10% necesita visita. Se cierran 5 trabajos con técnicos de la red y la precisión en esos trabajos es de al menos 70%. Por el link de afiliado entran 0 o 1 compras. Aceptan el trato 3 de cada 8 técnicos contactados. Facu tarda como máximo 15 minutos por veredicto, y cada pedido cuesta como máximo USD 2,5 entre pauta y volantes.
+- **Pérdida máxima:** USD 175, con este desglose: Meta Ads USD 100 (tope duro, USD 10 por día); dominio USD 15 (opcional, se puede usar un subdominio gratis); 50 volantes para encargados USD 15; fondo para devolver señas de veredictos errados USD 30; imprevistos USD 15. Si Facu no tiene Claude pago, se suman USD 20 y sigue por debajo de USD 200.
+- **Duración:** 14 días corridos: los días 1 a 3 son de armado, del 4 al 13 se corre en vivo y el 14 es de cierre y post-mortem. Si arranca el 2026-10-20, termina el 2026-11-02, al principio de la temporada de aires.
+- **Pasos:**
+  1. Día 1. Elegir la zona. Armar en Google Sheets una tabla con las 10 fallas más comunes y su rango de arreglo: usar la guía de Servidos y preguntarles por WhatsApp a 8 técnicos, diciendo la verdad ('estoy armando un servicio'). Sumar el precio en cuotas de 3 modelos nuevos por categoría en Mercado Libre.
+  2. Días 1 y 2. Reclutar de 3 a 5 técnicos con un trato escrito por WhatsApp: reciben pedidos ya diagnosticados con la seña cobrada y la descuentan del arreglo (esa es la comisión). A cambio entregan presupuesto y garantía por escrito (arts. 21 y 24 de la Ley 24.240) y mandan una foto del arreglo terminado.
+  3. Día 2. Armar un Proyecto en Claude con las reglas del veredicto: primero revisar la garantía (si la tiene, va al service oficial); después las alertas de seguridad (olor a quemado, gas, agua cerca de electricidad: 'desenchufá y no lo uses'); después la falla probable con su nivel de confianza, el rango de costo según la tabla y el precio del nuevo en cuotas. El umbral para decir 'cambiá' (porcentaje del nuevo y años del equipo) se fija antes de empezar. Probarlo con 10 casos reales de conocidos.
+  4. Días 2 y 3. Landing en Carrd o Google Sites con un formulario de Tally o Google Forms para subir fotos (equipo, chapa con marca y modelo, código de error) y un botón a WhatsApp Business. Dos opciones: 'veredicto gratis en 24 h' y 'veredicto en 2 h más técnico, con seña de ARS 5.000 que se descuenta' (link de pago de Mercado Pago). Marca sin cara: logo e imágenes de equipos hechos en Canva. Aviso visible: 'es una estimación; el presupuesto lo da el técnico'. Si Facu no tiene monotributo, sacarlo antes.
+  5. Día 3. Darse de alta en Afiliados de Mercado Libre y generar links de 10 a 15 modelos de reemplazo. Armar la planilla de seguimiento: canal, veredicto, pago, técnico, falla real, precio final y minutos de Facu por pedido.
+  6. Días 4 a 13. Salir a conseguir pedidos: Meta Ads de USD 10 por día en la zona, con la foto de un lavarropas abierto y el texto '¿Lo arreglo o lo cambio? Mandá 3 fotos y en 2 horas sabés cuánto cuesta cada opción'. Además: publicaciones en 15 grupos de barrio desde la página de la marca, 40 mensajes a quienes venden equipos 'que no andan' en Marketplace ofreciendo el veredicto gratis (con moderación, para que no lo tomen como spam) y 50 volantes repartidos a encargados de edificio.
+  7. Con cada pedido: Claude arma el borrador y Facu lo revisa en 15 minutos como máximo antes de mandarlo. Si sale 'arreglá' y el cliente pagó la seña, se asigna un técnico. El técnico informa la falla real y el precio final, y el cliente confirma con una foto y una nota. Todo se carga en la planilla.
+  8. Día 14. Comparar cada número con la predicción, escribir el post-mortem (qué se aprendió aunque haya fallado) y decidir con los criterios de abajo.
+- **Sigue si:** Seguir 4 semanas más, en otra zona y solo con canales gratis, si se cumplen todas estas condiciones: al menos 30 pedidos completos; al menos 5 señas pagas; al menos 4 trabajos cerrados con la seña como comisión; precisión de al menos 70% en esos trabajos; al menos 3 técnicos que repiten; y un costo de hasta USD 3 por pedido.
+- **Se corta si:** Cortar y escribir el post-mortem si pasa cualquiera de estas cosas: menos de 15 pedidos completos con los USD 100 de pauta gastados; 2 señas pagas o menos y 2 trabajos cerrados o menos; precisión menor a 50%; un reclamo grave (daño o cobro abusivo) sin resolver; o que la mitad de los técnicos se saltee la plataforma desde el primer trabajo. Zona gris: si llegan muchos pedidos gratis pero casi ninguna seña, no seguir con este formato y probar 2 semanas la variante de la calculadora con afiliados antes de cerrar del todo.
+
+### Cinco formas de retorcerla
+
+- Otro cliente: marcas e importadores con service oficial. El mismo veredicto les sirve de filtro antes de mandar al técnico de garantía (el art. 12 de la Ley 24.240 los obliga a asegurar servicio técnico y repuestos) y pagan por cada filtrado que les evita una visita inútil. Es venta B2B, más lenta. Es parecida a ESP-5-1 y TEL-5-2, que están pendientes.
+- Otro cobro: una calculadora gratis '¿lo arreglo o lo cambio?', con guías de precios por falla y por ciudad para posicionar en Google. Cuando conviene cambiar cobra por afiliados de Mercado Libre, y cuando conviene arreglar le cobra el fee al técnico. Funciona como un solo jugador: no necesita red de técnicos el primer día. Es variante de P2 (ELEGIDA, portfolio de calculadoras SEO). Ojo: E24 y E25 (contenido con afiliados de ML) fueron NO; acá el afiliado es la forma de cobro de una herramienta, no un canal de videos.
+- Otro país: Uruguay primero, con el mismo idioma y las mismas marcas; HomeSolution ya tiene técnicos ahí. No verifiqué hoy datos de mercado ni de precios. Chile no conviene de entrada: Clickie apunta a Santiago (Forbes, 2026-06-08) y sería llegar segundo.
+- Otro activo: heladeras exhibidoras y cámaras de frío de almacenes, kioscos y restaurantes. Ahí la falla significa mercadería perdida por hora, el ticket es más alto y la urgencia se paga. En el registro solo hay un vecino para cadenas (ENE-5-4, pendiente). Falta verificar cuántas exhibidoras son en comodato de marcas de bebidas o helados, que tienen su propio service. Calefones y termotanques no los propongo como nuevos porque ya están en ENE-5-5 (pendiente).
+- Sacar el humano (el técnico): autoarreglo guiado. Para fallas simples y sin riesgo (filtro de la bomba tapado, burlete, sensor), el veredicto trae un video-guía y el repuesto con link de compra; se cobra por afiliado o por el margen del repuesto, al estilo iFixit (no verificado hoy). Nunca con gas ni electricidad de potencia. No es J9 (NO), porque Facu no compra ni revende equipos.
+
+### Riesgos
+
+- Regla 2: la parte de 'saber si el precio del arreglo es justo' es vecina de AUT-5-2 (NO: 'el dueño no sabe si el presupuesto del taller es justo'). El despacho y cobro de técnicos roza CON-2-1 (NO), y el diagnóstico para técnicos es CON-2-4 (NO). Lo que la separa es la decisión de arreglar o cambiar para el dueño de un electrodoméstico. Si Facu rechazó AUT-5-2 por el problema y no por el rubro autos, esta idea también debería salir.
+- Palancas de la ficha original que conviene no seguir por la regla 2: consorcios (todos los CON-4-* fueron NO), hoteles (F27 NO y TUR-1-3 parecida a un NO), el enchufe que mide consumo (vecino de C21 NO), aseguradoras (vecinas de TEL-4-4 parecida a un NO y de AUT-1-3 NO) y la exportación a hispanos de EE.UU. (B2 y B5 NO).
+- La tesis de 'cambiá' es débil en Argentina: con los precios de Servidos (julio 2026) y el precio medio del nuevo según INDEC (2T2026), el arreglo típico cuesta 2%-28% del equipo nuevo. Casi todos los veredictos van a salir 'arreglá', el lead al retailer rinde poco y solo el 23,2% de las ventas del rubro es online.
+- Competencia con plata o gratis: Clickie ya diagnostica con IA a partir del texto, sugiere precio y tiene una ronda ángel de USD 150 mil; Servidos conecta sin comisión. Agregar 'arreglar o cambiar' es una función que cualquiera de los dos copia en semanas (opinión).
+- Un diagnóstico a distancia equivocado trae devolución, reclamo y reputación quemada. Según la documentación consultada, Claude no toma audio, así que el 'ruido' no sirve como entrada principal. Casa Click anunció en 2024 un diagnóstico por foto que no aparece en la nota de Clickie de 2026: señal de que no es trivial (inferencia).
+- Puenteo: después del primer trabajo, cliente y técnico pueden arreglar directo. Con un margen de ~ARS 4.600-7.400 por trabajo (estimación), no hay margen para retenerlos con descuentos.
+- Economía fina: ~USD 1-1,6 por pedido (estimación con supuestos). La pauta paga casi no cierra y todo depende de canales gratis (grupos, encargados, SEO).
+- Legal: si la plataforma parece proveedora del arreglo, aplica el art. 40 de la Ley 24.240 (responsabilidad solidaria). Retener el pago completo puede exigir encuadrarse como proveedor de servicios de pago (normas del BCRA no leídas), y las fotos y direcciones caen en la Ley 25.326 (no leída).
+- Seguridad: hay gas y electricidad de por medio. Un mal consejo sobre un calefón o un aire puede terminar en un accidente, así que hacen falta reglas de 'no lo uses, llamá' y nada de autoarreglo en esos casos.
+- Techo bajo para un fundador solo: Clickie, con fondeo y miles de técnicos, cierra ~150 órdenes por mes. Replicar eso en una ciudad deja ~USD 500-1.000 por mes (estimación).
+- Señal regional: GetNinjas, el marketplace de oficios más grande de Brasil, terminó con cambio de control por OPA, salida del fundador como CEO y recorte de gastos (2023-2024, según resultados de búsqueda).
+- Administrativo: para cobrar señas, fees y afiliados de Mercado Libre hace falta monotributo. Las comisiones exactas de Mercado Pago no las pude verificar.
+- Estacionalidad: si se corre en noviembre, el aire infla la demanda y el resultado puede no repetirse en invierno.
+
+### Fuentes
+
+- https://www.forbesargentina.com/negocios/el-momento-uber-oficios-startup-cordobesa-usa-inteligencia-artificial-ordenar-negocio-arreglos-hogar-n92074 (Clickie, nota del 2026-06-08, leída el 2026-10-19)
+- https://www.iprofesional.com/tecnologia/416954-casa-click-crearon-app-para-ahorrar-plata-arreglos-aire-acondicionado (Casa Click, nota del 2024-11-14, leída el 2026-10-19)
+- https://www.letrap.com.ar/economia/clickie-lleva-su-plataforma-inteligencia-artificial-la-plata-y-prepara-su-llegada-rosario-n5425395 (Clickie llega a La Plata y Rosario; solo resultado de búsqueda, 2026-10-19)
+- https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm (Ley 24.240, texto actualizado, leída el 2026-10-19)
+- https://www.indec.gob.ar/uploads/informesdeprensa/electro_08_26FCE47337D1.pdf (INDEC, Encuesta de comercios de electrodomésticos, 2T2026, publicada el 2026-08-21, leída el 2026-10-19)
+- https://servidos.ar/blog/cuanto-cuesta-arreglar-lavarropas-heladera-buenos-aires (precios de julio 2026, según el resumen del buscador, 2026-10-19)
+- https://servidos.ar/reparacion-electrodomesticos/buenos-aires (citada por el verificador, 2026-10-19)
+- https://www.descubre.vc/iguanafix (citada por el verificador)
+- https://infonegocios.info/default/iguanafix-supero-mas-de-150-mil-servicios-en-argentina-el-service-de-aire-acondicionado-lo-mas-pedido (citada por el verificador, sin fecha verificada)
+- https://homesolution.net (citada por el generador, 2026-10-18)
+- https://www.descubre.vc/rol y https://app.dealroom.co/companies/lavuro (solo resultados de búsqueda, 2026-10-19)
+- https://investidor10.com.br/noticias/sob-nova-administracao-getninjas-ninj3-reverte-prejuizo-no-1-tri-104363/ (GetNinjas; solo resultado de búsqueda, 2026-10-19)
+- https://bpmoney.com.br/mercado/getninjas-ninj3-reverte-prejuizo-e-lucra-r-29-mi-no-1t24 (GetNinjas 1T24; solo resultado de búsqueda, 2026-10-19)
+- https://www.forbesargentina.com/negocios/mercado-libre-sale-caza-creator-economy-lanza-su-programa-afiliados-monetizar-recomendaciones-n87534 (Afiliados de Mercado Libre, marzo 2026; solo resultado de búsqueda)
+- https://mercado.com.ar/marketing/mercado-libre-lanzo-en-el-pais-su-programa-de-afiliados-y-creadores-con-comisiones-de-hasta-15 (solo resultado de búsqueda, 2026-10-19)
+- https://www.mercadopago.com.ar/herramientas-para-vender/link-de-pago (la comisión depende de provincia, medio de pago y plazo; sin cifras; solo resultado de búsqueda, 2026-10-19)
+- https://www.ambito.com/informacion-general/link-mercado-pago-como-funciona-la-herramienta-mas-agil-compra-y-venta-n5851539 (solo resultado de búsqueda, 2026-10-19)
+- https://www.cronista.com/finanzas-mercados/mercado-pago-estos-son-los-costos-y-recargos-por-usar-las-funciones-de-la-billetera-virtual/ (nota del 2023-10-31, leída el 2026-10-19: no trae comisiones de cobro)
+- https://www.palabrasdelderecho.com.ar/articulo/4656/Censo-2022-el-INDEC-publico-los-resultados-definitivos (viviendas del Censo 2022 definitivo; solo resultado de búsqueda)
+- https://elheraldo.com.ar/noticias/interes-general/datos-definitivos-del-censo-2022-la-argentina-tiene-46234830-habitantes (solo resultado de búsqueda, 2026-10-19)
+- https://www.entrerios.gov.ar/dgec/wp-content/uploads/2023/02/Primero-datos-provisionales-Censo-2022-Entre-Rios-Febrero-2023-1.pdf (viviendas particulares de CABA, dato provisorio; solo resultado de búsqueda)
+- Precios de la API de Claude: tabla del skill claude-api cacheada al 2026-10-06; página oficial https://platform.claude.com/docs/en/about-claude/pricing (no la abrí hoy)
+- Registro de exclusión del proyecto: exclusion-registro.tsv (AUT-5-2, CON-2-1, CON-2-4, CON-4-*, C21, TEL-4-4, AUT-1-3, B2, B5, J9, E24, E25, P2, ESP-5-1, TEL-5-2, ENE-5-4, ENE-5-5), consultado el 2026-10-19
+
+---
+
+## 7. Solar en grupo por barrio: lote licitado entre instaladores + usuario-generador comunitario
+
+1) Qué es: una página que junta de 10 a 30 hogares de un mismo barrio o pueblo, todos con la misma distribuidora, para comprar paneles en un solo lote. La IA lee cada factura, se arma un pliego, de 3 a 6 instaladores cotizan el lote y cada vecino firma su propio contrato. Al que no tiene techo se lo suma como usuario-generador comunitario (Res. SE 608/2023).
+2) Para quién: hogares con factura alta y techo propio. Se arranca por Córdoba, que tiene más del 34% de los usuarios-generadores del país (mayo de 2025).
+3) Quién paga: el instalador que gana el lote (comisión de éxito, estimación 3-5%) y el hogar (un fee chico al cierre). Antes se pide una seña reembolsable, que sirve de filtro.
+4) Vuelta de tuerca: se da vuelta el embudo, porque la demanda le llega al instalador ya empaquetada y pre-dimensionada. Además el pago va por hitos 50/40/10, con el último 10% contra la conexión aprobada; es el esquema de las compras colectivas de Som Energia en España.
+5) Por qué ahora: la figura comunitaria existe desde 2023 y la Provincia de Buenos Aires la habilitó en 2026. El mercado formal es chico pero se aceleró: de unas 59 altas por mes en 2024 a unas 113 por mes en 2025 (estimación con datos de la Secretaría de Energía).
+
+**Veredicto:** Probarla solo si en la primera semana Facu consigue dos cosas: un barrio o pueblo con canal propio (grupo de vecinos, cooperativa o la red de CEMEVA) y al menos 2 instaladores que coticen por escrito un lote con descuento real. Es buena escuela (venta a dos lados, regulación nueva, negociación con proveedores), pero el mercado formal es muy chico (unas 700 altas en todo 2024) y la traba principal es el financiamiento, que esta idea no resuelve; si el descuento por lote no llega a cerca del 10%, archivarla. Opinión: la variante agro con productores de CEMEVA puede ser un mejor primer test, por la ventaja de acceso que ya tiene Facu.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA: no encontré a nadie que haya hecho compra en grupo de techos con licitación entre instaladores, ni cierres o pivotes de algo parecido. Búsquedas del 2026-10-19: una en modo extendido ("plataforma argentina comparar presupuestos instaladores paneles solares online cotizador") más las 3 del verificador sobre compra colectiva o conjunta.
+Lo más cercano en Argentina:
+- Cooperativas de Córdoba que venden porciones de un parque comunitario: Morteros y Las Varillas. Las Varillas dice que recién fue viable cuando cambió la tarifa.
+- Maipú Automotores, el primer parque comunitario hecho por privados (Cadena 3, 2023-10).
+- Solar Linkers, un cotizador online que sigue activo en 2026 (ver competencia).
+Ninguno agrega demanda para licitar techos.
+
+LATAM:
+(1) Chile, Programa Casa Solar del Ministerio de Energía. La compra agregada y la licitación las hizo el propio Estado. La nota oficial (2021) titula que logró "más de un 30% de descuento". En su primer período había adjudicado 5 de 24 comunas, con el resto abierto. La convocatoria de 2021-11 pedía comunas con al menos 100 postulaciones viables, tenía 3.500 cupos y cofinanciaba hasta el 50%. Esto sale del resumen del buscador de energia.gob.cl y radioagricultura.cl; no leí las notas completas y no verifiqué si el programa sigue en 2026. Qué enseña: funcionó con Estado, subsidio y un umbral alto por comuna.
+(2) Brasil, Lemon Energia. Hace de puente entre usinas solares y pequeños comercios con generación compartida (el equivalente del comunitario virtual) y cobra un fee mensual sobre la facturación de las usinas. Levantó una Serie A de R$ 60 M liderada por Kaszek. Planeaba pasar de 3.000 a 250.000 clientes para 2025, y con Ambev se puso la meta de llegar a 250.000 puntos de venta. Fuentes: startups.com.br e InfoMoney vía buscador. Las cifras de captación no coinciden entre notas y no verifiqué si llegó a la meta.
+
+AFUERA:
+(3) España, Som Energia. Sus compras colectivas por grupos locales explicaban el 40% de sus más de 4.500 puntos de autoconsumo, con unas 40 compras en marcha. Cobra una reserva de 100 € y necesita un mínimo de inscriptos para arrancar (unos 80 en Planter Solar 2). Solo entran techos propios con consumo de 2.500 kWh/año o más; los departamentos quedan afuera (energias-renovables.com, 2022-02-24, leída).
+(4) Europa, Otovo (plataforma noruega de solar residencial). En 2024 recortó cerca del 46% del personal (de 366 a unos 200) en 13 mercados por la caída del mercado. En 2025-02 vendió el 88% de su cartera de suscripciones a Swiss Life AM por €105 M. En 2025-12 tomó 24.000 clientes de la holandesa Soly (insolvente en 2025-11) y unos 5.000 de la noruega Solcellespesialisten (quiebra el 2025-12-09). Fuentes: energynews.pro, solarserver.de y filingreader, vía buscador. Qué enseña: el solar residencial es cíclico. Cuando cae la demanda quiebran instaladores, y alguien tiene que atender los equipos que quedan huérfanos.
+
+### Competencia en Argentina
+
+(1) Solar Linkers (https://www.solarlinkers.com/, leída el 2026-10-19). Cotizador online gratis para el cliente: describe su instalación y recibe propuestas de "más de 100 profesionales asociados" (en otra sección dice "más de 200 empresas"). Opera en Argentina, Chile, Colombia y Uruguay. A los instaladores les vende "planes" con 14 días de prueba; el precio no está publicado. El blog tiene notas de feb-mar 2026.
+- Hace bien: ya juntó la oferta y tiene alcance regional.
+- Hueco: no agrega demanda, no negocia precio por lote, no hace el trámite de usuario-generador ni financia.
+
+(2) Instaladores Solares (https://instaladoressolares.com.ar/). Directorio de empresas verificadas por provincia; según el sitio (visto en el buscador), 177 empresas en 81 ciudades. Modelo de cobro y precios no verificados.
+- Hueco: es una guía, no una compra.
+- Sirve como lista de instaladores para el experimento.
+
+(3) Gestión Solar (https://www.gestionsolar.com.ar/). Software para instaladores argentinos, con un formulario para hogares que se deriva a los instaladores de la zona que lo usan. Precios no verificados. Puede ser canal (son instaladores ya digitalizados) o el rival más probable si suma compra en grupo.
+
+(4) Servidos (https://servidos.ar/blog/cuanto-cuesta-instalar-paneles-solares-fotovoltaicos-buenos-aires). Marketplace genérico de oficios donde se "publica un pedido". Su guía da una mano de obra residencial en Buenos Aires de ARS 1,2 a 3,5 millones (vía buscador).
+- Hueco: es genérico, sin especialización ni lote.
+
+(5) Cooperativas con parque comunitario (datos del verificador):
+- Morteros: 340 kWp y 594 paneles; un usuario residencial puede comprar hasta 5 kW.
+- Las Varillas: 600 kW para unas 200 viviendas.
+Resuelven bien al vecino sin techo, pero no licitan techos ni comparan instaladores. Son más canal que rival.
+
+(6) El statu quo: el instalador que vende casa por casa. Los precios publicados varían de 2 a 3 veces para el mismo tamaño:
+- Ámbito (2026-01-13): 2-5 kWp por USD 2.000-4.500.
+- Roomix (abril 2026): 4 kWp por USD 4.500-6.000.
+- Perfil (sin fecha): 2 kW por unos USD 5.950.
+Opinión: esa opacidad es el principal argumento de venta.
+
+No encontré ninguna plataforma argentina de compra en grupo con licitación entre instaladores.
+
+### Regulación
+
+LEÍDA EN LA FUENTE (Boletín Oficial, 2026-10-19): Res. SE 608/2023 (RESOL-2023-608-APN-SE#MEC). Firmada el 2023-07-18 y publicada el 2023-07-20. Modifica el Anexo de la Res. 314/2018, que reglamenta la Ley 27.424 (https://www.boletinoficial.gob.ar/detalleAviso/primera/290632/20230720).
+
+QUÉ PERMITE:
+(a) Usuario-Generador Comunitario: dos o más usuarios con puntos de suministro distintos, abastecidos por el MISMO distribuidor, que declaran administrar en conjunto un equipo renovable. El equipo puede estar o no conectado a alguno de sus suministros.
+(b) Comunitario Virtual: lo mismo, pero con la demanda y la inyección medidas en tiempo real.
+(c) El contrato con la distribuidora tiene que fijar el porcentaje de participación de cada usuario.
+(d) Se pueden cambiar integrantes avisando con 30 días de anticipación.
+(e) La potencia de conexión puede llegar a la suma de las potencias contratadas del grupo; el ente regulador puede autorizar más.
+
+QUÉ LIMITA:
+- Los créditos solo se ceden entre usuarios del mismo distribuidor.
+- Si el equipo no está en ningún suministro, la distribuidora define si es factible y qué cargos adicionales cobra.
+
+QUÉ NO DICE: nada sobre contratos entre participantes, instalador calificado, venta de energía a terceros ni intermediarios. O sea, no prohíbe una plataforma, pero tampoco la reconoce.
+
+TOPES DE POTENCIA:
+- La 608 fijaba categorías de hasta 3 kW, de 3 a 300 kW y de 300 kW a 2 MW, con un máximo de 2 MW por suministro.
+- La Res. 235/2024 (BO 2024-09-03) subió el límite de los usuarios mayores y mantuvo las categorías (Marval y BO, vía buscador).
+- Según LM Neuquén, la Res. 287/2025 (julio 2025) mantiene 12 MW por usuario o conjunto. No la leí.
+
+OTROS DATOS DEL MARCO:
+- Ley 27.424: el fondo de financiamiento FODIS se eliminó en 2023 (FARN, oct-2025, leído).
+- Provincia de Buenos Aires: la Res. 17/2026 habilita la generación comunitaria con un titular responsable (UGC-T) y reparto por porcentajes. Lo dice la nota de Econoblog del 2026-01-16, que leyó el verificador; no la leí en el boletín bonaerense.
+- Córdoba y Santa Fe: hoy no verifiqué su régimen propio ni si exigen registro de instaladores.
+
+CONSECUENCIAS DE DISEÑO (opinión):
+- Elegir barrios con UNA sola distribuidora.
+- Que el titular del comunitario sea un vecino o la cooperativa, no la plataforma.
+- Que la plataforma no cobre ni guarde la plata del equipo: cada vecino le paga directo al instalador. Así se evita caer en figuras reguladas de ahorro previo o de pagos, que no verifiqué.
+
+### Números de unidad
+
+TICKET DEL EQUIPO (dato, con mucha dispersión):
+- Ámbito (2026-01-13, vía buscador): 2-5 kWp instalados por USD 2.000-4.500.
+- Roomix (abril 2026, blog): 4 kWp por USD 4.500-6.000; dice que los equipos siguen al dólar y la mano de obra se paga en pesos.
+- Servidos: mano de obra residencial en Buenos Aires de ARS 1,2 a 3,5 M.
+- iProfesional (2022-01-04, histórico): on-grid desde USD 2.800 y repago de 5-6 años, según un instalador.
+Estimación central para el modelo: 4 kWp a USD 1.000/kWp, o sea USD 4.000 por casa (punto medio redondeado entre Ámbito y Roomix).
+
+INGRESOS POR LOTE DE 12 CASAS (estimación):
+- Comisión de éxito del 4% al instalador: USD 160 por casa, USD 1.920 por lote.
+- Fee de USD 40 por casa al cierre: USD 480 por lote.
+- Total: USD 2.400 por lote.
+
+COSTOS POR OPERACIÓN:
+- IA. Precios oficiales de Claude según la tabla del skill claude-api (cacheada el 2026-10-06; página: https://platform.claude.com/docs/en/about-claude/pricing), por millón de tokens de entrada/salida: Sonnet 5.5 USD 2/10, Opus 5.5 USD 4/20, Haiku 5.5 USD 0,10/0,50. Una foto en alta resolución usa hasta unos 4.784 tokens. Leer una factura (unos 5.800 tokens de entrada y 800 de salida) cuesta cerca de USD 0,02 con Sonnet 5.5 o USD 0,04 con Opus 5.5. El pliego más la comparación de 5 ofertas, unos USD 0,25. Total de IA por lote, con 50 facturas: menos de USD 2,50.
+- WhatsApp. En el experimento se usa la app común o Business, sin costo. El precio por mensaje de la API de Meta no lo verifiqué.
+- Cobro. Mercado Pago cobra un porcentaje más IVA que cambia según el medio de pago y el plazo de acreditación (Tiendanube y yo-facturo, 2026, vía buscador). La tasa exacta no la pude verificar; supuesto conservador del 8% sobre el fee: USD 38 por lote.
+- Adquisición (supuestos). Para cerrar 12 contratos harían falta unas 50 facturas subidas (24% de conversión; como referencia, Som Energia necesitó unos 80 inscriptos para arrancar una compra). A unos USD 4 por factura en anuncios, son USD 200 por lote.
+
+MARGEN POR LOTE (estimación): USD 2.400 - 240 = unos USD 2.160 antes del tiempo de Facu. Si un lote le lleva 40 h (supuesto), son unos USD 54 por hora.
+- Para el vecino: con un descuento del 10%, ahorra USD 400 y paga USD 40.
+- Para el instalador: paga USD 160 por casa, contra lo que hoy le cuesta conseguir un cliente. Ese costo no está verificado; es la pregunta 7 del guion.
+
+SENSIBILIDAD: en el desglose de costos de FARN (oct-2025, figuras 6, 9 y 12 para Olavarría, Villa María y Venado Tuerto), en residencial más comercial con baterías la mano de obra es cerca del 7% del costo (9% sin baterías), los equipos principales el 44% y otros componentes el 23%. Es lectura propia del gráfico. Por eso el descuento por lote tiene que salir de comprar equipos en cantidad y de ahorrarle al instalador el costo de vender, no de la instalación. Si el descuento es solo del 5%, al vecino le quedan USD 160 netos, y el gancho pasa a ser la confianza y el trámite resuelto.
+
+### Tamaño del mercado
+
+DATOS VERIFICADOS:
+- A diciembre de 2024 había 2.290 usuarios-generadores (UG) y 58.996 kW conectados. En 2024 se sumaron 709 UG en todo el país, unos 59 por mes, con 28.690 kW nuevos. Es la suma de las barras mensuales del gráfico de la Secretaría de Energía que reproduce FARN (oct-2025, leído).
+- Estimación: eso da unos 40 kW promedio por alta, así que el grueso de la potencia nueva no es residencial.
+- 2025, según la Secretaría de Energía y medios: 2.427 UG en enero; 2.520 proyectos en febrero; 2.792 UG y 73,67 MW en mayo (Córdoba, más del 34%); 3.306 proyectos y 97,65 MW en septiembre (LM Neuquén). La meta de la Ley 27.424 es de 1.000 MW (según LM Neuquén), así que vamos por cerca del 10% tras unos 8 años.
+
+ESTIMACIONES:
+- Ritmo de 2025: unas 113 altas por mes en el país y unas 38 por mes en Córdoba (34%).
+- Ojo: solo se cuentan los equipos conectados con medidor bidireccional. Los aislados o sin inyección no figuran, y su tamaño es desconocido.
+
+PRIMERA CIUDAD: no encontré el dato por ciudad.
+- Córdoba provincia tuvo 4.649 GWh de demanda residencial en 2023 (CAMMESA vía FARN).
+- Con los 3.600 kWh/año por hogar que usa FARN, eso da cerca de 1,29 millones de hogares-equivalentes (estimación). Con unos 950 a 1.120 UG en Córdoba, la penetración es menor al 0,1% (estimación).
+- Hogares por ciudad del INDEC: no los consulté.
+- Oferta: 177 empresas instaladoras en 81 ciudades, según el directorio instaladoressolares.com.ar (vía buscador).
+
+LECTURA (opinión): el mercado formal es tan chico que un solo lote de 12 casas por mes en Córdoba sería cerca del 30% de las altas mensuales de la provincia (12 sobre 38). La plataforma solo escala si trae compradores nuevos, los que hoy no compran por precio, desconfianza o trámite, y no si se reparte los que ya compran.
+
+### A quién entrevistar
+
+1) Instaladores chicos y medianos (1 a 10 personas) que cotizan residencial en la ciudad elegida. Son los mismos 6 a los que se les manda el pliego.
+- Dónde: directorio instaladoressolares.com.ar (177 empresas en 81 ciudades, según el sitio), perfiles de Solar Linkers, instaladores que usan Gestión Solar, vendedores de kits en Mercado Libre. Contacto por WhatsApp y llamada sin cámara.
+- Meta: 6 entrevistas.
+
+2) Hogares que pidieron presupuesto en los últimos 12 meses y NO compraron. Es el segmento que la idea necesita convertir.
+- Dónde: un posteo en el grupo de vecinos del barrio elegido pidiendo 10 minutos por WhatsApp. También en las administraciones de barrios cerrados; en 2022 iProfesional ubicaba ahí la mayor demanda del AMBA.
+- Meta: 6.
+
+3) Hogares que ya son usuarios-generadores (instalaron entre 2024 y 2026).
+- Dónde: pedirle a cada instalador 1 o 2 clientes de referencia; también en las cooperativas que tienen usuarios-generadores.
+- Meta: 4.
+
+4) Responsable técnico o comercial de una cooperativa eléctrica con parque comunitario (Morteros o Las Varillas, ya identificadas) o de la cooperativa del pueblo elegido. Sirve para saber cómo venden las porciones, a qué precio y si usarían un back-office.
+- Dónde: por teléfono a atención al usuario o a la gerencia.
+- Meta: 2.
+
+5) Un distribuidor mayorista de paneles e inversores, el proveedor que nombren los instaladores. Hay que saber cuánto baja el precio de los equipos por cantidad: es el dato que decide si existe un descuento real.
+- Meta: 1 o 2.
+
+Opcional, para la variante agro: 2 productores de la red de CEMEVA que tengan bombeo o galpones.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. [Vecino] La última vez que averiguaste por paneles solares, ¿qué hiciste paso a paso? ¿A quién le preguntaste, cuántos presupuestos pediste y cómo los conseguiste?
+2. [Vecino] ¿Cuánto te cotizaron y para qué potencia? ¿Qué pasó con ese presupuesto? Si no avanzaste, ¿qué pasó la semana en que decidiste no hacerlo?
+3. [Vecino] ¿Cuánto pagaste de luz en las últimas tres facturas? ¿Me mostrás una? (dato duro y tiempo cedido)
+4. [Vecino] ¿Cuál fue la última compra grande para la casa, de más de USD 1.000, y cómo la pagaste: contado, en cuotas o con un préstamo?
+5. [Vecino] ¿Alguna vez contrataste o compraste algo junto con vecinos (seguridad, poda, internet, compras)? ¿Quién lo organizó, quién juntó la plata y qué salió mal?
+6. [Instalador] De los últimos 10 presupuestos residenciales que mandaste, ¿cuántos cerraste? Contame el último que perdiste: ¿qué pasó?
+7. [Instalador] El mes pasado, ¿cuánto gastaste en conseguir clientes (publicidad, directorios, visitas, nafta, horas) y cuántos clientes te salieron de eso?
+8. [Instalador] ¿A cuánto compraste el último inversor y los últimos paneles? ¿Qué precio te dio tu proveedor la última vez que llevaste más cantidad?
+9. [Instalador] ¿Alguna vez hiciste varias casas en la misma zona en el mismo mes? ¿Qué te ahorraste y cuánto le bajaste el precio al cliente?
+10. [Instalador o cooperativa] ¿Cuánto tardó la distribuidora en aprobar tu última conexión como usuario-generador y qué la trabó? ¿Quién hizo los papeles y cuántas horas le llevó?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Hay dos lados. Demanda: si a los hogares de un mismo barrio se les ofrece entrar a un lote solar con precio licitado, pre-dimensionado gratis con la foto de la factura y pago por hitos, al menos 10 dejan una seña reembolsable en 14 días. Oferta: si a los instaladores de la zona se les lleva ese lote empaquetado, al menos 2 lo cotizan por escrito con un descuento de 10% o más frente a su precio para una casa sola y aceptan pagar una comisión de éxito.
+- **Predicción (antes de empezar):** Escrita antes de correrlo. Demanda: 800 visitas a la landing, 40 facturas subidas (5%) y 10 señas pagadas (25% de las facturas). Oferta: 6 instaladores contactados, 3 cotizaciones escritas, 2 con descuento de 10% o más para un lote de 10 casas o más, y 1 carta de comisión firmada al 4%. Si las señas salen en 5 o menos (la mitad de lo previsto), la hipótesis de demanda queda refutada para ese canal.
+- **Pérdida máxima:** USD 150 como tope duro. Desglose: anuncios de Meta USD 70; 50 flyers con QR USD 15; llamadas y viajes USD 20; costo de cobrar y devolver señas USD 19 (supuesto: comisión de Mercado Pago del 8%, no recuperable, sobre 12 señas de USD 20); Claude USD 0 a 5 (con su plan, por chat; por API serían menos de USD 2); imprevistos USD 20. El hosting (Cloudflare Pages) y el formulario son gratis. Aparte, unas 35-45 horas de Facu.
+- **Duración:** 14 días corridos más 1 día de post-mortem. Por ejemplo, del lunes 2026-10-26 al domingo 2026-11-08, con post-mortem el 2026-11-09. Opinión: es buena época, fin de primavera y antes de las facturas de verano.
+- **Pasos:**
+  1. Día 1: elegir UN barrio, country o pueblo donde Facu tenga canal (grupo de WhatsApp o Facebook de vecinos, administración o cooperativa) y que tenga una sola distribuidora, que es requisito de la Res. 608/2023 para el comunitario. Llamar a la distribuidora y anotar los pasos y plazos del trámite de usuario-generador.
+  2. Días 1-2: armar con Claude una landing en Cloudflare Pages (gratis) con marca 'Solar en grupo [barrio]' y sin cara. Tiene que explicar cómo funciona, el umbral mínimo (10 hogares) y la fecha de cierre (día 14). Lleva un formulario gratuito (Tally o Google Forms) para subir la foto de la factura y un link de pago de Mercado Pago para una seña equivalente a USD 20 en pesos. La seña se devuelve al 100% si no se llega al mínimo o si el precio del lote no es al menos 10% menor que la cotización individual del mismo instalador.
+  3. Días 2-3: escribir con Claude el pliego del lote. Incluye: especificaciones mínimas (potencia, marca y garantía de paneles e inversor, estructura, monitoreo, trámite incluido); precio para 1 casa y para lotes de 10, 20 y 30; plazo de instalación; validez del precio por 30 días; pagos 50/40/10, con el último 10% contra la conexión aprobada; y una comisión de éxito del 4% para la plataforma.
+  4. Días 3-4: mandar el pliego por mail o WhatsApp a 6 instaladores de la zona (sacados del directorio instaladoressolares.com.ar, de los perfiles de Solar Linkers o recomendados por la cooperativa) y pedir respuesta escrita en 7 días. En la misma llamada, sin cámara, hacer la entrevista de instalador del guion.
+  5. Días 3-12: difusión sin cara. Tres posteos en grupos de vecinos (texto, foto de un techo y un ejemplo de ahorro). Pedirle a la administración o a la cooperativa que lo reenvíe. Repartir 50 flyers con QR en comercios del barrio y poner USD 70 en anuncios de Meta segmentados a 3 km.
+  6. Días 3-13, atención a mano: Facu pasa cada factura que llega por Claude (chat) y en menos de 24 h devuelve por WhatsApp el pre-dimensionado (kWh/año, kWp sugeridos, ahorro estimado) junto con el link de la seña. Todo se anota en una planilla: visitas, facturas, señas y tiempos de respuesta.
+  7. Días 10-13: con las cotizaciones que lleguen, armar con Claude una tabla comparable (USD por kWp, marcas, garantías, plazos) y mandarles a los inscriptos el precio preliminar del lote. A los que subieron factura y no pagaron, pedirles la seña.
+  8. Día 14: contar resultados y decidir con los criterios fijados de antemano. Si no se cumplen, devolver todas las señas ese mismo día. Escribir el post-mortem: qué se aprendió de los vecinos, de los instaladores y de la distribuidora.
+- **Sigue si:** Se sigue si se cumplen las tres: (1) 10 señas pagadas o más en el barrio elegido; (2) 2 instaladores o más entregan cotización escrita del lote con descuento de 10% o más frente a su propio precio para 1 casa, en el mismo pliego; (3) al menos 1 instalador firma la carta de comisión (3% o más). Siguiente paso: convertir las señas en contratos individuales (meta: 50% o más en 30 días) y repetir en un segundo barrio.
+- **Se corta si:** Se corta si pasa cualquiera de estas: 4 señas o menos en 14 días; ningún instalador ofrece al menos 5% de descuento por lote; ninguno acepta pagar comisión de éxito. En ese caso se devuelven las señas, se escribe el post-mortem y se pasa a la variante agro (CEMEVA) o se archiva la idea. Zona gris (entre 5 y 9 señas, o descuento de entre 5% y 10%): una sola segunda ronda de 14 días, cambiando una única variable (canal cooperativa o capitán de cuadra) y con la misma pérdida máxima.
+
+### Cinco formas de retorcerla
+
+- Otro cliente: productores agropecuarios de la red de CEMEVA (la empresa de granos del papá de Facu). Compra en lote de bombeo solar para aguadas o riego y de paneles para galpones y secadoras, licitada entre instaladores rurales. Es la ventaja injusta más clara de Facu: ya tiene acceso a los productores. Además, un bombeo aislado de la red probablemente no necesite el trámite de usuario-generador (a verificar). Chequeo de registro: busqué 'riego' y 'bombeo' y no aparecen; AGR-4-2 (alambrados, Fase 2) es otro problema.
+- Otro cobro: el esquema de Som Energia. Cada hogar paga una reserva de gestión (en España, 100 €); si el vecino se baja, 75 van al instalador por la visita y 25 a la plataforma. El equipo se paga en 3 hitos, 50/40/10, con el último 10% contra la conexión aprobada por la distribuidora. La plataforma nunca toca la plata del equipo, pero el hito final funciona como pago protegido. Es variante de A1 (intermediario de pagos seguros, idea propia de Facu).
+- Otro país: Chile o Uruguay por el mismo canal, ya que Solar Linkers opera en Argentina, Chile, Colombia y Uruguay. En Chile el Estado hizo compra agregada (Casa Solar, más del 30% de descuento en 2021) y exigía comunas con al menos 100 postulaciones viables. El hueco serían los grupos chicos que no llegan a ese umbral o las comunas que quedaron afuera. No verifiqué si Casa Solar sigue en 2026.
+- Otro activo: equipos de respaldo para cortes de luz (inversor híbrido más batería) comprados por cuadra en barrios con cortes frecuentes. El dolor deja de ser la factura y pasa a ser quedarse sin luz. Si el equipo no inyecta a la red, quizás no requiera el trámite de usuario-generador (a verificar con cada distribuidora). Vecina de ENE-5-2 (PENDIENTE: grupos electrógenos que fallan), que trata de mantenimiento y no de compra.
+- Poner un humano: el 'capitán de cuadra'. Es un vecino referente (el que administra el grupo de WhatsApp del barrio o la comisión del country) que recluta, junta facturas y cobra una parte del fee por cada casa instalada. Resuelve que Facu no quiere mostrar la cara y baja el costo de conseguir clientes. Riesgo: que el capitán negocie directo con el instalador. Sin choque en el registro: L27 y L28 son referidos de fintech, otro problema.
+
+### Riesgos
+
+- Mercado formal chico: 709 altas de usuarios-generadores en todo 2024 (FARN/SE) y unas 113 por mes en 2025 (estimación). Un barrio puede no llegar nunca al umbral: Chile pedía 100 postulaciones viables por comuna y Som Energia unos 80 inscriptos para arrancar.
+- Restricción equivocada (opinión, lente de teoría de restricciones): FARN (oct-2025) marca el financiamiento como barrera crítica, y el FODIS se eliminó en 2023. Forbes Argentina dice lo mismo. Si el cuello de botella es la plata inicial (USD 2.000 a 6.000 por casa) y no la venta del instalador, optimizar la venta no sube el número de instalaciones.
+- Descuento por volumen dudoso: en el desglose de FARN la mano de obra es cerca del 7% del costo residencial (lectura propia del gráfico). La rebaja tiene que salir de equipos comprados en cantidad y del costo comercial del instalador; si queda por debajo del 5-10%, el argumento de precio se cae.
+- Desintermediación: después del primer lote, instaladores y vecinos pueden cerrar directo. Las defensas son el trámite resuelto, la garantía grupal y el pago por hitos.
+- Responsabilidad y reputación: si un instalador incumple o quiebra en medio del lote, el vecino culpa a la plataforma. En Europa, en 2025, quebraron instaladores (Soly y Solcellespesialisten) y Otovo tuvo que absorber a sus clientes.
+- Regulatorio y operativo: el comunitario exige mismo distribuidor, contrato con porcentajes y 30 días de aviso para cada cambio. Los plazos de la distribuidora no dependen de Facu, y el régimen de cada provincia (Córdoba, Santa Fe) no está verificado.
+- Manejo de plata de terceros: si la plataforma cobra el equipo, podría caer en actividades reguladas (no verificado). Hay que diseñarla para no tocar esos fondos.
+- Precios en dólares y mano de obra en pesos (Roomix, 2026): una campaña de 4 a 8 semanas necesita precio con vencimiento o una cláusula de ajuste.
+- Copia rápida: Solar Linkers (más de 100 profesionales en 4 países) y Gestión Solar (instaladores que ya usan su software) tienen la oferta armada y podrían sumar compra en grupo en semanas.
+- Confianza sin cara: pedirles seña a vecinos desde una marca nueva, sin una persona visible, baja la conversión. Se mitiga con la cooperativa o la administración del barrio como aval, o con un capitán de cuadra.
+- Se pisa con N086 (techo compartido) y con ENE-1-1 a ENE-1-4 (PENDIENTES). Si Facu elige alguna, conviene fusionarlas en una sola ficha.
+
+### Fuentes
+
+- https://www.boletinoficial.gob.ar/detalleAviso/primera/290632/20230720 (Res. SE 608/2023, leída el 2026-10-19)
+- https://farn.org.ar/wp-content/uploads/2025/10/Generacion-distribuida-de-la-energia-electrica-en-provincias-de-la-Argentina.pdf (FARN, oct-2025, leída: UG a dic-2024, altas mensuales 2024, FODIS, barreras, desglose de costos)
+- https://argentina.gob.ar/sites/default/files/ppt_reporte_de_avance_enero_2025.pdf (SE, enero 2025, vía buscador)
+- https://argentina.gob.ar/sites/default/files/ppt_reporte_de_avance_febrero_2025.pdf (SE, febrero 2025, vía buscador)
+- https://mase.lmneuquen.com/energia/generacion-distribuida-mas-2700-usuarios-ya-producen-su-propia-energia-argentina-n1196215 (mayo 2025, vía buscador)
+- https://www.elancasti.com.ar/revista-express/cada-vez-son-mas-los-usuarios-que-generan-su-energia-n587820/amp (vía buscador)
+- https://mase.lmneuquen.com/renovables/generacion-distribuida-como-es-el-mapa-usuarios-la-patagonia-n1216445 (septiembre 2025, Res. 287/2025 y meta de 1.000 MW, vía buscador)
+- https://www.boletinoficial.gob.ar/detalleAviso/primera/313240/1 (Res. 235/2024, vía buscador)
+- https://www.marval.com/Publicacion/se-modifica-el-limite-maximo-de-potencia-para-los-usuarios-generadores-renovables-16935?lang=es (vía buscador)
+- https://www.econoblog.com.ar/?p=152945 (PBA Res. 17/2026, leída por el verificador)
+- https://www.energia.gob.cl/noticias/nacional/programa-casa-solar-ha-logrado-mas-de-un-30-de-descuento-en-la-compra-agregada-de-paneles-solares?page=18 (Chile 2021, vía buscador)
+- https://www.radioagricultura.cl/noticias/nacional/ministerio-de-energia-lanza-nueva-convocatoria-de-casa-solar-para-la-instalacion-de-paneles-solares_20211109/ (Chile 2021-11, vía buscador)
+- https://www.energias-renovables.com/autoconsumo/compras-colectivas-de-autoproduccion-solar-el-modelo-20220224 (Som Energia, leída)
+- https://startups.com.br/noticias/lemon-capta-r-60-mi-para-surfar-momento-fintech-no-setor-de-energia (vía buscador)
+- https://www.infomoney.com.br/?p=1542400 (Lemon y Ambev, vía buscador)
+- https://energynews.pro/otovo-reduit-ses-effectifs-de-46-en-reponse-a-la-baisse-du-marche-solaire (vía buscador)
+- https://www.solarserver.de/2025/12/23/photovoltaik-otovo-uebernimmt-kunden-und-vermoegenswerte-von-soly/ (vía buscador)
+- https://filingreader.com/news-wire/oslo/2025-12-23/otovo-acquires-5000-residential-solar-customers-from-bankrupt-competitor (vía buscador)
+- https://www.solarlinkers.com/ (leída el 2026-10-19)
+- https://instaladoressolares.com.ar/ (vía buscador)
+- https://www.gestionsolar.com.ar/ (vía buscador)
+- https://servidos.ar/blog/cuanto-cuesta-instalar-paneles-solares-fotovoltaicos-buenos-aires (vía buscador)
+- https://www.ambito.com/economia/cuanto-sale-un-panel-solar-y-cuanto-es-el-ahorro-real-la-factura-luz-n6233400 (2026-01-13, vía buscador)
+- https://roomix.ai/blog/paneles-solares-casa-argentina (abril 2026, vía buscador)
+- https://www.perfil.com/noticias/economia/cuanto-dinero-se-necesita-para-instalar-paneles-solares-en-un-hogar.phtml (sin fecha, vía buscador)
+- https://www.iprofesional.com/economia/354798-cuanto-sale-instalar-paneles-solares-en-tu-casa-para-ahorrar-luz (2022-01-04, leída, dato histórico)
+- https://grupoclarin-la-voz-prod.cdn.arcpublishing.com/negocios/morteros-tiene-el-parque-solar-mas-grande-del-pais-impulsado-por-una-cooperativa (del verificador)
+- https://www.lavozdesanjusto.com.ar/las-varillas-comenzara-a-construir-su-primer-parque-solar-comunitario (del verificador)
+- https://www.cadena3.com/noticia/industria/maipu-automotores-construyo-el-primer-parque-solar-comunitario_371832 (del verificador)
+- https://www.forbesargentina.com/money/paneles-solares-hogar-una-tendencia-furor-mundo-pero-todavia-despega-argentina-n39595 (del verificador)
+- https://www.tiendanube.com/blog/claves-para-tu-comercio-como-funciona-mercado-pago/ (estructura de costos de Mercado Pago; tasa exacta no verificada)
+- https://yo-facturo.com/blog/que-es-un-link-de-pago-como-usarlo-para-vender-2026/ (vía buscador)
+- https://platform.claude.com/docs/en/about-claude/pricing (precios de Claude tomados de la tabla del skill oficial claude-api, cacheada el 2026-10-06; no abrí la página en vivo)
+
+---
+
+## 8. Junta digital por WhatsApp (pasanaku, tanda, pandero): un administrador que no toca la plata, con reglamento, sorteo y registro de cumplimiento
+
+Qué es: un asistente por WhatsApp (bot + planilla + IA) que administra juntas que ya existen. Se encarga del reglamento aceptado por escrito, el sorteo de turnos que cualquiera puede controlar, los recordatorios, el control de los comprobantes de transferencia y el registro de quién cumplió. Nunca recibe un peso de los aportes.
+Para quién: organizadoras de juntas en colectividades donde la práctica es cultural (boliviana y peruana: 494.550 personas nacidas en Bolivia y Perú según el Censo 2022) y PyMEs con juntas entre empleados. Se arranca por el AMBA.
+Quién paga: la organizadora o el grupo, un fee chico por participante y por mes. Más adelante, el participante por un certificado de cumplimiento, o la empresa si es una junta de empleados.
+Vuelta de tuerca: copia la junta digital de MoneyFellows y Esusu pero le saca la parte regulada (guardar la plata, prestar, garantizar). La adapta a WhatsApp y a las transferencias argentinas, con una IA que lee los comprobantes y persigue los atrasos.
+Por qué ahora: las transferencias por alias y QR ya son universales, y leer un comprobante con IA cuesta menos de USD 0,001 (Claude Haiku 5.5, estimación). El límite: lo que deja plata en este negocio, que es prestar, sigue cerrado sin licencia.
+
+**Veredicto:** Probarla solo si el experimento de señas sale bien. La coordinación ya existe gratis (Tandapp, apps de pasanaku, tutanda), el fee por participante exige unos 1.700 participantes para dejar USD 1.000 por mes (estimación), y lo que funciona afuera (MoneyFellows) gana prestando y poniendo capital propio, algo vedado sin autorización del BCRA. Como negocio de la etapa 1 es flojo; vale como aprendizaje barato de comunidades y pagos, y como puerta a un producto de crédito para la etapa 2, solo si aparecen 3 organizadoras que paguen.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA: no encontré ningún intento: ni app, ni startup, ni nota de prensa. Revisé el 2026-10-19 las 3 búsquedas del verificador, Play Store (apps de pasanaku, tanda y junta) y pasanakus en la comunidad boliviana de Buenos Aires. Sobre la colectividad solo aparecieron trabajos académicos, nada sobre juntas.
+
+AMÉRICA LATINA (lo nuevo respecto de la ficha):
+• Bloinx (México): app de tandas sobre blockchain que ganó la Entrepreneurship World Cup México 2020 (Tec de Monterrey, conectastg.tec.mx). El UNICEF Innovation Fund invirtió en BX Smart Labs, una app de círculos de ahorro tipo ROSCA de una fundadora mexicana. Probablemente es el mismo proyecto, pero no lo confirmé. Estado hoy: no verificado.
+• Transfer (México; Banamex, Inbursa y Telcel): en 2017 anunció tandas en línea dentro de su app (El Financiero). No encontré evidencia de que se haya lanzado: ni un jugador con un banco y una telefónica atrás lo sacó, o no dejó rastro.
+• tutanda (Chile): web de finanzas colaborativas que dice no cobrar administración, comisiones ni intereses (gust.com). Estado no verificado. Muestra que el precio de referencia de la pura coordinación es cero.
+• PasanaQ/Sommos (Bolivia) y TandaDeals (Chile) ya están en la ficha.
+
+AFUERA:
+• Puddle (EE.UU., fundada en 2012): microcrédito entre pares basado en redes de confianza. Cerró. Según Crowdfund Insider, sus fundadores concluyeron que el modelo no cerraba por los montos chicos y los costos de operación altos (no confirmé la fecha exacta del cierre). Es la advertencia directa para un negocio que vive de un fee chico por participante.
+• Yahoo «Tanda» (EE.UU., 2018, Expansión) y WeTrust (ROSCA sobre Ethereum, prueba prevista para 2017, CoinGecko): no verifiqué qué pasó con ninguna.
+• MoneyFellows (Egipto), el caso que funcionó: levantó US$13 M en mayo de 2025 (ronda pre-Serie C liderada por Al Mada Ventures y el Nclude Fund de DPI; más de US$60 M en total). Tiene más de 8,5 M de usuarios (4,5 M en 2022), su fundador dice que es rentable en Egipto, y se expande a Marruecos después de probar en Alemania y Reino Unido.
+Lo que la ficha no dice: MoneyFellows no es un administrador neutro. Empareja a los que ahorran (turnos finales) con los que se financian (turnos iniciales) usando datos de comportamiento y score, y cobra tasas de préstamo. Además pone capital propio para llenar el lugar vacío cuando un grupo no se completa (7-8 % de los lugares activos). El fundador reconoció que descifrar el modelo les llevó más de lo que pensaban, y que muchas juntas digitales fracasaron por no entender bien cómo se comporta la gente (TechCrunch, 2025-05-04).
+
+PATRÓN (opinión): los que solo coordinan quedan gratis (Tandapp, tutanda) o cierran (Puddle). Los que crecen terminan prestando o vendiendo datos de crédito: MoneyFellows; Esusu, que pasó a reportar alquileres; Sommos, que hoy ofrece Crédito. La plata está en el crédito, y en Argentina eso exige autorización.
+
+### Competencia en Argentina
+
+No hay ninguna app ni servicio argentino de juntas (búsquedas del 2026-10-19). Lo que compite hoy, de más a menos importante:
+
+1) El sustituto gratis: grupo de WhatsApp + cuaderno o Excel + transferencias por alias. A favor: no cuesta nada y se apoya en la confianza personal. Lo que le falta (opinión, a validar en entrevistas): no deja un registro que otros acepten, los comprobantes se controlan a mano y el que cobra y después deja de pagar no tiene consecuencias.
+
+2) Apps de afuera en Play Store, en principio descargables desde Argentina (no lo verifiqué país por país):
+• Pasanaku (com.pasanaku.miapp): sorteos, pagos y multas.
+• Pasanaku App, de Capital for live (com.capitalforlive): sorteo automático de posiciones, control de pagos y venta de posiciones dentro del grupo. O sea, la «subasta de turnos» de la ficha ya existe.
+• Tandapp: solo coordina y registra, no guarda ni procesa plata. Es justamente el diseño sin custodia que propone la ficha.
+• Tanda (io.mytanda): círculos con amigos o compañeros de trabajo, con avisos y pagos por turno.
+• TANDA (io.tanda.android.tanda_savings): ahorro en grupo entre compañeros de trabajo, pagado por el empleador.
+• JoinSusu: esta sí mueve plata, con pagos automáticos y transferencias a cuentas bancarias.
+No pude ver descargas ni precios: la ficha de Play Store llegó cortada (no verificado). Lo que les falta, inferido de las descripciones: ninguna parece pensada para los comprobantes de transferencias argentinas ni para funcionar dentro de WhatsApp sin bajar una app.
+
+3) Gratis en la región: tutanda (Chile) dice no cobrar administración, comisiones ni intereses (https://gust.com/companies/tutanda).
+
+4) Lo formal en Argentina: planes de ahorro por círculos cerrados para comprar un bien (autos), regulados por la IGJ (RG IGJ 9/2023). Sirven solo para ese bien y tienen cargos que no verifiqué.
+
+5) Billeteras virtuales: ahorro individual por objetivo, no rotativo (nota de iProfesional que citó el verificador).
+
+Opinión: si el mercado aparece, Mercado Pago o Ualá pueden sumar la junta con plata en custodia, licencia y usuarios propios. Es el riesgo de jugar en su cancha.
+
+### Regulación
+
+1) LEY 21.526 DE ENTIDADES FINANCIERAS (InfoLEG, leída el 2026-10-19, https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16071/texact.htm).
+• Art. 1: la ley alcanza a quien haga «intermediación habitual entre la oferta y la demanda de recursos financieros».
+• Art. 2: la lista de entidades no es cerrada.
+• Art. 3: el BCRA puede extender la ley a otros según el volumen de sus operaciones.
+• Art. 19: reserva los nombres de entidades (banco, financiera, etc.) a las autorizadas y prohíbe a los no autorizados toda publicidad o acción para captar recursos del público.
+• Contra los no autorizados (arts. 19 y 38): el BCRA puede pedir libros, pedir un allanamiento, ordenar el cese inmediato y definitivo, sancionar (art. 41) y querellar penalmente.
+Qué implica (opinión): no guardar la plata baja el riesgo. Pero si la plataforma junta desconocidos de forma habitual y les da turnos «con descuento», se parece a intermediar entre ahorristas y tomadores.
+
+2) CÓDIGO PENAL, ART. 310 (agregado por la Ley 26.733). Intermediación financiera sin autorización, bajo cualquier modalidad: 1 a 4 años de prisión, multa de 2 a 8 veces el valor de las operaciones e inhabilitación de hasta 6 años. El mínimo sube a 2 años si se usó internet u otros medios masivos. El texto lo tomé de doctrina que lo reproduce (Pensamiento Penal; artículo de D. Greppi en el sitio del MPF/PROCELAC); no lo leí en InfoLEG.
+
+3) IGJ: PLANES DE AHORRO PREVIO POR CÍRCULOS O GRUPOS CERRADOS. Los regula la RG IGJ 9/2023 (Boletín Oficial del 2023-07-18), que se apoya en el Decreto 142.277/43 y en la Ley 22.315 (art. 9) y cita las RG 8/2015 y 21/2020. Su objeto es entregarle al ahorrista el bien del contrato «mediante sorteo o licitación». Esto lo vi en los considerandos que mostró la búsqueda; no leí el texto completo con los requisitos de autorización.
+Qué implica (opinión): una junta en efectivo no es literalmente un plan de ahorro. Pero una «junta para comprar» una moto, mercadería o un celular administrada por una empresa, o una «licitación» de turnos, se parecen mucho a un plan de ahorro sin autorización.
+
+4) LEY 25.326 DE DATOS PERSONALES (InfoLEG, leída, https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm).
+• Art. 5: tratar datos exige consentimiento libre, expreso e informado, por escrito o un medio equivalente.
+• Art. 21: toda base privada destinada a dar informes se inscribe en el registro del organismo de control.
+• Art. 26: los servicios de información crediticia pueden tratar datos de cumplimiento o incumplimiento que aporte el acreedor o quien actúe por él. Pueden guardarlos hasta 5 años (2 si la deuda se canceló) y cederlos sin consentimiento previo si el que los recibe los usa para su actividad comercial o crediticia.
+Qué implica: darle el certificado al propio participante es lo más simple. Venderle el historial a prestamistas convierte a Facu en un servicio de información crediticia (registro, plazos, derecho de acceso). Y reportar «incumplidores» cuando el acreedor es el grupo y no la plataforma es una zona gris (opinión).
+
+5) NO VERIFICADO HOY (para un abogado):
+• La Ley 23.928 prohíbe indexar deudas en pesos (arts. 7 y 10, según conocimiento previo). La indexación por UVA o dólar MEP que propone la ficha podría chocar con eso; una alternativa es armar la junta en dólares.
+• El «seguro de turno» de la ficha sería un seguro (Superintendencia de Seguros) o una garantía con fondos propios: regulado en los dos casos.
+• Si la plataforma alguna vez cobra o mueve aportes, aparece además el régimen de proveedores de servicios de pago del BCRA.
+
+QUÉ QUEDA PERMITIDO (opinión, no es asesoramiento legal): un software que organiza grupos que ya existen, sin recibir aportes, sin prestar ni garantizar, sin subasta con descuento, con consentimiento para los datos y sin informar a terceros. Antes de cobrar a escala hace falta el dictamen de un abogado de regulación financiera (no pude estimar el costo).
+
+### Números de unidad
+
+Todo es estimación propia salvo las tarifas citadas. Dólar supuesto: ARS 1.450 (no verificado al 2026-10-19; recalcular con el del día).
+
+INGRESO: la ficha propone ARS 1.000 por participante por mes (≈ USD 0,69). Una junta típica de 10 deja ARS 10.000 por mes (≈ USD 6,9), cobrados a la organizadora en un solo pago.
+
+COSTOS VARIABLES POR PARTICIPANTE POR MES:
+• WhatsApp Cloud API: solo cuando se automatice; el experimento usa la app WhatsApp Business, que es gratis. En Argentina, una plantilla de utilidad cuesta USD 0,026 y una de marketing USD 0,0618 por mensaje. Los mensajes de atención y las plantillas de utilidad dentro de las 24 h desde que escribió el usuario son gratis. Fuente: tabla de Zernio con vigencia 2026-07-01; Flowcall da el mismo precio de utilidad y sent.dm daba USD 0,0289 para 2025-07-01. No lo verifiqué en la tarifa oficial de Meta.
+  Supuesto: 2-3 plantillas pagas por persona por mes (recordatorio, aviso de turno, reclamo por atraso) → USD 0,05-0,08. Si se usa un proveedor intermediario, suma su recargo (no verificado).
+• IA: Claude Haiku 5.5 cuesta USD 0,10 por millón de tokens de entrada y USD 0,50 de salida (tabla de precios de Anthropic al 2026-10-06; https://platform.claude.com/docs/en/about-claude/pricing). Leer un comprobante (unos 2.000 tokens de entrada con la imagen y 200-1.000 de salida, estimación) cuesta menos de USD 0,001. Con 5 conversaciones cortas al mes, queda debajo de USD 0,01 por participante. Sonnet 5.5 (USD 2 y 10) sale unas 20 veces más: conviene usarlo solo para las disputas.
+• Cobro: los aportes van directo de un participante a otro; la plataforma no los toca ni paga comisión por ellos. El fee se cobra por transferencia al alias de Facu. No pude verificar las tarifas de Mercado Pago (la página de costos devolvió 403 el 2026-10-19): antes de fijar el precio, confirmar en la app si recibir transferencias o cobrar con link tiene costo.
+
+MARGEN: ≈ USD 0,69 − 0,09 = USD 0,60 por participante por mes (~87 %), o ≈ USD 6 por junta de 10.
+
+LAS DOS CUENTAS QUE DECIDEN:
+1) Escala: para dejar USD 1.000 por mes de margen hacen falta unos 1.700 participantes activos (~170 juntas de 10). Con un fee de 1,5 % sobre un aporte supuesto de ARS 100.000 (ARS 1.500 por persona), harían falta unos 1.100.
+2) Trabajo manual: si cada junta le lleva a Facu 30 minutos por semana (supuesto), gana unos USD 3 por hora. El negocio solo existe automatizado.
+
+COMPARACIÓN: MoneyFellows no vive del fee de administración. Gana prestando (cobra tasas a quien cobra primero) y llenando lugares vacíos con capital propio (TechCrunch, 2025-05-04), que es justo lo que Facu no puede hacer en la etapa 1.
+
+NO INCLUIDO: costos fijos (número, dominio, hosting) y el dictamen legal, que no pude estimar.
+
+### Tamaño del mercado
+
+EL DATO QUE FALTA (el más importante): no encontré cuántas juntas hay en Argentina ni cuánta gente participa. No aparece en el INDEC ni en notas, y la búsqueda de pasanakus en Buenos Aires no devolvió nada específico.
+
+TECHO VERIFICADO (población donde la práctica es cultural; no es el mercado): según el Censo 2022 del INDEC, citado por Chequeado y El Litoral, hay 1.933.463 personas nacidas en el exterior (4,2 % de la población). De ellas, 522.598 nacieron en Paraguay, 338.299 en Bolivia y 156.251 en Perú (1.017.148 entre las tres). La junta está documentada en Bolivia (pasanaku) y en Perú tiene nombre propio (pandero o junta, según las descripciones de las apps). Para la colectividad paraguaya no encontré evidencia de algo equivalente.
+
+PRIMERA CIUDAD (AMBA): en la provincia de Buenos Aires viven 388.265 paraguayos, 161.935 bolivianos y 76.778 peruanos (626.978), y vive ahí más de la mitad de la población migrante del país (gba.gob.ar). El dato de CABA no lo verifiqué.
+
+ESCENARIO ILUSTRATIVO (estimación, no dato): si 1 de cada 20 personas de esas tres colectividades estuviera hoy en una junta, serían ~50.000 personas (~5.000 juntas de 10). Quedarse con el 5 % (2.500 participantes) a ARS 1.000 por mes daría ~ARS 2,5 M por mes (~USD 1.700 con el dólar supuesto). Uso «1 de cada 20» solo para ver el orden de magnitud: aun con supuestos generosos, el techo del fee de administración es chico.
+
+SIN DATO: argentinos que hacen «vaquitas» o juntas en oficinas y PyMEs.
+
+### A quién entrevistar
+
+1) Organizadoras de pasanaku de la colectividad boliviana (338.299 personas en el país y 161.935 en la provincia de Buenos Aires, Censo 2022). Dónde: ferias, mercados y comercios de la colectividad en el AMBA (Liniers y Charrúa, en Villa Soldati, en CABA; el mercado frutihortícola de Escobar; La Salada) y sus fiestas patronales. La de la Virgen de Copacabana es a mediados de octubre, según la ficha del film «Copacabana» en IFFR. Los lugares son conocimiento general: no verifiqué hoy que haya juntas en cada uno.
+2) Organizadoras de juntas o panderos de la colectividad peruana (156.251 personas). Dónde: comercios y restaurantes de la colectividad en CABA y grupos de Facebook de peruanos en Argentina (buscar «junta» y «pandero»).
+3) Personas que estuvieron en una junta que se rompió: cuentan cuánto se perdió y qué harían distinto. Se llega a ellas por referidos de los perfiles 1 y 2.
+4) Dueños o responsables de RR.HH. de PyMEs de 20 a 100 empleados donde circulan juntas o «vaquitas» entre empleados. Empezar por la empresa familiar (CEMEVA) y sus proveedores y clientes. Comparte cliente con SER-4-4 (elegida).
+5) Un responsable de créditos de una mutual o cooperativa de crédito del AMBA, para saber si aceptaría el historial de una junta como antecedente (valida la palanca del certificado). Parecida a ONG-4-4 (pendiente).
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última junta en la que estuviste o que organizaste: ¿cuándo arrancó, cuántos eran, de cuánto era la cuota y cada cuánto se pagaba?
+2. En esa junta, ¿cómo le llegaba la plata a quien cobraba: en efectivo, por transferencia, pasando por vos? ¿Cuánto tiempo te llevaba por mes juntar todo y controlar quién había pagado?
+3. ¿Qué fue lo último que salió mal (alguien que se atrasó, alguien que dejó de pagar después de cobrar, peleas por el orden)? ¿Cómo lo resolvieron y cuánta plata se perdió?
+4. ¿Cómo eligieron el orden de los turnos la última vez? ¿Alguien pidió adelantar o cambiar su número? ¿Qué dio a cambio?
+5. ¿Quien organiza se queda con algo: un número, una comisión, un regalo? ¿Cuánto fue en la última junta?
+6. Con la inflación de los últimos años, ¿qué le pasó al que cobró último? ¿Cambiaron algo: cuota más alta, junta más corta, hacerla en dólares?
+7. ¿Dónde llevan hoy la cuenta: cuaderno, Excel, el grupo de WhatsApp, alguna app? ¿Probaron alguna app y la dejaron? ¿Por qué?
+8. ¿Cuántas juntas organizaste o integraste en los últimos dos años? ¿Hay alguna corriendo ahora? ¿Cuándo arranca la próxima?
+9. La última vez que pediste un préstamo, alquilaste o compraste en cuotas, ¿qué antecedente te pidieron? ¿Te sirvió de algo haber cumplido en juntas?
+10. ¿Quién más organiza juntas que conozcas? ¿Me pasarías su contacto o me la presentarías?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Las organizadoras de juntas que ya existen (colectividades boliviana y peruana del AMBA, y PyMEs) pagan por delegar la administración (recordatorios, control de comprobantes, sorteo y registro) en un asistente por WhatsApp que no toca la plata. Y sus participantes lo usan, en vez de seguir pagándole a la organizadora por fuera. Este experimento reemplaza al de la ficha por dos motivos: una junta de amigos o de empleados de la empresa familiar paga por compromiso con Facu, y el primer mes casi siempre se cobra al 100 % porque el incumplimiento aparece después de cobrar. Con ese criterio no se probaba nada.
+- **Predicción (antes de empezar):** De 40 organizadoras contactadas: 12 aceptan conversar (30 %), 6 completan la entrevista (15 %) y 2 pagan la seña de ARS 10.000 (5 %). En esas 2 juntas, el 80 % de los participantes responde «ACEPTO» al reglamento y el 60 % manda su comprobante al número de la junta antes del primer vencimiento. Dar de alta cada junta le lleva a Facu 3 h o menos, y operarla, 30 minutos o menos por semana.
+- **Pérdida máxima:** USD 150, tope duro (estimación propia, sin tarifas verificadas): chip y saldo para el número de WhatsApp ~USD 10; 200 volantes con QR ~USD 15; viáticos a ferias y mercados ~USD 25; dominio y página ~USD 15; un agradecimiento a 8 entrevistados ~USD 35; API de Claude ~USD 5; reserva para devolver señas si el servicio falla ~USD 25; margen para imprevistos ~USD 20. Se suman unas 40 horas de Facu. Si se llega al tope antes del día 14, se corta igual.
+- **Duración:** 14 días: del 2026-10-20 al 2026-11-02.
+- **Pasos:**
+  1. Días 1-2 (2026-10-20/21), kit sin código. Un número de WhatsApp Business en un chip aparte. Una planilla de Google Sheets como «libro de la junta»: participante, turno, cuota, comprobante y confirmación de quien cobra. Un reglamento modelo redactado con Claude: aporte, frecuencia, orden por sorteo, qué pasa si alguien no paga, reemplazos y consentimiento para usar los datos (art. 5 de la Ley 25.326). Una página web de una sola hoja, con marca y sin cara, con el precio publicado: ARS 1.000 por participante por mes. La seña es de ARS 10.000, se descuenta del primer mes y se devuelve si en la primera semana no sirve.
+  2. Escribir las reglas de seguridad legal antes de salir: la plataforma nunca recibe aportes (cada aporte va directo a quien cobra ese turno); solo grupos que ya existen, nunca juntar desconocidos; nada de subasta de turnos con descuento; no informar a terceros; quien cobra confirma «me llegó», porque el comprobante solo no alcanza.
+  3. Días 2 a 9: contactar 40 organizadoras y anotar cada contacto. 20 en persona, en 2 o 3 ferias o mercados de la colectividad, con un volante con QR al WhatsApp. 15 por grupos de Facebook de las colectividades (posteo de la marca, sin cara). 5 dueños o responsables de RR.HH. de PyMEs (la empresa familiar y contactos) para juntas entre empleados. Si cuesta entrar en persona, sumar a una referente de la colectividad con una comisión por cada organizadora que pague.
+  4. Días 3 a 10: hacer de 6 a 10 entrevistas con el guion, sin mostrar el producto hasta el final. Cerrar cada una con el pedido concreto: «te administro la próxima junta; para arrancar, una seña de ARS 10.000 por transferencia». Anotar quién paga, quién dice «después» y quién solo acepta si es gratis.
+  5. El mismo día en que alguien paga, dar de alta la junta: la organizadora manda una nota de voz de 10 minutos, Claude redacta el reglamento, ella lo comparte en su grupo y cada participante responde «ACEPTO» al número de la junta. Eso deja una aceptación por escrito y mide el tiempo que cada uno está dispuesto a poner.
+  6. Hacer un sorteo que cualquiera pueda controlar, atado a un dato público y futuro: por ejemplo, la cabeza de la Quiniela de una fecha anunciada de antemano. Publicar el resultado en el grupo junto con la planilla.
+  7. Primer cobro: los participantes mandan el comprobante al número de la junta. Facu se lo pasa a Claude para sacar monto, fecha y destino, lo anota en la planilla y le pide a quien cobra que confirme que le llegó. Recordatorios 48 h antes, 24 h antes y el día del vencimiento. Medir con reloj los minutos que lleva cada junta.
+  8. Día 14 (2026-11-02): contar las señas pagadas, los «ACEPTO» recibidos, el % de comprobantes que llegaron al bot antes del vencimiento, los minutos por junta y cuántos pidieron que la plataforma guarde o garantice la plata. Comparar con la predicción y escribir el post-mortem.
+- **Sigue si:** Al menos 3 señas pagadas (7,5 % de las 40) y, en al menos 2 juntas, al menos el 70 % de los participantes manda su comprobante al bot, con una operación de 30 minutos o menos por junta por semana. Si se cumple: una segunda ronda de 4 semanas con 10 juntas, probando cobrar por participante contra cobrar por junta, y una consulta con un abogado de regulación financiera antes de automatizar con la API.
+- **Se corta si:** Se corta si pasa cualquiera de estas cosas: 0 o 1 seña pagada; las organizadoras solo aceptan si es gratis; menos del 50 % de los participantes usa el bot (siguen pagando por fuera); la mayoría pide que la plataforma guarde la plata o garantice los pagos (eso es custodia o seguro, un negocio regulado y distinto de este); o dar de alta una junta lleva más de 5 horas.
+
+### Cinco formas de retorcerla
+
+- Otro cliente, la empresa paga: la PyME contrata la «junta entre empleados» como beneficio de bienestar financiero, con un abono por empleado por mes. Los aportes siguen yendo de empleado a empleado; la empresa no toca la plata ni descuenta del sueldo. Hay antecedente afuera: la app TANDA de Play Store es ahorro en grupo entre compañeros de trabajo, pagado por el empleador. Ventajas: un solo pagador y una venta entre empresas, y la empresa familiar puede ser el primer caso. Comparte cliente (RR.HH. de PyME) con SER-4-4, que Facu eligió: parecida, no repetida.
+- Otro cobro, gratis para la junta y pago por el certificado: administrar la junta no cuesta nada. Al terminar el ciclo, cada participante que cumplió puede comprar su «certificado de cumplimiento» con QR verificable, a precio fijo, para mostrárselo a un dueño de departamento, a una mutual o a un empleador. El historial se le vende al propio titular, que es más simple frente a la Ley 25.326 que cedérselo a prestamistas. Riesgo: solo vale si alguien lo acepta; se valida preguntando a 3 mutuales o inmobiliarias. Nueva (depende de que entidades como las de ONG-4-4 lo acepten).
+- Otro país, Perú: la misma herramienta para juntas y panderos, donde la práctica tiene nombre propio. La colectividad peruana en Argentina (156.251 personas, Censo 2022) puede servir de puente para probar antes de viajar. Antes hay que revisar cómo regula Perú los fondos colectivos (no lo revisé). Bolivia tiene más práctica, pero ahí ya está PasanaQ/Sommos. Nueva.
+- Otro activo, la junta en dólares: en vez de indexar pesos (con la duda legal de la Ley 23.928, no verificada), la junta se arma en dólares. Los aportes van por transferencia entre cuentas en dólares o en billetes en mano (no verifiqué costos ni límites) y el bot lleva el registro. Así el último turno no pierde, y se usa un ahorro que mucha gente ya tiene en dólares (opinión, sin dato). Nueva. No pasarse a cripto: en el registro, PD2 y PX11 fueron NO.
+- Poner un humano, organizadoras profesionales: en vez de reemplazar a la organizadora, se la convierte en clienta. La referente que ya maneja 3 a 10 juntas paga un abono por la herramienta (reglamento, sorteo, control de comprobantes, registro) y sigue cobrando lo suyo. Es empezar por el lado de la oferta: cada organizadora trae varias juntas, y su prestigio pone la confianza que un desconocido de 22 años no tiene. Lo contrario, sacar al humano y juntar desconocidos, sube el incumplimiento y el riesgo de «captar recursos del público». Nueva.
+
+### Riesgos
+
+- Legal, el más grave: si la plataforma junta desconocidos de forma habitual, garantiza pagos o subasta turnos con descuento, se acerca a la intermediación financiera no autorizada (Ley 21.526, arts. 1 y 19; Código Penal, art. 310: 1 a 4 años de prisión, y un mínimo de 2 si se usó internet). Para bajarlo: solo grupos que ya existen, sin guardar la plata, sin subasta con descuento y con un dictamen legal antes de escalar.
+- Legal: una junta «para comprar» un bien, o con «licitación» de turnos, se parece a un plan de ahorro por círculo cerrado, que necesita autorización de la IGJ (RG IGJ 9/2023).
+- Datos: el historial de cumplimiento es información crediticia (Ley 25.326, art. 26). Venderlo a prestamistas exige inscribir la base (art. 21) y respetar los plazos, y reportar «incumplidores» sin ser el acreedor es una zona gris.
+- Comprobantes falsos: la IA lee la captura pero no ve la cuenta de quien cobra. Sin la confirmación del que recibe, el registro de cumplimiento puede ser falso, y el certificado perdería todo su valor.
+- Económico: el ingreso por persona es mínimo. Con ARS 1.000 por participante hacen falta unos 1.700 participantes activos para dejar USD 1.000 por mes (estimación), contra un sustituto gratis (WhatsApp + cuaderno) y apps gratuitas (Tandapp, tutanda). Si se opera a mano, rinde unos USD 3 por hora.
+- Incumplimiento en cadena sin colchón: MoneyFellows tapa con capital propio el 7-8 % de los lugares de cada grupo, y Facu no puede hacerlo. Si una junta se rompe con «su» bot, se le quema la reputación en una comunidad que funciona de boca en boca.
+- Confianza y rol social: la organizadora gana prestigio con su junta (y quizás plata, a verificar), así que puede ver el bot como una amenaza. Y una colectividad cerrada puede desconfiar de un administrador de afuera.
+- Reputacional y de plataforma: «junta + app + plata» se confunde fácil con estafas piramidales tipo «telar de la abundancia» (conocimiento general, no verificado en esta búsqueda). Además, Meta podría restringir anuncios o mensajes sobre servicios financieros (no verificado).
+- La demanda en Argentina no está probada: no hay dato de cuántas juntas existen, y la búsqueda no encontró evidencia de pasanakus en Buenos Aires. Todo depende de las entrevistas y del experimento.
+- Un gancho más débil: la indexación vende cuando la inflación es alta. Con una inflación menor que la de 2023 (no verificado hoy), el último turno pierde menos, y además la indexación por UVA o MEP tiene una duda legal (Ley 23.928, no verificada).
+- Si funciona, las billeteras (Mercado Pago, Ualá) pueden copiarlo con plata en custodia, licencia y usuarios propios (opinión).
+
+### Fuentes
+
+- https://techcrunch.com/2025/05/04/moneyfellows-raises-13m-to-take-its-group-savings-model-outside-egypt (MoneyFellows: ronda, usuarios, modelo; leída el 2026-10-19)
+- https://www.crowdfundinsider.com/?p=135040 (cierre de Puddle; resumen del buscador, 2026-10-19)
+- https://www.elfinanciero.com.mx/economia/transfer-ofrecera-tandas-online/ (Transfer, tandas en línea en México)
+- https://conectastg.tec.mx/es/pdf-generator/91506 (Bloinx, Entrepreneurship World Cup México 2020)
+- https://www.unicefinnovationfund.org/story/bx-smart-labs-developing-decentralized-app-saving-circles (BX Smart Labs)
+- https://gust.com/companies/tutanda (tutanda, Chile)
+- https://expansion.mx/tecnologia/2018/01/19/yahoo-replicara-las-tandas-en-una-app-llamada-tanda (Yahoo Tanda)
+- https://www.coingecko.com/learn/wetrust-rosca-ethereum-2017-launch (WeTrust)
+- https://play.google.com/store/apps/details?id=com.pasanaku.miapp&hl=en_US (app Pasanaku)
+- https://play.google.com/store/apps/details?id=com.capitalforlive&hl=es_CO (Pasanaku App, Capital for live; la lectura completa de la página llegó cortada)
+- https://play.google.com/store/apps/details?id=com.drodriguez.tandapp&hl=es_CR (Tandapp)
+- https://play.google.com/store/apps/details?id=io.mytanda.android.tanda_client&hl=es (Tanda)
+- https://play.google.com/store/apps/details?id=io.tanda.android.tanda_savings&hl=es_419 (TANDA, pagada por el empleador)
+- https://play.google.com/store/apps/details?id=co.joinsusu.app&hl=en_US (JoinSusu)
+- https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16071/texact.htm (Ley 21.526; leída el 2026-10-19)
+- https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm (Ley 25.326; leída el 2026-10-19)
+- https://pensamientopenal.com.ar/doctrina/90300-delito-intermediacion-financiera-no-autorizada (art. 310 del Código Penal, doctrina)
+- https://www.mpf.gob.ar/procelac-mercado-de-capitales/files/2023/04/Art%C3%ADculo-Greppi-Competencia-material-del-delito.pdf (art. 310 del Código Penal, MPF/PROCELAC)
+- https://www.boletinoficial.gob.ar/detalleAviso/primera/290485/20230718 (RG IGJ 9/2023, planes de ahorro previo)
+- https://www.colegio-escribanos.org.ar/noticias/2023_07_18_IGJ-Res-Gral-9-2023.pdf (RG IGJ 9/2023)
+- https://www.argentina.gob.ar/normativa/nacional/norma-337068/texto (RG IGJ 21/2020)
+- https://chequeado.com/el-explicador/censo-2022-que-datos-se-informaron-sobre-las-migraciones/ (Censo 2022, migraciones)
+- https://www.ellitoral.com/informacion-general/indec-censo-2022-poblacion-santafe-argentina-extranjeros-naciones-paises-america-limitrofes-distribucion_0_52HhyHDTMO.html (Censo 2022 por país de nacimiento)
+- https://www.gba.gob.ar/gobierno/noticias/censo_2022_m%C3%A1s_de_la_mitad_de_la_poblaci%C3%B3n_migrante_vive_en_la_pba (Censo 2022, provincia de Buenos Aires)
+- https://zernio.com/blog/whatsapp-business-api-pricing (tarifas de WhatsApp para Argentina, vigencia 2026-07-01)
+- https://flowcall.co/blog/whatsapp-business-api-pricing (tarifas de WhatsApp)
+- https://docs.sent.dm/docs/guides/whatsapp-pricing (tarifas de WhatsApp, vigencia 2025-07-01)
+- https://platform.claude.com/docs/en/about-claude/pricing (precios de Claude; tabla al 2026-10-06, no reabierta hoy)
+- https://iffr.com/en/iffr/2007/films/copacabana (fiesta de la Virgen de Copacabana de la colectividad boliviana en Buenos Aires)
+- https://www.mercadopago.com.ar/costs-section (intentada el 2026-10-19: error 403; tarifas no verificadas)
+- https://www.descubre.vc/e/pasana-q (PasanaQ; citada en la ficha)
+- https://sommosapp.com/ (Sommos; citada en la ficha)
+- https://esusurent.com/ (Esusu; citada en la ficha)
+
+---
+
+## 9. Antes de que te mida ARBA: diagnóstico de metros sin declarar + matriculados a precio cerrado (ficha a fondo)
+
+Qué es: una página donde el dueño de una casa bonaerense carga la dirección, la boleta y 3 fotos, y en 48 h recibe qué metros, pileta o ampliación probablemente no tiene declarados, qué trámite le toca y cuánto le cuesta. Si hace falta, matriculados de su zona cotizan sin visita sobre ese informe.
+Para quién: dueños con obras sin declarar, sobre todo los que ya recibieron una notificación de ARBA por metros detectados (art. 84 bis de la Ley 10.707) o están por vender.
+Quién paga: el dueño, por el informe (unos USD 15, estimación), y el matriculado, con una comisión por trabajo cerrado o comprando clientes por adelantado.
+Vuelta de tuerca: la detección desde arriba que usa el fisco, puesta del lado del dueño, más un pliego estándar que permite cotizar sin ir a medir.
+Por qué ahora: ARBA detecta con satélite desde al menos 2020 y en 2026 licitó drones con IA (la M2; no encontré la adjudicación). Su DDJJ online es gratis, pero nadie le dice al dueño qué tiene que declarar ni qué le conviene, y que la IA lea las fotos cuesta centavos por caso.
+
+**Veredicto:** Probarla solo si se apunta al momento con plazo (la notificación de ARBA o la venta) y no al miedo preventivo, y si aparecen matriculados que coticen sin visita. Lo que encontré la debilita: la DDJJ ante ARBA la hace el dueño solo, online y gratis, y la gente rectifica cuando la notifican, no antes. El experimento igual vale: cuesta como máximo USD 150, se hace sin mostrar la cara y mide pagos reales; si en 14 días no hay 6 pagos y 2 matriculados, se corta.
+
+### Quién lo intentó y qué le pasó
+
+No encontré a nadie que haga esto del lado del dueño, ni en Argentina ni en LatAm. Qué busqué el 2026-10-19:
+- 'regularización de planos casa provincia de Buenos Aires precio arquitecto plano conforme a obra online': nada pertinente.
+- 'cuánto cuesta regularizar construcción no declarada ARBA...': solo tasas municipales y notas sobre operativos.
+- 'Ley del Mono regularización ampliaciones online precio fijo plataforma arquitectos Chile startup': solo un estudio chileno que asesora por videollamada, sin precio fijo (https://www.2x3.cl/servicios/articulo/STOKhfk-regularizacion-vivienda-ley-mono-20-898).
+- 'IguanaFix marketplace profesionales hogar Argentina'.
+
+Lo más cercano y qué enseña:
+
+(1) El Estado ya intentó que la gente regularice sola.
+- ARBA tuvo un plan con hasta 60% de descuento para construcciones anteriores a 2013. Ya venció. No verifiqué la fecha ni cuántos se adhirieron (https://www.ignacioonline.com.ar/arba-hasta-un-60-porciento-de-descuento-para-quienes-declaren-sus-construcciones/).
+- Bariloche prorrogó hasta agosto de 2025 su plan para regularizar construcciones no declaradas (https://www.anbariloche.com.ar/noticias/2025/06/25/98844-prorrogan-hasta-agosto-el-plan-para-regularizar-construcciones-no-declaradas).
+- Neuquén lanzó un plan con aranceles por m². Fecha no verificada (https://www.rionegro.com.ar/?p=1982441).
+- Lección: la regularización masiva aparece con descuento y fecha límite, no sola.
+
+(2) La detección del fisco funciona y se repite, y la gente reacciona después de que la notifican.
+- AMBA, 2020: 632.982 m² en 114 urbanizaciones cerradas. Dato del resumen del buscador, nota no leída (https://www.iprofesional.com/impuestos/328905-arba-detecto-633-mil-metros-cuadrados-sin-declarar-en-countries).
+- Provincia: más de 10 millones de m² en dos años de operativos, más de $1.200 millones recuperados, y más de la mitad de los notificados rectificó su declaración (El Economista, 2022-11-25, leída: https://eleconomista.com.ar/economia/arba-detecto-mas-10-millones-m-declarar-countries-zonas-residenciales-n57883).
+- Mar del Plata: 120.000 m² en 57 edificios y 113 casas, enero de 2024. Dato del resumen del buscador (https://www.lacapitalmdp.com/arba-detecto-en-mar-del-plata-120-mil-metros-cuadrados-sin-declarar-en-edificios-y-countries/).
+- Lección: la demanda con urgencia está después de la notificación, no antes.
+
+(3) Mercado de profesionales del hogar en Argentina: IguanaFix.
+- Fundada en 2013. Pasó los 150.000 servicios en Argentina (Infonegocios, fecha no verificada).
+- En 2022 vendió su operación de Brasil, que era su mercado principal, a MadeiraMadeira. Argentina y México siguieron como operaciones independientes (Bloomberg Línea, 2022-04-12, solo el resumen del buscador).
+- Lección: un modelo de dos lados con profesionales puede tomar volumen acá, pero la salida grande vino de Brasil, y eran oficios, no matriculados con colegio y firma.
+
+(4) Del lado del fisco: ARBA licitó la M2 (380-1549-LPR25). No encontré quién la ganó ni si se firmó el contrato.
+
+### Competencia en Argentina
+
+1) ARBA misma, gratis (https://www.arba.gov.ar/GuiaTramites/TramiteSeleccionado.asp?tramite=815&categ=43, guía actualizada 2026-10-02, leída 2026-10-19).
+- Qué ofrece: el contribuyente puede hacer la 'Declaración Jurada de Mejoras On Line' y el 'Descargo por Notificación de Detección de Metros' (art. 84 bis de la Ley 10.707). La guía dice que el trámite no tiene costo.
+- Qué hace bien: es oficial, online y sin costo. Según El Economista (2025-02-06), se cargan el estado constructivo, la fecha, el destino y los m², y las piletas van en 'Instalaciones complementarias'.
+- Qué hueco deja: no te dice qué tenés sin declarar, cómo clasificarlo, cuánto te va a subir el impuesto ni qué te falta en el municipio.
+- Es el competidor más fuerte en los casos simples, y es gratis.
+
+2) Matriculados (arquitectos, agrimensores, ingenieros, maestros mayores de obra).
+- Qué ofrecen: ARBA les da un acceso propio para gestionar varias propiedades sin costo del trámite (El Economista, 2025-02-06, https://eleconomista.com.ar/economia/como-declarar-propiedades-arba-guia-paso-paso-contribuyentes-n81825).
+- Precios: no encontré ninguno publicado.
+- Qué hueco dejan: cotizan después de ir a ver. Que consiguen clientes por recomendación no lo verifiqué.
+
+3) Home Inspection (https://www.homeinspection.com.ar/).
+- Qué cobra: inspección antes de comprar, desde USD 350 los departamentos y USD 450 las casas (dato de la ficha, leído el 2026-10-19).
+- Qué hueco deja: no cubre catastro ni superficie declarada.
+
+4) Papelea (https://papelea.com/ar/municipalidad-de-bahia-blanca/legalizacion-catastral-de-mejoras-municipio-de-bahia-blanca-buenos-aires-argentina).
+- Qué hace: explica trámites municipales. Para Bahía Blanca lista aranceles de $86 y $331 más el derecho de construcción (art. 192 de la Ordenanza Fiscal), y pide croquis a escala, escritura y antecedentes de ARBA. Los montos probablemente están viejos.
+- Qué hueco deja: informa, pero no diagnostica ni conecta con profesionales.
+
+5) Plataforma privada que diagnostique desde el satélite para el dueño o que junte matriculados a precio cerrado: no encontré ninguna. Las búsquedas están detalladas en 'quien_lo_intento'. Las gestorías no las verifiqué.
+
+### Regulación
+
+Leído en la fuente: guía oficial de ARBA del trámite 'Declaración Jurada de avalúo para Inmuebles', actualizada 2026-10-02 (https://www.arba.gov.ar/GuiaTramites/TramiteSeleccionado.asp?tramite=815&categ=43).
+- Base legal: se apoya en el art. 81 de la Ley 10.707 (Catastro Territorial bonaerense) y en el Decreto 1736/1994.
+- Contribuyentes: pueden hacer la 'Declaración Jurada de Mejoras On Line' y el 'Descargo por Notificación de Detección de Metros' (art. 84 bis de la Ley 10.707).
+- Profesionales: tienen su propia DDJJ online y una DDJJ de mejoras para PH.
+- Costo: el trámite no tiene costo.
+- Si ya llegó la cédula: se puede pagar una multa reducida dentro de los 15 días hábiles desde la notificación.
+- Ojo: no leí el texto de la ley ni del decreto, solo la guía que los cita.
+
+De prensa, sin confirmar en la guía de ARBA:
+- Hay que declarar dentro de los 30 días de que la obra está habitable (El Economista, 2025-02-06).
+- ARBA puede reclamar hasta cinco años hacia atrás (El Economista, 2022-11-25, citando al organismo).
+- Con la M2, ARBA podría revaluar de oficio y la carga de la prueba quedaría del lado del dueño (iProfesional, 2026-02-09, según la ficha; no lo releí).
+
+Qué permite:
+- Que el dueño declare solo y gratis.
+- Que un matriculado gestione por él.
+- Que un tercero informe y conecte.
+
+Qué limita:
+- El informe no se puede presentar como mensura, relevamiento ni plano: eso lo firman matriculados. El alcance exacto de esa reserva no lo verifiqué.
+- Aranceles mínimos y reglas de publicidad de los colegios: no verificado.
+- Datos personales: un informe atado a un titular cae bajo la Ley 25.326 (no la leí hoy).
+
+Duda que puede matar la versión preventiva: la DDJJ pide la fecha de construcción, y no pude verificar si ARBA también le cobra retroactivo al que declara solo. Si cobra igual, adelantarse solo ahorra la multa.
+
+### Números de unidad
+
+Ingresos (estimaciones):
+- Informe: USD 15 cobrado en pesos. La ficha proponía USD 10-20; no hay dato de cuánto paga la gente, por eso se mide.
+- Comisión: 10-15% del honorario del matriculado (estimación de la ficha). No encontré honorarios publicados (búsquedas del 2026-10-19), así que la comisión en plata es desconocida.
+- Ejemplo hipotético: si regularizar con plano municipal costara USD 300 (supuesto sin dato), la comisión sería USD 30-45.
+- Cambio importante: la DDJJ ante ARBA la puede hacer el dueño online y la guía de ARBA dice que no tiene costo. En los casos simples (pileta, quincho) no hay honorario sobre el cual cobrar. La comisión aparece recién con plano municipal, PH, un descargo complejo o una venta.
+
+Costos por operación:
+- IA, precios por millón de tokens (entrada / salida): Sonnet 5.5 USD 2 / 10, Opus 5.5 USD 4 / 20, Haiku 5.5 USD 0,10 / 0,50. Salen de la tabla del skill claude-api de Claude Code, guardada el 2026-10-06, que remite a https://platform.claude.com/docs/en/about-claude/pricing; esa página no la abrí hoy.
+- Imágenes: según esa misma guía, una imagen ronda 1.200 tokens si se achica a 1280×720 y llega a unos 4.800 a máxima resolución.
+- Costo de IA por informe (estimación): 5 imágenes + 3.000 tokens de instrucciones = 9.000 a 27.000 tokens de entrada, más unos 6.000 de salida (informe y razonamiento). Con Sonnet 5.5 son USD 0,08-0,11; con Opus 5.5, USD 0,16-0,23. En el experimento el costo extra es cero, porque usa su suscripción de Claude.
+- Cobro: Mercado Pago cobra un porcentaje por venta que depende del plazo de acreditación. No lo verifiqué hoy; hay que mirar su página de costos antes de fijar precio. Para la cuenta uso un supuesto de 8,5% con IVA: USD 1,3 por informe.
+- WhatsApp: en el experimento se usa la app WhatsApp Business, sin costo por mensaje (no verificado hoy). Si después se automatiza con la API de Meta, se paga por cada mensaje de plantilla; esa tarifa no la verifiqué.
+- Tiempo de Facu: 30-45 min por informe hecho a mano con Google Earth Pro + Claude (estimación; el experimento lo mide).
+
+Margen por informe (estimación): 15 − 1,3 − 0,23 = unos USD 13,5, antes de publicidad y de horas.
+
+Valor esperado por dueño que paga = 13,5 + (probabilidad de que cierre con un matriculado × comisión). Con 20% y USD 36 (supuestos), da unos USD 20,7. Por eso conseguir a cada dueño que paga tiene que costar USD 20 o menos: ese es el umbral del experimento.
+
+### Tamaño del mercado
+
+Datos verificados:
+- ARBA detectó más de 10 millones de m² sin declarar en dos años de operativos (El Economista, 2022-11-25, https://eleconomista.com.ar/economia/arba-detecto-mas-10-millones-m-declarar-countries-zonas-residenciales-n57883).
+- En Bahía Blanca: más de 350.000 m² en 1.507 partidas, y 17.000 m² en 82 casas de tres barrios cerrados (misma nota).
+- Ventas: en febrero de 2026 hubo 7.655 compraventas en la provincia, 4% menos que un año antes. Las hipotecas provinciales cayeron 26% interanual (El Economista, 2026-03-25, https://eleconomista.com.ar/economia/mercado-inmobiliario-menos-ventas-precios-alza-n93588; la nota no dice de dónde sale el dato provincial).
+- Un titular de Ámbito habla de casi 150.000 escrituras bonaerenses en 2025 (https://www.ambito.com/escrituras-a5124440). No pude leer la nota: no verificado.
+
+Estimación propia:
+- 350.000 / 1.507 da unos 232 m² por partida.
+- Si el promedio provincial se pareciera, los 10 millones de m² serían unas 43.000 partidas en dos años, unas 21.500 por año. Ese es el flujo anual de dueños notificados: el segmento con urgencia.
+- Puede estar muy errado, porque los edificios en altura y las casas de country tienen promedios distintos.
+
+Lo que no sé:
+- Cuántas casas tienen hoy metros sin declarar: no encontré ningún dato público.
+- Primera ciudad: Bahía Blanca tuvo 1.507 partidas detectadas en un solo operativo (2022). Para los 10 partidos de la M2 no encontré cuántas partidas o casas hay, y no consulté INDEC en esta pasada.
+- CABA queda afuera: tiene otro fisco.
+
+### A quién entrevistar
+
+1) Matriculados que hacen DDJJ de mejoras, descargos y planos de regularización (agrimensores, arquitectos, maestros mayores de obra) en la ciudad elegida.
+- Dónde: Google Maps ('agrimensor' + ciudad) y los buscadores de matriculados de los colegios bonaerenses (Agrimensores, CAPBA, Técnicos; no verifiqué hoy que existan).
+- Por qué: son la oferta y la mejor fuente de precios reales.
+
+2) Dueños que ya recibieron una notificación de ARBA por metros detectados.
+- Dónde: grupos de Facebook de la ciudad y de barrios cerrados (buscar 'ARBA metros'), clientes que pasen los matriculados, y comentarios en notas locales sobre operativos, por ejemplo en La Capital de Mar del Plata.
+
+3) Escribanos de la ciudad.
+- Qué preguntar: qué papeles de la casa traban o demoran una escritura y cuánto cuesta destrabarlos.
+- Dónde: la delegación del Colegio de Escribanos de la Provincia en cada departamento judicial.
+
+4) Martilleros e inmobiliarias.
+- Qué preguntar: qué operaciones se cayeron o se demoraron por planos o metros sin declarar, y si los compradores con crédito preguntan por planos.
+- Dónde: el Colegio de Martilleros departamental o las inmobiliarias del centro.
+
+5) Administraciones de barrios cerrados que ya tuvieron un operativo de ARBA.
+- Qué preguntar: qué hicieron los vecinos y si alguien les ofreció una solución para todo el barrio.
+- Dónde: Bahía Blanca y Mar del Plata tienen operativos documentados.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. (Dueño) Contame la última vez que te llegó algo de ARBA sobre tu casa que no esperabas: ¿qué decía, qué hiciste y cuántos días tardaste en moverte?
+2. (Dueño) ¿A quién llamaste para resolverlo? ¿Cómo lo encontraste, cuánto te cobró y qué parte hiciste vos?
+3. (Dueño) La última obra que hiciste en la casa (pileta, quincho, ampliación): ¿qué pasó con los papeles de esa obra? ¿Quién te dijo qué había que hacer?
+4. (Dueño) La última vez que vendiste, compraste o pediste un crédito con una propiedad: ¿qué papel de la casa demoró la operación y cuánto te costó destrabarlo?
+5. (Matriculado) En los últimos tres meses, ¿cuántas declaraciones de mejoras, descargos por metros detectados o planos de regularización hiciste? ¿De dónde salió cada cliente?
+6. (Matriculado) En el último trabajo de ese tipo, ¿cuánto cobraste, cuántas visitas hiciste y cuántas horas te llevó?
+7. (Matriculado) El mes pasado, ¿cuántos presupuestos diste que no se cerraron? ¿Qué te costó armar cada uno (viaje, horas)?
+8. (Matriculado) ¿Alguna vez pagaste para conseguir clientes (portal, publicidad, comisión a una inmobiliaria)? ¿Cuánto pagaste y cuántos trabajos te dejó?
+9. (Matriculado o contador) El último cliente que declaró por su cuenta una obra vieja: ¿qué le cobró ARBA después, con retroactivo o sin? ¿Tenés el caso a mano?
+10. (Escribano o inmobiliaria) La última operación que se cayó o se demoró por la documentación de la casa: ¿qué faltaba, quién lo resolvió y cuánto tardó?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Un dueño bonaerense con obras sin declarar paga USD 15 por un informe que le dice qué ve ARBA de su casa, qué le conviene hacer y quién lo resuelve, sobre todo si ya recibió una notificación. Y un matriculado local acepta cotizar sobre ese informe sin ir a ver la casa y pagar por el cliente.
+- **Predicción (antes de empezar):** Predicción escrita antes de correrlo (no es un dato). Con USD 100 de publicidad: unas 250 visitas entre las dos páginas y 20 dueños que dejan dirección y fotos. De ahí, 6 informes pagos a USD 15: 4 de la puerta A (notificados) y 2 de la B (preventiva). El costo por dueño que paga queda en unos USD 17. 2 dueños piden cotización y 1 le deja seña a un matriculado. Del lado de los profesionales: de 20 matriculados contactados, 5 responden, 2 cotizan sin visita y 1 firma el acuerdo o compra clientes por adelantado.
+- **Pérdida máxima:** USD 150. Se compone de USD 100 de publicidad (60 en Google y 40 en Meta), hasta USD 20 de percepciones o recargos por pagar publicidad en dólares con tarjeta argentina (supuesto, no verificado) y USD 30 de reserva para devolver informes que no se puedan entregar. Las herramientas son gratis (planes gratis de Carrd o Google Sites, Tally, Google Earth Pro y WhatsApp Business; conocimiento general, no verificado hoy), y usa la suscripción de Claude que ya tiene. Las horas de Facu (estimación: 25-30 h) se anotan, pero no se cuentan como plata.
+- **Duración:** 14 días: del 1 al 3, armado y chequeos; del 4 al 13, publicidad y entregas; el 14, decisión y post-mortem.
+- **Pasos:**
+  1. Día 0: antes de gastar un peso, anotar con fecha en una hoja la hipótesis, la predicción, la pérdida máxima y los criterios para seguir o cortar.
+  2. Día 1: chequear lo que puede matar la idea. Leer el instructivo de la DDJJ online de ARBA y preguntar por el canal oficial si declarar solo una obra vieja genera retroactivo. Mirar con la boleta de un conocido si figura la superficie edificada. Buscar en el portal de compras de la Provincia si la licitación 380-1549-LPR25 (M2) se adjudicó: si se adjudicó, la ciudad de la puerta B es Tandil o Junín; si no, General Pueyrredon (Mar del Plata), donde ARBA ya informó detecciones en 2024.
+  3. Días 1-2: armar sin mostrar la cara dos páginas con Carrd o Google Sites, un formulario de Tally y un link de pago de Mercado Pago. Página A, para toda la provincia: '¿Te llegó una notificación de ARBA por metros detectados? En 48 h te decimos qué te imputan, qué te conviene y quién lo resuelve'. Página B, para una ciudad: '¿Qué puede ver ARBA de tu casa?'. Las dos piden dirección, boleta (para probar que es el titular) y 3 fotos, y cobran USD 15 en pesos. Las dos dicen bien visible: no somos ARBA; la DDJJ en ARBA es gratis y la podés hacer vos; esto es una estimación; nunca pedimos clave fiscal.
+  4. Días 2-3: armar con Claude la plantilla del informe y probarla en 3 casas conocidas. El informe compara la superficie estimada (con la regla de área y el historial de imágenes de Google Earth Pro) con lo que el dueño dice tener declarado. Dice qué trámite corresponde (DDJJ online, descargo o plano municipal), qué costos se conocen y cuáles no, y trae un checklist. Medir cuántos minutos lleva cada informe.
+  5. Días 2-6: listar 20 matriculados (agrimensores, arquitectos y maestros mayores de obra) de la ciudad B y alrededores. Mandarles un mensaje corto con el informe de ejemplo y pedirles tres cosas concretas: sus precios reales, cotizar un caso real sin visita en 48 h y firmar un acuerdo de una página (comisión por trabajo cerrado o compra anticipada de 3 clientes).
+  6. Días 4-13: prender la publicidad con tope diario. Google Search, USD 60, para la puerta A, con búsquedas como 'ARBA metros no declarados', 'notificación ARBA detección de metros' o 'declarar pileta ARBA'. Meta, USD 40, para la puerta B en la ciudad elegida. Además, publicar desde una página de marca en 3 a 5 grupos locales donde esté permitido.
+  7. Por cada informe pago: entregarlo en menos de 48 h. Si el dueño quiere resolver, mandarle 2 cotizaciones de matriculados y anotar si le deja seña a alguno.
+  8. Todos los días: anotar visitas, pedidos con fotos, pagos, minutos por informe, pedidos de cotización, cotizaciones recibidas, matriculados que firman o pagan y plata gastada. Calcular cuánto costó cada dueño que pagó.
+  9. Día 14: comparar con la predicción, decidir con los criterios y escribir el post-mortem de cada puerta.
+- **Sigue si:** Seguir, y diseñar una versión semiautomática, si en 14 días se cumple todo esto: 6 o más informes pagos; costo por dueño que paga de USD 20 o menos; al menos 2 matriculados que cotizan un caso real sin visita en 48 h; y al menos 1 que firma el acuerdo o compra clientes por adelantado. Si cumple solo la puerta A (notificados), seguir solo con esa, avisándole a Facu que se parece a AUT-5-1 y LOG-4-5.
+- **Se corta si:** Cortar si pasa cualquiera de estas cosas: con los USD 100 de publicidad hay 2 informes pagos o menos; cada dueño que paga cuesta más de USD 40; ningún matriculado acepta cotizar sin visita; o el canal oficial confirma que declarar solo genera el mismo retroactivo que ser detectado (con la DDJJ gratis, ahí se cae la puerta B). Zona gris, de 3 a 5 pagos: una semana más con otro mensaje, sin subir la pérdida máxima.
+
+### Cinco formas de retorcerla
+
+- Otro cliente: la administración del barrio cerrado. Se vende una auditoría de metros de todos los lotes, con precio por lote, antes o justo después de un operativo, y matriculados a precio grupal. Una sola venta trae decenas de casas: en Bahía Blanca, 3 barrios cerrados sumaron 82 casas con 17.000 m² sin declarar (El Economista, 2022-11-25). Ojo con la Regla N.º 2: se parece a SEG-3-5 (PENDIENTE: obras fuera de plano en barrios, vistas desde el reglamento interno).
+- Otro cobro: el dueño no paga nada y el matriculado compra por adelantado paquetes de clientes con el informe ya hecho (pago por cliente calificado), en vez de pagar comisión al cerrar. Se cobra antes, no depende de que el profesional avise que cerró y le saca el incentivo a saltearse la plataforma.
+- Otro país, Chile: la Ley 20.898 ('Ley del Mono') abre una ventana legal para regularizar ampliaciones. Según el resumen del buscador, la Cámara de Diputados aprobó extender el plazo hasta el 2029-12-31 (boletín 18189; no leí la fuente; la nota con título coincidente es https://www.camara.cl/cms/?p=98808). Plazo legal y tramos sin costo crean demanda con fecha. El producto sería el mismo: diagnóstico más arquitecto a precio cerrado. Allá solo encontré estudios que asesoran por videollamada, sin precio fijo.
+- Otro activo, departamentos en PH: balcones cerrados, terrazas techadas y unidades que cambiaron. En la guía de ARBA, la DDJJ de PH figura del lado de los profesionales, así que es probable que haga falta un matriculado y haya un honorario sobre el cual cobrar. El cliente sigue siendo el dueño de la unidad y no el consorcio, para no chocar con las ideas CON-4-x, a las que Facu dijo que no.
+- Sacar el humano: un copiloto gratis o de USD 5 para que el propio dueño haga la DDJJ online de ARBA en los casos simples (pileta, quincho). La IA convierte la imagen satelital y las fotos en los datos que pide el formulario (estado constructivo, fecha, destino, m²), y el dueño lo carga con su propia clave, nunca con la nuestra. Sirve como imán de clientes para los casos complejos, que sí necesitan matriculado.
+
+### Riesgos
+
+- Lo que la idea pensaba cobrar ya es gratis y lo hace el dueño: ARBA permite la DDJJ de mejoras online sin costo para el contribuyente (guía de ARBA, actualizada 2026-10-02). La comisión del matriculado solo existe en los casos complejos: plano municipal, PH, descargo o venta.
+- La demanda preventiva no está probada. El dato de ARBA es que más de la mitad de los notificados rectificó después de la notificación (El Economista, 2022-11-25): lo probable es que la gente se mueva recién con la cédula en la mano.
+- Adelantarse puede no salir más barato. La DDJJ pide la fecha de construcción, y no verifiqué si ARBA también le cobra retroactivo al que declara solo. Si le cobra igual, la promesa 'antes de que te mida' se cae y hay riesgo de recomendar mal.
+- El empuje de las hipotecas se enfrió: en febrero de 2026 las hipotecas cayeron 26% interanual en la provincia y 38,6% en CABA (El Economista, 2026-03-25). Eso debilita el 'volvió la hipoteca' de la ficha.
+- La M2 no está confirmada: no encontré la adjudicación de la licitación 380-1549-LPR25. Si no se hizo, el gancho de 2026 pierde fuerza, aunque ARBA ya detectaba con satélite entre 2020 y 2024.
+- Precisión: Open Buildings v3 se generó en mayo de 2023, con imágenes que en algunas zonas tienen varios años más. Tiene errores por omisión y por exceso, puede perder techos chicos y no muestra cuántos pisos tiene la casa (https://sites.research.google/open-buildings/).
+- El matriculado puede saltearse la plataforma después del primer contacto. Además, los colegios pueden tener aranceles mínimos o reglas de publicidad que no verifiqué.
+- Confianza y privacidad: quien tiene metros sin declarar puede tener miedo de dejar rastros. Hay que pedir prueba de titularidad, no compartir datos y no pedir nunca la clave fiscal: la DDJJ la carga el dueño o el matriculado. Aplica la Ley 25.326, que no leí hoy.
+- Publicidad de trámites oficiales: las plataformas de anuncios suelen restringir los servicios ligados a trámites del Estado (no verifiqué la política para Argentina). La página tiene que decir que no es ARBA y que la DDJJ en ARBA es gratis.
+- Regla N.º 2: la puerta 'me llegó la notificación' se parece en el patrón a AUT-5-1 y LOG-4-5 (multas que se pagan sin descuento o sin impugnar; Facu dijo NO). Acá se vende regularizar la casa con un matriculado, no impugnar multas. Si a Facu no le cierra, se corre solo la puerta preventiva.
+- Fragmentación: la provincia tiene 135 partidos con reglas municipales propias, y las otras provincias tienen otros fiscos. Escalar exige cargar las reglas una por una.
+
+### Fuentes
+
+- https://www.arba.gov.ar/GuiaTramites/TramiteSeleccionado.asp?tramite=815&categ=43 (guía oficial de ARBA, DDJJ de avalúo para inmuebles; actualizada 2026-10-02; leída 2026-10-19)
+- https://eleconomista.com.ar/economia/como-declarar-propiedades-arba-guia-paso-paso-contribuyentes-n81825 (El Economista, 2025-02-06; leída 2026-10-19)
+- https://eleconomista.com.ar/economia/arba-detecto-mas-10-millones-m-declarar-countries-zonas-residenciales-n57883 (El Economista, 2022-11-25; leída 2026-10-19)
+- https://eleconomista.com.ar/economia/mercado-inmobiliario-menos-ventas-precios-alza-n93588 (El Economista, 2026-03-25; leída 2026-10-19)
+- https://sites.research.google/open-buildings/ (Google Open Buildings; leída 2026-10-19)
+- https://www.iprofesional.com/impuestos/447800-arba-drones-ia-buscaran-edificios-silos-sin-declarar (licitación M2; citada por la ficha, no la releí)
+- https://www.iprofesional.com/impuestos/328905-arba-detecto-633-mil-metros-cuadrados-sin-declarar-en-countries (solo el resumen del buscador, 2026-10-19)
+- https://www.lacapitalmdp.com/arba-detecto-en-mar-del-plata-120-mil-metros-cuadrados-sin-declarar-en-edificios-y-countries/ (solo el resumen del buscador)
+- https://www.conclusion.com.ar/politica/economia/detectan-mas-de-10-millones-de-metros-cuadrados-sin-declarar-en-countries-y-zonas-residenciales/11/2022/ (solo el resumen del buscador)
+- https://www.ignacioonline.com.ar/arba-hasta-un-60-porciento-de-descuento-para-quienes-declaren-sus-construcciones/ (solo el resumen del buscador)
+- https://papelea.com/ar/municipalidad-de-bahia-blanca/legalizacion-catastral-de-mejoras-municipio-de-bahia-blanca-buenos-aires-argentina (solo el resumen del buscador)
+- https://www.anbariloche.com.ar/noticias/2025/06/25/98844-prorrogan-hasta-agosto-el-plan-para-regularizar-construcciones-no-declaradas (solo el resumen del buscador)
+- https://www.rionegro.com.ar/?p=1982441 (plan de regularización de Neuquén; solo el resumen del buscador; fecha no verificada)
+- https://www.bloomberglinea.com/2022/04/12/brasilena-madeiramadeira-compra-iguanafix-la-plataforma-de-instalacion-de-muebles/ (solo el resumen del buscador)
+- https://infonegocios.info/que-esta-pasando/iguanafix-supero-mas-de-150-mil-servicios-en-argentina-el-service-de-aire-acondicionado-lo-mas-pedido (solo el título y el resumen)
+- https://www.2x3.cl/servicios/articulo/STOKhfk-regularizacion-vivienda-ley-mono-20-898 (solo el resumen del buscador)
+- https://www.camara.cl/cms/?p=98808 (título que coincide con la prórroga de la Ley del Mono hasta 2029; no la leí)
+- https://www.homeinspection.com.ar/ (precios citados por la ficha, leídos por el generador el 2026-10-19)
+- https://www.ambito.com/escrituras-a5124440 (titular sobre casi 150.000 escrituras bonaerenses en 2025; no lo leí)
+- https://platform.claude.com/docs/en/about-claude/pricing (precios de Claude, tomados de la tabla del skill claude-api de Claude Code guardada el 2026-10-06; la página no la abrí)
+
+---
+
+## 11. Reclamá sin hacer cola: asistente de reclamos de consumo con IA y cobro solo si cobrás
+
+Qué es: una web donde contás tu problema de consumo y subís las pruebas. Claude te dice qué te corresponde, arma el reclamo con la norma y te guía para que lo presentes vos en la Ventanilla Federal Única. Después sigue los plazos y escala.
+Para quién: consumidores con plata en juego, arrancando por un solo rubro. Puede ser vuelos cancelados o reprogramados (14.946 reclamos aéreos entre enero y julio de 2026, 10.237 contra Flybondi) o cargos financieros (34.273).
+Quién paga: el consumidor, un 20% solo si cobra, con una seña que se devuelve si no cobra, para filtrar curiosos. Más adelante, la empresa, por una 'ventanilla' donde resuelve antes de que el caso llegue al organismo.
+La vuelta de tuerca: es Reclamador/Resolver sin abogados al frente y sin litigar, más un 'navegador' que te dice a qué ventanilla ir ahora que el COPREC ya no existe. Ojo: el modelo europeo no se copia tal cual, porque acá no hay compensación fija como la del reglamento europeo EU261.
+Por qué ahora: el Decreto 55/2025 disolvió el COPREC (febrero de 2025) y repartió el camino entre autoridades locales. Redactar con IA cuesta centavos de dólar por caso. Y hubo 158.091 reclamos en siete meses de 2026.
+
+**Veredicto:** Probarla solo si la consulta legal del día 0 aprueba el formato 'vos presentás, nosotros redactamos y seguimos, cobramos solo si cobrás', y por un solo rubro con plata clara (vuelos/Flybondi). No es Reclamador: sin compensación fija como la europea y con multas que van al Estado, el ticket es chico y la cobranza lenta. Como negocio puente enseña venta a consumidores y operación legal barata; como startup, el potencial está en la ventanilla para empresas y en los datos (opinión).
+
+### Quién lo intentó y qué le pasó
+
+BRASIL (el antecedente más claro en LatAm). Liberfly (desde 2016) buscaba a los pasajeros que se quejaban en las páginas de Facebook de las aerolíneas y les llevaba la demanda con 4 estudios jurídicos asociados (https://olhardigital.com.br/noticia/startups-auxiliam-clientes-em-acoes-contra-companhias-aereas/92441 ; https://startups.com.br/noticias/oab-x-legaltechs-afinal-startups-podem-ameacar-o-futuro-da-advocacia). QuickBrasil hacía otra cosa: le compraba el derecho al pasajero por R$ 1.000 y se quedaba con el riesgo de cobrarle a la aerolínea (mismas fuentes; resumen del buscador). Qué pasó: la OAB de Río de Janeiro (el colegio de abogados) inició una acción civil pública. La 28.ª Vara Federal de Río le ordenó a Zamorfe, la controlante de Liberfly, que dejara de publicitar la captación de clientes para demandas. En la apelación, el TRF2 le dio la razón a la OAB: vio indicios de que se violaba el Código de Ética, que prohíbe comercializar servicios jurídicos y captar clientes (https://www.oab.org.br/noticia/58251/justica-federal-da-provimento-ao-recurso-da-ordem-contra-propaganda-ilegal-de-startup). Istoé publicó que estas startups hicieron disparar las demandas contra aerolíneas (https://istoe.com.br/startups-fazem-disparar-total-de-acoes-na-justica-contra-companhias-aereas ; no se ve la fecha). Casi toda la cobertura es de 2019-2021. Una página promocional le asigna a Liberfly un 7,6 en Reclame Aqui entre 2023-09 y 2024-09, así que probablemente siguió operando (fuente débil: https://turismo.eurodicas.com.br/liberfly/). A Gazeta tiene una nota sobre una startup de Espírito Santo a la que le prohibieron ofrecer servicios contra aerolíneas por internet; solo leí el título y puede ser el mismo caso (https://www.agazeta.com.br/es/economia/startup-capixaba-e-proibida-de-ofertar-servicos-contra-aereas-na-internet-0621). Lección: la demanda de los consumidores existe cuando el derecho se convierte en plata. El choque no fue con las empresas sino con el colegio de abogados, por la captación de clientes, y el modelo dependió siempre de abogados.
+CHILE Y COLOMBIA. Reclama Bien (incubada en UDD Ventures) ayuda a presentar y seguir reclamos contra prepagas y salud, telecomunicaciones y servicios públicos. Dice tener más de 800 usuarios activos y miles de casos asistidos, sin rondas de inversión públicas (https://www.descubre.vc/reclama-bien): tracción chica. Resolución en Línea (Cámara de Comercio de Santiago, 2022) apunta al lado empresa (https://www.emol.com/noticias/Economia/2022/08/25/1070928/crean-plataforma-para-resolver-reclamos.html).
+ARGENTINA. Reclamá Conmigo (2018) juntaba por formulario a consumidores con abogados de consumo. No encontré nada que indique que siga activa; su estado no está verificado (https://aldiaargentina.microjuris.com/2018/12/20/app-recomendada-reclama-conmigo/). TuMango (nota del 2026-09-07) negocia facturas de internet, TV y celular y cobra solo si consigue un ahorro (detalle en competencia). SAVE IT hace algo parecido (iProUP, fecha poco clara). ZTZ Tech (fundadores de Buenos Aires, base en Chile) trabaja del lado empresa (ver la ficha). Defende.me apareció en la búsqueda pero NO es de reclamos: es una fintech de Mar del Plata, de 2022, que reestructura deudas (https://www.cancilleria.gob.ar/en/new-technologies/next-from-argentina-en/defendeme).
+Cierres o pivotes: busqué 'legaltech startup reclamos de consumidores Argentina OR Chile OR México OR Colombia ... cerró OR pivote OR levantó inversión' y no apareció ninguno. La advertencia de afuera sigue siendo DoNotPay: la FTC le puso una multa de USD 193.000 en 2024-09 (ver la ficha).
+
+### Competencia en Argentina
+
+1) EL ESTADO, GRATIS. La Ventanilla Federal Única de Defensa del Consumidor (autogestion.produccion.gob.ar/consumidores) pide DNI o pasaporte, un teléfono o mail y los datos del proveedor y de la compra. Manda el número de reclamo por mail y lo deriva al organismo que corresponde. No cobra nada. La sección de cuánto tarda está vacía (https://www.argentina.gob.ar/servicio/iniciar-un-reclamo-ante-defensa-del-consumidor, consultada el 2026-10-19). En CABA además hay reclamo digital y BA Concilia, que concilia en línea con las empresas adheridas (ver la ficha). Lo que hace bien: es gratis y oficial, y eso le pone techo a lo que la gente paga. El hueco: el consumidor hace todo solo, nadie le dice cuánto le corresponde ni lo acompaña cuando el reclamo pasa a la autoridad local.
+2) TUMANGO (responsable de los datos: Abogalia SAS). Cobra una comisión sobre el ahorro solo si lo consigue. Ejemplo de la nota: la factura baja $10.000 por mes durante 6 meses, el ahorro es de $60.000 y la comisión de $12.000 (el 20% es cuenta mía sobre ese ejemplo). Cobra por Mercado Pago. Cubre Personal, Telecentro, iPlan, Movistar, Claro y DirecTV (https://www.iprofesional.com/actualidad/463831-una-plataforma-negocia-por-vos-descuentos-con-las-empresas-de-internet-y-celular, 2026-09-07). Lo que hace bien: ya ofrece cobrar solo si hay resultado, en Argentina. No hay datos de cuántos usuarios tiene. El hueco: negocia precios, no reclama por incumplimientos, y no hace vuelos, bancos ni prepagas. SAVE IT negocia tarifas de telecomunicaciones y dice conseguir descuentos de hasta el 60%; en lo que vi no publica precio (https://www.iproup.com/startups/48581-ahorrar-celular-internet-tv-abono-plan-save-it).
+3) ABOGADOS DE CONSUMO. El art. 53 de la Ley 24.240 da justicia gratuita en las acciones individuales, así que pueden tomar casos y cobrar por resultado. En la búsqueda del 2026-10-19 no encontré tarifas públicas. Lo que hacen bien: el daño punitivo (art. 52 bis), donde está la plata grande, solo se consigue en juicio. El hueco (opinión): los montos chicos no les cierran.
+4) ASOCIACIONES DE CONSUMIDORES. Están habilitadas para demandar por el art. 55 y sus acciones colectivas tienen justicia gratuita. Ayudan gratis; no verifiqué cuánta capacidad tienen.
+5) ZTZ TECH, del lado empresa. Cobraba USD 1 por documento procesado en 2022 (https://www.df.cl/df-mas/punto-de-partida/el-software-que-quiere-acabar-con-la-burocracia-en-las-empresas-a-traves). Puede ser socio o rival de la 'ventanilla para empresas'.
+LO QUE NO ENCONTRÉ: ninguna plataforma privada que cubra varios rubros, arme el reclamo, te diga a qué ventanilla ir después de la disolución del COPREC, siga los plazos y cobre solo si el usuario cobra.
+
+### Regulación
+
+LEÍDO EN LA FUENTE (2026-10-19):
+• Ley 24.240, texto actualizado en InfoLEG (https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm).
+- Art. 45: procedimiento de sanción con 5 días hábiles de descargo, 10 de prueba y 20 para resolver; se apela ante la Cámara Nacional de Apelaciones en las Relaciones de Consumo.
+- Art. 47: multas de 0,5 a 2.100 canastas básicas totales Hogar 3 (INDEC), y el 50% va a un fondo de educación al consumidor. La multa NO es para el consumidor.
+- Art. 40 bis: el daño directo (daño material) solo lo puede fijar por acto administrativo un organismo con facultades para resolver conflictos entre particulares, especialización e independencia, y control judicial amplio. No cubre daños no patrimoniales y el texto vigente no fija tope.
+- Art. 52 bis: el daño punitivo es a favor del consumidor, lo impone solo un juez y tiene como tope el máximo de multa del art. 47.
+- Art. 53: justicia gratuita en las acciones individuales, y el mandato se puede acreditar con un simple acta poder.
+- Art. 55: las asociaciones de consumidores pueden demandar, y sus acciones colectivas tienen justicia gratuita.
+Consecuencia: por la vía administrativa el consumidor recupera lo que acuerde o lo que le reintegren. La plata grande (daño punitivo) es judicial y necesita abogado.
+• Decreto 55/2025 (Boletín Oficial del 2025-02-03, vigente desde el 2025-02-01; https://www.argentina.gob.ar/normativa/nacional/decreto-55-2025-409013 y https://www.boletinoficial.gob.ar/detalleAviso/primera/320462/20250203, leído a través del buscador limitado a sitios oficiales). Disolvió el COPREC, el Registro Nacional de Conciliadores y su Fondo de Financiamiento. Derogó los arts. 1 a 40, 74 y 75 de la Ley 26.993 y el Decreto 202/2015. Los expedientes en trámite los termina la Secretaría de Industria y Comercio. La Resolución 357/2025 del Ministerio de Economía (BO 2025-09-24) derogó la reglamentación del COPREC. Hay un proyecto de ley para restituirlo (expediente 7790-D-2024); no sé en qué estado está. Según normas del COPREC que vi resumidas por el buscador, cuando había acuerdo el proveedor pagaba los honorarios del conciliador. Ese incentivo desapareció.
+• Ventanilla Federal Única (página oficial, consultada el 2026-10-19). Es gratis, pide DNI o pasaporte y un contacto, y deriva el reclamo. No menciona apoderados ni terceros, así que lo seguro es que el consumidor presente él mismo y la plataforma solo redacte y acompañe. Derechoenzapatillas dice que la creó la Disposición 890/2025; no la leí.
+NO LEÍDO EN LA FUENTE (pendiente):
+- Res. ANAC 1532/98: según derechoenzapatillas (2018), ante demoras de más de 4 horas solo obliga a reintegrar o reprogramar el pasaje y a dar hotel y traslados. No hay compensación fija como la europea, y eso rompe la copia directa de Reclamador.
+- Ley 23.187 y art. 247 del Código Penal (ejercicio de la abogacía): no las leí.
+- Ley 25.326 de datos personales: TuMango dice cumplirla; acá habría DNI, resúmenes bancarios y datos de salud.
+- Proyecto de ley sobre IA en las relaciones de consumo (iapp.org, ver la ficha).
+Precedente: en Brasil, el TRF2 le dio la razón a la OAB contra la publicidad de captación de Liberfly.
+QUÉ PERMITE Y QUÉ PROHÍBE (opinión hasta hacer la consulta legal):
+- Permite ayudar a redactar y ordenar un reclamo que presenta el propio consumidor, que puede hacerlo gratis y sin abogado.
+- Es dudoso cobrar honorarios por gestionar sin un abogado matriculado, y también representar al consumidor.
+- El precedente brasileño muestra que publicitar captación de clientes para juicios trae problemas.
+
+### Números de unidad
+
+TICKET (escenario, no dato). Si un caso recupera ARS 150.000, el 20% son ARS 30.000. Los ARS 150.000 son un supuesto que hay que medir en el experimento: no encontré montos medianos de reclamos administrativos en Argentina.
+Referencias de cobro:
+- TuMango: según el ejemplo de la nota, 20% del ahorro de 6 meses, ARS 12.000 sobre ARS 60.000 (iProfesional, 2026-09-07).
+- Vuelos en Europa: AviFly 15% + IVA, Reflights 15-25%, Reclamador 30% en un reclamo individual. Salen de los resúmenes del buscador que juntó el verificador; no leí esas notas.
+- Del lado empresa: ZTZ Tech, USD 1 por documento (df.cl, 2022).
+COSTOS POR CASO.
+- IA: los precios son de la tabla de Anthropic que trae la guía oficial de la API (copia del 2026-10-06; referencia https://platform.claude.com/docs/en/about-claude/pricing). La cantidad de tokens por caso es estimación mía: ~40.000 de entrada (charla, 3 fotos de comprobantes, normas) y ~6.000 de salida (escrito más 3 seguimientos). Con Claude Sonnet 5.5 (USD 2 por millón de tokens de entrada y USD 10 por millón de salida) da ~USD 0,14 por caso. Con Haiku 5.5 (USD 0,10 / 0,50), ~USD 0,01. Con Opus 5.5 (USD 4 / 20), ~USD 0,28. La IA no es el costo que importa.
+- WhatsApp: en la prueba alcanza la app WhatsApp Business, que es gratis. No verifiqué las tarifas por mensaje de la API de Meta para Argentina.
+- Cobro: por Mercado Pago (TuMango cobra así). No pude leer la tabla de comisiones: https://www.mercadopago.com.ar/costs-section devolvió 403 el 2026-10-19. Hasta que Facu lo confirme en su cuenta, uso un supuesto conservador del 8% del cobro con IVA incluido.
+- Tiempo humano: ~40 minutos por caso para revisar el escrito, guiar la presentación y seguir las respuestas (estimación).
+MARGEN POR CASO (escenario). Los ARS 30.000 se multiplican por un 50% de probabilidad de cobrar y por un 80% de probabilidad de que el usuario pague después de cobrar, lo que da ARS 12.000 esperados. Menos Mercado Pago (~ARS 960 esperados) y la IA (centavos de dólar), quedan ~ARS 11.000 por caso gestionado, antes de pagar por conseguir al cliente, por unos 40 minutos de trabajo. El 50% y el 80% son supuestos sin dato argentino: Reclamador dice ganar el 98% de los casos, pero lo declara la propia empresa y elige qué casos toma.
+Implicancia: si conseguir un mandato firmado con anuncios cuesta más que esos ~ARS 11.000, con publicidad paga el modelo no cierra. Hace falta un canal orgánico (SEO, calculadora gratis) o casos con montos más altos.
+Caja: el honorario entra recién cuando el consumidor cobra, y la página oficial no publica plazos. Hay que financiar meses de trabajo, y además la empresa le paga al consumidor, no a la plataforma, así que hay riesgo de no cobrar el 20%.
+
+### Tamaño del mercado
+
+DATO VERIFICADO: la Subsecretaría de Defensa del Consumidor y Lealtad Comercial registró 158.091 reclamos entre 2026-01 y 2026-07. La Nación lo obtuvo por un pedido de acceso a la información pública (Perfil, 2026-10-09: https://www.perfil.com/noticias/actualidad/cuales-son-las-empresas-con-mas-reclamos-en-argentina-el-ranking-de-2026.phtml).
+- Por rubro: servicios financieros y seguros 34.273; transporte aéreo 14.946; comunicaciones 13.695; administración de pagos 10.451; textil, calzado y marroquinería 9.635; electrodomésticos 9.555; automotor 7.104; transporte terrestre 6.463.
+- Por empresa: Flybondi 10.237 (casi 7 de cada 10 reclamos aéreos), Mercado Libre 9.584, Banco Nación 4.134, Telefónica 4.096, Galicia 3.601, Telecentro 3.424, BBVA 3.154, Telecom 2.816, Frávega 2.708, Despegar 2.450.
+- Reclamar formalmente es raro: los reclamos fueron menos del 0,028% de los clientes de Banco Nación y alrededor del 0,057% de los de Telefónica (misma nota).
+ESTIMACIÓN PROPIA (proyección lineal de 7 a 12 meses): unos 271.000 reclamos por año a nivel nacional, ~25.600 aéreos (~17.500 contra Flybondi) y ~58.800 financieros. Ojo: es lo que la gente ya reclama gratis. No incluye lo que se presenta directo ante provincias y municipios, ni a quienes nunca reclaman; de eso no hay dato.
+PRIMERA CIUDAD: la fuente no separa por ciudad. CABA tiene su propio sistema (reclamo digital y BA Concilia) y no encontré cuántos reclamos recibe.
+ESCENARIO (estimación, no dato): con el 1% del total nacional, unos 2.700 casos por año a ~ARS 12.000 de honorario esperado, serían ~ARS 32 millones por año. Con el 5%, ~ARS 160 millones. Opinión: alcanza para un negocio puente, no para una startup, salvo que crezca por el lado empresa o por los datos.
+
+### A quién entrevistar
+
+1) PASAJEROS CON VUELOS CANCELADOS O REPROGRAMADOS EN 2026 (Flybondi concentra 10.237 reclamos entre enero y julio). Dónde: en los comentarios de las publicaciones de Flybondi y Aerolíneas en Instagram, X y Facebook (escribiles por mensaje, sin mostrar la cara), en grupos de Facebook de viajeros y mochileros y en r/argentina. Meta: 5 entrevistas.
+2) PERSONAS CON CARGOS NO RECONOCIDOS DE BANCO, TARJETA O BILLETERA (34.273 reclamos financieros más 10.451 de medios de pago). Dónde: hilos de X donde le reclaman a bancos y billeteras, r/argentina, grupos de Facebook de usuarios de cada banco o de jubilados. Meta: 3.
+3) ABOGADOS DE CONSUMO QUE COBRAN POR RESULTADO. Dónde: comisiones o institutos de derecho del consumidor de los colegios de abogados (el CPACF en CABA o el colegio de tu departamento judicial), los autores de derechoenzapatillas.com y LinkedIn buscando 'defensa del consumidor'. Meta: 2; una de ellas es la consulta legal del día 0.
+4) QUIEN ATIENDE EN UNA OMIC (la oficina municipal de defensa del consumidor) O EN LA AUTORIDAD PROVINCIAL. Dónde: en la atención presencial de tu municipio. Qué averiguar: cómo llegan hoy los reclamos que manda la Ventanilla Federal, cuántos se resuelven en la primera audiencia y en cuánto tiempo. Meta: 1 o 2.
+5) ALGUIEN QUE OPERE ALGO PARECIDO: TuMango/Abogalia SAS (por el contacto de su web o LinkedIn) o Reclama Bien de Chile (vía descubre.vc o LinkedIn). Qué averiguar: qué rubro les rinde, cómo cobran después del resultado y qué problemas legales tuvieron. Puede terminar en una alianza. Meta: 1.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última vez que tuviste un problema con una empresa (vuelo, banco, tarjeta, telefonía, una compra). ¿Qué pasó exactamente y en qué fecha?
+2. ¿Cuánta plata había en juego en ese caso? ¿Cómo la calculaste?
+3. ¿Qué hiciste después, paso por paso? ¿A quién llamaste, qué formularios llenaste y cuántas horas te llevó en total?
+4. ¿Llegaste a presentar un reclamo formal (Ventanilla Federal, OMIC, Defensa del Consumidor, abogado)? ¿Qué te decidió a hacerlo, o qué te frenó?
+5. ¿Cómo terminó? ¿Cuánto recuperaste, en qué forma (plata, voucher, nada) y cuánto tardó?
+6. ¿Gastaste algo para resolverlo: abogado, gestor, viajes, horas de trabajo perdidas? ¿Cuánto?
+7. En el último año, ¿cuántas veces te pasó algo parecido y con qué empresas? ¿Hay alguno que dejaste pasar sin reclamar? ¿Cuánto calculás que perdiste ahí?
+8. La última vez, ¿dónde buscaste cómo reclamar? ¿Qué escribiste en Google o a quién le preguntaste?
+9. (A un abogado de consumo) Contame los últimos 3 casos de consumo que tomaste y los últimos 3 que rechazaste: de qué eran, cuánto había en juego, cómo cobraste y por qué dijiste que no.
+10. (A quien atiende en una OMIC o autoridad local) De los reclamos que entraron el mes pasado, ¿cuántos se cerraron con un acuerdo con plata para el consumidor, en cuánto tiempo y qué rubros eran?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** A una persona con un vuelo cancelado o reprogramado, o con un cargo financiero indebido, se le ofrece el reclamo armado gratis y, si quiere, el seguimiento por un 20% solo si cobra. Hipótesis: en 14 días, al menos 20 personas cargan su caso con pruebas, el 40% de ellas lo presenta en la Ventanilla Federal Única (lo prueba reenviando el mail con el número de reclamo) y al menos 1 de cada 4 firma el mandato del 20% (o al menos 3 dejan una seña que se devuelve si no cobran).
+- **Predicción (antes de empezar):** Escrita antes de prender los anuncios. Con USD 100 de anuncios: unas 400 visitas (supuesto de USD 0,25 por clic, no verificado), 28 casos cargados con pruebas (7%), 14 presentados con el número de reclamo reenviado (50% de los cargados), 8 mandatos del 20% firmados (~30%) y 3 señas de ARS 5.000 pagadas (~10%). Mediana del monto en juego: ARS 150.000 o más. Costo por caso cargado: unos USD 3,6.
+- **Pérdida máxima:** USD 180: anuncios USD 100 con impuestos; dominio y landing no-code ~USD 20 (estimación); plan de Claude USD 20 si no lo tenés (precio de lista, no lo verifiqué hoy); consulta de 1 hora con un abogado de consumo ~USD 40 (estimación; puede ser gratis si es un conocido). Las señas no son pérdida: se devuelven si no hay cobro. La comisión de Mercado Pago sobre lo que se devuelva es poca plata y entra dentro del tope.
+- **Duración:** 14 días de campaña, por ejemplo del 2026-10-26 al 2026-11-08, más un día 0 antes para la consulta legal. Las respuestas de las empresas se siguen mirando 30 días más, pero no deciden.
+- **Pasos:**
+  1. Día 0, antes de gastar: escribí la predicción en la planilla con fecha. Hacé la consulta de 1 hora con un abogado de consumo matriculado para validar tres cosas: (a) que el usuario presente él mismo y vos solo redactes y acompañes; (b) el texto del mandato del 20% y de la seña reembolsable; (c) la política de datos personales. Si te dice que sin matrícula no se puede cobrar, seguí con los mandatos a nombre de ese abogado o cortá ahí.
+  2. Días 1-2: armá una landing no-code, sin cara, con un formulario (Tally o Google Forms) que pida qué pasó, empresa, fecha, monto, fotos de los comprobantes y mail. Mensaje: '¿Te cancelaron o cambiaron el vuelo? ¿Te cobraron algo que no correspondía? Te armamos el reclamo gratis en 24 horas. Si querés que lo sigamos hasta que cobres: 20% solo si cobrás.' Y un aviso bien visible: 'No somos un estudio jurídico; el reclamo lo presentás vos'.
+  3. Días 1-2: armá un Proyecto de Claude con la Ley 24.240 (texto de InfoLEG), la Resolución ANAC 1532/98, la página oficial de la Ventanilla y 3 modelos de escrito. Revisá vos cada escrito antes de mandarlo.
+  4. Días 3-12: Google Ads de búsqueda con tope de USD 10 por día. Un grupo 'vuelos' de USD 70 (reclamo Flybondi, Flybondi reembolso, vuelo cancelado reclamo, defensa del consumidor vuelo) y un grupo 'cargos' de USD 30 (cargo no reconocido tarjeta, reclamo banco cobro indebido). Mirá el costo por clic del día 3 y ajustá las palabras.
+  5. A cada caso, en menos de 24 horas: el escrito listo para pegar más las instrucciones paso a paso para cargarlo en autogestion.produccion.gob.ar/consumidores. Pedile que te reenvíe el mail con el número de reclamo: es la prueba de que lo presentó.
+  6. En ese mismo mensaje ofrecé el seguimiento: el mandato del 20% solo si cobra (lo acepta con nombre, DNI y firma electrónica simple) y una seña de ARS 5.000 por link de Mercado Pago, que se descuenta del 20% y se devuelve si no cobra.
+  7. Anotá todo en una planilla: canal, rubro, empresa, monto en juego, minutos que te llevó, si lo presentó, si firmó el mandato, si pagó la seña y la primera respuesta de la empresa.
+  8. Días 13-14: compará los resultados con la predicción, decidí con los criterios y escribí el post-mortem (es regla del proyecto). Las señas de los casos que no cobren se devuelven.
+- **Sigue si:** Seguís si se cumple todo esto: 20 o más casos cargados con pruebas, el 40% o más presentados con número de reclamo, y además el 25% o más de mandatos firmados o al menos 3 señas pagadas, con una mediana en juego de ARS 100.000 o más y un costo por caso cargado de USD 5 o menos. Sigue el rubro que mejor convierta. Si los números quedan entre los criterios de seguir y los de cortar: una sola vuelta más de 14 días con el mismo tope, cambiando de rubro o de mensaje.
+- **Se corta si:** Cortás si pasa cualquiera de estas cosas: menos de 10 casos cargados; menos del 20% de los cargados lo presenta; ninguna seña y menos del 10% de mandatos; mediana en juego por debajo de ARS 50.000 (el 20% no paga el seguimiento); o el abogado confirma que este formato no es legal sin matrícula y no aparece un abogado dispuesto a asociarse.
+
+### Cinco formas de retorcerla
+
+- Otro cliente: agencias de viaje y agencias online chicas, con el servicio con su marca. La agencia le ofrece a su pasajero el reclamo armado por cancelación o reprogramación y paga por caso o comparte el 20%. La agencia ya tiene los datos del vuelo y la confianza del pasajero (opinión). Es vecina directa de TUR-2-4 (PENDIENTE): si Facu la marca, se fusionan.
+- Otro cobro: paga la empresa. Una 'ventanilla de resolución' donde la empresa paga un precio por cada caso que resuelve dentro de un plazo comprometido, antes de que llegue al organismo, y el consumidor no paga nada. Precio de referencia: ZTZ Tech cobraba USD 1 por documento procesado en 2022 (df.cl). ZTZ ya juega de ese lado; conviene evaluar una alianza antes que competirle.
+- Otro país (otra norma): argentinos que vuelan desde o hacia Europa. Ahí rige el reglamento europeo 261/2004 (EU261), que da una compensación fija sin tener que probar el daño. De eso viven Reclamador, AviFly o Reflights, que cobran entre el 15% y el 30% según los resúmenes del buscador; no releí el reglamento en esta pasada. Se vende en español a argentinos y se gestiona todo online. Es una variante de TUR-2-4.
+- Otro activo: los datos. Un índice público por empresa, con tasa y tiempo de resolución, armado con los casos de los usuarios (al estilo de Reclame Aqui en Brasil; no verifiqué sus números). Ese dato tiene demanda: La Nación tuvo que pedirlo por acceso a la información para publicar el ranking de 2026 (Perfil, 2026-10-09). Se monetiza por SEO y cobrándoles a las empresas que quieren cuidar su reputación.
+- Sacar al humano: autoservicio puro. Una 'calculadora de derechos' gratis (¿qué me corresponde por mi vuelo o por este cargo?) más el escrito listo para pegar en la Ventanilla, sin seguimiento humano. Los clientes llegan por SEO y se cobra solo el seguimiento opcional. Se emparenta con P2 (calculadoras SEO, ELEGIDA). Lo contrario, sumar un abogado socio que lleve a juicio los casos de daño punitivo, hace falta para escalar casos, pero como negocio queda vecino de B32 y F20 (rechazadas).
+
+### Riesgos
+
+- Legal: el límite con el ejercicio de la abogacía y con la captación de clientes. En Brasil, el TRF2 le dio la razón a la OAB contra Liberfly. En Argentina no leí todavía la Ley 23.187 ni el Código Penal: la consulta con un abogado es obligatoria antes de cobrar un peso.
+- Lo gratis del Estado le pone techo al precio: la Ventanilla Federal Única no cobra y solo pide DNI, un contacto y los datos del proveedor.
+- Ticket chico y plata lenta: no hay compensación fija como la europea; las multas del art. 47 van al Estado y el daño punitivo del art. 52 bis sale solo en juicio. El 20% puede no pagar el seguimiento, y los plazos administrativos no están publicados.
+- Cobranza: la empresa le paga al consumidor, no a la plataforma, y el usuario puede no pagar el 20% después de cobrar. Mandato firmado más seña lo mitigan, pero no lo garantizan.
+- Publicidad paga contra margen: con un margen esperado de unos ARS 11.000 por caso (escenario), si un mandato firmado cuesta más que eso en anuncios, el modelo no cierra. Hace falta un canal orgánico.
+- Fragmentación después del COPREC: cada provincia y municipio tiene su procedimiento, y la página oficial no prevé que presente un tercero. Automatizar la presentación es frágil; tiene que presentar el usuario.
+- Concentración: Flybondi explica 10.237 de los 14.946 reclamos aéreos de enero a julio de 2026. Si mejora o sale del mercado, ese rubro se achica.
+- Datos sensibles (DNI, resúmenes bancarios, datos de salud en prepagas): hay que cumplir la Ley 25.326, que no leí en esta pasada.
+- Las reglas cambian por decreto: el Decreto 55/2025 eliminó el COPREC, y hay un proyecto (7790-D-2024) para restituirlo cuyo estado no conozco.
+- Reputación: prometer de más ('la IA gana tu caso') es lo que le costó a DoNotPay una multa de la FTC de USD 193.000.
+- Competencia que puede crecer desde su rubro: TuMango ya cobra por resultado en telecomunicaciones y podría sumar reclamos.
+
+### Fuentes
+
+- https://www.perfil.com/noticias/actualidad/cuales-son-las-empresas-con-mas-reclamos-en-argentina-el-ranking-de-2026.phtml
+- https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm
+- https://www.argentina.gob.ar/servicio/iniciar-un-reclamo-ante-defensa-del-consumidor
+- https://www.argentina.gob.ar/normativa/nacional/decreto-55-2025-409013
+- https://www.boletinoficial.gob.ar/detalleAviso/primera/320462/20250203
+- https://servicios.infoleg.gob.ar/infolegInternet/anexos/405000-409999/409013/norma.htm
+- https://www.argentina.gob.ar/normativa/nacional/norma-235275/actualizacion
+- https://www.boletinoficial.gob.ar/detalleAviso/primera/331867/20250924
+- https://www.marval.com/Publicacion/se-disolvio-el-coprec-17101
+- https://beccarvarela.com/novedades/decreto-55-2025-disoluciones/
+- https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/7790-D-2024.pdf
+- https://www.consejosalta.org.ar/wp-content/uploads/Nov.-Nac.-SC-47.pdf
+- https://www.derechoenzapatillas.com/2025/se-disuelve-coprec-conciliacion-de-consumo-adonde-litigar-ahora/
+- https://www.derechoenzapatillas.com/2025/defensa-del-consumidor-lanza-una-nueva-ventanilla-federal-para-agilizar-y-simplificar-los-reclamos/
+- https://www.derechoenzapatillas.com/2018/que-derechos-tengo-si-mi-vuelo-se-retrasa-o-lo-reprograman/
+- https://www.iprofesional.com/actualidad/463831-una-plataforma-negocia-por-vos-descuentos-con-las-empresas-de-internet-y-celular
+- https://culturageek.com.ar/tumango-descuentos-facturas/
+- https://www.iproup.com/startups/48581-ahorrar-celular-internet-tv-abono-plan-save-it
+- https://aldiaargentina.microjuris.com/2018/12/20/app-recomendada-reclama-conmigo/
+- https://www.cancilleria.gob.ar/en/new-technologies/next-from-argentina-en/defendeme
+- https://www.descubre.vc/reclama-bien
+- https://www.emol.com/noticias/Economia/2022/08/25/1070928/crean-plataforma-para-resolver-reclamos.html
+- https://olhardigital.com.br/noticia/startups-auxiliam-clientes-em-acoes-contra-companhias-aereas/92441
+- https://istoe.com.br/startups-fazem-disparar-total-de-acoes-na-justica-contra-companhias-aereas
+- https://www.oab.org.br/noticia/58251/justica-federal-da-provimento-ao-recurso-da-ordem-contra-propaganda-ilegal-de-startup
+- https://startups.com.br/noticias/oab-x-legaltechs-afinal-startups-podem-ameacar-o-futuro-da-advocacia
+- https://www.agazeta.com.br/es/economia/startup-capixaba-e-proibida-de-ofertar-servicos-contra-aereas-na-internet-0621
+- https://turismo.eurodicas.com.br/liberfly/
+- https://www.df.cl/df-mas/punto-de-partida/el-software-que-quiere-acabar-con-la-burocracia-en-las-empresas-a-traves
+- https://www.reclamador.es/
+- https://www.resolvergroup.com/
+- https://en.wikipedia.org/wiki/DoNotPay
+- https://elreferente.es/?p=18071
+- https://www.genbeta.com/web/reclamador-es-apuesta-por-las-reclamaciones-colectivas-online-a-las-aerolineas/amp
+- https://www.iprofesional.com/legales/455366-nunca-le-reprogramaron-un-vuelo-y-despegar-y-aerolineas-deben-pagarle-30-millones
+- https://aldiaargentina.microjuris.com/2025/07/17/fallos-honorarios-en-procesos-de-consumo-se-reconocio-el-derecho-a-cobrar-honorarios-a-una-conciliadora-que-intervino-en-una-mediacion-tramitada-a-traves-del-coprec-aunque-no-haya-una-justicia-espe/
+- https://www.iapp.org/news/a/un-proyecto-de-ley-busca-regular-el-uso-de-la-ia-en-las-relaciones-de-consumo-en-argentina
+- https://platform.claude.com/docs/en/about-claude/pricing
+- https://www.mercadopago.com.ar/costs-section (devolvió 403 el 2026-10-19: comisión no verificada)
+
+---
+
+## 12. Broker hipotecario digital: en qué banco te aprueban, con tus papeles reales (sin la cuenta regresiva)
+
+Qué es: una página donde el comprador sube sus recibos y constancias y en 48 h recibe en qué bancos califica, por cuánto, con qué cuota y qué le falta. Después, si quiere, se le arma la carpeta para el banco elegido.
+Para quién: compradores de primera vivienda con ingresos en blanco, de 28 a 45 años, empezando por CABA/AMBA.
+Quién paga: el comprador (informe ~USD 15, carpeta ~USD 50; precios a validar). Las aseguradoras y los escribanos no pueden pagar por referido (Ley 22.400 art. 7; Código de Ética notarial de CABA art. 4), y no encontré evidencia de que los bancos paguen.
+Vuelta de tuerca: importa el broker hipotecario (en México lo pagan los bancos y coloca entre 45% y 50% de las hipotecas, según la asociación del sector), pero arranca cobrándole al comprador y con IA que lee papeles reales en lugar de un simulador. Se saca la cuenta regresiva de la ficha, porque choca con CON-3-3 e I18, las dos NO.
+Por qué ahora: en octubre de 2026 hubo fondeo del FGS y bajas de tasa (según la ficha), y la IA lee recibos por centavos (Sonnet 5.5: USD 2 de entrada y USD 10 de salida por millón de tokens). En contra: en CABA las hipotecas cayeron 34% en enero-agosto de 2026.
+
+**Veredicto:** Probarla solo si se achica a un informe que paga el comprador (en qué banco calificás, por cuánto y qué te falta, con tus papeles reales). Las comisiones de aseguradoras y escribanos que suponía la ficha están prohibidas y no hay evidencia de que los bancos paguen. Si en 14 días hay 8 o más pagos de desconocidos, sigue; con 3 o menos, se corta: el hueco existe, pero en CABA las hipotecas caen 34% en 2026 y el BNA precalifica gratis en menos de 24 h.
+
+### Quién lo intentó y qué le pasó
+
+MÉXICO, el antecedente más claro. Ahí el broker hipotecario ya es un canal armado y lo pagan los bancos: al comprador no le cuesta nada (Rankia MX sobre Bancompara; Forbes México). Según un resultado de búsqueda (nota de El Universal o de Forbes México; no la leí completa), Eugenio Klee, presidente de la Asociación de Brokers Hipotecarios, dice que los brokers colocan entre 45% y 50% de las hipotecas.
+Los digitales:
+- Morgana: fundada en 2022, compara más de 10 bancos y levantó una pre-semilla de ~USD 3 M (Descubre). En mayo de 2023 apuntaba a USD 100 M en hipotecas para octubre de 2023 (El Financiero). Qué pasó después: no verificado.
+- LoanCo: se presenta como la primera plataforma multibanco de hipotecas y dice tener una red de más de 1.000 brokers (Forbes México; el dato es de la propia empresa).
+Lectura mía (opinión): en México lo digital terminó siendo una herramienta para los brokers humanos, no su reemplazo.
+COLOMBIA: nuhome (La República). Solo vi el título: proyectaba cerrar un año con más de 1.000 hipotecas preaprobadas. El año y el modelo de cobro no están verificados.
+ESPAÑA: h2b Hipotecas, citada por Infonegocios.
+ARGENTINA: Infonegocios (2025-02-18) dice que la figura del broker todavía no llegó y lo atribuye a que el mercado es chico (~11.000 hipotecarios en 2024 contra ~500.000 en España, según la ficha). Lo más parecido que existe:
+- acuerdos de difusión entre banco y portal (BBVA + Zonaprop);
+- el marketplace inmobiliario del BNA (BAE Negocios, 2025-07-04; solo leí el título);
+- Lendar, que presta plata de privados.
+Qué busqué: 'startup argentina plataforma créditos hipotecarios UVA 2018 comparador bancos precalificación cerró' y 'bancos pagan comisión por originación créditos hipotecarios Argentina inmobiliarias brokers'. No apareció ninguna startup local que lo haya intentado y cerrado (tampoco del boom UVA de 2017-2018), ni evidencia de bancos que les paguen a originadores.
+Conclusión: donde el broker funciona, lo pagan los bancos y el mercado es grande. En Argentina hoy no se cumple ninguna de las dos cosas.
+
+### Competencia en Argentina
+
+Todo lo que existe es gratis para el comprador. Ninguno cobra.
+- Banco Nación (+Hogares). Precalificación 100% online con oferta en menos de 24 h (La Capital MdP, vía la ficha). Es un solo banco, pero el que más presta: 36,1% de las hipotecas según la Fundación Tejido Urbano (citada por Diario Jornada; fecha no verificada). Es el competidor real: a mucha gente le alcanza con 'pedirle al Nación'. https://www.lacapitalmdp.com/el-banco-nacion-digitaliza-el-credito-hipotecario-tu-casa-empieza-con-un-clic/
+- BCRA. Publica la Lista comparativa de préstamos hipotecarios UVA, ordenada por costo, con datos abiertos que se actualizan cada día hábil. Compara cuánto cuesta cada crédito, no si calificás. https://www.argentina.gob.ar/lista-comparativa-de-los-prestamos-hipotecarios-uva
+- Rankia Argentina y ComparaEnCasa. Comparadores y guías de cuota y TNA (ComparaEnCasa dice comparar más de 40 opciones). No leen papeles ni arman la carpeta. https://www.rankia.com.ar/comparador/hipotecas y https://www.comparaencasa.com/prestamos-personales/comparar-prestamos/comparar-prestamos-hipotecarios-argentina/
+- Zonaprop + BBVA. Acuerdo para difundir los hipotecarios de BBVA y sus condiciones: hasta 80% del valor, de 5 a 30 años, tasa de 7,5%, 9,5% u 11,5% + UVA según la línea, se pueden sumar los ingresos de hasta dos familiares directos y se pide un ingreso de al menos 4 salarios mínimos. Es publicidad del banco, no gestión. https://mercado.com.ar/protagonistas/bbva-y-zonaprop-acuerdan-difundir-prestamos-hipotecarios-y-detallar-condiciones-de-acceso
+- Medios. iProfesional, LM Neuquén y La Gaceta publican todos los meses cuánto hay que ganar en cada banco (julio 2026: Santander $2.240.000, Supervielle $5.000.000, con una cuota de hasta 25% del ingreso) y cuánto cambia la cuota entre bancos. Es información general, no personal.
+- Lendar. Hipotecario en dólares entre privados (~3.000 créditos, desde 9,5% TNA en USD, según la ficha). Sirve para quien no califica en los bancos; no es un broker.
+- Personas. Contadores (certifican ingresos), inmobiliarias que ayudan sin cobrar aparte y escribanos de la red del banco (según Hacecuentas, el banco puede exigir su propio escribano). Busqué 'asesor crédito hipotecario Argentina honorarios gestión carpeta banco 2026' y no encontré ningún precio publicado.
+Qué hacen bien: información gratis y rápida, sobre todo el BNA.
+El hueco: entre lo que encontré, nadie toma tus papeles reales, los cruza con las reglas de todos los bancos, te dice qué cambiar (codeudor, plazo, banco donde cobrar el sueldo) y te arma la carpeta. Que nadie cobre por eso es a la vez el hueco y la advertencia.
+
+### Regulación
+
+1) Ley 22.400 de productores asesores de seguros (leída en https://www.argentina.gob.ar/normativa/nacional/20968/texto el 2026-10-19).
+- Para intermediar seguros hay que estar inscripto en el registro. En CABA, el GBA y las ciudades de más de 200.000 habitantes, además, hay que rendir examen (arts. 4 y 19).
+- Art. 7: «Queda prohibido el pago de comisiones o cualquier retribución a dichas personas», es decir, a las no inscriptas. Las aseguradoras deben abstenerse de operar con ellas.
+- Art. 15: facilitar o cooperar con un no inscripto es falta grave (sanciones del art. 59 de la Ley 20.091).
+- Art. 8 inc. g: quien opere sin estar inscripto queda inhabilitado para inscribirse después.
+Qué implica: la 'comisión de aseguradora por referido' de la ficha está prohibida. Tampoco sirve que un productor amigo te pase parte de su comisión (lectura mía, no soy abogado). Se permite recomendar sin cobrar, o que Facu se matricule como productor más adelante.
+
+2) Código de Ética Notarial del Colegio de Escribanos de CABA (PDF leído el 2026-10-19: https://www.colegio-escribanos.org.ar/noticias/2012_08_30-codigo-etica.pdf). Es un texto de 2001 con cambios de 2003 y 2012; no verifiqué si cambió después. El art. 4 considera falta de ética:
+- inc. B: hacer publicidad. En la web solo se permiten los datos básicos, se prohíben los acuerdos con páginas que deriven clientes a un escribano en especial, y publicar aranceles se considera falta de decoro;
+- inc. E: usar gestores, corredores u otra intermediación para captar clientes;
+- inc. F: ofrecer mejores honorarios o ventajas en los gastos de escrituración;
+- inc. K: compartir honorarios con personas que no son escribanos;
+- inc. O: organizarse de forma comercial para abaratar costos.
+Qué implica: en CABA ningún escribano puede pagarte por cliente, entrar en un comparador de honorarios ni sumarse a una 'escribanía aliada con precio fijo' sin arriesgar una sanción. Se caen tres piezas de la ficha. La Provincia de Buenos Aires tiene su propia ley notarial (Ley 9020): no la verifiqué.
+
+3) Ley 25.326 de protección de datos personales. Aplica, porque se manejan recibos, DNI, CUIL y deudas. No la releí en esta ficha. URL de referencia, sin comprobar hoy: http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm. Antes de lanzar hay que verificar el consentimiento informado, las medidas de seguridad y si corresponde inscribir la base de datos (no verificado). Práctica obligada: nunca pedir la clave fiscal de ARCA; que el cliente descargue sus propias constancias.
+
+4) BCRA. No encontré una norma que regule al broker hipotecario ni que diga si un banco puede pagarle a un originador (busqué y no salió nada; tampoco puedo asegurar que no exista). Lo que sí hace el BCRA es publicar gratis la lista comparativa de hipotecarios UVA. Opinión: armar la carpeta no es intermediación financiera, porque no prestás ni tomás depósitos. Pero si algún día cobrás del banco u 'ofrecés' crédito, hay que consultarlo con un abogado.
+
+5) Ley 24.240 de Defensa del Consumidor. Aplica al cobro a personas: información clara y nunca prometer la aprobación. No la leí en esta ficha.
+
+6) ARCA. Para facturar hay que estar inscripto (por ejemplo, en el monotributo); los costos no están verificados.
+
+### Números de unidad
+
+TICKET (estimación, a validar con el experimento): informe 'en qué banco calificás' a USD 15; carpeta completa con acompañamiento hasta la aprobación a USD 50 (la ficha proponía USD 40-80).
+Para comparar [dato]: la escritura promedio en CABA en agosto de 2026 fue de USD 119.270 (Colegio de Escribanos) y el escribano cobra alrededor del 1% (según la ficha). El arancel del Banco Provincia fija 0,75% para la hipoteca hasta cierto monto (resultado de búsqueda; puede haber cambiado). Con esos números, USD 50 es ~4% de lo que cobra el escribano (cálculo mío).
+
+QUIÉN MÁS PODRÍA PAGAR [dato]:
+- Aseguradoras: prohibido (Ley 22.400 art. 7).
+- Escribanos de CABA: falta de ética (art. 4 inc. E y K).
+- Bancos: sin evidencia en Argentina. Lo único visible es un acuerdo de difusión BBVA-Zonaprop. En México los bancos sí les pagan a los brokers (Rankia MX, Forbes México), pero no encontré el porcentaje.
+Hoy el único ingreso que verifiqué como legal es el que paga el comprador.
+
+COSTOS POR OPERACIÓN:
+- IA [precio]: Claude Sonnet 5.5 cuesta USD 2 de entrada y USD 10 de salida por millón de tokens; Haiku 5.5, USD 0,10 y 0,50; Opus 5.5, USD 4 y 20 (tabla de precios de la API, copia del 2026-10-06, https://platform.claude.com/docs/en/about-claude/pricing).
+  Estimación por cliente: 10 páginas de ~2.500 tokens cada una (supuesto: entre 1.500 y 3.000 por página o foto; hay que medirlo con count_tokens) más ~5.000 tokens de reglas dan ~30.000 tokens de entrada y ~3.000 de salida. Con Sonnet 5.5 son ~USD 0,09 por pasada; con 4 pasadas (repreguntas), ~USD 0,40 por cliente; con Opus 5.5, ~USD 0,75. En el experimento sale de la suscripción de Claude que ya usa (supuesto).
+- WhatsApp: la app WhatsApp Business no cobra por mensaje (no lo verifiqué hoy). La API cobra por mensaje de plantilla según el país (tarifa para Argentina no verificada). En esta etapa no hace falta.
+- Mercado Pago: comisión no verificada (la página oficial de costos dio error 403 el 2026-10-19). En la cuenta uso un colchón de 10% del ticket (estimación conservadora).
+- Tiempo de Facu (estimación): 60 minutos por informe y 2 a 3 horas por carpeta al principio. Es el costo más grande.
+
+MARGEN POR OPERACIÓN (estimación):
+- Informe: USD 15 − 1,5 de Mercado Pago − 0,4 de IA − 8 de anuncios por cada venta (si se cumple la predicción) ≈ USD 5.
+- Si 3 de cada 10 compran la carpeta (50 − 5 − 1 = USD 44 cada una), se suman ~USD 13 por cliente del informe.
+- Total: ~USD 18 por cliente con ~1,75 h de trabajo, unos USD 10 por hora. A estos precios es un trabajo mal pago hasta que la IA haga casi todo (variante 'sacar el humano') o aparezca una empresa que pague (variante empleadores).
+
+DÓNDE ESTÁ EL VALOR (estimación): con +Hogares (75% financiado, 30 años, 6,7% TNA, según la ficha), una propiedad de USD 119.270 da un préstamo de ~USD 89.500 y una cuota inicial de ~USD 577. Con la regla de cuota de hasta 25% del ingreso (LM Neuquén, julio 2026), los titulares necesitan ganar entre todos ~USD 2.300 netos por mes. Para muchos el cuello de botella es el ingreso, no la carpeta. El informe vale si dice cómo llegar (codeudor, plazo, banco donde cobrar el sueldo), no solo dónde pedir.
+
+### Tamaño del mercado
+
+PRIMERA CIUDAD, CABA [dato del Colegio de Escribanos de CABA, informe de agosto de 2026 publicado el 2026-09-22]:
+- Agosto 2026: 1.059 escrituras con hipoteca (−20,8% contra agosto de 2025), sobre 6.055 compraventas, o sea ~17,5% de las compras con hipoteca (cálculo mío).
+- Enero-agosto 2026: 6.170 escrituras con hipoteca, −34% contra las 9.341 del mismo período de 2025.
+- Marzo 2026: 834 (−15,9%).
+Estimación: 2026 cerraría con ~9.300 a 10.400 hipotecas en CABA, si de septiembre a diciembre se repite el promedio de enero-agosto o el nivel de agosto.
+Ojo: esas son las que llegaron a la escritura. No encontré datos de solicitudes ni de rechazos, que son el universo real de clientes (los que están averiguando).
+
+PAÍS [datos parciales]:
+- Fundación Tejido Urbano (citada por Diario Jornada; fecha y período no verificados porque la página dio error 503): el Banco Nación lleva 12.342 hipotecas, el 36,1% del total, y Galicia + Santander + BBVA suman 32,9%. Esos 4 bancos son ~69% del mercado. Cálculo mío: el total de ese período rondaría las 34.000.
+- Infonegocios (2025-02-18, vía la ficha): ~11.000 hipotecarios en 2024.
+- El BNA dice que llegará a 40.000 créditos antes de fin de 2026 (Infobae, 2026-10-14, según la ficha; no verifiqué si es un acumulado).
+- No pude verificar el número nacional anual de 2025 ni de 2026.
+
+TECHO DEL NEGOCIO COBRANDO AL COMPRADOR (estimación): si 2% de los ~10.000 compradores con hipoteca de CABA pagara USD 50, serían ~USD 10.000 por año; con 5%, ~USD 25.000. Como negocio intermedio en una sola ciudad es chico. Para crecer necesita salir al país y sumar a alguien más que pague (empleadores o bancos).
+
+### A quién entrevistar
+
+1) Gente que escrituró con hipoteca UVA en los últimos 12 meses (28-45 años, AMBA). Dónde encontrarla:
+- el círculo propio: hermanos, primos, ex compañeros, docentes jóvenes de la facultad;
+- empleados de CEMEVA, si alguno compró;
+- autores de hilos sobre hipotecarios en Reddit (r/merval, r/argentina, r/BuenosAires), por mensaje privado desde la cuenta de la marca;
+- quienes comentan los posts de BNA y BBVA sobre hipotecarios en Instagram.
+Meta: 5 entrevistas.
+2) Gente que está averiguando ahora o a la que rechazaron (el dolor más fresco). Dónde: cada persona que complete el formulario del experimento (pedirle 15 minutos por llamada o audio, sin cámara), grupos de Facebook sobre créditos hipotecarios (nombres exactos no verificados) y comentarios en notas de iProfesional o Infobae sobre hipotecarios. Meta: 5.
+3) Oficiales de crédito hipotecario de sucursal (Nación, Galicia, Santander, BBVA, Ciudad, Provincia). Dónde: turno de asesoramiento en la sucursal o LinkedIn ('oficial de negocios hipotecarios'). Para saber las 3 causas más comunes por las que rebota una carpeta, cuánto tarda cada paso y si existe algún programa que les pague a terceros por solicitudes aprobadas. Meta: 3.
+4) Contadores que certifican ingresos de monotributistas y autónomos para hipotecas. Dónde: estudios contables de barrio y el Consejo Profesional de Ciencias Económicas de CABA, donde se legalizan sus firmas. Para saber cuántas certificaciones hacen, cuánto cobran y qué rebota. Pueden ser un canal de venta. Meta: 2.
+5) Un escribano de la red de un banco y un productor asesor de seguros. Para entender cómo es el cierre (tasación, escritura, seguros) y confirmar los límites del Código de Ética notarial y de la Ley 22.400. No es para venderles nada. Dónde: escribanías cerca de sucursales bancarias, y productores por referidos.
+A los corredores inmobiliarios conviene entrevistarlos solo como fuente (cuántas operaciones se caen por el crédito), no como clientes: venderles a ellos choca con CON-3-3 y B11, las dos NO.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. ¿Cuándo fue la última vez que averiguaste en serio un crédito hipotecario? ¿Qué pasó ese día que te hizo arrancar?
+2. ¿En qué bancos averiguaste y cómo elegiste a cuál presentarte primero?
+3. Contame paso por paso qué papeles te pidieron. ¿Te rebotaron alguno o te lo pidieron de nuevo? ¿Cuál y cuántas veces?
+4. ¿Cuánto tiempo pasó desde que empezaste hasta que el banco te contestó? ¿Y desde ahí hasta la escritura?
+5. ¿El banco te aprobó menos de lo que esperabas o te rechazó? ¿Qué hiciste después: otro banco, un codeudor, otro plazo, otra propiedad?
+6. ¿Le pagaste a alguien para que te ayude con el crédito (contador, gestor, inmobiliaria)? ¿Cuánto le pagaste y por qué a esa persona?
+7. ¿Llegaste a señar o reservar una propiedad antes de tener el crédito aprobado? ¿Qué pasó con esa seña?
+8. ¿Qué usaste para hacer las cuentas: el simulador del banco, la lista del BCRA, una planilla, YouTube, algún grupo? ¿Qué cuenta no pudiste resolver?
+9. ¿Qué parte del proceso te llevó más horas? Si lo midieras en días de trabajo perdidos, ¿cuántos fueron? ¿Quiénes más tuvieron que juntar papeles (pareja, padres, codeudor)?
+10. ¿Conocés a alguien que esté averiguando un hipotecario ahora? ¿Me lo presentarías hoy por WhatsApp?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Los compradores de primera vivienda del AMBA que están averiguando un hipotecario le pagan USD 15 (en pesos) a una marca sin cara visible y le entregan sus recibos reales para saber en qué bancos califican, por cuánto y qué les falta. Además, al menos 1 de cada 4 compra después la carpeta completa de USD 50.
+- **Predicción (antes de empezar):** Con USD 80 de anuncios en 9 días: 400 visitas a la página (supuesto sin fuente: ~USD 0,20 por clic), 40 formularios completos (10%), 10 pagos de USD 15 (25% de los formularios), 7 de esos 10 mandan todos sus papeles en menos de 72 h, 3 pagan por adelantado la carpeta de USD 50, y 4 de 5 informes coinciden con la precalificación real del banco. Costo de anuncios por cada venta: USD 8.
+- **Pérdida máxima:** USD 150, como tope duro: USD 80 de anuncios + ~USD 15 de dominio y página (estimación) + USD 45 de reserva para devolver hasta 3 informes por la garantía + USD 10 de imprevistos. La IA sale de la suscripción de Claude que ya usa (supuesto; si no la tiene, hay que sumar un mes, precio no verificado).
+- **Duración:** 14 días, del 2026-10-21 al 2026-11-03: días 1 a 3 de armado, 4 a 12 de anuncios y entregas, 13 y 14 de conteo y post-mortem.
+- **Pasos:**
+  1. Día 1 (2026-10-21): armar en Google Sheets la planilla de reglas de 6 bancos: Nación, Galicia, Santander, BBVA, Ciudad y Provincia (los cuatro primeros son ~69% del mercado, según la Fundación Tejido Urbano). Para cada banco: ingreso mínimo, cuota máxima sobre el ingreso, porcentaje financiado, tope, plazo, edad, antigüedad, si suma codeudores y qué tasa da si cobrás el sueldo ahí. Cada celda con su URL y fecha. Claude ayuda a leer las páginas de cada banco.
+  2. Día 2: hacer la página sin cara (Carrd o Google Sites) y un formulario en Tally o Google Forms que pida solo datos no sensibles: ingreso neto, tipo de empleo, antigüedad, edad, valor de la propiedad buscada, ahorro y si hay codeudor. Promesa: 'En 48 h te decimos en qué bancos calificás, por cuánto y qué te falta; si no te sirve, te devolvemos la plata'. Aviso visible: es orientativo y la decisión es del banco.
+  3. Día 2: crear un link de pago de Mercado Pago por el equivalente a USD 15. Los papeles se piden recién después del pago, con un texto de consentimiento que diga para qué se usan, quién los ve y que se borran a los 30 días. Nunca pedir la clave fiscal.
+  4. Día 3: armar con Claude la plantilla del informe: ranking de bancos, monto y cuota inicial estimados, palancas para llegar (codeudor, plazo, banco donde cobrar el sueldo) y la lista exacta de papeles de cada banco. Probarla gratis con 2 conocidos; no cuentan para la meta.
+  5. Días 4 a 12: poner USD 80 en Meta Ads (Instagram y Facebook, AMBA, 27 a 45 años) con dos anuncios de texto o gráfico, sin cara: 'No sabés en qué banco te dan el hipotecario' contra 'Te rebotaron la carpeta'. Si Meta obliga a declarar la categoría especial de crédito y no deja segmentar, pasar la plata a anuncios de búsqueda en Google ('qué banco me da crédito hipotecario', 'requisitos crédito hipotecario'). En paralelo, responder sin spam, con información útil, en Reddit y en grupos, desde la cuenta de la marca.
+  6. Con cada pago: entregar el informe en 48 h por el WhatsApp Business de la marca. Al entregarlo, ofrecer la carpeta completa con acompañamiento hasta la aprobación a USD 50, pagada por adelantado (se entrega la semana siguiente).
+  7. Días 6 a 12: pedirle a cada cliente que haga la precalificación online del banco recomendado (el Nación contesta en menos de 24 h) y que reenvíe la respuesta. Así el acierto se mide con un dato del banco, no con una opinión.
+  8. Días 6 a 12, para aprender (no para vender): 5 entrevistas con el guion a gente que completó el formulario y no pagó (¿qué usaste en lugar de esto?) y a 2 o 3 oficiales de crédito (por qué rebotan las carpetas y si existe algún programa que les pague a terceros por solicitudes aprobadas).
+  9. Días 13 y 14 (hasta el 2026-11-03): anotar en la planilla visitas, formularios, pagos, papeles recibidos en 72 h, cargos por adelantado de la carpeta, aciertos y costo de anuncios por venta. Comparar con la predicción y escribir el post-mortem, siga o no siga.
+- **Sigue si:** Sigue si hay 8 o más pagos de desconocidos con USD 80 o menos de anuncios (hasta USD 10 por venta), al menos 2 carpetas de USD 50 pagadas por adelantado y al menos 4 aciertos de 5 contra la respuesta real del banco. Si hay menos de 5 respuestas de banco, se mide con las que haya y se marca como dato débil. Siguiente paso: 2 semanas más con la carpeta completa y una prueba de la variante empleadores.
+- **Se corta si:** Se corta si hay 3 pagos o menos (más de USD 25 de anuncios por cada informe de USD 15: no cierra nunca), si menos de la mitad de los que pagan mandan sus papeles (la desconfianza hacia una marca sin cara es de fondo) o si hay 2 aciertos de 5 o menos (el producto no es confiable). Entre 4 y 7 pagos: una sola vuelta más de 14 días cambiando solo la forma de cobro (nada por adelantado y USD 30 si el banco te pre-aprueba), y se decide con los mismos números.
+
+### Cinco formas de retorcerla
+
+- Otro cliente: los empleadores (RR.HH.), con la 'casa propia' como beneficio. La empresa paga un pack por empleado (precio a validar) y la plataforma precalifica a su gente, que tiene el perfil que mejor califica: sueldo en blanco y recibos estándar. Palanca extra: hay líneas con mejor tasa si cobrás el sueldo en el banco (la línea Superior de BBVA lo exige), así que la empresa puede negociar sueldos e hipotecas con un banco. Registro: nueva. No hay filas de vivienda como beneficio; el canal de venta a empleados de empresas se parece a MOV-5-5 (PENDIENTE). Primer piloto barato: los empleados de CEMEVA.
+- Otro cobro: a éxito. Nada por adelantado y USD 30 a 60 solo si el banco te pre-aprueba, contra el comprobante de la precalificación. Saca la objeción 'el banco lo hace gratis' y alinea incentivos. Riesgo: cobrar después del resultado; se reduce con una seña de USD 5 que se descuenta.
+- Otro país: México, vendiéndole al broker y no al comprador. Allá el broker ya existe, lo pagan los bancos (Rankia MX, Forbes México) y coloca entre 45% y 50% de las hipotecas (según la asociación del sector). El lector de papeles con las reglas de cada banco sería una herramienta para brokers humanos, como plantea LoanCo con su red de más de 1.000. Requiere estar allá: queda para más adelante.
+- Otro activo: el auto. Precalificación del crédito prendario dentro de L1 (ELEGIDA, cierre seguro de autos usados): antes de señar el usado, el comprador sube sus papeles y sabe si le dan el prendario y dónde. Es una variante de L1, marcada como tal.
+- Sacar el humano: autoservicio gratis en 2 minutos, que sirve aunque no haya nadie más del otro lado. La IA lee los recibos y contesta al instante en qué bancos entrás y cuánto te falta; se cobra solo la carpeta o el éxito. Junta muchos interesados para después negociar con los bancos como medio de difusión, al estilo del acuerdo BBVA-Zonaprop. Es lo único que arregla el margen (hoy ~USD 10 por hora de Facu, estimación). Riesgo: errores sin revisión humana.
+
+### Riesgos
+
+- Modelo de ingresos roto en dos de sus tres patas: la comisión de las aseguradoras está prohibida (Ley 22.400 art. 7) y la de los escribanos es falta de ética en CABA (Código de Ética notarial, art. 4 inc. E y K). De los bancos no hay evidencia de que paguen por originar. Vive solo de lo que paga el comprador.
+- Competencia gratis y buena: el BNA precalifica online en menos de 24 h y tiene el 36,1% de las hipotecas, el BCRA publica la lista comparativa, y medios y comparadores publican los requisitos de cada banco. Hay que demostrar que un informe con papeles reales vale USD 15.
+- El momento es peor de lo que dice la ficha: en CABA las hipotecas cayeron 34% en enero-agosto de 2026 contra 2025, y algunas líneas llegan al 17% TNA (La Gaceta). El fondeo del FGS y las bajas de tasa de octubre de 2026 (según la ficha) pueden darlo vuelta, pero no está verificado.
+- Riesgo macro del crédito UVA: si sube la inflación, la cuota indexada asusta y el crédito se frena. El antecedente de 2018 no lo verifiqué con fuente en esta ficha.
+- Error de precalificación: si el informe dice 'calificás' y el banco rechaza, hay reclamo por defensa del consumidor y daño a la marca. Las reglas de los bancos cambian seguido: la planilla necesita revisión semanal y un aviso claro de que la decisión es del banco.
+- Datos delicados (recibos, DNI, CUIL, deudas): un problema de seguridad mata el negocio. La Ley 25.326 no la releí en esta ficha. Nunca pedir la clave fiscal.
+- Confianza sin cara (opinión): mucha gente no le va a mandar sus recibos a una marca sin una persona visible. Se mitiga con garantía de devolución, fuentes a la vista y borrado de los papeles a los 30 días.
+- Techo chico: CABA tendría entre ~9.300 y 10.400 hipotecas en 2026 (estimación). Cobrándole solo al comprador en una ciudad, es un negocio de miles de dólares al año, no una startup, salvo que aparezca otro que pague.
+- Puede que los bancos no acepten carpetas armadas por terceros y exijan que el cliente cargue todo en su portal (no verificado). El producto tiene que ser una carpeta lista para que la suba el propio cliente.
+- Anuncios: Meta puede exigir declarar la categoría especial de crédito o vivienda, que limita la segmentación por edad (no verificado para Argentina). Plan B: anuncios de búsqueda en Google.
+- Registro (Regla N.º 2): la cuenta regresiva para inmobiliarias choca con CON-3-3 (NO), la mudanza de servicios con I18 (NO) y el precalificador con la marca de la inmobiliaria con B11 y B7 (NO). Las tres quedan afuera.
+
+### Fuentes
+
+- https://www.argentina.gob.ar/normativa/nacional/20968/texto (Ley 22.400, arts. 4, 7, 8, 15 y 19; leída el 2026-10-19)
+- https://www.colegio-escribanos.org.ar/noticias/2012_08_30-codigo-etica.pdf (Código de Ética Notarial de CABA, art. 4; leído el 2026-10-19)
+- https://www.colegio-escribanos.org.ar/?p=144575 (escrituras de agosto de 2026 en CABA, publicado el 2026-09-22; leída el 2026-10-19)
+- https://www.colegio-escribanos.org.ar/2026/04/22/cantidad-de-escrituras-de-compraventa-realizadas-en-marzo-2026/ (marzo de 2026: 834 con hipoteca; dato tomado del resultado de búsqueda)
+- https://www.colegio-escribanos.org.ar/2026/08/24/cantidad-de-escrituras-de-compraventa-realizadas-en-julio-2026/ (julio de 2026; resultado de búsqueda)
+- https://www.rankia.mx/blog/creditos-personales-nomina-automotriz-motos/5045129-que-bancompara-como-funciona (México: el broker lo pagan los bancos; resultado de búsqueda)
+- https://forbes.com.mx/6-cosas-que-un-broker-hipotecario-te-ahorra-cuando-compras-casa-y-cuanto-te-cobra/ (México: broker sin costo para el comprador; resultado de búsqueda)
+- https://forbes.com.mx/?p=1031339 (LoanCo, red de más de 1.000 brokers; resultado de búsqueda)
+- https://www.eluniversal.com.mx/cartera/que-hace-un-broker-hipotecario/ (Asociación de Brokers Hipotecarios: 45-50% de colocación; resultado de búsqueda, nota no leída)
+- https://www.elfinanciero.com.mx/opinion/de-jefes/2023/05/05/morgana-preve-participar-en-la-gestion-de-hasta-100-mdd-de-creditos-hipotecarios/ (Morgana, 2023-05-05; resultado de búsqueda)
+- https://www.descubre.vc/morgana (Morgana: 2022, pre-semilla de ~USD 3 M; resultado de búsqueda)
+- https://www.rankia.mx/blog/creditos-hipotecarios/5026846-listado-brokers-hipotecarios-mexico (listado de brokers en México; resultado de búsqueda)
+- https://www.larepublica.co/finanzas/nuhome-proyecta-cerrar-el-ano-con-mas-de-1-000-creditos-hipotecarios-preaprobados-3436354 (nuhome, Colombia; solo el título)
+- https://mercado.com.ar/protagonistas/bbva-y-zonaprop-acuerdan-difundir-prestamos-hipotecarios-y-detallar-condiciones-de-acceso (BBVA + Zonaprop y las condiciones de BBVA; resultado de búsqueda)
+- https://www.bbva.com/es/ar/economia-y-finanzas/bbva-elige-a-zonaprop-para-amplificar-su-propuesta-de-prestamos-hipotecarios/ (resultado de búsqueda)
+- https://www.lmneuquen.com/pais/cuanto-es-lo-minimo-que-hay-que-ganar-comprar-un-departamento-julio-2026-n1246166 (ingresos mínimos por banco y cuota de hasta 25% del ingreso, julio de 2026; resultado de búsqueda)
+- https://www.lagaceta.com.ar/nota/1127052/economia/creditos-hipotecarios-2026-cuanto-hay-ganar-para-comprar-departamento-argentina.html (tasas de hasta 17% TNA; resultado de búsqueda)
+- https://www.iprofesional.com/finanzas/447892-creditos-hipotecarios-cuales-son-los-unicos-dos-bancos-donde-se-tiene-una-cuota-pagable (2026-06-30; solo el título)
+- https://www.iprofesional.com/realestate/446470-que-bancos-pueden-hacer-variar-hasta-1-millon-pesos-cuota-credito-100000-dolares (2026-07-04; solo el título)
+- https://www.iprofesional.com/realestate/460788-cuanto-cobra-cada-banco-por-un-credito-hipotecarios-uva-de-75000-dolares (2026-07-26; resultado de búsqueda)
+- https://www.argentina.gob.ar/lista-comparativa-de-los-prestamos-hipotecarios-uva (lista comparativa del BCRA; resultado de búsqueda)
+- https://www.bcra.gob.ar/noticias/lista-comparativa-de-los-prestamos-hipotecarios-uva-para-vivienda-en-caba-al-27-de-agosto-de-2024/ (resultado de búsqueda)
+- https://diariojornada.com.ar/407440/economia/credito_hipotecario_lo_dominan_pocos_bancos_y_provincias (Fundación Tejido Urbano: BNA con 36,1%; dato del resultado de búsqueda, la página dio error 503)
+- https://www.bancoprovincia.com.ar/CDN/Get/Arancel_Tasaciones (arancel notarial del Banco Provincia; resultado de búsqueda)
+- https://hacecuentas.com/calculadora-honorarios-escribano-caba-compraventa (el banco puede exigir escribano de su red; resultado de búsqueda, fuente débil)
+- https://infonegocios.info/nota-principal/que-es-y-que-hace-un-broker-de-hipotecas-una-figura-que-crece-en-espana-y-va-a-hacer-falta-en-argentina (2025-02-18; viene de la ficha)
+- https://www.lacapitalmdp.com/el-banco-nacion-digitaliza-el-credito-hipotecario-tu-casa-empieza-con-un-clic/ (BNA, oferta en menos de 24 h; viene de la ficha)
+- https://www.rankia.com.ar/comparador/hipotecas (viene de la ficha)
+- https://www.comparaencasa.com/prestamos-personales/comparar-prestamos/comparar-prestamos-hipotecarios-argentina/ (viene de la ficha)
+- https://mercado.com.ar/finanzas/lendar-roza-los-3-000-creditos-hipotecarios-entre-privados-y-reporta-morosidad-0 (Lendar; viene de la ficha)
+- https://www.baenegocios.com/amp/El-Banco-Nacion-lanzo-un-marketplace-inmobiliario-para-conseguir-una-casa-propia-con-creditos-20250704-0025/ (2025-07-04; solo el título)
+- https://platform.claude.com/docs/en/about-claude/pricing (precios de Claude; tomados de la copia del 2026-10-06 en la documentación de la API)
+- http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm (Ley 25.326; URL de referencia, no releída ni comprobada hoy)
+- https://www.mercadopago.com.ar/costs-section (costos de Mercado Pago; dio error 403 el 2026-10-19, tarifa no verificada)
+
+---
+
+## 13. Jubilarse bien: diagnóstico con IA de la historia laboral de Mi ANSES, 5 años antes de la edad (ficha a fondo)
+
+1) Qué es: la persona sube el PDF de su historia laboral de Mi ANSES y en 48 h recibe un informe con los años con aportes por empleador, los huecos, los períodos anteriores a 1994 que tiene que probar, cuándo cumple la edad y qué opciones vigentes tiene (seguir aportando, Ley 24.476, PUAM y la UCAP si sigue vigente), más la lista de papeles a juntar.
+2) Para quién: mujeres de 55-59 y varones de 60-64, sobre todo a los que les faltan pocos años de aportes, y los hijos que les hacen los trámites.
+3) Quién paga: la persona o el hijo (USD 10-20 por informe) y, como segundo canal, contadores que lo compran por pack para sus clientes. El abogado NO puede pagar por caso: en CABA la Ley 23.187 (art. 10, incisos d y f) le prohíbe compartir honorarios con quien no es abogado y usar intermediarios pagos.
+4) Vuelta de tuerca: el diagnóstico se hace 5 años antes, cuando todavía hay arreglo, y lo hace la IA, no un abogado al final del camino. En Brasil, el que duró (Previdenciarista, desde 2013) le cobra al abogado; acá ese camino choca con la ley y con lo que ya rechazaste.
+5) Por qué ahora: la moratoria venció el 2025-03-23 sin prórroga y solo ~25% de los que llegan a la edad tienen 30 años de aportes (Rofman, citado por Chequeado). Las reglas están tan confusas que hasta los medios se contradicen sobre la UCAP, y la IA lee el PDF en segundos.
+
+**Veredicto:** Probarla solo con dos condiciones. Primera: que pague la persona, su hijo o un contador, nunca el abogado por caso, porque en CABA está prohibido (Ley 23.187, art. 10, incisos d y f) y los estudios jurídicos como cliente ya los rechazaste. Segunda: confirmar el día 1 con ANSES o con una abogada si la UCAP sigue vigente, porque de eso depende cuánto vale el informe. Cumplidas las dos, el experimento de 14 días y USD 150 mide pagos reales. Si solo le vendés a la persona, es un negocio intermedio chico (estimación: entre ~USD 34 mil y 340 mil por año según precio y cuántos compren), no la startup.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA: no encontré a nadie con un producto pago, así que tampoco hay cierres ni cambios de rumbo para contar. Búsquedas del 2026-10-19: 'startup jubilación Argentina plataforma online historia laboral ANSES abogados previsionales app emprendimiento' e 'inteligencia artificial jubilación Argentina analiza historia laboral app abogado previsional lanzó plataforma 2025 2026'. Solo salieron guías de trámite (iProfesional), una nota de doctrina sobre IA y regímenes jubilatorios (Microjuris, 2025-10-29, que no es un producto) y foros de abogados. Antes, el verificador había encontrado calculadoras gratis (calcularsueldo.com.ar, hacecuentas.com, servidos.ar, richify.ai) y una guía de calcularsueldo para pasarle la historia laboral a ChatGPT. Opinión: que no haya nadie puede ser un hueco, o la señal de que la persona no paga y el abogado no puede pagar (ver regulación).
+
+BRASIL (el antecedente más cercano): Previdenciarista, fundada en 2013 según su web. Le vende a abogados previsionalistas una plataforma de cálculos y escritos que tiene:
+- una extensión de Chrome que calcula con un clic a partir de Meu INSS (el CNIS en PDF aparece como el método viejo);
+- IA para armar escritos y analizar cálculos;
+- un módulo 'Casos', donde personas de todo Brasil mandan su caso y el abogado elige a quién contactar;
+- un directorio que, según la empresa, llega a más de 650 mil personas por mes;
+- PrevAds, que arma con IA contenido para que el abogado consiga clientes en redes.
+Fuente: https://previdenciarista.com/ (consultada 2026-10-19). Un plan figura a R$ 119,90 por mes con un mes de prueba gratis y cálculo automático desde el CNIS en PDF (https://previdenciarista.com/assinar/, visto en un resultado de búsqueda del 2026-10-19). Lección: 13 años después, el que paga es el abogado, por suscripción; la persona no paga y los casos vienen incluidos como una función más, no como un pago por caso. No encontré cuánto factura ni cuántos abogados la usan. 'Prévius', otra supuesta lawtech brasileña, no apareció en la búsqueda: no puedo confirmar que exista.
+
+EE.UU. (de memoria, no lo verifiqué hoy): Avvo Legal Services le cobraba al abogado un 'marketing fee' por cada servicio vendido. Cerró en 2018, después de que varios colegios de abogados opinaran que eso era reparto de honorarios. Es el mismo choque que tendría acá el modelo 'el abogado paga por caso'.
+
+### Competencia en Argentina
+
+Relevado con las búsquedas del 2026-10-19 y las del verificador:
+
+1) ANSES / Mi ANSES (gratis). Da la historia laboral oficial en la sección Trabajo, con CUIL y Clave de la Seguridad Social (https://www.iprofesional.com/management/460631-como-jubilarse-en-argentina-y-guia-paso-a-paso-para-iniciar-el-tramite). Lo bueno: es la fuente oficial. El hueco: no interpreta nada ni te dice qué hacer. Además conseguir turno tarda, y el haber se empieza a contar desde el turno, así que la demora te cuesta plata (La Nación: https://lanacion.com.ar/economia/anses-denuncian-trabas-demoras-jubilarse-hacer-otros-nid2612197).
+
+2) Calculadoras gratis: calcularsueldo.com.ar (simulador más guía para usar ChatGPT con tu historia laboral: https://calcularsueldo.com.ar/jubilaciones/7053/jubilaciones-como-calcular-los-anos-de-aporte-que-tengo-con-chatgpt.html), hacecuentas.com (haber estimado), servidos.ar (suma los aportes por hijos), richify.ai/es/ar (no la abrí) y un simulador de iProfesional. Al usuario le cobran USD 0. Lo bueno: son rápidas y tienen tráfico de Google. El hueco: calculan el haber, pero no marcan huecos, no te dicen qué papel juntar ni qué opción te conviene.
+
+3) ChatGPT o Claude usados directamente (gratis o unos USD 20 por mes, de memoria). Es el sustituto real, y la guía de calcularsueldo enseña a usarlo. El hueco: la persona no sabe qué preguntarle y la IA no sabe qué reglas siguen vigentes (ni los medios se ponen de acuerdo, ver regulación).
+
+4) Estudios previsionales y gestores. No encontré precios públicos: la búsqueda 'consulta previsional online precio honorarios...' solo trajo foros. En esos foros citan la Ley 17.040, art. 5, que limitaría lo que se le puede cobrar al jubilado por el trámite a dos meses de la prestación (portaldeabogados.com; no la leí en la fuente). Lo bueno: firman, presentan y van a juicio. El hueco: nadie vende a precio fijo el diagnóstico previo, barato y temprano, porque ellos ganan al final del camino.
+
+5) Software para abogados tipo Previdenciarista en Argentina: no lo busqué específicamente, así que no puedo decir que no exista.
+
+Conclusión: el hueco está en 'qué hago en los próximos 5 años', no en el cálculo, que ya es gratis.
+
+### Regulación
+
+LEÍDAS EN LA FUENTE (2026-10-19):
+
+1) Ley 23.187, ejercicio de la abogacía en Capital Federal (art. 1). InfoLEG: https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/26188/texact.htm. El art. 10 les prohíbe a los abogados:
+- c) prestar su firma o su nombre a alguien que, sin ser abogado, haga tareas propias de la profesión;
+- d) repartir honorarios o dar participación en ellos a quien no tiene título habilitante;
+- e) publicar avisos engañosos;
+- f) 'Recurrir directamente, o por terceras personas, a intermediarios remunerados para obtener asuntos'.
+Qué implica: el modelo de la ficha (que el abogado te pague un fee por caso o un % de sus honorarios) les está prohibido a los abogados de CABA, y el que lo acepte se expone a una sanción del colegio (esto último es inferencia mía). Un directorio con abono fijo podría leerse como publicidad o como intermediación: es zona gris, no lo verifiqué, consultalo con el CPACF antes. Que un abogado 'firme' informes de una marca que no es suya choca con el inciso c. Cada provincia tiene su propia ley (por ejemplo, Buenos Aires) y no las leí.
+
+2) Ley 25.326, protección de datos personales. InfoLEG: https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm
+- Art. 5: necesitás consentimiento libre, expreso e informado, por escrito o algo equivalente (sirve un checkbox con un texto claro).
+- Art. 2 y 7: los datos de salud y la afiliación sindical son sensibles y nadie puede ser obligado a darlos. Dejá afuera los casos de invalidez.
+- Art. 11: pasarle el caso a un abogado o a un contador es una cesión de datos. Necesita consentimiento previo, informando para qué es y a quién se lo pasás, y el que cede responde junto con el que recibe.
+- Art. 12: prohíbe transferir datos a países que no los protegen de forma adecuada, y entre sus excepciones no está el consentimiento. Mandar el PDF a un proveedor de IA en EE.UU. es una transferencia internacional. Según recuerdo, el Decreto 1558/2001 la permite si el titular consiente expresamente (no lo verifiqué hoy): pedí ese consentimiento explícito y consultalo.
+- Art. 21 y 24: la base de datos se tiene que inscribir en el registro del organismo de control (hoy la AAIP, de memoria). El art. 24 incluye a particulares con archivos que no son de uso exclusivamente personal.
+
+3) Moratoria y vías vigentes. Solo tengo fuentes periodísticas: no pude leer la Ley 27.705 ni la página de ANSES.
+- Chequeado (publicada 2025-03-16, actualizada 2025-03-25): la moratoria venció el 2025-03-23 y el gobierno no usó la prórroga de 2 años (https://chequeado.com/el-explicador/fin-de-la-moratoria-previsional-como-podra-jubilarse-una-persona-que-no-cumple-con-los-anos-de-aportes/).
+- iProfesional (2026-07-01) dice otra cosa: que siguen el Plan de Pago de Deuda Previsional y una UCAP para trabajadores en actividad (mujeres de 50 a 59 años y varones de 55 a 64; períodos desde los 18 años hasta marzo de 2012; cada mes cuesta el 29% de la base imponible mínima). Agrega la Ley 24.476: períodos del 1955-01-01 al 1993-09-30, en hasta 60 cuotas o pago único, con evaluación socioeconómica (https://www.iprofesional.com/management/457937-jubilacion-sin-aportes-como-funciona-moratoria-previsional-vigente).
+Contradicción NO resuelta. Si la UCAP sigue, el informe puede recomendar algo que vale miles de dólares; si no sigue, vale bastante menos. Es lo primero que hay que confirmar, con ANSES (130) o con el texto de la ley.
+
+4) PUAM: 65 años o más, 80% de la mínima; hay que cumplir requisitos de residencia y no cobrar otro beneficio (Chequeado). iProfesional la describe como para personas en situación de vulnerabilidad: otra diferencia a confirmar. Ley 24.241: 60 años las mujeres y 65 los varones, con 30 años de aportes (guía de iProfesional).
+
+5) Honorarios previsionales: el tope de la Ley 17.040 (art. 5) y la prohibición del pacto de cuota litis en temas previsionales aparecen en foros con versiones que se contradicen. No los leí en la fuente.
+
+6) Ejercicio ilegal de la abogacía: no leí la norma. Opinión: presentá el informe como una estimación informativa con las opciones que da la ley, nunca como asesoramiento jurídico, y aclará que lo confirme ANSES o un abogado.
+
+7) Cambios en curso: Diputados iba a debatir el 2025-04-09 proyectos de jubilación proporcional para quien tiene aportes parciales (Chequeado); no sé si avanzaron. iProfesional enlaza una nota llamada 'Reforma previsional: cambios clave en edad, moratoria y pensión' que no abrí.
+
+### Números de unidad
+
+PRECIO DE PRUEBA (opinión): el equivalente a USD 10 en pesos por informe, cobrado por adelantado con link de Mercado Pago y con devolución si no te sirvió.
+
+COSTOS POR INFORME:
+- Cobro con link de pago y plata al instante: 6,49% + IVA según Ámbito (sin fecha clara: https://www.ambito.com/informacion-general/una-una-todas-las-comisiones-que-se-lleva-mercado-pago-cada-venta-n5766651) o 6,60% según calcularsueldo (https://calcularsueldo.com.ar/?p=13982). Con IVA queda en ~7,9-8%, o sea ~USD 0,80 por cada informe de USD 10. Si te pagan con dinero en cuenta: 0,8% + IVA (iProfesional 2023: https://www.iprofesional.com/tecnologia/386153-mercado-pago-que-debes-saber-sobre-comisiones-plazos-y-montos), ~USD 0,10. No lo confirmé en la página oficial, y puede haber retenciones de impuestos.
+- IA: en el experimento es el costo fijo de Claude Pro (USD 20 por mes según https://claude.com/pricing, no lo volví a verificar hoy), así que cada informe extra cuesta casi 0. A escala, por API, estimo ~USD 0,05-0,15 por informe. Razonamiento: un PDF de 5 a 15 páginas son unos 10-25 mil tokens de entrada y 3-5 mil de salida; con los precios de lista de un modelo intermedio que recuerdo de 2025 (~USD 3 por millón de tokens de entrada y ~USD 15 por millón de salida). Hay que verificarlo.
+- WhatsApp: con la app WhatsApp Business, que es gratis, cada mensaje cuesta USD 0. En el experimento no hace falta la API.
+- Revisión de una abogada: estimo USD 5-8 por informe (no tengo fuente, se negocia). Solo para los primeros 5, para medir cuántos errores hay.
+- Tu tiempo: hay que medirlo. Estimo 20-30 minutos por informe hecho a mano, así que con 10-15 h por semana el techo es de ~25-35 informes semanales. En términos de teoría de restricciones, el cuello de botella es tu tiempo de revisión.
+
+MARGEN POR INFORME (estimación):
+- Sin revisión y con cliente que llega solo: USD 10 − 0,80 − 0,12 ≈ USD 9 (~90%).
+- Con revisión de la abogada: USD 1-4.
+- Con anuncios: si conseguir cada cliente cuesta USD 8-15 (supuesto: clic de USD 0,10-0,20 y que compre el 1-2%; hay que medirlo), un informe suelto de USD 10 deja entre −5 y +1.
+Conclusión: vender un informe suelto a la persona con anuncios pagos probablemente no cierra. Cierra si los clientes llegan solos (calculadora gratis en Google, variante de P2), con un precio de USD 20 o más, con un pack familiar o vendiéndole a contadores.
+
+CUÁNTO VALE PARA LA PERSONA (estimación): La Nación dice que el haber se cuenta desde que conseguís el turno, así que cada mes de demora es un mes de haber perdido. Con una PUAM de ~$329.591 (cifra de julio de 2026 que apareció en un resultado de búsqueda que no abrí; no verificada), un mes perdido vale ~20 veces el precio del informe, con un tipo de cambio supuesto de ARS 1.500 por dólar (no verificado).
+
+DEL LADO DEL ABOGADO (si fuera legal): si el tope de la Ley 17.040 es de 2 haberes (no verificado), un trámite a la mínima le deja ~$820 mil al abogado (estimación con la mínima que sale de esa PUAM). Pagar USD 20-30 por caso sería ~4-5% de eso: en plata se puede, pero en CABA la ley lo prohíbe.
+
+PACK PARA CONTADORES (estimación): 3 informes por USD 24 (USD 8 cada uno), cobrados por transferencia o dinero en cuenta (~1% de costo) y ~USD 0,40 de IA. Margen ~95% antes de contar tu tiempo.
+
+### Tamaño del mercado
+
+DATOS VERIFICADOS:
+- Hay 7,2 millones de jubilaciones y pensiones (septiembre de 2024), y el 59,5% (4,3 millones) se consiguió por moratoria. Es el Boletín Estadístico de la Seguridad Social de ANSES, citado por Chequeado (https://chequeado.com/el-explicador/fin-de-la-moratoria-previsional-como-podra-jubilarse-una-persona-que-no-cumple-con-los-anos-de-aportes/).
+- Según el especialista Rafael Rofman, también en Chequeado, solo ~25% de los que llegan a la edad tienen 30 años de aportes o más: unas 3 de cada 4 personas solo podrían ir a la PUAM.
+
+ESTIMACIÓN PROPIA (para verificar con los cuadros por edad del Censo 2022 de INDEC, que no consulté):
+- Público objetivo (mujeres de 55-59 y varones de 60-64): ~2,0-2,4 millones de personas. Razonamiento: Argentina tiene ~46 millones de habitantes (Censo 2022, de memoria), y en esas edades cada año de edad junta del orden de 200-250 mil personas por sexo, por los nacimientos de los años 60 menos la mortalidad. Son 5 años de edad por cada grupo.
+- Con el 75% sin 30 años de aportes (Rofman), quedan ~1,6-1,8 millones con algún problema de aportes.
+- Cada año entran a esa ventana de 5 años ~450 mil personas (las mujeres que cumplen 55 y los varones que cumplen 60), y ~340 mil de ellas tienen el problema.
+
+CUÁNTO PODRÍA FACTURAR VENDIÉNDOLE A LA PERSONA (estimación):
+- Si compra el 1% de los que entran cada año, a USD 10: ~USD 34 mil por año.
+- Si compra el 5%, a USD 20: ~USD 340 mil por año.
+Es un negocio intermedio chico a mediano. No es una startup grande salvo que se sumen otros trámites, otro país u otro que pague.
+
+DATOS QUE NO PUDE VERIFICAR:
+- 767.448 personas con aportes no registrados (Infobae, 2026-09-05; lo trae la ficha, sin URL).
+- ~500 mil personas afectadas por el fin de la moratoria y más de 310 mil que se jubilaron con la Ley 27.705: aparecieron en el resumen de una búsqueda de marzo de 2025 y no identifiqué el medio.
+
+PRIMERA CIUDAD: no tengo dato por ciudad verificado. El experimento es online y para todo el país; la ciudad solo importa para las entrevistas en persona.
+
+CONTADORES: no busqué cuántos matriculados hay. Queda pendiente pedirlo a los consejos profesionales de ciencias económicas.
+
+### A quién entrevistar
+
+1) Mujeres de 55-59 y varones de 60-64 a los que les faltan pocos años de aportes: trabajos en negro o intermitentes, o empresas que cerraron antes de 1994. Dónde encontrarlos: afuera de la UDAI de ANSES de tu ciudad (5 minutos, con respeto, sin pedir datos personales); empleados y proveedores de CEMEVA de esas edades; grupos de Facebook de consultas de ANSES y jubilación (por mensaje privado, sin mostrar la cara).
+
+2) Hijos e hijas de 30-45 que les hacen los trámites a sus padres. Dónde: tu red (facultad, familia, amigos), grupos de WhatsApp de colegio o club, LinkedIn con texto.
+
+3) Contadores que atienden autónomos y monotributistas cerca de la edad, que pueden comprar por pack (variante de F17, ELEGIDA). Dónde: el contador de CEMEVA (contacto tibio), estudios contables de tu ciudad en Google Maps, cursos y eventos del Consejo Profesional de Ciencias Económicas de tu provincia.
+
+4) Abogados previsionalistas, no como compradores. Sirven para saber qué errores aparecen en las historias laborales, qué reglas siguen vigentes (la UCAP) y para pagarle a uno que revise los primeros informes. Dónde: Google Maps 'abogado previsional', los que citan los diarios (La Nación consulta previsionalistas), los institutos o comisiones de seguridad social de los colegios de abogados (verificar cuál está activo).
+
+5) Responsables de RR.HH. de empresas medianas con mucho personal de 55 años o más (agro, industria, transporte) y delegados sindicales. La idea es saber si alguna vez pagaron algo para sus empleados que se jubilan. Dónde: la red de CEMEVA (acopios, cooperativas) y las cámaras empresarias locales.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última vez que vos (o alguien por vos) abrió tu historia laboral en Mi ANSES: ¿qué te llevó a hacerlo y qué encontraste?
+2. ¿Hay algún trabajo que hiciste y que no aparece? ¿Qué pasó con ese empleo y qué hiciste desde que te diste cuenta?
+3. En el último año, ¿a quién le preguntaste por tu jubilación (ANSES, abogado, contador, gestor, un conocido, una calculadora, ChatGPT)? ¿Qué te dijeron y qué hiciste después?
+4. ¿Pagaste alguna vez una consulta o un trámite previsional, tuyo o de tus padres? ¿Cuánto, a quién, cómo lo encontraste y cómo le pagaste?
+5. ¿Qué papeles juntaste hasta ahora (certificados de servicios, recibos, constancias de monotributo u obra social)? ¿Cuánto tiempo te llevó y qué no pudiste conseguir?
+6. La última vez que intentaste hacer algo de esto en ANSES, ¿cuánto tardaste en conseguir turno y qué pasó en el turno?
+7. ¿Estás pagando hoy monotributo, autónomos o algún plan pensando en la jubilación? ¿Cómo decidiste cuánto y desde cuándo?
+8. ¿Qué hiciste la última vez que viste una noticia sobre el fin de la moratoria o la PUAM? ¿La guardaste, se la mandaste a alguien, llamaste a alguien?
+9. (A hijos) ¿Qué trámite de tus padres resolviste vos en el último año? ¿Cuántas horas te llevó y cuánta plata gastaste?
+10. (A contadores y abogados) De tus últimos 10 clientes cerca de jubilarse, ¿cuántos llegaron con la historia laboral y cuántos tenían errores? ¿Cuánto tiempo te lleva revisarla, quién lo hace y cuánto cobrás por eso?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Las personas de 55-64 a las que les faltan pocos años de aportes (o sus hijos) pagan por adelantado el equivalente a USD 10 por un diagnóstico de su historia laboral de Mi ANSES, aunque existan calculadoras gratis. Y algunos contadores compran informes por pack para sus clientes que se acercan a la edad.
+- **Predicción (antes de empezar):** Con USD 80 en anuncios: ~600 visitas, 30 formularios empezados (5%) y 8 pagos (1,3% de las visitas, o sea ~USD 10 por cliente conseguido). A eso se suman 3 pagos orgánicos (grupos y tu red): 11 pagos en total. 2 de 15 contadores prepagan un pack de 3 informes. Cada informe sale en 25 minutos o menos (mediana). La abogada encuentra errores de fondo en 1 de los primeros 5 informes como máximo.
+- **Pérdida máxima:** USD 150: anuncios 80 + Claude Pro 20 (si no lo tenés ya) + consulta y revisión de una abogada previsional 40 (estimación, a negociar) + 10 de imprevistos. La landing y el formulario van en planes gratis. Las devoluciones salen de lo cobrado, así que no suman pérdida. Si toca la vuelta extra de la zona gris, son USD 40 más: tope total de USD 190.
+- **Duración:** 14 días: 2 de armado, 10 con anuncios y entregas, 2 de cierre y post-mortem.
+- **Pasos:**
+  1. Día 0: escribir en un documento la predicción, los criterios para seguir o cortar y la pérdida máxima (USD 150), y no cambiarlos después.
+  2. Día 1: resolver la contradicción sobre la UCAP y la PUAM. Llamar a ANSES (130) y pagar una consulta de 45 minutos a una abogada previsional (estimación USD 40, con la revisión de los primeros 5 informes incluida). Validar con ella también el texto de límites: 'estimación informativa, no asesoramiento jurídico; confirmalo con ANSES o con un abogado'.
+  3. Días 1-2: con Claude, armar la plantilla del informe: años registrados por empleador, huecos, períodos anteriores a 1994 a probar, fecha en que cumplís la edad, opciones vigentes con sus requisitos, papeles a juntar y preguntas para llevar a ANSES. Probarla con 3 historias laborales de familiares, con su permiso, y cronometrar cuánto tarda cada una.
+  4. Día 2: armar la landing en un plan gratis (Google Sites o Carrd) y el formulario (Tally o Jotform; verificar el límite de archivos del plan gratis). El formulario pide edad, sexo, si trabajaste antes de 1994 y cuántos años de aportes creés que tenés. Después va el consentimiento expreso: para qué se usan los datos, que se procesan con un proveedor de IA de otro país, que se borran a los 30 días y que no se le pasan a nadie sin permiso. Recién después del link de pago de Mercado Pago (USD 10 en pesos) se sube el PDF. Ofrecer devolución si no le sirve, sumar WhatsApp Business para dudas, dejar afuera los casos de invalidez (son datos de salud) y averiguar el trámite de inscripción de la base en la AAIP antes de recibir PDFs.
+  5. Días 3-12: Meta Ads por USD 80 (~USD 8 por día) en dos grupos de público: 55-64 años ('¿Te faltan pocos años de aportes?') y 30-45 ('¿Tu mamá o tu papá se jubila en los próximos años?'). Piezas solo con texto, sin caras. Medir clics, formularios y pagos de cada grupo con UTM.
+  6. Días 3-12: publicar en 10 grupos de Facebook de consultas de ANSES y jubilación, respetando las reglas de cada grupo y con otro UTM, para medir aparte lo que llega solo.
+  7. Días 3-10: ofrecerles a 15 contadores, empezando por el de CEMEVA, un pack prepago de 3 informes por USD 24 para sus clientes autónomos o monotributistas cerca de la edad. Solo cuenta si la transferencia llega.
+  8. Días 3-14: entregar cada informe en 48 h o menos, por mail o WhatsApp, y cronometrar cada uno. Los primeros 5 pasan por la abogada y se anotan los errores de fondo que encuentre.
+  9. Días 5-14: a cada persona que pagó, pedirle 15 minutos de llamada con el guion de entrevista y que te recomiende a alguien. Contar cuántas recomendaciones terminan en pago.
+  10. Día 14: comparar los resultados con la predicción, decidir con los criterios escritos el día 0, borrar los PDFs como prometiste y escribir el post-mortem (qué aprendiste aunque falle).
+- **Sigue si:** Seguir si al día 14 se cumplen las tres: 8 pagos o más en total, cada cliente de anuncios cuesta USD 12 o menos, y el informe sale en 25 minutos o menos. También seguir si 2 o más contadores prepagaron un pack, aunque falle la venta a la persona; en ese caso, seguir solo por el canal contadores. El paso siguiente sería subir el precio a USD 20 con un grupo de prueba y sumar el chequeo gratis como calculadora para Google.
+- **Se corta si:** Cortar si hay menos de 4 pagos y ningún pack de contadores. También cortar si la abogada encuentra errores de fondo en 2 o más de los 5 informes, o si la consulta legal concluye que el informe con opciones es asesoramiento que no podés dar sin matrícula y no se puede reformular como informativo. Entre 4 y 7 pagos: una sola vuelta más de 7 días, cambiando una sola cosa (el precio o el público), con USD 40 extra. Si no llega a 8, cortar.
+
+### Cinco formas de retorcerla
+
+- Otro cliente: los contadores (variante de F17, ELEGIDA). El contador que ya atiende autónomos y monotributistas compra informes por pack para sus clientes de 55 o más y los entrega con su marca. La Ley 23.187 es para abogados; no revisé las reglas de los contadores (pendiente). Los estudios jurídicos como cliente quedan afuera: es lo que funcionó en Brasil (Previdenciarista), pero ya los rechazaste (B32, F20, SER-2-3, SER-2-5).
+- Otro cobro: chequeo gratis más plan pago con garantía (variante de P2, ELEGIDA: calculadoras gratis que atraen clientes). El chequeo rápido (años registrados, años que faltan, períodos anteriores a 1994) es una calculadora gratis que trae gente desde Google. El plan completo se cobra y se devuelve si no encuentra nada que se pueda hacer. Así se abarata conseguir clientes y el precio queda atado al resultado.
+- Otro país: México (de memoria, no lo verifiqué hoy). Quienes cotizaron al IMSS bajo la Ley 73 deciden en sus últimos 5 años si entran a la 'Modalidad 40', que son aportes voluntarios altos para subir la pensión. Es exactamente la decisión de '5 años antes', con mucha plata en juego. Antes de ir hay que confirmar las reglas, la competencia y si el rubro tiene mala fama por fraudes.
+- Otro activo: tus ex compañeros como prueba (una app que conecta dos partes). Con consentimiento expreso (Ley 25.326, art. 5 y 11), se cruzan las historias laborales subidas por CUIT del empleador y por período. Así se conectan ex compañeros de una empresa que cerró, para que se sirvan de testigos o de prueba en papel entre ellos. El activo que hoy no se usa es la memoria y los papeles de los demás. No verifiqué cuánto vale la prueba de testigos ante ANSES.
+- Sacar al humano del medio (vos): informe instantáneo y automático a USD 3-5, apostando a volumen con tráfico de Google. Sirve solo si el experimento muestra que Claude no comete errores de fondo sin revisión; si los comete, el riesgo de responder por un error lo hace inviable.
+
+### Riesgos
+
+- Legal, el más grave: que el abogado pague por caso o comparta honorarios está prohibido en CABA (Ley 23.187, art. 10, incisos d y f); en las provincias no lo verifiqué. Sin esa plata, el que paga tiene que ser la persona o un contador.
+- Ejercicio de la profesión: si el informe recomienda estrategias, puede leerse como asesoramiento jurídico de alguien sin matrícula (no leí la norma). Hay que presentarlo como estimación informativa y validarlo con una abogada.
+- Reglas confusas y cambiantes: Chequeado (2025-03) da la moratoria por vencida y iProfesional (2026-07) da por vigentes la UCAP y el plan de pago. Un error ahí le sale caro a la persona. Además hubo proyectos de jubilación proporcional (2025-04) y se habla de reforma previsional.
+- Responder por un error: alguien puede dejar de aportar o no pedir el turno por lo que dice tu informe, y cada mes de demora es un mes de haber perdido (La Nación).
+- Lo que ya es gratis: las calculadoras no cobran y hay una guía para hacerlo con ChatGPT. El valor tiene que estar en el plan y en los papeles, no en el cálculo.
+- Costo de conseguir cada cliente contra el precio: un informe suelto de USD 10 vendido con anuncios pagos probablemente pierde plata (estimación). Depende de que los clientes lleguen solos, de un precio más alto o del canal contadores.
+- Datos personales: hace falta consentimiento, inscribir la base y resolver la transferencia al proveedor de IA de otro país (Ley 25.326, art. 5, 12, 21 y 24). Hay que evitar los datos de salud (invalidez).
+- Confianza sin mostrar la cara: los jubilados son blanco de estafas, y una web desconocida que pide la historia laboral y plata se parece mucho a una estafa. Hace falta una señal de confianza: un contador o una institución aliada, un informe de ejemplo, la garantía.
+- Mercado chico si solo le vendés a la persona: ~USD 34 mil por año si compra el 1% de los que entran cada año (estimación). Sin otros trámites, otro país u otro que pague, no es una startup grande.
+- Tu propio filtro: ya rechazaste 4 ideas para adultos mayores (I10, I11, I13, A13) y todas las de estudios jurídicos. Si fue por el público o por el cliente, esta te va a costar sostenerla.
+
+### Fuentes
+
+- https://chequeado.com/el-explicador/fin-de-la-moratoria-previsional-como-podra-jubilarse-una-persona-que-no-cumple-con-los-anos-de-aportes/ (publicada 2025-03-16, actualizada 2025-03-25; consultada 2026-10-19)
+- https://www.iprofesional.com/management/457937-jubilacion-sin-aportes-como-funciona-moratoria-previsional-vigente (2026-07-01; consultada 2026-10-19)
+- https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/26188/texact.htm (Ley 23.187, art. 1 y 10; consultada 2026-10-19)
+- https://www.argentina.gob.ar/normativa/nacional/norma-26188/actualizacion (Ley 23.187, texto actualizado; resultado de búsqueda 2026-10-19)
+- https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm (Ley 25.326, art. 2, 5, 7, 11, 12, 21 y 24; consultada 2026-10-19)
+- https://previdenciarista.com/ (consultada 2026-10-19)
+- https://previdenciarista.com/assinar/ (plan de R$ 119,90 por mes, visto en un resultado de búsqueda del 2026-10-19)
+- https://www.iprofesional.com/management/460631-como-jubilarse-en-argentina-y-guia-paso-a-paso-para-iniciar-el-tramite (resultado de búsqueda 2026-10-19)
+- https://lanacion.com.ar/economia/anses-denuncian-trabas-demoras-jubilarse-hacer-otros-nid2612197 (resultado de búsqueda 2026-10-19)
+- https://www.ambito.com/informacion-general/una-una-todas-las-comisiones-que-se-lleva-mercado-pago-cada-venta-n5766651 (comisiones de Mercado Pago, sin fecha clara; resultado de búsqueda 2026-10-19)
+- https://calcularsueldo.com.ar/?p=13982 (comisiones de Mercado Pago; resultado de búsqueda 2026-10-19)
+- https://www.iprofesional.com/tecnologia/386153-mercado-pago-que-debes-saber-sobre-comisiones-plazos-y-montos (comisiones 2023; resultado de búsqueda 2026-10-19)
+- https://www.portaldeabogados.com/foros/viewtopic.php?p=797420 (foros donde se cita la Ley 17.040; no verificado en la fuente)
+- https://aldiaargentina.microjuris.com/2025/10/29/doctrina-la-inteligencia-artificial-cambiara-nuestros-regimenes-jubilatorios/ (doctrina, no es un producto)
+- https://calcularsueldo.com.ar/jubilaciones/7053/jubilaciones-como-calcular-los-anos-de-aporte-que-tengo-con-chatgpt.html (del verificador)
+- https://calcularsueldo.com.ar/jubilaciones/calcular-jubilacion (del verificador)
+- https://hacecuentas.com/calculadora-cuanto-voy-a-cobrar-jubilacion-haber-estimado (del verificador)
+- https://servidos.ar/calculadora-jubilacion (del verificador)
+- https://www.richify.ai/es/ar/calculadora-jubilacion (del verificador; no abierta)
+- https://claude.com/pricing (precio de Claude Pro; no consultada hoy, verificar)
+
+---
+
+## 16. Sponsoreo hiperlocal con prueba por foto: paquetes de clubes de barrio para marcas (y Patrocinio Deportivo en CABA)
+
+Qué es: una plataforma que estandariza y vende paquetes de presencia de marca en clubes de barrio (cartel en la cancha, camiseta, posteos) y prueba cada semana que se cumplió, con fotos que analiza Claude.
+Para quién: clubes que hoy venden carteles de a uno y sin prueba, y marcas regionales o cadenas que quieren estar en 10 a 50 barrios sin negociar club por club.
+Quién paga: la marca, con un margen de 20-30% para la plataforma. El club cobra el 70-80% en plata o en equipamiento, y solo si cumplió.
+Vuelta de tuerca: es LeagueSide/TeamSnap for Brands sin la app, montado sobre la cancha (un activo físico que ya existe) y con "rendición por foto". En CABA puede apoyarse en la Ley 6515, que le da al patrocinador derecho a hacer publicidad y a imputar el 50% del aporte a Ingresos Brutos (el 100% si el proyecto es de inclusión social).
+Por qué ahora: verificar una foto con Claude cuesta alrededor de un centavo de dólar (estimación con los precios de Sonnet 5.5), y el régimen porteño se reglamentó recién con el Decreto 96/2026 (firmado el 2026-03-05, publicado el 2026-03-09).
+
+**Veredicto:** Probarla solo si Facu puede recorrer 20 clubes de su ciudad en una semana y acepta que la única señal válida es una seña pagada. La tecnología no es el problema: verificar una foto cuesta centavos. El problema es que nadie en Argentina ni en la región mostró que las marcas le paguen a un intermediario por esto, y las que quieren estar en el barrio compran directo. Si vive en el AMBA, la Ley 6515, reglamentada en marzo de 2026, es la única ventaja nueva y verificada, y vale sumarla al experimento como segunda pata, sabiendo que es lenta.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA. Podium (Buenos Aires, 2016) era una plataforma web para conectar a quien busca sponsor con marcas. Gust la lista con 3 empleados y sin constituir (https://gust.com/companies/podium-la; dato del resumen del buscador, 2026-10-19). Sponsor Connections (Morón) conectaba influencers, gamers y eventos con marcas; su perfil en VC4A daba 404 el 2026-10-19 (dato del verificador). No encontré ni clientes ni actividad de ninguna de las dos. Qué les pasó y por qué: no lo verifiqué. Mi lectura (opinión): eran directorios genéricos, sin un inventario estandarizado ni prueba de cumplimiento, que es justo lo que agrega esta idea. Búsquedas hechas sobre Argentina: 3 del verificador y 2 en esta sesión (2026-10-19). No apareció ninguna plataforma de clubes de barrio que haya cerrado o pivoteado.
+BRASIL. No encontré ningún intermediario (búsqueda del 2026-10-19). La demanda existe, pero las marcas van directo al club. aiqfome (delivery) patrocina clubes amateurs del interior (Irati, PR, y Lavras, MG) por su cuenta (https://www.bemparana.com.br/esportes/delivery-patrocinio-clubes-interior/). Desde 2022, casas de apuestas patrocinan al menos 8 campeonatos amateurs (https://focusgn.com/brasil/casas-de-apostas-investem-em-patrocinio-a-competicoes-amadores-de-futebol-no-brasil). Las dos notas las conozco por el resumen del buscador. Lección (opinión): cuando son pocas, las marcas que quieren estar en el barrio compran directo. El intermediario solo vale si arma escala y prueba.
+ESPAÑA Y LATAM. Clupik (Madrid, más de 1.000 clientes, también en México) y Sigue tu liga venden software de gestión para clubes, no sponsoreo (https://www.descubre.vc/clupik, https://emprendedores.es/ideas-de-negocio/sigue-tu-liga-club-deporte-amateur; resumen del buscador).
+AFUERA. Sponsor Online (Suiza, lanzada a principios de 2019, con fundadores vinculados a FIFA y UEFA) armó un marketplace para que las marcas contacten clubes de fútbol. La única nota que la menciona es de 2020 y no encontré su estado actual (no verificado; probablemente es la nota de La República https://www.larepublica.co/ocio/el-futbol-se-abre-a-los-mercados-digitales-para-buscar-patrocinadores-2952742, que no leí). MyFavorito (EE.UU., Alemania, Australia) cobra 15% sobre los pagos, con Stripe Connect (https://www.descubre.vc/myfavorito). LeagueSide (EE.UU.) hoy redirige a TeamSnap for Brands, que declara 65.000 organizaciones, 30 millones de usuarios en la app y más de USD 20 millones entregados al deporte juvenil (dato de la ficha, 2026-10-18). La compra en sí sigue sin verificar. Opinión: los que escalaron se apoyaron en una app con audiencia propia o en rieles de pago. Nadie mostró un negocio grande hecho solo con carteles físicos.
+
+### Competencia en Argentina
+
+No apareció ninguna plataforma argentina que venda paquetes de patrocinio de clubes de barrio con verificación (búsquedas del 2026-10-19: 3 del verificador y 2 de esta sesión). La competencia real es otra:
+1) Venta directa club-comercio. El club le vende el cartel al comercio del barrio, de a uno. Hace bien: relación personal, cero comisión. Hueco: no escala para una marca que quiere 20 puntos o más, no hay prueba de cumplimiento y la factura es informal. Precios: no encontré tarifarios públicos de clubes de barrio argentinos.
+2) ATC Sports (Argentina, opera en LatAm). Conecta clubes y complejos con jugadores amateurs y cobra abono SaaS, publicidad (ATC Ads) y comisión por transacción (one-pager de Cancillería, 2025-05, https://www.cancilleria.gob.ar/userfiles/ut/2025-05_-_one_pager_atc.pdf; resumen del buscador). Hace bien: audiencia digital medible de jugadores. Hueco: según ese resumen, se enfoca en reservas y pagos, no en presencia física en clubes de barrio. Precios de ATC Ads: no públicos o no verificados. Es el competidor más probable si decide sumar carteles, y también un socio posible.
+3) Podium (2016) y Sponsor Connections: sin actividad visible (ver "quién lo intentó").
+4) Torneos + PNUD, programa "Mi Club, Mi Barrio". Capacita en gestión a 467 instituciones (https://mercado.com.ar/gestion-sustentable/torneos-y-el-pnud-impulsan-capacitaciones-para-fortalecer-la-gestion-de-clubes-de-barrio; dato del verificador). No vende sponsoreo, pero tiene la relación con los clubes que a Facu le falta: puede ser aliado o competidor.
+5) Consultoras de Mecenazgo Cultural porteño. No encontré honorarios publicados (búsqueda 2026-10-19). Son las que más rápido podrían pasar al régimen deportivo.
+6) Agencias BTL, de marketing deportivo y de vía pública: no las busqué; posible competencia no verificada.
+Referencias de precio en la región (son clubes profesionales en crisis, no de barrio): Deportivo Municipal (Perú) vendió espacios en la camiseta de 100 a 600 soles (https://www.elimparcial.com/deporte/2026/07/29/equipo-de-peru-juega-con-una-camiseta-cubierta-por-mil-logos-de-patrocinadores-y-no-se-ve-nada-mal/). El Nacional (Ecuador) cobró USD 250 por manga o espalda y USD 500 por el centro del pecho (https://www.vistazo.com/deportes/2026-09-25-nacional-presenta-camiseta-148-auspiciantes-medio-crisis-economica-GG11245322). Los dos datos son del resumen del buscador.
+
+### Regulación
+
+El sponsoreo comercial común no tiene una norma específica: es un contrato privado más la facturación. La norma importa si se usa el régimen porteño.
+1) Ley 6515 de Mecenazgo y Patrocinio Deportivo (CABA). LEÍDA en el Boletín Oficial N.º 6295 del 2022-01-12 (PDF: https://buenosaires.gob.ar/sites/default/files/2026-05/ck_PL-LEY-LCABA-LCBA-6515-22-6295.pdf).
+- Art. 10: patrocinador es quien aporta a un proyecto aprobado con derecho a difundir su condición, mediante publicidad, según lo que acuerden las partes. El cartel y la camiseta entran.
+- Art. 3: pueden ser beneficiarios los clubes de barrio de la Ley 1807 y los proyectos de infraestructura o equipamiento (con inscripción en el RUID).
+- Art. 12: desde el ejercicio 2025, el patrocinador imputa el 50% del aporte como pago a cuenta de Ingresos Brutos. Art. 13: el 100% si el proyecto es de inclusión social.
+- Art. 11 (texto original): tope del 10% del IIBB del año anterior, sumando todos los regímenes.
+- Art. 15: el beneficio fiscal recién se hace efectivo cuando se aprueba la rendición de cuentas.
+- Art. 18: no pueden patrocinar los parientes del beneficiario.
+- Art. 21: no hay beneficio para marcas de alcohol, tabaco, energizantes ni sustancias prohibidas en el deporte.
+- Art. 22: el acuerdo es un contrato entre partes y tiene que decir cómo se usa la imagen del patrocinador.
+- Art. 28: los aportes se depositan en una cuenta del Banco Ciudad.
+- Art. 34: el cupo anual es de hasta 10 millones de unidades fijas (en 2022 la UF valía ARS 25).
+- Art. 36: toda la difusión tiene que mencionar el régimen.
+2) Decreto 96/2026, Anexo LEÍDO (firmado el 2026-03-05; https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-DEC-AJG-AJG-96-26-ANX.pdf).
+- Art. 3: quedan afuera las personas jurídicas que cobran otra asistencia económica del GCBA.
+- Art. 7: hay que dar garantías; en proyectos chicos alcanza una declaración jurada.
+- Arts. 9-10: la parte imputable va a una cuenta escritural del Banco Ciudad y la no imputable a una cuenta de Tesorería a nombre de la Secretaría de Deportes.
+- Art. 11: el club dispone de la plata cuando hay acuerdo firmado y el proyecto juntó al menos el 80%.
+- Art. 12: si no se llega, el patrocinador tiene 60 días para derivar el aporte a otro proyecto.
+- Art. 13: el club puede rechazar a un patrocinador en 10 días hábiles.
+- Art. 16: el cupo anual lo fijan Deportes y Hacienda.
+El decreto no dice nada sobre gestores ni honorarios: ni los permite ni los prohíbe. El procedimiento de presentación está en la Resolución 281/ECD/26, que NO leí.
+3) Ley 6802 (sancionada el 2024-12-12, publicada el 2025-01-27): según el resumen del buscador, subió el tope del art. 11 al 20%. No la leí.
+4) Ley 1807 (CABA): define al club de barrio como asociación civil sin fines de lucro, con un tope de facturación anual que se actualiza por presupuesto (el texto consolidado dice ARS 1.500.000), y exige inscripción en el RUID (resumen del buscador; no la leí). Riesgo no verificado: un club con mucho sponsoreo podría pasarse del tope.
+5) Ley 27.098 (Nación): crea el Registro Nacional de Clubes de Barrio y de Pueblo. En febrero de 2026 se prorrogó la reinscripción (BO 2026-02-18, https://www.boletinoficial.gob.ar/detalleAviso/primera/338495/20260218; resumen del buscador).
+6) Otras provincias: hay una ley de Tucumán con "mecenas deportivos" (2022) y un proyecto en Mendoza. No los leí.
+En síntesis: el régimen permite publicidad del patrocinador con un crédito de 50 a 100% contra IIBB. Obliga a depositar en cuentas del Estado, así que la plataforma no puede cobrar y repartir. Excluye alcohol, tabaco y energizantes, y a los clubes que ya reciben otra asistencia del GCBA. Para el sponsoreo común no hay norma específica. La Ley 25.326 (fotos de menores) no la leí.
+
+### Números de unidad
+
+TICKET (estimación). No hay tarifas públicas de clubes de barrio argentinos. Supongo entre USD 30 y USD 100 por club por mes (cartel + 2 posteos), por debajo de las referencias de clubes profesionales de la región (ver competencia). El precio real lo tiene que medir el experimento.
+Paquete tipo: 10 clubes × 3 meses = 30 club-mes. A USD 60 da USD 1.800 por paquete, sin IVA.
+COMISIÓN: 25% para la plataforma (la ficha propone 20-30%; MyFavorito cobra 15%). El club recibe el 75%: USD 45 por club-mes.
+COSTOS POR OPERACIÓN:
+- IA. Precios por millón de tokens de la referencia de la API de Claude (en caché al 2026-10-06; URL oficial https://platform.claude.com/docs/en/about-claude/pricing.md, que hoy no abrí): Sonnet 5.5, USD 2 de entrada y USD 10 de salida; Haiku 5.5, USD 0,10 y USD 0,50. Una foto de 1280×720 son unos 1.200 tokens (la referencia habla de 1 token cada 28×28 píxeles). Estimación por verificación, con 2.000 tokens de entrada y 800 de salida: Sonnet 5.5, USD 0,012; Haiku 5.5, USD 0,0006. Con 8 fotos por club-mes, unos USD 0,10 con Sonnet.
+- WhatsApp. En el piloto, la app WhatsApp Business, gratis. Con la API, los precios cambiaron el 2026-10-01 y hay fuentes que se contradicen. Un estudio previo del proyecto anotó entre USD 0,04 y 0,07 por mensaje de marketing en Argentina (fuentes: Kommo y Develop Argentina, que venden el servicio) y que los mensajes de servicio se cobran desde el número 1.001 por número de teléfono por mes (YCloud). Estimación: 4 recordatorios por club-mes, entre USD 0,15 y 0,30. No verificado hoy.
+- Cobro. La marca paga por transferencia contra factura, sin pasarela (el costo bancario no lo verifiqué). Si se usa link de Mercado Pago: 6,29% + IVA en CABA con la plata al instante, 4,32-4,61% a 10 días y 1,47-1,56% a 35 días, vigente desde el 2026-03-06 (https://www.mercadopago.com.ar/ayuda/33392, anotado en un estudio previo del proyecto el 2026-10-15; hoy la página de costos devolvió 403). El pago al club, por transferencia: entre cuentas de Mercado Pago es gratis, según el mismo estudio.
+- Cartel: la producción la paga la marca, a costo. El precio de la lona impresa no lo pude verificar porque Mercado Libre devolvió 403 el 2026-10-19.
+- Control en cancha (estimación): una visita sorpresa por club por trimestre, unos USD 5 si la hace un tercero, o sea USD 1,7 por club-mes.
+MARGEN (estimación). Por club-mes a USD 60: USD 15 − 0,10 − 0,30 − 1,7 ≈ USD 12,9 cobrando por transferencia. Con Mercado Pago al instante (7,6% de 60) se van USD 4,6 más y queda en ≈ USD 8,3. Un paquete de 30 club-mes deja ≈ USD 390. Para tener USD 1.000 por mes de contribución hacen falta ≈ 78 club-mes activos (por ejemplo, 4 marcas con 20 clubes cada una); a USD 30 por club-mes, ≈ 185. El costo que manda no es la IA (son centavos) sino el tiempo de venta: si cerrar un paquete lleva 15 horas, la hora sale ≈ USD 26.
+MECENAZGO CABA (mecánica leída en la ley): un aporte de ARS 1.000.000 le cuesta a la marca ARS 500.000 netos (cero si es inclusión social), pero lo recupera recién cuando se aprueba la rendición (art. 15). La plata va a cuentas del Estado, así que la plataforma tiene que facturarle aparte un honorario a la marca. Estimo entre 10 y 15%, sin referencia argentina. Si se puede pagar con fondos del proyecto, no lo pude verificar.
+FISCAL. Monotributo categoría A: tope de ARS 12.009.410 por año desde el 2026-08-01 (Ámbito 2026-07-29, vía estudio previo; no re-verificado). Si Facu revende paquetes, factura el total y lo supera enseguida. Opciones: facturar solo la comisión (que los clubes le facturen a la marca) o abrir una SAS. Consultar con un contador antes del primer cobro.
+
+### Tamaño del mercado
+
+OFERTA (los clubes, que son el inventario):
+- Argentina: unos 12.000 clubes de barrio, según un relevamiento de FeDUA citado en el proyecto de ley 1508-D-2024 de Diputados (https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/1508-D-2024.pdf; resumen del buscador, no lo leí). Otra cifra: unos 10.000, según el título de una nota de El Litoral (no leída).
+- Registro Nacional (Ley 27.098): en febrero de 2026 se prorrogó la reinscripción porque no todos los clubes se habían anotado. No encontré el número de inscriptos.
+- CABA: un informe de la Subsecretaría de Deportes sin fecha visible habla de 145 clubes de barrio inscriptos en el RUID (resumen del buscador). El dato actual no lo encontré; se puede pedir por acceso a la información pública.
+DEMANDA (los que pagan): no encontré ningún dato de cuántas marcas compran patrocinio local en Argentina.
+- Estimación de abajo hacia arriba: los carteles que ya cuelgan en las canchas son la lista de clientes. Si cada club tiene entre 5 y 15 carteles (a medir), 20 clubes dan entre 100 y 300 avisos y, sacando los repetidos, quizás entre 50 y 150 anunciantes distintos en la primera ciudad. El experimento lo cuenta.
+- Marcas regionales con presupuesto de trade marketing: sin dato.
+CUPO DEL MECENAZGO CABA: el total anual de beneficios fiscales no puede pasar de 10 millones de unidades fijas (art. 34). En 2022 la UF valía ARS 25, o sea ARS 250 millones. El valor de la UF en 2026 no lo verifiqué: cada ARS 1 de UF suma ARS 10 millones de cupo. Como solo se imputa el 50%, el aporte total que entra en el cupo puede llegar al doble (estimación por la mecánica del art. 12).
+PRIMERA CIUDAD: no sé dónde vive Facu. Si está en el AMBA, conviene CABA por la Ley 6515. Si no, su propia ciudad, usando el conteo de carteles como medición.
+
+### A quién entrevistar
+
+1) Tesorero, presidente o secretario de un club de barrio con fútbol infantil (decide y cobra los carteles). Dónde: en el club, de martes a jueves entre las 18 y las 21 h (entrenamientos) o los sábados de partido. La lista sale del RUID porteño, del Registro Nacional de Clubes de Barrio y de Pueblo y de los fixtures públicos de las ligas infantiles de la ciudad.
+2) Dueños de comercios cuyo cartel ya está colgado en esas canchas (pizzerías, corralones, ópticas, concesionarias, farmacias). Son los clientes más tibios porque ya pagan por esto. Dónde: el cartel trae el nombre y muchas veces el teléfono; ir al local, sin redes.
+3) Responsables de marketing o trade de marcas regionales que no sean de alcohol ni de apuestas (lácteos, aguas y gaseosas, panificados, cooperativas eléctricas, prepagas, bancos regionales, cadenas de farmacias). Dónde: LinkedIn (sirve un perfil con logo, sin cara), cámaras de comercio e industria locales y ferias regionales.
+4) Contadores de PyMEs porteñas que liquidan Ingresos Brutos (para la pata del Mecenazgo). Dónde: charlas y cursos del Consejo Profesional de Ciencias Económicas de CABA y estudios contables del barrio.
+5) Gestores de proyectos de Mecenazgo Cultural en CABA y la Secretaría de Deportes porteña, que es la autoridad de aplicación. Sirven para entender el trámite real de la Resolución 281/ECD/26 y cuánto tarda.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. (Club) Contame del último sponsor que consiguieron: ¿quién era, cómo llegó, cuánto pagó y por cuánto tiempo?
+2. (Club) ¿Cuánta plata entró en 2025 por carteles, camisetas y sponsors, y qué parte del presupuesto del club es? ¿Lo tienen anotado en algún lado que me puedas mostrar?
+3. (Club) La última vez que un sponsor se fue o dejó de pagar, ¿qué pasó y qué les dijo?
+4. (Club) Hoy, ¿cómo le cobran a un sponsor: factura, recibo, efectivo, transferencia? ¿Quién la hace y cuánto tarda en entrar la plata?
+5. (Club) ¿Qué le mandaron al último sponsor para mostrarle que el cartel estaba puesto? ¿Cada cuánto, y quién se encarga?
+6. (Club) ¿Este año recibieron algún subsidio o programa de la Ciudad, la Provincia, la Nación o de Torneos y el PNUD? ¿Están en el RUID o en el Registro Nacional? ¿Alguna vez presentaron un proyecto a un régimen de mecenazgo?
+7. (Marca o comercio) La última vez que quisieron hacerse conocidos en un barrio o que abrieron un local, ¿qué hicieron, cuánto gastaron y cómo supieron si funcionó?
+8. (Marca o comercio) ¿Patrocinaron alguna vez un club, una liga o un evento? ¿Cómo lo eligieron, cuánto pagaron, quién lo aprobó y cómo controlaron que cumplieran?
+9. (Marca) ¿De qué presupuesto sale esa plata, quién firma y en qué mes se arma el presupuesto de 2027?
+10. (Marca o contador en CABA) ¿Usaron alguna vez Mecenazgo Cultural u otro régimen para imputar Ingresos Brutos? ¿Quién lo gestionó, cuánto les cobró y cuánto tardó en verse el beneficio?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Las marcas y los comercios que ya ponen plata en clubes de barrio pagan por adelantado un paquete de varios clubes con prueba semanal por foto, y los clubes aceptan que se les verifique el cumplimiento a cambio de cobrar más seguido y sin tener que perseguir al sponsor.
+- **Predicción (antes de empezar):** De 20 clubes visitados, 10 firman la carta de disponibilidad y 6 mandan al menos 3 de las 4 fotos pedidas en las dos semanas. De 30 ofertas concretas a anunciantes, 9 responden, 4 aceptan una reunión y 1 paga una seña de al menos el equivalente en pesos de USD 100, o firma una orden de compra. Estimación secundaria, a medir: la mediana del precio de lista de un cartel queda entre USD 20 y 60 por mes. Si Facu está en el AMBA: de 10 contadores, 2 aceptan 30 minutos y dan el rango de IIBB de sus clientes.
+- **Pérdida máxima:** USD 120 (estimación): USD 40 de viajes a 20 clubes y unos 15 comercios, USD 10 de impresiones (one-pager y cartas), USD 0 de web (página gratis en Cloudflare Pages o Google Sites, WhatsApp Business gratis), USD 20 de atenciones en reuniones y USD 50 de reserva. Tope duro: USD 150. No incluye las cerca de 40 horas de trabajo. Las comisiones de Mercado Pago salen de las señas, no son pérdida.
+- **Duración:** 14 días corridos, del 2026-10-20 al 2026-11-02. Conteo y post-mortem el 2026-11-03.
+- **Pasos:**
+  1. 2026-10-20/21: armar con Claude (a) el one-pager 'Paquete Barrio 5' (5 clubes × 2 meses, cartel de 3×1 m, 2 posteos por mes, reporte semanal con fotos verificadas, precio cerrado y seña del 30%); (b) una carta de disponibilidad de una página para los clubes (espacio, precio de lista, acepta verificación por foto, sin exclusividad); (c) una planilla que haga de CRM y el prompt de verificación: ¿está el cartel?, ¿se lee?, ¿está tapado o roto?, ¿la foto es de hoy?, ¿aparecen chicos identificables? (si aparecen, la foto se descarta).
+  2. 2026-10-21/25: visitar 20 clubes de dos barrios vecinos en horario de entrenamiento y un sábado de partido. Entrevistar al tesorero o al presidente con el guion. Fotografiar los espacios libres y TODOS los carteles que ya están colgados, porque cada uno es un anunciante que ya paga. Pedir la firma de la carta y que el club mande 2 fotos por semana por WhatsApp durante 2 semanas: eso mide tiempo cedido.
+  3. 2026-10-22/26: Claude pasa los carteles fotografiados a la planilla (rubro, nombre, teléfono, club). Sumar 15 marcas regionales que no sean de alcohol ni de apuestas, hasta llegar a 30 anunciantes.
+  4. 2026-10-26/31: entregar 30 ofertas concretas, en el local, por WhatsApp o por mail, sin redes y sin mostrar la cara, con precio cerrado y fecha de arranque, y hacer 2 seguimientos. Cobrar la seña por transferencia o con link de Mercado Pago a 10 días (comisión más baja). Si todavía no hay forma de facturar, documentarla como reserva reembolsable.
+  5. 2026-10-24 al 11-01: verificar con Claude las fotos que mandan los clubes y armar un reporte semanal de muestra para mostrar en las reuniones. Medir cuántos clubes cumplen con el envío y cuántas fotos se rechazan.
+  6. Si Facu está en el AMBA, 2026-10-27/31: consultar a la Secretaría de Deportes de CABA por la Resolución 281/ECD/26 y los plazos, y llamar a 10 contadores de PyMEs porteñas. Contar cuántos dan 30 minutos y el rango de IIBB de sus clientes, y si alguno firma una carta de intención con monto.
+  7. 2026-11-02/03: contar contra la predicción y escribir el post-mortem: quién compró, a qué precio, en qué rubro y por qué dijeron que no los demás. Decidir con los criterios de abajo.
+- **Sigue si:** Sigue si hay al menos 1 seña pagada (u orden de compra firmada), al menos 8 clubes con la carta firmada y al menos 5 que mandaron las fotos. En ese caso se ejecuta el piloto de 2 meses con ese cliente y, antes de arrancar, se fija el próximo corte (renovación o segunda marca, con fecha). Si la seña vino de un comercio chico con 3 clubes o menos, sigue, pero por la variante de autoservicio y no por la de marcas regionales.
+- **Se corta si:** Corta si, con 30 ofertas entregadas y 2 seguimientos, no hay ninguna seña, o si menos de 5 clubes aceptan la verificación por foto. Única excepción, de una semana y no más: si al menos 3 anunciantes cuentan que ya patrocinan clubes y no saben si cumplen, probar solo la verificación de patrocinios existentes cobrada por adelantado (es parecida a L10 y COM-2-5). Sin cobro, se cierra.
+
+### Cinco formas de retorcerla
+
+- Otro cliente, el 'paquete apertura': cadenas que abren un local nuevo (farmacias, gimnasios, supermercados, concesionarias, sucursales bancarias) compran todos los clubes a 2 km del local durante 3 meses. El pedido es geográfico y con fecha, así que se vende en cada apertura y no hay que esperar el presupuesto anual. Claude arma el radio y la lista de clubes desde el mapa. No aparece en el registro.
+- Otro cobro, gestor de Patrocinio Deportivo en CABA: la marca paga un honorario por armar el proyecto del club (equipamiento, deporte infantil), firmar el acuerdo del art. 22 y producir la rendición con fotos. A cambio imputa el 50% del aporte a Ingresos Brutos, o el 100% si el proyecto es de inclusión social (arts. 12 y 13 de la Ley 6515). En contra: la plata pasa por cuentas del Estado (decreto, art. 10), se libera recién con el 80% juntado (art. 11) y el beneficio llega con la rendición aprobada (art. 15 de la ley). Parecida a CUL-5-4 (pendiente).
+- Otro país, Brasil: la demanda de marcas por el fútbol amateur ya está probada y no aparece ningún intermediario. Casas de apuestas patrocinan al menos 8 campeonatos amateurs y aiqfome patrocina clubes del interior directamente (focusgn; Bem Paraná). Se entraría con la verificación por foto para marcas que no sean de apuestas. La Lei de Incentivo ao Esporte podría jugar el papel de la Ley 6515, pero no la verifiqué en esta sesión. Requiere portugués.
+- Otro activo, plazas y canteros apadrinados: en los programas municipales de padrinazgo, una empresa mantiene un espacio verde a cambio de un cartel (no verifiqué esos programas en esta sesión). La misma foto semanal le sirve al municipio para saber si se mantuvo el espacio y a la marca para saber si se ve el cartel: dos clientes por foto. No aparece en el registro.
+- Sacar al humano (el vendedor), autoservicio para el comercio del barrio: una página con el mapa de clubes, precios de lista y pago con Mercado Pago, donde la pizzería o el corralón compran 1 a 3 clubes cercanos en tres clics y reciben el reporte por WhatsApp. Ataca el cuello de botella real, que es la venta, con ticket chico y sin ciclo de compra. Parecida a CUL-5-3 y MOV-3-2 (pendientes: anunciantes locales sin un medio que se pueda medir).
+
+### Riesgos
+
+- Venta lenta y presupuestos chicos: en una marca regional, el que firma arma el presupuesto anual (opinión: el de 2027 se está armando entre octubre y noviembre). En dos semanas es más probable que pague un comercio chico que una marca.
+- Desintermediación: en Brasil, las marcas que quieren el fútbol amateur van directo al club (aiqfome). En la segunda temporada la marca puede saltearse la plataforma. Solo la retienen el paquete (20 clubes con una sola factura) y la prueba semanal.
+- Medición débil: la foto prueba que el cartel está, no que vendió. El presupuesto se lo disputan la pauta digital geolocalizada y ATC Ads, que sí miden. Sin un QR o un cupón por club, el paquete queda como algo lindo de tener.
+- Fiscal: el monotributo A tiene un tope de unos ARS 12 millones por año (Ámbito, 2026-07-29, vía un estudio previo) y revender paquetes lo supera rápido. Las marcas quieren factura A y los clubes facturan como pueden. Hay que elegir entre facturar solo la comisión o abrir una SAS, con un contador, antes del primer paquete.
+- Mecenazgo porteño lento y con filtros: los proyectos los evalúa un comité; la plata se libera al llegar al 80% (decreto, art. 11); el beneficio fiscal llega con la rendición aprobada (ley, art. 15); quedan afuera los clubes que ya cobran otra asistencia del GCBA (decreto, art. 3) y las marcas de alcohol, tabaco y energizantes (ley, art. 21); el cupo anual es limitado (art. 34). No leí la Resolución 281/ECD/26: el trámite puede tardar meses.
+- Fraude en las fotos: cartel colgado solo para la foto, fotos viejas o de otro club. Se mitiga pidiendo la foto el día de partido, revisando metadatos y hora, pidiendo un video corto que rote y haciendo visitas sorpresa. Al club se le paga solo contra cumplimiento.
+- Menores y privacidad: las canchas de infantiles están llenas de chicos, y las fotos de verificación no deberían mostrarlos de forma identificable (no leí la Ley 25.326 en esta sesión). Conviene excluir rubros sensibles como apuestas y alcohol aunque paguen.
+- Estacionalidad: la temporada de fútbol infantil y los presupuestos de las marcas tienen ciclos (no verificado). Un piloto que arranca en noviembre puede durar solo hasta las vacaciones.
+- Regla N.º 2: además de L10 (elegida), COM-2-5 (repetida) y CUL-5-4 (pendiente), es vecina de MOV-3-2 (remises como medio publicitario) y de CUL-5-3 (pantallas de cines chicos). Las tres son inventario publicitario fragmentado para anunciantes locales: lo que se aprenda probando una sirve para las otras, y no conviene probar dos a la vez.
+
+### Fuentes
+
+- Ley 6515 CABA, Boletín Oficial N.º 6295 del 2022-01-12 (leída el 2026-10-19): https://buenosaires.gob.ar/sites/default/files/2026-05/ck_PL-LEY-LCABA-LCBA-6515-22-6295.pdf
+- Decreto 96/2026, ficha de la norma: https://boletinoficial.buenosaires.gob.ar/normativaba/norma/842593
+- Decreto 96/2026, Anexo IF-2026-11366984-GCABA-SECD (leído el 2026-10-19): https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-DEC-AJG-AJG-96-26-ANX.pdf
+- Ley 6515, ficha en normativa: https://boletinoficial.buenosaires.gob.ar/normativaba/norma/583311
+- Ley 6802, que según el resumen del buscador sube el tope al 20% (no leída): https://boletinoficial.buenosaires.gob.ar/normativaba/norma/774941
+- Ámbito, 2026-03-06, reglamentación de la Ley 6515: https://www.ambito.com/politica/matias-lammens-celebro-la-reglamentacion-la-ley-mecenazgo-y-patrocinio-deportivo-caba-n6253095
+- Ley 1807 CABA, clubes de barrio (resumen del buscador): https://digesto.buenosaires.gob.ar/documento/download/Ley%20Ciudad-1807__ee3576da74f5079d0786164570458c352eaac604.pdf
+- GCBA, página de clubes de barrio y RUID (resumen del buscador): https://buenosaires.gob.ar/gcaba_historico/jefaturadegabinete/deportes/clubes-de-barrio-y-federaciones-deportivas/clubes-de-barrio
+- Dato de 145 clubes en el RUID, documento sin fecha (resumen del buscador; posibles fuentes): https://trivia.consejo.org.ar/content/files/RC942.pdf y https://buenosaires.gob.ar/sites/default/files/media/document/2019/06/12/859fb8f6a8d5c05ca8395e69dcd0a74c6412556d.pdf
+- Proyecto 1508-D-2024, FeDUA: unos 12.000 clubes (resumen del buscador): https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/1508-D-2024.pdf
+- El Litoral, 'Estimamos 10.000 clubes en Argentina' (solo el título): https://www.ellitoral.com/deportes/estimamos-10-000-clubes-argentina_0_ZqWw1VVLRc.html
+- Boletín Oficial nacional, 2026-02-18, Registro Nacional de Clubes de Barrio y de Pueblo: https://www.boletinoficial.gob.ar/detalleAviso/primera/338495/20260218
+- Ley 27.098, texto (no leído): https://www.colegio-escribanos.org.ar/noticias/2015_01_22-Ley-27098-15.pdf
+- Podium en Gust: https://gust.com/companies/podium-la
+- Sponsor Connections en VC4A (404 al 2026-10-19): https://vc4a.com/ventures/sponsor-connections/?lang=en
+- ATC Sports, one-pager de Cancillería, 2025-05: https://www.cancilleria.gob.ar/userfiles/ut/2025-05_-_one_pager_atc.pdf
+- MyFavorito: https://www.descubre.vc/myfavorito
+- Clupik: https://www.descubre.vc/clupik
+- Sigue tu liga: https://emprendedores.es/ideas-de-negocio/sigue-tu-liga-club-deporte-amateur
+- La República, 'El fútbol se abre a los mercados digitales...' (no leída): https://www.larepublica.co/ocio/el-futbol-se-abre-a-los-mercados-digitales-para-buscar-patrocinadores-2952742
+- Bem Paraná, aiqfome patrocina clubes amateurs: https://www.bemparana.com.br/esportes/delivery-patrocinio-clubes-interior/
+- Focus GN, casas de apuestas en el fútbol amateur de Brasil: https://focusgn.com/brasil/casas-de-apostas-investem-em-patrocinio-a-competicoes-amadores-de-futebol-no-brasil
+- El Imparcial, 2026-07-29, Deportivo Municipal: https://www.elimparcial.com/deporte/2026/07/29/equipo-de-peru-juega-con-una-camiseta-cubierta-por-mil-logos-de-patrocinadores-y-no-se-ve-nada-mal/
+- Vistazo, 2026-09-25, El Nacional: https://www.vistazo.com/deportes/2026-09-25-nacional-presenta-camiseta-148-auspiciantes-medio-crisis-economica-GG11245322
+- TeamSnap for Brands (dato de la ficha, 2026-10-18): https://www.teamsnap.com/brands
+- Mercado, Torneos y PNUD, 'Mi Club, Mi Barrio' (dato del verificador): https://mercado.com.ar/gestion-sustentable/torneos-y-el-pnud-impulsan-capacitaciones-para-fortalecer-la-gestion-de-clubes-de-barrio
+- Museo Moderno, Mecenazgo Cultural CABA (referencia): https://museomoderno.org/en/ley-de-mecenazgo/
+- Tucumán, ley con mecenas deportivos (no leída): https://www.derechoenzapatillas.com/amp/2022/ley-de-fomento-al-deporte-tucumano-con-mecenas-deportivos/
+- Mendoza, proyecto de beneficios fiscales (no leído): https://www.diariouno.com.ar/sociedad/nueva-propuesta-que-empresas-que-apoyen-clubes-o-deportistas-tengan-beneficios-fiscales-n1579598/amp
+- Precios de la API de Claude (tomados de la referencia de la API en caché al 2026-10-06; URL oficial no abierta hoy): https://platform.claude.com/docs/en/about-claude/pricing.md
+- Mercado Pago, costos del link de pago vigentes desde el 2026-03-06 (vía estudio previo del proyecto, 2026-10-15; la página de costos dio 403 el 2026-10-19): https://www.mercadopago.com.ar/ayuda/33392
+- Monotributo, categoría A desde el 2026-08-01 (vía estudio previo del proyecto): https://www.ambito.com/informacion-general/aumentos-arca-cuanto-se-pagara-monotributo-partir-agosto-2026-n6304386
+- WhatsApp API, cambios de precio del 2026-10-01 (YCloud, que vende el servicio; vía estudio previo del proyecto): https://www.ycloud.com/blog/whatsapp-api-message-pricing-update-effective-october-1-2026
+- El Economista, casas de apuestas como sponsors del fútbol argentino (dato del verificador): https://eleconomista.com.ar/deportes/casas-apuestas-sponsors-futbol-argentino-cinco-grandes-n93135
+
+---
+
+## 17. Cuadra: puntaje de cualquier dirección antes de mudarte
+
+Qué es: una ficha y un puntaje 0-100 por dirección de CABA que junta, con fuente y fecha, los delitos registrados por franja horaria, los reclamos de ruido, anegamiento y alumbrado, las obras, los comercios y lo que cargan los vecinos.
+Para quién: la persona que está por firmar un alquiler o una compra en una zona que no conoce, y la inmobiliaria de barrio que quiere mostrar sus avisos con datos.
+Quién paga (hay que probarlo): la persona, por informe (ARS 9.900), o la inmobiliaria, por abono (ARS 25.000/mes). Bancos, aseguradoras y portales pagarían por API recién con escala.
+La vuelta de tuerca: importa Walk Score, pero mide lo que Walk Score no mide y lo que Trulia, Redfin y Realtor.com sacaron de sus avisos en 2021-2022 (el delito). La ficha dice por escrito que las denuncias no son todos los delitos.
+Por qué ahora: el GCBA publica los delitos 2016-2025 con coordenadas, franja horaria y licencia CC-BY (verificado el 2026-10-19). Con Claude Haiku 5.5, cada ficha cuesta menos de un centavo de dólar de IA. Servir páginas estáticas en Cloudflare es gratis. En Argentina nadie lo vende.
+
+**Veredicto:** Probarla solo como prueba de cobro, no como proyecto. El dato es real, gratis y con licencia CC-BY, y en Argentina nadie lo vende. Pero nadie cobra por esto acá, Zonaprop ya muestra barrio, transporte y precios, y en EE.UU. los portales grandes sacaron justo la capa de delito. Si al 2026-11-03 no aparece plata de ninguna punta (5 o más informes pagos, o 2 o más inmobiliarias pagando), cortar y guardar el motor de datos para N108/N110 y para la etapa 2.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA
+- Properati (Buenos Aires, 2012) es el antecedente más parecido de "datos inmobiliarios abiertos como producto": publicaba datos de precios abiertos. OLX la compró en junio de 2018 y la vendió a LIFULL Connect en enero de 2022 (https://www.olxgroup.com/?p=1194, consultado por el proyecto el 2026-10-18). Opinión sobre el porqué: el dato abierto le sirvió para atraer tráfico, pero el negocio terminó siendo el portal, y los portales se concentran en grupos grandes. Su página de datos dio error 403, así que no sé si sigue.
+- Mapas de inseguridad como herramienta política: en 2008-2009, la campaña de Francisco De Narváez armó un "Mapa de la inseguridad" donde las víctimas cargaban sus casos, y otros grupos políticos lo copiaron (https://www.letrap.com.ar/nota/2017-7-12-17-37-41-vidal-massa-de-narvaez-y-el-origen-copyright-del-mapa-del-delito). En 2016, en La Plata, el bruerismo salió a mostrar su propio mapa (https://www.letrap.com.ar/nota/2016-10-12-la-plata-con-una-receta-vieja-el-bruerismo-sale-mostrar-mapa-de-la-inseguridad). Opinión: acá un mapa del delito se lee como arma política, así que la neutralidad y la fuente oficial son parte del producto.
+- Citycop: app colaborativa de alertas de delitos nacida en 2013, con inversores de Argentina, Brasil y Uruguay (https://culturageek.com.ar/es-robocop-es-citycop-una-nueva-app-contra-la-inseguridad/, nota del lanzamiento). No pude verificar qué pasó después.
+- Proptechs de hoy (Pulppo, Mudafy, MOB, Argatio): ninguna da puntaje de ubicación (búsquedas del verificador, 2026-10-19).
+LATAM
+- Busqué en español (puntaje de barrio o colonia por dirección en México, Chile y Brasil) y en portugués (nota do bairro, score do bairro + imóveis + fechou/pivotou). No apareció ninguna startup de puntaje por dirección, ni viva ni cerrada.
+- Lo más cercano: Gabriel (Brasil), una red de cámaras compartidas entre vecinos en barrios de Río, que levantó R$ 66 millones en 2021 (https://olhardigital.com.br/2021/10/11/pro/startup-seguranca-capta-66-mi-rodada-investimentos/). Trabaja la seguridad por barrio, pero vende cámaras, no datos.
+EE.UU. (el antecedente que más pesa)
+- Realtor.com, Redfin y Trulia (de Zillow) sacaron los datos de delito de sus avisos, o dijeron que no los iban a mostrar, entre diciembre de 2021 y comienzos de 2022. Dieron dos razones: el miedo a reforzar sesgos raciales (fair housing) y que el dato de seguridad se mide distinto en cada lugar y los proveedores no son exactos (https://inman.com/2021/12/21/zillow-owned-trulia-will-ditch-crime-data-beginning-in-2022/ ; https://inman.com/2021/12/23/the-biggest-questions-and-answers-about-portals-ditching-crime-data ; https://www.geekwire.com/2021/trulia-to-drop-neighborhood-crime-data-from-home-listings-after-redfin-speaks-out-against-practice/). Según un reporte, Redfin nunca los había mostrado.
+- Más tarde, una carta del área de Fair Housing de HUD dijo que los agentes pueden hablar de delito y de escuelas sin violar la ley, y nombró a esos tres portales (https://www.hud.gov/sites/default/files/hudclips/documents/AS-Trainor's-DCL-on-Neighborhood-Crime-Data-and-School-Quality.pdf ; https://www.housingwire.com/articles/hud-says-agents-can-discuss-crime-and-school-data/). No verifiqué la fecha de la carta.
+- Walk Score sumó mapas de delito en 2014 y ese mismo año la compró Redfin (Wikipedia, citada en la ficha).
+- Qué enseña (opinión): la gente quiere saber si la zona es segura, pero los jugadores grandes lo esquivan por riesgo reputacional. Eso deja un hueco y también avisa cuánto cuesta ocuparlo.
+
+### Competencia en Argentina
+
+- Zonaprop (grupo QuintoAndar, según el pie de sus páginas).
+  · Lo que hace bien: cada aviso ya trae información del barrio, con mapa de puntos de interés, propiedades disponibles, precios promedio y líneas de transporte cercanas. La seguridad aparece solo como amenity del edificio (fichas vistas por el buscador el 2026-10-19, por ejemplo https://www.zonaprop.com.ar/propiedades/clasificado/veclapin-departamento-en-venta-en-recoleta-217-m-sup2-58789102.html).
+  · Precios: para el que busca es gratis. Lo que cobra a las inmobiliarias no es público (búsqueda del 2026-10-19 sin resultado). En mayo de 2024, 240 referentes de inmobiliarias de zona norte se quejaron por aumentos fuertes en los avisos (https://www.iprofesional.com/economia/405449-inmobiliarias-en-alerta-denuncian-a-zonaprop-por-aumentos-abusivos).
+  · Tamaño: tiene más de 11.000 clientes y anunció IA en búsqueda y gestión (https://mercado.com.ar/ruta-digital/zonaprop-amplio-su-base-a-mas-de-11-000-clientes-en-una-decada, 2026-05-27).
+  · Hueco que deja: no cruza delito, ruido, anegamiento ni obras por cuadra. Igual, es el que más fácil lo puede copiar.
+- Mapa del Delito del GCBA (https://mapa.seguridadciudad.gob.ar/): gratis y oficial. Muestra el delito por zona, sin puntaje ni otras capas, y no se vende a inmobiliarias.
+- Rankings de medios, todos gratis:
+  · El Cronista: ranking de barrios más inseguros con datos del Mapa del Delito (https://www.cronista.com/informacion-gral/tierra-de-nadie-el-ranking-de-los-barrios-mas-inseguros-de-caba/).
+  · Cadena 3: según la nota, en los barrios seguros las propiedades cuestan hasta 30 % más (https://www.cadena3.com/noticia/sociedad/los-barrios-mas-seguros-de-caba-altos-precios-y-tranquilidad-para-mudarse_523879). Es una señal de que la seguridad tiene precio.
+  · El Economista: alquiler por barrio con datos del IEC porteño (https://eleconomista.com.ar/economia/alquileres-caba-2026-cuanto-cuesta-alquilar-cada-barrio-cuales-son-mas-baratos-mas-caros-n94884).
+  · Son por barrio, no por cuadra, y una de las notas lo aclara.
+- Proptechs locales: Pulppo (herramienta para agentes), Mudafy (inmobiliaria digital), MOB (alquiler sin intermediarios con validación de inquilinos por IA) y Argatio (tokenización). Ninguna da puntaje de ubicación (verificador, 2026-10-19).
+- Precio de referencia: no encontré a nadie que cobre por un puntaje o un informe de cuadra en Argentina. Es un hueco y también una alerta: puede que lo gratis ya le alcance a la gente.
+- No revisado (se agotó el cupo de búsqueda): Argenprop y Mercado Libre Inmuebles, las tiendas de apps y las empresas de geomarketing que puedan vender riesgo por dirección a bancos y aseguradoras.
+
+### Regulación
+
+1) Licencia de los datos. La leí en la API del portal el 2026-10-19 (https://data.buenosaires.gob.ar/api/3/action/package_show?id=delitos).
+- El dataset Delitos del GCBA tiene la licencia "Creative Commons Attribution" (cc-by). Permite reusar el dato y vender productos hechos con él, siempre que se cite la fuente. Así funciona CC BY; el texto de la licencia no lo abrí hoy.
+- Cubre de 2016 a 2025 y se actualiza una vez por año. Los metadatos cambiaron el 2026-06-22.
+- El portal avisa que el informe ejecutivo 2025 está en revisión por errores.
+- Las licencias de SUACI, Obras y Usos del Suelo no las verifiqué: hay que revisarlas una por una.
+
+2) Ley 25.326 de Protección de Datos Personales. La leí en https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/texto el 2026-10-19.
+- Art. 2: dato personal es la información de personas "físicas o de existencia ideal" determinadas o determinables. O sea que los datos de una inmobiliaria también cuentan. Un dato disociado, que no se puede asociar a nadie, no es personal. Los conteos por cuadra entran acá si no permiten identificar a una víctima ni a un vecino.
+- Art. 5: tratar datos exige consentimiento libre, expreso e informado, por escrito o algo equivalente. Hay excepciones: fuentes de acceso público irrestricto, listados con datos básicos (nombre, DNI, CUIT, ocupación, fecha de nacimiento, domicilio), relación contractual, entre otras.
+- Art. 11: para pasarle datos a un tercero hace falta consentimiento previo, informando para qué y a quién. Se puede revocar. El que recibe queda con las mismas obligaciones y el que cede responde solidariamente. Consecuencia: la venta de leads de mudanza a mudadoras o proveedores de internet que proponía la ficha solo es legal con un opt-in explícito que diga a quién se le pasan los datos.
+- Art. 27: para publicidad y venta directa se pueden usar datos que figuren en documentos accesibles al público o que haya dado el titular. El titular puede pedir en cualquier momento que lo saquen o lo bloqueen. Mi lectura, que no es asesoramiento legal: escribirles a inmobiliarias a su mail público se puede, si cada mensaje trae una forma simple de darse de baja.
+- Arts. 21 y 24: las bases de datos privadas que no son de uso exclusivamente personal se inscriben en el registro del organismo de control (hoy la AAIP; no verifiqué el trámite ni su costo). La base de usuarios y leads de Cuadra tiene que inscribirse.
+
+3) Ley 2340 de CABA, de corredores inmobiliarios (texto publicado por el Colegio de Escribanos: https://www.colegio-escribanos.org.ar/normas/CABA_LEY_2340.pdf).
+- La intermediación queda para corredores matriculados.
+- Mi lectura: Cuadra no intermedia ni cobra por cerrar operaciones, así que no necesita matrícula.
+- El Tribunal de Defensa de la Competencia multó al colegio porteño y recomendó evaluar si la matrícula tiene que seguir siendo obligatoria (https://www.cronista.com/negocios/remax-logra-una-victoria-contra-un-colegio-inmobiliario-en-un-guino-para-desregular-el-sector/). El sector puede cambiar.
+
+4) No lo verifiqué hoy:
+- La responsabilidad por lo que publican los usuarios (difamación).
+- La Ley 23.592 de actos discriminatorios.
+- Si la Ley 26.951 "No llame" alcanza a WhatsApp.
+- El botón de arrepentimiento para ventas online.
+- No encontré una norma argentina parecida al fair housing de EE.UU. Mi opinión: acá el riesgo es más reputacional que legal.
+
+### Números de unidad
+
+Tipo de cambio usado: oficial venta ARS 1.535 y dólar tarjeta ARS 1.995,5 (DolarAPI, 2026-10-15, tomado de la investigación del proyecto; no lo volví a verificar hoy).
+
+A) INFORME POR DIRECCIÓN (la persona paga). Ticket: ARS 9.900 ≈ USD 6,45 (precio a probar, ESTIMACIÓN).
+- Mercado Pago, link de pago con la plata al instante en CABA: 6,29 % + IVA ≈ 7,6 % ≈ ARS 753. A 10 días: 4,32-4,61 % + IVA ≈ ARS 517-552. DATO: https://www.mercadopago.com.ar/ayuda/33392, vigente desde el 2026-03-06, verificado por el proyecto el 2026-10-15; hoy la página de costos devolvió 403. Una transferencia al alias no tiene comisión entre cuentas de persona (no lo volví a verificar hoy).
+- IA (ESTIMACIÓN): un informe usa unos 20.000 tokens de entrada (los registros en 300 m más las instrucciones) y unos 1.500 de salida.
+  · Con Claude Haiku 5.5 (USD 0,10 de entrada y 0,50 de salida por millón): ≈ USD 0,003 ≈ ARS 5.
+  · Con Sonnet 5.5 (USD 2 y 10 por millón): ≈ USD 0,055 ≈ ARS 110.
+  · La Batch API cobra la mitad.
+  · Fuente: los precios salen de la tabla del skill oficial claude-api, cacheada el 2026-10-06; la página https://platform.claude.com/docs/en/about-claude/pricing no la abrí hoy.
+  · Si la ficha de cada cuadra se genera una sola vez y se reutiliza, el costo por venta es casi cero.
+- Hosting: en Cloudflare, los pedidos a archivos estáticos son gratis e ilimitados. El plan gratis acepta hasta 20.000 archivos estáticos por versión, y el plan pago arranca en USD 5/mes (https://developers.cloudflare.com/workers/platform/limits/ y /pricing/, consultados el 2026-10-19).
+- WhatsApp: la app de WhatsApp Business es gratis. La API cobra por mensaje y no hace falta para arrancar (sus tarifas no las verifiqué).
+- Margen por informe: ≈ ARS 9.000-9.400 (USD 5,9-6,1), antes de impuestos (el monotributo no lo verifiqué) y de 15-20 minutos de revisión de Facu (ESTIMACIÓN).
+- La cuenta que decide: si el clic de un anuncio cuesta USD 0,20 (supuesto sin fuente; el experimento lo mide), solo para empatar hay que convertir al menos el 3,4 % de las visitas en pagos (0,20 / 5,9). Con 1-2 % de conversión, cada informe vendido con anuncios pierde plata. La venta a personas solo cierra con tráfico orgánico, con recomendaciones o con un precio más alto.
+
+B) ABONO PARA INMOBILIARIAS. ARS 25.000/mes ≈ USD 16 por fichas ilimitadas de sus avisos con su logo (precio a probar, ESTIMACIÓN).
+- Referencia local de precios de software: sistemas de gestión desde ARS 20.000/mes + IVA (YoFacturo) y de ARS 43.699 a 57.621 por usuario por mes (Flexxus), relevados por el proyecto el 2026-10-15.
+- Mercado Pago a 10 días: ≈ ARS 1.300-1.400 (supongo la misma tasa que el link a 10 días; la de suscripciones no la verifiqué).
+- IA por 50 fichas al mes: con Haiku 5.5 ≈ ARS 275; con Sonnet 5.5 ≈ ARS 5.500, que es el 22 % del abono. Con este ticket importa qué modelo se usa (ESTIMACIÓN).
+- Margen: ≈ ARS 23.300 (≈ 93 %) por inmobiliaria por mes, antes de impuestos y del tiempo de venta y soporte (ESTIMACIÓN).
+- Punto de equilibrio para sacar USD 1.000/mes (ARS 1.535.000): unas 66 inmobiliarias pagando (ESTIMACIÓN).
+
+C) API PARA BANCOS, ASEGURADORAS O PORTALES: no encontré ningún precio de referencia verificado, así que no lo estimo.
+
+Lectura de ingeniería industrial (OPINIÓN): la restricción de este sistema, en términos de teoría de restricciones, no es el dato ni la tecnología, que cuestan casi cero. Es la venta. Por eso el experimento gasta todo en probar el cobro.
+
+### Tamaño del mercado
+
+Primera ciudad: CABA. Es la única donde verifiqué datos abiertos de delitos con coordenadas.
+- DATO: en CABA hay 451.503 hogares inquilinos (35,7 %), según la EPH del INDEC del 4.º trimestre de 2022 publicada por el GCBA (https://vivienda.buenosaires.gob.ar/estudio-propietario).
+- DATO: según el Censo 2022, en CABA solo el 52,9 % de las viviendas las habita su dueño, el valor más bajo del país (https://www.lagaceta.com.ar/nota/991764/politica/censo-2022-bajo-cantidad-viviendas-propias.html).
+- DATO SECUNDARIO: en todo el país alquilan unos 7,9 millones de personas (17,4 %), según un análisis de 2026 de los resultados definitivos del Censo 2022 (Observatorio Ciudad). Solo vi el resumen del buscador.
+- ESTIMACIÓN: si un hogar inquilino se muda cada 2 o 3 años (supuesto sin fuente), en CABA hay 150.000-225.000 búsquedas de alquiler por año. A eso se suman las compras, de las que no tengo dato. Si el 1 % pagara ARS 9.900, serían ARS 15-22 millones por año ≈ USD 9.700-14.500. Vendiendo solo a personas y solo en CABA, el negocio es chico.
+- DATO: Zonaprop tiene más de 11.000 inmobiliarias clientes en el país (Mercado, 2026-05-27). El CUCICBA tenía más de 7.300 matriculados en CABA en 2018 (https://www.iproup.com/economia-digital/1574-emprendimiento-innovacion-tecnologica-tecnologia-Mercado-Libre-firmo-un-acuerdo-con-el-colegio-inmobiliario-porteno; es un dato viejo). No encontré cuántas inmobiliarias activas hay hoy en CABA (búsqueda del 2026-10-19).
+- ESTIMACIÓN: techo de la venta a inmobiliarias en CABA. Si el 5 % de los 7.300 matriculados pagara ARS 25.000/mes, serían ≈ ARS 9,1 millones/mes ≈ USD 5.900/mes. Es un techo alto, porque no cada matriculado es una oficina.
+- Bancos con crédito hipotecario y aseguradoras de hogar: no tengo dato de cuántos son ni de cuánto gastan en datos.
+- Fuera de CABA no verifiqué datos abiertos equivalentes. Para crecer hace falta la variante de fotos con IA u otro país.
+
+### A quién entrevistar
+
+1) Inquilinos que firmaron en CABA en 2026 (25 a 35 años). Dónde: grupos de Facebook de alquileres de CABA, r/BuenosAires, compañeros de facultad y de trabajo. A cambio, el informe gratis de su cuadra (no cuenta como venta).
+2) Gente que se mudó a CABA desde el interior o el exterior, o sus padres. Dónde: residencias universitarias, centros de estudiantes de la UBA y la UTN, grupos de ingresantes y grupos de extranjeros en Buenos Aires (los nombres de los grupos no los verifiqué).
+3) Dueños de inmobiliarias de barrio (1 a 10 personas) en Caballito y Almagro. Cómo: pasar por el local a media mañana o llamar; la lista sale de Google Maps y de los portales. Es cara a cara o por teléfono, no en redes. El CUCICBA (colegio de corredores de CABA) organiza capacitaciones donde se los encuentra juntos (fechas no verificadas).
+4) Productores asesores de seguros que venden seguro de hogar: cómo tarifa la aseguradora según la zona y si alguien compra datos de zona. Dónde: LinkedIn (mensaje de texto) o su oficina.
+5) Alguien de riesgo u originación hipotecaria en un banco, o en una empresa de garantías de alquiler. Dónde: LinkedIn y egresados de ingeniería industrial que trabajen ahí.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última vez que elegiste dónde vivir: ¿cuándo fue, cuántos lugares viste y por qué descartaste cada uno?
+2. Antes de firmar, ¿qué hiciste para saber cómo era la cuadra? ¿Fuiste de noche, le preguntaste a alguien, buscaste en internet? Mostrame qué buscaste o a quién le preguntaste.
+3. ¿Cuántas horas y cuántos viajes te llevó, desde que empezaste a buscar hasta que firmaste?
+4. ¿Pagaste por algo para decidir (un informe, un tasador, alguien que fuera a ver, una app)? ¿Cuánto y a quién?
+5. Después de mudarte, ¿te enteraste de algo de la cuadra que no sabías? ¿Qué te terminó costando (rejas, alarma, taxis de noche, mudarte otra vez)?
+6. ¿Cuánto pusiste en total para entrar: comisión, depósito, primer mes y mudanza?
+7. (Inmobiliaria) La última vez que un interesado te preguntó si la zona es segura o si se inunda, ¿qué le contestaste y de dónde sacaste el dato?
+8. (Inmobiliaria) ¿Cuánto pagaste el mes pasado en portales y publicidad? ¿Qué herramienta sumaste este año, cuánto cuesta y quién decidió comprarla?
+9. (Inmobiliaria) ¿Se te cayó alguna operación en el último año por la zona o por la cuadra? Contame qué pasó.
+10. (Aseguradora o banco) ¿Cómo evalúan hoy el riesgo de una dirección? ¿De dónde sacan el dato, cuánto pagan por él y quién lo compra?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Al menos una de las dos puntas paga con plata propia por la ficha de la cuadra en Caballito y Almagro: (A) personas que están por alquilar pagan ARS 9.900 por el informe de una dirección; (B) inmobiliarias de barrio pagan por adelantado el primer mes de un abono fundador de ARS 25.000 para mostrar fichas en sus avisos.
+- **Predicción (antes de empezar):** Escrita antes de empezar. Prueba A: unas 400 visitas a la página (con USD 80 de anuncios más los posteos), 25 direcciones cargadas en el formulario y 6 informes pagos (1,5 % de las visitas), con un costo por clic de USD 0,20 o menos. Prueba B: de 40 inmobiliarias contactadas, 12 responden, 6 mandan direcciones de propiedades suyas y 2 pagan el primer mes.
+- **Pérdida máxima:** USD 150 (≈ ARS 230.000 al oficial de ARS 1.535). Se reparte así: USD 80 de Google Ads (tope de campaña, con impuestos incluidos), unos USD 15 de dominio (estimación, no verificado), USD 10 de colchón para la API de Claude (el gasto esperado es menor a USD 1) y USD 45 de reserva para devoluciones y comisiones de Mercado Pago que no se recuperan. No incluye unas 45 horas de Facu (estimación).
+- **Duración:** 14 días, del 2026-10-21 al 2026-11-03: 3 días de armado y 11 de prueba.
+- **Pasos:**
+  1. 2026-10-21: bajar de data.buenosaires.gob.ar los CSV de Delitos 2024 y 2025 (licencia CC-BY) y los reclamos SUACI. Con Claude Code, filtrar Caballito y Almagro y revisar cuántos decimales tienen las coordenadas y cuántos hechos caen en el mismo punto. Control técnico: si no permiten ubicar los hechos a unos 100 m, la promesa pasa de 'tu cuadra' a 'tu radio de 300 m', y así se dice en la página.
+  2. 2026-10-22 y 23: con Claude, armar la plantilla del informe de una página. Lleva: delitos por franja horaria contra el promedio del barrio, reclamos en 200 m por tipo (ruido, anegamiento, alumbrado), obras, comercios, la fuente y la fecha de cada dato, y la aclaración de que son denuncias registradas y no todos los delitos. Hacer 10 informes de muestra sobre esquinas.
+  3. 2026-10-23: página en Cloudflare Pages (gratis) con un informe de ejemplo, un formulario (Tally o Google Forms) y un link de pago de Mercado Pago por ARS 9.900. Entrega en 24 h y devolución si no sirve. Marca 'Cuadra', sin caras. Antes de prender nada, escribir la predicción y los criterios en un archivo con fecha.
+  4. 2026-10-24 al 2026-11-02, prueba A: Google Ads con tope total de USD 80 en búsquedas como 'es seguro vivir en Caballito', 'Almagro inseguridad' o 'alquilar en Caballito qué zona'. Sumar 3 posteos de texto (con permiso de los moderadores) en grupos de alquileres de CABA y en r/BuenosAires, regalando 3 informes. Medir visitas, direcciones cargadas, pagos y costo por clic.
+  5. 2026-10-24 y 25, prueba B: listar 40 inmobiliarias de Caballito y Almagro (Google Maps y portales). A cada una, mandarle por mail y por WhatsApp (solo texto, al número publicado) el informe gratis de una propiedad que tenga publicada; si el aviso no muestra la altura, el de la cuadra. Ofrecer el 'plan fundador': fichas ilimitadas con su logo por ARS 25.000/mes, primer mes por adelantado y devolución a 30 días. Cada mensaje lleva una forma de darse de baja (art. 27, inciso 3, Ley 25.326).
+  6. 2026-10-28 al 30: un solo recordatorio por inmobiliaria. A las que responden, ofrecerles 15 minutos por teléfono o pasar por el local. Las que mandan direcciones reciben sus fichas en 24 h.
+  7. 2026-10-26 al 2026-11-01: 10 entrevistas con el guion de arriba (5 inquilinos que firmaron en 2026 y 5 inmobiliarias), separadas de la venta. Pueden ser por teléfono, sin cámara.
+  8. Todos los días: anotar en una planilla las visitas, direcciones, pagos, respuestas y horas dedicadas.
+  9. 2026-11-03: comparar contra la predicción, aplicar los criterios y escribir el post-mortem (qué se aprendió aunque haya salido mal).
+- **Sigue si:** Se sigue con la punta que pase. Pasa A si hay 5 o más informes pagos. Pasa B si 2 o más inmobiliarias pagan el primer mes, o si 1 paga y 5 o más mandan direcciones. El paso siguiente dura 4 semanas, con otro tope de USD 150: si pasó B, sumar 2 barrios y 100 inmobiliarias; si pasó A, medir el costo real de conseguir cada cliente y probar ARS 14.900.
+- **Se corta si:** Se corta si A tiene 1 pago o menos con al menos 300 visitas Y en B nadie paga y 2 o menos mandan direcciones. Si no se llega a 300 visitas con los USD 80, el costo por clic real ya es un dato: se anota y se juzga solo B. Zona gris (2 a 4 informes pagos, o 1 inmobiliaria sin más señales): una sola vuelta más de 7 días con otro precio u otro barrio, con tope de USD 50; si no llega al umbral, se corta. Al cortar, se escribe el post-mortem y el motor de datos queda guardado para N108/N110 y para la etapa 2.
+
+### Cinco formas de retorcerla
+
+- Otro cliente, la familia que manda a un hijo a estudiar a CABA: paga el informe porque decide a distancia y con miedo. Canal: residencias universitarias, centros de estudiantes y grupos de ingresantes. Es vecina de MUD-2-5 (PENDIENTE: empresas que trasladan empleados), pero con otro cliente y otro problema.
+- Otro cobro, un 'Carfax de la cuadra': un pago único por dirección justo antes de firmar (ARS 9.900), sin abono ni publicidad. La inmobiliaria puede comprar paquetes y regalárselo a sus interesados. Es la prueba A del experimento.
+- Otro país, Ciudad de México: el motor es el mismo y solo cambia el CSV. Hasta donde sé, la ciudad publica las carpetas de investigación con coordenadas y hay muchos extranjeros que eligen colonia a distancia; ninguna de las dos cosas la verifiqué hoy. Montevideo y Santiago ya estaban como palanca en la ficha.
+- Otro activo, fotos de la calle leídas por IA: donde no hay datos abiertos (conurbano, Rosario, Córdoba), puntuar la cuadra con visión por computadora sobre fotos propias o de Mapillary: veredas rotas, luz, persianas bajas, basura. Es mundo físico más fotos con IA, lo que le gusta a Facu. Comparte la técnica con MUN-2-1 (PENDIENTE: baches para municipios), pero no el cliente. Las licencias de Mapillary y de Street View no las verifiqué.
+- Poner un humano, 'ojos en la cuadra': un marketplace que conecta a quien se muda desde lejos con un estudiante del barrio. El estudiante va de noche a la dirección, mide el ruido con el celular, saca fotos sin caras y entrega el informe en 24 h; Cuadra cobra la visita y le paga al verificador. Conecta dos partes. No choca con el registro: no es SER-3-3 (inspección de autos para seguros, NO).
+
+### Riesgos
+
+- Nadie paga. Hoy en Argentina nadie cobra por esto y lo gratis abunda: el Mapa del Delito, la sección de barrio de Zonaprop, los rankings de los medios. Es el riesgo principal y es lo que mide el experimento.
+- Resolución falsa. La API del portal no dice si las coordenadas de delitos están redondeadas o corridas, y cada fila suma los eventos de un lugar y una fecha. Si no ubican a unos 100 m, prometer un 'puntaje por cuadra' sería engañoso.
+- Dato viejo y con errores. Delitos se actualiza una vez por año (el último es 2025) y el propio portal avisa que el informe ejecutivo 2025 está en revisión por errores. Cada ficha tiene que mostrar la fecha del dato.
+- Sesgo de denuncia. Son delitos denunciados, no todos los que pasaron, y donde se denuncia menos parece más seguro. El portal publica una encuesta de victimización que podría servir para corregirlo (no la leí).
+- Estigma y reacción. Trulia, Redfin y Realtor.com sacaron el delito de sus avisos en 2021-2022 por miedo a reforzar sesgos, y en Argentina los mapas del delito se usaron como arma política (De Narváez, 2008-2009). Una cuadra mal puntuada puede traer quejas de vecinos, inmobiliarias o del gobierno.
+- Que lo copie un grande. Zonaprop (grupo QuintoAndar, más de 11.000 clientes) ya muestra barrio, transporte y precios en cada aviso y anunció IA; sumar el Mapa del Delito le cuesta poco. La defensa sería el dato que cargan los usuarios, y eso tarda en juntarse.
+- El sello no se vuelve estándar. Cada inmobiliaria lo va a mostrar solo en las cuadras buenas. Para que no mostrarlo sea mala señal, el público tiene que conocer el sello antes: el huevo y la gallina de siempre.
+- Escala. Fuera de CABA no verifiqué datos abiertos equivalentes. Sin la variante de fotos con IA o sin otro país, el mercado es solo CABA.
+- Ley 25.326. Vender leads exige un consentimiento previo que diga a quién se le pasan (art. 11), la base hay que inscribirla (arts. 21 y 24) y los mails a inmobiliarias necesitan una baja simple (art. 27).
+- SEO lento y riesgoso. Mi opinión es que un dominio nuevo difícilmente traiga visitas orgánicas en 2 semanas, y que Google puede tratar miles de páginas automáticas como contenido masivo de bajo valor (no verificado hoy). Además, Facu ya rechazó el SEO programático como negocio (E34 = NO en el registro).
+- Dependencia del GCBA. Puede cambiar los formatos, dejar de publicar o caerse: el portal devolvió un error 502 en una de las consultas del 2026-10-19.
+
+### Fuentes
+
+- https://data.buenosaires.gob.ar/api/3/action/package_show?id=delitos (licencia cc-by, columnas, años 2016-2025, actualización anual; consulta 2026-10-19)
+- https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/texto (Ley 25.326, arts. 2, 5, 11, 21 y 27; consulta 2026-10-19)
+- https://www.colegio-escribanos.org.ar/normas/CABA_LEY_2340.pdf (Ley 2340 de CABA, corredores; resultado del buscador 2026-10-19)
+- https://www.cronista.com/negocios/remax-logra-una-victoria-contra-un-colegio-inmobiliario-en-un-guino-para-desregular-el-sector/ (multa al colegio porteño y debate sobre la matrícula)
+- https://inman.com/2021/12/21/zillow-owned-trulia-will-ditch-crime-data-beginning-in-2022/
+- https://inman.com/2021/12/23/the-biggest-questions-and-answers-about-portals-ditching-crime-data
+- https://www.geekwire.com/2021/trulia-to-drop-neighborhood-crime-data-from-home-listings-after-redfin-speaks-out-against-practice/
+- https://legalinsurrection.com/2021/12/redfin-realtor-dot-com-to-stop-including-crime-stats-on-listing-due-to-possible-racial-bias-concerns/
+- https://www.hud.gov/sites/default/files/hudclips/documents/AS-Trainor's-DCL-on-Neighborhood-Crime-Data-and-School-Quality.pdf (fecha no verificada)
+- https://www.housingwire.com/articles/hud-says-agents-can-discuss-crime-and-school-data/
+- https://en.wikipedia.org/wiki/Walk_Score (citada en la ficha original)
+- https://www.letrap.com.ar/nota/2017-7-12-17-37-41-vidal-massa-de-narvaez-y-el-origen-copyright-del-mapa-del-delito
+- https://www.letrap.com.ar/nota/2016-10-12-la-plata-con-una-receta-vieja-el-bruerismo-sale-mostrar-mapa-de-la-inseguridad
+- https://culturageek.com.ar/es-robocop-es-citycop-una-nueva-app-contra-la-inseguridad/
+- https://olhardigital.com.br/2021/10/11/pro/startup-seguranca-capta-66-mi-rodada-investimentos/
+- https://www.olxgroup.com/?p=1194 (Properati; tomado de la investigación del proyecto del 2026-10-18)
+- https://www.zonaprop.com.ar/propiedades/clasificado/veclapin-departamento-en-venta-en-recoleta-217-m-sup2-58789102.html (sección de barrio en las fichas; buscador 2026-10-19)
+- https://mercado.com.ar/ruta-digital/zonaprop-amplio-su-base-a-mas-de-11-000-clientes-en-una-decada (2026-05-27; vía la investigación del proyecto del 2026-10-08)
+- https://www.iprofesional.com/economia/405449-inmobiliarias-en-alerta-denuncian-a-zonaprop-por-aumentos-abusivos (2024-05-08)
+- https://www.iproup.com/economia-digital/1574-emprendimiento-innovacion-tecnologica-tecnologia-Mercado-Libre-firmo-un-acuerdo-con-el-colegio-inmobiliario-porteno (2018-12: más de 7.300 matriculados)
+- https://mapa.seguridadciudad.gob.ar/
+- https://www.cronista.com/informacion-gral/tierra-de-nadie-el-ranking-de-los-barrios-mas-inseguros-de-caba/
+- https://www.cadena3.com/noticia/sociedad/los-barrios-mas-seguros-de-caba-altos-precios-y-tranquilidad-para-mudarse_523879
+- https://eleconomista.com.ar/economia/alquileres-caba-2026-cuanto-cuesta-alquilar-cada-barrio-cuales-son-mas-baratos-mas-caros-n94884
+- https://vivienda.buenosaires.gob.ar/estudio-propietario (451.503 hogares inquilinos, EPH del 4.º trimestre de 2022)
+- https://www.lagaceta.com.ar/nota/991764/politica/censo-2022-bajo-cantidad-viviendas-propias.html (Censo 2022: 52,9 % en CABA)
+- https://observatoriociudad.org/public/95hnmo0wyzevib1rdv5levvcrzif/Informe%20T%C3%A9cnico_%20An%C3%A1lisis%20Estructural%20de%20la%20situaci%C3%B3n%20inquilina%20en%202026%20ZIRULNIKOFF%20imp_compressed.pdf (solo el resumen del buscador)
+- https://www.mercadopago.com.ar/ayuda/33392 (comisiones del link de pago vigentes desde el 2026-03-06; vía la investigación del proyecto del 2026-10-15; la página de costos dio 403 el 2026-10-19)
+- https://developers.cloudflare.com/workers/platform/limits/ (consulta 2026-10-19)
+- https://developers.cloudflare.com/workers/platform/pricing/ (consulta 2026-10-19)
+- https://developers.cloudflare.com/pages/functions/pricing/ (archivos estáticos gratis e ilimitados)
+- https://platform.claude.com/docs/en/about-claude/pricing (precios tomados de la tabla del skill claude-api cacheada el 2026-10-06; la página no la abrí hoy)
+- https://dolarapi.com/v1/dolares (tipo de cambio del 2026-10-15, vía la investigación del proyecto)
+
+---
+
+## 18. Casero digital para la casa de fin de semana
+
+1) Qué es: un "casero a distancia" que se paga por mes o por temporada. Un prestador del lugar hace una recorrida con checklist y fotos, se coordinan pileta, jardín y limpieza, y la casa queda lista antes de cada llegada. Claude arma los reportes y atiende por WhatsApp.
+2) Para quién: dueños de casas en la costa, quintas y barrios cerrados que las usan pocos días al año y viven lejos. La primera versión es solo para los que no alquilan.
+3) Quién paga: el dueño. Ticket estimado de ARS 120.000/mes (unos USD 78) o ARS 150.000 por la puesta a punto de verano. Hoy ese dueño ya gasta cerca de ARS 1.000.000/mes en proveedores sueltos en Pinamar y Cariló (La Nación, marzo de 2026).
+4) Vuelta de tuerca: importa el "home manager" de EE.UU. (Humming Homes, Honey Homes) y lo aplica a una casa que pasa casi todo el año vacía. Vende control con prueba en fotos y arma la ruta del recorredor según cuántas casas clientes hay juntas en el barrio. No usa sensores ni hace "monitoreo", porque en la provincia de Buenos Aires eso es seguridad privada y pide habilitación.
+5) Por qué ahora: Claude compara fotos y escribe un reporte por unos USD 0,2. Un casero propio cuesta como mínimo ARS 505.000-529.000/mes de sueldo (escala de casas particulares, agosto-septiembre de 2026). Y la pretemporada 2026-27 es el momento natural para vender "la casa lista".
+
+**Veredicto:** Probarla solo si Facu tiene acceso real a una zona (una casa de la familia o de amigos más un prestador local que ya tenga llaves) y puede sacar otro experimento de la agenda. La prueba barata es cobrar señas por la puesta a punto del verano antes del 2026-11-08, o por el "cierre de casa" en marzo de 2027. Como negocio intermedio enseña a vender un ticket alto y a manejar una red de prestadores; como startup es chica (pocos clientes por zona y mucha operación local).
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA/LATAM: IguanaFix (Argentina, 2013). Era una plataforma de servicios para el hogar y la oficina que unía profesionales con consumidores y comercios. Llegó a México, Brasil y Uruguay, decía tener más de 35.000 transacciones por mes y levantó plata de ángeles y después de Temasek y Qualcomm Ventures (Benzinga, 2017-03). Hubo además una ronda de USD 3 millones (mercado.com.ar, fecha no vista).
+- Qué le pasó: según startups.com.br (2022), unos tres años antes había dejado el modelo de servicios para vender software a empresas. En 2022 MadeiraMadeira compró la operación de Brasil (armado de muebles). Baguete (2022) dice que el problema en Brasil era el alto costo de conseguir clientes para crecer.
+- El 2026-10-19 el dominio iguanafix.com.ar no respondió (lo probé). No prueba que haya cerrado, pero hoy no hay sitio para consumidores.
+- Lección: en servicios para el hogar vendidos directo al consumidor, en la región, lo que mató fue el costo de conseguir clientes; lo que siguió vivo fue vender a empresas. Para esta idea: conseguir clientes por canales que ya juntan dueños (administración del barrio, inmobiliaria, grupo de propietarios), no con anuncios.
+
+EE.UU.:
+- Humming Homes levantó USD 5,6 millones en 2021 (Coverager) y más de USD 10 millones en total (AlleyCorp). En 2021 su gestión integral "arrancaba en USD 250 por mes" (lo vi en los resultados de búsqueda, no leí la nota completa). Preqin muestra una membresía de USD 1.188 por año (sin fecha). Hoy su sitio (leído el 2026-10-19) ofrece "desde USD 199/año o USD 25/mes": gerente digital, emergencias 24/7, reserva de oficios y plan de mantenimiento; la inspección cuesta USD 800. No menciona segundas viviendas. Mi lectura (opinión): en cinco años, el precio de la coordinación sola bajó cerca de 90%.
+- Honey Homes hizo una Serie A de USD 9 millones (2023-06-27) y sigue operando (sitio con © 2026). Vende un handyman dedicado con paquetes de visitas y una app con fotos. No publica precios en la portada; cita una nota de 2024 sobre USD 400/mes en San Francisco. Lección: lo que se paga caro es el trabajo hecho, no los avisos.
+
+QUÉ BUSQUÉ SIN RESULTADOS EN ARGENTINA:
+- El verificador, el 2026-10-19: "mantenimiento casa de fin de semana country quinta abono mensual", "cuidado de casas en ausencia del propietario Pinamar Cariló", "mantenimiento integral casas countries Nordelta" y "cuidado de casas vacías visitas periódicas reporte con fotos".
+- Yo: "Punta del Este cuidado de casas propietarios ausentes" (solo salieron alquileres) y "app barrios cerrados propietarios contratar proveedores" (solo guías inmobiliarias).
+- No apareció ningún "casero digital" argentino, ni cierres ni notas de prensa.
+
+### Competencia en Argentina
+
+En 7 búsquedas (4 del verificador y 3 mías) no encontré ninguna empresa que venda en Argentina un abono que cubra todo el cuidado de una segunda vivienda. Lo que existe hoy, ordenado por tipo de reemplazo:
+
+1) Casero propio con sueldo. Es la categoría "Caseros" del régimen de casas particulares, que solo aplica si vive en la casa.
+- Cuánto cuesta: sueldo mínimo de ARS 505.303/mes en agosto de 2026 (Econoblog, https://www.econoblog.com.ar/?p=158259) y de ARS 529.262/mes en septiembre de 2026 (Perfil, Resolución 6/2026 de la Comisión Nacional de Trabajo en Casas Particulares, publicada en el Boletín Oficial el 2026-09-03). Las dos cifras no cierran entre sí con el aumento publicado: hay que confirmarlas en el Boletín Oficial. A eso se suman aguinaldo y cargas.
+- Qué hace bien: está todos los días.
+- Qué deja afuera: es caro para quien va 20-30 días al año, y nadie controla lo que hace.
+
+2) Proveedores sueltos que cobran por mes. Datos de Pinamar y Cariló (La Nación, marzo de 2026).
+- Cuánto cuestan: alarma ARS 130.000-150.000, jardinero ARS 130.000-150.000, piletero ARS 250.000, limpieza ARS 15.000 por hora cada 15 días, internet unos ARS 50.000. Total: cerca de ARS 1.000.000/mes según Inmobiliaria JR y ARS 1.090.706 según Santamarina Propiedades.
+- Qué hacen bien: cada uno sabe su oficio.
+- Qué dejan afuera: nadie coordina ni le avisa al dueño. El dueño hace de gerente a distancia.
+
+3) Empresas de alarma monitoreada (están dentro de esos ARS 130.000-150.000).
+- Qué hacen bien: cuidan contra la intrusión las 24 horas y están habilitadas como seguridad privada.
+- Qué dejan afuera: no miran el agua, la pileta ni el pasto, ni preparan la llegada.
+- Conviene tratarlas como aliado o canal, no como rival.
+
+4) Inmobiliarias de la costa que administran casas (JR y Santamarina aparecen en esa nota).
+- No verifiqué si cuidan casas de dueños que no alquilan ni cuánto cobran.
+- Pueden ser canal o competencia.
+
+5) Plataformas de oficios.
+- IguanaFix: ver "quién lo intentó".
+- servidos.ar publica precios de jardinería por abono en CABA (según el verificador).
+- Venden el oficio suelto, no la casa lista.
+
+HUECO QUE QUEDA: un solo interlocutor, prueba con fotos cada mes y "casa lista" antes de llegar, todo por un abono.
+
+OJO: los caseros informales, el "vecino que tiene las llaves" y las inmobiliarias chicas casi no aparecen en los buscadores. El hueco puede ser más chico de lo que parece; las entrevistas lo tienen que confirmar.
+
+### Regulación
+
+LEÍDA EN LA FUENTE (2026-10-19): Decreto 1897/02 de la Provincia de Buenos Aires, que reglamenta la Ley 12.297 de seguridad privada (https://normas.gba.gob.ar/documentos/0Q1RDh40.html).
+
+Qué dice:
+(a) La reglamentación del artículo 2 cuenta como vigilancia de bienes el "servicio de vigilancia a través de sistemas de alarmas, fijas o móviles", cuando es un servicio permanente conectado a una central de monitoreo. Las empresas de monitoreo guardan sus datos por lo menos un año, y sus equipos tienen que estar homologados.
+(b) También nombra los "sistemas de observación y registro de imagen y audio" y la seguridad "electrónica, óptica y electro óptica". Su uso se informa a la autoridad.
+(c) Solo pueden dar estos servicios empresas (personas jurídicas) habilitadas por el Ministerio, a través de la Dirección General Fiscalizadora de Agencias y Seguridad Privada. Piden antecedentes, póliza de responsabilidad civil y garantías (artículos 21 y 43).
+(d) Cada domicilio monitoreado se informa con 24 horas de anticipación a la autoridad y a la comisaría (artículo 22).
+
+Qué permite y qué prohíbe para esta idea (es mi lectura, no un dictamen legal):
+- Coordinar prestadores, hacer recorridas y mandar reportes con fotos no es seguridad privada.
+- Vender "monitoreo" permanente de alarmas o cámaras con una central sí lo es. Sin habilitación no se puede hacer en la provincia de Buenos Aires.
+- Regla de diseño: no vender seguridad. Los avisos de intrusión quedan en manos de la empresa de alarmas del dueño, que puede ser un aliado.
+- Sensores de agua o de corte de luz que avisan directo al celular del dueño: no encontré en el decreto que estén alcanzados. Igual, antes de cobrar por eso conviene consultarlo con un abogado.
+
+NO LEÍDO HOY:
+- La Ley 12.297 completa (https://normas.gba.gob.ar/ar-b/ley/1999/12297/4548).
+- Las leyes de seguridad privada de CABA y de Córdoba.
+- La Ley 26.844 de casas particulares. Lo que sé por la prensa es que la categoría "Caseros" solo existe para quien vive en la casa.
+- La Ley 25.326 de datos personales (fotos y video de prestadores y vecinos).
+- La Ley 24.240 de defensa del consumidor (baja simple del abono).
+
+Laboral (opinión): si los recorredores trabajan solo para la plataforma, con horario y pago fijo, hay riesgo de que se los considere empleados. Mejor trabajar con monotributistas que facturan cada recorrida.
+
+### Números de unidad
+
+TICKET (estimación):
+- Abono "casa cuidada": ARS 120.000/mes. Son unos USD 78 al dólar oficial de ARS 1.535 del 2026-10-15 (DolarAPI).
+- Paquete "puesta a punto verano": ARS 150.000 por única vez (unos USD 98).
+- Razonamiento: el dueño ya gasta cerca de ARS 1.000.000/mes en Pinamar y Cariló (La Nación, marzo de 2026). El abono sería alrededor del 12% de ese gasto y alrededor del 23% del sueldo mínimo de un casero (ARS 505.303-529.262/mes).
+- Comparación afuera: Humming Homes cobra hoy USD 25/mes solo por coordinar. Honey Homes vende horas de un handyman.
+
+COSTOS POR CASA Y POR MES (estimación):
+- Recorrida mensual del prestador local: ARS 30.000 (unos USD 20). Base: la limpieza costaba ARS 15.000 por hora en Pinamar en marzo de 2026; calculé unas 1,5 horas con el viaje y le sumé inflación.
+- IA: unos USD 0,2 por reporte. Claude Sonnet 5.5 cuesta USD 2 por millón de tokens que entran y USD 10 por millón que salen (tabla de Anthropic al 2026-10-06). Comparar 30 fotos nuevas con 30 anteriores, a unos 1.600 tokens por foto achicada, suma cerca de 100.000 tokens. Por casa y por mes da USD 0,2-0,6 (ARS 300-900). Con Haiku 5.5 (USD 0,10 y 0,50) baja a centavos.
+- WhatsApp: ARS 0 si se usa la app WhatsApp Business. No verifiqué la tarifa de la API de Meta para Argentina.
+- Cobro con link de Mercado Pago: con la plata al instante, 6,60% más IVA en la provincia de Buenos Aires (cerca de 8%, unos ARS 9.600 sobre 120.000). Con la plata a 35 días, 1,47-1,56% más IVA (unos ARS 2.300). Son tarifas vigentes desde el 2026-03-06 según https://www.mercadopago.com.ar/ayuda/33392, que leyó otro investigador del proyecto el 2026-10-15; hoy la página de costos devolvió error 403. Pagar por transferencia bancaria es otra opción (su costo no lo verifiqué).
+
+MARGEN (estimación):
+- Abono: 120.000 − 30.000 − 9.600 − 900 = unos ARS 79.500 por casa y por mes (unos USD 52), antes de impuestos y de las horas de Facu.
+- Paquete de verano: 150.000 − 2 recorridas (60.000) − Mercado Pago (12.000) = unos ARS 77.000 (unos USD 50).
+- Capacidad: si coordinar una casa lleva unas 1,5 horas por mes (estimación), Facu gana unos ARS 53.000 por hora (unos USD 35). Lo que limita el negocio son las horas de Facu y la ruta del recorredor: 40 casas son unas 60 horas por mes y dejan unos ARS 3,2 millones de margen (unos USD 2.070).
+- No cuento comisión sobre los prestadores, porque es probable que el dueño y el prestador se arreglen directo.
+- Costos fijos que no incluí: monotributo, seguro de responsabilidad civil (precio no verificado) y herramientas no-code (USD 0-20/mes).
+
+### Tamaño del mercado
+
+No encontré un número verificado de segundas viviendas en Argentina.
+
+Datos que sí hay:
+1) Censo 2022: 17.783.019 viviendas particulares, de las cuales 2.084.013 estaban vacías (11,72%). Lo calcula Fundación Tejido Urbano y lo cita Agrofy (es fuente secundaria). Ojo: "vacías" mezcla casas en alquiler o venta, en construcción, de uso temporal y otras.
+2) El INDEC tiene la categoría "desocupada porque se usa para vacaciones, fin de semana u otro uso temporal" (aparece en la infografía del IPIEC de Tierra del Fuego). No conseguí la cifra nacional ni la de Pinamar, Villa Gesell o Pilar. Está en REDATAM, la base de consulta gratis del INDEC: es una tarea de una hora para Facu antes del experimento, para tener el número de la zona elegida.
+3) Gasto por casa: cerca de ARS 1.000.000/mes en Pinamar y Cariló (La Nación, marzo de 2026).
+4) Señal débil: el 68% de los argentinos dice preocuparse por la seguridad de su casa en vacaciones (Hoy Día; la encuesta original no la vi).
+5) Uruguay (para la variante): el INE publicó cómo son las viviendas desocupadas del Censo 2023 (gub.uy). No leí la cifra.
+
+Estimación ilustrativa (no es un dato): si una zona tiene 1.000 casas de uso temporal y en un año se llega al 2%, son 20 casas. Eso da unos ARS 2,4 millones por mes de facturación (unos USD 1.560).
+
+Primera ciudad: elegirla por acceso (una casa de la familia o de amigos más un prestador conocido), no por tamaño.
+
+### A quién entrevistar
+
+1) Cinco dueños de casa en la costa (Pinamar, Cariló, Valeria del Mar, Villa Gesell, Mar de las Pampas) que viven en CABA o el GBA y no la alquilan.
+- Dónde: empezar por tu red (familia, facultad, padres de amigos) y pedir que te pasen otros contactos. Después, grupos de propietarios del balneario en Facebook o WhatsApp (verificar cuáles existen y pedir permiso al administrador).
+
+2) Tres dueños de quinta o casa de fin de semana en barrios cerrados (Pilar, Escobar, Exaltación de la Cruz/Cardales, Luján, Cañuelas).
+- Dónde: por la administración o el intendente del barrio y por el grupo de propietarios.
+
+3) Dos o tres pileteros o jardineros que atienden 15-30 casas cerradas en la misma zona. Pueden ser los recorredores y socios del lado de la oferta.
+- Dónde: casas de insumos de pileta y viveros de la zona, y Google Maps. Preguntar quiénes "tienen llaves".
+
+4) Dos inmobiliarias de la costa que administran casas, por ejemplo Inmobiliaria JR y Santamarina Propiedades (las cita La Nación en marzo de 2026).
+- Qué preguntar: cuántos dueños les dejan las llaves sin alquilar la casa y qué les cobran.
+
+5) Uno o dos administradores o intendentes de barrio cerrado.
+- Qué preguntar: cuántas casas se usan solo el fin de semana, cuántas tienen casero y qué reclamos llegan (pasto alto, pileta verde, pérdidas de agua).
+- La Federación Argentina de Clubes de Campo puede servir de puerta (no la verifiqué hoy).
+
+Opcional: un productor de seguros de hogar, para saber cuántos siniestros por agua hay en casas cerradas.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. ¿Cuándo fue la última vez que fuiste a la casa? Contame qué encontraste al llegar y qué tuviste que resolver ese mismo día.
+2. En los últimos 12 meses, ¿cuántas veces fuiste y cuántos días te quedaste en total?
+3. ¿Quién tiene hoy las llaves y quién entra cuando no estás? ¿Cómo llegaste a esa persona?
+4. El mes pasado, ¿cuánto le pagaste a cada uno (pileta, jardín, alarma, limpieza, casero) y cómo les pagás?
+5. La última vez que pasó algo estando lejos (pérdida de agua, corte de luz, tormenta, robo, pileta verde), ¿cómo te enteraste, cuántos días tardaste en resolverlo y cuánto te costó?
+6. Antes de las últimas vacaciones, ¿cuántos mensajes o llamadas te llevó dejar la casa lista? ¿Con quién hablaste y qué falló?
+7. ¿Alguna vez le pagaste a alguien solo para que "mire la casa" (un vecino, el jardinero, una inmobiliaria)? ¿Cuánto, y por qué lo seguís haciendo o lo dejaste?
+8. ¿Qué compraste o contrataste para quedarte tranquilo cuando no estás (alarma, cámara, seguro)? ¿Lo usás? ¿Te sirvió alguna vez de verdad?
+9. La última vez que cerraste la casa por el invierno o después de la temporada, ¿quién lo hizo, qué se hizo y cuánto te salió?
+10. ¿Quién más del barrio o del balneario está en tu misma situación? ¿Me pasarías dos contactos?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** De cada 80 dueños de casas de la costa que no alquilan, al menos 3 le pagan a alguien que no conocen una seña de ARS 75.000 (50% de ARS 150.000) para que coordine la puesta a punto del verano 2027 con reporte en fotos, sin haber visto a Facu en persona.
+- **Predicción (antes de empezar):** Con 80 dueños alcanzados (30 por mensaje directo y 50 por grupos o inmobiliarias): 12 conversaciones en las que el dueño manda los datos de la casa, 3 señas pagadas (al menos 2 de personas que no conocía) y 1 abono de temporada pagado (ARS 120.000, primer mes). Costo esperado para conseguir cada seña: USD 50 o menos.
+- **Pérdida máxima:** USD 150 (estimación): página y dominio hasta USD 20; recorrida piloto ARS 30.000 (unos USD 20); anuncios en Meta, opcionales, tope USD 40; un viaje de ida y vuelta a la zona más llaves o candados, tope USD 60; imprevistos USD 10. Las señas no cuentan como pérdida: se devuelven completas si el servicio no se presta.
+- **Duración:** 14 días: del 2026-10-26 al 2026-11-08, solo si reemplaza a uno de los experimentos ya agendados (stock, del 2026-10-20 al 2026-11-19; Papá Noel, del 2026-11-02 al 2026-12-24). Si no, la ventana siguiente es del 2027-03-01 al 2027-03-14, con la oferta "cerramos tu casa por el invierno".
+- **Pasos:**
+  1. Día 0: anotar en proyectos/ la predicción, la pérdida máxima y los criterios de seguir o cortar, antes de mandar un solo mensaje.
+  2. Días 1-2 (primer control): elegir UNA zona donde tengas un dueño conocido y un prestador local que ya entra a casas (piletero o jardinero). Cerrar con el prestador un acuerdo escrito simple: ARS 30.000 por recorrida, cómo se cuidan las llaves, confidencialidad y fotos obligatorias. Si a las 48 horas no hay prestador firmado, no se lanza y no se gasta nada más.
+  3. Días 2-3: hacer una recorrida piloto en la casa del conocido, con un checklist de 40 puntos (agua, luz, gas, humedad en paredes y techos, tanque, pileta, pasto, plagas, aberturas, cerraduras) y unas 30 fotos. Claude arma el reporte y Facu lo revisa. Pedir permiso para usarlo como muestra, sin la dirección. Medir con cronómetro cuánto dura la recorrida y cuántos minutos de coordinación lleva: es el dato que dice cuántas casas puede atender una persona.
+  4. Días 3-4: armar una página de una sola pantalla (Carrd o Google Sites) con marca propia y sin cara: qué incluye, el reporte de muestra, el precio fundador de ARS 150.000, preguntas frecuentes (llaves, quién entra, qué pasa si se rompe algo), link de Mercado Pago para la seña (con la plata a 10 o 35 días, que cobra menos comisión) y botón de WhatsApp Business.
+  5. Días 4-10: salir a vender sin mostrar la cara. Mandar 30 mensajes personales mencionando quién te pasó el contacto. Publicar en 3-5 grupos de propietarios de la zona, con permiso del administrador. Ofrecer a 3 inmobiliarias y 1 administración de barrio una comisión del 15% por cada cliente que manden. Opcional: hasta USD 40 de anuncios en Meta dirigidos a la zona y a gente de CABA y el GBA interesada en ese balneario.
+  6. La oferta es una sola, la "Puesta a punto verano 2027": dos recorridas (la primera y otra 48 horas antes de que llegue el dueño), cada una con reporte en fotos, más la coordinación de limpieza, pileta, jardín y fumigación. Los prestadores cobran su tarifa y el dueño la paga aparte. Se pide una seña de ARS 75.000 y se devuelve todo si la casa no está lista el día de llegada.
+  7. Días 10-14: hacer las primeras recorridas para los que pagaron seña y mandar los reportes. Ofrecer el abono de temporada, de diciembre a marzo, a ARS 120.000 por mes, y anotar quién paga el primer mes.
+  8. Durante todo el experimento, llevar una planilla con: dueños alcanzados por canal, respuestas, datos de casas recibidos, señas, abonos, motivos de rechazo con las palabras textuales, minutos por recorrida y minutos de coordinación por casa.
+  9. Día 14: escribir el post-mortem y decidir con los criterios fijados el Día 0, sin moverlos.
+- **Sigue si:** Seguir 6 semanas más (la temporada), con la meta de llegar a 10 casas y 3 abonos, si se cumplen tres cosas: hay 3 o más señas pagadas, al menos 2 de personas que no conocías antes del 2026-10-26, y el prestador completa las recorridas con el 90% o más del checklist fotografiado. Si además una inmobiliaria o una administración acepta mandar clientes, priorizar ese canal: es la salida que encontró IguanaFix al costo de conseguir clientes. Con 2 señas, la decisión queda en suspenso: repetir una semana más solo por inmobiliarias antes de decidir.
+- **Se corta si:** Cortar en cualquiera de estos casos: 1 seña o ninguna de desconocidos después de alcanzar 80 dueños o más; la mayoría responde "avisame solo si pasa algo" y no paga; o no aparece un prestador que acepte las llaves con un acuerdo firmado. Al cortar: devolver las señas, escribir el post-mortem y no gastar más. Solo se reabre en marzo de 2027 con "cierre de casa", o como prueba para inmobiliarias.
+
+### Cinco formas de retorcerla
+
+- Otro cliente, el que se fue: argentinos que emigraron y dejaron una casa o un departamento vacío y sin alquilar en Argentina. Pagan en dólares o euros por recorridas, pago de servicios e impuestos, y reportes en su horario. En el registro no hay nada parecido (busqué "emigr" y "exterior"). Ojo: si la propiedad se alquila, pisa CON-3-4 (NO).
+- Otro cobro, por llegada y con garantía: en vez de un abono, un precio fijo por cada "casa lista" (por ejemplo ARS 60.000 más los prestadores, estimación), y se devuelve si al llegar falla algún punto del checklist. Le sirve al que va 4-8 veces por año. La promesa se puede medir con la foto fechada que saca el recorredor 24 horas antes.
+- Otro país, Maldonado, Uruguay (Punta del Este, La Barra, José Ignacio): el mismo dueño argentino, con ticket en dólares y sin inflación. La operación queda en manos de un socio local y se vende desde Buenos Aires. Para el tamaño, el INE uruguayo publicó cómo son las viviendas desocupadas del Censo 2023 (gub.uy; no leí la cifra). Mi búsqueda de "cuidado de casas" en Punta del Este no mostró oferta visible (solo alquileres). Las reglas uruguayas no las verifiqué.
+- Otro activo, la lancha o el velero en una guardería náutica (Tigre, San Fernando, San Isidro): se usa pocos fines de semana y necesita carga de batería, sacar el agua acumulada, lavado y service. Hoy el dueño coordina por WhatsApp con el marinero. Es el mismo sistema: checklist con fotos, coordinación y "lista para salir". En el registro no hay nada náutico. No verifiqué cuántas embarcaciones hay.
+- Poner un humano, el casero compartido del barrio: un recorredor fijo hace la ronda semanal de 30-40 casas, con una ruta armada según qué casas están juntas para viajar menos, y Claude escribe los reportes. Cada casa paga una parte del sueldo mínimo de un casero propio (ARS 505.000-529.000/mes). Riesgo: si el recorredor trabaja solo para la plataforma y con horario, se lo puede considerar empleado (no lo verifiqué en la norma).
+
+### Riesgos
+
+- Costo de conseguir clientes: es lo que frenó a IguanaFix en Brasil (Baguete, 2022). Los dueños no viven en la zona y, sin mostrar la cara, solo se llega a ellos por grupos, inmobiliarias y conocidos que pasan contactos.
+- Confianza y llaves: el cliente tiene que dejar entrar a alguien que no conoce. Un robo o un daño después de una recorrida liquida la marca en todo el barrio. Hace falta un acuerdo escrito con el recorredor y un seguro de responsabilidad civil (su costo no lo verifiqué).
+- Techo de precio: afuera, la coordinación sola se abarató. Humming Homes pasó de USD 250/mes en 2021 (dato del buscador) a USD 25/mes hoy (su sitio, 2026-10-19). Si el dueño no ve trabajo hecho, no paga.
+- Que se salteen la plataforma: después del primer contacto, el piletero y el dueño se arreglan directo. Por eso no hay que contar con comisión sobre los prestadores.
+- Regulación: si el producto termina haciendo "monitoreo" de alarmas o cámaras con una central, en la provincia de Buenos Aires es seguridad privada y pide habilitación (Decreto 1897/02). Otras provincias no las verifiqué.
+- Laboral: un recorredor que trabaja solo para la plataforma, con horario y pago fijo, puede reclamar que es empleado (opinión; la norma no la leí hoy).
+- Pocas casas y temporada corta: hay pocos clientes por zona y la demanda de la costa se concentra en la pretemporada y el verano. Si hay un solo recorredor y falla, se cae todo.
+- Regla N.º 2: si se suman sensores por abono, la idea se parece a X2f (domótica como servicio, NO) y a ALI-4-2 (NO). Si se pasa a alquiler temporario, pisa CON-5-2 (NO) e I35 (NO). Por eso no recomiendo la palanca 1 de la ficha original (dejar la casa lista entre inquilinos).
+- Agenda: choca con los experimentos ya fijados (stock, del 2026-10-20 al 2026-11-19; Papá Noel, del 2026-11-02 al 2026-12-24). La regla del proyecto permite como máximo un experimento chico en paralelo.
+- Facu no está en la zona: la operación depende de un socio local. Si Facu no va por lo menos la primera semana, no puede controlar la calidad de las recorridas ni de los reportes.
+
+### Fuentes
+
+- https://www.lanacion.com.ar/propiedades/casas-y-departamentos/cuanto-cuesta-mantener-una-casa-sin-ocupar-en-pinamar-nid16032026/ (costos de casa cerrada en Pinamar y Cariló, marzo de 2026; leída por el verificador)
+- https://hoydia.com.ar/sociedad/el-68-de-los-argentinos-se-preocupa-por-la-seguridad-de-sus-casas-durante-las-vacaciones/amp/ (encuesta; señal débil)
+- https://servidos.ar/servicios/jardineria/buenos-aires (precios de jardinería por abono en CABA, según el verificador)
+- https://drupal-cloudfront.benzinga.com/news/17/03/9160507/the-challenges-of-building-a-successful-business-in-latin-america-accomplished-en (IguanaFix, 2017)
+- https://startups.com.br/negocios/madeiramadeira-compra-a-iguanafix-e-tera-servico-de-montagem-de-moveis/ (IguanaFix: cambio a software y venta de Brasil, 2022)
+- https://www.baguete.com.br/noticias/madeiramadeira-compra-iguanafix-no-brasil (IguanaFix: alto costo de conseguir clientes, 2022)
+- https://mercado.com.ar/protagonistas/iguanafix-recibio-una-inversion-de-us-3-millones
+- https://www.humminghomes.com/ (leída 2026-10-19: desde USD 199/año o USD 25/mes)
+- https://coverager.com/humming-homes-raises-5-6-million/ (ronda de 2021)
+- https://alleycorp.com/?p=8674 (Humming Homes: más de USD 10 millones levantados)
+- https://www.preqin.com/data/profile/asset/humming-homes--inc-/450357 (membresía de USD 1.188/año, sin fecha)
+- https://www.honeyhomes.com/ (leída 2026-10-19: handyman dedicado, paquetes de visitas)
+- https://www.businesswire.com/news/home/20230627073229/en/Honey-Homes-Raises-%249-Million-in-Series-A-Funding-To-Reimagine-Home-Upkeep-and-Maintenance
+- https://www.perfil.com/noticias/economia/nuevo-sueldo-de-empleadas-domesticas-cuanto-cobran-por-hora-y-mes-desde-septiembre-de-2026.phtml (Resolución CNTCP 6/2026, categoría caseros)
+- https://www.econoblog.com.ar/?p=158259 (escala de agosto de 2026, caseros)
+- https://normas.gba.gob.ar/documentos/0Q1RDh40.html (Decreto 1897/02 de la Provincia de Buenos Aires, leído 2026-10-19)
+- https://normas.gba.gob.ar/ar-b/ley/1999/12297/4548 (Ley 12.297; no leída completa)
+- https://www.mercadopago.com.ar/ayuda/33392 (comisiones del link de pago desde el 2026-03-06; leída por otro investigador del proyecto el 2026-10-15)
+- https://dolarapi.com/v1/dolares (dólar oficial venta ARS 1.535 del 2026-10-15, según la investigación del proyecto)
+- https://platform.claude.com/docs/en/about-claude/pricing.md (precios de la API de Claude, tabla al 2026-10-06)
+- https://news.agrofy.com.ar/noticia/215363/campo-1-cada-4-viviendas-esta-deshabitada-y-algunas-provincias-mas-mitad-no-tiene (Censo 2022: viviendas vacías; fuente secundaria)
+- https://ipiec.tierradelfuego.gob.ar/wp-content/uploads/2025/10/Indicadores_viviendas-2b.pdf (categoría INDEC de uso temporal)
+- https://www.gub.uy/instituto-nacional-estadistica/comunicacion/noticias/censo-2023-caracterizacion-viviendas-desocupadas (Uruguay, para la variante)
+
+---
+
+## 25. Arreglos de calzado, ropa y cuero con presupuesto por foto y retiro agrupado (importación de SOJO / The Seam)
+
+Qué es: una página con WhatsApp. Mandás 1 o 2 fotos de las zapatillas, la campera o la cartera, la IA arma en minutos un presupuesto con precio cerrado, la pieza se retira (ronda fija del barrio, moto o punto de entrega), la arregla un zapatero o una modista de la red y vuelve en 5 a 7 días.
+Para quién: gente que trabaja en CABA y hoy hace 2 o 3 viajes al taller sin saber el precio. Del otro lado, modistas y zapateros independientes que tienen lugar en la agenda.
+Quién paga: el cliente (el arreglo, más un 25% de margen, más el envío o la ronda). Después, por pieza, las casas de alquiler de ropa y las marcas chicas de calzado o cuero.
+Vuelta de tuerca: se cotiza por foto con IA, se llena la agenda libre de los talleres, se juntan varias piezas por viaje (el costo es por viaje, no por prenda) y se cobra seña por adelantado. Se importa el modelo de SOJO y The Seam (Reino Unido).
+Por qué ahora: cotizar 2 fotos con Claude Haiku 5.5 o Sonnet 5.5 cuesta entre USD 0,002 y 0,03 (estimación hecha con la tabla de precios de Anthropic). La crisis empujó a arreglar en vez de comprar: un zapatero de Neuquén tenía 3 semanas de espera (LM Neuquén, 2024-03-30). Y en las búsquedas del 2026-10-19 no apareció ninguna plataforma argentina que haga esto.
+
+**Veredicto:** Probarla, pero solo así: arrancando por calzado y abrigos (las zapatillas son el 80% de los arreglos del zapatero de Neuquén), con seña del 50%, con ronda agrupada o envío pagado por el cliente, y con talleres que tengan lugar en la agenda. Como startup es floja: IguanaFix ya mostró que el lado del consumidor de un 'Uber de oficios' quema caja. Como negocio de etapa 1 enseña a operar un marketplace de dos lados con menos de USD 200. No cierra si el ticket mediano no supera unos 6 tramos de moto con ronda, o unos 12 puerta a puerta.
+
+### Quién lo intentó y qué le pasó
+
+EN ARGENTINA, OFICIOS A DOMICILIO (el antecedente que más enseña): IguanaFix arrancó en 2013 para conectar profesionales del hogar con consumidores y comercios (Christensen Institute, según el resumen del buscador). En 2019 abandonó la plataforma para el usuario final, dejó sus oficinas, despidió a 40 personas (quedaron unas 100) y pasó a trabajar solo con empresas. Su CEO, Matías Recchia, explicó que el negocio con el usuario final consume mucha caja, como les pasa a Uber y a Rappi. Ojo con la fuente: esto sale del resumen del buscador sobre la nota de iProUP; al abrir la página solo cargó el título ('No más plomero a domicilio: IguanaFix se focaliza en clientes corporativos'), así que la fecha exacta no está verificada. En 2019 Stanley Black & Decker compró una parte de la empresa (LAVCA, LatamList, iProUP). En 2022 MadeiraMadeira compró la operación de Brasil, que quedó dedicada solo a armar muebles; Argentina y México siguieron independientes (Bloomberg Línea, 2022-04-12). Cómo está hoy en Argentina: no verificado. La lección: en un 'Uber de oficios', el lado del consumidor quema plata en conseguir clientes y coordinar; lo que sobrevivió fue el canal con empresas, que trae volumen.
+ROPA CON RETIRO: Mr Jeff (lavandería española) llegó a Palermo, Belgrano y Recoleta en 2018 (El Cronista, 2018-11-14). Hace lavado, no arreglos, y no verifiqué si sigue operando.
+ARREGLOS EN LATINOAMÉRICA: no encontré ninguna app funcionando con retiro y presupuesto por foto. Lo más cercano:
+- Bogotá: un proyecto universitario de 2024 para conectar modistas con usuarios (repositorio de la UNAD). Es una propuesta, no una empresa.
+- Chile: Cronoshare publica pedidos de cotización y guías de precio de 'arreglos de ropa' en Santiago y Ñuñoa. Es un modelo de contactos, sin retiro ni garantía. AppWash hacía lavandería con retiro en Santiago (Chócale, 2019-03).
+- Lima: Rescue Sneaks limpia y restaura zapatillas desde S/22 (solo lo vi en el resumen del buscador; no tengo la URL exacta).
+- España: Modistapp (recogida y entrega con arreglos; concurso de IEBS) y AirTailor (orientado a tiendas online; resumen del buscador).
+QUÉ BUSQUÉ SIN RESULTADO (2026-10-19): cierres o pivotes de apps de arreglos en Argentina; tintorerías con arreglos y retiro en Buenos Aires; restauración de zapatillas y carteras con retiro en Buenos Aires. No apareció ninguna nota de prensa sobre un intento local de arreglos.
+
+### Competencia en Argentina
+
+PLATAFORMAS: no encontré ninguna (5 búsquedas del verificador y 3 mías, todas del 2026-10-19). La competencia real es el oficio de barrio y el mostrador que ya recibe ropa.
+1) EL ZAPATERO DE BARRIO. El único precio publicado que encontré es de un zapatero de Neuquén, del 2024-03-30, sin actualizar por inflación: arreglo de zapatillas ARS 10.000 a 15.000; media suela de dama 20.000; tacos finitos 6.000; suela de botas 30.000; cierre de campera unos 20.000; abrojos unos 10.000. Pide el 50% por adelantado porque algunos clientes no vuelven a retirar. Recibe unos 30 pares por día, el 80% son zapatillas, y tiene hasta 3 semanas de espera. Hay otras 15 zapaterías de arreglos en la ciudad, y el oficio no se renueva (https://www.lmneuquen.com/neuquen/gran-demanda-el-zapatero-cuanto-sale-arreglar-los-calzados-neuquen-n1102033). Qué hace bien: precio bajo, confianza y cercanía. Qué hueco deja: no cotiza a distancia, tiene colas largas, solo atiende en horario de comercio y la garantía es de palabra.
+2) LA MODISTA QUE TRABAJA EN SU CASA. El último precio publicado que encontré es viejo: Mendoza, 2022-07-25, ruedos ARS 450 a 680 y cambio de cierre 500 a 800 (https://www.mdzol.com/mdz-femme/moda/2022/7/25/resurgieron-las-modistas-cuanto-cuestan-los-diferentes-arreglos-las-prendas-259613.html). No encontré precios de CABA 2026: hay que relevarlos. Qué hace bien: precio y trato. Qué hueco deja: es difícil de encontrar, no da precio antes y no retira.
+3) TINTORERÍAS Y LAVANDERÍAS DE BARRIO. Mi opinión, no verificada: muchas reciben arreglos y los mandan a una modista. De Laverap solo encontré una nota de 2018 sobre un local que entregaba ropa limpia a domicilio, sin mención de arreglos (https://www.cinet-online.com/?p=15389). Qué hacen bien: tienen mostrador con horario largo. Qué hueco dejan: no cotizan por foto ni retiran para arreglar (no verificado).
+4) APPS DE ENVÍO (PedidosYa Envíos, Uber Flash, Cabify). El cliente puede mandar la prenda por su cuenta, pero nadie le cotiza el arreglo ni responde por él. No encontré sus tarifas publicadas.
+CONCLUSIÓN: el hueco no es que falten modistas. Es tener el precio cerrado antes de moverse, hacer un solo trámite y tener garantía por escrito. IguanaFix (instalaciones para empresas) no compite en ropa, y no verifiqué cómo está hoy.
+
+### Regulación
+
+Ley 24.240 de Defensa del Consumidor, texto actualizado en InfoLEG (http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm). La leí el 2026-10-19 a través de un resumen de cada artículo, no del texto literal.
+- Art. 19: el prestador tiene que cumplir los términos, plazos y condiciones con que ofreció el servicio. Si la página promete '5 a 7 días', el cliente lo puede exigir.
+- Art. 20: en una reparación se presume que se usan materiales nuevos o adecuados a la cosa, salvo que se pacte por escrito otra cosa.
+- Art. 21: hay que dar un presupuesto con datos mínimos: quién presta el servicio, descripción del trabajo, materiales y sus precios, tiempo de ejecución, garantía y plazo para aceptarlo. El presupuesto por foto tiene que salir con esos campos; la IA lo puede armar.
+- Art. 22: un trabajo o costo extra que no estaba en el presupuesto se le avisa al cliente antes de hacerlo (salvo que frenar el trabajo dañe la cosa). Hace falta un paso de 'foto al recibir + OK por WhatsApp' para cuando la foto no alcanzó.
+- Art. 23: si aparecen defectos dentro de los 30 días de terminado el trabajo, se corrigen sin costo, salvo que se haya pactado por escrito otra cosa. Hay que reservar plata para retrabajos y viajes extra.
+- Art. 24: la garantía va por escrito: qué trabajo cubre, cuánto dura, desde cuándo y quién la hace efectiva.
+- Art. 37: se tienen por no escritas las cláusulas que limitan la responsabilidad por daños. Un 'no nos hacemos cargo si se arruina' no sirve.
+- Art. 40: responden juntos (solidariamente) el proveedor, el vendedor y quien puso su marca en el servicio; el transportista responde por los daños a lo que transporta. Si la modista arruina una campera, la plataforma también responde. Para cubrirse (opinión): foto con fecha al recibir cada pieza, un valor declarado máximo por pieza mientras dura la prueba, y talleres que firmen que se hacen cargo.
+QUÉ PERMITE: cotizar a distancia, cobrar seña y tercerizar el trabajo. QUÉ PROHÍBE EN LA PRÁCTICA: esconder costos, cambiar el precio sin avisar y desentenderse de los daños.
+NO REVISADO (no verificado):
+- Topes del monotributo 2026. Si cobrás el total y le pagás al taller, todo cuenta como tu facturación; hay que consultarlo con un contador.
+- Normas de CABA sobre mensajería con cadetes propios. Usar apps de envío evita ese tema (opinión).
+- Normas del BCRA si se guarda plata de terceros como 'pago protegido'. Usar Mercado Pago como cobrador evita custodiar fondos (opinión).
+No encontré una habilitación específica para arreglos de ropa, aunque no busqué en la normativa municipal.
+
+### Números de unidad
+
+TICKET (dato con fecha): zapatero de Neuquén, 2024-03-30: zapatillas ARS 10.000 a 15.000; media suela 20.000; suela de botas 30.000; cierre de campera unos 20.000 (LM Neuquén). No hay precios de CABA 2026: se relevan antes del experimento. Afuera, The Seam cobra entre 18 y 156 libras (ver la ficha).
+COMISIÓN (supuesto): 25% del precio que paga el cliente (la ficha proponía entre 20 y 30%). Lo que sigue es para un pedido.
+- IA (estimación). Precios de Anthropic por millón de tokens, de la tabla oficial guardada al 2026-10-06 en la referencia de la API (https://platform.claude.com/docs/en/about-claude/pricing), no reconsultada en la web: Haiku 5.5 USD 0,10 de entrada y 0,50 de salida; Sonnet 5.5 USD 2 y 10; Opus 5.5 USD 4 y 20. En los modelos de alta resolución, una foto a 2.576 px ocupa hasta unos 4.784 tokens (unos 1.600 si se achica a 1.568 px). Un presupuesto con 2 fotos, las instrucciones y la tabla de precios son unos 11.600 tokens de entrada y 600 de salida: cerca de USD 0,03 con Sonnet 5.5 y USD 0,0015 con Haiku 5.5. Sumando el control de calidad con 2 fotos más, queda en menos de USD 0,06 por pedido. En el experimento cuesta cero, porque Claude se usa a mano.
+- WhatsApp (dato). Meta cobra por mensaje desde el 2025-07-01. Desde el 2026-10-01, los mensajes de servicio solo son gratis hasta 1.000 por mes por número, y se cobran las plantillas 'utility' dentro de la ventana de 24 horas (salvo en la ventana gratis que abre un anuncio Click-to-WhatsApp) (https://developers.facebook.com/docs/whatsapp/pricing, consultado 2026-10-19). La tarifa de Argentina está en un CSV que no leí: no verificada. Un pedido lleva entre 15 y 25 mensajes (estimación). Con la app WhatsApp Business (no la API) no se paga por mensaje (no verificado hoy).
+- Cobro. La página de costos de Mercado Pago respondió 403 el 2026-10-19, así que no tengo la comisión verificada. Supuesto de trabajo: 7% del cobro con el dinero disponible al instante. Hay que confirmarlo en https://www.mercadopago.com.ar/costs-section antes de fijar precios. En la prueba conviene cobrar la seña por transferencia al alias, sin comisión de cobro (no verificado).
+- Moto. En 2 búsquedas no encontré tarifas publicadas de PedidosYa Envíos, Uber Flash ni Flex en CABA. Referencia indirecta y débil: una calculadora privada da ARS 4.250 a 7.275 por 5 km de remis en CABA, según el horario (https://hacecuentas.com/calculadora-precio-remis-por-km-argentina-2026-cordoba-rosario-buenos-aires); una moto probablemente cuesta menos (no verificado). El costo de un tramo de moto se mide en el paso 2 del experimento; lo llamo M.
+- Retrabajos por la garantía de 30 días del art. 23 (supuesto): el 5% de los pedidos necesita un viaje extra de ida y vuelta, lo que suma 0,1 M por pedido.
+MARGEN POR PEDIDO (estimación, T = precio del arreglo que paga el cliente): margen ≈ (0,25 − 0,07) × T − viajes que paga la plataforma − 0,1 M.
+a) Puerta a puerta, con los 2 tramos pagados por la plataforma: margen = 0,18 T − 2,1 M. Da positivo solo si T ≥ 11,7 M. Si un tramo costara ARS 5.000 (supuesto), el arreglo tendría que valer unos 58.000. La lista de Neuquén de 2024 va de 6.000 a 30.000 sin actualizar; los precios de hoy son más altos, pero no los tengo.
+b) El cliente paga el envío aparte: margen = 0,18 T − 0,1 M. Siempre da positivo, pero el cliente suma 2 M a su cuenta. Hay que medir si lo acepta.
+c) Ronda agrupada: un recorrido de costo R junta k piezas a la ida y otro igual las devuelve, así que cada pieza carga 2R/k. Con R = 3 M y k = 6 (supuestos), son 1 M por pieza y el margen da positivo si T ≥ 6,1 M. Con la seña por transferencia (sin el 7% de cobro), alcanza con T ≥ 4,4 M.
+LECTURA: la IA cuesta centavos. El negocio vive o muere por cuántas piezas entran en cada viaje (el tamaño del lote) y por el ticket. Hay que arrancar por calzado y abrigos, no por dobladillos.
+
+### Tamaño del mercado
+
+DATOS VERIFICADOS:
+- CABA tiene entre 3.120.612 y 3.121.707 habitantes según la fuente (Censo 2022; el dato provisorio está en un documento de la Dirección de Estadística de Entre Ríos, y el que El Heraldo llama 'definitivo', en esa nota; las dos cifras pueden estar cruzadas entre sí).
+- CABA tiene 1.638.764 viviendas particulares (dato provisorio del Censo 2022 citado por la Dirección de Estadística de Entre Ríos). No encontré el número definitivo de hogares.
+- Argentina tiene 45.892.285 habitantes (Censo 2022, dato definitivo, según C5N).
+NO ENCONTRÉ: cuántas modistas y zapateros hay, ni cuánto gastan los hogares en arreglos. La Encuesta de Gastos de los Hogares del INDEC podría tenerlo; no la consulté.
+PISTA DE LA OFERTA: Neuquén capital tenía 16 zapaterías de arreglos, y la más conocida recibía unos 30 pares por día (LM Neuquén, 2024-03-30).
+SEÑALES DE DEMANDA: esa misma nota, más los títulos de La Voz (2024-02-11) y La Capital de Rosario (2025-06-08) sobre más gente arreglando ropa y calzado por la crisis. El verificador vio solo los títulos, no leyó las notas.
+ESTIMACIÓN PROPIA (todos los números son supuestos para dimensionar, no datos): si 1 de cada 3 viviendas de CABA hace 2 arreglos de ropa o calzado por año, son unos 1,1 millones de arreglos por año. Si el 2% pasara a un servicio con retiro, serían unos 22.000 pedidos por año (unos 1.800 por mes). Con el margen de la ronda agrupada (0,18 T − 1,1 M por pedido), sería un negocio de etapa 1 en una sola ciudad, no un mercado de startup (opinión).
+PRIMERA CIUDAD: CABA, y dentro de ella 2 barrios pegados, para que la ronda junte piezas.
+
+### A quién entrevistar
+
+1) ZAPATEROS DE ARREGLOS DE CABA (5: dos con cola larga y tres con la agenda libre). Se encuentran en Google Maps ('zapatería arreglos' en Caballito, Almagro, Villa Crespo, Palermo y Belgrano) y caminando el barrio. El objetivo es saber si hay capacidad libre, o si el cuello de botella es el oficio, como en Neuquén.
+2) MODISTAS QUE TRABAJAN EN SU CASA (5). A través de las mercerías del barrio, que les venden hilos y cierres y las conocen a todas (además se conecta con la idea favorita de stock en mercerías), y de los grupos de Facebook de vecinos y los avisos de Marketplace.
+3) MOSTRADORES DE TINTORERÍAS Y LAVANDERÍAS DE BARRIO (3). Preguntar cuántos arreglos reciben por semana, a quién los mandan, qué recargo cobran y qué reclamos tienen. Son candidatos a punto de entrega.
+4) CONSUMIDORES (8 a 10) de 25 a 45 años que trabajan en CABA y tienen algo roto en el placard hace más de un mes. Se encuentran en grupos de Facebook del barrio, en coworkings y entre compañeros de facultad y sus familias.
+5) DUEÑOS DE CASAS DE ALQUILER DE VESTIDOS Y TRAJES, Y DE MARCAS CHICAS DE CALZADO O CUERO CON TIENDA ONLINE (3). Por Instagram y por sus tiendas armadas en Tiendanube. Preguntar cuántas reparaciones o ajustes hacen por mes y quién se los hace.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última vez que hiciste arreglar algo (ropa, zapatillas, cartera): qué era, adónde lo llevaste y cuántas veces tuviste que ir.
+2. ¿Cuánto pagaste por ese arreglo, y en qué momento supiste el precio: antes de dejarlo o al retirarlo?
+3. ¿Cuánto tiempo pasó desde que se rompió hasta que lo llevaste? ¿Qué te hizo esperar?
+4. ¿Qué tenés hoy esperando un arreglo y desde cuándo está así?
+5. La última vez que algo se rompió y no lo arreglaste, ¿qué hiciste con eso? ¿Cuánto gastaste en reemplazarlo?
+6. En los últimos tres meses, ¿mandaste o recibiste algo por moto (PedidosYa, Uber Flash, un cadete) que no fuera comida? ¿Qué era y cuánto pagaste?
+7. (A zapateros y modistas) ¿Cuántos trabajos te entraron la semana pasada y cuántos días de espera tenés hoy?
+8. ¿Cómo te llegaron tus últimos diez clientes? ¿Pagaste algo para conseguir alguno?
+9. En el último año, ¿cuántas prendas o pares no vinieron a buscar, y qué hiciste con ellos?
+10. La última vez que un cliente reclamó por un arreglo, ¿qué pasó y quién se hizo cargo del costo?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** En dos barrios pegados de CABA, al menos 1 de cada 4 personas que piden un presupuesto por foto para calzado, abrigos o carteras paga una seña del 50% antes del retiro. Y con ronda agrupada, o con el envío a cargo del cliente, el margen de contribución por pedido da positivo.
+- **Predicción (antes de empezar):** Escrita antes de arrancar (es una predicción, no un dato). Con USD 80 en anuncios Click-to-WhatsApp más publicaciones gratis en grupos del barrio, en 14 días: 70 conversaciones con foto; 45 presupuestos enviados en menos de 30 minutos; 14 señas pagadas (31% de los presupuestos); 12 arreglos entregados; ticket mediano de al menos 6 veces el costo de un tramo de moto (M) medido; el 40% de los clientes elige la ronda o el punto de entrega; el presupuesto por foto queda dentro de ±15% del precio final en 10 de 12 casos; 1 retrabajo y 0 daños. Del lado de las empresas: 15 contactos, 2 respuestas y 1 piloto pago de al menos 5 piezas.
+- **Pérdida máxima:** USD 190 como techo: USD 80 de anuncios; USD 50 para subsidiar envíos de los primeros pedidos; USD 50 de fondo para reponer un daño (durante la prueba solo se aceptan piezas de valor declarado bajo); USD 10 de dominio (opcional, porque Carrd o Google Sites son gratis). El precio del arreglo lo paga el cliente y pasa al taller, así que no cuenta como pérdida.
+- **Duración:** 14 días de operación (por ejemplo, del 2026-10-26 al 2026-11-08), más 2 días previos de relevamiento.
+- **Pasos:**
+  1. Días previos (2): en dos barrios pegados (por ejemplo, Caballito y Almagro), relevá el precio de 12 arreglos típicos con 3 zapateros y 3 modistas: zapatillas despegadas, media suela, tapitas, cierre de campera, ruedo, achicar cintura, costura de cartera. Elegí 1 zapatero y 2 modistas con lugar en la agenda (preguntá cuántos días de espera tienen hoy) y acordá por escrito: precio, plazo de 5 a 7 días, tu 25% y que rehacen sin cargo dentro de los 30 días (art. 23 de la Ley 24.240).
+  2. Cotizá en las apps 10 envíos reales (PedidosYa Envíos, Uber Flash o Cabify) entre domicilios de esos barrios y los talleres, a distintas horas, sin confirmarlos. La mediana es el costo de un tramo, M. Con M calculá el ticket mínimo: unos 12 M si el puerta a puerta lo pagás vos, unos 6 M con ronda agrupada. Los arreglos que no lleguen se toman solo con ronda o con el envío a cargo del cliente.
+  3. Con Claude, armá la tabla de precios y un Proyecto que, al pegarle 1 o 2 fotos, devuelva el presupuesto con los campos del art. 21 (quién presta el servicio, trabajo, materiales y precios, plazo, garantía, validez) y la frase 'sujeto a revisión al recibir; si aparece algo extra, te consultamos antes' (art. 22). En la prueba las fotos las pegás vos a mano: sin código y sin API.
+  4. Armá una página de una sola sección (Carrd o Google Sites), con marca propia y sin caras: cómo funciona, precios de ejemplo, fotos de antes y después sacadas por vos (solo manos y productos) y 3 formas de entrega. La ronda del barrio, martes y viernes de 19 a 21 h, con envío barato; la moto inmediata, al costo; o dejarlo en un punto amigo, si una tintorería o mercería acepta. Agregá un botón directo a WhatsApp Business.
+  5. Cobro: seña del 50% por transferencia al alias (o link de Mercado Pago) antes del retiro, y el saldo al entregar. Al recibir cada pieza, sacale una foto con fecha y anotá el valor declarado. Durante la prueba no aceptes piezas de mucho valor.
+  6. Clientes: USD 80 en anuncios Click-to-WhatsApp en Instagram y Facebook, segmentados a esos dos barrios, más publicaciones gratis en grupos de vecinos y en Marketplace. El mensaje habla de zapatillas, botas, camperas y carteras (no de dobladillos).
+  7. En paralelo y sin gastar: mandá 15 mensajes a casas de alquiler de vestidos o trajes y a marcas chicas de calzado o cuero con tienda online, ofreciendo un piloto pago de reparación con precio cerrado por pieza (mínimo 5 piezas).
+  8. Anotá todo en una planilla: conversaciones, presupuestos, minutos hasta mandar el presupuesto, señas, ticket, tipo de arreglo, forma de entrega, costo real de cada viaje, diferencia entre el presupuesto por foto y el precio final, retrabajos, reclamos y clientes que vuelven. El día 14 calculá el margen por pedido, comparalo con la predicción y escribí el post-mortem.
+- **Sigue si:** Seguir 4 semanas más (2 barrios, ronda fija, 2 talleres más) si se cumplen todas estas condiciones: al menos 12 arreglos pagados; al menos el 25% de los presupuestos termina en seña; margen de contribución total positivo después de motos, cobro y retrabajos; el presupuesto por foto queda dentro de ±15% del precio final en al menos 8 de cada 10 casos; como máximo 1 retrabajo y ningún daño sin resolver. Y además, al menos una de estas dos: el 40% o más elige ronda o punto de entrega, o sale 1 piloto pago con una empresa.
+- **Se corta si:** Cortar (o probar solo la variante de punto de entrega en tintorerías) si pasa cualquiera de estas cosas: menos de 6 señas después de gastar los USD 80; ticket mediano por debajo de 6 M y casi nadie acepta la ronda ni pagar el envío; el presupuesto por foto se equivoca en más de 30% en más de un tercio de los casos; los talleres no cumplen el plazo en más del 30% de los pedidos; o aparece un daño que el fondo de USD 50 no cubre.
+
+### Cinco formas de retorcerla
+
+- Otro cliente: casas de alquiler de vestidos y trajes, y academias de danza o teatro. Ajustan y reparan prendas entre un uso y otro, todas las semanas: un solo cliente llena la ronda y el viaje deja de ser el problema. Parecida a ALQ-3-2, ALQ-3-4 y CUL-4-1 (pendientes), no a ninguna descartada.
+- Otro cobro: 'bolsa de arreglos' o abono de placard. Un precio fijo por bolsa (por ejemplo, hasta 5 arreglos simples con retiro y entrega incluidos), pagado por adelantado. Agranda el lote de cada viaje (el costo es por viaje, no por pieza) y elimina las prendas abandonadas, que son el motivo por el que el zapatero de Neuquén pide 50% de seña.
+- Otro país: Chile. Cronoshare ya publica pedidos de cotización y guías de precio de 'arreglos de ropa' en Santiago y Ñuñoa: hay gente que busca cotizar online, pero solo existe el modelo de contactos, sin retiro ni garantía. Si funciona en CABA, el mismo método (página, WhatsApp y ronda) se puede copiar allá con un socio local que opere la logística (opinión). Manejarlo desde Argentina sería difícil.
+- Otro activo: el mostrador que ya existe. Las tintorerías, lavanderías y mercerías de barrio funcionan como puntos de entrega: el cliente deja la prenda una sola vez, en un horario largo, y una sola moto pasa por día por todos los puntos con un recorrido fijo. Saca la moto puerta a puerta y le deja al comercio una comisión por pieza. Parecida a HOG-5-1 y HOG-5-5 (pendientes).
+- Poner un humano: 'el día de la modista' en oficinas y coworkings. Una vez por semana, la modista o el zapatero va a la empresa, toma medidas en el momento (los ajustes de talle, que por foto se cotizan mal) y se lleva 20 piezas en un solo viaje. Lo paga cada empleado, o la empresa como beneficio. Es el mismo patrón de 'la empresa como canal' de MOV-5-5 (pendiente), en otro rubro.
+
+### Riesgos
+
+- Logística contra ticket: con 25% de comisión y alrededor de 7% de cobro (supuesto), el puerta a puerta pagado por la plataforma solo cierra si el arreglo vale unas 11,7 veces un tramo de moto. Dobladillos y ruedos no llegan nunca (estimación).
+- La capacidad libre puede no existir en los zapateros: el de Neuquén tenía 3 semanas de espera, unos 30 pares por día y un oficio que no se renueva (LM Neuquén, 2024-03-30). Si el cuello de botella es la mano de obra, traer más clientes solo alarga la cola (teoría de restricciones).
+- Responsabilidad solidaria por daños (art. 40 de la Ley 24.240) y cláusulas que la limitan, que no valen (art. 37): una cartera o campera arruinada es pérdida de la plataforma aunque la haya arreglado otro.
+- Garantía de 30 días (art. 23) y presupuesto formal (arts. 21 y 22): los retrabajos suman viajes, y el presupuesto por foto puede fallar en los ajustes que hay que medir.
+- Que cliente y taller se salteen la plataforma: después del primer arreglo pueden arreglar directo por WhatsApp. IguanaFix dejó al consumidor final en 2019 porque consumía mucha caja.
+- Informalidad de los talleres: si muchos no facturan, la plataforma cobra y factura el total, y eso infla su facturación de monotributo (topes 2026 no verificados).
+- Costo de WhatsApp al crecer: desde el 2026-10-01, Meta cobra los mensajes de servicio por encima de 1.000 por mes por número y las plantillas utility dentro de la ventana de 24 horas. La tarifa de Argentina no está verificada.
+- Dos números clave sin verificar: la comisión de Mercado Pago (la página dio 403) y el costo de un tramo de moto en CABA (no encontré tarifas publicadas).
+- Estacionalidad (fiestas, cambio de temporada, inicio de clases) y dependencia de 1 o 2 talleres buenos al principio: si uno no cumple el plazo, se cae la promesa de 5 a 7 días, que es exigible (art. 19).
+
+### Fuentes
+
+- https://www.sojo.uk/
+- https://www.theseam.uk/
+- https://www.iproup.com/innovacion/4602-matias-recchia-mercado-libre-emprendimiento-No-mas-plomero-a-domicilio-IguanaFix-se-focaliza-en-clientes-corporativos (solo cargó el título; datos del resumen del buscador)
+- https://www.iproup.com/startups/6885-IguanaFix-vendio-una-parte-de-su-empresa-al-gigante-Stanley-Black-Decker
+- https://www.lavca.org/stanley-black-decker-invests-in-argentinas-iguanafix/
+- https://latamlist.com/stanley-black-decker-acquires-a-stake-in-argentinas-iguanafix/
+- https://www.bloomberglinea.com/2022/04/12/brasilena-madeiramadeira-compra-iguanafix-la-plataforma-de-instalacion-de-muebles/
+- https://www.christenseninstitute.org/blog/innovators-creating-prosperity-iguanafix/
+- https://www.cronista.com/infotechnology/online/Por-menos-de-30-diarios-esta-app-te-ofrece-lavar-y-planchar-tu-ropa-20181114-0004.html
+- https://repository.unad.edu.co/jspui/handle/10596/67790
+- https://chocale.cl/2019/03/aplicaciones-lavanderia-domicilio/
+- https://www.cronoshare.cl/servicios/arreglos-ropa/region-metropolitana/santiago
+- https://www.cronoshare.cl/cuanto-cuesta/arreglos-ropa
+- https://www.iebschool.com/conocenos/becas-y-ayudas/modistapp
+- https://www.modaes.com/opinion/las-tres-innovaciones-que-mas-se-usan-en-las-tiendas-online-de-moda (AirTailor, según el resumen del buscador)
+- https://www.lmneuquen.com/neuquen/gran-demanda-el-zapatero-cuanto-sale-arreglar-los-calzados-neuquen-n1102033 (2024-03-30)
+- https://www.mdzol.com/mdz-femme/moda/2022/7/25/resurgieron-las-modistas-cuanto-cuestan-los-diferentes-arreglos-las-prendas-259613.html
+- https://www.cinet-online.com/?p=15389
+- http://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm (Ley 24.240, leída el 2026-10-19)
+- https://developers.facebook.com/docs/whatsapp/pricing (consultada el 2026-10-19)
+- https://www.mercadopago.com.ar/costs-section (respondió 403 el 2026-10-19; no leída)
+- https://platform.claude.com/docs/en/about-claude/pricing (tabla de precios guardada al 2026-10-06 en la referencia de la API; no reconsultada)
+- https://hacecuentas.com/calculadora-precio-remis-por-km-argentina-2026-cordoba-rosario-buenos-aires (calculadora privada, referencia débil)
+- https://elheraldo.com.ar/noticias/interes-general/datos-definitivos-del-censo-2022-la-argentina-tiene-46234830-habitantes
+- https://www.entrerios.gov.ar/dgec/wp-content/uploads/2023/02/Primero-datos-provisionales-Censo-2022-Entre-Rios-Febrero-2023-1.pdf
+- https://www.c5n.com/sociedad/argentina-tiene-45892285-habitantes-el-indec-dio-conocer-los-datos-definitivos-del-censo-2022-n135804
+
+---
+
+## 27. Niñera compartida en blanco: dos familias, una niñera y los papeles partidos (ficha a fondo)
+
+Qué es: un servicio web + WhatsApp que arma un "share" de niñera entre 2 familias del mismo barrio y deja todo en blanco: acuerdo entre las familias, liquidación partida, recordatorios de aportes y reemplazo de una familia si se va.
+Para quién: familias de clase media-alta con bebés de 6 a 30 meses y los dos adultos trabajando, en barrios densos. Del otro lado, niñeras que quieren una jornada completa registrada en lugar de 2 o 3 casas sueltas.
+Quién paga: las familias, con un fee de armado (hipótesis: ARS 60.000) y un abono (hipótesis: ARS 20.000 por mes cada una). La niñera no paga nada.
+Vuelta de tuerca: trae el nanny share de CozyKin (Boston) y Koru Kids (Londres) pero sin ser el empleador, que es la lección del cierre de CozyKin y del art. 3 a) de la Ley 26.844. La plataforma pone el matching y los papeles, y cada familia es empleadora directa (el art. 1 c) admite que una trabajadora tenga distintos empleadores).
+Por qué ahora: el piso de una niñera de jornada completa ya es ARS 548.429 por mes más aportes (octubre de 2026), el alta se hace 100% online y Claude arma la liquidación partida y el acuerdo a costo casi cero. Ojo: en blanco, el ahorro realista es de alrededor del 21% por familia, no del 50%.
+
+**Veredicto:** Probarla solo si pasa dos filtros baratos. Uno: en los días 1 y 2, un abogado laboralista confirma una forma de registrar a la misma niñera con dos familias sin riesgo serio por el art. 50. Dos: las entrevistas muestran que el sueldo de mercado de una niñera fija en el barrio está bastante por encima del piso; si no, el ahorro en blanco es de alrededor del 21% y pierde contra lo informal. Como negocio intermedio el ticket es chico (unos USD 33 por share por mes, estimación): vale más como aprendizaje barato de un marketplace local de dos lados que como fuente de plata. (Registro: vecina de FAM-2-1, FAM-2-2, FAM-2-5 y HOG-3-1, todas PENDIENTE; no está repetida.)
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA Y LATAM: no encontré a nadie que haya intentado el nanny share.
+- Qué busqué (2026-10-19): "compartir niñera", "niñera compartida" y "nanny sharing" con Argentina, Chile, México y Colombia, y "babá compartilhada" / "compartilhar babá" para Brasil. El verificador ya había buscado "niñera compartida dos familias argentina", "\"nanny share\" Buenos Aires" y "zolvers niñeras".
+- Qué apareció: solo marketplaces de niñeras. Sitly (en Argentina desde 2017, en Colombia desde 2019 y en más de 440 ciudades de Brasil en 2019), Mundonanny, Criana, Babysits, Click Babá y ConectNanny (Brasil), y Niddo (Chile), que es una app para padres separados y no de cuidado.
+- Ojo: que no salga en la prensa no prueba que no exista. Los shares informales que se arman por WhatsApp no aparecen en buscadores.
+
+AFUERA, EL CASO QUE MÁS ENSEÑA: CozyKin (Boston, EE.UU.), según el Boston Globe (leído el 2026-10-19, https://www.bostonglobe.com/metro/2019/10/11/nanny-share-child-care-startup-cozykin-abruptly-shuts-down/hyIrG5a8JHVK6TlOe8IEpO/story.html).
+- Agrupaba familias con necesidades parecidas y les asignaba una niñera con enfoque Montessori, para bebés y chicos chicos.
+- Ganó el premio mayor de MassChallenge en 2017, levantó USD 6 millones y planeaba abrir en Nueva York.
+- Su sitio decía que se podía pagar USD 1.500 por mes.
+- Anunció el cierre de golpe, con último día el 31 de octubre (de 2019, según la URL), por "razones financieras" sin más detalle.
+- El aviso que presentó al estado hablaba de 148 empleados afectados, y las familias tuvieron que buscar cuidado de un mes para el otro.
+- Inferencia mía (la nota no lo dice explícito): con 148 empleados, las niñeras eran empleadas de CozyKin. O sea que cargaba con todo el costo y el riesgo laboral, y al cerrar dejó a las familias sin niñera.
+
+OTROS DE AFUERA:
+- Koru Kids (Londres): levantó una semilla de 600.000 en 2017 (UKTN; el título no aclara la moneda) y USD 18 millones en 2019 para su plataforma de niñeras para después del colegio (The Sector, 2019-09-04). En los listados aparece con un servicio de nanny share (Seedtable). No verifiqué cómo está en 2026.
+- Nanny Lane, Komae y Hapu: siguen sin verificar.
+
+LECCIÓN PARA FACU (opinión):
+1. No ser el empleador. En Argentina, además, el art. 3 a) de la Ley 26.844 deja fuera del régimen especial a quien contrata una persona jurídica.
+2. Diseñar para que, si la plataforma desaparece, cada familia siga con la niñera, porque la relación es directa.
+
+### Competencia en Argentina
+
+Lo que hay hoy. Según lo que encontré, ninguno arma shares entre familias.
+
+- Sitly (antes Tuniñera.com, en Argentina desde 2017). Fuente: https://infonegocios.info/enfoque/sitly-la-plataforma-mundial-que-ya-conecta-en-cordoba-4-700-padres-con-3-800-nineras
+  - Qué hace: es un directorio con geolocalización que conecta padres y niñeras.
+  - Números de 2021: 83.000 usuarios en el país y más de 70.000 niñeras; 4.700 padres y 3.800 niñeras en Córdoba.
+  - Qué cobra: el registro de padres es gratis. El precio del plan pago en Argentina no lo pude verificar, porque la búsqueda no lo devolvió.
+  - Qué hace bien: tiene muchísima oferta de niñeras y marca.
+  - Qué hueco deja: no participa de la selección ni de la contratación (así lo describe una nota de Brasil que vi en el buscador), no arma la relación laboral ni los papeles, y no empareja familias entre sí.
+- Zolvers. Fuente: http://zolvers.com/
+  - Qué hace: marketplace de trabajo doméstico en Argentina, Chile, México y Colombia, con "Zolvers Pagos" (alta, sueldo y aportes online).
+  - Tamaño: un resumen del buscador que cita un estudio del BID le atribuye 160.000 trabajadores (https://www.fynsa.com/en/newsletter/las-plataformas-digitales-de-cuidados-y-sus-servicios-workertech-en-america-latina/, no lo leí).
+  - Qué cobra: el precio de Zolvers Pagos no lo pude verificar.
+  - Qué hace bien: ya resuelve la nómina de UNA familia y tiene una base de trabajadoras.
+  - Qué hueco deja: no ofrece niñeras compartidas. No verifiqué si su sistema acepta dos empleadores para la misma trabajadora.
+  - Es el que más rápido podría copiarlo.
+- Mundonanny. Fuente: https://mercado.com.ar/protagonistas/se-lanza-mundonanny-para-conectar-familias-con-nineras
+  - Directorio de niñeras recomendadas, con zona y tarifas. El registro es gratis para las familias.
+  - No verifiqué la fecha de la nota ni si sigue funcionando.
+- Criana. Fuente: https://www.idealist.org/es/empresa/bc8dfb9b2a3c4cd5a0a5fd50b62b134f-criana-nineras-pedagogicas-buenos-aires
+  - Consultora de Buenos Aires que busca, selecciona y acompaña a niñeras con formación en educación.
+  - El precio no es público.
+- Referencia de precio en la región: según su ficha en la App Store (https://apps.apple.com/BR/app/id969858366), Babysits cobra a las familias R$ 45 por mes en Brasil. No verifiqué si opera en Argentina.
+- La competencia real (opinión, no lo pude medir): el arreglo informal (una familia "presta" a su niñera, o dos amigas se turnan) y el jardín maternal.
+
+El hueco que comparten todos: nadie empareja familias entre sí ni parte la relación laboral en dos empleadores con acuerdo y liquidación. El hueco existe pero es difícil de defender: la ventaja sería la densidad por barrio y el acuerdo-modelo, no la tecnología.
+
+### Regulación
+
+1) Ley 26.844, Régimen Especial de Contrato de Trabajo para el Personal de Casas Particulares. Sancionada el 2013-03-13 y promulgada el 2013-04-03. La leí en InfoLEG el 2026-10-19: http://servicios.infoleg.gob.ar/infolegInternet/anexos/210000-214999/210489/norma.htm
+
+QUÉ PERMITE:
+- Que una trabajadora "con retiro" tenga distintos empleadores (art. 1 inc. c).
+- El art. 2 incluye la asistencia y el acompañamiento a miembros de la familia, lo que cubre a una niñera (la ley no nombra a los chicos expresamente).
+
+QUÉ OBLIGA:
+- Jornada máxima de 8 h por día o 48 h por semana, con distribución desigual de hasta 9 h por día (art. 14.1 a). Un share de 9 h x 5 días = 45 h entra.
+- Descanso semanal de 35 h corridas desde el sábado a las 13 h (art. 14.1 b).
+- ART a cargo del empleador (art. 14.1 e y art. 74, que remite a las leyes 24.557 y 26.773).
+- Horas extra con recargo (art. 25).
+- SAC del 50% del mayor sueldo del semestre, en junio y diciembre (arts. 26 a 28).
+- Vacaciones de 14 a 35 días (art. 29).
+- Licencias por enfermedad, especiales y por maternidad (arts. 34 a 39).
+- Preaviso de 10 o 30 días según la antigüedad (art. 42).
+- Indemnización de un sueldo por año (art. 48), que se DUPLICA si la relación no estaba registrada o estaba registrada de forma deficiente (art. 50).
+- Los salarios mínimos los fija la Comisión Nacional de Trabajo en Casas Particulares (CNTCP) (art. 18).
+
+QUÉ PROHÍBE O EXCLUYE:
+- Contratar menores de 16 años (art. 9).
+- Quedan fuera del régimen las personas contratadas por personas jurídicas (art. 3 inc. a). O sea, la plataforma no puede ser la empleadora dentro de este régimen. Si lo fuera, pasaría a otro encuadre, más caro (no verifiqué cuál).
+
+QUÉ NO DICE:
+- Nada sobre agencias o plataformas intermediarias, nada sobre solidaridad entre empleadores y nada sobre cuidar a la vez a chicos de dos hogares. Esa es la zona gris del modelo y la primera pregunta para un abogado.
+- Lectura propia (opinión): el art. 2 define el trabajo para los miembros de la familia del empleador. Por eso el arreglo "una familia emplea y la otra le reintegra" encaja peor que "cada familia es empleadora por su chico".
+
+2) Resolución CNTCP 6/2026: aumentos de 1,9% en agosto, 1,8% en septiembre, 1,7% en octubre y 1,6% en noviembre y en diciembre. Lo dicen El Cronista e iProfesional según el buscador; no la leí en el Boletín Oficial.
+
+3) RG ARCA 5645/2025: actualiza cada semestre por IPC los aportes y contribuciones de casas particulares. La cita iProfesional; no la leí.
+
+4) Alta online de la trabajadora con clave fiscal nivel 2 (https://www.argentina.gob.ar/trabajo/casasparticulares; lo verificó el verificador el 2026-10-18). Cada familia lo haría con su propio CUIT. Cómo acepta el sistema dos empleadores por las mismas horas: no verificado.
+
+5) Ley 25.326 de datos personales: en principio aplica, porque se juntan datos de chicos y de familias. No la leí hoy.
+
+6) Convenio 189 de la OIT y las reglas sobre agencias de colocación: podrían limitar que se le cobre a la trabajadora. No los leí. Recomendación: no cobrarle nada a la niñera y no tocar la plata del sueldo (cada familia le paga directo; la plataforma solo calcula, redacta y recuerda).
+
+### Números de unidad
+
+DATOS VERIFICADOS:
+- Piso de la CNTCP para octubre de 2026, categoría "Asistencia y cuidado de personas", con retiro: ARS 4.337,53 por hora y ARS 548.429,23 por mes (iProfesional, nota del 2026-10-15, leída el 2026-10-19).
+  - Noviembre y diciembre suben 1,6% cada uno, y la antigüedad suma 1% por año.
+  - La nota no dice qué tareas entran en la categoría. Que las niñeras van ahí es lo habitual, pero no lo verifiqué en la resolución.
+- Aportes y contribuciones del empleador por trabajadora de 16 h por semana o más: entre ARS 37.095 y 38.956 por mes, según notas de iProfesional de febrero a junio de 2026 que no coinciden entre sí. Se ajustan por IPC cada semestre.
+  - Inferencia: es un monto por empleador según sus horas, así que con dos familias empleadoras se paga dos veces.
+- SAC: el 50% del mayor sueldo del semestre (Ley 26.844, arts. 26 a 28).
+
+ESTIMACIONES PROPIAS (con el razonamiento):
+1) Familia sola con niñera de jornada completa, pagando el piso: 548.429 + 45.702 de SAC prorrateado + 38.956 de aportes = unos ARS 633.000 por mes. No incluye reemplazos en vacaciones ni lo que habría que reservar para una indemnización.
+
+2) El valor por hora es caro comparado con el mensual: 548.429 / 4.337,53 = 126 horas por mes (unas 29 h por semana). Por eso la cuenta del share cambia mucho según cómo se registre:
+- Escenario A, cada familia registra media jornada por hora (22,5 h por semana, 97,5 h por mes): 422.900 de sueldo + 35.200 de SAC + 38.956 de aportes = unos ARS 497.000 por familia. Cada familia ahorra unos ARS 136.000 por mes (alrededor del 21%) y la niñera cobra unos ARS 845.800 (54% más que el piso mensual). Es zona gris: si un juez entiende que cuidó a cada chico las 45 h, es registración deficiente (art. 50).
+- Escenario B, cada familia registra la jornada completa: cada una paga como mínimo el piso mensual (unos ARS 633.000 cada una), así que al piso no hay ahorro. Solo conviene si el sueldo de mercado de una niñera fija en el barrio supera los ARS 844.000 (154% del piso), y eso no lo pude verificar.
+- Escenario C, una familia emplea y la otra le reintegra la mitad: unos ARS 316.500 cada una (ahorro del 50%), pero la segunda familia queda con una relación de hecho sin registrar. No lo recomiendo (opinión).
+- Conclusión: en blanco y prolijo, el ahorro realista es de alrededor del 21% por familia, no del aproximadamente 50% que sugería la ficha original.
+
+3) Lo que cobra la plataforma (hipótesis a testear):
+- Fee de armado de ARS 60.000 por familia, que es un 44% de un mes de ahorro del escenario A.
+- Abono de ARS 20.000 por familia por mes, que es un 15% del ahorro mensual.
+- En el primer año, la plataforma se queda con un 18% del ahorro de cada familia.
+- Por share: ARS 40.000 por mes más 120.000 por única vez, o sea unos ARS 50.000 por mes si el fee se reparte en 12 meses. Con un tipo de cambio supuesto de ARS 1.500 por USD (supuesto, hay que verificarlo), son unos USD 33 por share por mes.
+
+4) Costos por share por mes:
+- IA: entre USD 0,50 y 1. Supuse de 50.000 a 100.000 tokens entre matching, acuerdo, liquidación y mensajes, a la tarifa pública de modelos tipo Claude Sonnet de USD 3 por millón de tokens de entrada y USD 15 por millón de salida (tarifa no verificada hoy). En el experimento cuesta cero, porque usa la suscripción que Facu ya tiene.
+- WhatsApp: la app WhatsApp Business es gratis (no verificado hoy). La API de Meta cobra por mensaje y no verifiqué la tarifa.
+- Cobro con Mercado Pago: no verificado, porque https://www.mercadopago.com.ar/costs-section devolvió 403 el 2026-10-19. Alternativa: cobrar por transferencia (costo a verificar).
+- El costo real es el tiempo de Facu: unas 3 o 4 h por share armado y 1 h por share por mes de administración.
+
+5) Margen: unos ARS 45.000 a 50.000 por share por mes antes del tiempo de Facu (más del 90% de margen bruto), pero el ticket es chico. Para llegar a unos USD 2.000 por mes hacen falta unos 60 shares activos (120 familias). Y los shares duran poco: del fin de la licencia hasta el jardín a los 2 o 3 años, o sea 12 a 24 meses como mucho.
+
+### Tamaño del mercado
+
+DATOS VERIFICADOS (vía buscador, 2026-10-19):
+1) Había 599.527 trabajadoras de casas particulares registradas en mayo de 2026, contra 629.660 a fines de 2023 (iProfesional: https://www.iprofesional.com/economia/463430-empleadas-domesticas-los-numeros-que-encienden-las-alarmas-en-el-sector).
+2) Según la OIT, el 77% no estaba registrado en 2025, unas 1,5 millones de trabajadoras (El Ancasti: https://www.elancasti.com.ar/informacion-general/se-perdieron-mas-22000-puestos-el-servicio-domestico-n586546; Noticias NQN, 2025-04-27). El Ministerio de Trabajo habla de un 70%.
+3) Según esa nota de la OIT, los que registran son sobre todo los empleadores de clase media-alta, en parte por la deducción en Ganancias. Ese es el segmento del producto.
+4) Indicador de demanda para una primera ciudad: Sitly decía tener 83.000 usuarios en Argentina, y 4.700 padres y 3.800 niñeras en Córdoba, en 2021 (Infonegocios).
+
+LO QUE NO ENCONTRÉ: cuántas de las registradas son niñeras ni cuántas familias con chicos de 0 a 3 años pagan cuidado en CABA o en Córdoba. No invento el número.
+
+CÓMO CALCULARLO (método): chicos de 0 a 2 años por comuna o departamento (Censo 2022, INDEC) x el porcentaje de hogares con los dos adultos ocupados y en los deciles altos (EPH, INDEC) x el porcentaje que contrata servicio doméstico (EPH).
+
+PRIMERA CIUDAD: alcanza con 1 o 2 barrios densos de clase media-alta donde Facu pueda repartir volantes en persona. La meta es la densidad, no el tamaño.
+
+ESTIMACIÓN DE LO QUE HACE FALTA (no del mercado): unos 60 shares (120 familias) para llegar a unos USD 2.000 por mes. Para comparar (no es un pronóstico), es el 2,6% de los 4.700 padres que Sitly tenía en Córdoba en 2021.
+
+### A quién entrevistar
+
+1) Madres y padres con un bebé de 5 a 18 meses que vuelven a trabajar en los próximos 90 días (o volvieron hace poco) y no consiguieron vacante u horario en un jardín maternal.
+   Dónde: grupos de Facebook y de WhatsApp de madres y padres por barrio, cursos de preparto y de puerperio, salas de espera de pediatras, plazas con juegos a la mañana y listas de espera de jardines maternales.
+2) Familias que YA comparten niñera, en blanco o no. Es el perfil más valioso, porque ya pagaron el costo de coordinar y saben qué se rompe.
+   Dónde: preguntando "¿alguien comparte niñera?" en esos mismos grupos, y pidiéndoles a las niñeras que cuenten si trabajan para dos familias a la vez.
+3) Niñeras con 3 años o más de experiencia que hoy trabajan por horas en 2 o 3 casas (es el lado de la oferta).
+   Dónde: Sitly, grupos de Facebook de niñeras, institutos de formación de cuidadoras y plazas.
+4) Directoras de jardines maternales con lista de espera. Ven la demanda que no pueden atender y podrían derivarla.
+   Dónde: en persona, en los jardines del barrio elegido.
+5) Validadores: un contador que liquide sueldos de casas particulares y un abogado laboralista. No son clientes: responden la pregunta del co-empleo y de la ART.
+   Dónde: LinkedIn, el Consejo Profesional de Ciencias Económicas local o recomendaciones de las mismas familias.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame cómo resolvieron el cuidado de tu hijo la semana pasada, día por día: quién lo cuidó, dónde y cuántas horas.
+2. ¿Cuándo fue la última vez que buscaste niñera o jardín? ¿Qué hiciste, dónde buscaste y cuánto tardaste en resolverlo?
+3. ¿Cuánto pagaste en total el mes pasado por el cuidado (sueldo, aportes, extras, viáticos, jardín)? ¿Lo tenés anotado en algún lado?
+4. ¿Tu niñera está registrada? ¿Quién hace el recibo, los aportes y el aguinaldo, y cuánto tiempo o plata te lleva cada mes?
+5. ¿Alguna vez hablaste con otra familia de compartir niñera o de turnarse? ¿Qué pasó después y por qué siguió o no siguió?
+6. La última vez que la niñera faltó o el jardín cerró, ¿qué hicieron y qué les costó (día de trabajo perdido, reemplazo, abuelos)?
+7. ¿Hoy tu hijo pasa tiempo en la casa de otra familia o con otros chicos (abuelos, amigos, vecinos)? ¿Cómo lo arreglaron?
+8. ¿Por qué descartaste a la última niñera o al último jardín que no elegiste?
+9. (A niñeras) ¿Cuántas casas tuviste el último año, cuánto te pagaba cada una por hora y cuánto tiempo perdías viajando de una a otra?
+10. ¿Conocés a alguien que esté buscando cuidado ahora mismo? ¿Me lo presentás? (pedir la presentación mide una acción, no una opinión)
+
+### Experimento de dos semanas
+
+- **Hipótesis:** En 1 o 2 barrios densos de clase media-alta, al menos 1 de cada 4 familias calificadas (bebé de 6 a 30 meses, cuidado de 25 h por semana o más, inicio en 90 días o menos) pone una seña reembolsable de ARS 20.000 para que le armen un share de niñera en blanco con otra familia compatible, y al menos 1 par firma el acuerdo y paga el fee de armado dentro de los 14 días.
+- **Predicción (antes de empezar):** Escrita antes de arrancar (Ries): 400 visitas a la página; 35 formularios, 20 de ellos calificados; 5 señas de ARS 20.000; 3 pares compatibles propuestos, 2 que aceptan reunirse y 1 que firma el acuerdo y paga ARS 60.000 por familia; 15 niñeras que se postulan al puesto en blanco, 6 de las cuales aceptan una videollamada.
+- **Pérdida máxima:** USD 180. Se arma así: anuncios de Meta USD 70; volantes USD 15; consulta de 1 hora con un abogado laboralista USD 50 (precio estimado, no verificado); monotributo, si hace falta para facturar el fee, USD 30 (estimado, no verificado); comisiones de cobro e imprevistos USD 15. Las herramientas van en plan gratis (Tally, Carrd o Cloudflare Pages, Canva, WhatsApp Business; no verificado hoy). Las señas se devuelven si no hay match: no son ni ganancia ni pérdida.
+- **Duración:** 14 días corridos (propuesta: del 2026-10-26 al 2026-11-08), con un filtro legal en los días 1 y 2: si no lo pasa, se corta ahí con una pérdida de unos USD 50.
+- **Pasos:**
+  1. Días 1 y 2, filtro legal: consulta de 1 hora con un abogado laboralista, con 3 preguntas cerradas. ¿Pueden dos familias registrar a la misma niñera por las mismas horas, o por mitades, sin caer en registración deficiente (art. 50)? ¿Qué ART responde si se accidenta en la casa anfitriona? ¿Qué cláusulas protegen a la familia que se queda si la otra se va? Si no hay una respuesta viable, se corta acá.
+  2. Días 2 y 3, con Claude: armar la calculadora '¿cuánto ahorrás compartiendo niñera?' con los pisos de octubre de 2026 y los 3 escenarios de registro. Hacer una página con marca y sin cara en Carrd o Cloudflare Pages. Armar un formulario de Tally con preguntas filtro (barrio, edad, horas, fecha de inicio, si puede ser casa anfitriona) y un consentimiento para usar los datos solo para buscarle una familia compatible.
+  3. Día 3, con Claude: plantilla del acuerdo entre familias (horarios, casa anfitriona, reglas, vacaciones, salida de una familia con 60 días de preaviso) y planilla de liquidación partida. El abogado las revisa en la misma consulta.
+  4. Días 4 a 10, difusión en 1 o 2 barrios: 12 posteos en grupos de madres y padres (pidiéndoles permiso a los administradores), 150 volantes con QR en 5 jardines maternales, pediatras y plazas, y USD 70 en anuncios de Meta segmentados a esos barrios. Nada de esto necesita mostrar la cara.
+  5. Días 4 a 12: a cada familia calificada le llega por WhatsApp Business su cálculo personal y el pedido de una seña reembolsable de ARS 20.000, con la política por escrito: 'se devuelve si en 30 días no hay familia compatible'. En una planilla se anota cada respuesta (seña sí o no, y el motivo).
+  6. Días 6 a 12, el lado de la niñera: publicar el puesto 'jornada completa en blanco para dos familias' en grupos de niñeras y en Sitly. Contar las postulaciones y cuántas aceptan una videollamada (tiempo cedido).
+  7. Días 8 a 13: Claude propone pares (zona, edades, horarios, reglas) y explica por qué. Facu presenta a cada par en un grupo de WhatsApp o en una videollamada (si las familias piden conocer a alguien, se puede sumar a una colaboradora) y ofrece el armado completo: ARS 60.000 por familia más ARS 20.000 por el primer mes de administración.
+  8. Día 14: contar los resultados contra la predicción, devolver las señas que no tuvieron match, escribir el post-mortem (qué se aprendió aunque falle) y decidir con los criterios de seguir o cortar.
+- **Sigue si:** Sigue, y pasa a un piloto de 3 shares cobrando el abono, si se cumplen estas tres: 20 o más familias calificadas, 4 o más señas pagadas y al menos 1 par que firma el acuerdo y paga el fee de armado. Además, el abogado tiene que haber dado una forma de registro sin objeciones de fondo.
+- **Se corta si:** Corta si pasa cualquiera de estas: el abogado dice que no hay forma de registrar el co-empleo sin un riesgo serio por el art. 50 (se corta el día 2, sin gastar en anuncios); hay menos de 8 familias calificadas; hay 1 seña o ninguna; o ningún par acepta reunirse. Zona intermedia (llegan formularios pero no señas): una semana más probando solo el kit para shares que ya existen (variante 5), y después se decide.
+
+### Cinco formas de retorcerla
+
+- Otro cliente, adultos mayores: una cuidadora compartida entre 2 o 3 familias del mismo edificio o manzana (variante de SAL-4-2, ELEGIDA). El art. 2 de la Ley 26.844 incluye el cuidado no terapéutico de personas enfermas o con discapacidad, así que sirve la misma nómina partida. El canal es el consorcio o el administrador, y quienes pagan suelen ser los hijos que no viven ahí (opinión, no verificado).
+- Otro cobro, éxito sobre el ahorro más garantía de continuidad: nada por adelantado; se cobra un porcentaje del ahorro mensual calculado (por ejemplo, el 15% de los ARS 136.000 del escenario A, estimación). Si una familia se va, la plataforma se compromete a conseguir otra en 30 días o devuelve el abono. Ataca el miedo principal, que es quedarse con el sueldo entero.
+- Otro país: vender solo el software (acuerdo, nómina partida y banco de horas) primero en Uruguay y después en España, donde el empleo doméstico tiene un régimen propio (no verificado hoy). Se hace a distancia, en español, sin tener que conseguir niñeras allá.
+- Otro activo, la salida del colegio: una niñera retira a 3 o 4 chicos del mismo grado, de 13 a 18 h, y los lleva a casa o a sus actividades. El grupo de WhatsApp del grado ya es el 'barrio denso'. Es el modelo para después del colegio de Koru Kids en Londres (USD 18 millones en 2019, según The Sector). Se parece a FAM-4-3 (PENDIENTE) y a EDU-1-5 (ELEGIDA) por la logística de salida, pero el problema es cuidado, no transporte.
+- Sacar el humano, el modo de un solo jugador: un kit autoservicio para familias que ya comparten niñera (acuerdo, cuánto paga cada una, recordatorios de aportes y aguinaldo por WhatsApp), sin matching. Se parece a FAM-2-2 y a HOG-3-1 (PENDIENTE), pero para dos empleadores. O al revés, poner un humano: una 'coordinadora de barrio' (ex niñera o maestra jardinera) que entrevista en persona y cubre ausencias, y cobra por share activo. Eso resuelve la confianza que Facu, sin mostrar la cara, no puede dar.
+
+### Riesgos
+
+- Legal, el principal: la Ley 26.844 admite distintos empleadores (art. 1 c) pero no prevé cuidar a la vez a chicos de dos hogares. Si cada familia registra media jornada y un juez entiende que la niñera cuidó a cada chico las 45 h, es registración deficiente y se duplica la indemnización (art. 50). Es lectura propia, no confirmada por un abogado.
+- El ahorro puede ser chico: con los pisos de octubre de 2026, el share en blanco ahorra alrededor del 21% por familia (escenario A), no el 50%. Si en el barrio se paga cerca del piso, la propuesta pierde fuerza frente a la opción informal.
+- La plataforma no puede ser la empleadora dentro del régimen (el art. 3 a deja fuera a quien contrata una persona jurídica), y si maneja la plata del sueldo puede quedar expuesta como intermediaria. Hay que diseñarla para que no toque esa plata (no verifiqué el encuadre exacto).
+- Que el share se rompa: una familia se va (jardín, mudanza, segundo hijo) y la otra queda con el sueldo entero, el preaviso (art. 42) y la indemnización proporcional (art. 48). Además duran poco: del fin de la licencia hasta el jardín (estimación: 12 a 24 meses como mucho).
+- El mercado informal es enorme: el 77% de las trabajadoras no está registrado (OIT, 2025) y el empleo registrado del sector viene cayendo (de 629.660 a 599.527 entre fines de 2023 y mayo de 2026). El cliente 'en blanco' es una porción chica.
+- Confianza y seguridad: puede haber un accidente de un chico en la casa de la otra familia (responsabilidad civil, seguro de hogar, ART de cuál de las dos). Además, un fundador varón de 22 años que no muestra la cara les pide a madres datos de sus bebés: en mi opinión es una barrera real, y se puede atenuar con una coordinadora.
+- Antecedente: CozyKin (Boston) cerró de golpe en 2019 después de levantar USD 6 millones, con 148 empleados afectados y 'razones financieras'. El modelo cuesta hacerlo rentable.
+- Copia rápida: Sitly (83.000 usuarios en 2021) o Zolvers (pagos y aportes) pueden sumar la función. La defensa es la densidad local y el acuerdo propio, no la tecnología.
+- Ticket chico: unos USD 33 por share por mes (estimación) obligan a tener unos 60 shares activos para llegar a unos USD 2.000 por mes, y el matching y la mediación no escalan solos.
+- Datos personales de chicos y familias: aplica la Ley 25.326 (consentimiento y resguardo). No la leí hoy.
+
+### Fuentes
+
+- http://servicios.infoleg.gob.ar/infolegInternet/anexos/210000-214999/210489/norma.htm (Ley 26.844, leída el 2026-10-19)
+- https://www.iprofesional.com/management/466540-cuanto-cobra-un-cuidador-de-personas-en-octubre-2026 (pisos de octubre de 2026, nota del 2026-10-15, leída el 2026-10-19)
+- https://www.cronista.com/economia-politica/empleadas-domesticas-cuanto-cobran-a-partir-de-octubre-con-el-aumento-segun-cada-categoria/ (Res. CNTCP 6/2026, vía buscador)
+- https://www.iprofesional.com/impuestos/457456-casas-particulares-nuevo-aumento-de-aportes-y-contribuciones-para-junio-de-2026 (aportes de junio de 2026, vía buscador)
+- https://www.iprofesional.com/impuestos/448229-empleada-domestica-arca-confirmo-nuevos-valores-de-los-aportes-a-partir-de-febrero-2026 (aportes de febrero de 2026, vía buscador)
+- https://www.iprofesional.com/economia/463430-empleadas-domesticas-los-numeros-que-encienden-las-alarmas-en-el-sector (registradas: 629.660 contra 599.527, vía buscador)
+- https://www.elancasti.com.ar/informacion-general/se-perdieron-mas-22000-puestos-el-servicio-domestico-n586546 (77% sin registrar según la OIT, vía buscador)
+- https://www.noticiasnqn.com.ar/noticias/2025/04/27/312647-el-77por_ciento-de-las-trabajadoras-de-casas-particulares-en-argentina-no-estan-registradas-segun-la-oit (vía buscador)
+- https://www.bostonglobe.com/metro/2019/10/11/nanny-share-child-care-startup-cozykin-abruptly-shuts-down/hyIrG5a8JHVK6TlOe8IEpO/story.html (cierre de CozyKin, leída el 2026-10-19)
+- https://www.boston25news.com/news/families-scrambling-to-find-child-care-after-abrupt-closure-of-nanny-share-company/995606107 (no accesible: error 451)
+- https://www.uktech.news/news/koru-kids-lands-600000-seed-funding-revolutionise-childcare-market-20170126 (semilla de Koru Kids, vía buscador)
+- https://thesector.com.au/2019/09/04/uk-based-digital-after-school-nanny-platform-raises-18-million-for-expansion (Koru Kids, USD 18 millones, vía buscador)
+- https://seedtable.com/companies/koru-kids (listado con nanny share, vía buscador)
+- https://infonegocios.info/enfoque/sitly-la-plataforma-mundial-que-ya-conecta-en-cordoba-4-700-padres-con-3-800-nineras (Sitly en Argentina, 2021)
+- https://blogs.correiobraziliense.com.br/primeirainfancia/2019/10/15/app-que-conecta-pais-a-babas-chega-ao-brasil-ha-mais-de-11-mil-profissionais-cadastradas-no-df/amp/ (Sitly en Brasil, vía buscador)
+- https://apps.apple.com/BR/app/id969858366 (Babysits, R$ 45 por mes, vía buscador)
+- https://catracalivre.com.br/quem-inova/casal-cria-aplicativo-que-funciona-como-um-uber-de-babas/ (Click Babá, vía buscador)
+- https://ecosistemastartup.com/niddo-la-app-con-ia-para-padres-separados-en-latam/ (Niddo, Chile, vía buscador)
+- https://mercado.com.ar/protagonistas/se-lanza-mundonanny-para-conectar-familias-con-nineras (Mundonanny)
+- https://www.idealist.org/es/empresa/bc8dfb9b2a3c4cd5a0a5fd50b62b134f-criana-nineras-pedagogicas-buenos-aires (Criana)
+- http://zolvers.com/ (Zolvers y Zolvers Pagos, leída por el generador el 2026-10-18)
+- https://www.fynsa.com/en/newsletter/las-plataformas-digitales-de-cuidados-y-sus-servicios-workertech-en-america-latina/ (Zolvers, 160.000 trabajadores, vía resumen del buscador, no leída)
+- https://www.argentina.gob.ar/trabajo/casasparticulares (alta online con clave fiscal, verificada el 2026-10-18)
+- https://www.mercadopago.com.ar/costs-section (devolvió 403 el 2026-10-19: tarifas no verificadas)
+
+---
+
+## 29. Propietario tranquilo: mesa de mantenimiento del alquiler por abono, con árbitro IA
+
+Qué es: un abono mensual por unidad alquilada. El inquilino avisa por WhatsApp, Claude propone quién paga según el contrato y el Código Civil (arts. 1201, 1206 y 1207), se manda un oficio y el arreglo se cierra con fotos. Cada unidad va juntando su historial.
+Para quién: dueños de 1 a 3 unidades en CABA que alquilan directo o sin administración. El 81% de los propietarios porteños tiene más de 65 años (CPI 2023, citado por el IVC), y la EPH sugiere que muchos dueños no viven en la Ciudad (estimación, ver tamaño de mercado).
+Quién paga: el dueño. Hipótesis a probar: ARS 20.000 por mes y por unidad. Cada arreglo lo paga a quien le toque, al costo del oficio.
+Vuelta de tuerca: de Belong y Latchel toma solo la mesa de mantenimiento, sin garantizar la renta. Le suma un árbitro neutral que lleva el reloj legal (24 horas para urgencias, 10 días para lo no urgente, art. 1201) y guarda la evidencia de cada paso.
+Por qué ahora: el DNU 70/2023 derogó la Ley 27.551 y la compensación automática de gastos contra el alquiler (art. 1204 bis). El reintegro ya no sale solo, así que hace falta un registro claro. Además, la IA lee contratos y fotos por centavos de dólar por reclamo.
+
+**Veredicto:** Probarla solo si es como pre-venta con seña en 14 días y buscando un canal desde el día uno (Mob, garantías, inmobiliarias). El piloto gratis de 60 días que proponía la ficha no sirve: no mide si pagan. El antecedente local (IguanaFix) dice que el B2C de reparaciones quema plata en conseguir clientes: si menos de 3 de 60 dueños ponen plata, no vale la pena armar la red de oficios. Esto es opinión.
+
+### Quién lo intentó y qué le pasó
+
+ARGENTINA
+- IguanaFix (reparaciones a domicilio para hogares; CEO Matías Recchia). Levantó USD 16 millones en 2017, en una ronda liderada por Temasek con Qualcomm Ventures. En mayo de 2019 dejó de atender hogares y se pasó a clientes corporativos: dejó sus oficinas de Humboldt y Cabrera y despidió a 40 personas (quedaron 100). El CEO explicó que el negocio con el usuario final consumía mucho capital y que costaba financiar el crecimiento. En agosto de 2019 Stanley Black & Decker compró una participación, con derechos de distribución de su tecnología. La operación de Brasil la compró MadeiraMadeira (fecha no verificada) para atender solo a sus propios clientes, después de que sufriera por el alto costo de conseguir clientes.
+  Aclaración: mi lectura de la nota de iProUP vino truncada. Estos datos salen del extracto del buscador sobre esa nota, latamlist, iProUP 6885 y Brazil Journal.
+  Por qué importa: es el antecedente local más parecido (oficios para hogares). No cayó por falta de oficios: el B2C le comía capital y costo de captación. Es el mismo riesgo que tiene esta idea.
+- Alquilando (proptech argentina en la que invirtió Google, según iProUP). Hoy su sitio muestra ciudades de Colombia, alquiler garantizado y menciona mantenimientos sin detalle (lectura del verificador, 2026-10-19). No verifiqué si sigue en Argentina ni por qué se movió.
+- Mob (2026): alquiler directo con planes de USD 100-300 y sin reparaciones. Anunció un módulo de administración para este año (iProfesional). No es un fracaso: es el que más cerca está de intentarlo.
+
+LATAM
+- Houm (Chile, México y Colombia; USD 45 millones levantados según su sitio; no opera en Argentina). Busqué despidos, cierres o reestructuraciones de Houm y de Homie (México) y no apareció nada. Su estado no está verificado.
+
+EE.UU. (para ver el modelo puro)
+- Latchel: coordinación de mantenimiento para dueños y administradores desde 2019 (TechCrunch 2019-02-22). Inman (2019-06-19) tituló una ronda de USD 2,3 millones para ayudar a administradores con los pedidos de mantenimiento. Cobra 10% sobre la factura de cada trabajo (CB Insights) y en 2022 decía atender más de 100.000 viviendas (GeekWire). Estos tres datos salen del resumen del buscador. Su última ronda registrada es del 2023-03-08 (Allegion Ventures). No encontré venta ni cierre, pero la búsqueda no cubrió bien 2024-2026. Lectura (opinión): el modelo puro vive vendiéndole a administradores, no al dueño suelto.
+- Belong: el modelo completo, con renta garantizada y mantenimiento 24/7 (ver ficha).
+
+QUÉ BUSQUÉ Y NO ENCONTRÉ
+Ningún intento argentino de abono de mantenimiento para dueños chicos. Fueron dos búsquedas del verificador y la mía ('abono mensual mantenimiento departamentos alquilados para propietarios Buenos Aires reparaciones inquilinos'), que solo trajo expensas y limpieza.
+
+### Competencia en Argentina
+
+Hoy en Argentina (búsquedas y lecturas del 2026-10-19):
+
+- Inmobiliarias que administran. Según el estudio del IVC sobre propietarios (2023), el servicio puede quedarse en conseguir inquilino y armar el contrato, o seguir durante todo el alquiler: cobrar los pagos e incluso resolver algunos problemas de la propiedad. Esto corrige la ficha: algunas sí atienden reclamos.
+  Precio: no encontré tabla oficial. Un foro de abogados habla de ~5% del alquiler por costumbre (otro usuario dice que cobra 10%) y asesor.legal habla de 7-10%. Ninguna de las dos es fuente oficial.
+  Hueco: según el mismo estudio, muchos alquileres se hacen de dueño directo, sin inmobiliaria. (https://vivienda.buenosaires.gob.ar/estudio-propietario ; https://portaldeabogados.com/foros/viewtopic.php?p=488576 ; https://asesor.legal/?p=280549)
+- Mob: app para alquilar directo (califica inquilinos, garantía con Hoggax, contrato digital). Planes de USD 100-300 para el dueño, sin gestión de reparaciones, y un módulo de administración anunciado para 2026.
+  Qué hace bien: junta justo al dueño directo. Hueco: el mantenimiento durante el contrato. Es riesgo y canal a la vez. (https://www.iprofesional.com/negocios/457629-crearon-app-que-funciona-como-agente-inmobiliario-para-duenos-que-alquilan-directo)
+- Servidos (servidos.ar): marketplace de oficios (plomería, electricidad, gasistas matriculados, cerrajería, urgencias 24 h, etc.) en CABA, GBA, Mar del Plata, Córdoba, Rosario, Mendoza y La Plata. Publicar pedidos es gratis, se presenta sin comisiones y no publica cómo cobra. Tiene un estimador de presupuesto con IA y app Android. El 2026-08-10 publicó una guía de quién paga cada arreglo (actualizada el 2026-10-01), con los arts. 1201, 1207 y 1209 y el DNU 70/2023.
+  Qué hace bien: tiene la oferta de oficios y ya está posicionado en este problema exacto. Hueco: no gestiona, no arbitra, no tiene plan para dueños ni historial de la unidad. Facu puede usarlo como proveedor en vez de armar su propia red. (https://servidos.ar/blog/inquilino-o-propietario-quien-paga-cada-arreglo)
+- Zolvers: oficios por trabajo suelto, sin plan para propietarios (lo verificó el generador el 2026-10-18; http://zolvers.com/).
+- Seguros de hogar con asistencia. La guía 2026 de BBVA Seguros ofrece una línea 24 h con cerrajería y plomería, con tope de ARS 76.400 por evento y hasta 3 eventos por año. Ojo: este dato sale del resumen del buscador; no abrí el PDF. Mercantil Andina ofrecía urgencias de plomería, gas, electricidad, cerrajería y cristales (folleto 2021).
+  Qué hacen bien: urgencias baratas. Hueco: no deciden quién paga, no cubren desgaste ni llevan historial.
+- Garantías de alquiler (Hoggax, Finaer): busqué si incluyen asistencia al hogar y no apareció nada.
+- Alquilando: no verifiqué que opere hoy en Argentina. IguanaFix: hoy es solo B2B.
+
+El hueco que queda: no encontré a nadie que le venda al dueño chico un abono que junte canal de reclamos del inquilino, propuesta de reparto según contrato y Código, despacho, cierre con evidencia e historial. Que no lo haya encontrado no prueba que no exista.
+
+### Regulación
+
+Lo leí en InfoLEG, en el texto actualizado del Código Civil y Comercial (consulta del 2026-10-19). La herramienta solo dejaba citas cortas, así que lo que sigue es una paráfrasis fiel. Leí solo el tramo de los arts. 1109 a 1329 de una página de 977.037 caracteres.
+
+- Art. 1201 (lo sustituyó la Ley 27.737, B.O. 2023-10-17; el DNU 70/2023 no lo tocó).
+  - El dueño debe mantener la unidad apta para el uso pactado y pagar las reparaciones por deterioro o defecto que no sean culpa del inquilino.
+  - Reparación urgente: si el inquilino la reclama con notificación en regla y el dueño se niega o no contesta, el inquilino puede hacerla él con cargo al dueño, pasadas al menos 24 horas corridas desde que la notificación llegó.
+  - Reparación no urgente: tiene que intimar con un plazo no menor a 10 días corridos y después puede hacer lo mismo.
+  - La notificación al domicilio que el dueño fijó en el contrato vale aunque él la rechace.
+- Art. 1203 (texto de la Ley 27.551; esa ley figura abrogada por el art. 249 del DNU 70/2023, pero el artículo sigue en el texto actualizado): si el inquilino no puede usar la unidad por causas que no son culpa suya, puede pedir la rescisión o dejar de pagar mientras dure.
+- Art. 1206: el inquilino debe conservar la unidad como la recibió. Responde por los deterioros que causen él o sus visitas, y por un incendio que no sea caso fortuito.
+- Art. 1207: en inmuebles, al inquilino le tocan solo las mejoras de mero mantenimiento. Si una reparación necesaria es urgente, puede hacerla a costa del dueño avisándole antes.
+- Art. 1209 (texto de la Ley 27.551): el inquilino paga las cargas que nacen del uso que le da a la unidad. No paga las que gravan el inmueble ni las expensas extraordinarias; solo se le pueden pasar expensas por gastos habituales.
+- Derogados por el DNU 70/2023 (B.O. 2023-12-21): el art. 1202 (pago de mejoras, por el art. 258) y los arts. 1204 y 1204 bis (por el art. 259). El 1204 bis permitía al inquilino descontar del alquiler los gastos que le tocaban al dueño.
+
+Qué permite y qué prohíbe:
+No encontré ninguna norma que prohíba coordinar mantenimiento por abono. La regla de quién paga es corta y clara, buena para que Claude la aplique. El reloj de 24 horas / 10 días es un dato duro sobre el que se puede armar el producto.
+
+Límites:
+1. La notificación que la ley reconoce es la que llega al domicilio del contrato. El WhatsApp sirve como registro, pero no necesariamente como notificación (opinión, no verificado).
+2. Decir quién debe pagar puede rozar el asesoramiento jurídico, que está reservado a abogados. No lo verifiqué en la norma de ejercicio de la abogacía. Conviene presentarlo como 'propuesta de reparto según la cláusula X y el art. Y, sujeta a acuerdo de las partes' y tener un abogado de consulta para los casos discutidos.
+3. Según el blog de Servidos (no es fuente oficial), los contratos firmados antes del 2023-12-30 siguen con la Ley 27.551 hasta que vencen.
+4. Gas: lo tiene que hacer un gasista matriculado. No leí hoy la norma de ENARGAS.
+5. Fotos del interior y datos del inquilino: aplica la Ley 25.326 de datos personales (no la leí hoy). Hace falta consentimiento y guardar solo lo necesario.
+6. Si algún día cobra alquileres o intermedia contratos, entra en el régimen de corredores (en CABA, la Ley 2.340). Diario Judicial informó una multa al colegio de corredores porteño por no controlar el cobro de comisiones (fecha de la nota no confirmada). Tal como está, la idea no lo necesita (opinión).
+
+### Números de unidad
+
+Todo es estimación salvo lo que lleva fuente.
+
+- Abono (hipótesis a probar, no un dato): ARS 20.000 por mes y por unidad. El razonamiento es doble:
+  - Tiene que quedar bien por debajo de una administración completa (~5% del alquiler por costumbre según un foro de abogados, 7-10% según asesor.legal; ninguna de las dos es fuente oficial).
+  - Se tiene que justificar con un solo reclamo bien resuelto por año. Una dueña entrevistada por el IVC (2023) dijo que cuando se rompe algo como un termotanque 'te comen un alquiler o sea, el valor de un mes de alquiler'. Y la asistencia de un seguro de hogar tiene tope de ARS 76.400 por evento (BBVA 2026, según el resumen del buscador).
+  - Para el segmento dolarizado se podría cobrar en dólares: el 42% de los alquileres de vivienda ofrecidos en CABA en marzo de 2023 estaban en dólares (estudio de Mercado Libre y UdeSA citado por el IVC).
+- Comisión sobre arreglos: Latchel (EE.UU.) cobra 10% sobre la factura del trabajo (CB Insights, resumen del buscador). Acá Servidos se presenta sin comisiones para los oficios, así que cobrarle al oficio es frágil. Mejor un cargo de gestión al dueño, o todo dentro del abono (opinión).
+- IA por reclamo (estimación):
+  - Supuesto: ~12 idas y vueltas con ~8.000 tokens de contexto cada una (~100.000 tokens de entrada y ~4.000 de salida), más una llamada de arbitraje con el contrato (~15.000 de entrada y ~1.500 de salida).
+  - Precios de la tabla oficial (copia del 2026-10-06, https://platform.claude.com/docs/en/about-claude/pricing): Haiku 5.5 USD 0,10/0,50 por millón de tokens, unos USD 0,01 por la charla; Sonnet 5.5 USD 2/10, unos USD 0,24; arbitraje con Opus 5.5 USD 4/20, unos USD 0,09.
+  - Total: entre USD 0,10 y 0,35 por reclamo, y menos si se usa caché de prompts. Es despreciable.
+- WhatsApp: en el experimento, la app WhatsApp Business es gratis y se usa a mano (USD 0). Para escalar se pasa a la API de Meta. Según lo que sé, las conversaciones que inicia el inquilino dentro de la ventana de 24 h no se cobran y las plantillas se cobran por mensaje. No lo verifiqué hoy en https://developers.facebook.com/docs/whatsapp/pricing y no tengo la tarifa para Argentina.
+- Cobro: en el experimento, transferencia a un alias. La comisión de Mercado Pago (suscripción o link de pago) no la verifiqué hoy: hay que mirarla en su página de costos antes de fijar el precio final.
+- Tiempo humano, que es el costo real (estimación): ~45 minutos por reclamo (triage 10, presupuesto 10, coordinación 15, cierre 10). Con ~4 reclamos por unidad por año (no tengo dato local; se mide en el experimento), da ~3 horas por unidad por año.
+- Margen por unidad (estimación): ARS 240.000 por año de abono contra ~3 horas de trabajo y menos de USD 2 de IA. Son ~ARS 80.000 por hora trabajada, antes de la comisión de cobro y del monotributo. Con 100 unidades: ARS 2.000.000 por mes y ~6 horas por semana de gestión.
+- Lo que decide el negocio no es el margen: es cuánto cuesta conseguir cada dueño. Si de 60 contactos salen 3 clientes (la predicción del experimento), son ~7 horas de Facu por cliente, y 100 unidades a mano serían ~700 horas. Sin un canal (Mob, garantías, inmobiliarias) no escala. Es justo lo que frenó a IguanaFix en el B2C (opinión basada en esa nota).
+
+### Tamaño del mercado
+
+- CABA, la primera ciudad (dato verificado): 1.264.590 hogares, de los cuales 451.503 (35,7%) son inquilinos (EPH-INDEC, 4.º trimestre de 2022, citada en el estudio del IVC sobre propietarios: https://vivienda.buenosaires.gob.ar/estudio-propietario). Cada hogar inquilino es una unidad que alguien alquila: ese es el techo.
+- Dueños: el 4,4% de los hogares porteños declaró haber cobrado un alquiler en los últimos tres meses (misma fuente). Son ~55.600 hogares (cuenta mía). Que haya ~8 hogares inquilinos por cada hogar porteño que cobra alquiler sugiere (estimación) que muchos dueños viven fuera de la Ciudad, tienen varias unidades o no lo declaran.
+- Rotación: el CPI estimó que en julio de 2023 vencieron ~12.800 contratos de vivienda en CABA (citado por el IVC). Probablemente fue un mes pico por los contratos de tres años firmados en 2020. Cada vencimiento es un momento de acta de salida y de entrada.
+- Perfil: el 81% de los propietarios porteños tiene más de 65 años (Observatorio del CPI 2023, citado por el IVC).
+- Argentina: alrededor de 1 de cada 5 hogares alquila (21% en 2022 según CIPPEC sobre el Censo 2022) y ~7,9 millones de personas (17,4% de la población) viven alquilando. Rosario tiene 26,7% de hogares inquilinos y La Plata 26,2%. Todos estos datos salen del resumen del buscador y no los leí en la fuente: tomarlos como no verificados. Tampoco tengo el total oficial de hogares del Censo 2022.
+- Cuántos dueños chicos hay: no encontré el dato (el estudio del IVC es cualitativo, con 18 entrevistas).
+- Mercado alcanzable en CABA (estimación): si entre 30% y 50% de los ~55.600 hogares rentistas no tienen administración (supuesto sin dato), son 17.000 a 28.000 hogares. Llegar a 100 unidades sería ~0,5% de eso.
+
+### A quién entrevistar
+
+1) Dueño chico que alquila directo (1 a 3 unidades, sin administración).
+   Dónde: avisos de dueño directo en Zonaprop, Argenprop y Mercado Libre Inmuebles (escribirle de frente, sin hacerse pasar por inquilino), grupos de Facebook de alquiler sin inmobiliaria y la red propia (familia, padres de amigos).
+2) Hijo o hija que maneja el alquiler de un padre mayor (el 81% de los propietarios porteños tiene más de 65 años, CPI 2023).
+   Dónde: la red propia, compañeros de la facultad, grupos de egresados.
+3) Dueño que vive lejos de su unidad (otra provincia o el exterior).
+   Dónde: grupos de argentinos en el exterior en Facebook o WhatsApp. También pueden servir la red de la familia y de CEMEVA en el interior.
+4) Inmobiliaria chica de barrio que administra alquileres.
+   Dónde: recorrer 10 en un mismo barrio (Caballito, Almagro, Flores).
+   Qué preguntar: cuántos reclamos atienden por mes, quién los atiende y cuánto tiempo les come.
+5) Oficios que trabajan para dueños e inmobiliarias (plomero, gasista matriculado, electricista).
+   Dónde: perfiles en Servidos y Zolvers, y mostradores de corralones y ferreterías.
+   Qué preguntar: qué parte de su trabajo viene de alquileres, cuánto tardan en cobrar y si aceptarían una tarifa tabulada.
+
+### Guion de entrevista (estilo Mom Test)
+
+1. Contame la última vez que tu inquilino te avisó que algo se rompió: qué era, cuándo fue y por dónde te avisó.
+2. ¿Qué hiciste después, paso por paso? ¿A quién llamaste y cuántos días pasaron hasta que quedó resuelto?
+3. ¿Cuánto salió en total y quién lo pagó? ¿Cómo se decidió quién pagaba?
+4. ¿Hubo alguna discusión con el inquilino sobre quién pagaba o sobre cómo quedó el trabajo? ¿Cómo terminó?
+5. En los últimos 12 meses, ¿cuántos arreglos tuviste en esa unidad y cuánto gastaste en total? ¿Lo tenés anotado en algún lado?
+6. ¿Cómo conseguís hoy al plomero, gasista o electricista? ¿Qué pasó la última vez que el de siempre no podía?
+7. ¿Le pagás hoy a alguien para que se ocupe del alquiler (inmobiliaria, administrador, un familiar)? ¿Cuánto le pagás y qué hace exactamente cuando se rompe algo?
+8. ¿Tenés seguro de hogar con asistencia o algo parecido? ¿Lo usaste alguna vez? ¿Qué pasó?
+9. Cuando entró el inquilino actual, ¿quedó registro de cómo estaba la unidad (fotos, inventario)? ¿Lo necesitaste alguna vez?
+10. ¿Quién más de tu familia o tus conocidos alquila una unidad y tuvo un problema así? ¿Me lo presentarías?
+
+### Experimento de dos semanas
+
+- **Hipótesis:** Dueños con 1 a 3 unidades alquiladas en CABA pagan por adelantado un abono para que otro reciba los reclamos del inquilino, proponga quién paga según el contrato y coordine el arreglo con evidencia. Es decir: el dolor alcanza para pagar antes de ver el servicio funcionando.
+- **Predicción (antes de empezar):** Escrita antes de empezar (estimación propia, sin base histórica): de 60 dueños contactados uno por uno, 15 aceptan una llamada (25%), 6 mandan el contrato y los datos de la unidad (10%) y 3 pagan la seña del primer mes de ARS 20.000 (5%). De 10 entrevistas, al menos 5 cuentan un arreglo con discusión o con una demora de más de 7 días en los últimos 12 meses. Si entra algún reclamo real, se resuelve con menos de 60 minutos de trabajo de Facu.
+- **Pérdida máxima:** USD 150 como techo fijo, que no se pasa. Partidas estimadas: Claude Pro USD 20 si no lo tiene (precio de lista conocido, no verificado hoy); anuncios de Meta en CABA USD 40 (opcionales); línea o chip para el WhatsApp del servicio ~USD 5 (no verificado); dominio USD 0-15 (opcional, alcanza con el subdominio gratis); reserva de USD 60 para devolver señas, al tipo de cambio del día; imprevistos USD 10. No incluye las ~25-30 horas de Facu ni los arreglos, que los paga el dueño o el inquilino.
+- **Duración:** 14 días: del 2026-10-20 al 2026-11-02.
+- **Pasos:**
+  1. Día 1 (2026-10-20): antes de hablar con nadie, escribir en un documento con fecha la predicción, la pérdida máxima y los criterios para seguir o cortar.
+  2. Días 1-2: definir la oferta 'Plan Fundador, 3 meses': canal de reclamos del inquilino por WhatsApp, propuesta de quién paga según el contrato (citando el artículo del Código), coordinación con el oficio, cierre con fotos y resumen mensual. Precio: ARS 20.000 por mes y por unidad. El primer mes se paga por adelantado como seña y se devuelve si a los 30 días no quiere seguir.
+  3. Días 1-2: con Claude, armar una landing de una página (Carrd o Cloudflare Pages) sin fotos de Facu, un formulario (Google Forms o Tally) para cargar la unidad y subir el contrato, un WhatsApp Business dedicado y un alias para la seña.
+  4. Día 2: armar el kit del árbitro en un Proyecto de Claude: los arts. 1201, 1203, 1206, 1207 y 1209 copiados de InfoLEG, una plantilla de propuesta de reparto (cláusula del contrato + artículo + 'sujeto a acuerdo de las partes') y una plantilla de acta de entrada. Probarlo con 5 casos de ejemplo, rotulados como ejemplo y nunca mostrados como reales.
+  5. Días 2-3: conseguir 3 oficios de respaldo (plomero, electricista y gasista matriculado) en Servidos, Zolvers o por referencia, y anotar cuánto cobra cada uno la visita. Todavía no armar red.
+  6. Días 3-10: contactar a 60 dueños uno por uno: 20 por la red propia, 20 avisos de dueño directo en portales (con un mensaje honesto, sin hacerse pasar por inquilino) y 20 en 3 o 4 grupos de Facebook de alquiler sin inmobiliaria, desde una página de marca. Opcional: USD 40 de anuncios de Meta en CABA. Anotar cada contacto en una planilla: fecha, canal, si respondió, si hubo llamada, si mandó contrato, si pagó.
+  7. Días 3-12: hacer 10 entrevistas por llamada de voz, sin cámara, siguiendo el guion y sin vender durante la entrevista. Al final, ofrecer el Plan Fundador solo a quien contó un problema real.
+  8. Días 5-14: a quien pague, darle el servicio de verdad, a mano: sumar al inquilino al WhatsApp, hacer el acta de estado con las fotos que manda el inquilino y gestionar cualquier reclamo con Claude y el oficio. Cronometrar cada reclamo.
+  9. Día 14 (2026-11-02): comparar los resultados con la predicción, decidir con los criterios escritos el día 1, devolver las señas que correspondan y escribir un post-mortem de una página.
+- **Sigue si:** Sigue si se cumplen dos cosas: al menos 3 dueños pagaron la seña (con al menos 60 contactados) y al menos 5 de las 10 entrevistas contaron un problema concreto en el último año. El paso siguiente es un piloto pago de 60 días con 10 unidades, para medir reclamos por unidad, tiempo por reclamo y cuántos renuevan. En paralelo, hablar con Mob para ofrecerle el mantenimiento como módulo (canal).
+- **Se corta si:** Corta si, con al menos 60 dueños contactados, pagó 1 seña o ninguna, o si menos de 3 de las 10 entrevistas contaron un problema concreto en el último año (señal de que el plomero de siempre alcanza). En ese caso: devolver las señas, escribir el post-mortem y guardar lo aprendido para N150, que comparte la red de oficios. Si hubo 2 señas: una sola semana más probando la variante de dueños que viven lejos, con el mismo mensaje; si no llega a 3, cortar.
+
+### Cinco formas de retorcerla
+
+- Otro cliente: dueños que viven lejos de su unidad (en otra provincia o en el exterior). Les duele más porque no pueden ir a ver el arreglo, y los del exterior pueden pagar en dólares. En CABA hay 451.503 hogares inquilinos y solo ~55.600 hogares porteños declaran cobrar un alquiler (EPH 4T-2022, vía IVC), lo que sugiere (estimación) que muchos dueños no viven en la Ciudad. Chequeo contra el registro: nada parecido; solo roza a A1 (escrow, elegida) en el medio de pago.
+- Otro cobro: sin abono. Una tarifa fija por reclamo resuelto (por ejemplo ARS 15.000 de gestión, a probar) más el arreglo al costo. Baja la barrera de entrada para algo que pasa pocas veces al año y además mide cuántos reclamos reales tiene cada unidad. La contra es un ingreso irregular. Chequeo contra el registro: nada parecido.
+- Otro país: España, para caseros con 1 a 3 pisos. Sería solo software (árbitro + bitácora + acta, sin red de oficios), en español y sin operación física, que es lo más parecido a un producto global. Hay gestoras como Housfy que cobran 5-10% de la renta por la gestión mensual (según su blog, en el resumen del buscador). No verifiqué la ley local de arrendamientos. Chequeo contra el registro: nada parecido.
+- Otro activo: la unidad vacía entre un inquilino y otro. Una puesta a punto con precio y plazo cerrados (pintura, arreglos, revisión de gas y electricidad, acta de entrada) para que vuelva a rentar rápido. En el estudio del IVC (2023), un dueño dejó una unidad vacía porque había que pintarla y hacer un par de arreglos. Va sin fotos ni publicación del aviso, porque eso ya está en el registro: E7 y R4 con NO, CON-3-5 repetida. Chequeo contra el registro: es vecina de J9 (reparación tercerizada + reventa, NO) solo porque también usa oficios.
+- Poner un humano: un técnico de cabecera por zona que visita cada unidad 2 veces por año (termotanque, canillas, disyuntor, humedad) y deja registrado el estado. Bajan las urgencias y queda un historial que vale al renovar o al vender. Sube el costo, así que habría que probarlo como plan superior. Chequeo contra el registro: es vecina de AGR-3-5 y LOG-4-1 (mantenimiento sin plan en maquinaria y flotas, NO), aunque el cliente y el activo son otros; que Facu decida si la ve parecida.
+
+### Riesgos
+
+- Demanda y costo de conseguir clientes: el antecedente local más parecido, IguanaFix, dejó el B2C de reparaciones en 2019 porque le consumía mucho capital (extracto de iProUP) y en Brasil sufrió por el alto costo de captación (Brazil Journal). Con dueños chicos pasa lo mismo, y encima el 81% de los propietarios porteños tiene más de 65 años (CPI 2023, vía IVC).
+- Poca frecuencia: los arreglos son esporádicos y un abono que casi no se usa se da de baja. Además, el seguro de hogar ya cubre urgencias por poca plata (BBVA 2026: tope de ARS 76.400 por evento y hasta 3 por año, según el resumen del buscador).
+- Informalidad: el IVC (2023) encontró muchos alquileres por fuera de la ley y sin inmobiliaria, y un profesional inmobiliario entrevistado dijo que los arreglos informales abundan. Puede haber contratos que Claude no pueda leer, o que directamente no existan.
+- Riesgo legal: proponer quién paga puede rozar el asesoramiento jurídico (no verificado). Un WhatsApp no reemplaza la notificación al domicilio del contrato (art. 1201). Si Claude se equivoca, una de las partes se enoja y la responsabilidad le cae a Facu.
+- Responsabilidad por el trabajo del oficio (daños, accidentes de gas): Facu queda en el medio. Necesita un deslinde claro, gasistas matriculados y quizás un seguro de responsabilidad civil (costo no verificado).
+- Competidores que pueden cerrar el hueco: Mob anunció un módulo de administración para 2026 y ya tiene al cliente. Servidos junta oficios sin comisión, ya publicó una guía de quién paga cada arreglo y tiene un estimador de presupuesto con IA.
+- Es una operación local, no un producto global: urgencias de 24 horas, oficios que faltan y trabajos mal hechos convierten a Facu en una central telefónica. Lo único productizable es el árbitro + la bitácora.
+- Depende del inquilino: si no usa el canal y le escribe directo al dueño, se pierde el registro y con él el valor del servicio.
+- Registro de ideas: el acta de entrada y salida, vendida como producto suelto, se parece a ALQ-1-3 (SALIO-parecida-a-NO), y los reclamos por WhatsApp a CON-4-3 (consorcios, NO). Tienen que quedar como piezas del servicio, no como productos aparte.
+- Datos personales: fotos del interior y datos del inquilino entran en la Ley 25.326 (no la leí hoy). Hace falta consentimiento explícito y guardar solo lo mínimo.
+
+### Fuentes
+
+- http://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/texact.htm
+- https://vivienda.buenosaires.gob.ar/estudio-propietario
+- https://servidos.ar/blog/inquilino-o-propietario-quien-paga-cada-arreglo
+- https://www.iproup.com/innovacion/4602-matias-recchia-mercado-libre-emprendimiento-No-mas-plomero-a-domicilio-IguanaFix-se-focaliza-en-clientes-corporativos
+- https://latamlist.com/stanley-black-decker-acquires-a-stake-in-argentinas-iguanafix/
+- https://www.iproup.com/startups/6885-IguanaFix-vendio-una-parte-de-su-empresa-al-gigante-Stanley-Black-Decker
+- https://braziljournal.com/madeiramadeira-compra-o-uber-dos-montadores-de-moveis
+- https://mercado.com.ar/protagonistas/iguanafix-recibio-una-inversion-de-us-3-millones
+- https://www.iprofesional.com/negocios/457629-crearon-app-que-funciona-como-agente-inmobiliario-para-duenos-que-alquilan-directo
+- https://www.iproup.com/economia-digital/27375-alquilando-como-es-proptech-argentina-en-la-que-invirtio-google
+- http://alquilando.com/
+- http://zolvers.com/
+- https://houm.com/
+- https://belonghome.com/
+- https://techcrunch.com/2019/02/22/latchel-wants-to-make-maintenance-easier-for-landlords-and-property-managers
+- https://inman.com/2019/06/19/latches-raises-2-3m-to-help-property-managers-handle-maintenance-request
+- https://www.cbinsights.com/company/latchel/financials
+- https://www.geekwire.com/2022/seattle-startup-making-it-easier-to-manage-single-family-rental-properties-raises-16-7m/
+- https://www.businesswire.com/news/home/20230308005317/en/Allegion-Ventures-Marks-Five-Year-Anniversary-with-Investment-in-Proptech-Startup-Latchel
+- https://www.bbvaseguros.com.ar/wp-content/uploads/2026/04/GUIAS_ASISTENCIA_HOGAR.pdf
+- https://www.bbvaseguros.com.ar/wp-content/uploads/2026/02/GUIAS_DE_SERVICIOS_HOGAR.pdf
+- https://mercantilandina.com.ar/blog-productores/wp-content/uploads/2021/08/FOLLETO-DIGITAL-HOGAR-2021.pdf
+- https://portaldeabogados.com/foros/viewtopic.php?p=488576
+- https://asesor.legal/?p=280549
+- https://housfy.com/blog/cuanto-cobran-las-inmobiliarias-de-comision-por-alquiler/
+- https://www.diariojudicial.com/news-76464-multan-al-colegio-de-corredores-inmobiliarios-por-no-controlar-el-cobro-de-comisiones
+- https://platform.claude.com/docs/en/about-claude/pricing
+- https://developers.facebook.com/docs/whatsapp/pricing
+
+---

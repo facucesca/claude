@@ -1,0 +1,202 @@
+[
+ {
+  "n": "M014",
+  "opinion": "Es un producto global de verdad: el mismo robot lo usa cualquiera que lo encuentre en Apify. El problema es que el nicho más obvio de LATAM, Mercado Libre, ya está lleno de robots que casi nadie usa. Eso dice que publicar robots es fácil y que ganar plata con ellos es difícil. Facu no dejó comentario, así que se evalúa la idea tal cual. Como no programa, cada vez que una web cambia su diseño el robot se rompe y él depende de Claude para arreglarlo rápido.",
+  "hallazgos": "En Apify hay al menos 4 robots de Mercado Libre. Uno cobra USD 3 cada 1.000 resultados y muestra 2 usuarios en total y 1 activo por mes [https://apify.com/bovi/mercadolibre-scraper]. Otro cobra desde USD 1,80 cada 1.000 y muestra 2 usuarios y 0 activos [https://apify.com/omao/mercado-libre-scraper]. El más establecido se alquila a USD 35 por mes más el uso y figura con entre 584 y 744 usuarios en total según la versión de la página [https://apify.com/trudax/mercadolibre-scraper]. Los números de usuarios salen de páginas guardadas por el buscador y pueden estar desactualizados. Consultado 2026-10-23.",
+  "variantes": [
+   "Elegir un nicho argentino sin robot en Apify, por ejemplo boletines oficiales provinciales o precios de insumos agro, y publicar uno solo para medir uso antes de hacer más.",
+   "Modo un solo jugador: usar el robot para Facu mismo y vender el dato ya procesado, por ejemplo un informe mensual de precios de repuestos agrícolas en Mercado Libre para concesionarios de maquinaria.",
+   "Robot que sirva a la idea de stock y piezas: junta precios de piezas chicas en Mercado Libre para alimentar el producto principal en vez de venderse suelto."
+  ],
+  "puntuacion": 6.2,
+  "por_que_puntuacion": "Baja respecto de 7,4 porque se verificó que los robots de Mercado Libre en Apify tienen muy pocos usuarios, señal de demanda flaca en el nicho más obvio. Sigue siendo barato y global, pero el mantenimiento sin programar es un riesgo real.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Datos o información",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: la cuenta de Apify tiene uso gratis y el costo es tiempo)",
+  "primer_paso": "Revisar en la tienda de Apify 10 fuentes argentinas o del agro y anotar cuáles no tienen robot o tienen uno con pocos usuarios y malas reseñas.",
+  "riesgo_principal": "Que el robot se rompa cuando la web cambia y Facu no pueda arreglarlo rápido, lo que trae reseñas malas y usuarios que se van.",
+  "agrupar_con": ["M026", "M058"]
+ },
+ {
+  "n": "M026",
+  "opinion": "La idea es buena en abstracto: una suscripción chica que avisa algo que a una empresa le duele. Pero en licitaciones ya hay un jugador argentino que lo hace barato, Indicadores Argentina, con alertas por palabra clave. Además Facu ya no eligió antes el radar de licitaciones con resumen de pliegos, F19, así que esa variante no vuelve. Lo que queda vivo es buscar otro dolor de nicho, y eso todavía no está resuelto.",
+  "hallazgos": "Indicadores Argentina tiene un plan Pro de $29.900 por mes con licitaciones filtradas por palabra clave y alertas por ciudad, industria y palabra clave, incluido el Boletín Oficial. El plan gratis también filtra licitaciones por rubro y organismo. Dice cubrir boletines oficiales de las 24 jurisdicciones y bases de contrataciones del Estado [https://indicadores.ar/pro]. El portal oficial COMPR.AR es de acceso público y gratuito [https://www.argentina.gob.ar/node/329083]. No pude verificar si COMPR.AR manda alertas propias por mail. Consultado 2026-10-23.",
+  "variantes": [
+   "Alerta para el agro, donde Facu tiene ventaja: avisos de cambios en retenciones, precios de referencia o normas de SENASA que afectan a acopios como CEMEVA, por suscripción.",
+   "Alerta de precios de competidores para comercios chicos de un rubro, por ejemplo ferreterías, leyendo Mercado Libre y webs de mayoristas.",
+   "Alerta de stock y precios de insumos críticos para PyMEs industriales, unida a la idea de stock de piezas chicas."
+  ],
+  "puntuacion": 5.6,
+  "por_que_puntuacion": "Baja respecto de 7,2 porque en licitaciones hay competidor local barato y la variante de licitaciones ya la descartó Facu. Queda como plantilla para un nicho que todavía no está identificado.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Datos o información",
+  "etapa": "Combinar con otra",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 80 (estimación: herramienta de monitoreo y una landing)",
+  "primer_paso": "Preguntarle a 5 personas del acopio y del agro qué noticia o cambio de precio se enteran tarde y cuánta plata les costó la última vez.",
+  "riesgo_principal": "Que el aviso no duela lo suficiente para pagar todos los meses y la gente se dé de baja rápido.",
+  "agrupar_con": ["M014", "M058"]
+ },
+ {
+  "n": "M030",
+  "opinion": "Convertir procedimientos de una empresa en instrucciones fijas para Claude es útil, pero cada empresa tiene sus procedimientos, así que es trabajo a medida. Facu dijo que quiere producto global, y esto va en contra. Las Skills genéricas valen poco porque hay muchas gratis. Ojo: Facu ya no eligió el pack de Skills para contadores, F18, así que vender paquetes de Skills por rubro se parece a algo descartado. Sirve más como herramienta interna para otras ideas que como negocio propio.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "Usar el armado de Skills como parte de la entrega de otro producto, por ejemplo la idea de stock, en vez de venderlo solo.",
+   "Servicio con plantilla fija para un solo tipo de empresa que Facu conoce, acopios de granos, con el mismo paquete para todos y solo datos distintos.",
+   "Vender una auditoría corta de procesos con informe, usando las Skills solo como herramienta de Facu para hacerla rápido."
+  ],
+  "puntuacion": 5.0,
+  "por_que_puntuacion": "Baja respecto de 7,1 porque es trabajo a medida, choca con lo que Facu pidió y la versión por rubro se parece a una idea que no eligió.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 30 (estimación: solo tiempo y una suscripción de Claude)",
+  "primer_paso": "Armar 3 Skills para procesos reales de CEMEVA y medir cuánto tiempo ahorran en un mes.",
+  "riesgo_principal": "Que Anthropic u otros automaticen la creación de Skills y el servicio pierda valor.",
+  "agrupar_con": ["M034", "M065", "M053"]
+ },
+ {
+  "n": "M034",
+  "opinion": "Facu pide algo concreto: averiguar qué tareas repetitivas tienen los contadores en el día a día, para elegir una y resolverla. Eso cambia la idea de implementar IA en cada estudio a resolver una tarea igual para todos, lo que la vuelve producto. El problema es que el mercado se está llenando rápido: Genio Contable, Contador-IA, Aconpy con bots y Errepar con su asistente. Además Facu ya no eligió el bot de WhatsApp para comprobantes y vencimientos, el curso de IA para contadores, el pack de Skills, la conciliación bancaria y el control de vencimientos. Lo que queda libre son tareas más angostas.",
+  "hallazgos": "Tareas repetitivas que hoy se automatizan según proveedores: descargar y clasificar comprobantes de ARCA, leer la Ventanilla Electrónica, vigilar deudas y declaraciones no presentadas de todos los CUIT, pasar extractos bancarios de PDF a Excel y conciliar contra los mayores [https://contadoresenred.com/el-futuro-llego-a-los-estudios-contables-conoce-todos-los-bots-inteligentes-que-hoy-automatizan-aconpy/]. Es material promocional de Aconpy. Genio Contable automatiza la importación de archivos y la conciliación con datos de ARCA, AGIP y ARBA [https://www.iprofesional.com/impuestos/454685-son-argentinos-y-crearon-una-ia-que-permite-liquidar-impuestos-facil-como-funciona]. Contador-IA de IAra Labs dice bajar una conciliación de 6 horas a menos de 15 minutos, dato del propio fabricante [https://www.iprofesional.com/tecnologia/433031-inteligencia-artificial-desarrollo-argentino-apunta-a-la-contabilidad]. Errepar prepara Consultor IA, un asistente para consultas complejas como Convenio Multilateral [https://www.iprofesional.com/impuestos/461683-errepar-prepara-el-lanzamiento-de-consultor-ia-el-asistente-de-ia-para-contadores]. Las fechas de esas notas no coinciden entre el encabezado y el texto. No encontré una lista oficial de leyes o tareas repetitivas: eso queda no verificado. Consultado 2026-10-23.",
+  "variantes": [
+   "Lo que pidió Facu: 10 entrevistas a contadores con una sola pregunta, qué hacés igual todos los meses para cada cliente, y elegir la tarea que más horas come y que no cubren Aconpy, Genio Contable ni Errepar.",
+   "Tarea angosta como producto: preparar la recategorización del monotributo de enero y julio para todos los clientes del estudio a partir de lo facturado en ARCA. Ojo: es vecina del control de vencimientos que Facu no eligió.",
+   "Otro cliente: contadores de productores agropecuarios, donde Facu conoce los papeles por CEMEVA, por ejemplo ordenar liquidaciones de granos y retenciones para el contador."
+  ],
+  "puntuacion": 6.0,
+  "por_que_puntuacion": "Baja respecto de 7,0 porque aparecieron 4 competidores argentinos y varias tareas obvias ya las descartó Facu. Sube su valor si las entrevistas encuentran una tarea angosta sin dueño.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 0 a 50 (estimación: las entrevistas cuestan tiempo y algún café)",
+  "primer_paso": "Entrevistar a 10 contadores, empezando por el contador de CEMEVA, y anotar cada tarea mensual repetida con cuántas horas lleva.",
+  "riesgo_principal": "Que el software contable que ya usan meta la misma función gratis, y que un error de la IA en un impuesto genere responsabilidad.",
+  "agrupar_con": ["M058", "M030", "M065"]
+ },
+ {
+  "n": "M053",
+  "opinion": "Es el oficio de Facu, pero como negocio es flojo: los diagramas de procesos se venden baratos en Fiverr y el valor está en ir a relevar en persona. Es servicio y paga poco. Facu no dejó comentario. Sirve más como herramienta para vender otra cosa, por ejemplo la idea de stock, que como negocio propio.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "Usar el diagrama como gancho gratis: relevar el proceso de depósito de una PyME y mostrarle dónde pierde stock, para venderle después el producto de stock.",
+   "Plantillas de procesos estándar para un solo rubro, por ejemplo acopios de granos, vendidas como paquete igual para todos.",
+   "Aliarse con consultores ISO que no quieren dibujar y cobrarles por paquete de procesos."
+  ],
+  "puntuacion": 4.6,
+  "por_que_puntuacion": "Baja respecto de 6,3 porque es servicio a medida con precio anclado muy bajo y no construye producto global, que es lo que Facu pidió.",
+  "tema": "Agro e industria",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 20 (estimación: draw.io es gratis)",
+  "primer_paso": "Diagramar el proceso de recepción de granos de CEMEVA y usarlo como muestra.",
+  "riesgo_principal": "Que se convierta en horas vendidas baratas sin activo propio.",
+  "agrupar_con": ["M030", "M065"]
+ },
+ {
+  "n": "M058",
+  "opinion": "La idea es producto global: el mismo conector sirve para todos los que usan ese sistema. Pero ya apareció un conector de Colppy hecho por terceros, así que el hueco en Colppy se está cerrando. Para Tango y Xubio no encontré nada, pero tampoco confirmé que tengan una puerta abierta para conectarse. Hay que tener en cuenta que Facu no eligió antes vender conectores en marketplaces ni un servidor propio cobrado por uso, así que el modelo de cobro tiene que ser otro. Además requiere código que Facu no puede revisar, y maneja datos fiscales.",
+  "hallazgos": "Existe mcp-colppy, un conector de terceros, de codespar, que conecta Claude con Colppy usando la clave de la API de Colppy [https://www.getdrio.com/mcp/io-github-codespar-mcp-colppy]. No dice si Colppy lo mantiene. Para Xubio no encontré conector. Para Tango Gestión de Axoft no encontré documentación de una API pública; los resultados eran de otros productos llamados Tango, así que queda no verificado. Consultado 2026-10-23.",
+  "variantes": [
+   "Empezar por Tango, que no tiene conector a la vista: primero confirmar con Axoft o un revendedor si hay forma oficial de leer los datos.",
+   "Vender el conector incluido en otro producto, por ejemplo el de stock, en vez de venderlo suelto, para no depender de marketplaces que Facu ya no eligió.",
+   "Ofrecerlo a los revendedores de Tango, que tienen la cartera de clientes, como un agregado que ellos instalan."
+  ],
+  "puntuacion": 5.2,
+  "por_que_puntuacion": "Baja respecto de 6,2 porque Colppy ya tiene conector de terceros y en Tango no se confirmó que haya API. Sigue siendo producto, pero técnico y con datos sensibles.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Alta",
+  "plata_para_probar": "USD 0 a 50 (estimación: es tiempo de averiguar)",
+  "primer_paso": "Escribirle a Axoft y a 2 revendedores de Tango para preguntar si hay API o web services y qué cuesta usarla.",
+  "riesgo_principal": "Que el fabricante saque su propio conector oficial y deje sin lugar al de Facu.",
+  "agrupar_con": ["M034", "M014", "M026"]
+ },
+ {
+  "n": "M065",
+  "opinion": "El diagnóstico es correcto: sin datos ordenados la IA sirve poco. Pero vender orden de datos solo es difícil, porque nadie busca eso; busca el resultado. Es servicio a medida por empresa. Facu no dejó comentario. Tiene sentido como el primer paso obligatorio de otro producto.",
+  "hallazgos": "Sin búsqueda nueva: se usó lo verificado antes.",
+  "variantes": [
+   "Meterlo como la puesta en marcha paga de la idea de stock: ordenar el maestro de piezas es el paso uno del producto.",
+   "Plantilla fija de maestro de productos y clientes para un rubro, con un revisor automático que marca nombres repetidos y errores, igual para todos.",
+   "Venderlo a contadores para que sus clientes les manden los datos ya ordenados."
+  ],
+  "puntuacion": 4.5,
+  "por_que_puntuacion": "Baja respecto de 6,0 porque la demanda directa tiene evidencia débil y es servicio a medida, lo opuesto a lo que Facu pidió.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Servicio con personas",
+  "etapa": "Combinar con otra",
+  "dificultad": "Baja",
+  "plata_para_probar": "USD 0 a 30 (estimación: tiempo y planillas)",
+  "primer_paso": "Ordenar el maestro de productos o clientes de CEMEVA y medir cuántos errores y duplicados tenía.",
+  "riesgo_principal": "Que nadie pague por orden de datos si no ve un resultado concreto atrás.",
+  "agrupar_con": ["M030", "M053", "M034"]
+ },
+ {
+  "n": "M081",
+  "opinion": "Es un rubro que adopta IA rápido, pero eso también atrae a muchos. Los portales y CRM grandes van a meter la IA adentro de su producto, y ya hay startups como Mirando.ai. Facu ya no eligió el curso para inmobiliarias, los bots que califican interesados y varias ideas de video y fotos para inmobiliarias. Lo que queda del kit se parece mucho a eso. No usa ninguna ventaja de Facu.",
+  "hallazgos": "Según una nota de Mercado, Zonaprop incorporó el CRM Tokko Broker en 2018 y proyecta sumar IA para búsqueda y gestión comercial; es un plan, sin fecha [https://mercado.com.ar/ruta-digital/zonaprop-amplio-su-base-a-mas-de-11-000-clientes-en-una-decada]. Mirando.ai, fundada por dos ex empleados de Meta, dice tener decenas de inmobiliarias y cientos de corredores en Uruguay y Argentina [https://www.iprofesional.com/realestate/457556-dejaron-meta-fundaron-una-startup-de-ia-y-ahora-buscan-transformar-el-real-estate]. Bullano lanzó un buscador de propiedades con IA [https://www.iprofesional.com/realestate/438086-inedito-lanzan-primer-buscador-argentino-propiedades-con-inteligencia-artificial]. Las fechas de iProfesional no coinciden entre encabezado y texto. Consultado 2026-10-23.",
+  "variantes": [
+   "Tasaciones comparativas automáticas como producto único, vendidas por informe. Ojo: la tasación a mano ya apareció como repetida de esta misma idea.",
+   "Otro cliente: administradores de consorcios en vez de inmobiliarias, con un producto fijo para liquidar expensas. No verificado si hay hueco.",
+   "Unirla con la ficha del edificio: la inmobiliaria paga por mostrar sus propiedades con reseñas verificadas."
+  ],
+  "puntuacion": 4.2,
+  "por_que_puntuacion": "Baja respecto de 5,8 porque aparecieron más competidores con IA y casi todas las variantes se parecen a ideas de inmobiliarias que Facu ya no eligió.",
+  "tema": "Software e IA para PyMEs",
+  "tipo": "Producto web o app",
+  "etapa": "Pausar por ahora",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 80 (estimación: landing y pruebas con 3 inmobiliarias)",
+  "primer_paso": "Preguntarle a 3 inmobiliarias qué herramienta de IA usan hoy y qué les falta.",
+  "riesgo_principal": "Que Zonaprop, Tokko u otro portal meta lo mismo gratis dentro de su sistema.",
+  "agrupar_con": ["M092"]
+ },
+ {
+  "n": "M088",
+  "opinion": "Es una idea de datos con una ventaja clara: usa datos abiertos que ya existen y Claude puede cruzarlos. El problema es que el Estado ya regala una versión, en Córdoba y en CABA, y las consultoras grandes de geomarketing atienden a las franquicias grandes. El hueco que queda es el informe barato para el emprendedor chico, que es quien menos paga. Facu la marcó como interesante sin comentario. Se puede probar muy barato con el experimento de los 10 informes.",
+  "hallazgos": "La búsqueda nueva no encontró una startup argentina de informes por cuadra para franquicias. En el buscador aparecieron consultoras de geomarketing como Sossen y Servinformación, que trabajan a medida. No abrí sus páginas, así que su oferta y precios quedan no verificados. Una nota de Mercado trata el tema de cómo cambia el consumo por zona [https://mercado.com.ar/revista/numero-1062/dime-donde-vives-y-te-dire-que-compras-cuanto-gastas-a-que-hora-en-que-vereda/]. Consultado 2026-10-23.",
+  "variantes": [
+   "La idea tal cual, empezando por el experimento ya propuesto: 10 informes de cuadras de CABA a USD 15 en grupos de emprendedores gastronómicos.",
+   "Otro cliente: el dueño del local vacío paga para que su aviso diga qué rubros funcionarían ahí, con el informe como argumento de venta.",
+   "Otro país o ciudad: replicar en ciudades del interior que no tienen un mapa oficial como Córdoba o CABA. No verificado cuáles tienen datos abiertos suficientes."
+  ],
+  "puntuacion": 5.6,
+  "por_que_puntuacion": "Queda casi igual que 5,7: es barato de probar y producto global, pero el Estado regala una parte y el cliente que queda libre paga poco.",
+  "tema": "Otro",
+  "tipo": "Datos o información",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 60 (estimación: datos abiertos gratis, landing y algún aviso)",
+  "primer_paso": "Armar con Claude 3 informes de cuadras reales con datos abiertos de CABA y ofrecerlos a USD 15 en 3 grupos de emprendedores.",
+  "riesgo_principal": "Que los datos abiertos estén viejos o incompletos y el informe no sea mejor que el mapa gratis del Estado.",
+  "agrupar_con": ["M092", "GIM-N107"]
+ },
+ {
+  "n": "M092",
+  "opinion": "Es la idea con el hueco más claro de este lote: no encontré nada en Argentina donde los inquilinos califiquen edificios o propietarios. Conecta dos partes, que a Facu le gusta, y se puede probar con un formulario. Los problemas son dos. Primero, el lado que paga, inmobiliarias y propietarios, no tiene ganas de pagar por ser calificado. Segundo, hay riesgo legal por reseñas negativas de personas identificables. Facu la marcó como interesante sin comentario.",
+  "hallazgos": "Una búsqueda nueva no encontró ninguna app argentina para que los inquilinos califiquen propietarios o edificios. Rents es un software de gestión de alquileres para propietarios en Argentina, sin reseñas públicas [https://www.capterra.co.uk/software/1110826/Rents]. Apareció Apartment Insights, un proyecto de una competencia de Google con reseñas de inquilinos; no dice que funcione en Argentina [https://ai.google.dev/competition/projects/apartment-insights?hl=es-419]. Consultado 2026-10-23.",
+  "variantes": [
+   "La idea tal cual, empezando por el experimento ya propuesto: formulario para calificar tu alquiler en 10 grupos de inquilinos, con meta de 150 reseñas verificadas en 2 semanas.",
+   "Calificar solo el edificio y no al propietario: humedad, ruidos, ascensor, seguridad. Baja el riesgo legal y sirve igual al que va a alquilar.",
+   "Otro cobro: que pague el inquilino por un informe completo del edificio antes de firmar, en vez de cobrarle a las inmobiliarias."
+  ],
+  "puntuacion": 5.9,
+  "por_que_puntuacion": "Sube un poco desde 5,6 porque la búsqueda nueva confirma que el hueco sigue. No sube más porque el que debería pagar no quiere y el riesgo legal es real.",
+  "tema": "Hogar, obra y barrio",
+  "tipo": "Marketplace o intermediario",
+  "etapa": "Probar barato",
+  "dificultad": "Media",
+  "plata_para_probar": "USD 20 a 50 (estimación: Tally gratis y una landing)",
+  "primer_paso": "Publicar un formulario de 5 preguntas sobre el edificio en 5 grupos de inquilinos de CABA y contar cuántas reseñas llegan en una semana.",
+  "riesgo_principal": "Demandas o pedidos de baja por reseñas negativas, y que nadie del lado de los propietarios quiera pagar.",
+  "agrupar_con": ["M088", "GIM-N107", "M081"]
+ }
+]

@@ -1,0 +1,448 @@
+[
+ {
+  "n": "M035",
+  "quien_lo_intento": "No encontré a nadie en Argentina que haya lanzado una calculadora de punto de pedido con inflación como negocio. Busqué \"punto de pedido calculadora inflación pesos PyME Argentina\". Lo más cercano es contenido gratis: Hacecuentas tiene una calculadora de stock de seguridad y punto de reposición [https://hacecuentas.com/calculadora-stock-seguridad-punto-reposicion]. El blog de Base propone sumar un \"ajuste inflacionario\" a la fórmula del punto de reposición, como guía y no como herramienta [https://base.com/es-AR/blog/stock-en-argentina/]. Consultas del 2026-10-23.",
+  "competencia": "Calculadoras genéricas gratis en español: Miniwebtool, MetricGate, Qoblex, ya vistas en la primera pasada. En Argentina, Hacecuentas es gratis y no vi que tome la inflación [https://hacecuentas.com/calculadora-stock-seguridad-punto-reposicion]. Cervecería y Maltería Quilmes, en su programa Conectar PyMEs, enseña a calcular el punto de pedido a mano en Excel [https://www.cerveceriaymalteriaquilmes.com/wp-content/themes/quilmes_2020/pdf/CONECTAR PyMEs - Inventarios.pdf]. Hueco: nadie junta la fórmula, la inflación esperada y el plazo del proveedor para todos los artículos de una vez. Consultas del 2026-10-23.",
+  "regulacion": "No aplica.",
+  "numeros": "La calculadora no cobra. Estimación: cuesta USD 0 a 20 por mes alojarla en Cloudflare o una planilla compartida. Su valor se mide en contactos. Estimación: si 1 de cada 20 que dejan el mail pide el diagnóstico de L9 y ese diagnóstico se cobra USD 100 a 300, hacen falta unas 60 a 100 descargas para cerrar 3 a 5 diagnósticos. Razonamiento: tasas de conversión de imanes de contenido B2B chicos, sin dato argentino verificado.",
+  "mercado": "Sin dato de cuántas distribuidoras o PyMEs comerciales buscan esto. No consulté el volumen de búsquedas en Google: no verificado.",
+  "variante_recomendada": "No la trataría como idea propia. Probaría la planilla descargable que calcula el punto de pedido con inflación para todos los artículos a la vez, a cambio del mail, y que termine en una oferta de diagnóstico de stock de L9. Es el imán de clientes del territorio stock, no un negocio aparte.",
+  "entrevistar_a": [
+   "Encargados de compras de distribuidoras mayoristas de alimentos o ferretería, en la zona de Facu y en grupos de LinkedIn de compras y abastecimiento.",
+   "Dueños de corralones y ferreterías con 500 artículos o más, visitándolos en persona.",
+   "Contadores que asesoran PyMEs comerciales y ven cuánto capital tienen inmovilizado en stock."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo decidiste la última compra grande que le hiciste a un proveedor?",
+   "¿Cuándo fue la última vez que te quedaste sin un artículo que vendés seguido y qué pasó?",
+   "¿Cómo tenés en cuenta hoy la suba de precios cuando hacés un pedido?",
+   "¿Qué planilla o sistema usás para saber cuándo reponer y quién lo mantiene?",
+   "¿Pagaste alguna vez a alguien para que te ordene el stock o las compras? ¿Cuánto?"
+  ],
+  "experimento": {
+   "hipotesis": "Las PyMEs comerciales dejan su mail a cambio de una planilla de punto de pedido con inflación y algunas piden el diagnóstico.",
+   "prediccion": "De 40 dueños o compradores contactados, 12 bajan la planilla y 2 piden el diagnóstico.",
+   "perdida_maxima": "USD 40",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar con Claude la planilla con fórmula, inflación esperada y plazo de proveedor.",
+    "Mandarla por WhatsApp y LinkedIn a 40 contactos de distribuidoras y comercios.",
+    "Ofrecer al final un diagnóstico de stock con fecha y precio.",
+    "Contar descargas, uso real y pedidos de diagnóstico."
+   ],
+   "sigue_si": "Al menos 10 la bajan y 2 piden el diagnóstico.",
+   "se_corta_si": "Menos de 5 la bajan o nadie pide el diagnóstico."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "La bajo porque sola no es negocio y ya hay calculadoras gratis, incluso argentinas. Solo vale como imán de L9.",
+  "veredicto": "Probar si se combina con L9, porque como herramienta suelta no genera plata y es fácil de copiar.",
+  "fuentes": [
+   "https://hacecuentas.com/calculadora-stock-seguridad-punto-reposicion",
+   "https://base.com/es-AR/blog/stock-en-argentina/",
+   "https://www.cerveceriaymalteriaquilmes.com/wp-content/themes/quilmes_2020/pdf/CONECTAR PyMEs - Inventarios.pdf",
+   "https://www.eseade.edu.ar/wp-content/uploads/2023/11/Santos-Robson-dos.-La-influencia-del-escenario-inflacionario-en-la-gestion-de-stocks-de-las-empresas-brasilenas-y-argentinas-compressed.pdf"
+  ]
+ },
+ {
+  "n": "M024",
+  "quien_lo_intento": "No encontré una startup argentina de control de vencimientos para dietéticas o almacenes. Busqué \"dietéticas Argentina sistema stock vencimientos software\" y \"sistema para dietéticas Argentina vencimientos lotes\". Lo único cercano fue enPeso, un software de San Juan para nutricionistas, sin módulo de stock visible [https://gust.com/companies/enpeso]. Consultas del 2026-10-23.",
+  "competencia": "Control Comercio dice operar en Argentina con control de vencimientos, ya visto en la primera pasada; precio argentino no verificado. No encontré precios de sistemas para dietéticas. Hueco probable: la carga de lotes. Las dietéticas grandes manejan muchos productos; una de Liniers relevada por Canal 26 tenía más de 3.000 [https://www.canal26.com/bienestar-y-salud/2025/10/14/precios-en-las-dieteticas-que-comemos-los-argentinos-y-cuanto-cuestan-los-frutos-secos-semillas-y-cereales/]. Cargar a mano el vencimiento de cada lote en ese volumen es lo que hace que se abandone. Consultas del 2026-10-23.",
+  "regulacion": "Los alimentos y suplementos dietéticos los controlan ANMAT y SENASA, según una consultora [https://www.freyrsolutions.com/es/food-supplements/food-and-dietary-supplements-registration-in-argentina]. Vender vencido está prohibido por el Código Alimentario, pero no leí el artículo en la fuente: no verificado. No hay norma que obligue al comercio a usar un sistema.",
+  "numeros": "Estimación: abono de USD 10 a 20 por mes. Razonamiento: es lo que puede pagar un comercio chico por un módulo, comparando con apps de gestión de comercio. Costo por cliente con lectura de foto por IA: estimación USD 1 a 3 por mes. El margen es alto, pero el ticket es tan bajo que hacen falta cientos de clientes para vivir de esto.",
+  "mercado": "Sin dato oficial de cantidad de dietéticas en Argentina. No lo encontré en INDEC ni en cámaras.",
+  "variante_recomendada": "La carga por foto: el empleado fotografía la etiqueta al recibir la mercadería y la IA anota la fecha y el lote. Solo la probaría como módulo de la idea integral de stock, no sola. Ojo: C9, mermas y vencimientos para almacenes, Facu no la eligió, y esta variante se le parece mucho.",
+  "entrevistar_a": [
+   "Dueños de dietéticas de barrio con más de 1.000 productos, en persona en la zona de Facu.",
+   "Encargados de depósito de distribuidoras de productos naturales que abastecen dietéticas.",
+   "Dueños de almacenes o autoservicios con fiambrería y lácteos."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuánta mercadería tiraste el mes pasado por vencida y cómo lo sabés?",
+   "¿Cómo te enterás hoy de que algo está por vencer?",
+   "¿Quién revisa las fechas y cada cuánto lo hace?",
+   "¿Probaste algún sistema o planilla para esto? ¿Por qué lo dejaste o lo seguís usando?",
+   "¿Qué hacés con lo que está por vencer: lo rematás, lo devolvés al proveedor o lo tirás?"
+  ],
+  "experimento": {
+   "hipotesis": "Una dietética tira suficiente mercadería por vencimiento como para pagar un control por foto.",
+   "prediccion": "De 10 dietéticas, 6 dicen tirar más de USD 50 por mes y 2 aceptan probar un mes con carga por foto.",
+   "perdida_maxima": "USD 30",
+   "duracion": "2 semanas",
+   "pasos": [
+    "Visitar 10 dietéticas con las 5 preguntas.",
+    "Anotar cuánto tiran por mes y qué usan hoy.",
+    "Ofrecer a las 2 más interesadas un mes de alertas armadas a mano con fotos por WhatsApp."
+   ],
+   "sigue_si": "Al menos 5 tiran más de USD 50 por mes y 2 mandan fotos durante 4 semanas.",
+   "se_corta_si": "La mayoría tira poco o ninguna sigue mandando fotos después de la primera semana."
+  },
+  "puntuacion_revisada": 5.0,
+  "por_que_revisada": "La bajo porque se parece mucho a C9, que Facu no eligió, el ticket es bajo y ya hay sistemas de comercio con esa función.",
+  "veredicto": "No conviene sola, porque su único valor es como módulo de la idea integral de stock.",
+  "fuentes": [
+   "https://gust.com/companies/enpeso",
+   "https://www.canal26.com/bienestar-y-salud/2025/10/14/precios-en-las-dieteticas-que-comemos-los-argentinos-y-cuanto-cuestan-los-frutos-secos-semillas-y-cereales/",
+   "https://www.freyrsolutions.com/es/food-supplements/food-and-dietary-supplements-registration-in-argentina"
+  ]
+ },
+ {
+  "n": "M033",
+  "quien_lo_intento": "No encontré a nadie en Argentina con software de rastreo de barriles. Busqué \"cervecerías artesanales barriles perdidos robo bares Argentina\". Sí apareció el problema: en 2020 el presidente de la Cámara de Cerveceros Artesanales dijo que había gente que vendía barriles que no eran suyos y que tenían que avisar a los remates [https://www.diariouno.com.ar/economia/cuarentena-cierran-4-10-cervecerias-artesanales-06162020_uXTJURbHB]. En mayo de 2026 cerró El Refugio, de Mar del Plata, y sus instalaciones se remataron; la cámara habló de una caída del 30% en dos años [https://www.canal26.com/economia/2026/05/11/fin-de-una-era-cierra-una-emblematica-cerveceria-de-mar-del-plata-y-sus-instalaciones-fueron-puestas-a-remate/]. Consultas del 2026-10-23.",
+  "competencia": "Kegshoe, de afuera, arranca en USD 40 por mes según el tamaño de la flota, con etiquetas incluidas [https://www.capterra.es/software/176445/kegshoe-keg-tracking]. Odoo y BrewPlanner, ya vistos en la primera pasada, no se enfocan en barriles en Argentina. Hueco: nada local, en pesos y por WhatsApp. Consultas del 2026-10-23.",
+  "regulacion": "No aplica para el rastreo de barriles. Los lotes de bebidas tienen exigencias del Código Alimentario: no verificado en la fuente.",
+  "numeros": "Ticket de referencia: USD 40 por mes, el piso de Kegshoe. Estimación para Argentina: USD 15 a 30 por mes, por la crisis del sector. Costo: etiquetas QR por barril a centavos de dólar y app no-code. Estimación de valor: si un barril de acero vale USD 100 a 150 y se pierden 5 por año, son USD 500 a 750 perdidos; no verifiqué el precio del barril en Argentina.",
+  "mercado": "Unas 2.500 fábricas de cerveza artesanal, cifra citada por la cámara y ligada a un relevamiento de 2022 [https://www.perfil.com/noticias/economia/argentina-lidera-la-produccion-artesanal-de-cervezas-en-latinoamerica.phtml]. Relevamiento de 102 cervecerías de la CCAA publicado el 2026-07-30: 7 de cada 10 producen menos de 10.000 litros por mes, el 74% tiene siete personas o menos y el 75% vende sin distribuidores [https://www.vinetur.com/amp/20260730105048/el-75-de-las-cervecerias-artesanales-argentinas-vende-sin-distribuidores.html]. Es un sector chico y en caída.",
+  "variante_recomendada": "Sacar los lotes y quedarse con el rastreo de envases retornables en general: barriles, cajones, garrafas, pallets y bins prestados a clientes, con QR y foto al entregar y retirar. Así el nicho deja de ser solo cervecerías en crisis y se conecta con la familia de activos que se pierden. La versión de Facu, meter todo en un paquete sanitario, la veo peor porque suma papeles y achica el foco.",
+  "entrevistar_a": [
+   "Dueños de cervecerías artesanales que venden barril a bares, ubicados por la CCAA o por Instagram.",
+   "Distribuidores de sifones, agua en bidones o garrafas que prestan envases.",
+   "Dueños de bares con canillas de cerveza artesanal."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuántos barriles tenés y cuántos tenías hace un año?",
+   "¿Cuál fue el último barril que no volvió y qué hiciste?",
+   "¿Cómo anotás hoy qué barril está en qué bar?",
+   "¿Cobrás algún depósito por el barril? ¿Por qué sí o por qué no?",
+   "¿Cuánto te sale reponer un barril perdido?"
+  ],
+  "experimento": {
+   "hipotesis": "Las cervecerías que venden a bares pierden suficientes barriles como para pagar un rastreo simple.",
+   "prediccion": "De 10 cervecerías, 6 perdieron al menos 3 barriles en el último año y 2 aceptan probar QR por un mes.",
+   "perdida_maxima": "USD 60",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Llamar a 10 cervecerías que venden barril a bares.",
+    "Preguntar barriles perdidos y valor de cada uno.",
+    "A las 2 más interesadas, pegarles QR y armar una planilla con foto por WhatsApp durante un mes."
+   ],
+   "sigue_si": "Al menos 6 perdieron 3 o más barriles y una paga el segundo mes.",
+   "se_corta_si": "Pierden menos de 2 por año o nadie usa el QR en la prueba."
+  },
+  "puntuacion_revisada": 5.2,
+  "por_que_revisada": "La bajo porque el sector es chico, está en caída según la propia cámara y el valor anual perdido por cervecería parece bajo.",
+  "veredicto": "Probar si se amplía a todos los envases retornables, porque solo para cervecerías el mercado no alcanza.",
+  "fuentes": [
+   "https://www.diariouno.com.ar/economia/cuarentena-cierran-4-10-cervecerias-artesanales-06162020_uXTJURbHB",
+   "https://www.canal26.com/economia/2026/05/11/fin-de-una-era-cierra-una-emblematica-cerveceria-de-mar-del-plata-y-sus-instalaciones-fueron-puestas-a-remate/",
+   "https://www.capterra.es/software/176445/kegshoe-keg-tracking",
+   "https://www.perfil.com/noticias/economia/argentina-lidera-la-produccion-artesanal-de-cervezas-en-latinoamerica.phtml",
+   "https://www.vinetur.com/amp/20260730105048/el-75-de-las-cervecerias-artesanales-argentinas-vende-sin-distribuidores.html"
+  ]
+ },
+ {
+  "n": "M028",
+  "quien_lo_intento": "No encontré una startup argentina de fiado de almacén. Busqué \"app fiado almacén Argentina startup libreta digital\". Fiado App es una fintech de microcréditos de El Salvador, no una libreta [https://www.cbinsights.com/compare/fiado-app-vs-waynimvil]. Treinta, de Latinoamérica, es una libreta digital con registro de deudas y envío de comprobantes por WhatsApp, y tiene ficha en la tienda de Apple de Argentina; no verifiqué cuántos usuarios tiene acá [https://www.promptloop.com/directory/what-does-treinta-do] [https://apps.apple.com/pe/app/app/id1644703591]. Consultas del 2026-10-23.",
+  "competencia": "Treinta: gratis en su versión base, con fiados y recordatorios; datos de usuarios contradictorios entre fuentes [https://www.promptloop.com/directory/what-does-treinta-do]. Mis Fiados, app en español de país no verificado, ya vista. La libreta de papel es gratis y cultural [https://www.lagaceta.com.ar/nota/1108492/la-gaceta-literaria/libreta-almacenero.html]. Hueco: ninguna ajusta el fiado por inflación ni cobra con link. Consultas del 2026-10-23.",
+  "regulacion": "Si la app solo anota y manda un link de pago, no hay norma específica. Si cobra intereses o ajuste al cliente del almacén, puede entrar en Defensa del Consumidor y tasas de financiación: no verificado. Si presta plata, pasa a ser proveedor de crédito y queda bajo el Banco Central: no verificado en la fuente.",
+  "numeros": "Tarifas de Link de Pago de Mercado Pago publicadas por Tiendanube: 1,79% más IVA a 35 días, 3,39% a 18 días, 4,29% a 10 días y 6,39% al instante [https://www.tiendanube.com/blog/que-tarjetas-acepta-mercado-pago]. No verifiqué que sigan vigentes en 2026; otra guía dice 2,99% [https://yo-facturo.com/blog/que-es-un-link-de-pago-como-usarlo-para-vender-2026/]. Estimación: abono de USD 3 a 8 por mes. Razonamiento: el almacenero compara con la libreta gratis y con Treinta gratis. Costo por almacén: bajo, pero mandar mensajes por la API de WhatsApp cuesta por conversación y no lo verifiqué.",
+  "mercado": "Sin cifra oficial de almacenes. NielsenIQ dice que el canal tradicional, sobre todo almacenes, concentra el 34% del consumo masivo y que los almacenes crecieron 8% en el último bimestre de 2025 [https://mercado.com.ar/tendencias/autoservicios-y-almacenes-ganan-traccion-en-el-consumo-masivo-durante-2025]. El canal es enorme, pero no sé cuántos dan fiado.",
+  "variante_recomendada": "La de venderle a la distribuidora mayorista: le da la libreta gratis a sus almacenes y paga por ver qué almacenes cobran bien su fiado, como señal de riesgo. Así el que paga tiene plata y un motivo, y no el almacenero que tiene la libreta gratis. La versión con ajuste por inflación es buena como función, pero no como negocio solo.",
+  "entrevistar_a": [
+   "Almaceneros de barrio que fían, en persona, en la zona de Facu y en barrios populares.",
+   "Gerentes comerciales o de cobranzas de distribuidoras mayoristas que venden a almacenes.",
+   "Preventistas que visitan almacenes y conocen quién paga y quién no."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuánta plata tenés hoy anotada en fiado?",
+   "¿Cuál fue la última deuda que no cobraste y qué pasó?",
+   "¿Cómo le recordás al cliente que te debe?",
+   "¿Ajustás lo que te deben cuando suben los precios? ¿Cómo?",
+   "A la distribuidora: ¿cómo decidís hoy a qué almacén le das plazo de pago y cuánto perdiste el último año por almacenes que no pagaron?"
+  ],
+  "experimento": {
+   "hipotesis": "Los almaceneros tienen fiado suficiente como para usar un recordatorio con link si es simple, y las distribuidoras pagarían por esa información.",
+   "prediccion": "De 10 almacenes, 7 tienen más de USD 200 en fiado y 3 usan los recordatorios durante 4 semanas.",
+   "perdida_maxima": "USD 50",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Visitar 10 almacenes con las preguntas.",
+    "A 3 de ellos, pasarles la libreta a una planilla y mandar recordatorios con link de pago a mano por WhatsApp.",
+    "Medir cuánto fiado se cobró antes y después.",
+    "Llevar el resultado a 2 distribuidoras y preguntar cómo deciden el crédito hoy."
+   ],
+   "sigue_si": "Al menos 3 almacenes siguen usando el recordatorio y cobran más rápido.",
+   "se_corta_si": "Ninguno quiere pasar la libreta o los clientes se enojan con los recordatorios."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "La bajo porque la libreta digital ya existe gratis con Treinta y el almacenero no paga. Solo se sostiene si paga la distribuidora, y eso no está probado.",
+  "veredicto": "Probar si la distribuidora es el cliente, porque cobrarle al almacenero por una libreta compite contra lo gratis.",
+  "fuentes": [
+   "https://www.cbinsights.com/compare/fiado-app-vs-waynimvil",
+   "https://www.promptloop.com/directory/what-does-treinta-do",
+   "https://apps.apple.com/pe/app/app/id1644703591",
+   "https://www.lagaceta.com.ar/nota/1108492/la-gaceta-literaria/libreta-almacenero.html",
+   "https://www.tiendanube.com/blog/que-tarjetas-acepta-mercado-pago",
+   "https://yo-facturo.com/blog/que-es-un-link-de-pago-como-usarlo-para-vender-2026/",
+   "https://mercado.com.ar/tendencias/autoservicios-y-almacenes-ganan-traccion-en-el-consumo-masivo-durante-2025"
+  ]
+ },
+ {
+  "n": "M055",
+  "quien_lo_intento": "No encontré una plataforma privada argentina que arme y siga reclamos contra prepagas. La primera pasada tampoco. Lo que hay son guías como Mi Obra Social [https://www.miobrasocial.com.ar/blog/reclamos-denuncias-obra-social-prepaga/] y estudios de abogados. Consultas del 2026-10-23.",
+  "competencia": "La Superintendencia tiene canales gratis, como el trámite por aumento indebido de cuota [https://www.argentina.gob.ar/servicio/reclamar-por-aumento-indebido-de-cuota]. Defensorías públicas y abogados particulares, ya vistos. Hueco: armar bien la nota, presentarla y seguir los plazos; nadie lo vende como producto. Consultas del 2026-10-23.",
+  "regulacion": "La Resolución 951/2026 de la Superintendencia salió en el Boletín Oficial el 2026-05-28. Fija que la obra social o prepaga tiene 5 días hábiles para responder una denuncia. Los plazos pueden acortarse si hay urgencia, riesgo de vida, continuidad de tratamiento o discapacidad. Crea la Intimación de Cumplimiento Regulatorio. El texto principal no fija plazo para que la Superintendencia resuelva ni dice si hace falta abogado; eso puede estar en el Anexo I, que no pude leer [https://www.boletinoficial.gob.ar/detalleAviso/primera/342494/20260528]. Los datos de salud son sensibles según la Ley 25.326: no releí la ley hoy. Que un tercero presente por el afiliado y si eso es ejercicio de la abogacía: no verificado.",
+  "numeros": "Estimación: fee fijo de USD 15 a 30 por reclamo armado y seguido. Razonamiento: Claimable cobra USD 39,95 en EE.UU., según la ficha; en Argentina hay que competir con el canal gratis. Costo por caso: IA casi cero, más 30 a 60 minutos de revisión humana. Derivación a abogado para amparo: no verifiqué cuánto pagaría un estudio por un caso listo.",
+  "mercado": "Sin cifra oficial de reclamos a la Superintendencia en 2025. Según una nota de 2024, los amparos subieron 40% y la conflictividad entre 30 y 40% respecto de 2023, citando al Colegio de Abogados [https://www.diariojornada.com.ar/382231/economia/recrudecen_conflictos_entre_afiliados_y_prepagas_por_las_prestaciones]. La Superintendencia demandó en 2024 a 24 prepagas que reúnen al 90% de los afiliados por aumentos [https://www.iprofesional.com/actualidad/404777-que-prepagas-desafian-al-gobierno-y-se-niegan-a-devolver-los-aumentos].",
+  "variante_recomendada": "Recortar a discapacidad y venderle a dos puntas: la familia paga poco por la nota y el seguimiento, y el estudio de abogados de salud recibe el legajo listo cuando hace falta amparo. Discapacidad tiene plazos acortados en la nueva resolución y reclamos todo el año. Arrancar con un abogado aliado que firme y revise.",
+  "entrevistar_a": [
+   "Madres y padres de chicos con discapacidad que reclaman terapias, en grupos de Facebook y asociaciones de padres.",
+   "Abogados de derecho a la salud que hacen amparos, en LinkedIn y en el Colegio de Abogados.",
+   "Acompañantes terapéuticos y prestadores que cobran tarde porque la obra social no autoriza."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuál fue la última negativa de la obra social o prepaga y qué hiciste después?",
+   "¿Cuánto tiempo te llevó desde la negativa hasta que te cubrieron o desististe?",
+   "¿Presentaste algo en la Superintendencia? ¿Cómo te fue?",
+   "¿Pagaste a un abogado o gestor por esto? ¿Cuánto y cómo lo conseguiste?",
+   "Al abogado: ¿cuántas horas te lleva armar un legajo de amparo de salud y cuántos casos rechazás por falta de tiempo?"
+  ],
+  "experimento": {
+   "hipotesis": "Familias con negativas de cobertura pagan un fee chico por una nota bien armada y seguida, y una parte se resuelve sin juicio.",
+   "prediccion": "De 10 reclamos armados, 4 se resuelven a favor sin amparo y 3 familias pagarían USD 20 por el siguiente.",
+   "perdida_maxima": "USD 100",
+   "duracion": "6 semanas",
+   "pasos": [
+    "Conseguir un abogado de salud que revise las notas.",
+    "Armar gratis 10 reclamos reales de conocidos y de grupos de padres.",
+    "Presentar y seguir los plazos de 5 días hábiles.",
+    "Al final, cobrar el siguiente caso a quien quiera."
+   ],
+   "sigue_si": "Al menos 3 se resuelven y 2 personas pagan el siguiente o lo recomiendan a otro que paga.",
+   "se_corta_si": "Ninguno se resuelve sin amparo o el abogado advierte riesgo legal serio."
+  },
+  "puntuacion_revisada": 6.0,
+  "por_que_revisada": "La mantengo casi igual. Hay demanda y una norma nueva con plazos cortos, pero el canal gratis del Estado y el riesgo de ejercer como abogado frenan.",
+  "veredicto": "Probar si se consigue un abogado aliado desde el primer día, porque sin él el riesgo legal y de confianza es demasiado alto.",
+  "fuentes": [
+   "https://www.miobrasocial.com.ar/blog/reclamos-denuncias-obra-social-prepaga/",
+   "https://www.argentina.gob.ar/servicio/reclamar-por-aumento-indebido-de-cuota",
+   "https://www.boletinoficial.gob.ar/detalleAviso/primera/342494/20260528",
+   "https://aldiaargentina.microjuris.com/2026/05/28/legislacion-la-superintendencia-de-servicios-de-salud-endurece-controles-nuevo-sistema-de-intimaciones-y-sanciones/",
+   "https://www.diariojornada.com.ar/382231/economia/recrudecen_conflictos_entre_afiliados_y_prepagas_por_las_prestaciones",
+   "https://www.iprofesional.com/actualidad/404777-que-prepagas-desafian-al-gobierno-y-se-niegan-a-devolver-los-aumentos"
+  ]
+ },
+ {
+  "n": "M070",
+  "quien_lo_intento": "No encontré una plataforma que junte diagnóstico de aportes y derivación a abogado previsional. Busqué honorarios y servicios previsionales en Argentina. Lo que aparece son estudios de abogados y notas de medios. Consultas del 2026-10-23.",
+  "competencia": "Calculadoras gratis como calcularsueldo.com.ar y hacecuentas.com, ya vistas. Medios grandes enseñan a revisar los aportes en 5 minutos, ya visto. Abogados previsionales que cobran un porcentaje de lo que cobra el jubilado al final del juicio; la nota de iProfesional del 2025-09-28 no dice qué porcentaje y estima juicios de 5 a 7 años [https://www.iprofesional.com/impuestos/437972-juicio-de-reajuste-para-jubilados-cuando-conviene-iniciarlo-y-cuanto-se-puede-ganar]. En foros aparecen pactos del 30% del retroactivo, como relato y no como norma [https://www.portaldeabogados.com/foros/viewtopic.php?p=1170724]. Hueco: el diagnóstico antes de elegir abogado.",
+  "regulacion": "Los honorarios de abogados en la justicia nacional o federal los rige la Ley 27.423 [https://consejo.org.ar/storage/attachments/Ley N27423.pdf-O71aJK4p6a.pdf]. Si un abogado puede pagar por cliente derivado depende de las normas de ética del colegio de cada jurisdicción: no verificado. Dar asesoramiento previsional personalizado sin matrícula puede ser ejercicio ilegal: no verificado.",
+  "numeros": "Estimación: informe de USD 10 a 15 para la persona. Estimación de valor para el abogado: si cobra un porcentaje de un retroactivo de varios miles de dólares, un caso vale cientos de dólares para él, pero lo cobra recién en 5 a 7 años. Por eso es dudoso que pague mucho por adelantado. Costo por informe: IA casi cero más 20 a 40 minutos de revisión.",
+  "mercado": "Sin dato de cuántas personas de 50 a 65 años tienen huecos de aportes. No lo busqué en ANSES ni INDEC hoy.",
+  "variante_recomendada": "Venderle la herramienta al estudio previsional, no al jubilado. El estudio sube el PDF de Mi ANSES de cada cliente nuevo y recibe el diagnóstico de huecos y opciones en minutos. Así se evita el riesgo de asesorar sin matrícula y se cobra un abono a quien ya tiene la plata y los clientes.",
+  "entrevistar_a": [
+   "Abogados previsionales de estudios chicos, en LinkedIn, Google Maps y colegios de abogados.",
+   "Contadores y gestores que tramitan jubilaciones en ANSES.",
+   "Personas de 58 a 64 años que están por jubilarse, en centros de jubilados y entre conocidos."
+  ],
+  "preguntas_entrevista": [
+   "Al abogado: ¿cuánto tiempo te lleva revisar la historia laboral de un cliente nuevo?",
+   "¿Cuántas consultas iniciales hiciste el último mes y cuántas se convirtieron en caso?",
+   "¿Cómo te llegan hoy los clientes y cuánto gastás para conseguirlos?",
+   "¿Usás alguna herramienta para leer el PDF de Mi ANSES o lo hacés a mano?",
+   "A la persona: ¿qué hiciste la última vez que te preocupó si te alcanzaban los años de aportes?"
+  ],
+  "experimento": {
+   "hipotesis": "Los abogados previsionales ahorran tiempo real con un diagnóstico automático de la historia laboral y pagarían un abono.",
+   "prediccion": "De 8 abogados, 5 dedican más de una hora a cada historia y 2 pagan USD 30 por un mes de prueba.",
+   "perdida_maxima": "USD 50",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Armar con Claude un formato de diagnóstico a partir de 3 historias laborales reales con permiso.",
+    "Mostrarlo a 8 abogados previsionales.",
+    "Ofrecer un mes pago con diagnósticos hechos a mano por Facu con Claude."
+   ],
+   "sigue_si": "Al menos 2 abogados pagan y mandan 5 historias o más en el mes.",
+   "se_corta_si": "Los abogados dicen que ya lo leen rápido o nadie paga."
+  },
+  "puntuacion_revisada": 5.6,
+  "por_que_revisada": "La bajo un poco porque el abogado cobra recién en 5 a 7 años, así que es dudoso que pague por derivación, y asesorar al jubilado directo tiene riesgo legal.",
+  "veredicto": "Probar si el cliente es el estudio previsional, porque venderle al jubilado choca con lo gratis y con el riesgo de asesorar sin matrícula.",
+  "fuentes": [
+   "https://www.iprofesional.com/impuestos/437972-juicio-de-reajuste-para-jubilados-cuando-conviene-iniciarlo-y-cuanto-se-puede-ganar",
+   "https://www.portaldeabogados.com/foros/viewtopic.php?p=1170724",
+   "https://consejo.org.ar/storage/attachments/Ley N27423.pdf-O71aJK4p6a.pdf"
+  ]
+ },
+ {
+  "n": "M062",
+  "quien_lo_intento": "En Latinoamérica: PasanaQ, de Bolivia, juntó USD 180.000 para lanzar su app de pasanakus y anunció que iría a Perú [https://latamfintech.co/articles/credit-fintech-pasanaq-raised-us-180k-to-launch-its-mobile-platform-in-bolivia]. Hoy figura como Sommos [https://app.dealroom.co/companies/pasanaq]. No encontré noticias de cierre ni de su llegada a Argentina. En EE.UU., ROSCA Money Circle se lanzó en 2024 por una hija de una organizadora de tandas [https://abc30.com/15571870]. Busqué \"ROSCA tanda junta app Latinoamérica startup cerró pivote\". No encontré nada argentino. Consultas del 2026-10-23.",
+  "competencia": "En Argentina, nadie que yo haya encontrado. El competidor real es el grupo de WhatsApp y la confianza entre conocidos, que es gratis. Los planes de ahorro de autos son la versión formal, ya vista en la primera pasada.",
+  "regulacion": "Si la app no toca la plata y solo registra, recuerda y sortea, no encontré norma que la alcance. Si custodia fondos o presta, pasa a regulación del Banco Central o de la Inspección de Justicia para ahorro previo: no verificado en la fuente.",
+  "numeros": "Estimación: cuota de USD 1 por participante por ciclo, o USD 10 a 20 al organizador por ciclo. Razonamiento: en una junta de 10 personas que ponen el equivalente a USD 50 por mes, el pozo es USD 500; cobrar 2% a 4% del pozo es comparable a lo que cobran los planes de ahorro, sin dato verificado de esos planes. Costo: casi cero con un bot y una planilla.",
+  "mercado": "El Censo 2022 contó 338.299 personas nacidas en Bolivia en Argentina, 17,5% de los migrantes [https://eleconomista.com.ar/actualidad/inmigrantes-argentina-paraguay-bolivia-venezuela-desplazo-chile-integran-top-3-n70168]. 161.935 viven en la provincia de Buenos Aires [https://www.gba.gob.ar/gobierno/noticias/censo_2022_m%C3%A1s_de_la_mitad_de_la_poblaci%C3%B3n_migrante_vive_en_la_pba]. Sin dato de cuántas juntas se arman en Argentina.",
+  "variante_recomendada": "Cobrarle al organizador, que es quien hoy hace el trabajo y pone la cara si alguien no paga. El bot le arma las reglas, sortea, recuerda y deja todo registrado. Empezar con un grupo cercano a Facu y no con la comunidad boliviana, donde Facu no tiene entrada.",
+  "entrevistar_a": [
+   "Organizadoras de juntas entre vendedoras de catálogo o compañeras de trabajo, por conocidos.",
+   "Comerciantes de la comunidad boliviana en Liberty o Avellaneda que hagan pasanaku, por referencia de alguien de la comunidad.",
+   "Encargados de recursos humanos de PyMEs donde los empleados hacen juntas."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuándo fue la última junta que armaste o en la que participaste y cuánto ponía cada uno?",
+   "¿Alguien dejó de pagar alguna vez? ¿Qué pasó y quién perdió?",
+   "¿Cómo deciden hoy el orden de quién cobra?",
+   "¿Cómo llevan el registro de quién pagó?",
+   "¿Le pagaste algo alguna vez al organizador por armarla?"
+  ],
+  "experimento": {
+   "hipotesis": "Los organizadores de juntas valoran tener reglas y registro automáticos lo suficiente como para pagar una cuota.",
+   "prediccion": "De 5 organizadores, 2 usan el bot un ciclo completo y 1 paga USD 10 por el siguiente.",
+   "perdida_maxima": "USD 40",
+   "duracion": "6 semanas",
+   "pasos": [
+    "Encontrar 5 organizadores de juntas entre conocidos.",
+    "Armarles reglas escritas, sorteo grabado y planilla con recordatorios por WhatsApp.",
+    "Acompañar un ciclo o dos turnos.",
+    "Ofrecer el siguiente ciclo pago."
+   ],
+   "sigue_si": "Al menos 2 organizadores terminan con el bot y 1 paga.",
+   "se_corta_si": "Ninguno lo usa más de dos turnos o prefieren seguir solo con WhatsApp."
+  },
+  "puntuacion_revisada": 5.3,
+  "por_que_revisada": "La bajo porque lo gratis es muy fuerte, Facu no tiene entrada a la comunidad con más juntas y el antecedente boliviano no muestra un crecimiento grande.",
+  "veredicto": "Probar si Facu consigue 5 organizadores reales en su círculo, porque sin ellos no hay forma barata de entrar al mercado.",
+  "fuentes": [
+   "https://latamfintech.co/articles/credit-fintech-pasanaq-raised-us-180k-to-launch-its-mobile-platform-in-bolivia",
+   "https://app.dealroom.co/companies/pasanaq",
+   "https://abc30.com/15571870",
+   "https://eleconomista.com.ar/actualidad/inmigrantes-argentina-paraguay-bolivia-venezuela-desplazo-chile-integran-top-3-n70168",
+   "https://www.gba.gob.ar/gobierno/noticias/censo_2022_m%C3%A1s_de_la_mitad_de_la_poblaci%C3%B3n_migrante_vive_en_la_pba"
+  ]
+ },
+ {
+  "n": "M041",
+  "quien_lo_intento": "No encontré un emprendimiento argentino que venda videos de Papá Noel con IA. Busqué \"Papá Noel inteligencia artificial emprendimiento argentino videos navidad 2025\" y \"video personalizado Papá Noel Argentina precio pesos\". Hay contenido viral, como el Papá Noel criollo con mate que propuso Grok en 2024 [https://www.lacapital.com.ar/zoom/el-papa-noel-argentino-es-posible-y-la-inteligencia-artificial-x-dijo-como-es-n10168936.html]. Portable North Pole se difunde en Argentina con mucho contenido gratis [https://culturageek.com.ar/pnp-app-saludos-personalizados-papa-noel-para-los-chicos/]. Consultas del 2026-10-23.",
+  "competencia": "Gratis: HeyGen, CapCut Dreamina, Portable North Pole y Vidnoz, ya vistos o citados en guías [https://global.techradar.com/es-mx/computing/artificial-intelligence/como-enviar-un-video-personalizado-de-santa-claus-utilizando-ia]. Pago y presencial: contratar a Papá Noel en casa costaba entre $ 3.000 y $ 6.000 el minuto en diciembre de 2024, con visitas de 20 minutos desde $ 60.000 [https://www.baenegocios.com/amp/Contratar-la-visita-de-Papa-Noel-para-la-entrega-de-regalos-cuesta-entre-3000-y-6-000-el-minuto-20241224-0014/]. Hueco: algo argentino, de verano, con detalles reales del chico y mucho más barato que la visita.",
+  "regulacion": "Se manejan nombre, fotos y datos de menores. La Ley 25.326 de datos personales aplica; no la releí hoy: no verificado el detalle. Usar un Papá Noel genérico y no un personaje de una marca evita problemas de propiedad intelectual.",
+  "numeros": "Referencia: la visita presencial de 20 minutos arrancaba en $ 60.000 en 2024. Estimación: un video podría venderse a $ 8.000 a 15.000, por debajo de la visita y del valor de USD 33,99 de It's the Real Santa. Costo por video: USD 0,5 a 2 en herramientas de IA más 10 a 20 minutos de armado, estimación. Mercado Pago cobra entre 1,79% y 6,39% más IVA según el plazo, tabla de Tiendanube no verificada como vigente [https://www.tiendanube.com/blog/que-tarjetas-acepta-mercado-pago].",
+  "mercado": "Sin dato de cuántas familias compran saludos de Papá Noel. No busqué el número de chicos de 2 a 9 años en INDEC.",
+  "variante_recomendada": "Respetar lo que decidió Facu y combinarla con la venta a jardines y colegios: un video por chico para toda la sala, encargado por la cooperadora o los padres del grupo. Un solo contacto trae 20 a 30 videos. Hecho con Papá Noel argentino de verano y cobrado por Mercado Pago.",
+  "entrevistar_a": [
+   "Madres y padres de chicos de 3 a 8 años, entre conocidos y grupos de WhatsApp del jardín.",
+   "Directoras de jardines privados y comisiones de cooperadora.",
+   "Organizadores de fiestas de fin de año de clubes de barrio."
+  ],
+  "preguntas_entrevista": [
+   "¿Qué hiciste la Navidad pasada para que tu hijo viera o hablara con Papá Noel?",
+   "¿Pagaste algo por eso? ¿Cuánto?",
+   "¿Usaste alguna app gratis de Papá Noel? ¿Qué te pareció?",
+   "Al jardín: ¿qué hicieron el año pasado para la despedida de fin de año y quién lo pagó?",
+   "¿Cuándo empezás a organizar la Navidad de los chicos?"
+  ],
+  "experimento": {
+   "hipotesis": "Padres argentinos pagan por un video de Papá Noel local y personalizado aunque haya opciones gratis.",
+   "prediccion": "De 50 padres que ven las muestras, 8 compran a $ 10.000 antes del 2026-12-20.",
+   "perdida_maxima": "USD 80",
+   "duracion": "Del 2026-11-05 al 2026-12-22",
+   "pasos": [
+    "Armar antes del 2026-11-05 un Papá Noel propio de verano y 3 videos de muestra.",
+    "Hacer una página de pedido con formulario y link de Mercado Pago.",
+    "Mostrarla a 50 padres conocidos y a 5 jardines.",
+    "Contar ventas por semana desde el 2026-11-15."
+   ],
+   "sigue_si": "Al menos 8 ventas o un jardín que encargue la sala entera.",
+   "se_corta_si": "Menos de 3 ventas al 2026-12-05."
+  },
+  "puntuacion_revisada": 6.2,
+  "por_que_revisada": "La bajo un poco porque lo gratis es muy fuerte y sigue siendo solo caja de temporada. La venta a jardines la mantiene viva.",
+  "veredicto": "Probar ya, porque la ventana arranca a mediados de noviembre, la pérdida es chica y enseña a vender aunque falle.",
+  "fuentes": [
+   "https://www.lacapital.com.ar/zoom/el-papa-noel-argentino-es-posible-y-la-inteligencia-artificial-x-dijo-como-es-n10168936.html",
+   "https://culturageek.com.ar/pnp-app-saludos-personalizados-papa-noel-para-los-chicos/",
+   "https://global.techradar.com/es-mx/computing/artificial-intelligence/como-enviar-un-video-personalizado-de-santa-claus-utilizando-ia",
+   "https://www.baenegocios.com/amp/Contratar-la-visita-de-Papa-Noel-para-la-entrega-de-regalos-cuesta-entre-3000-y-6-000-el-minuto-20241224-0014/",
+   "https://www.tiendanube.com/blog/que-tarjetas-acepta-mercado-pago",
+   "https://www.heygen.com/es-ar/tool/ai-santa-video"
+  ]
+ },
+ {
+  "n": "M038",
+  "quien_lo_intento": "No encontré una empresa argentina de video automático desde fotos de propiedades. Busqué servicios de video y reels por propiedad en Argentina. En el rubro, Mirando.ai es una IA inmobiliaria que dice tener más de 100 clientes y casi la mitad del negocio en Argentina, pero hace búsquedas, tasaciones y gestión, no video; son cifras de la propia empresa [https://infonegocios.info/amp/enfoque/dejaron-meta-para-crear-una-ia-inmobiliaria-argentina-ya-representa-la-mitad-del-negocio-brasil-es-el-proximo-paso]. Consultas del 2026-10-23.",
+  "competencia": "HeyGen en español, ya visto. Mercado Libre Inmuebles ya tiene filtro de tour virtual y videos 360 [https://mercado.com.ar/protagonistas/mercado-libre-inmuebles-se-renueva]. No encontré precios de productores locales. Ojo con la regla de no repetir: Facu no eligió O18, reels para inmobiliarias argentinas, ni R4, paquete por propiedad, ni E7, staging y reels. Esta idea es casi la misma.",
+  "regulacion": "No aplica de forma específica. Si se altera la foto de la propiedad, puede haber publicidad engañosa: no verificado.",
+  "numeros": "Estimación: USD 3 a 8 por video o abono de USD 30 a 60 por mes por inmobiliaria. Razonamiento: AutoReel cobra USD 30 a 249 por mes en EE.UU., según la ficha, y en Argentina se paga menos. Costo por video: casi cero en IA más 3 a 5 minutos, según la ficha.",
+  "mercado": "CAMESI dice que en 2024 el 36% de las empresas inmobiliarias ya usaba IA [https://mercado.com.ar/ruta-digital/la-adopcion-de-inteligencia-artificial-en-empresas-inmobiliarias-argentinas-alcanza-el-36-en-2024]. En 2019, más de 7.300 matriculados de CUCICBA tenían beneficios en Mercado Libre; es un dato viejo [https://www.iproup.com/economia-digital/1574-emprendimiento-innovacion-tecnologica-tecnologia-Mercado-Libre-firmo-un-acuerdo-con-el-colegio-inmobiliario-porteno.amp].",
+  "variante_recomendada": "Tratarla como una sola con L8, edición automática para inmobiliarias y concesionarias, que sí está elegida. Probar con agencias de autos usados, donde cada unidad rota rápido y necesita video propio. En inmobiliarias choca con tres ideas que Facu ya no eligió.",
+  "entrevistar_a": [
+   "Dueños de agencias de autos usados que publican en Mercado Libre e Instagram.",
+   "Encargados de redes de inmobiliarias chicas de la zona de Facu.",
+   "Vendedores de concesionarias que hacen sus propios videos con el celular."
+  ],
+  "preguntas_entrevista": [
+   "¿Cuántas unidades o propiedades nuevas publicaste el mes pasado?",
+   "¿A cuántas les hiciste video y quién lo hizo?",
+   "¿Cuánto tiempo te lleva hacer un video?",
+   "¿Pagaste alguna vez a alguien por fotos o videos? ¿Cuánto?",
+   "¿Qué pasó con las publicaciones que tenían video frente a las que no?"
+  ],
+  "experimento": {
+   "hipotesis": "Las agencias de autos usados pagan un abono chico por videos automáticos de cada unidad.",
+   "prediccion": "De 10 agencias que reciben 3 videos gratis, 2 pagan USD 30 por el mes siguiente.",
+   "perdida_maxima": "USD 50",
+   "duracion": "3 semanas",
+   "pasos": [
+    "Elegir 10 agencias de autos usados con publicaciones activas.",
+    "Armar 3 videos de sus unidades desde las fotos publicadas.",
+    "Mandárselos y ofrecer un mes pago."
+   ],
+   "sigue_si": "Al menos 2 pagan el mes.",
+   "se_corta_si": "Ninguna paga o dicen que ya lo hacen con el celular."
+  },
+  "puntuacion_revisada": 5.0,
+  "por_que_revisada": "La bajo porque es casi igual a O18, R4 y E7, que Facu no eligió, y HeyGen y los portales ya lo dan.",
+  "veredicto": "No conviene como idea aparte, porque repite ideas no elegidas y solo vale dentro de L8 con concesionarias.",
+  "fuentes": [
+   "https://infonegocios.info/amp/enfoque/dejaron-meta-para-crear-una-ia-inmobiliaria-argentina-ya-representa-la-mitad-del-negocio-brasil-es-el-proximo-paso",
+   "https://mercado.com.ar/protagonistas/mercado-libre-inmuebles-se-renueva",
+   "https://mercado.com.ar/ruta-digital/la-adopcion-de-inteligencia-artificial-en-empresas-inmobiliarias-argentinas-alcanza-el-36-en-2024",
+   "https://www.iproup.com/economia-digital/1574-emprendimiento-innovacion-tecnologica-tecnologia-Mercado-Libre-firmo-un-acuerdo-con-el-colegio-inmobiliario-porteno.amp",
+   "https://www.screenapp.io/es/features/real-estate-video-tour"
+  ]
+ },
+ {
+  "n": "M047",
+  "quien_lo_intento": "Para la versión de Facu, vista previa de remeras y productos personalizados, apareció Kliqia, de la agencia argentina Algoritmo Digital. Es un personalizador para Tiendanube con vista previa en vivo para remeras, buzos, gorras, tazas y merchandising, y el vendedor recibe el arte listo para producir. No publica precio [https://algoritmodigital.com.ar/?p=4254]. Tiendanube tiene su app oficial de campo personalizado, que acepta texto o imagen pero no vi que muestre la prenda [https://ayuda.tiendanube.com/es_AR/123503-aplicaciones-de-marketing/como-integrar-campo-personalizado-con-mi-tiendanube]. Para la versión original, Tiendanube incluyó Lumi Studio para crear imágenes, sin precio ni detalle de modelos [https://dplnews.com/?p=325052]. Consultas del 2026-10-23.",
+  "competencia": "Kliqia para Tiendanube, precio no publicado. Teeinblue y Pitchprint, de afuera, con vista previa en vivo [https://pickyourapp.com/es/collections/selling-products-custom-products/products/teeinblue] [https://coming.pitchprint.com/use-cases/apparel]. Canva gratis para mockups, ya visto. Hueco: talleres que venden por WhatsApp e Instagram y no tienen tienda online.",
+  "regulacion": "No aplica.",
+  "numeros": "Estimación: abono de USD 10 a 25 por mes por taller. Razonamiento: es lo que cuesta una app de Tiendanube típica, sin precio verificado de Kliqia. Costo: bajo, mockups armados con IA o plantillas. Para la foto en modelo IA, la ficha dice que Botika cobra USD 0,73 a 1,15 por foto y se vende a USD 3 a 8.",
+  "mercado": "Sin dato de cuántos talleres de estampado y sublimación hay en Argentina.",
+  "variante_recomendada": "La de Facu, pero para talleres sin tienda online: un link que el taller manda por WhatsApp donde el cliente sube su logo, lo ve en remera, buzo o banner y deja talles y cantidades. Así se ataca a quien Kliqia no cubre. Es la misma idea que A3 y conviene evaluarlas juntas. Ojo: no vender remeras propias, porque PD7 e I32 Facu no las eligió.",
+  "entrevistar_a": [
+   "Dueños de talleres de sublimación y estampado que venden por Instagram y WhatsApp.",
+   "Clubes y colegios que encargan camisetas y buzos de egresados.",
+   "Empresas chicas que encargan ropa de trabajo con logo."
+  ],
+  "preguntas_entrevista": [
+   "¿Cómo fue el último pedido que cotizaste? ¿Cuántos mensajes hubo hasta cerrarlo?",
+   "¿Cuántos pedidos perdiste el último mes porque el cliente no se decidía?",
+   "¿Cómo le mostrás hoy al cliente cómo va a quedar el diseño?",
+   "¿Usás Canva o algún mockup? ¿Cuánto tiempo te lleva?",
+   "¿Pagás alguna herramienta o app por mes? ¿Cuál y cuánto?"
+  ],
+  "experimento": {
+   "hipotesis": "Los talleres sin tienda online cierran más pedidos si el cliente ve su diseño en la prenda desde un link.",
+   "prediccion": "De 10 talleres, 3 usan el link con clientes reales y 1 paga USD 15 por el mes siguiente.",
+   "perdida_maxima": "USD 60",
+   "duracion": "4 semanas",
+   "pasos": [
+    "Armar con no-code una página donde se sube el logo y se ve en 3 prendas.",
+    "Ofrecerla gratis a 10 talleres por un mes.",
+    "Contar pedidos que entraron por el link y mensajes ahorrados.",
+    "Ofrecer el segundo mes pago."
+   ],
+   "sigue_si": "Al menos 3 lo usan y 1 paga.",
+   "se_corta_si": "Ninguno la manda a clientes o dicen que Canva les alcanza."
+  },
+  "puntuacion_revisada": 5.4,
+  "por_que_revisada": "La bajo porque apareció Kliqia, argentina y con vista previa, y Canva da mockups gratis. Queda solo el hueco de talleres sin tienda.",
+  "veredicto": "Probar si se une a A3 y se apunta a talleres sin tienda online, porque los que tienen Tiendanube ya tienen Kliqia.",
+  "fuentes": [
+   "https://algoritmodigital.com.ar/?p=4254",
+   "https://ayuda.tiendanube.com/es_AR/123503-aplicaciones-de-marketing/como-integrar-campo-personalizado-con-mi-tiendanube",
+   "https://dplnews.com/?p=325052",
+   "https://pickyourapp.com/es/collections/selling-products-custom-products/products/teeinblue",
+   "https://coming.pitchprint.com/use-cases/apparel",
+   "https://www.canva.com/es_ar/crear/mockups-de-remeras/"
+  ]
+ }
+]

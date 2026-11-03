@@ -1,0 +1,166 @@
+[
+ {
+  "id": "ALQ-4-4",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 ('Argentina alquiler concentrador de oxígeno y CPAP domiciliario telemonitoreo adherencia empresa'): el IPROSS (obra social de Río Negro) tiene 180 concentradores de oxígeno y 650 equipos de terapia de sueño cedidos en comodato y hace visitas a domicilio para revisar y limpiar concentradores (https://rionegro.gov.ar/articulo/49512/ipross-entrego-y-calibro-equipos-de-oxigenoterapia-a-afiliados, 2024-05-24). El resumen del buscador menciona que Cascia (gases medicinales) amplió su división Home Care con una red en varias regiones; no abrí esa fuente. No encontré quién optimice recorridos de recambio de tubos ni pase pacientes de tubos a concentradores como servicio.",
+  "hueco_ar": 3,
+  "nota": "Los concentradores ya se usan en Argentina (al menos por obras sociales en comodato); lo que no encontré es la parte de logística/monitoreo del recambio.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "ALQ-4-5",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 (misma consulta que ALQ-4-4): no apareció ninguna empresa argentina que ofrezca telemonitoreo de CPAP. El único caso argentino concreto, IPROSS Río Negro (650 equipos de sueño en comodato), hace el seguimiento por contacto periódico cada seis meses o un año, sin monitoreo remoto mencionado (https://rionegro.gov.ar/articulo/49512/ipross-entrego-y-calibro-equipos-de-oxigenoterapia-a-afiliados, 2024-05-24). No verifiqué si los distribuidores de ResMed en Argentina habilitan AirView: no lo sé.",
+  "hueco_ar": 4,
+  "nota": "Cuidado: los CPAP de marcas grandes pueden traer conectividad de fábrica; falta verificar si se usa en Argentina antes de decir que hay hueco.",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "solucion_1": {
+   "nombre": "ResMed AirView",
+   "pais": "EE.UU. / Australia (ResMed)",
+   "url": "https://www.resmed.com/en-us/health-professionals/solutions/airview/",
+   "que_hace": "Sistema en la nube para que proveedores y médicos gestionen pacientes con trastornos respiratorios del sueño: conectividad inalámbrica con los equipos AirSense/AirCurve/AirMini/Astral/Stellar, reportes de cumplimiento con un clic, ajustes remotos de algunos parámetros (rampa, humidificación) y 'management by exception'.",
+   "traccion": "No figura en la página consultada (no la pude verificar).",
+   "fuente_traccion": "",
+   "verificado": "sí",
+   "como_verifique": "Descargué la página oficial con curl el 2026-10-15 (WebFetch daba 403); el texto dice 'AirView is a secure, cloud-based system that helps you manage patients with sleep-disordered breathing' y 'One-click compliance reports'. airview.resmed.com redirige a la pantalla de login."
+  }
+ },
+ {
+  "id": "ALQ-5-4",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 ('reservar alquiler de equipo de ski online Cerro Catedral Chapelco Las Leñas entrega en hotel'): Chapelco habilitó en la temporada 2026 el alquiler online de equipos en su rental oficial, con SmartLockers gratis por 3 días (https://www.noticiasnqn.com.ar/noticias/2026/08/01/346078-chapelco-suma-beneficios-y-servicios-para-esquiadores-alquiler-online-lockers-y-pases-bonificados, 2026-08-01). En Catedral hay paquetes pase+equipo en Civitatis (https://www.civitatis.com/ar/bariloche/esqui-snowboard-cerro-catedral/) y rentals en la base. No encontré entrega y ajuste del equipo en el hotel (tipo Ski Butlers) en ningún centro.",
+  "hueco_ar": 3,
+  "nota": "La reserva online ya empezó (Chapelco 2026); el hueco que queda es la entrega en el alojamiento y la reserva online en Catedral/Las Leñas.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "BEL-1-3",
+  "presencia_ar": "alta",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 + 1 búsqueda Brave vía WebFetch 2026-10-15 ('probador virtual color de pelo Argentina L'Oreal'): L'Oréal Paris Argentina tiene simulador de color de pelo (https://www.lorealparis.com.ar/simulador-de-color-de-pelo, 'hasta 200 tonos') y L'Oréal Professionnel Argentina ofrece 'My Hair [iD]', prueba virtual para profesionales (https://www.lorealprofessionnel.com.ar/my-hair-id-para-profesionales). Perfect Corp y Banuba venden probadores para e-commerce en español. No encontré un producto independiente de marca pensado para el salón argentino.",
+  "hueco_ar": 2,
+  "nota": "La marca líder del canal profesional ya da la herramienta gratis a peluqueros en Argentina; competir ahí es difícil.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "BEL-2-2",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 ('Argentina software consentimiento informado digital centro de estética fotos antes y después'): AgendaPro (software de turnos que opera en Argentina, https://agendapro.com/ar/) describe en su blog la historia clínica digital para estética con registro de fototipo, parámetros de láser y fotos de antes y después (https://agendapro.com/blog/historia-clinica-digital-2/). No encontré en Argentina una herramienta de captura estandarizada (guía superpuesta, misma luz/ángulo) como RxPhoto.",
+  "hueco_ar": 3,
+  "nota": "Guardar fotos ya está cubierto por software local; la parte de foto comparable y con valor de prueba no la encontré.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "BEL-2-3",
+  "presencia_ar": "alta",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 (misma consulta que BEL-2-2) + WebFetch a agendapro.com/ar: AgendaPro se presenta como 'Software & App para Agendar Turnos #1 en Argentina' (https://agendapro.com/ar/) y tiene consentimientos digitales: el centro sube su PDF, se envía por mail, el paciente firma con nombre y documento y queda registrado (https://agendapro.com/blog/consentimientos-informados-de-agendapro/). No verifiqué cuántos centros argentinos lo usan.",
+  "hueco_ar": 2,
+  "nota": "Lo que no hace AgendaPro según su propio artículo: redactar los consentimientos ni preguntas de salud por tratamiento; eso lo pone el centro.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "BEL-4-3",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "Sin búsqueda general (cuota agotada); WebFetch directo 2026-10-15 a https://www.lorealprofessionnel.com.ar/: el sitio argentino tiene sección 'Educación' y enlaza la cuenta de Instagram @lorealpro_educacion_ar (https://www.instagram.com/lorealpro_educacion_ar/). No pude ver si ofrece cursos online con ruta y certificación ni el precio. No revisé otras marcas (Wella, Schwarzkopf, etc.).",
+  "hueco_ar": 3,
+  "nota": "Solo confirmé que la marca líder hace educación en Argentina; falta saber si es online y certificada. Puntaje provisorio.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "BEL-5-1",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 ('Argentina laboratorio a façon cosmética pocas unidades emprendedores marca propia inscripción ANMAT legajo rótulo INCI'): solo aparecieron disposiciones de ANMAT que sancionan productos por rótulo/legajo mal armado (ej. https://e-legis-ar.msal.gov.ar/htdocs/legisalud/migration/pdf/22288.pdf) y una nota de 2024 sobre más de 90 productos prohibidos (https://www.canal26.com/general/la-anmat-prohibio-mas-de-noventa-productos-de-una-marca-de-maquillaje-y-cremas-por-considerarlos-peligrosos--373885). No encontré software ni servicio online argentino que arme legajo, INCI y rótulo. Los directores técnicos/consultores que menciona la propia fila no los busqué.",
+  "hueco_ar": 4,
+  "nota": "Las sanciones de ANMAT por rótulos mal hechos muestran que el problema es real; no son un dato de tamaño.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "BEL-5-3",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 (misma consulta que BEL-5-1): no apareció ningún directorio ni marketplace argentino de laboratorios a façon con mínimos bajos; solo normativa de ANMAT sobre elaborador contratado. No quiere decir que no exista.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "BEL-5-4",
+  "presencia_ar": "media",
+  "presencia_ar_detalle": "Sin búsqueda general (cuota agotada); WebFetch directo 2026-10-15 a sitios argentinos de marcas: La Roche-Posay Argentina ofrece SPOTSCAN+, que 'diagnostica tu piel en minutos mediante el uso de la cámara de tu celular' y da una rutina (https://www.laroche-posay.com.ar/event/spotscan-plus); L'Oréal Paris Argentina enlaza una sección /skin-genius (https://www.lorealparis.com.ar/skin-genius, no la abrí). Las marcas grandes ya lo tienen; no verifiqué si hay tiendas online chicas o multimarca argentinas que lo usen.",
+  "hueco_ar": 3,
+  "nota": "El hueco posible está en marcas chicas y tiendas multimarca, no en las grandes.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "CUL-3-1",
+  "presencia_ar": "alta",
+  "presencia_ar_detalle": "WebFetch directo 2026-10-15 a https://www.sadaic.org.ar/: SADAIC es la sociedad de gestión colectiva de autores; dice que representa a 131 sociedades extranjeras, que se recauda 'tanto dentro del país como a nivel mundial', que el registro de obras ahora es solo por plataforma online, y que cofundó LATINAUTOR. Es la vía institucional para cobrar del exterior. No busqué editoriales/administradoras privadas en Argentina ni si Songtrust acepta autores argentinos.",
+  "hueco_ar": 2,
+  "nota": "El problema de la fila (obras mal registradas o no vinculadas) puede seguir existiendo, pero el actor central ya está y es conocido; un servicio nuevo sería de ayuda/gestoría al músico, no reemplazo.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "CUL-3-2",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 ('Argentina plataforma para bandas independientes conseguir fechas en salas booking o alquiler de backline entre músicos'): la plataforma argentina que aparece, Banda Invitada (bandas se postulan a fechas que abren los locales; nota de La Nación https://www.lanacion.com.ar/tecnologia/tenes-banda-estas-apps-te-ayudan-encontrar-nid2278329), hoy está en pausa: bandainvitada.com redirige a 'Banda Invitada se toma una pausa' (https://www.tm-click.com/about-us/banda-invitada-se-toma-una-pausa/, consultado 2026-10-15). También aparece Jamper (para formar bandas, no para fechas). Cueup lista bandas para eventos privados en ciudades argentinas, no para salas.",
+  "hueco_ar": 3,
+  "nota": "Hubo un intento local que se pausó: conviene averiguar por qué antes de tomar el problema (puede ser señal de que no se monetiza).",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "CUL-3-3",
+  "presencia_ar": "nula",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 (misma consulta que CUL-3-2): no encontré plataforma argentina de alquiler de backline entre particulares. El modelo colaborativo existe en Uruguay (TUBACKLINE, https://uruguayaudiovisual.com/en/?p=11829) y hay empresas de backline profesional (no verifiqué ninguna argentina). No quiere decir que no exista.",
+  "hueco_ar": 4,
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "CUL-4-1",
+  "presencia_ar": "baja",
+  "presencia_ar_detalle": "1 WebSearch 2026-10-15 ('software para academias de danza Argentina gestión de vestuario muestra de fin de año cobro cuotas'): hay software de gestión de academias listado para Argentina (CompuDance en Capterra Argentina https://www.capterra.com.ar/software/92433/compudance; Dance Master Pro figura con Argentina entre sus países; Virtuagym en español), pero ninguno de los resultados menciona gestión de vestuario ni de la muestra. No revisé las funciones de cada uno.",
+  "hueco_ar": 4,
+  "nota": "Lo de cuotas y asistencia está cubierto; lo específico (vestuario: talles, pedidos, cobro por traje) no lo encontré.",
+  "etiqueta": "2.ª pasada 2026-10-15"
+ },
+ {
+  "id": "ALQ-4-3",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "solucion_2": {
+   "nombre": "Scootaround (Powered by WHILL)",
+   "pais": "Canadá / EE.UU.",
+   "url": "https://scootaround.com/",
+   "que_hace": "Alquiler de scooters de movilidad, sillas de ruedas, sillas motorizadas, andadores y oxígeno para viajeros, con entrega donde se necesite (hotel, destino turístico) y alquileres para cruceros en cerca de 50 puertos.",
+   "traccion": "Según su sitio: más de 2.500 ubicaciones en Norteamérica y Europa, cerca de 50 puertos de cruceros y más de 25 años de experiencia.",
+   "fuente_traccion": "https://scootaround.com/en (consultado 2026-10-15)",
+   "verificado": "sí",
+   "como_verifique": "Descargué la portada con curl el 2026-10-15 (WebFetch daba 403): 'Whether you need a wheelchair, scooter, powerchair, rollator, oxygen... we can deliver to wherever you need it'."
+  }
+ },
+ {
+  "id": "BEL-2-4",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "nota": "The Laser Trader no se pudo verificar (thelasertrader.com no respondió por https y por http devolvió 404 el 2026-10-15); se reemplaza por The Laser Agent.",
+  "solucion_2": {
+   "nombre": "The Laser Agent",
+   "pais": "EE.UU. (el sitio dice 'nationwide'; teléfono con código 317, Indiana)",
+   "url": "https://www.thelaseragent.com/",
+   "que_hace": "Compra y venta de láseres estéticos, cosméticos y médicos usados 'certified pre-owned': inspección con checklist de 50 puntos, servicio y prueba de piezas de mano antes del envío, garantía estándar de 30 días, contrato de transferencia con número de serie, envío embalado, financiación y capacitación con un entrenador clínico asociado.",
+   "traccion": "Según su sitio: más de 20 años comprando, vendiendo y dando servicio a láseres. Sin cifras de ventas.",
+   "fuente_traccion": "https://www.thelaseragent.com/ (consultado 2026-10-15)",
+   "verificado": "sí",
+   "como_verifique": "Descargué la portada con curl el 2026-10-15 y leí el texto ('Every device includes a standard 30-day warranty', '50-point inspection checklist')."
+  }
+ },
+ {
+  "id": "ALQ-5-3",
+  "etiqueta": "2.ª pasada 2026-10-15",
+  "nota": "LowerGear Outdoors no se pudo verificar (lowergear.com devuelve 403 de Cloudflare a WebFetch y a curl el 2026-10-15); se reemplaza por Kit Lender.",
+  "solucion_2": {
+   "nombre": "Kit Lender",
+   "pais": "EE.UU. (teléfono 888, envíos dentro de EE.UU. según el sitio)",
+   "url": "https://www.kitlender.com/",
+   "que_hace": "Alquiler de equipo outdoor con envío y devolución gratis: kits de camping y trekking (carpa, bolsa de dormir, etc.), además de ropa de ski y triatlón; el equipo llega al destino y se devuelve por correo en caja prefranqueada.",
+   "traccion": "No figura en el sitio. Un resumen de búsqueda (2026-10-15) cita un kit básico de camping a USD 32 por día; no lo verifiqué en el sitio.",
+   "fuente_traccion": "",
+   "verificado": "sí",
+   "como_verifique": "Descargué con curl el 2026-10-15 la portada y la nota de su blog 'Explore More, Worry Less: Rent Your Camp + Hike Gear' (2021-05-05), que dice 'having your camp and hike KITs shipped directly to you, free of charge'. Ojo: la portada todavía muestra un aviso de COVID-19, puede estar poco actualizada."
+  }
+ }
+]
