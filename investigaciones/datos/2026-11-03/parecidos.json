@@ -1,0 +1,1928 @@
+{
+ "A1-01": [
+  [
+   0.5,
+   "A3-10",
+   "Biochar de bagazo vendido como remoción de carbono"
+  ],
+  [
+   0.5,
+   "A2-13",
+   "Biochar de residuos de caña y venta de remoción de carbono"
+  ],
+  [
+   0.4,
+   "A6-04",
+   "Biochar de bagazo y residuos para vender créditos de carbono"
+  ]
+ ],
+ "A1-02": [
+  [
+   0.59,
+   "A3-11",
+   "Polvo de roca en campos para capturar CO2"
+  ]
+ ],
+ "A1-03": [
+  [
+   0.5,
+   "GL56",
+   "GL56 | Pool de hectáreas para drones agrícolas"
+  ],
+  [
+   0.35,
+   "A1-25",
+   "Desarrollador de carbono y restauración de bosques en Yungas y Chaco"
+  ]
+ ],
+ "A1-04": [
+  [
+   0.79,
+   "A6-03",
+   "Combustible de aviación sostenible desde etanol de caña"
+  ],
+  [
+   0.67,
+   "A2-09",
+   "Combustible de aviación sostenible desde caña tucumana"
+  ]
+ ],
+ "A1-05": [
+  [
+   0.4,
+   "A3-05",
+   "Vinaza de los ingenios convertida en biometano y potasio"
+  ]
+ ],
+ "A1-06": [
+  [
+   0.75,
+   "A5-04",
+   "Planta de reciclaje de baterías de litio en el NOA"
+  ],
+  [
+   0.71,
+   "A3-09",
+   "Reciclaje industrial de baterías de litio para Sudamérica"
+  ],
+  [
+   0.5,
+   "A2-02",
+   "Reciclaje de baterías de litio para Sudamérica"
+  ],
+  [
+   0.4,
+   "RES-5-5",
+   "RES-5-5 | Cuando un empleado remoto se va, la empresa no recupera la notebook | Reciclaje y residuos / Electrónicos y RAEE"
+  ]
+ ],
+ "A1-07": [],
+ "A1-08": [
+  [
+   0.35,
+   "A2-18",
+   "Silobolsa y almacenaje hermético para África"
+  ]
+ ],
+ "A1-09": [
+  [
+   0.38,
+   "A2-19",
+   "Exportadora de maquinaria agrícola argentina a mercados emergentes"
+  ]
+ ],
+ "A1-10": [
+  [
+   0.47,
+   "A6-25",
+   "Planta de bioinsumos agrícolas para exportar a Brasil y Europa"
+  ],
+  [
+   0.47,
+   "A2-20",
+   "Biofábrica de bioinsumos para Brasil y el mundo"
+  ],
+  [
+   0.4,
+   "A3-02",
+   "Bioinsumos del NOA: control biológico para caña y cítricos"
+  ]
+ ],
+ "A1-11": [
+  [
+   0.67,
+   "A3-15",
+   "Larvas de mosca soldado que comen residuos cítricos"
+  ],
+  [
+   0.61,
+   "A6-23",
+   "Granja de larvas de mosca soldado con residuos agroindustriales"
+  ],
+  [
+   0.38,
+   "A2-15",
+   "Proteína de levadura para peces desde melaza"
+  ]
+ ],
+ "A1-12": [
+  [
+   0.65,
+   "A2-14",
+   "Planta de fermentación a façon con azúcar barata"
+  ],
+  [
+   0.55,
+   "A3-01",
+   "Planta de fermentación por contrato para startups biotech, en Tucumán"
+  ]
+ ],
+ "A1-13": [],
+ "A1-14": [
+  [
+   0.38,
+   "B34",
+   "B34 | Chatbot web + WhatsApp para colegios, municipios y cooperativas | Automatización y agencia IA"
+  ]
+ ],
+ "A1-15": [],
+ "A1-16": [],
+ "A1-17": [
+  [
+   0.5,
+   "GL58",
+   "GL58 | Agua resuelta para casas sin red"
+  ],
+  [
+   0.5,
+   "GL23",
+   "GL23 | Red de expertos de la Argentina por dentro"
+  ],
+  [
+   0.47,
+   "A6-10",
+   "Operador de turismo médico y dental en dólares"
+  ]
+ ],
+ "A1-18": [
+  [
+   0.5,
+   "E38",
+   "E38 | Libros infantiles personalizados con IA | Servicios a personas"
+  ],
+  [
+   0.4,
+   "H10",
+   "H10 | CV, LinkedIn y foto profesional en 48 h | Servicios a personas"
+  ],
+  [
+   0.38,
+   "I13",
+   "I13 | Trámites digitales acompañados ('gestor digital de barrio' sin matrícula) | Servicios a personas"
+  ]
+ ],
+ "A1-19": [
+  [
+   0.38,
+   "X2f",
+   "X2f | Domótica como servicio: instalación + abono mensual de casa inteligente | Servicios a personas"
+  ]
+ ],
+ "A1-20": [
+  [
+   0.65,
+   "A6-14",
+   "Centros de datos modulares con gas que hoy se quema"
+  ],
+  [
+   0.61,
+   "A5-06",
+   "Data centers modulares con gas varado de Vaca Muerta"
+  ],
+  [
+   0.47,
+   "A2-07",
+   "Centros de datos de IA con energía argentina barata"
+  ]
+ ],
+ "A1-21": [
+  [
+   0.42,
+   "A5-01",
+   "Fábrica de datos de teleoperación para entrenar robots"
+  ]
+ ],
+ "A1-22": [
+  [
+   0.36,
+   "K7",
+   "K7 | Plan de producción semanal para taller o fábrica chica (MRP light) | Ingeniería industrial y operaciones"
+  ]
+ ],
+ "A1-23": [
+  [
+   0.73,
+   "A3-22",
+   "Arcillas calcinadas para cemento bajo en carbono (LC3)"
+  ]
+ ],
+ "A1-24": [
+  [
+   0.5,
+   "GL23",
+   "GL23 | Red de expertos de la Argentina por dentro"
+  ],
+  [
+   0.5,
+   "GI35",
+   "GI35 | Batería de respaldo por abono para comercios"
+  ]
+ ],
+ "A1-25": [
+  [
+   0.35,
+   "A1-03",
+   "Desarrollador de proyectos de carbono en suelos agrícolas pampeanos"
+  ]
+ ],
+ "A1-26": [
+  [
+   0.41,
+   "A2-29",
+   "Fertilizante nitrogenado verde en planta chica"
+  ]
+ ],
+ "A1-27": [],
+ "A1-28": [
+  [
+   0.43,
+   "B31",
+   "B31 | Respuestas con IA a preguntas de compradores en Mercado Libre | E-commerce y marketplaces"
+  ],
+  [
+   0.4,
+   "J10",
+   "J10 | Arbitraje Marketplace → Mercado Libre | E-commerce y marketplaces"
+  ]
+ ],
+ "A1-29": [],
+ "A1-30": [],
+ "A2-01": [],
+ "A2-02": [
+  [
+   0.56,
+   "A3-09",
+   "Reciclaje industrial de baterías de litio para Sudamérica"
+  ],
+  [
+   0.5,
+   "A1-06",
+   "Reciclaje industrial de baterías de litio para Sudamérica"
+  ],
+  [
+   0.44,
+   "A5-04",
+   "Planta de reciclaje de baterías de litio en el NOA"
+  ]
+ ],
+ "A2-03": [
+  [
+   0.41,
+   "A5-25",
+   "Pasaporte digital de baterías para proveedores de litio y cobre"
+  ]
+ ],
+ "A2-04": [
+  [
+   0.65,
+   "A3-28",
+   "Exploración minera con IA y sensores para cobre y litio del NOA"
+  ],
+  [
+   0.47,
+   "A5-26",
+   "Exploración de cobre y litio con IA en Argentina"
+  ]
+ ],
+ "A2-05": [],
+ "A2-06": [],
+ "A2-07": [
+  [
+   0.47,
+   "A1-20",
+   "Centros de datos modulares con gas de Vaca Muerta"
+  ],
+  [
+   0.38,
+   "GS73",
+   "GS73 | Alquilar construye historial (pago del alquiler por la plataforma + historial verificable + garantía más barata)"
+  ],
+  [
+   0.36,
+   "EDU-4-1",
+   "EDU-4-1 | Capacitar en seguridad a operarios sin computadora y dejar constancia | Educación / Capacitación corporativa y formación técnica en empresas"
+  ]
+ ],
+ "A2-08": [
+  [
+   0.5,
+   "A5-27",
+   "Energía solar con baterías como servicio para minas de la Puna"
+  ]
+ ],
+ "A2-09": [
+  [
+   0.67,
+   "A1-04",
+   "Combustible de aviación sostenible a partir de etanol del NOA"
+  ],
+  [
+   0.5,
+   "A6-03",
+   "Combustible de aviación sostenible desde etanol de caña"
+  ]
+ ],
+ "A2-10": [
+  [
+   0.6,
+   "A6-02",
+   "Fibra cítrica 'upcycled' de cáscara de limón tucumano"
+  ]
+ ],
+ "A2-11": [
+  [
+   0.53,
+   "A3-12",
+   "Detección temprana del HLB en cítricos, en el campo"
+  ]
+ ],
+ "A2-12": [],
+ "A2-13": [
+  [
+   0.52,
+   "A3-10",
+   "Biochar de bagazo vendido como remoción de carbono"
+  ],
+  [
+   0.5,
+   "A1-01",
+   "Biochar de bagazo y residuos de caña con créditos de carbono"
+  ],
+  [
+   0.45,
+   "A6-04",
+   "Biochar de bagazo y residuos para vender créditos de carbono"
+  ]
+ ],
+ "A2-14": [
+  [
+   0.65,
+   "A1-12",
+   "Fábrica de fermentación de precisión con azúcar tucumana"
+  ],
+  [
+   0.6,
+   "A3-01",
+   "Planta de fermentación por contrato para startups biotech, en Tucumán"
+  ],
+  [
+   0.38,
+   "A6-05",
+   "Proteína de garbanzo y poroto del NOA para la industria"
+  ]
+ ],
+ "A2-15": [
+  [
+   0.47,
+   "A3-25",
+   "Proteína para peces hecha con gas de Vaca Muerta"
+  ],
+  [
+   0.38,
+   "A1-11",
+   "Proteína de insectos con residuos de citrícolas e ingenios"
+  ]
+ ],
+ "A2-16": [
+  [
+   0.69,
+   "A6-05",
+   "Proteína de garbanzo y poroto del NOA para la industria"
+  ]
+ ],
+ "A2-17": [],
+ "A2-18": [
+  [
+   0.35,
+   "A1-08",
+   "Silobolsa argentina para guardar granos en África e India"
+  ]
+ ],
+ "A2-19": [
+  [
+   0.5,
+   "GL1",
+   "GL1 | Repuestos de maquinaria agrícola con el stock de las casas del interior"
+  ],
+  [
+   0.38,
+   "A1-09",
+   "Paquete de siembra directa argentina para granjas africanas"
+  ]
+ ],
+ "A2-20": [
+  [
+   0.47,
+   "A1-10",
+   "Bioinsumos argentinos para exportar a Brasil y el trópico"
+  ],
+  [
+   0.44,
+   "A6-25",
+   "Planta de bioinsumos agrícolas para exportar a Brasil y Europa"
+  ],
+  [
+   0.44,
+   "A3-02",
+   "Bioinsumos del NOA: control biológico para caña y cítricos"
+  ]
+ ],
+ "A2-21": [],
+ "A2-22": [
+  [
+   0.38,
+   "A6-24",
+   "Empresa de genética frutícola que cobra regalías"
+  ],
+  [
+   0.37,
+   "A3-13",
+   "Licenciar al mundo la caña mejorada genéticamente de Tucumán"
+  ]
+ ],
+ "A2-23": [
+  [
+   0.4,
+   "A3-29",
+   "Nanoanticuerpos de llama del INTA para diagnóstico y salud"
+  ]
+ ],
+ "A2-24": [
+  [
+   0.57,
+   "A3-24",
+   "Radiofármacos contra el cáncer con lutecio-177 argentino"
+  ],
+  [
+   0.5,
+   "GL23",
+   "GL23 | Red de expertos de la Argentina por dentro"
+  ],
+  [
+   0.4,
+   "GS17",
+   "GS17 | ¿Qué análisis me exigen? → red de laboratorios para PyMEs"
+  ]
+ ],
+ "A2-25": [
+  [
+   0.64,
+   "A6-13",
+   "Red de centros de investigación clínica en el interior"
+  ],
+  [
+   0.5,
+   "GL23",
+   "GL23 | Red de expertos de la Argentina por dentro"
+  ],
+  [
+   0.4,
+   "GS17",
+   "GS17 | ¿Qué análisis me exigen? → red de laboratorios para PyMEs"
+  ],
+  [
+   0.38,
+   "GI86",
+   "GI86 | Ensayos clínicos en criollo: buscador y pre-chequeo de elegibilidad para pacientes → centros de investigación que reciben derivaciones ya filtradas"
+  ],
+  [
+   0.36,
+   "GIM-N212",
+   "GIM-N212 | Ensayos clínicos en criollo: buscador y pre-chequeo de elegibilidad para pacientes → centros de investigación que reciben derivaciones ya fi | Gimnas"
+  ]
+ ],
+ "A2-26": [
+  [
+   0.5,
+   "GL23",
+   "GL23 | Red de expertos de la Argentina por dentro"
+  ],
+  [
+   0.38,
+   "A3-23",
+   "Antenas en Patagonia para bajar datos de satélites"
+  ],
+  [
+   0.38,
+   "A2-27",
+   "Componentes para satélites chicos hechos en Argentina"
+  ]
+ ],
+ "A2-27": [
+  [
+   0.38,
+   "A2-26",
+   "Estaciones terrenas satelitales en la Puna"
+  ]
+ ],
+ "A2-28": [
+  [
+   0.75,
+   "A6-26",
+   "Cáñamo industrial en el NOA: fibra, grano y aceite"
+  ]
+ ],
+ "A2-29": [
+  [
+   0.41,
+   "A1-26",
+   "Fertilizante nitrogenado verde hecho en el campo"
+  ]
+ ],
+ "A2-30": [],
+ "A3-01": [
+  [
+   0.6,
+   "A2-14",
+   "Planta de fermentación a façon con azúcar barata"
+  ],
+  [
+   0.55,
+   "A1-12",
+   "Fábrica de fermentación de precisión con azúcar tucumana"
+  ],
+  [
+   0.43,
+   "E11",
+   "E11 | Videos de capacitación con avatar IA para empresas | Video y producción audiovisual"
+  ]
+ ],
+ "A3-02": [
+  [
+   0.44,
+   "A2-20",
+   "Biofábrica de bioinsumos para Brasil y el mundo"
+  ],
+  [
+   0.41,
+   "A6-25",
+   "Planta de bioinsumos agrícolas para exportar a Brasil y Europa"
+  ],
+  [
+   0.4,
+   "A1-10",
+   "Bioinsumos argentinos para exportar a Brasil y el trópico"
+  ]
+ ],
+ "A3-03": [],
+ "A3-04": [],
+ "A3-05": [
+  [
+   0.4,
+   "A1-05",
+   "Biometano a partir de vinaza y cachaza de los ingenios"
+  ]
+ ],
+ "A3-06": [],
+ "A3-07": [],
+ "A3-08": [],
+ "A3-09": [
+  [
+   0.75,
+   "A5-04",
+   "Planta de reciclaje de baterías de litio en el NOA"
+  ],
+  [
+   0.71,
+   "A1-06",
+   "Reciclaje industrial de baterías de litio para Sudamérica"
+  ],
+  [
+   0.56,
+   "A2-02",
+   "Reciclaje de baterías de litio para Sudamérica"
+  ]
+ ],
+ "A3-10": [
+  [
+   0.6,
+   "A6-04",
+   "Biochar de bagazo y residuos para vender créditos de carbono"
+  ],
+  [
+   0.52,
+   "A2-13",
+   "Biochar de residuos de caña y venta de remoción de carbono"
+  ],
+  [
+   0.5,
+   "A1-01",
+   "Biochar de bagazo y residuos de caña con créditos de carbono"
+  ]
+ ],
+ "A3-11": [
+  [
+   0.59,
+   "A1-02",
+   "Meteorización mejorada de rocas en campos de Argentina"
+  ]
+ ],
+ "A3-12": [
+  [
+   0.53,
+   "A2-11",
+   "Detección temprana del HLB en cítricos"
+  ]
+ ],
+ "A3-13": [
+  [
+   0.37,
+   "A2-22",
+   "Cultivos editados genéticamente con regalías globales"
+  ]
+ ],
+ "A3-14": [],
+ "A3-15": [
+  [
+   0.67,
+   "A6-23",
+   "Granja de larvas de mosca soldado con residuos agroindustriales"
+  ],
+  [
+   0.67,
+   "A1-11",
+   "Proteína de insectos con residuos de citrícolas e ingenios"
+  ],
+  [
+   0.4,
+   "A3-25",
+   "Proteína para peces hecha con gas de Vaca Muerta"
+  ]
+ ],
+ "A3-16": [],
+ "A3-17": [],
+ "A3-18": [
+  [
+   0.4,
+   "GI116",
+   "GI116 | Agua segura por abono (pozos con arsénico)"
+  ]
+ ],
+ "A3-19": [],
+ "A3-20": [],
+ "A3-21": [],
+ "A3-22": [
+  [
+   0.73,
+   "A1-23",
+   "Cemento bajo en carbono con arcilla calcinada (LC3)"
+  ]
+ ],
+ "A3-23": [
+  [
+   0.38,
+   "A2-26",
+   "Estaciones terrenas satelitales en la Puna"
+  ]
+ ],
+ "A3-24": [
+  [
+   0.57,
+   "A2-24",
+   "Radiofármacos para tratar cáncer en Latinoamérica"
+  ]
+ ],
+ "A3-25": [
+  [
+   0.47,
+   "A2-15",
+   "Proteína de levadura para peces desde melaza"
+  ],
+  [
+   0.4,
+   "A3-15",
+   "Larvas de mosca soldado que comen residuos cítricos"
+  ]
+ ],
+ "A3-26": [],
+ "A3-27": [],
+ "A3-28": [
+  [
+   0.65,
+   "A2-04",
+   "Exploración minera con inteligencia artificial en los Andes"
+  ],
+  [
+   0.47,
+   "A5-26",
+   "Exploración de cobre y litio con IA en Argentina"
+  ]
+ ],
+ "A3-29": [
+  [
+   0.4,
+   "A2-23",
+   "Nanoanticuerpos de llamas del NOA"
+  ]
+ ],
+ "A3-30": [],
+ "A4-01": [],
+ "A4-02": [
+  [
+   0.47,
+   "A4-30",
+   "Kit de cumplimiento 'exportar a Europa' para fabricantes industriales"
+  ]
+ ],
+ "A4-03": [],
+ "A4-04": [],
+ "A4-05": [],
+ "A4-06": [],
+ "A4-07": [],
+ "A4-08": [],
+ "A4-09": [],
+ "A4-10": [],
+ "A4-11": [],
+ "A4-12": [],
+ "A4-13": [],
+ "A4-14": [],
+ "A4-15": [],
+ "A4-16": [],
+ "A4-17": [],
+ "A4-18": [],
+ "A4-19": [],
+ "A4-20": [],
+ "A4-21": [],
+ "A4-22": [],
+ "A4-23": [],
+ "A4-24": [],
+ "A4-25": [],
+ "A4-26": [],
+ "A4-27": [
+  [
+   0.43,
+   "M15",
+   "M15 | Videos de aplicación de producto para fabricantes que exportan | Video y producción audiovisual"
+  ]
+ ],
+ "A4-28": [],
+ "A4-29": [],
+ "A4-30": [
+  [
+   0.47,
+   "A4-02",
+   "Pasaporte de batería para fabricantes medianos fuera de Europa"
+  ],
+  [
+   0.43,
+   "M15",
+   "M15 | Videos de aplicación de producto para fabricantes que exportan | Video y producción audiovisual"
+  ],
+  [
+   0.38,
+   "N3",
+   "N3 | Explicativos animados de maquinaria industrial y agrícola | Video y producción audiovisual"
+  ]
+ ],
+ "A5-01": [
+  [
+   0.42,
+   "A1-21",
+   "Fábrica de datos físicos y teleoperadores para robots"
+  ]
+ ],
+ "A5-02": [],
+ "A5-03": [],
+ "A5-04": [
+  [
+   0.75,
+   "A3-09",
+   "Reciclaje industrial de baterías de litio para Sudamérica"
+  ],
+  [
+   0.75,
+   "A1-06",
+   "Reciclaje industrial de baterías de litio para Sudamérica"
+  ],
+  [
+   0.44,
+   "A2-02",
+   "Reciclaje de baterías de litio para Sudamérica"
+  ]
+ ],
+ "A5-05": [],
+ "A5-06": [
+  [
+   0.65,
+   "A6-14",
+   "Centros de datos modulares con gas que hoy se quema"
+  ],
+  [
+   0.61,
+   "A1-20",
+   "Centros de datos modulares con gas de Vaca Muerta"
+  ]
+ ],
+ "A5-07": [],
+ "A5-08": [],
+ "A5-09": [
+  [
+   0.4,
+   "D34",
+   "D34 | Boilerplates 'seguros' para otros no programadores | Software y herramientas"
+  ]
+ ],
+ "A5-10": [],
+ "A5-11": [
+  [
+   0.38,
+   "GS86",
+   "GS86 | Traspasos verificados: comprar y vender comercios en marcha con números de verdad"
+  ]
+ ],
+ "A5-12": [
+  [
+   0.5,
+   "E38",
+   "E38 | Libros infantiles personalizados con IA | Servicios a personas"
+  ],
+  [
+   0.43,
+   "I27",
+   "I27 | Coaching de presentación oral sobre el material del cliente | Servicios a personas"
+  ],
+  [
+   0.4,
+   "H10",
+   "H10 | CV, LinkedIn y foto profesional en 48 h | Servicios a personas"
+  ],
+  [
+   0.38,
+   "X2a",
+   "X2a | Instalación de agentes IA personales (OpenClaw/Hermes) como servicio | IA emergente y verticales"
+  ],
+  [
+   0.38,
+   "I36",
+   "I36 | Asistente de compra para Cyber Monday y Black Friday | Servicios a personas"
+  ]
+ ],
+ "A5-13": [],
+ "A5-14": [
+  [
+   0.5,
+   "E38",
+   "E38 | Libros infantiles personalizados con IA | Servicios a personas"
+  ],
+  [
+   0.4,
+   "H10",
+   "H10 | CV, LinkedIn y foto profesional en 48 h | Servicios a personas"
+  ]
+ ],
+ "A5-15": [
+  [
+   0.4,
+   "D34",
+   "D34 | Boilerplates 'seguros' para otros no programadores | Software y herramientas"
+  ]
+ ],
+ "A5-16": [],
+ "A5-17": [
+  [
+   0.4,
+   "A30",
+   "A30 | Curso en Udemy (español) | Educación y cursos"
+  ]
+ ],
+ "A5-18": [
+  [
+   0.5,
+   "GL55",
+   "GL55 | Colmenas por temporada con prueba de que trabajaron"
+  ]
+ ],
+ "A5-19": [],
+ "A5-20": [],
+ "A5-21": [],
+ "A5-22": [],
+ "A5-23": [],
+ "A5-24": [
+  [
+   0.4,
+   "GL30",
+   "GL30 | Instalate en la ciudad de la facultad en un solo viaje"
+  ]
+ ],
+ "A5-25": [
+  [
+   0.41,
+   "A2-03",
+   "Pasaporte digital de baterías desde el salar"
+  ]
+ ],
+ "A5-26": [
+  [
+   0.47,
+   "A3-28",
+   "Exploración minera con IA y sensores para cobre y litio del NOA"
+  ],
+  [
+   0.47,
+   "A2-04",
+   "Exploración minera con inteligencia artificial en los Andes"
+  ]
+ ],
+ "A5-27": [
+  [
+   0.5,
+   "GI46",
+   "GI46 | Riego solar por hectárea-mes"
+  ],
+  [
+   0.5,
+   "A2-08",
+   "Energía solar con baterías para minas de la Puna"
+  ],
+  [
+   0.4,
+   "GI66",
+   "GI66 | Techos solares financiados entre dos partes"
+  ],
+  [
+   0.36,
+   "ENE-1-1",
+   "ENE-1-1 | Cada presupuesto solar exige visitar el techo para medir y diseñar el sistema | Energía y servicios / Instaladores solares (paneles, termotanques)"
+  ]
+ ],
+ "A5-28": [],
+ "A5-29": [
+  [
+   0.5,
+   "GI1",
+   "GI1 | Bolsa de capacidad ociosa de plantas de alimentos (fasón)"
+  ]
+ ],
+ "A5-30": [],
+ "A6-01": [
+  [
+   1.0,
+   "GC84",
+   "GC84 | Estados Unidos"
+  ],
+  [
+   1.0,
+   "GC80",
+   "GC80 | Estados Unidos"
+  ],
+  [
+   1.0,
+   "GC78",
+   "GC78 | Estados Unidos"
+  ],
+  [
+   1.0,
+   "GC70",
+   "GC70 | Estados Unidos"
+  ],
+  [
+   1.0,
+   "GC61",
+   "GC61 | Estados Unidos"
+  ]
+ ],
+ "A6-02": [
+  [
+   0.6,
+   "A2-10",
+   "Ingredientes premium desde la cáscara del limón"
+  ]
+ ],
+ "A6-03": [
+  [
+   0.79,
+   "A1-04",
+   "Combustible de aviación sostenible a partir de etanol del NOA"
+  ],
+  [
+   0.5,
+   "A2-09",
+   "Combustible de aviación sostenible desde caña tucumana"
+  ]
+ ],
+ "A6-04": [
+  [
+   0.6,
+   "A3-10",
+   "Biochar de bagazo vendido como remoción de carbono"
+  ],
+  [
+   0.45,
+   "A2-13",
+   "Biochar de residuos de caña y venta de remoción de carbono"
+  ],
+  [
+   0.4,
+   "A1-01",
+   "Biochar de bagazo y residuos de caña con créditos de carbono"
+  ]
+ ],
+ "A6-05": [
+  [
+   0.69,
+   "A2-16",
+   "Proteína de garbanzo y poroto del NOA"
+  ],
+  [
+   0.38,
+   "A2-14",
+   "Planta de fermentación a façon con azúcar barata"
+  ]
+ ],
+ "A6-06": [
+  [
+   0.38,
+   "SAL-5-2",
+   "SAL-5-2 | Compras a distribuidores y venta recurrente de alimento sin sistema | Salud / Veterinarias"
+  ]
+ ],
+ "A6-07": [],
+ "A6-08": [],
+ "A6-09": [
+  [
+   0.5,
+   "X1b",
+   "X1b | Abono mensual de automatización con IA + mejora continua | Automatización y agencia IA"
+  ],
+  [
+   0.4,
+   "GS60",
+   "GS60 | Garantía de obra de 12 meses que paga el cliente"
+  ]
+ ],
+ "A6-10": [
+  [
+   0.47,
+   "A1-17",
+   "Turismo médico y de rehabilitación para mayores extranjeros"
+  ],
+  [
+   0.38,
+   "M34",
+   "M34 | Reels mensuales para clínicas dentales en España | Video y producción audiovisual"
+  ]
+ ],
+ "A6-11": [
+  [
+   0.5,
+   "GL23",
+   "GL23 | Red de expertos de la Argentina por dentro"
+  ]
+ ],
+ "A6-12": [],
+ "A6-13": [
+  [
+   0.64,
+   "A2-25",
+   "Red de centros de investigación clínica en el NOA"
+  ],
+  [
+   0.4,
+   "GS17",
+   "GS17 | ¿Qué análisis me exigen? → red de laboratorios para PyMEs"
+  ],
+  [
+   0.38,
+   "GI86",
+   "GI86 | Ensayos clínicos en criollo: buscador y pre-chequeo de elegibilidad para pacientes → centros de investigación que reciben derivaciones ya filtradas"
+  ],
+  [
+   0.36,
+   "GIM-N212",
+   "GIM-N212 | Ensayos clínicos en criollo: buscador y pre-chequeo de elegibilidad para pacientes → centros de investigación que reciben derivaciones ya fi | Gimnas"
+  ]
+ ],
+ "A6-14": [
+  [
+   0.65,
+   "A5-06",
+   "Data centers modulares con gas varado de Vaca Muerta"
+  ],
+  [
+   0.65,
+   "A1-20",
+   "Centros de datos modulares con gas de Vaca Muerta"
+  ]
+ ],
+ "A6-15": [],
+ "A6-16": [],
+ "A6-17": [],
+ "A6-18": [],
+ "A6-19": [
+  [
+   1.0,
+   "GC84",
+   "GC84 | Estados Unidos"
+  ],
+  [
+   1.0,
+   "GC80",
+   "GC80 | Estados Unidos"
+  ],
+  [
+   1.0,
+   "GC78",
+   "GC78 | Estados Unidos"
+  ],
+  [
+   1.0,
+   "GC72",
+   "GC72 | Reino Unido"
+  ],
+  [
+   1.0,
+   "GC70",
+   "GC70 | Estados Unidos"
+  ]
+ ],
+ "A6-20": [
+  [
+   0.5,
+   "E38",
+   "E38 | Libros infantiles personalizados con IA | Servicios a personas"
+  ],
+  [
+   0.4,
+   "H10",
+   "H10 | CV, LinkedIn y foto profesional en 48 h | Servicios a personas"
+  ]
+ ],
+ "A6-21": [],
+ "A6-22": [],
+ "A6-23": [
+  [
+   0.67,
+   "A3-15",
+   "Larvas de mosca soldado que comen residuos cítricos"
+  ],
+  [
+   0.61,
+   "A1-11",
+   "Proteína de insectos con residuos de citrícolas e ingenios"
+  ]
+ ],
+ "A6-24": [
+  [
+   0.38,
+   "A2-22",
+   "Cultivos editados genéticamente con regalías globales"
+  ]
+ ],
+ "A6-25": [
+  [
+   0.47,
+   "A1-10",
+   "Bioinsumos argentinos para exportar a Brasil y el trópico"
+  ],
+  [
+   0.44,
+   "A2-20",
+   "Biofábrica de bioinsumos para Brasil y el mundo"
+  ],
+  [
+   0.43,
+   "M15",
+   "M15 | Videos de aplicación de producto para fabricantes que exportan | Video y producción audiovisual"
+  ],
+  [
+   0.41,
+   "A3-02",
+   "Bioinsumos del NOA: control biológico para caña y cítricos"
+  ]
+ ],
+ "A6-26": [
+  [
+   0.75,
+   "A2-28",
+   "Cáñamo industrial del NOA para el mundo"
+  ]
+ ],
+ "A6-27": [],
+ "A6-28": [
+  [
+   0.4,
+   "GS17",
+   "GS17 | ¿Qué análisis me exigen? → red de laboratorios para PyMEs"
+  ]
+ ],
+ "A6-29": [
+  [
+   0.4,
+   "A13",
+   "A13 | Talleres de IA para adultos mayores | Educación y cursos"
+  ]
+ ],
+ "A6-30": [],
+ "B1-01": [
+  [
+   0.73,
+   "B4-03",
+   "Agua caliente para el mate, con QR, en la calle"
+  ],
+  [
+   0.5,
+   "GL58",
+   "GL58 | Agua resuelta para casas sin red"
+  ]
+ ],
+ "B1-02": [
+  [
+   0.5,
+   "B2-07",
+   "Cargador de celular y paraguas prestados, en cualquier kiosco"
+  ]
+ ],
+ "B1-03": [],
+ "B1-04": [],
+ "B1-05": [],
+ "B1-06": [
+  [
+   0.43,
+   "B12",
+   "B12 | Cobranzas por WhatsApp con link de Mercado Pago | Automatización y agencia IA"
+  ],
+  [
+   0.4,
+   "GI123",
+   "GI123 | Comprá tu departamento afuera desde tu casa, del lado del comprador"
+  ],
+  [
+   0.4,
+   "B2-04",
+   "Lavarropas en casa: pagás por lavado, no por el aparato"
+  ],
+  [
+   0.38,
+   "X2f",
+   "X2f | Domótica como servicio: instalación + abono mensual de casa inteligente | Servicios a personas"
+  ]
+ ],
+ "B1-07": [],
+ "B1-08": [],
+ "B1-09": [
+  [
+   0.4,
+   "GL4",
+   "GL4 | Compras para la familia en Argentina, pagadas desde el exterior"
+  ],
+  [
+   0.38,
+   "GI77",
+   "GI77 | Garantía de 6 a 12 meses para lo que comprás usado a un particular (la promesa de Back Market sin Back Market)"
+  ]
+ ],
+ "B1-10": [],
+ "B1-11": [
+  [
+   0.4,
+   "GI116",
+   "GI116 | Agua segura por abono (pozos con arsénico)"
+  ]
+ ],
+ "B1-12": [
+  [
+   0.5,
+   "GI84",
+   "GI84 | Aire acondicionado por abono para comercios"
+  ]
+ ],
+ "B1-13": [],
+ "B1-14": [],
+ "B1-15": [
+  [
+   0.38,
+   "R21",
+   "R21 | Videos de ayuda de software que se regeneran cuando cambia la app | Software y herramientas"
+  ]
+ ],
+ "B1-16": [],
+ "B1-17": [],
+ "B1-18": [
+  [
+   0.5,
+   "GL55",
+   "GL55 | Colmenas por temporada con prueba de que trabajaron"
+  ],
+  [
+   0.4,
+   "GI118",
+   "GI118 | La casa del fondo, importada y llave en mano"
+  ]
+ ],
+ "B1-19": [
+  [
+   0.36,
+   "B2-07",
+   "Cargador de celular y paraguas prestados, en cualquier kiosco"
+  ]
+ ],
+ "B1-20": [
+  [
+   0.38,
+   "I6",
+   "I6 | Tutoría de cierre de año: secundaria y materias del CBC | Educación y cursos"
+  ],
+  [
+   0.36,
+   "EDU-1-5",
+   "EDU-1-5 | Familias llaman al transportista escolar para saber dónde está la combi | Educación / Colegios privados"
+  ]
+ ],
+ "B2-01": [],
+ "B2-02": [
+  [
+   0.38,
+   "L4",
+   "L4 | Taller “Claude para estudiantes de ingeniería” en grupos de facultad | Educación y cursos"
+  ]
+ ],
+ "B2-03": [],
+ "B2-04": [
+  [
+   0.4,
+   "B1-06",
+   "Lavarropas sin comprarlo: pagás por lavado"
+  ]
+ ],
+ "B2-05": [
+  [
+   0.5,
+   "GL25",
+   "GL25 | Abono de mantenimiento para el que alquila su departamento"
+  ],
+  [
+   0.35,
+   "B2-06",
+   "Bici y equipo deportivo de chicos por abono, cambia con el talle"
+  ]
+ ],
+ "B2-06": [
+  [
+   0.35,
+   "B2-05",
+   "Ropa de bebé que crece con el bebé: alquiler por talle"
+  ]
+ ],
+ "B2-07": [
+  [
+   0.5,
+   "B1-02",
+   "Batería prestada: cargadores portátiles que se alquilan y se devuelven en otro lado"
+  ],
+  [
+   0.36,
+   "B1-19",
+   "Paraguas prestado en las paradas y galerías"
+  ]
+ ],
+ "B2-08": [],
+ "B2-09": [
+  [
+   0.5,
+   "GL25",
+   "GL25 | Abono de mantenimiento para el que alquila su departamento"
+  ],
+  [
+   0.4,
+   "B5-19",
+   "Primer depto amoblado por abono, con recompra al irte"
+  ]
+ ],
+ "B2-10": [],
+ "B2-11": [
+  [
+   0.4,
+   "GI18",
+   "GI18 | Sponsoreo hiperlocal: marcas compran presencia en 200 clubes de barrio con prueba por foto"
+  ],
+  [
+   0.39,
+   "B6-07",
+   "Tu ticket del súper vale: panel de consumo del interior"
+  ]
+ ],
+ "B2-12": [],
+ "B2-13": [
+  [
+   0.38,
+   "GL74",
+   "GL74 | ¿Quién la tiene a 10 cuadras? Stock visible de ferreterías y bulonerías del barrio"
+  ]
+ ],
+ "B2-14": [
+  [
+   0.5,
+   "GI84",
+   "GI84 | Aire acondicionado por abono para comercios"
+  ],
+  [
+   0.4,
+   "J13",
+   "J13 | Vaciado de casas y sucesiones | Comercio y reventa"
+  ]
+ ],
+ "B2-15": [
+  [
+   0.43,
+   "MF35",
+   "MF35 | [Ideas propias (gimnasio)] App para el manejo de la obra por el jefe de obra"
+  ]
+ ],
+ "B2-16": [
+  [
+   0.43,
+   "GI88",
+   "GI88 | Henry de los oficios: escuela corta que cobra cuando trabajás"
+  ],
+  [
+   0.43,
+   "A19",
+   "A19 | Comunidad paga de nicho en Skool (IA para un oficio) | Educación y cursos"
+  ],
+  [
+   0.4,
+   "GL30",
+   "GL30 | Instalate en la ciudad de la facultad en un solo viaje"
+  ],
+  [
+   0.4,
+   "A6",
+   "A6 | Curso o comunidad de IA para inmobiliarias | Educación y cursos"
+  ],
+  [
+   0.4,
+   "A30",
+   "A30 | Curso en Udemy (español) | Educación y cursos"
+  ]
+ ],
+ "B2-17": [
+  [
+   0.35,
+   "B5-11",
+   "Pase de cafeterías para trabajar: café y mesa por abono"
+  ]
+ ],
+ "B2-18": [],
+ "B2-19": [
+  [
+   0.4,
+   "GI118",
+   "GI118 | La casa del fondo, importada y llave en mano"
+  ],
+  [
+   0.38,
+   "X2f",
+   "X2f | Domótica como servicio: instalación + abono mensual de casa inteligente | Servicios a personas"
+  ]
+ ],
+ "B2-20": [
+  [
+   0.5,
+   "GL12",
+   "GL12 | Locales vacíos por semana para marcas que venden online"
+  ]
+ ],
+ "B3-01": [],
+ "B3-02": [],
+ "B3-03": [],
+ "B3-04": [],
+ "B3-05": [],
+ "B3-06": [],
+ "B3-07": [],
+ "B3-08": [],
+ "B3-09": [],
+ "B3-10": [],
+ "B3-11": [
+  [
+   0.38,
+   "I20",
+   "I20 | Video homenaje con fotos ('la historia de mamá en 3 minutos') | Video y producción audiovisual"
+  ],
+  [
+   0.35,
+   "B4-06",
+   "El recetario de la abuela, grabado y hecho libro"
+  ],
+  [
+   0.35,
+   "B3-20",
+   "Antes de dormir, un audio: ¿en qué gastaste hoy?"
+  ]
+ ],
+ "B3-12": [],
+ "B3-13": [],
+ "B3-14": [],
+ "B3-15": [],
+ "B3-16": [],
+ "B3-17": [
+  [
+   0.5,
+   "GI95",
+   "GI95 | Aceite de fritura como servicio para cocinas"
+  ],
+  [
+   0.4,
+   "GIM-N156",
+   "GIM-N156 | Aceite de fritura como servicio para cocinas | Gimnasio / x-como-servicio"
+  ],
+  [
+   0.38,
+   "GIM-N025",
+   "GIM-N025 | Referencias laborales verificadas por IA: pasaporte del trabajador informal | Gimnasio / confianza-verificacion"
+  ]
+ ],
+ "B3-18": [],
+ "B3-19": [],
+ "B3-20": [
+  [
+   0.35,
+   "B3-11",
+   "Dos minutos antes de dormir: la vida del abuelo en un libro"
+  ]
+ ],
+ "B4-01": [],
+ "B4-02": [],
+ "B4-03": [
+  [
+   0.73,
+   "B1-01",
+   "Termo Lleno: agua caliente para el mate, pagada con QR"
+  ]
+ ],
+ "B4-04": [],
+ "B4-05": [],
+ "B4-06": [
+  [
+   0.35,
+   "B3-11",
+   "Dos minutos antes de dormir: la vida del abuelo en un libro"
+  ]
+ ],
+ "B4-07": [
+  [
+   0.4,
+   "T15",
+   "T15 | Catálogo de productos en video (un video por producto) | E-commerce y marketplaces"
+  ],
+  [
+   0.4,
+   "B13",
+   "B13 | Pedidos por WhatsApp para gastronomía | Automatización y agencia IA"
+  ],
+  [
+   0.38,
+   "AGR-5-4",
+   "AGR-5-4 | Pedidos de productores llegan por WhatsApp y se cargan a mano | Agro y agroindustria / Agroinsumos"
+  ]
+ ],
+ "B4-08": [
+  [
+   0.5,
+   "GI40",
+   "GI40 | Frío por pallet bajo demanda"
+  ]
+ ],
+ "B4-09": [
+  [
+   0.4,
+   "GI11",
+   "GI11 | Casero digital para la casa de fin de semana"
+  ]
+ ],
+ "B4-10": [
+  [
+   0.4,
+   "GS60",
+   "GS60 | Garantía de obra de 12 meses que paga el cliente"
+  ]
+ ],
+ "B4-11": [],
+ "B4-12": [],
+ "B4-13": [],
+ "B4-14": [],
+ "B4-15": [],
+ "B4-16": [],
+ "B4-17": [],
+ "B4-18": [
+  [
+   0.56,
+   "B5-11",
+   "Pase de cafeterías para trabajar: café y mesa por abono"
+  ],
+  [
+   0.43,
+   "L32",
+   "L32 | Prolific (estudios académicos pagos) | Freelance y trabajo remoto"
+  ],
+  [
+   0.38,
+   "K33",
+   "K33 | Asistente de Excel y operaciones para estudio contable | Freelance y trabajo remoto"
+  ],
+  [
+   0.35,
+   "B6-06",
+   "Restaurantes vacíos de día convertidos en coworking por abono"
+  ]
+ ],
+ "B4-19": [
+  [
+   0.5,
+   "GS26",
+   "GS26 | Reforma a precio cerrado con pago por hitos retenido"
+  ],
+  [
+   0.38,
+   "GS47",
+   "GS47 | Reforma de baño o cocina a precio cerrado con pago por hitos (Block)"
+  ]
+ ],
+ "B4-20": [
+  [
+   0.6,
+   "GS58",
+   "GS58 | Agua pura por abono para oficinas y hogares"
+  ],
+  [
+   0.4,
+   "GI116",
+   "GI116 | Agua segura por abono (pozos con arsénico)"
+  ]
+ ],
+ "B5-01": [],
+ "B5-02": [],
+ "B5-03": [],
+ "B5-04": [],
+ "B5-05": [
+  [
+   0.67,
+   "GI56",
+   "GI56 | Gas seguro todo el año"
+  ],
+  [
+   0.6,
+   "GIM-N146",
+   "GIM-N146 | Gas seguro todo el año | Gimnasio / x-como-servicio"
+  ],
+  [
+   0.4,
+   "GS29",
+   "GS29 | Pasaporte de inquilino: calificación reusable + garantía comparada + contrato revisado + inventario con IA + servicios"
+  ],
+  [
+   0.38,
+   "GI32",
+   "GI32 | Agente del inquilino: busca, visita, negocia y revisa el contrato por vos"
+  ]
+ ],
+ "B5-06": [
+  [
+   0.4,
+   "GL30",
+   "GL30 | Instalate en la ciudad de la facultad en un solo viaje"
+  ]
+ ],
+ "B5-07": [],
+ "B5-08": [],
+ "B5-09": [
+  [
+   0.5,
+   "I5",
+   "I5 | Portfolio web de una página para estudiantes y recién recibidos | Foto y diseño"
+  ],
+  [
+   0.5,
+   "GI31",
+   "GI31 | Referencias laborales verificadas por IA: pasaporte del trabajador informal"
+  ],
+  [
+   0.38,
+   "GIM-N025",
+   "GIM-N025 | Referencias laborales verificadas por IA: pasaporte del trabajador informal | Gimnasio / confianza-verificacion"
+  ]
+ ],
+ "B5-10": [
+  [
+   0.5,
+   "GL55",
+   "GL55 | Colmenas por temporada con prueba de que trabajaron"
+  ],
+  [
+   0.43,
+   "GI102",
+   "GI102 | Humedad sin romper: de dónde viene, quién paga y quién la arregla"
+  ],
+  [
+   0.4,
+   "GL30",
+   "GL30 | Instalate en la ciudad de la facultad en un solo viaje"
+  ],
+  [
+   0.4,
+   "A3",
+   "A3 | Curso de IA para estudios jurídicos | Educación y cursos"
+  ]
+ ],
+ "B5-11": [
+  [
+   0.56,
+   "B4-18",
+   "Pase para trabajar en cafés: la sobremesa eterna, paga"
+  ],
+  [
+   0.39,
+   "B6-06",
+   "Restaurantes vacíos de día convertidos en coworking por abono"
+  ],
+  [
+   0.35,
+   "B2-17",
+   "Café ilimitado por abono para cafeterías de barrio"
+  ]
+ ],
+ "B5-12": [
+  [
+   0.36,
+   "MF100",
+   "MF100 | [Ideas propias (nichos 2)] Empresa de empleadas domésticas con sueldo digno, en blanco y con trabajo estable"
+  ]
+ ],
+ "B5-13": [],
+ "B5-14": [],
+ "B5-15": [],
+ "B5-16": [],
+ "B5-17": [],
+ "B5-18": [
+  [
+   0.6,
+   "GIM-N146",
+   "GIM-N146 | Gas seguro todo el año | Gimnasio / x-como-servicio"
+  ],
+  [
+   0.4,
+   "GIM-N156",
+   "GIM-N156 | Aceite de fritura como servicio para cocinas | Gimnasio / x-como-servicio"
+  ],
+  [
+   0.4,
+   "GIM-N154",
+   "GIM-N154 | Ascensor con SLA para consorcios | Gimnasio / x-como-servicio"
+  ],
+  [
+   0.4,
+   "GIM-N147",
+   "GIM-N147 | Pileta garantizada por condición | Gimnasio / x-como-servicio"
+  ]
+ ],
+ "B5-19": [
+  [
+   0.4,
+   "B2-09",
+   "Muebles por abono para inquilinos y estudiantes que se mudan"
+  ]
+ ],
+ "B5-20": [],
+ "B6-01": [],
+ "B6-02": [
+  [
+   0.5,
+   "GI95",
+   "GI95 | Aceite de fritura como servicio para cocinas"
+  ],
+  [
+   0.4,
+   "GIM-N156",
+   "GIM-N156 | Aceite de fritura como servicio para cocinas | Gimnasio / x-como-servicio"
+  ]
+ ],
+ "B6-03": [],
+ "B6-04": [],
+ "B6-05": [
+  [
+   0.5,
+   "GL23",
+   "GL23 | Red de expertos de la Argentina por dentro"
+  ],
+  [
+   0.4,
+   "GL4",
+   "GL4 | Compras para la familia en Argentina, pagadas desde el exterior"
+  ]
+ ],
+ "B6-06": [
+  [
+   0.39,
+   "B5-11",
+   "Pase de cafeterías para trabajar: café y mesa por abono"
+  ],
+  [
+   0.38,
+   "X2f",
+   "X2f | Domótica como servicio: instalación + abono mensual de casa inteligente | Servicios a personas"
+  ],
+  [
+   0.35,
+   "B4-18",
+   "Pase para trabajar en cafés: la sobremesa eterna, paga"
+  ]
+ ],
+ "B6-07": [
+  [
+   0.39,
+   "B2-11",
+   "Te pagan por sacarle foto al ticket del súper"
+  ]
+ ],
+ "B6-08": [],
+ "B6-09": [
+  [
+   0.5,
+   "GIM-N153",
+   "GIM-N153 | Aire acondicionado por abono para comercios | Gimnasio / x-como-servicio"
+  ],
+  [
+   0.5,
+   "GI84",
+   "GI84 | Aire acondicionado por abono para comercios"
+  ],
+  [
+   0.5,
+   "GI35",
+   "GI35 | Batería de respaldo por abono para comercios"
+  ],
+  [
+   0.4,
+   "J13",
+   "J13 | Vaciado de casas y sucesiones | Comercio y reventa"
+  ]
+ ],
+ "B6-10": [],
+ "B6-11": [
+  [
+   0.5,
+   "GL58",
+   "GL58 | Agua resuelta para casas sin red"
+  ]
+ ],
+ "B6-12": [],
+ "B6-13": [],
+ "B6-14": [],
+ "B6-15": [],
+ "B6-16": [
+  [
+   0.43,
+   "M15",
+   "M15 | Videos de aplicación de producto para fabricantes que exportan | Video y producción audiovisual"
+  ],
+  [
+   0.43,
+   "E11",
+   "E11 | Videos de capacitación con avatar IA para empresas | Video y producción audiovisual"
+  ],
+  [
+   0.4,
+   "M31",
+   "M31 | Video de prospección personalizado para equipos de ventas | Ventas y prospección"
+  ],
+  [
+   0.38,
+   "T9",
+   "T9 | Videos de inventario para concesionarias y agencias de usados | Video y producción audiovisual"
+  ],
+  [
+   0.38,
+   "R33",
+   "R33 | Biblioteca de videos para pacientes, licenciada por consultorio | Video y producción audiovisual"
+  ]
+ ],
+ "B6-17": [],
+ "B6-18": [
+  [
+   0.5,
+   "GL58",
+   "GL58 | Agua resuelta para casas sin red"
+  ]
+ ],
+ "B6-19": [],
+ "B6-20": []
+}

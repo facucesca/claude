@@ -83,8 +83,13 @@ Cómo se aplica:
   - Tanda B (6 × 20, pedida después): **cosas chicas y cotidianas, fuera de la caja, que le den
     la vuelta a algo, con potencial de startup** — objetos cotidianos, modelos dados vuelta,
     tiempo muerto, costumbres argentinas, vida adulta joven, lo que sobra.
-  - Al terminar: cruce contra `exclusion.txt`, `python3 investigaciones/datos/2026-11-03/build_excel.py`
-    → `investigaciones/2026-11-03-IDEAS-A-GRAN-ESCALA.xlsx` + resumen `.md`. Cuidar el límite de uso.
+  - **Terminada.** 300 ideas → 232 nuevas tras sacar 57 repetidas entre investigadores y 11
+    parecidas a lo anterior (`descartes.json`). Excel: `investigaciones/2026-11-03-IDEAS-NUEVAS.xlsx`;
+    resumen: `investigaciones/2026-11-03-ideas-nuevas.md`; registro: `investigaciones/registro-nuevo.csv`.
+    Se regenera con `python3 investigaciones/datos/2026-11-03/build_excel.py`.
+  - 21 ideas quedaron **SIN VERIFICAR** y 97 **parciales** (se agotó el cupo de 200 búsquedas web
+    por turno). Verificar antes de profundizar cualquiera de esas.
+- **Ahora:** que Facu marque el Excel en colores y comente. Después: verificar y profundizar las marcadas.
 - **Después:** Excel con las ideas nuevas puntuadas → el usuario marca → investigación a fondo
   de las marcadas → elegir 1 y armar el plan de validación.
 

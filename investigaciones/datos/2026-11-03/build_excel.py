@@ -3,9 +3,9 @@
 Uso (desde la raíz del proyecto):
     python3 investigaciones/datos/2026-11-03/build_excel.py
 
-Entradas: a*.json (ideas), exclusion.txt (todo lo anterior), descartes.json (opcional:
-{"<titulo>": "motivo"} para sacar ideas a mano después de revisar los parecidos).
-Salidas: investigaciones/2026-11-03-IDEAS-A-GRAN-ESCALA.xlsx, parecidos.json, ideas.json
+Entradas: a*.json y b*.json (ideas), exclusion.txt (todo lo anterior), descartes.json (opcional:
+{"<id>": "motivo"} para sacar ideas a mano después de revisar los parecidos).
+Salidas: investigaciones/2026-11-03-IDEAS-NUEVAS.xlsx, parecidos.json, ideas.json
 """
 import json, re, unicodedata
 from pathlib import Path
@@ -15,7 +15,7 @@ from openpyxl.utils import get_column_letter
 
 AQUI = Path(__file__).parent
 RAIZ = AQUI.parents[2]
-SALIDA = RAIZ / "investigaciones" / "2026-11-03-IDEAS-A-GRAN-ESCALA.xlsx"
+SALIDA = RAIZ / "investigaciones" / "2026-11-03-IDEAS-NUEVAS.xlsx"
 
 ANGULOS = {
     "a1": "Megatendencias 2030-2045",
@@ -86,6 +86,13 @@ def parecidos(ideas):
     return res
 
 
+def verif(d):
+    if not d.get("fuentes"):
+        return "SIN VERIFICAR"
+    t = json.dumps(d, ensure_ascii=False).lower()
+    return "Parcial" if ("no verific" in t or "sin verific" in t or "no pude verificar" in t) else "Sí"
+
+
 def ancho(ws, anchos):
     for i, w in enumerate(anchos, 1):
         ws.column_dimensions[get_column_letter(i)].width = w
@@ -115,7 +122,7 @@ def main():
     ws = wb.active
     ws.title = "LEÉME"
     for fila in [
-        ["IDEAS A GRAN ESCALA — investigación del 2026-11-03"],
+        ["IDEAS NUEVAS — investigación del 2026-11-03 (gran escala + chicas con potencial de startup)"],
         [""],
         [f"{len(vivas)} ideas nuevas, de 12 ángulos distintos (A1-A6 gran escala, B1-B6 chico con potencial de startup). Ninguna repite lo de ideas-anteriores/ ni los juguetes."],
         [f"Salieron {len(fuera)} por parecerse a algo anterior o entre sí (hoja SALIERON)."],
@@ -125,6 +132,7 @@ def main():
         ["• Escribí lo que pienses en la columna 'Mis comentarios'."],
         ["• Puntajes 1 a 5 = OPINIÓN de Claude (5 = mejor). 'Riesgo bajo' 5 = poco riesgo."],
         ["• 'Plata para arrancar' es ESTIMACIÓN. Mercado, competencia y 'por qué ahora' llevan fuente; si dice 'no verificado' o 'estimación propia', es eso."],
+        ["• '¿Verificada?': Sí = con fuentes; Parcial = algún dato sin chequear (dice cuál); SIN VERIFICAR = se acabó el cupo de búsquedas, confirmar antes de usar."],
         ["• Columna 'Se parece a': lo más cercano de lo anterior que revisamos, para que veas que no es lo mismo."],
         [""],
         ["Ángulos:"],
@@ -133,7 +141,7 @@ def main():
     ws["A1"].font = Font(bold=True, size=14)
     ws.column_dimensions["A"].width = 140
 
-    cols = ["#", "Idea", "Mis comentarios", "Total /35", "En una línea", "Ángulo", "Problema", "Quién paga",
+    cols = ["#", "Idea", "Mis comentarios", "Total /35", "¿Verificada?", "En una línea", "Ángulo", "Problema", "Quién paga",
             "Cómo gana plata", "Por qué escala", "Por qué ahora", "Mercado", "Competencia en el mundo",
             "Competencia en Argentina/LATAM", "Plata para arrancar (estimación)", "Horizonte", "Primer paso (30-90 días)",
             "Riesgos", "Ventaja de Facu", "Opinión de Claude"] + [f"P: {k.replace('_', ' ')}" for k in PESOS] + \
@@ -142,7 +150,7 @@ def main():
     encabezado(ws, cols)
     for d in vivas:
         p = d.get("puntajes") or {}
-        ws.append([d["id"], d.get("titulo"), "", d["total"], d.get("en_una_linea"), d["angulo"], d.get("problema"),
+        ws.append([d["id"], d.get("titulo"), "", d["total"], verif(d), d.get("en_una_linea"), d["angulo"], d.get("problema"),
                    d.get("cliente_que_paga"), d.get("como_gana_plata"), d.get("por_que_escala"), texto(d.get("por_que_ahora")),
                    texto(d.get("mercado")), texto(d.get("competencia_mundo")), texto(d.get("competencia_argentina")),
                    texto(d.get("plata_para_arrancar")), d.get("horizonte"), texto(d.get("primer_paso")), texto(d.get("riesgos")),
@@ -151,7 +159,7 @@ def main():
     for fila in ws.iter_rows(min_row=2):
         for c in fila:
             c.alignment = Alignment(wrap_text=True, vertical="top")
-    ancho(ws, [7, 32, 30, 8, 45, 20] + [45] * 14 + [6] * 7 + [40, 50])
+    ancho(ws, [7, 32, 30, 8, 12, 45, 20] + [45] * 14 + [6] * 7 + [40, 50])
     ws.auto_filter.ref = ws.dimensions
 
     ws = wb.create_sheet("POR ÁNGULO")
