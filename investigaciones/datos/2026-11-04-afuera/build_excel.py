@@ -19,7 +19,11 @@ REG = {"f1-china": "China", "f1-india": "India", "f1-asia-sudeste-japon-corea": 
        "f1-africa-medio-oriente": "África y Medio Oriente", "r2-eeuu-canada-australia": "EE.UU., Canadá y Australia",
        "r2-europa-norte": "Europa del norte", "r2-rusia-asia-central": "Rusia, Asia Central, Pakistán",
        "r2-china-india-2": "China e India (2.ª pasada)", "r2-agro-alimentos": "Agro y alimentos (mundo)",
-       "r2-industria-construccion": "Industria y construcción (mundo)"}
+       "r2-industria-construccion": "Industria y construcción (mundo)",
+       "r3-salud-cuidado": "R3 Salud y cuidado", "r3-educacion-empleo": "R3 Educación y empleo",
+       "r3-finanzas-seguros": "R3 Finanzas y seguros", "r3-retail-franquicias": "R3 Locales y franquicias",
+       "r3-movilidad-logistica": "R3 Movilidad y logística", "r3-vivienda-inmobiliario": "R3 Vivienda e inmobiliario",
+       "r3-agregadores": "R3 Agregadores (juntar chicos)", "r3-leyes-nuevas": "R3 Negocios por leyes nuevas"}
 CAMPOS = ["que_hace", "problema_que_resuelve", "como_gana_plata", "traccion", "por_que_funciono_alla",
           "existe_esa_condicion_en_argentina", "argentina_hoy", "la_vuelta_para_argentina", "por_que_nos_necesitarian",
           "riesgos", "veredicto"]
@@ -36,14 +40,19 @@ def puntaje(v):
 def main():
     corta = json.loads((AQUI / "lista_corta.json").read_text(encoding="utf-8"))
     filas = []
-    for f in sorted(list(AQUI.glob("f1-*.json")) + list(AQUI.glob("r2-*.json"))):
-        if "descartes" in f.name:
+    vistos = set()
+    for f in sorted(list(AQUI.glob("f1-*.json")) + list(AQUI.glob("r2-*.json")) + list(AQUI.glob("r3-*.json"))):
+        if "descart" in f.name:
             continue
         d = json.loads(f.read_text(encoding="utf-8"))
         items = d.get("empresas", []) if isinstance(d, dict) else d
         for x in items:
             emp = texto(x.get("empresa"))
             motivo = next((m for k, m in corta.items() if k.lower() in emp.lower()), "")
+            corto = re.split(r" \(| —| -", emp)[0].strip().lower()
+            if motivo and not motivo.startswith("FUERA") and corto in vistos:
+                motivo = "FUERA: repetida (aparece en otra fila)"
+            vistos.add(corto)
             filas.append((f.stem, emp, x, motivo))
     filas.sort(key=lambda t: (t[3] == "", t[3].startswith("FUERA"), -(puntaje(t[2].get("veredicto")) or 0)))
 
@@ -52,7 +61,7 @@ def main():
     ws.title = "LEÉME"
     vivas = [t for t in filas if t[3] and not t[3].startswith("FUERA")]
     for fila in [["EMPRESAS DE AFUERA QUE NO EXISTEN EN ARGENTINA — 2026-11-04"], [""],
-                 [f"{len(filas)} empresas reales con tracción comprobada (ronda 1: 74, ronda 2: {len(filas) - 74})."],
+                 [f"{len(filas)} empresas reales con tracción comprobada (ronda 1: 74, ronda 2: 61, ronda 3: {len(filas) - 135})."],
                  [f"{len(vivas)} en la LISTA CORTA (columna 'Lista corta'), elegidas por Claude con el filtro duro (Regla N.º 3)."],
                  ["Filtro: tracción real, no existe en Argentina, la condición que la hizo funcionar se da acá, la plata pasa por el negocio, hay barrera, no repite nada anterior."],
                  ["Puntaje = opinión del explorador (1-10). Tracción con links; lo no verificado dice 'no verificado'."],

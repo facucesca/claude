@@ -1,6 +1,6 @@
 # Empresas de afuera que no existen en Argentina — 2026-11-04
 
-Pedido de Facu: dejar de inventar ideas y buscar **empresas reales que ya funcionan en otros países
+Ahora con **3 rondas: 201 empresas**. Pedido de Facu: dejar de inventar ideas y buscar **empresas reales que ya funcionan en otros países
 (China, India, etc.) y que en Argentina no existen**, con más profundidad y leyendo las páginas.
 
 Excel: `investigaciones/2026-11-04-EMPRESAS-DE-AFUERA.xlsx` (hoja EMPRESAS; la lista corta va arriba, en amarillo).
@@ -48,3 +48,24 @@ comprar), U-Haul (alquiler de camiones que maneja el cliente).
 Varias empresas tienen una sola búsqueda en Argentina (cupo de 30 búsquedas por explorador). Antes de
 elegir, la **fase 3** hace la ficha a fondo: unidad económica, competencia argentina con varias búsquedas,
 regulación, capital necesario y cómo arrancar.
+
+## Ronda 3 (8 exploradores por rubro, en todo el mundo) → 66 empresas
+Rubros: salud y cuidado, educación y empleo, finanzas y seguros, locales y franquicias, movilidad y
+logística, vivienda e inmobiliario, **agregadores** (los que juntan a muchos chicos) y **negocios nacidos de
+leyes nuevas**. Descartaron además ~130 candidatas (ya existen acá o se parecen a lo anterior).
+
+**Lista corta ronda 3 (17):** Agiliti (alquiler de equipos médicos a hospitales con mantenimiento; ANMAT
+habilitó usados reacondicionados en 2026), Healogics (centros de heridas crónicas dentro de hospitales),
+Synergy Health (esterilización tercerizada de instrumental), Premier (central de compras de hospitales,
+cobra 1-3% a proveedores), SPAR (marca común para almacenes independientes), Optic 2000 (cooperativa de
+ópticas), Ting (sensor anti-incendio eléctrico que paga la aseguradora), Nirvana (seguro de camiones por
+telemetría), Triumph/AtoB (adelanto de facturas al camionero), NextGear (financiar stock de agencias de
+usados), enfermeros para Alemania/EE.UU. pagados por el empleador, Daito Trust (construir en tu terreno y
+alquilarte el edificio entero), Patrimonio Hoy (autoconstrucción en cuotas semanales con material
+congelado), LKQ (autopartes recuperadas con garantía; en 2024 se pasó de 30 a 142 piezas recuperables por
+auto), Club Pilates (cadena de reformer), Life4cuts (cabinas de foto sin personal), Fora (agencia de
+viajes con asesores independientes; se derogó la ley de agencias), Hiflow (traslado de autos de a uno),
+Cacau Show (chocolatería en tienda-contenedor para pueblos chicos).
+
+Salieron en el cruce: Market4u (GIM-N043 y ya está Quick), Mintifi (Haball/COM-1-3), PharMerica (B1-16),
+Valvoline (YPF Boxes), Workman (Pampero) y 2 repetidas entre exploradores (Fora, NextGear).
