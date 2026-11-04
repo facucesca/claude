@@ -198,5 +198,127 @@
    "https://www.lavozdesanjusto.com.ar/pecile-equipamientos-lider-en-colocacion-de-parabrisas-desembarco-en-el-parque-industrial----87575",
    "https://www.argentino.com.ar/san-miguel-de-tucuman/parabrisas"
   ]
+ },
+ {
+  "empresa": "Ramudden Global",
+  "pais": "Suecia (Gävle/Estocolmo); 12-14 países",
+  "anio_fundacion": "2005 (compra de una pequeña empresa de alquiler de señalización)",
+  "web": "https://www.ramuddenglobal.com",
+  "que_hace": "Se encarga de la seguridad de las obras en calles y rutas: alquila e instala señales, conos, vallas, barreras de hormigón y acero, semáforos de obra y camiones con 'atenuador de impacto' (un colchón que frena al auto que choca por detrás), y además planifica los desvíos de tránsito, capacita a los trabajadores y controla el tránsito con personal propio. La constructora o el municipio le tercerizan todo eso en vez de tenerlo como equipo propio.",
+  "problema_que_resuelve": "De constructoras viales, empresas de servicios (agua, gas, fibra) y municipios: en cada obra hay que cumplir normas de señalización y proteger a los trabajadores de los autos; tener ese equipo propio es caro, se usa por rachas y un accidente puede parar la obra. En Suecia, tras accidentes graves se endurecieron las reglas y el regulador empezó a cerrar obras y multar, y entonces convino tercerizarlo a un especialista.",
+  "como_gana_plata": "Alquiler de equipos por día/semana + servicio de instalación, control de tránsito y planificación + capacitaciones (algunas por encargo de la agencia vial sueca). Facturación 2024: más de SEK 10.000 M (≈ USD 950 M, conversión propia aproximada) con unos 5.000 empleados (https://sv.wikipedia.org/wiki/Ramudden citando Gefle Dagblad 2024-06-28). No encontré margen publicado.",
+  "traccion": "Más de SEK 10.000 M de facturación y ~5.000 empleados en 2024, 'la más grande del mundo' en su rubro según Gefle Dagblad (https://sv.wikipedia.org/wiki/Ramudden); hoy 'más de 5.000 empleados en 14 países' y venta del grupo por el fondo Triton al fondo I Squared Capital (https://www.ramuddenglobal.com/). Entró a Norteamérica en 2024 comprando RSG International (Canadá).",
+  "por_que_funciono_alla": "Regulación de seguridad laboral en vía pública que se hizo cumplir de verdad (inspecciones y cierres de obra), muchas obras viales y de servicios, y la lógica de 'equipo compartido' (el alquiler aprovecha los mismos equipos en muchas obras).",
+  "existe_esa_condicion_en_argentina": "Parcial. La norma existe: el Anexo L del decreto reglamentario de la Ley de Tránsito 24.449 regula la señalización transitoria de obras y cada organismo debe autorizarla (manual oficial: https://argentina.gob.ar/sites/default/files/2021/04/manual_senaletica.pdf). Hay mucha obra de servicios (fibra óptica, gas, cloacas) y vial, y concesiones viales con pliegos exigentes. Lo que falta es control estricto; sin control, cada contratista pone cuatro conos y listo.",
+  "argentina_hoy": "No encontré empresas que alquilen atenuadores de impacto, barreras tipo New Jersey o den el servicio integral de seguridad vial en obra. Búsqueda (2026-11-04): 'alquiler de señalización vial para obras en ruta camión con atenuador de impacto empresa servicio de seguridad vial en obras Argentina defensas new jersey alquiler'. Solo aparecieron normas, pliegos públicos (ej. Santa Fe: https://transparencia.santafeciudad.gov.ar/wp-content/uploads/2023/11/09_Anexo-12-ETP-Senalizaciones.pdf) y vialidades que señalizan con personal propio. Puede haber empresas chicas de señalización que no aparezcan en buscadores (no lo pude descartar).",
+  "la_vuelta_para_argentina": "Arrancar con un kit estándar de señalización y vallado de obra en alquiler 'llave en mano' (entrega, colocación diaria, retiro, fotos geolocalizadas como prueba de cumplimiento para la ART y el municipio) para empresas de fibra óptica, distribuidoras de gas/agua y municipios de una provincia. El argumento de venta es bajar el riesgo legal y de ART del contratista. Después sumar camiones con atenuador para rutas y autopistas concesionadas.",
+  "por_que_nos_necesitarian": "Parque de equipos compartido (más barato que tener propio), logística de colocación y retiro, y la prueba documentada de cumplimiento de norma ante accidentes, ART y municipios.",
+  "riesgos": "Depende de que se exija la norma (si no hay control, el cliente no paga); obra pública muy cíclica en Argentina (recorte 2024); capital en equipos; cobrar a municipios. El negocio grande (rutas) necesita camiones caros.",
+  "veredicto": "OPINIÓN DE CLAUDE: Negocio 'aburrido' de primer nivel en Europa (más de SEK 10.000 M) y sin equivalente visible en Argentina; la duda clave es si la presión legal/ART alcanza para que paguen. Vale la pena validarlo con 5 contratistas de fibra y gas en Tucumán. Puntaje: 6/10.",
+  "parecido_a": "Revisé ALQ-1-1 (equipos alquilados que se pierden: software), ALQ-2-1 a ALQ-2-4 (baños químicos, volquetes, andamios: cotización y rutas), SEG-1-x (patrullas), MUN-1-4 (estacionamiento medido), CON-1-5 (documentación de subcontratistas). Ninguno es seguridad vial de obra; cercanía de modelo con el rubro 'alquiler de equipos' (ALQ).",
+  "fuentes": [
+   "https://sv.wikipedia.org/wiki/Ramudden",
+   "https://www.ramuddenglobal.com/",
+   "https://argentina.gob.ar/sites/default/files/2021/04/manual_senaletica.pdf",
+   "https://transparencia.santafeciudad.gov.ar/wp-content/uploads/2023/11/09_Anexo-12-ETP-Senalizaciones.pdf"
+  ]
+ },
+ {
+  "empresa": "Instalco",
+  "pais": "Suecia (también Noruega, Finlandia y Alemania)",
+  "anio_fundacion": "2014 (compra de cinco empresas instaladoras)",
+  "web": "https://www.instalco.com",
+  "que_hace": "Grupo que compra empresas medianas y chicas de instalaciones (electricidad, plomería y calefacción, ventilación, automatización industrial) y las deja funcionar con su nombre y su dueño, pero sumándolas a un grupo que les da compras en conjunto, capacitación, contratos grandes y acceso a capital. Ya junta más de 175 empresas locales. El dueño vende parte o toda su empresa y sigue al frente.",
+  "problema_que_resuelve": "Del dueño de una PyME instaladora: no tiene a quién venderle su empresa cuando se quiere retirar (no hay sucesor), le cuesta crecer y ganar obras grandes, y compra caro. Del cliente grande (constructoras, industrias, inmobiliarias): quiere un proveedor confiable con espalda.",
+  "como_gana_plata": "Es una empresa de servicios: factura las obras y mantenimientos de sus empresas. 2025: ventas SEK 13.598 M (−0,7%), EBITA SEK 800 M, margen EBITA 5,9% (informe anual 2025: https://storage.mfn.se/e0318813-6d37-4c5f-9d97-486cbd1dfb45/instalco-q4-2025-en.pdf, leído vía resumen de búsqueda). La 'plata grande' está en comprar empresas baratas (múltiplo bajo de PyME) y que valgan más dentro de un grupo que cotiza en bolsa.",
+  "traccion": "Más de 175 empresas locales en 4 países (https://www.instalco.com/en/for-entrepreneurs/ y web oficial al 2026-11-04); ventas 2025 SEK 13.598 M; cotiza en la bolsa de Estocolmo; en 2026 tomó la mayoría de Fabri AG para entrar a Alemania (https://www.placera.se/pressmeddelanden/instalco-instalco-becomes-majority-owner-in-fabri-ag-20260716).",
+  "por_que_funciono_alla": "Generación de dueños de PyMEs que se jubila sin sucesor, bolsa sueca que premia a los 'compounders' (grupos que compran PyMEs: Addtech, Lagercrantz, Instalco) y crédito barato para financiar compras. Modelo descentralizado: no se cambia la marca ni la cultura de la empresa comprada.",
+  "existe_esa_condicion_en_argentina": "Parcial. Hay miles de PyMEs de instalaciones (eléctricas, termomecánicas, sanitarias) con dueños de 60+ años sin sucesor y que valen poco porque nadie las compra. Falta el capital barato y el mercado de capitales que valore la consolidación; además la informalidad complica la compra (balances que no reflejan la realidad).",
+  "argentina_hoy": "No encontré ningún grupo ni fondo que consolide PyMEs instaladoras. Búsqueda (2026-11-04): 'grupo que compra pymes de instalaciones eléctricas termomecánicas y sanitarias Argentina adquisiciones consolidación empresas instaladoras fondo de inversión'. Solo aparecieron fichas de empresas sueltas (ej. https://indicadores.ar/empresa/30709560979) y directorios.",
+  "la_vuelta_para_argentina": "Versión 'sin plata': primero una marca-red de instaladoras independientes (compras en conjunto de materiales, gestión de cobros y seguros, licitaciones juntas, software común) cobrando un fee; con el tiempo, comprar participaciones de las que se jubilan, pagando con parte de las ganancias futuras (earn-out). Para un ingeniero industrial es el camino de 'buscar una PyME para comprar' (search fund) con inversores.",
+  "por_que_nos_necesitarian": "Al dueño que se retira: le da salida. A la PyME que sigue: compras más baratas, obras grandes y gestión. La barrera es la relación de confianza con cientos de dueños y la capacidad de integrar.",
+  "riesgos": "Necesita capital y deuda (no es para empezar con USD 1.300); riesgo de comprar empresas con contingencias laborales/impositivas; dependencia del dueño anterior; obra privada y pública cíclica. Margen bajo (5,9% en Suecia).",
+  "veredicto": "OPINIÓN DE CLAUDE: El modelo es real y grande, pero es más un camino financiero (comprar PyMEs) que una startup; sirve a Facu en el mediano plazo si consigue inversores tipo search fund. Hoy no es el primer paso. Puntaje: 4/10.",
+  "parecido_a": "Revisé A6-06 (roll-up de veterinarias: mismo MODELO de consolidación, otro rubro) y R1-DESC New Ruipeng (descartada por parecido a A6-06). Parecido de modelo parcial: lo marco para que Facu decida.",
+  "fuentes": [
+   "https://www.instalco.com/en/",
+   "https://www.instalco.com/en/for-entrepreneurs/",
+   "https://storage.mfn.se/e0318813-6d37-4c5f-9d97-486cbd1dfb45/instalco-q4-2025-en.pdf (vía resumen de búsqueda)",
+   "https://quartr.com/events/instalco-instal-q4-2025_3sU6h5kZ (vía resumen de búsqueda)",
+   "https://www.placera.se/pressmeddelanden/instalco-instalco-becomes-majority-owner-in-fabri-ag-20260716",
+   "https://indicadores.ar/empresa/30709560979"
+  ]
+ },
+ {
+  "empresa": "HomeServe",
+  "pais": "Reino Unido (Walsall); también Francia, España, Japón, Alemania; EE.UU. por separado",
+  "anio_fundacion": "1993 (joint venture con la empresa de agua South Staffordshire Water)",
+  "web": "https://homeservegroup.com",
+  "que_hace": "Vende 'planes de reparación' mensuales para la casa: por una cuota fija, si se rompe la caldera, se tapa un caño, falla la instalación eléctrica o se rompe el caño de agua hasta la calle, manda un técnico de su red y paga la reparación. La clave es que no vende sola: se asocia con las empresas de agua, gas y luz y vende los planes a sus clientes con la marca de la empresa de servicios (llamado 'afinidad'). También tiene plataformas para encontrar técnicos (compró parte de Habitissimo en España y Checkatrade en UK).",
+  "problema_que_resuelve": "Del dueño de casa: una emergencia (caño roto, caldera muerta en invierno) es cara, inesperada y no sabe a quién llamar ni si le van a cobrar de más. Paga poco por mes y se olvida. De la empresa de servicios: los caños dentro de la propiedad no son su responsabilidad, pero el cliente la llama igual; con HomeServe gana una comisión y queda bien.",
+  "como_gana_plata": "Cuota mensual por plan (tipo seguro), con margen entre lo que cobra y lo que paga en reparaciones a su red, más comisiones a las empresas de servicios socias. Ingresos FY2021: £1.304,7 M, resultado operativo £71,8 M (https://en.wikipedia.org/wiki/HomeServe). No pude leer las tarifas actuales de los planes (la web de UK no cargó).",
+  "traccion": "£1.304,7 M de ingresos en FY2021; comprada por Brookfield por £4.080 M en enero de 2023; crecimiento en EE.UU. basado en alianzas con empresas de servicios (https://en.wikipedia.org/wiki/HomeServe). Fue multada con £30,6 M en 2014 por mala venta de pólizas: el modelo tiene riesgo de venta agresiva.",
+  "por_que_funciono_alla": "Casas con calderas y cañerías viejas, mano de obra cara, y empresas de agua/gas privatizadas dispuestas a ceder su base de clientes a cambio de comisión.",
+  "existe_esa_condicion_en_argentina": "Parcial. Las emergencias de plomería, gas y electricidad son igual de comunes y el oficio confiable cuesta encontrarlo. Solo 17 de cada 100 hogares tienen seguro de hogar (Cronista, nota de marca de La Caja, 2026-01-01: https://www.cronista.com/brand-strategy/revolucion-del-hogar-el-seguro-que-promete-cambiar-la-forma-de-vivir-seguros). Las distribuidoras de agua/gas/luz no suelen vender productos de terceros en la factura (no verificado).",
+  "argentina_hoy": "YA EXISTE EN PARTE: las 'asistencias al hogar' (plomería, cerrajería, electricidad, gasista, vidriería, 24 h, 3 eventos por año con tope por evento) vienen incluidas en seguros de hogar y productos bancarios, prestadas por Iké Asistencia Argentina para BBVA Seguros (https://www.bbvaseguros.com.ar/wp-content/uploads/2026/04/GUIAS_ASISTENCIA_HOGAR.pdf) o IBERO para Hipotecario Seguros (https://asegurate.hipotecarioseguros.com.ar/static/documents/asistencias-domiciliaria-full.pdf). Lo que no encontré es un plan independiente, con red propia y vendido en la factura de una empresa de servicios. Búsqueda (2026-11-04): 'asistencia hogar plan mensual plomería cerrajería electricidad emergencias Argentina banco Europ Assistance Iké'.",
+  "la_vuelta_para_argentina": "Plan mensual de 'mantenimiento + emergencias' (no solo emergencias: incluye 1-2 visitas preventivas al año de gas/termotanque/aire acondicionado, que es lo que el argentino sí valora) vendido a través de cooperativas eléctricas del interior, administraciones de consorcios o inmobiliarias para inquilinos, con red de técnicos verificados por ciudad.",
+  "por_que_nos_necesitarian": "La red de técnicos controlada, la tarifa fija y el canal de venta masivo (afinidad). El técnico suelto no puede dar una cuota fija ni garantía.",
+  "riesgos": "Es un producto tipo seguro: puede requerir encuadre de la Superintendencia de Seguros si se cubre el costo de la reparación; ya hay competidores (asistencias incluidas en seguros); riesgo de siniestralidad mayor a la prevista con inflación; la reputación por mala venta.",
+  "veredicto": "OPINIÓN DE CLAUDE: El modelo es grande afuera, pero en Argentina ya existe como 'asistencia' metida en los seguros, así que el hueco es solo el canal (cooperativas, inmobiliarias) y la parte preventiva. Lo pongo para comparar, con puntaje bajo por existir en parte. Puntaje: 4/10.",
+  "parecido_a": "Revisé GIM-N149 ('Propietario tranquilo: mantenimiento del alquiler incluido'), GIM-N151 (plan anual anti-plagas con garantía), GIM-N027 (garantía de obra para oficios), GIM-N154 (ascensor con SLA), CON-2-1 a CON-2-5, ENE-5-5. GIM-N149 es PARECIDO (mantenimiento de la casa por abono, cliente propietario): Facu debería tratarla como cercana a una idea ya vista.",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/HomeServe",
+   "https://www.bbvaseguros.com.ar/wp-content/uploads/2026/04/GUIAS_ASISTENCIA_HOGAR.pdf",
+   "https://asegurate.hipotecarioseguros.com.ar/static/documents/asistencias-domiciliaria-full.pdf",
+   "https://www.cronista.com/brand-strategy/revolucion-del-hogar-el-seguro-que-promete-cambiar-la-forma-de-vivir-seguros"
+  ]
+ },
+ {
+  "empresa": "Kiloutou",
+  "pais": "Francia (Villeneuve-d'Ascq); también España, Italia, Alemania, Polonia, Dinamarca y Portugal",
+  "anio_fundacion": "1980",
+  "web": "https://www.kiloutou.fr",
+  "que_hace": "Cadena de sucursales de alquiler de máquinas y herramientas para construcción, mantenimiento y eventos: desde un taladro, una hidrolavadora o una hormigonera hasta plataformas elevadoras, minicargadoras y generadores. Atiende a profesionales (constructoras, instaladores, municipios, industrias) y también a particulares. Entrega en obra, mantiene los equipos y capacita en su uso. El fundador (hijo de la familia dueña de Auchan) copió el modelo de alquiler que vio en EE.UU.",
+  "problema_que_resuelve": "Del constructor, el instalador o la industria: comprar equipos que se usan pocos días al año inmoviliza plata, ocupa lugar y exige mantenimiento. Del particular: no quiere comprar una máquina para un solo trabajo. Alquilar por día lo resuelve, si hay una sucursal cerca con el equipo en condiciones.",
+  "como_gana_plata": "Alquiler por día/semana/mes de un parque de equipos que se usa muchas veces (la utilización del parque es la clave del margen), más transporte, seguros de daño, venta de consumibles y venta de equipos usados. Kiloutou SAS (Francia): EUR 688 M de facturación y EUR 44,3 M de ganancia neta en 2024 (https://fr.wikipedia.org/wiki/Kiloutou).",
+  "traccion": "El grupo superó EUR 1.000 M de facturación en 2023 (JDL Groupe citado por Wikipedia), tiene más de 7.000 empleados, 600 sucursales y más de 400.000 clientes en 7 países (https://www.alimarket.es/construccion/noticia_amp/420494/kiloutou-adquiere-la-oscense-claveria-servicios). Número 2 en Francia y 3 en Europa; crece comprando alquiladoras locales (GSV en Dinamarca en 2022; Clavería en España).",
+  "por_que_funciono_alla": "Cultura de tercerizar activos, constructoras que prefieren costo variable, normas de seguridad que exigen equipos certificados y mantenidos, y un mercado fragmentado de alquiladoras chicas fácil de consolidar.",
+  "existe_esa_condicion_en_argentina": "Sí, parcial. Hay mucha obra chica (reformas, galpones, countries), instaladores y municipios que no pueden comprar equipos caros con dólar alto y sin crédito. Hay alquiladoras locales, pero (por lo que encontré) no una cadena nacional con estándar, reserva online y equipos para profesionales y particulares.",
+  "argentina_hoy": "No encontré presencia de Kiloutou ni Loxam en Argentina; Loxam compró Mills en Brasil (65 sucursales) (https://www.alimarket.es/construccion/noticia/426690/loxam-compra-mills--lider-en-alquiler-de-equipos-en-brasil). Búsqueda (2026-11-04): 'alquiler de máquinas y herramientas para construcción cadena nacional sucursales Argentina rental Kiloutou Loxam'. NO pude verificar el tamaño de las alquiladoras locales argentinas (seguro existen varias por ciudad, incluidas en Tucumán): es una búsqueda pendiente antes de profundizar.",
+  "la_vuelta_para_argentina": "Arrancar en una ciudad con un catálogo corto de los 50-80 equipos más pedidos (hormigoneras, martillos demoledores, andamios, hidrolavadoras, generadores, plataformas chicas), reserva y pago online, entrega en obra y un sistema propio de seguimiento de cada máquina (QR/GPS) para maximizar el uso. Crecer comprando o franquiciando alquiladoras locales de otras provincias. Un ingeniero industrial aporta lo central: gestión de parque, mantenimiento y tasa de utilización.",
+  "por_que_nos_necesitarian": "Parque de equipos variado y mantenido, cerca y disponible el mismo día; el cliente no puede ni quiere tener esas máquinas. La escala (comprar equipos más baratos, moverlos entre sucursales) es la barrera.",
+  "riesgos": "Capital intensivo (comprar equipos), robo y mal uso de máquinas, construcción cíclica, cobranza a constructoras, competencia de alquiladoras locales de precio bajo. Escala por sucursales y equipos, no por software.",
+  "veredicto": "OPINIÓN DE CLAUDE: Modelo sólido y aburrido, con buen encaje para un ingeniero industrial, pero falta confirmar cuán fragmentado está el alquiler en Argentina: si en cada ciudad ya hay 2-3 alquiladoras fuertes, el hueco se achica. Puntaje: 5/10.",
+  "parecido_a": "Revisé ALQ-1-1 (equipos alquilados que se pierden o roban: software para alquiladoras), ALQ-2-1 a ALQ-2-4 (baños químicos, volquetes, andamios), J2 (flipping de herramientas), PET-2-4. El rubro 'rental' ya fue muy mirado desde el lado software; el modelo de cadena propia no está, pero es cercano en cliente (alquiladoras/constructoras).",
+  "fuentes": [
+   "https://fr.wikipedia.org/wiki/Kiloutou",
+   "https://www.alimarket.es/construccion/noticia_amp/420494/kiloutou-adquiere-la-oscense-claveria-servicios",
+   "https://www.alimarket.es/construccion/noticia/426690/loxam-compra-mills--lider-en-alquiler-de-equipos-en-brasil"
+  ]
+ },
+ {
+  "empresa": "ChipsAway (red de franquicias de 'smart repair')",
+  "pais": "Reino Unido",
+  "anio_fundacion": "No verificado (la red ya tenía 300-500 franquiciados en 2003 según am-online)",
+  "web": "https://www.chipsaway.co.uk",
+  "que_hace": "Red de técnicos franquiciados que arreglan daños chicos del auto (rayones, bollos, raspones del paragolpes, llantas raspadas, golpes de piedra) en el lugar donde está el auto o en un taller chico, en horas y sin repintar la pieza entera, con técnicas 'SMART' (Small to Medium Area Repair). La marca hace la publicidad nacional (incluida TV) y le pasa los pedidos al franquiciado de cada zona; también trabaja con concesionarias y flotas que necesitan dejar lindos los autos usados o de leasing.",
+  "problema_que_resuelve": "Del dueño del auto y de la concesionaria: un rayón o un bollo chico en un taller de chapa y pintura tradicional sale caro, lleva días y te dejan sin auto; muchos no lo arreglan nunca (y el auto vale menos al venderlo). Smart repair lo deja bien por menos plata, en el día y sin moverse.",
+  "como_gana_plata": "El franquiciado cobra cada reparación; la marca cobra entrada (£29.995 + IVA, según chipsaway.co.uk al 2026-11-04) y regalías/fee de marketing (porcentaje no verificado). Ventas del sistema 2022: ~£18 M con 66.000 reparaciones (≈ £270 por reparación, estimación propia), según am-online (2023) leído vía resumen de búsqueda; la nota original no cargó.",
+  "traccion": "191 franquiciados cubriendo ~90% de la población de UK y ~300.000 pedidos de clientes por año en 2022-2023 (am-online, vía resumen: https://am-online.com/news/supplier-news/2023/03/20/franchise-brands-to-sell-chipsaway); hoy dice 'más de 200 franquiciados' (franquicias UK). Su dueño, Franchise Brands plc, la puso en venta en 2023 (no confirmé si se vendió). Es una empresa MEDIANA-CHICA, no un gigante.",
+  "por_que_funciono_alla": "Parque automotor grande y cuidado, autos de leasing que se devuelven y penalizan daños, chapa y pintura muy caras por mano de obra, y una marca nacional que da confianza a un oficio disperso.",
+  "existe_esa_condicion_en_argentina": "Sí. Parque automotor viejo y valorado (el auto es un activo en dólares), muchos golpes chicos de estacionamiento, y una enorme cantidad de usados que pasan por agencias y concesionarias antes de venderse (necesitan 'reacondicionarse'). El oficio de sacabollos existe pero suelto.",
+  "argentina_hoy": "No encontré franquicias ni cadenas de smart repair a domicilio en Argentina. Búsqueda (2026-11-04): 'reparación de rayones bollos y llantas a domicilio franquicia Argentina smart repair desabolladura sin pintura cadena'. Solo aparecieron kits de herramientas PDR importados (Desertcart) y una empresa 'Smart Paint' sin datos de operación (https://indicadores.ar/empresa/30715373056). Hay 'sacabollos' independientes que no aparecen en buscadores (no los pude contar).",
+  "la_vuelta_para_argentina": "Marca + central de pedidos (WhatsApp con foto del daño y precio cerrado en minutos) + técnicos capacitados por zona, empezando por el cliente que más paga y más repite: agencias de usados y concesionarias (reacondicionado de cada auto que entra en parte de pago), rentadoras y flotas. Después, particulares a domicilio. Franquiciar a técnicos de otras ciudades con capacitación, insumos y marca.",
+  "por_que_nos_necesitarian": "Flujo constante de pedidos (marca y canal B2B con concesionarias), precio estándar por tipo de daño, capacitación y compra de insumos. El técnico suelto no consigue el contrato con la concesionaria ni la publicidad.",
+  "riesgos": "Calidad desigual entre técnicos franquiciados; ticket bajo; sacabollos informales baratos; el negocio de la marca en UK es mediano (£18 M de sistema), así que el techo no es enorme. Importar insumos y herramientas.",
+  "veredicto": "OPINIÓN DE CLAUDE: Modelo chico pero probado, barato de arrancar (un técnico, un kit y 5 agencias de usados) y sin marca local; parecido en lógica a Timpson y Belron (marca sobre un oficio disperso). Buen candidato para validar rápido, no para hacerse gigante. Puntaje: 5/10.",
+  "parecido_a": "Revisé AUT-2-5 ('los usados tardan semanas en quedar listos para la venta': PROBLEMA CERCANO para el cliente concesionaria), AUT-2-1 a AUT-2-4, AUT-1-x (talleres), B19, R1-china-1 (Tuhu). Cercanía parcial con AUT-2-5 si se apunta solo a agencias de usados.",
+  "fuentes": [
+   "https://www.chipsaway.co.uk/franchise/franchise-costs/",
+   "https://am-online.com/news/supplier-news/2023/03/20/franchise-brands-to-sell-chipsaway (vía resumen de búsqueda, la página no cargó)",
+   "https://am-online.com/news/2003/11/28/chipsaway-plots-path-to-60-growth-in-network/5192 (vía resumen de búsqueda)",
+   "https://www.metrorod.co.uk/about-us",
+   "https://indicadores.ar/empresa/30715373056"
+  ]
  }
 ]

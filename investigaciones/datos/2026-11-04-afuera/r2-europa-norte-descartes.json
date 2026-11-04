@@ -1,0 +1,200 @@
+[
+ {
+  "empresa": "Picnic",
+  "pais": "Países Bajos",
+  "motivo": "Parecido a R1-asia-sudeste-japon-corea-12 (Kurly: supermercado online) y exige cientos de millones (levantó EUR 600 M en 2021 y EUR 430 M en nov-2025; facturó EUR 1.500 M en 2024).",
+  "fuentes": [
+   "https://nl.wikipedia.org/wiki/Picnic_(supermarkt)"
+  ]
+ },
+ {
+  "empresa": "Flaschenpost",
+  "pais": "Alemania",
+  "motivo": "Hoy es delivery de bebidas y súper en 120 minutos: ya existe en Argentina (PedidosYa Market, Rappi) y es parecido al descarte R1 de Getir. Comprada por Oetker por ~EUR 1.000 M en 2020.",
+  "fuentes": [
+   "https://de.wikipedia.org/wiki/Flaschenpost_(Unternehmen)"
+  ]
+ },
+ {
+  "empresa": "Ankorstore",
+  "pais": "Francia",
+  "motivo": "Parecido a BEL-4-1 (tiendas chicas que compran a muchas marcas con mínimos altos y cuentas separadas). No se investigó más.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Catawiki",
+  "pais": "Países Bajos",
+  "motivo": "Parecido a GL21 y GIM-N216 (coleccionables con autenticación y pago protegido). Cobra 9% + EUR 3 al comprador y 12,5% al vendedor; 240+ expertos.",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/Catawiki"
+  ]
+ },
+ {
+  "empresa": "Swapfiets",
+  "pais": "Países Bajos",
+  "motivo": "Modelo parecido a R1-turquia-europa-10 (Kiralarsın) y R1-india-3 (Rentomojo): alquiler mensual de un objeto con mantenimiento.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Elis",
+  "pais": "Francia",
+  "motivo": "Parecido a GIM-N097 (uniformes como servicio) y HOG-5-3.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Babilou",
+  "pais": "Francia",
+  "motivo": "Parecido a FAM-1-3 (empresas obligadas a dar guardería).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Foncia",
+  "pais": "Francia",
+  "motivo": "Mismo cliente que CON-4-1 a CON-4-5 (administración de consorcios); riesgo de parecido. No se investigó.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Checkatrade",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a GIM-N027 y GIM-N031 (sello de confianza/garantía para oficios y tiendas).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Unite Students",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a A6-12 y GL43 (alojamiento/residencias para estudiantes).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Pure Cremation",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a FUN-1-2 (comparar y contratar sepelio).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Selecta",
+  "pais": "Suiza",
+  "motivo": "Parecido a GIM-N043 (heladeras de autoservicio en edificios y empresas).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Big Yellow / Safestore",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a MUD-3-1 a MUD-3-5 (bauleras/self storage).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Cera",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a SAL-4-1 y SAL-4-2 (cuidadores domiciliarios).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Picard Surgelés",
+  "pais": "Francia",
+  "motivo": "Ya existe en Argentina: Qüem, cadena de congelados con franquicias y marca propia (~$780 M de facturación 2023 según Forbes Argentina). Picard: EUR 1.820 M (2025), 1.220 locales.",
+  "fuentes": [
+   "https://fr.wikipedia.org/wiki/Picard_(entreprise)",
+   "https://www.forbesargentina.com/negocios/venden-productos-congelados-facturaron-casi-800-millones-2023-planean-expandirse-region-n46300"
+  ]
+ },
+ {
+  "empresa": "Tunstall (teleasistencia)",
+  "pais": "Reino Unido",
+  "motivo": "Ya existe en Argentina: teleasistencia con pulsera (La Capital) y botón de pánico para mayores de Verisure Argentina. Tunstall: 5 M de usuarios conectados, 3.000 empleados.",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/Tunstall_Healthcare",
+   "https://www.lacapital.com.ar/mujer/teleasistencia-domiciliaria-una-novedad-cuidar-los-abuelos-n277275.html/amp",
+   "https://www.verisure.com.ar/blog/boton-de-panico-para-ancianos"
+  ]
+ },
+ {
+  "empresa": "Rentokil Initial / PHS (higiene de baños)",
+  "pais": "Reino Unido",
+  "motivo": "Ya existe en Argentina: servicios de provisión y recambio de contenedores higiénicos femeninos licitados por organismos públicos (ARBA, Senado bonaerense, aeropuerto de Rosario).",
+  "fuentes": [
+   "https://www.arba.gov.ar/archivos/GestorLicitaciones/anexoiii-etb-lp17-12.pdf",
+   "https://aeropuertorosario.com/uploadsarchivos/pliego_residuos_femeninos.pdf"
+  ]
+ },
+ {
+  "empresa": "AUTO1 Group",
+  "pais": "Alemania",
+  "motivo": "Ya existe en Argentina: OLX Autos compra autos y los subasta a ~500 concesionarias (nota 2019) y Auto Action es B2B para concesionarios. Además cerca de L1 (propia) y AUT-2-2.",
+  "fuentes": [
+   "https://www.cronista.com/infotechnology/it-business/el-nuevo-servicio-de-olx-te-compran-tu-usado-en-1-dia-sin-tirarlo-abajo",
+   "https://www.autoweb.com.ar/?p=7496"
+  ]
+ },
+ {
+  "empresa": "Thermomix (Vorwerk)",
+  "pais": "Alemania",
+  "motivo": "Ya existe en Argentina: thermomix.com.ar redirige a argentina.thermomix.com (comprobado 2026-11-04).",
+  "fuentes": [
+   "https://www.thermomix.com.ar"
+  ]
+ },
+ {
+  "empresa": "Filta (FiltaFry)",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a GIM-N156 (aceite de fritura como servicio para cocinas).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Kieser Training",
+  "pais": "Suiza",
+  "motivo": "Parecido a GIM-N094 (kinesiólogos en el gimnasio) y al descarte R1 de Sword Health.",
+  "fuentes": []
+ },
+ {
+  "empresa": "ParkingEye",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a MOV-1-4 (estacionamientos gratis de supermercados ocupados por no clientes).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Moneypenny",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a CON-2-2 (llamadas sin atender del técnico).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Otrium",
+  "pais": "Países Bajos",
+  "motivo": "Parecido a COM-4-5 (rebajas de fin de temporada que regalan margen); no se investigó a fondo.",
+  "fuentes": [
+   "https://www.otrium.com/about-us"
+  ]
+ },
+ {
+  "empresa": "Interhyp / Dr. Klein (brokers hipotecarios)",
+  "pais": "Alemania",
+  "motivo": "Parecido a GIM-N071 y GL11 (broker hipotecario).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Metro Rod / Dyno-Rod (destapaciones en franquicia)",
+  "pais": "Reino Unido",
+  "motivo": "No pude verificar tracción con fuentes (la página de Franchise Brands no cargó; Dyno-Rod tiene solo 25 franquiciados según Wikipedia).",
+  "fuentes": [
+   "https://www.metrorod.co.uk/about-us",
+   "https://en.wikipedia.org/wiki/Dyno-Rod"
+  ]
+ },
+ {
+  "empresa": "Werlabs",
+  "pais": "Suecia",
+  "motivo": "Tracción no verificable (solo: 200+ puntos de extracción y SEK 33 M levantados en 2016).",
+  "fuentes": [
+   "https://sv.wikipedia.org/wiki/Werlabs"
+  ]
+ },
+ {
+  "empresa": "Tchibo, Fixico, Check24",
+  "pais": "Alemania / Países Bajos",
+  "motivo": "No investigadas a fondo por cupo de búsquedas. Tchibo (EUR 3.360 M en 2024, surtido no-alimentario que cambia cada semana) resuelve un problema débil y fracasó en Reino Unido.",
+  "fuentes": [
+   "https://de.wikipedia.org/wiki/Tchibo"
+  ]
+ }
+]
