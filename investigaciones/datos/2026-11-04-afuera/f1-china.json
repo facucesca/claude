@@ -1,0 +1,432 @@
+{
+ "region": "China (y Hong Kong/Taiwán)",
+ "fecha": "2026-11-04",
+ "empresas": [
+  {
+   "empresa": "Tuhu Car (途虎养车)",
+   "pais": "China",
+   "anio_fundacion": "2011 (dato conocido, no verificado en esta búsqueda)",
+   "web": "https://www.tuhu.cn",
+   "que_hace": "Vende online neumáticos, aceite, repuestos y servicios de mantenimiento del auto, y los instala en una red de talleres con su marca (casi todos franquiciados). El cliente compra en la app, elige taller y hora, y el taller recibe la pieza ya pagada. Tuhu además fabrica marcas propias de neumáticos con fábricas socias y abastece de repuestos a los talleres.",
+   "problema_que_resuelve": "Dueño de auto: en el taller independiente no sabe si el precio y la pieza son justos ni si está bien hecho. Taller chico: no tiene clientes fijos, compra repuestos caro y sin marca. Tuhu pone precio cerrado, garantía y marca reconocida.",
+   "como_gana_plata": "Margen sobre productos (neumáticos, repuestos) y servicios vendidos por la app; a los franquiciados les cobra una cuota inicial, cuotas de gestión y una parte de la ganancia operativa (Dealroom, citado por búsqueda). Margen bruto del grupo 25,9% en 1S-2024 (HKEX, informe interino). Ingresos 2024 ≈ RMB 14.760 M (+8,5%) (MT Newswires vía itiger).",
+   "traccion": "6.311 talleres Tuhu al 30-06-2024 (6.162 franquiciados, 149 propios), 21,4 M usuarios que compraron (+18,8%), ingresos 1S-2024 RMB 7.126 M (HKEX interim 2024-08-23: https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0823/2024082300856.pdf). Ingresos 2024 RMB ≈14.760 M (https://itiger.com/hant/news/2521422561). Más de 1,5 M neumáticos de marca propia vendidos (mismo informe HKEX). Cotiza en Hong Kong (9690).",
+   "por_que_funciono_alla": "Parque automotor que creció muy rápido con dueños nuevos sin 'mecánico de confianza'; talleres muy atomizados; usuarios acostumbrados a comprar y pagar todo por app.",
+   "existe_esa_condicion_en_argentina": "Parcial. Hay talleres atomizados y desconfianza en el mecánico, pero el parque crece lento y ya existe la relación de confianza 'el mecánico del barrio'.",
+   "argentina_hoy": "Mercado Libre lanzó en 2025 la compra de neumáticos con instalación en talleres adheridos: más de 100 talleres en AMBA y 5.000 colocaciones, sumando Córdoba, Mendoza, Rosario y Neuquén (https://www.perfil.com/noticias/cordoba/cambio-de-cubiertas-con-un-clic-mercado-libre-se-mete-en-el-negocio-de-la-instalacion-y-llega-a-cordoba.phtml, 2025-07-15). No encontré una red de talleres franquiciados con marca propia, precio cerrado y abastecimiento como Tuhu (búsqueda: 'comprar neumáticos online con colocación incluida en taller adherido Argentina red de talleres').",
+   "la_vuelta_para_argentina": "No competir con Mercado Libre en la venta de cubiertas: armar la red de talleres con marca (franquicia liviana o 'bandera' sobre talleres que ya existen) con precio publicado por servicio, garantía y abastecimiento centralizado de repuestos y aceite; empezar en el NOA donde ML no llegó. Ojo: los exclusion AUT-1-1..5 y H38 tratan software para talleres; esto es la red con marca y la cadena de suministro, no el software.",
+   "por_que_nos_necesitarian": "Compras juntas (precio de repuesto), marca y garantía que el taller solo no puede dar, flujo de clientes. La barrera es la red física y el contrato con talleres.",
+   "riesgos": "Mercado Libre ya está en la puerta de entrada (la compra); importación de neumáticos con aranceles y vaivenes; controlar calidad de talleres franquiciados es caro; necesita capital de trabajo para stock.",
+   "veredicto": "Opinión de Claude: el modelo es sólido pero en Argentina ML ya tomó la parte fácil (vender la cubierta y mandarla al taller); queda la red con marca, que es más lenta y de capital. Puntaje 6/10.",
+   "parecido_a": "AUT-1-1, AUT-1-2, AUT-1-5, H38, AUT-4-1 (revisados: tratan software o un problema puntual del taller, no la red con marca + suministro; no se descarta, se marca cercanía)",
+   "fuentes": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0823/2024082300856.pdf",
+    "https://itiger.com/hant/news/2521422561",
+    "https://app.dealroom.co/companies/tuhu",
+    "https://www.perfil.com/noticias/cordoba/cambio-de-cubiertas-con-un-clic-mercado-libre-se-mete-en-el-negocio-de-la-instalacion-y-llega-a-cordoba.phtml",
+    "https://www.autoweb.com.ar/2025/07/11/mercado-libre-lanza-el-servicio-de-instalacion-directa-en-talleres-para-complementar-la-compra-de-neumaticos-online/"
+   ]
+  },
+  {
+   "empresa": "Beike / KE Holdings (贝壳) — red cooperativa de agentes (ACN)",
+   "pais": "China",
+   "anio_fundacion": "2018 (Lianjia, la inmobiliaria madre, 2001)",
+   "web": "https://www.ke.com",
+   "que_hace": "Plataforma donde decenas de miles de inmobiliarias de distintas marcas comparten un mismo listado verificado de propiedades. Cada operación se divide en roles (quien capta la propiedad, quien tiene la llave, quien la muestra, quien cierra, etc.) y la comisión se reparte automáticamente entre los agentes que participaron, aunque sean de inmobiliarias distintas. Beike cobra a las inmobiliarias por usar la plataforma y la marca.",
+   "problema_que_resuelve": "Comprador: avisos falsos o repetidos, información desordenada. Inmobiliaria chica: compite sola, no comparte por miedo a que le roben el cliente. La regla de reparto pagado hace que convenga cooperar.",
+   "como_gana_plata": "Comisiones de su propia inmobiliaria (Lianjia) más cuotas de plataforma, franquicia y servicios a las inmobiliarias conectadas; además ya vende reformas y administración de alquileres. Ingresos netos 2024 RMB 93.500 M; comisión propia RMB 23.100 M (HKEX, resultados anuales 2024).",
+   "traccion": "Volumen de operaciones (GTV) 2024 RMB 3,35 billones (+6,6%); 51.573 locales (+17,7%) y 445.271 agentes activos (+12,1%) al 31-12-2024 (HKEX 2025-03-18: https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0318/2025031801359.pdf). Cotiza en NYSE (BEKE) y Hong Kong (2423). Ojo: Muddy Waters la acusó de inflar números en 2021; la demanda fue mayormente desestimada en 2024 (https://en.wikipedia.org/wiki/KE_Holdings).",
+   "por_que_funciono_alla": "Mercado enorme y desordenado, con muchas inmobiliarias chicas; el fundador copió la idea del MLS de EE.UU. y le agregó el reparto por roles y una marca para pequeños (Deyou).",
+   "existe_esa_condicion_en_argentina": "Sí. Mercado muy atomizado, avisos repetidos en Zonaprop/Argenprop, y desde 2024 hay desregulación del corretaje (El Cronista) que abre la puerta a corredores independientes que necesitan una red.",
+   "argentina_hoy": "Hay intentos de 'MLS': Maratón Propiedades comparte la oferta entre inmobiliarias (https://ar.linkedin.com/in/maratonpropiedades) y un software que comparte cartera entre colegas por abono (https://mercado.com.ar/revista/numero-1093/un-buen-momento-para-comprar-y-para-vender/). RE/MAX opera en Argentina (https://www.remax.com.ar). No encontré una red abierta multimarca con reparto automático por roles (búsqueda: 'MLS Argentina inmobiliarias comparten propiedades y comisión red colaborativa corredores').",
+   "la_vuelta_para_argentina": "Red abierta para corredores independientes e inmobiliarias chicas del interior (empezar Tucumán/NOA): listado único verificado (fotos y documentos chequeados), reparto de honorarios por roles fijado en contrato y cobrado por la plataforma (escrow), y la marca común como sello de confianza. Cobrar % del honorario o abono por agente.",
+   "por_que_nos_necesitarian": "Efecto red (cuantas más propiedades verificadas, más valor) y el sistema de reglas/arbitraje de quién cobra qué. Eso no lo arma un corredor solo.",
+   "riesgos": "Colegios de corredores y leyes provinciales de corretaje; cultura de no compartir; RE/MAX como competidor que ya tiene reparto interno; operaciones en dólares y en negro dificultan cobrar el % por la plataforma.",
+   "veredicto": "Opinión de Claude: es de lo más interesante de China para Argentina porque la plata ya circula (honorarios del 3-6%) y el problema de cooperación es real; el desafío es arrancar la red en una ciudad. Puntaje 8/10.",
+   "parecido_a": "CON-3-1, CON-3-2, B11, F21 (revisados: son herramientas para inmobiliarias; ninguna es red de cooperación con reparto de comisión)",
+   "fuentes": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0318/2025031801359.pdf",
+    "https://en.wikipedia.org/wiki/KE_Holdings",
+    "https://www.cronista.com/economia-politica/desregulacion-inmobiliaria-cuanto-podrian-ahorrar-compradores-y-vendedores-de-propiedades/",
+    "https://ar.linkedin.com/in/maratonpropiedades",
+    "https://mercado.com.ar/revista/numero-1093/un-buen-momento-para-comprar-y-para-vender/"
+   ]
+  },
+  {
+   "empresa": "Mixue Bingcheng (蜜雪冰城)",
+   "pais": "China",
+   "anio_fundacion": "1997",
+   "web": "https://www.mxbc.com",
+   "que_hace": "Cadena de helados, limonadas y tés muy baratos (≈RMB 6, menos de USD 1 por vaso) con casi 60.000 locales, casi todos franquiciados. La empresa no gana con la cuota de franquicia sino vendiéndoles a los franquiciados todos los insumos, envases y máquinas, que fabrica ella misma en sus plantas.",
+   "problema_que_resuelve": "Consumidor de ciudades chicas y jóvenes: quiere un gusto rico y barato. Emprendedor: quiere un negocio llave en mano con poca inversión y abastecimiento resuelto.",
+   "como_gana_plata": "97,6% de los ingresos de ene-sep 2024 fueron venta de mercadería y equipos a franquiciados; solo 2,4% cuotas de franquicia (prospecto, citado por varias fuentes). Ingresos 2025 RMB 33.560 M y ganancia neta RMB 5.900 M (Wikipedia, citando informe anual HKEX).",
+   "traccion": "59.823 locales al 31-12-2025 (https://en.wikipedia.org/wiki/Mixue_Ice_Cream_%26_Tea). 36.000 locales en 11 países y 5.800 M de vasos vendidos en 9 meses de 2023 (https://kr-asia.com/with-over-36000-stores-worldwide-mixue-bingcheng-is-sprinting-toward-a-hong-kong-ipo, 2024-02-05). Salió a bolsa en Hong Kong el 2025-03-03 (HK$ 3.450 M). Primer local en Brasil 2026-04-11, plan de 500 a 1.000 locales a 2030 (Reuters vía Tribune: https://tribune.com.pk/story/2602297/chinese-investment-in-brazil-pivots).",
+   "por_que_funciono_alla": "Cadena de suministro propia (5 plantas, 27 depósitos) que baja el costo 10-20% contra el promedio; ciudades chicas sin oferta; precio extremadamente bajo que se vuelve marca.",
+   "existe_esa_condicion_en_argentina": "Parcial. Hay demanda de gustito barato y emprendedores que buscan franquicias baratas; pero el poder adquisitivo y los costos de alquiler/sueldos son otros, y Grido ya ocupa el lugar 'helado barato con franquicia'.",
+   "argentina_hoy": "Grido (helado barato en franquicia) ya se expande por la región (https://www.peru-retail.com/firma-argentina-grido-diversifica-region/). No encontré Mixue en Argentina; está en Brasil y México (búsqueda: 'Mixue Brasil Argentina apertura locales 2026 Luckin Coffee Latinoamérica').",
+   "la_vuelta_para_argentina": "Lo copiable no es el té: es el modelo 'franquicia que gana con los insumos que fabrica'. Ej.: bebida o producto barato del NOA (limonada, jugo de cítricos tucumanos, té frío) con planta propia de concentrados y locales mínimos. O ser el franquiciado maestro de Mixue para Argentina cuando llegue.",
+   "por_que_nos_necesitarian": "Fábrica + logística + marca: el franquiciado no puede igualar el costo de insumos.",
+   "riesgos": "Mucho capital (planta, stock, marca); Grido como competidor fuerte; inflación y costos de local; Mixue podría entrar directo desde Brasil.",
+   "veredicto": "Opinión de Claude: modelo probado y rentabilísimo, pero es de capital y de consumo masivo, lejos de lo que Facu puede validar barato; tiene sentido como 'master franquicia' o versión con producto tucumano. Puntaje 6/10.",
+   "parecido_a": "A6-21 (cadena franquiciable de empanadas en EE.UU./España: distinto producto y mercado), GL83",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/Mixue_Ice_Cream_%26_Tea",
+    "https://kr-asia.com/with-over-36000-stores-worldwide-mixue-bingcheng-is-sprinting-toward-a-hong-kong-ipo",
+    "https://itiger.com/news/2516686999",
+    "https://tribune.com.pk/story/2602297/chinese-investment-in-brazil-pivots",
+    "https://www.peru-retail.com/firma-argentina-grido-diversifica-region/"
+   ]
+  },
+  {
+   "empresa": "Luckin Coffee (瑞幸咖啡)",
+   "pais": "China",
+   "anio_fundacion": "2017",
+   "web": "https://www.luckincoffee.com",
+   "que_hace": "Cadena de café donde solo se compra por la app: el cliente pide y paga en el celular, y retira en un local mínimo (muchas veces de 20-30 m², sin mesas) o lo recibe por delivery. Precios bajos (promoción permanente de RMB 9,9) y muchos lanzamientos de sabores. Mezcla locales propios y 'socios' (franquicia).",
+   "problema_que_resuelve": "El oficinista quiere un café bueno, rápido y barato sin hacer fila; las cafeterías tradicionales tienen alquiler alto por el salón.",
+   "como_gana_plata": "Venta de café y bebidas; el local chico sin salón y la app (datos, menos cajeros) bajan el costo por vaso. Ingresos netos 3T-2025 RMB 15.287 M (+50,2%), ganancia operativa RMB 1.777 M (margen 11,6%) (zh.wikipedia, citando resultados).",
+   "traccion": "29.214 locales al 3T-2025 (18.809 propios, 10.287 asociados) (https://zh.wikipedia.org/zh-cn/%E7%91%9E%E5%B9%B8%E5%92%96%E5%95%A1); 36.310 locales al cierre del 2T-2026 (https://amp.kr-asia.com/luckin-coffee-surpasses-36000-stores-as-q2-revenue-rises). Ojo: fraude contable en 2019 (inflaron ventas ≈RMB 2.200 M), reestructuró y volvió a crecer (Wikipedia).",
+   "por_que_funciono_alla": "Pago móvil universal (WeChat/Alipay), oficinas densas, y que el café era caro (Starbucks) para la clase media.",
+   "existe_esa_condicion_en_argentina": "Parcial. Pago por QR (Mercado Pago) es masivo y en microcentro/Tucumán hay demanda de café para llevar, pero el café en Argentina es ritual de mesa y ya hay muchas cadenas.",
+   "argentina_hoy": "No encontré Luckin ni planes en Latinoamérica: su expansión es EE.UU., Singapur, Malasia (búsqueda: 'Mixue Brasil Argentina apertura locales 2026 Luckin Coffee Latinoamérica'). Existen cadenas de café para llevar en Argentina (Havanna, Café Martínez, Starbucks) con apps de pedido, pero no un formato 'solo app, sin salón' a escala (no verificado con búsqueda específica).",
+   "la_vuelta_para_argentina": "Cadena de cafés 'solo retiro' en locales de 15 m² junto a facultades, hospitales y oficinas públicas, pedido y pago 100% por QR/app, con precio 30-40% abajo de las cafeterías con salón; pensar también en mate cocido/tereré frío como producto local.",
+   "por_que_nos_necesitarian": "Precio que sale de la estructura (local chico, sin mozos, compras juntas), no de la app en sí.",
+   "riesgos": "Fácil de copiar por cadenas existentes; la costumbre de sentarse; margen chico con inflación de alquileres. Cercano a ideas viejas de abono en cafeterías (B2-17, B5-11) aunque el modelo es otro.",
+   "veredicto": "Opinión de Claude: es un formato de retail más que un negocio tecnológico, y la ventaja se copia rápido; vale como inspiración, no como apuesta principal. Puntaje 4/10.",
+   "parecido_a": "B2-17, B5-11, B4-18 (revisados: abonos y pases en cafeterías; distinto modelo)",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/Luckin_Coffee",
+    "https://zh.wikipedia.org/zh-cn/%E7%91%9E%E5%B9%B8%E5%92%96%E5%95%A1",
+    "https://amp.kr-asia.com/luckin-coffee-surpasses-36000-stores-as-q2-revenue-rises",
+    "https://insideretail.asia/2026/06/10/luckin-coffee-passes-35000-store-milestone/"
+   ]
+  },
+  {
+   "empresa": "Guoquan Shihui (锅圈食汇)",
+   "pais": "China",
+   "anio_fundacion": "2015 (dato conocido, no verificado en esta búsqueda)",
+   "web": "https://www.guoquan.cn",
+   "que_hace": "Red de más de 10.000 tiendas de barrio (99,9% franquiciadas) que venden todo lo necesario para comer en casa: kits de 'hotpot' y parrilla, carnes, albóndigas, salsas, platos listos para calentar. La empresa fabrica los productos clave en 6 plantas propias y gana vendiéndoselos a los franquiciados. No cobra cuota de franquicia.",
+   "problema_que_resuelve": "Familias que quieren comer 'como en el restaurante' en casa sin salir ni pagar el restaurante; en pueblos y ciudades chicas no hay oferta de comida preparada de calidad.",
+   "como_gana_plata": "Casi todo el ingreso es venta de productos a los franquiciados (no cobra cuota). 2024: ingresos RMB 6.469,8 M (+6,2%), ganancia bruta RMB 1.416,8 M (margen ≈21,9%, cálculo propio), ganancia operativa central RMB 310,8 M (ACN Newswire, 2025-03-31).",
+   "traccion": "10.150 tiendas al 31-12-2024 y 41,3 M de socios registrados; RMB 990 M cargados en tarjetas prepagas en 2024 (https://www.acnnewswire.com/press-release/english/98435/). 11.566 tiendas y ingresos RMB 7.810 M en 2025 (búsqueda, HKEX 2026-03-12). Cotiza en Hong Kong (2517).",
+   "por_que_funciono_alla": "Costumbre del hotpot en casa, pandemia que llevó a comer en casa, ciudades chicas sin restaurantes buenos, y cadena de frío y fábricas propias.",
+   "existe_esa_condicion_en_argentina": "Sí, parcial. El asado, la picada y las pastas de los domingos son 'comer en casa' masivo; hay tendencia a comer en casa por precio. Lo que falta es una red de barrio con producto propio y precio de fábrica.",
+   "argentina_hoy": "Qüem: cadena de tiendas de congelados, facturó casi $800 M en 2023 (https://www.forbesargentina.com/negocios/venden-productos-congelados-facturaron-casi-800-millones-2023-planean-expandirse-region-n46300). El Cronista dice que el negocio de congelados 'no logra despegar' por poder adquisitivo (https://www.cronista.com/apertura/empresas/el-enigma-de-los-congelados-por-que-el-negocio-no-logra-despegar-a-pesar-del-boom-de-consumo). No encontré red franquiciada 'todo para el asado/picada/pasta del domingo' con fábrica propia (búsqueda: 'cadena franquicia tiendas de congelados y comida lista para cocinar en casa Argentina').",
+   "la_vuelta_para_argentina": "Tienda de barrio franquiciada 'el domingo resuelto': kits de asado porcionados, picadas, pastas y salsas, empanadas para hornear, con productos de frigoríficos y fábricas del NOA como marca propia; app para encargar y retirar.",
+   "por_que_nos_necesitarian": "Compra y fabricación a escala (precio), marca, cadena de frío. El almacén solo no llega a ese costo.",
+   "riesgos": "Capital para frío y stock; competencia de carnicerías y supermercados; márgenes finos; cercano a B5-13 (porciones al vacío para quien vive solo) y B4-15 (picada por suscripción), aunque el cliente y el modelo son distintos.",
+   "veredicto": "Opinión de Claude: modelo probado de 'franquicia que vive de vender su mercadería', con un gancho cultural fuerte en Argentina (asado/picada), pero de capital y operación pesada. Puntaje 6/10.",
+   "parecido_a": "B5-13, B4-15, J22 (revisados: suscripción o porciones para uno; no red de tiendas franquiciadas)",
+   "fuentes": [
+    "https://www.acnnewswire.com/press-release/english/98435/dual-engines-of-supply-chain-&-channel-innovation-drive-guoquan's-2024-revenue-and-gross-profit-growth",
+    "https://www.forbesargentina.com/negocios/venden-productos-congelados-facturaron-casi-800-millones-2023-planean-expandirse-region-n46300",
+    "https://www.cronista.com/apertura/empresas/el-enigma-de-los-congelados-por-que-el-negocio-no-logra-despegar-a-pesar-del-boom-de-consumo"
+   ]
+  },
+  {
+   "empresa": "Qian Dama (钱大妈)",
+   "pais": "China",
+   "anio_fundacion": "2012 (primer local); empresa 2014",
+   "web": "https://www.qdama.com",
+   "que_hace": "Cadena de verdulerías-carnicerías de barrio (≈3.000 locales, 98,6% franquiciados) con la regla 'no vendemos carne del día anterior'. Para cumplirla, desde las 19 h baja el precio cada media hora hasta regalar lo que queda al cierre. Así el cliente confía en que todo es fresco y el local termina el día sin stock.",
+   "problema_que_resuelve": "Familias que desconfían de la frescura de la carne y la verdura del barrio; mermas grandes en la verdulería tradicional.",
+   "como_gana_plata": "Vende la mercadería a los franquiciados (cuota inicial ≈RMB 30.000 + depósito RMB 40.000 + obra ≈RMB 260.000 según una franquiciada citada en zh.wikipedia). Ingresos 2024 ≈RMB 11.788 M; ganancia neta ajustada ≈RMB 193 M (prospecto Hong Kong de enero 2026, citado por bjnews/jiemian vía búsqueda).",
+   "traccion": "2.938 locales al 30-09-2025 (2.898 franquiciados) y GMV 2024 ≈RMB 14.800 M (prospecto, vía búsqueda: https://www.bjnews.com.cn/detail/1768288666129410.html). Más de 3.700 locales en 2021 (https://zh.wikipedia.org/zh-cn/%E9%92%B1%E5%A4%A7%E5%A6%88). Ojo: denuncias de franquiciados con pérdidas de hasta RMB 1,4 M (misma fuente) y crecimiento casi nulo 2023-2024.",
+   "por_que_funciono_alla": "Cultura cantonesa de comprar carne fresca todos los días; densidad urbana alta (mucha gente por local); compra centralizada.",
+   "existe_esa_condicion_en_argentina": "Parcial. Se compra seguido en verdulería y carnicería de barrio, pero la densidad es menor y la regla 'nada del día anterior' choca con la merma en ciudades chicas.",
+   "argentina_hoy": "No encontré cadena franquiciada de verdulería-carnicería con precio que baja por hora (no hice búsqueda específica por falta de cupo; verificación pendiente). Existe la idea vieja GIM-N066 de liquidar próximos a vencer con descuento automático.",
+   "la_vuelta_para_argentina": "Verdulería-carnicería franquiciada con compra centralizada en el Mercado de Abasto y 'descuento por hora' visible en pantalla/WhatsApp del barrio; el franquiciado no compra, recibe.",
+   "por_que_nos_necesitarian": "Compra a escala y logística diaria de frescos; marca de frescura.",
+   "riesgos": "Franquiciados que pierden plata (el caso chino lo muestra); merma; parecido parcial con GIM-N066 y B4-16.",
+   "veredicto": "Opinión de Claude: idea ingeniosa pero con problemas reales en China (franquiciados perdiendo) y parcialmente vista antes; la incluyo como referencia, no la priorizaría. Puntaje 3/10.",
+   "parecido_a": "GIM-N066 (precio por vida útil con descuento automático), B4-16 (verdulería de fruta fea), ALI-4-1",
+   "fuentes": [
+    "https://zh.wikipedia.org/zh-cn/%E9%92%B1%E5%A4%A7%E5%A6%88",
+    "https://www.bjnews.com.cn/detail/1768288666129410.html",
+    "https://m.gelonghui.com/p/3618517"
+   ]
+  },
+  {
+   "empresa": "Huitongda Network (汇通达)",
+   "pais": "China",
+   "anio_fundacion": "2010 (dato conocido, no verificado en esta búsqueda)",
+   "web": "https://www.htd.cn",
+   "que_hace": "Abastece a comercios de pueblos y ciudades chicas (electrodomésticos, materiales, agro-insumos, bebidas) con una plataforma de compra mayorista más un sistema de gestión (SaaS) para el local. El comercio se hace 'socio', compra a mejor precio y recibe herramientas para vender online.",
+   "problema_que_resuelve": "El comercio del pueblo compra caro a varios intermediarios, sin financiación ni sistema; las marcas no llegan a esos pueblos.",
+   "como_gana_plata": "Margen sobre productos que distribuye + cobro por el SaaS y servicios. Márgenes finos (Bamboo Works lo marca como su debilidad). Pérdida neta RMB 157,9 M en ene-sep 2021 (prospecto, vía búsqueda).",
+   "traccion": "Más de 160.000 comercios socios, 10.000 proveedores, presencia en 21 provincias y +20.000 pueblos (sep-2021, búsqueda sobre prospecto); salida a bolsa en Hong Kong 2022-02-18 recaudando ≈USD 284 M; Alibaba es su segundo accionista (Bloomberg/The Standard, vía búsqueda: https://www.thestandard.com.hk/finance/article/37837/US1b-Huitongda-IPO-gets-green-light).",
+   "por_que_funciono_alla": "Gobierno empujando la 'revitalización rural', cientos de miles de comercios rurales y marcas que querían llegar ahí.",
+   "existe_esa_condicion_en_argentina": "Parcial. El interior tiene miles de almacenes y 'ramos generales' que compran a distribuidores y mayoristas, pero hay jugadores de distribución fuertes.",
+   "argentina_hoy": "Centralo: marketplace mayorista para kioscos y almacenes, etapa seed (https://www.descubre.vc/centralo). Mercado Libre lanzó en 2025 'Negocios' B2B con 2,6 M de productos (búsqueda). Wabi para almacenes (pandemia). No encontré uno enfocado en pueblos del interior con SaaS + financiación (búsqueda: 'startup argentina abastecimiento B2B almacenes kioscos restaurantes app pedidos mayorista').",
+   "la_vuelta_para_argentina": "Enfocar en comercios de pueblos del NOA (ferreterías, agroveterinarias, corralones) con compra conjunta + entrega consolidada + cuenta corriente financiada.",
+   "por_que_nos_necesitarian": "Logística consolidada a pueblos y crédito al comercio.",
+   "riesgos": "Márgenes muy finos; necesita capital de trabajo; Mercado Libre Negocios; cercano a ideas de distribuidoras (D37, H32, COM-1-1).",
+   "veredicto": "Opinión de Claude: en China crece pero gana poco; en Argentina ya hay intentos y ML entró. Poco atractivo. Puntaje 3/10.",
+   "parecido_a": "D37, H32, COM-1-1, F30, J21 (revisados: herramientas para distribuidoras; parecido parcial)",
+   "fuentes": [
+    "https://www.thestandard.com.hk/finance/article/37837/US1b-Huitongda-IPO-gets-green-light",
+    "https://thebambooworks.com/huitongda-network-finds-big-bucks-but-thin-margins-in-sunken-market/",
+    "https://www.descubre.vc/centralo"
+   ]
+  },
+  {
+   "empresa": "ZKH Industrial Supply (震坤行)",
+   "pais": "China",
+   "anio_fundacion": "2014 (dato conocido, no verificado)",
+   "web": "https://www.zkh.com",
+   "que_hace": "Tienda online B2B de insumos indirectos para fábricas (MRO): herramientas, guantes, rodamientos, lubricantes, abrasivos, repuestos de mantenimiento. Junta millones de productos de miles de marcas, entrega rápido y se integra con el sistema de compras de la fábrica. También tiene depósitos 'dentro' de la planta del cliente.",
+   "problema_que_resuelve": "Las fábricas compran cientos de cosas chicas a decenas de proveedores, con mucho papeleo, precios opacos y paradas por falta de un repuesto.",
+   "como_gana_plata": "Margen de reventa (1P) y comisión de marketplace (3P). GMV 2024 RMB 10.479 M (−5,4%): 1P RMB 8.530 M, 3P RMB 1.949 M (resultados FY2024). Margen bruto ≈17,2% 2024 (dato de nota china, no verificado contra el comunicado).",
+   "traccion": "GMV 2024 RMB 10.480 M; 47.876 clientes en 3T-2024 (+16,9%) (comunicado FY2024 y 3T-2024 vía búsqueda: https://technode.global/prnasia/zkh-group-limited-announces-fourth-quarter-and-fiscal-year-2024-unaudited-financial-results/). Cotiza en NYSE (ZKH). Pierde plata (pérdida ajustada ≈RMB 160 M 2024, no verificado).",
+   "por_que_funciono_alla": "Base industrial gigante y compras de fábricas que se digitalizaron; MonotaRO en Japón y Grainger en EE.UU. probaron el modelo.",
+   "existe_esa_condicion_en_argentina": "Parcial. Hay miles de PyMEs industriales que compran a ferreterías industriales; pero la importación con trabas y el tamaño chico limitan.",
+   "argentina_hoy": "Mercado Libre 'Negocios' (B2B, sep-2025, 2,6 M productos); distribuidores MRO como Proindesa (https://www.cbinsights.com/compare/proindesa-vs-puntopartes). No encontré un 'Grainger/MonotaRO argentino' online con integración a compras de planta (búsqueda: 'ecommerce de insumos industriales MRO para fábricas Argentina plataforma compras indirectas PyMEs industriales').",
+   "la_vuelta_para_argentina": "Empezar con un nicho: ingenios, citrícolas y agroindustrias del NOA (rodamientos, cadenas, EPP, lubricantes) con catálogo unificado, precios publicados y depósito en planta en zafra. Ventaja: ingeniería industrial + contactos CEMEVA/agro.",
+   "por_que_nos_necesitarian": "Surtido juntado, stock cerca de la planta y disponibilidad en zafra: una parada de ingenio cuesta mucho.",
+   "riesgos": "Capital de trabajo e inventario; márgenes de reventa; Mercado Libre Negocios; ZKH mismo pierde plata. Cercano a GIM-N205/GL45 (repuesto urgente en cosecha), que es la versión 'búsqueda', no el distribuidor.",
+   "veredicto": "Opinión de Claude: modelo difícil y de margen chico; solo interesa como nicho 'insumos de zafra para ingenios', donde Facu tiene ventaja. Puntaje 5/10.",
+   "parecido_a": "GIM-N205, GL45, GL1, L14 (revisados: búsqueda de repuestos por foto/llamados; no distribuidor MRO)",
+   "fuentes": [
+    "https://technode.global/prnasia/zkh-group-limited-announces-fourth-quarter-and-fiscal-year-2024-unaudited-financial-results/",
+    "https://www.tipranks.com/news/company-announcements/zkh-group-reports-mixed-financial-results-for-2024",
+    "https://www.cbinsights.com/compare/proindesa-vs-puntopartes"
+   ]
+  },
+  {
+   "empresa": "ZhongAn Insurance (众安保险) — seguro de devolución (退货运费险)",
+   "pais": "China",
+   "anio_fundacion": "2013",
+   "web": "https://www.zhongan.com",
+   "que_hace": "Aseguradora 100% online que vende seguros chiquitos dentro de la compra online: el más conocido es el 'seguro de flete de devolución', que por unos centavos cubre el costo de mandar de vuelta lo que compraste si no te gusta. Lo paga el comprador o el vendedor con un clic al pagar. Hace precios por usuario con datos de la plataforma.",
+   "problema_que_resuelve": "El comprador online no se anima a comprar ropa/calzado por miedo a pagar la devolución; el vendedor pierde ventas o paga devoluciones caras.",
+   "como_gana_plata": "Prima por póliza (micro-prima) masiva; comparte una parte con la plataforma (Taobao/Douyin). Primas totales 2024 ≈RMB 33.400 M (+13,3%) (itiger, citando resultados anuales). No encontré el dato separado de seguro de devolución 2024; en 2021 las ventas en vivo eran >20% de esas pólizas (ACN Newswire).",
+   "traccion": "Más de 20% del mercado de seguros generales por internet en China en 2024; 133 mil millones de pólizas emitidas al 30-06-2024 (https://en.wikipedia.org/wiki/ZhongAn). Cotiza en Hong Kong (6060).",
+   "por_que_funciono_alla": "Taobao con miles de millones de pedidos; el regulador permitió una aseguradora online; datos de comprador para tarifar al instante.",
+   "existe_esa_condicion_en_argentina": "Sí, parcial. La ley obliga al vendedor a pagar la devolución (botón de arrepentimiento, 10 días) (https://www.cronista.com/infotechnology/online/como-hacer-para-que-te-devuelvan-la-plata-por-una-compra-online-que-dice-la-ley-y-cual-es-la-bala-de-plata): el que tiene el costo es la tienda, y eso es un cliente que pagaría por cubrirse.",
+   "argentina_hoy": "Mercado Libre tiene Compra Protegida y devoluciones gratis; YoQuiero ofrece 'compra segura' con Caruso Seguros (https://infonegocios.info/amp/default/yoquiero-ahora-brinda-una-compra-segura-con-caruso-seguros-aplica-a-todos-los-productos). No encontré un seguro de devolución para tiendas fuera de ML (Tiendanube, Shopify) (búsqueda: 'seguro de devolución para compras online Argentina aseguradora costo de envío de devolución ecommerce').",
+   "la_vuelta_para_argentina": "App para Tiendanube/Shopify: la tienda ofrece 'devolución gratis' y por cada pedido paga una micro-prima; una aseguradora socia (no hace falta ser aseguradora, se actúa como productor/agente institorio) cubre el flete de vuelta y la logística la hace un operador. Cobro: comisión sobre prima + fee por pedido.",
+   "por_que_nos_necesitarian": "Datos de devoluciones por rubro para tarifar, acuerdo con aseguradora y con logística inversa: la tienda chica no lo puede armar.",
+   "riesgos": "Regulación de la Superintendencia de Seguros (hay que ir con aseguradora socia); fraude de devoluciones; Tiendanube podría hacerlo solo. Cercano a LOG-2-4 y COM-5-4 (gestión de devoluciones), que son software de gestión, no seguro.",
+   "veredicto": "Opinión de Claude: interesante porque la ley ya pone el costo en el vendedor y la plata circula por póliza; es chico por pedido pero escala con volumen. Puntaje 6/10.",
+   "parecido_a": "LOG-2-4, COM-5-4, GIM-N031 (sello + garantía para tiendas chicas fuera de ML: cercano, distinto producto), ESP-5-3",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/ZhongAn",
+    "https://itiger.com/hans/news/2503332160",
+    "https://www.acnnewswire.com/press-release/english/74077/",
+    "https://www.cronista.com/infotechnology/online/como-hacer-para-que-te-devuelvan-la-plata-por-una-compra-online-que-dice-la-ley-y-cual-es-la-bala-de-plata",
+    "https://infonegocios.info/amp/default/yoquiero-ahora-brinda-una-compra-segura-con-caruso-seguros-aplica-a-todos-los-productos"
+   ]
+  },
+  {
+   "empresa": "Focus Media (分众传媒)",
+   "pais": "China",
+   "anio_fundacion": "2003",
+   "web": "https://www.focusmedia.cn",
+   "que_hace": "Pone pantallas y carteles digitales en ascensores y halls de edificios de oficinas y de viviendas, y vende ese espacio a marcas. El edificio cobra un alquiler o parte de lo facturado. Llega a la misma gente todos los días, en un lugar donde no hay otra cosa que mirar.",
+   "problema_que_resuelve": "Las marcas pierden alcance en TV y redes saturadas; el consorcio no saca plata de sus espacios comunes.",
+   "como_gana_plata": "Venta de publicidad (anunciantes); costo = alquiler a edificios + pantallas. Ingresos 2024 ≈RMB 12.260 M (+3%) (StockAnalysis vía búsqueda).",
+   "traccion": "≈3 millones de puntos de pantalla en ≈300 ciudades chinas (perfil de la empresa: https://www.focusmedia.cn/en/investor/index); 930.000 pantallas de ascensor en ciudades de tercera categoría o menores al 31-07-2024 (Futu vía búsqueda). Cotiza en Shenzhen (002027). En 2026-10 el regulador aprobó con condiciones que compre a su competidor Xinchao (zh.wikipedia).",
+   "por_que_funciono_alla": "Ciudades verticales (millones de edificios con ascensor), administración centralizada de complejos, y TV en declive.",
+   "existe_esa_condicion_en_argentina": "Parcial. CABA, Rosario, Córdoba y Tucumán capital tienen muchos edificios con ascensor, pero cada consorcio decide por separado.",
+   "argentina_hoy": "Vertical Media intentó pantallas en ascensores de 100 edificios de oficinas de Buenos Aires (nota de 2006, no sé si sigue: https://mercado.com.ar/revista/numero-1062/un-medio-selecto-e-hipersegmentado/). Hay redes de pantallas en supermercados y gimnasios (Publitar) y vía pública (Publinet, 7 Sentidos). No encontré red en ascensores residenciales (búsqueda: 'pantallas publicitarias en ascensores de edificios residenciales Argentina empresa red circuito').",
+   "la_vuelta_para_argentina": "Red de pantallas en ascensores/halls de edificios residenciales, pagando al consorcio con baja de expensas (gancho para la asamblea) y vendiendo a marcas y comercios del barrio con segmentación por zona. Empezar con administradores que manejan muchos edificios.",
+   "por_que_nos_necesitarian": "Los contratos con cientos de consorcios son la barrera; el anunciante no puede negociar edificio por edificio.",
+   "riesgos": "Asambleas de consorcio lentas; vandalismo/robo; mercado publicitario argentino chico; caso del estudiante que apagaba pantallas en Shanghai muestra rechazo de vecinos. Cercano a CUL-5-3 (publicidad en cines chicos).",
+   "veredicto": "Opinión de Claude: negocio de red física con plata clara (anunciantes) y barrera real (contratos), y casi no existe acá; el dolor es vender publicidad en un mercado chico. Puntaje 7/10.",
+   "parecido_a": "CUL-5-3 (publicidad en pantallas de cines chicos: distinto lugar), R28",
+   "fuentes": [
+    "https://www.focusmedia.cn/en/investor/index",
+    "https://news.futunn.com/en/post/46234633/focus-media-information-technology-s-h1-revenue-and-net-profit",
+    "https://stockanalysis.com/quote/she/002027/revenue/",
+    "https://zh.wikipedia.org/zh-cn/%E5%88%86%E4%BC%97%E4%BC%A0%E5%AA%92",
+    "https://mercado.com.ar/revista/numero-1062/un-medio-selecto-e-hipersegmentado/",
+    "https://infonegocios.info/nota-principal/7sentidos-colosal-multiled-stampa-el-grupo-cordobes-que-opera-mas-de-200-dispositivos-publicitarios"
+   ]
+  },
+  {
+   "empresa": "Manycore Tech / Kujiale (群核科技 / 酷家乐)",
+   "pais": "China",
+   "anio_fundacion": "2011",
+   "web": "https://www.kujiale.com",
+   "que_hace": "Software en la nube donde la mueblería o el vendedor de cocinas diseña en 3D el ambiente del cliente en minutos, le muestra un render realista y el mismo diseño sale como planos de corte y lista de piezas para la fábrica. Une la venta con la producción del mueble a medida.",
+   "problema_que_resuelve": "El cliente no se imagina el mueble; el vendedor tarda días en hacer un render; después la fábrica rehace los planos y hay errores de medidas.",
+   "como_gana_plata": "Suscripción de software (SaaS) a fabricantes, mueblerías y diseñadores. Ingresos RMB 664 M (2023), 755 M (2024) y 820 M (2025) (prospecto, vía búsqueda); margen bruto alto (≈82%, dato a verificar).",
+   "traccion": "Salió a bolsa en Hong Kong el 2026-04-17 recaudando ≈HK$ 1.090 M, con la parte minorista sobresuscrita ≈1.590 veces (https://www.shopifreaks.com/chinese-spatial-ai-company-manycore-tech-surged-144-on-its-hong-kong-ipo-debut-after-raising-160m-in-an-oversubscribed-offering/; https://en.wikipedia.org/wiki/Manycore_Tech).",
+   "por_que_funciono_alla": "Boom de muebles a medida con fábricas automatizadas (CNC) que necesitaban que el diseño de venta se convirtiera solo en orden de producción.",
+   "existe_esa_condicion_en_argentina": "Parcial. Hay muchas carpinterías y fábricas de amoblamientos de cocina en melamina, pero menos automatizadas.",
+   "argentina_hoy": "Promob (empresa brasileña) vende software de diseño 3D 'para fabricar' muebles en español (https://www.promob.com/es); no hice búsqueda específica en Argentina por falta de cupo.",
+   "la_vuelta_para_argentina": "Más que el software (ya existe Promob), el modelo copiable es la 'fábrica en red': diseño en el local → corte CNC en una planta compartida → entrega. GL90 (muebles a medida con fecha garantizada) ya cubre parte.",
+   "por_que_nos_necesitarian": "Biblioteca de módulos y conexión directa con el corte; ahorra días y errores.",
+   "riesgos": "Promob ya está; mercado de muebles a medida chico y en crisis; parecido parcial con GL90 y con la idea propia de render para arquitectos (GIM-PROPIA-2).",
+   "veredicto": "Opinión de Claude: buen negocio en China pero en LATAM ya lo cubre Promob y se parece a ideas anteriores; no la priorizaría. Puntaje 3/10.",
+   "parecido_a": "GL90, GIM-PROPIA-2/MF97",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/Manycore_Tech",
+    "https://www.shopifreaks.com/chinese-spatial-ai-company-manycore-tech-surged-144-on-its-hong-kong-ipo-debut-after-raising-160m-in-an-oversubscribed-offering/",
+    "https://www.ipox.com/ipo-calendar/manycore-tech",
+    "https://www.promob.com/es"
+   ]
+  },
+  {
+   "empresa": "H World Group / Huazhu (华住, marca Hanting)",
+   "pais": "China",
+   "anio_fundacion": "2005",
+   "web": "https://www.hworld.com",
+   "que_hace": "Grupo hotelero que convierte hoteles independientes (de dueños que ya tienen el edificio) en hoteles de sus marcas económicas y medias (Hanting, JI Hotel). El dueño pone el edificio y la inversión; Huazhu pone marca, sistema de reservas, socios fidelizados, gerente y estándares, y cobra un porcentaje.",
+   "problema_que_resuelve": "El hotel independiente de ciudad chica tiene baja ocupación, depende de Booking y no tiene sistema; el viajero de negocios quiere un hotel estándar y confiable a precio medio.",
+   "como_gana_plata": "Cuotas de franquicia y gestión (% de ingresos del hotel) — modelo 'asset light'. Ingresos de hoteles gestionados y franquiciados +23,1% en 2025 (comunicado FY2025 vía búsqueda).",
+   "traccion": "12.858 hoteles y 1.264.419 habitaciones al 31-12-2025; de los 12.740 de Legacy-Huazhu, 12.229 son gestionados/franquiciados y 511 propios/alquilados (comunicado FY2025: https://chinalodginggrouplimited.gcs-web.com/node/13396). Cotiza en Nasdaq (HTHT) y Hong Kong.",
+   "por_que_funciono_alla": "Miles de hoteles independientes viejos en ciudades medianas, clase media que viaja por trabajo, y un club de socios gigante que llena hoteles sin pagar a las OTA.",
+   "existe_esa_condicion_en_argentina": "Sí. Los hoteles independientes tienen ≈69,85% del mercado (Mordor Intelligence, 2025) y hay muchas ciudades del interior sin cadenas.",
+   "argentina_hoy": "Amérian (marca 3 estrellas Mérit) va a ciudades del interior (https://www.hosteltur.com/lat/176200_cadena-hoteles-amerian-preve-tres-aperturas-ano-2017.html); Meliá con Hotelier Services ofrece afiliación y franquicia a independientes (https://infonegocios.info/nota-principal/la-cadena-de-hoteles-melia-empieza-a-expandirse-en-argentina-de-la-mano-de-hotelier-services-seran-al-menos-5-por-ano); Wyndham apunta al segmento medio (Cronista). Es decir: el modelo de conversión existe, pero con pocas aperturas por año.",
+   "la_vuelta_para_argentina": "Marca 'liviana' de conversión para hoteles de 2-3 estrellas del interior: estándar mínimo (limpieza, colchón, wifi, check-in digital), central de reservas, club de socios para viajantes de empresas (agro, minería, laboratorios) y precio corporativo. Cobro: % de facturación.",
+   "por_que_nos_necesitarian": "Demanda corporativa juntada (convenios con empresas) y marca que el hotel solo no tiene.",
+   "riesgos": "Wyndham/Meliá/Amérian ya juegan; turismo argentino volátil; controlar calidad en hoteles ajenos. Ideas viejas F27 y TUR-1-x son software para hoteles chicos, no marca de conversión.",
+   "veredicto": "Opinión de Claude: la condición existe (muchos independientes) pero ya hay jugadores grandes; la vuelta posible es la marca liviana para viajantes de empresas del interior. Puntaje 5/10.",
+   "parecido_a": "F27, TUR-1-1..TUR-1-5 (revisados: software para hoteles; no marca de conversión)",
+   "fuentes": [
+    "https://chinalodginggrouplimited.gcs-web.com/node/13396",
+    "https://www.altexsoft.com/travel-industry-news/h-world-ends-2025-strong-as-asset-light-growth-lifts-profit/",
+    "https://www.mordorintelligence.ar/industry-reports/hospitality-industry-in-argentina",
+    "https://infonegocios.info/nota-principal/la-cadena-de-hoteles-melia-empieza-a-expandirse-en-argentina-de-la-mano-de-hotelier-services-seran-al-menos-5-por-ano",
+    "https://www.hosteltur.com/lat/176200_cadena-hoteles-amerian-preve-tres-aperturas-ano-2017.html"
+   ]
+  },
+  {
+   "empresa": "Atour Lifestyle (亚朵) — el hotel como vidriera",
+   "pais": "China",
+   "anio_fundacion": "2013 (dato conocido, no verificado)",
+   "web": "https://www.yaduo.com",
+   "que_hace": "Cadena de hoteles de gama media (2.015 hoteles) que usa las habitaciones como vidriera: el huésped duerme en la almohada y el colchón de la marca propia 'Atour Planet', y después los compra online o escaneando un QR. La venta minorista ya es casi 40% de los ingresos del grupo.",
+   "problema_que_resuelve": "Comprar almohada o colchón sin probarlo es un riesgo; el hotel tiene a miles de personas probando gratis cada noche.",
+   "como_gana_plata": "Hotelería (franquicia/gestión) + venta minorista de productos de descanso con margen de marca propia. Ingresos minoristas 2025 RMB 3.671 M (+67%); ingresos totales 2025 RMB 9.790 M (comunicado FY2025 vía búsqueda).",
+   "traccion": "2.015 hoteles y 224.423 habitaciones al 31-12-2025; más de 10 M de almohadas Pillow Pro vendidas (comunicado FY2025: https://atour.gcs-web.com/news-releases/news-release-details/atour-lifestyle-holdings-limited-reports-fourth-quarter-and-3; resumen https://www.itiger.com/news/2620775428). Cotiza en Nasdaq (ATAT).",
+   "por_que_funciono_alla": "Volumen de huéspedes y venta online fácil; marca propia de descanso creada desde cero sobre la experiencia en el hotel.",
+   "existe_esa_condicion_en_argentina": "Parcial. Hay mercado de colchones grande con marcas fuertes (y mucha venta en cuotas), pero no hay cadenas hoteleras de miles de habitaciones.",
+   "argentina_hoy": "No encontré hoteles argentinos que vendan su ropa de cama/colchón como marca (no hice búsqueda específica por falta de cupo; verificación pendiente).",
+   "la_vuelta_para_argentina": "Al revés: una marca de colchones/almohadas que equipa gratis o barato hoteles y cabañas a cambio de ser 'vidriera' con QR y comisión al hotel por cada venta. El hotel cobra, la marca vende.",
+   "por_que_nos_necesitarian": "Red de hoteles como showroom: miles de pruebas por noche que una marca nueva no consigue.",
+   "riesgos": "Las marcas grandes de colchones (Simmons, Piero, Cannon) pueden copiarlo; logística de colchones pesados; requiere fabricar o tercerizar producto.",
+   "veredicto": "Opinión de Claude: idea 'dada vuelta' interesante y nueva, aunque es más una táctica de marketing de una marca de descanso que un negocio en sí. Puntaje 5/10.",
+   "parecido_a": "B6-12 (retiro de colchones viejos: distinto), TUR-1-5 (extras de hotel: distinto)",
+   "fuentes": [
+    "https://atour.gcs-web.com/news-releases/news-release-details/atour-lifestyle-holdings-limited-reports-fourth-quarter-and-3",
+    "https://www.itiger.com/news/2620775428",
+    "https://www.fool.com/data-news/2025/08/26/atour-lifestyle-q2-revenue-up-37-percent"
+   ]
+  },
+  {
+   "empresa": "Beike 'Carefree Rent' (省心租) / Ziroom (自如) — alquiler administrado de punta a punta",
+   "pais": "China",
+   "anio_fundacion": "Ziroom 2011; Carefree Rent dentro de Beike (años recientes)",
+   "web": "https://www.ziroom.com",
+   "que_hace": "El dueño entrega el departamento por varios años; la empresa lo arregla o amuebla con estándar, lo alquila, cobra, mantiene y le paga al dueño una renta (en algunos modelos fija, aunque esté vacío). El inquilino alquila un departamento 'de marca' sin garante, con mantenimiento incluido.",
+   "problema_que_resuelve": "Dueño: no quiere lidiar con inquilinos, arreglos ni vacancia. Inquilino: departamentos en mal estado, dueños que no responden, garantías difíciles.",
+   "como_gana_plata": "Diferencia entre lo que cobra al inquilino y lo que paga al dueño, más cuotas de servicio. Ingresos de servicios de alquiler de Beike 2024 RMB 14.300 M (+135%), principalmente por unidades bajo el modelo Carefree Rent (HKEX resultados 2024).",
+   "traccion": "Beike: ingresos de alquiler RMB 14.300 M en 2024 (https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0318/2025031801359.pdf). Ziroom: ≈500.000 propietarios y ≈3 M inquilinos en 9 ciudades (2018) y ronda de USD 621 M (https://www.avcj.com/avcj/news/3008244/china-s-apartment-rental-firm-ziroom-raises-usd621m); datos recientes de Ziroom no verificados.",
+   "por_que_funciono_alla": "Millones de jóvenes migrando a grandes ciudades, dueños con varios departamentos como inversión, y competidor Danke quebró por pagar rentas fijas sin margen (aviso de riesgo).",
+   "existe_esa_condicion_en_argentina": "Sí, parcial. Con la derogación de la ley de alquileres (2023-12) volvieron a ofrecerse departamentos y muchos dueños quieren 'que alguien se ocupe'; hay jóvenes del interior que se mudan a capitales.",
+   "argentina_hoy": "Alternativa Propiedades ofrece 'Alternativa Plus' con cobro garantizado al dueño (https://mercado.com.ar/ladrillos-y-proyectos/alternativa-propiedades-presenta-alternativa-plus-un-modelo-de-alquiler-con-cobro-garantizado); seguros de caución y sistemas de garantía (Cronista). No encontré un operador que arregle/amueble, opere y asuma la vacancia con marca propia (búsqueda: 'alquiler con renta garantizada al propietario Argentina empresa administra y paga aunque no haya inquilino').",
+   "la_vuelta_para_argentina": "Operador de alquiler con marca en ciudades universitarias (Tucumán, Córdoba): toma departamentos de dueños por 3 años, los deja 'listos para estudiante/joven profesional', alquila por habitación o completo, con mantenimiento por abono. Cobrar % de la renta (no renta fija al principio, para no repetir Danke).",
+   "por_que_nos_necesitarian": "Operación física (arreglos, mantenimiento, cobranza) a escala y marca de confianza para inquilinos.",
+   "riesgos": "Capital para arreglos; si se garantiza renta fija, riesgo de quiebra (Danke); regulación provincial de corretaje; parecido con ideas viejas de inquilinos (GL43, GL75, B2-09 muebles por abono, CON-3-4).",
+   "veredicto": "Opinión de Claude: modelo con plata real circulando, pero de operación pesada y riesgoso; las ideas viejas de alojamiento para estudiantes del interior están cerca. Puntaje 4/10.",
+   "parecido_a": "GL43, GL75, B2-09, CON-3-4, GIM-N029 (revisados: parecido parcial en el cliente estudiante; el modelo operador-con-marca no está)",
+   "fuentes": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0318/2025031801359.pdf",
+    "https://www.avcj.com/avcj/news/3008244/china-s-apartment-rental-firm-ziroom-raises-usd621m",
+    "https://kr-asia.com/softbank-backed-ziroom-acquires-bestbond-as-dankes-problems-cause-industry-wide-turbulence",
+    "https://mercado.com.ar/ladrillos-y-proyectos/alternativa-propiedades-presenta-alternativa-plus-un-modelo-de-alquiler-con-cobro-garantizado"
+   ]
+  },
+  {
+   "empresa": "Tuanyou / Nenglian (团油 / 能链)",
+   "pais": "China",
+   "anio_fundacion": "2016",
+   "web": "https://www.tuanyou.com (no verificado)",
+   "que_hace": "App que junta miles de estaciones de servicio independientes (no de las petroleras grandes) y le muestra al conductor —primero camioneros y flotas, después autos particulares— dónde cargar con descuento; paga desde la app. A las estaciones les da un sistema (SaaS) y clientes nuevos, y cobra una comisión por cada carga.",
+   "problema_que_resuelve": "Las estaciones independientes tienen capacidad ociosa y no llegan a los camioneros; las flotas no tienen una red única con precio y factura centralizada.",
+   "como_gana_plata": "Comisión por litro/transacción cobrada a la estación por clientes incrementales (no subsidio propio) (woshipm). No encontré el % exacto.",
+   "traccion": "Más de 23.000 estaciones conectadas en ≈1.800 ciudades (2021); 5 rondas en un año (ene-2021 a ene-2022) por más de RMB 5.000 M en total (https://www.woshipm.com/evaluating/5692358.html; https://news.pedaily.cn/20210402/13616.shtml). Dato de usuarios (100 M en 2020) es de la empresa, no verificado.",
+   "por_que_funciono_alla": "Más del 55% de los vehículos comerciales cargan en estaciones privadas dispersas, que se conocían 'de boca en boca' (woshipm).",
+   "existe_esa_condicion_en_argentina": "Parcial. Hay estaciones 'blancas' independientes y miles de camioneros (cosecha, granos), pero la red de YPF es dominante y las petroleras tienen sus propias apps.",
+   "argentina_hoy": "Apps de precios: 'Precios en Surtidor' (gobierno) y TuPlayero (comunidad); apps de cadenas (YPF, Axion ON, Shell) con descuentos bancarios. No encontré plataforma de descuentos/red para camioneros en estaciones blancas (búsqueda: 'app descuentos en combustible estaciones de servicio blancas Argentina transportistas camioneros plataforma'; https://www.monkeymotor.net/2026/08/tuplayero-app-nafta-precios-argentina.html).",
+   "la_vuelta_para_argentina": "Red de estaciones blancas para transportistas de granos y flotas del interior: tarjeta/QR de flota con precio acordado, factura centralizada y control anti-desvío; la estación paga comisión por cliente nuevo. Ventaja CEMEVA: conoce a los fleteros de granos.",
+   "por_que_nos_necesitarian": "Juntar estaciones dispersas en una red con factura única es lo que la flota sola no consigue; datos de consumo por camión.",
+   "riesgos": "YPF y tarjetas de flota de petroleras ya existen; márgenes de combustible chicos; impuestos; parecido con ENE-4-5 (estaciones blancas que fían a flotas con vales: mismo cliente, problema cercano) y LOG-4-2 (robo de combustible).",
+   "veredicto": "Opinión de Claude: la plata circula sola (combustible) y Facu tiene contactos con transportistas, pero se acerca mucho a ENE-4-5; habría que diferenciarla como 'red de descuentos para flotas', no como sistema de fiado. Puntaje 5/10.",
+   "parecido_a": "ENE-4-5, LOG-4-2, ENE-4-1 (revisados: ENE-4-5 es el más cercano — mismo cliente; distinto modelo)",
+   "fuentes": [
+    "https://www.woshipm.com/evaluating/5692358.html",
+    "https://news.pedaily.cn/20210402/13616.shtml",
+    "https://www.monkeymotor.net/2026/08/tuplayero-app-nafta-precios-argentina.html",
+    "https://www.cronista.com/informacion-gral/aumento-la-nafta-cuales-son-los-mejores-descuentos-en-combustibles-y-pagar-el-litro-mas-barato"
+   ]
+  }
+ ],
+ "descartadas_por_filtro": [
+  {
+   "empresa": "Gogoro (Taiwán) / China Tower / Yidian — baterías intercambiables para motos",
+   "motivo": "Parecido a A1-24 (motos eléctricas con baterías intercambiables para repartidores)"
+  },
+  {
+   "empresa": "Energy Monster / Jiedian — powerbanks prestados",
+   "motivo": "Parecido a B1-02, B2-07, C4-16"
+  },
+  {
+   "empresa": "Lalamove / Huolala (HK/China) — fletes a pedido por app",
+   "motivo": "Parecido a la idea propia L6 'Uber de la logística' (MF22), COM-3-4, GL73"
+  },
+  {
+   "empresa": "Hive Box (Fengchao) — casilleros de paquetes en edificios",
+   "motivo": "Parecido a SEG-3-4 (paquetes que se acumulan en guardias/porterías)"
+  },
+  {
+   "empresa": "Waterdrop / Shuidichou — colecta médica que deriva en seguros",
+   "motivo": "Parecido a GIM-N128 (colecta de emergencia verificada)"
+  },
+  {
+   "empresa": "Duoduo Maicai / Xingsheng Youxuan — compra comunitaria con líder de barrio",
+   "motivo": "Parecido a J21 (compras comunitarias de bultos para el edificio)"
+  },
+  {
+   "empresa": "ATRenew (Aihuishou) / Zhuanzhuan — compra e inspección de celulares usados",
+   "motivo": "Parecido a TEL-5-5, TEL-4-1, RES-5-3"
+  },
+  {
+   "empresa": "New Ruipeng — cadena de veterinarias",
+   "motivo": "Parecido a A6-06 (roll-up de veterinarias)"
+  },
+  {
+   "empresa": "Dida Chuxing — viajes compartidos entre ciudades",
+   "motivo": "Parecido a MOV-3-3 (viajes compartidos entre pueblos por WhatsApp); además riesgo legal de transporte"
+  },
+  {
+   "empresa": "Alibaba Xunxi — fábrica de ropa en lotes chicos",
+   "motivo": "Parecido a IND-3-5 (marcas chicas no encuentran talleres confiables)"
+  },
+  {
+   "empresa": "Snapask (HK) — respuestas de tutores en minutos",
+   "motivo": "Lo resuelve ChatGPT gratis (filtro 1)"
+  },
+  {
+   "empresa": "Meicai — abastecimiento de verduras a restaurantes",
+   "motivo": "No pude verificar tracción: fuentes contradictorias (USD 238 M vs USD 8.500 M de ingresos) (filtro 2 / Regla 1)"
+  },
+  {
+   "empresa": "Ziroom solo",
+   "motivo": "Datos recientes no verificables; se fusionó con Beike Carefree Rent (fila 14)"
+  }
+ ],
+ "uso": {
+  "busquedas_web": 29,
+  "lecturas_paginas": "≈30 (curl + pdftotext de informes HKEX, Wikipedia en/zh, KrASIA, ACN Newswire, Perfil, Mercado, Descubre.vc, woshipm). WebFetch no resolvía DNS en este entorno; se leyó con curl."
+ },
+ "notas": [
+  "RMB→USD ≈0,14 (estimación propia, para dimensionar).",
+  "Varias verificaciones en Argentina quedaron con 1 búsqueda (no 2-3) por el cupo de 30; está indicado en 'argentina_hoy' cuando falta.",
+  "WebFetch falló (DNS) para thebambooworks.com, kr-asia.com y sec.gov; se leyó con curl.",
+  "Leídas completas: informes HKEX en PDF (Tuhu interino 2024, Beike anual 2024), Wikipedia en/zh (Mixue, Beike, Luckin, ZhongAn, Manycore, Qian Dama, Focus Media, Dida), KrASIA (Mixue), ACN Newswire (Guoquan), woshipm (Tuanyou), Perfil (Mercado Libre neumáticos), Descubre.vc (Centralo), Mercado (Vertical Media), promob.com. El resto de las URLs en fuentes se conocen por el resumen del buscador (WebSearch), no por lectura completa."
+ ]
+}
