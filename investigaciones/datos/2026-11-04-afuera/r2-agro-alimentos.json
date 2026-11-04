@@ -1,0 +1,406 @@
+{
+ "angulo": "agro, alimentos y cadena de comida (cualquier país)",
+ "fecha": "2026-11-04",
+ "empresas": [
+  {
+   "empresa": "Buyers Edge Platform (marca principal para independientes: Dining Alliance)",
+   "pais": "Estados Unidos",
+   "anio_fundacion": "1998 (empezó agrupando 45 restaurantes independientes en Rochester, NY, según la empresa)",
+   "web": "https://buyersedgeplatform.com",
+   "que_hace": "Es una 'central de compras' (GPO) para restaurantes. Junta el volumen de compra de decenas de miles de restaurantes chicos y cadenas, y con ese volumen negocia contratos con los fabricantes (bebidas, aceites, descartables, limpieza, etc.). El restaurante sigue comprando a su distribuidor de siempre, pero recibe descuentos y 'cashback' (reintegros) sobre lo que compra. Para el restaurante independiente es gratis; además vende software de compras y back office.",
+   "problema_que_resuelve": "Un restaurante independiente compra poco y paga más caro que una cadena. Allá el costo de mercadería es el gasto más grande junto al personal, y los fabricantes pagan reintegros por volumen que el restaurante chico solo nunca cobra.",
+   "como_gana_plata": "Cobran los fabricantes (reintegros/fees por volumen negociado) y el software; para el restaurante el programa de ahorro es gratis: 'no dues, no fees, no order minimums' (página de Dining Alliance). El % que retiene Buyers Edge de cada reintegro NO lo pude verificar.",
+   "traccion": "Más de USD 60.000 millones de gasto agregado (pulse2, 2024-04-11: https://pulse2.com/buyers-edge-platform-425-million-preferred-equity-investment/). Inversión preferida de USD 425 M liderada por General Atlantic con Blackstone y Morgan Stanley (https://www.generalatlantic.com/media-article/buyers-edge-platform-announces-425m-preferred-equity-investment-led-by-general-atlantic-credits-atlantic-park-fund-alongside-blackstone-tactical-opportunities-and-morgan-stanley-tactical-va/) y recapitalización de USD 1.100 M (https://buyersedgeplatform.com/blog/buyers-edge-platform-secures-1-1-b-for-growth-acceleration/, 2024-05-16). Dining Alliance declara '100 K+ locations' (https://buyersedgeplatform.com/about/brands/dining-alliance/); la empresa dice analizar 171 millones de compras por día y tener 17 empresas (https://buyersedgeplatform.com/about/who-we-are/). Dealroom la valúa en USD 1.000-2.500 M (https://dealroom.co/companies/buyers-edge-platform/).",
+   "por_que_funciono_alla": "Gastronomía muy fragmentada + fabricantes que ya pagan reintegros por volumen + distribuidores grandes (Sysco, US Foods) que facturan con datos ordenados. La empresa se queda en el medio con los datos de compra.",
+   "existe_esa_condicion_en_argentina": "parcial: la fragmentación sí existe (miles de bares, restaurantes, panaderías), y los fabricantes de bebidas y alimentos sí dan bonificaciones; pero hay más compra informal (sin factura), inflación que complica contratos de precio, y menos distribuidores 'broadline' con datos.",
+   "argentina_hoy": "No encontré una central de compras gastronómica tras buscar 'central de compras para restaurantes gastronómicos descuentos proveedores Argentina' y 'compra conjunta restaurantes bares red de compras gastronómica reintegros fabricantes Argentina'. Lo que aparece son distribuidores que venden (Posta Mayorista https://www.postamayorista.com.ar/, Dienver https://dienver.com.ar/, Gastrobaires https://gastrobaires.com/) y un directorio de proveedores (https://restaurantargentina.com/directorio/). Cayena (Brasil) es un marketplace, no una central de compras.",
+   "la_vuelta_para_argentina": "Empezar en Tucumán/NOA con 100-300 bares, restaurantes y panaderías. El restaurante sube foto de sus facturas (lectura automática) y se le liquida un reintegro mensual. Del otro lado, firmar 5-10 fabricantes/marcas (bebidas, aceite, harina, descartables, limpieza) que pagan por volumen comprobado. Gratis para el gastronómico; cobra el fabricante. Después, vender los datos de compra (anonimizados) a las marcas.",
+   "por_que_nos_necesitarian": "El volumen agregado y los datos de facturas verificados: un fabricante no puede auditar a 300 locales chicos, y un local solo no tiene poder. Es un efecto de red de dos lados.",
+   "riesgos": "Arranque del huevo y la gallina (sin volumen no firman fabricantes); distribuidores que ven amenazado su margen; compras sin factura; contratos en pesos con inflación; pocos fabricantes concentran el gasto.",
+   "veredicto": "[Opinión de Claude] De las más interesantes: la plata la ponen los fabricantes, no hace falta capital y se construye con Claude Code (lectura de facturas). El riesgo es comercial: conseguir los primeros fabricantes. Puntaje 7/10.",
+   "parecido_a": "GS63 (club de compras de oficios: mismo modelo, otro cliente — plomeros); R1-latam-7 Cayena (mismo cliente, otro modelo: marketplace); ALI-1-1 (carga de facturas de proveedores, problema distinto). Revisado: no repite.",
+   "fuentes": [
+    "https://buyersedgeplatform.com/about/who-we-are/",
+    "https://buyersedgeplatform.com/about/brands/dining-alliance/",
+    "https://pulse2.com/buyers-edge-platform-425-million-preferred-equity-investment/",
+    "https://www.generalatlantic.com/media-article/buyers-edge-platform-announces-425m-preferred-equity-investment-led-by-general-atlantic-credits-atlantic-park-fund-alongside-blackstone-tactical-opportunities-and-morgan-stanley-tactical-va/",
+    "https://buyersedgeplatform.com/blog/buyers-edge-platform-secures-1-1-b-for-growth-acceleration/",
+    "https://dealroom.co/companies/buyers-edge-platform/",
+    "https://www.postamayorista.com.ar/",
+    "https://dienver.com.ar/",
+    "https://restaurantargentina.com/directorio/"
+   ]
+  },
+  {
+   "empresa": "Universal Pure (servicio de alta presión HPP 'a fasón' + frío)",
+   "pais": "Estados Unidos",
+   "anio_fundacion": "2001",
+   "web": "https://universalpure.com",
+   "que_hace": "Tiene plantas con máquinas de Alta Presión Hidrostática (HPP): el alimento ya envasado (jugos, guacamole, salsas, carnes cocidas, comida fresca para mascotas) se mete en un tanque con agua a presión muy alta, que mata bacterias sin calentar. Así el producto dura semanas sin conservantes. Las marcas no compran la máquina: le mandan el producto, Universal Pure lo procesa, lo guarda en frío y lo despacha.",
+   "problema_que_resuelve": "Una marca chica o mediana de alimentos frescos no puede pagar una máquina HPP (inversión alta) pero necesita vida útil larga y etiqueta 'sin conservantes' para entrar a supermercados lejos de su planta.",
+   "como_gana_plata": "Cobra por procesar (por kilo/ciclo) más almacenaje en frío, armado y logística. Las tarifas por kilo NO las pude verificar.",
+   "traccion": "23 máquinas HPP en 7 plantas (California, Connecticut, Georgia, Nebraska, Ohio, Pennsylvania, Texas) y 1,1 millones de pies² de instalaciones; se presenta como el mayor proveedor independiente de HPP y frío de Norteamérica (comunicado de Hiperbaric/PR Newswire, 2025-11-25: https://www.prnewswire.com/news-releases/universal-pure-expands-hpp-capacity-with-new-hiperbaric-525i-system-at-pennsylvania-facility-302626156.html). El fabricante Hiperbaric informa más de 400 máquinas en más de 50 países y 30 instalaciones récord en 2025 con crecimiento de su red de servicio a terceros (https://www.prnewswire.com/news-releases/hiperbaric-achieves-record-growth-with-30-hpp-machine-installations-in-2025-expands-tolling-network-with-new-partnerships-302573819.html). Facturación de Universal Pure: no verificada.",
+   "por_que_funciono_alla": "Demanda de alimentos frescos 'clean label' + exigencia de inocuidad (FDA) + supermercados nacionales que piden vida útil larga. La máquina es cara, entonces conviene compartirla.",
+   "existe_esa_condicion_en_argentina": "parcial: hay marcas PyME de jugos, salsas, palta y carnes que querrían vida útil sin conservantes, y Tucumán tiene limón y naranja; pero el mercado premium es más chico y la inversión en dólares pesa más.",
+   "argentina_hoy": "Un sitio técnico dice 'En Latinoamérica son pocas las plantas que operan. Ninguna en Argentina' (https://tecnologiaalimentaria.com/altas_presiones.php, sin fecha: dato viejo, no confirmado hoy). Interbion representa a Hiperbaric en Argentina (https://interbion.com.ar/web/representadas/hiperbaric/, 2021) pero no encontré plantas que den servicio a terceros. En Chile sí existe servicio HPP a terceros: Alta HPP, Santiago (https://altahpp.com/). Búsquedas: 'alta presión HPP servicio a terceros Argentina jugos maquila', 'altas presiones HPP planta Argentina servicio tratamiento alimentos', 'primera planta HPP Argentina Hiperbaric instaló'.",
+   "la_vuelta_para_argentina": "Una planta de servicio HPP en Tucumán o Córdoba para marcas PyME: jugo de limón y naranja exprimido, guacamole (Tucumán produce palta), salsas, hummus, carnes cocidas, comida fresca para mascotas. Empezar alquilando capacidad o con una máquina usada; vender a varias marcas a la vez y sumar frío y despacho.",
+   "por_que_nos_necesitarian": "Hardware caro + know-how de proceso y validación sanitaria por producto: la marca chica no puede hacerlo sola y el primero con planta y clientes se queda con la zona.",
+   "riesgos": "Capital alto (precio de la máquina no verificado; estimación propia: varios cientos de miles a más de USD 1 millón), importación, demanda incierta en Argentina, envases aptos para HPP, habilitaciones (ANMAT/bromatología).",
+   "veredicto": "[Opinión de Claude] Muy buena ventaja de ingeniero industrial y de Tucumán, pero pide capital y socios; no es para validar con USD 1.300 salvo como intermediario con la planta chilena. Puntaje 6/10.",
+   "parecido_a": "GIM-N048/GI1/MF39 (bolsa de capacidad ociosa de plantas de alimentos, fasón): parecido en 'procesar para terceros', distinto en que acá es una tecnología propia y única, no un marketplace de capacidad ociosa. Revisado.",
+   "fuentes": [
+    "https://www.prnewswire.com/news-releases/universal-pure-expands-hpp-capacity-with-new-hiperbaric-525i-system-at-pennsylvania-facility-302626156.html",
+    "https://universalpure.com/",
+    "https://www.prnewswire.com/news-releases/hiperbaric-achieves-record-growth-with-30-hpp-machine-installations-in-2025-expands-tolling-network-with-new-partnerships-302573819.html",
+    "https://www.hiperbaric.com/en/hpp-technology/hpp-tolling/",
+    "https://tecnologiaalimentaria.com/altas_presiones.php",
+    "https://interbion.com.ar/web/representadas/hiperbaric/",
+    "https://altahpp.com/"
+   ]
+  },
+  {
+   "empresa": "Parts Town (+ 86 Repairs, comprada en jun-2026)",
+   "pais": "Estados Unidos",
+   "anio_fundacion": "1987",
+   "web": "https://www.partstown.com",
+   "que_hace": "Distribuidor de repuestos originales (OEM) para equipos de cocina profesional: hornos, freidoras, máquinas de hielo, cafeteras, lavavajillas, heladeras. Vende online con búsqueda por modelo y número de serie para no equivocar la pieza, y despacha rápido. En 2026 compró 86 Repairs, un software para que los restaurantes gestionen reparaciones y técnicos.",
+   "problema_que_resuelve": "Cuando se rompe un horno o la máquina de hielo, el restaurante pierde ventas en minutos; conseguir la pieza correcta era lento, por teléfono y con errores.",
+   "como_gana_plata": "Margen de distribución sobre repuestos (compra al fabricante, vende a técnicos y restaurantes); ahora suma software de mantenimiento. Márgenes NO verificados.",
+   "traccion": "Ingresos de más de USD 1.800 millones en 2022 y más de dos docenas de adquisiciones (Dealroom: https://app.dealroom.co/companies/parts_town); comprada por Berkshire Partners (Tracxn: https://tracxn.com/d/companies/parts-town/__AhUCfPd8oyDECccVI9qd_khyTOfjKgm0WVM8Xe1O1tk). 'Uno de los mayores distribuidores de repuestos OEM de foodservice' (Restaurant Technology News, 2026-06-30: https://restauranttechnologynews.com/2026/06/parts-town-acquires-86-repairs-to-connect-restaurant-parts-service-and-maintenance-data/).",
+   "por_que_funciono_alla": "Parque enorme de equipos de marcas conocidas, acuerdos de distribución con fabricantes y un rubro que era fragmentado y telefónico.",
+   "existe_esa_condicion_en_argentina": "parcial: hay mucho equipo gastronómico (importado y nacional) y técnicos independientes, pero el parque es más chico y hay más reparación 'a lo argentino' con piezas genéricas.",
+   "argentina_hoy": "No encontré un distribuidor multimarca especializado en repuestos de equipos gastronómicos; lo que hay son publicaciones sueltas en MercadoLibre (https://listado.mercadolibre.com.ar/repuestos-horno-rational) y vendedores de equipos (https://soulheat.online/). Búsqueda: 'repuestos originales equipos gastronómicos hornos Rational freidoras tienda online Argentina'.",
+   "la_vuelta_para_argentina": "Catálogo online por modelo/serie de los equipos más comunes en Argentina (marcas nacionales e importadas), stock de las piezas que más se rompen, y red de técnicos gastronómicos con turno por app. Empezar como agregador del stock de casas de repuestos y servicios técnicos existentes.",
+   "por_que_nos_necesitarian": "Datos de compatibilidad pieza-modelo + stock + red de técnicos: difícil de armar y valioso cuando el equipo está parado.",
+   "riesgos": "Importación y dólar, fabricantes con servicios técnicos oficiales exclusivos, mercado más chico que EE.UU.",
+   "veredicto": "[Opinión de Claude] Negocio real y aburrido (bueno), con un dolor urgente; en Argentina el tamaño es la duda. Puntaje 5/10.",
+   "parecido_a": "AUT-3-1 y AUT-3-4 (identificar la pieza correcta, autopartes) y GL1/GL45 (repuestos de maquinaria agrícola): mismo modelo, otro cliente (gastronomía). Revisado: no es el mismo problema+cliente.",
+   "fuentes": [
+    "https://app.dealroom.co/companies/parts_town",
+    "https://tracxn.com/d/companies/parts-town/__AhUCfPd8oyDECccVI9qd_khyTOfjKgm0WVM8Xe1O1tk",
+    "https://restauranttechnologynews.com/2026/06/parts-town-acquires-86-repairs-to-connect-restaurant-parts-service-and-maintenance-data/",
+    "https://listado.mercadolibre.com.ar/repuestos-horno-rational",
+    "https://soulheat.online/"
+   ]
+  },
+  {
+   "empresa": "Tractor Supply Company",
+   "pais": "Estados Unidos",
+   "anio_fundacion": "1938 (primera tienda en 1940, Minot, Dakota del Norte, según la empresa)",
+   "web": "https://corporate.tractorsupply.com",
+   "que_hace": "Cadena de tiendas 'para la vida rural': alimento para animales, sanidad animal, alambrados, herramientas, repuestos de tractor y acoplado, riego, ropa de trabajo, jardín y mascotas. Locales de ~15.500 pies² en pueblos y alrededores de ciudades, más venta online, farmacia veterinaria online (Allivet) y veterinaria móvil (VIP Petcare).",
+   "problema_que_resuelve": "El productor chico, el de fin de semana, el que tiene caballos o una chacra, compraba en muchos negocios chicos con poco surtido y precios altos.",
+   "como_gana_plata": "Margen minorista sobre un surtido amplio, compra centralizada en volumen y marcas propias. Márgenes por línea NO verificados.",
+   "traccion": "Ventas 2025 de USD 15.500 millones; 2.486 tiendas Tractor Supply en 49 estados y 135 Petsense al 2026-09-26; 54.000+ empleados (https://corporate.tractorsupply.com/ y https://ir.tractorsupply.com/).",
+   "por_que_funciono_alla": "Mucha población rural y periurbana dispersa + 'hobby farmers' con poder de compra + tiendas grandes y baratas en tierra barata.",
+   "existe_esa_condicion_en_argentina": "parcial: hay miles de forrajerías y agroveterinarias de barrio y mucho periurbano con caballos, gallinas y quintas; el poder de compra es menor.",
+   "argentina_hoy": "No encontré una cadena nacional (ni franquicia) de agroveterinarias/forrajerías tras buscar 'cadena de agroveterinarias forrajerías Argentina sucursales franquicia casa de campo rural productos para chacra'. Lo que aparece es el rubro fragmentado ('miles de establecimientos', https://www.lifeder.com/forrajeria/) y distribuidores agroquímicos con pocas sucursales.",
+   "la_vuelta_para_argentina": "Cadena de 'casa de campo' en ciudades intermedias del NOA (Tucumán, Salta, Santiago): balanceado, sanidad animal, alambrado, riego, herramientas y mascotas, con compra centralizada; abrir con 1-2 locales propios y después franquicias; aprovechar la red de proveedores de CEMEVA.",
+   "por_que_nos_necesitarian": "Compra centralizada (precio), surtido de un solo lugar y logística propia; el primero que arma la red en una región ocupa las mejores ubicaciones.",
+   "riesgos": "Capital de trabajo en stock, inflación, competencia de agronomías y pet shops, retail físico de márgenes finos.",
+   "veredicto": "[Opinión de Claude] Modelo probado y enorme, pero es retail clásico que pide capital y gestión, no tecnología. Puntaje 5/10.",
+   "parecido_a": "R1-asia-sudeste-japon-corea-9 MR. D.I.Y. (cadena barata de ferretería: otro rubro y cliente); SAL-5-2 (veterinarias, software de compras). Revisado: no repite.",
+   "fuentes": [
+    "https://corporate.tractorsupply.com/",
+    "https://ir.tractorsupply.com/",
+    "https://www.lifeder.com/forrajeria/"
+   ]
+  },
+  {
+   "empresa": "Vital Farms",
+   "pais": "Estados Unidos",
+   "anio_fundacion": "2007 (no verificado en las páginas leídas)",
+   "web": "https://investors.vitalfarms.com",
+   "que_hace": "Marca de huevos de gallinas pastoriles (a campo). No es dueña de granjas: trabaja con una red de más de 600 granjas familiares independientes que siguen su estándar, y la marca procesa, empaca, vende a supermercados y hace el marketing.",
+   "problema_que_resuelve": "El consumidor que quiere huevos 'de campo' de verdad no tenía una marca confiable en góndola; el productor chico no llega solo a los supermercados.",
+   "como_gana_plata": "Precio premium por marca y confianza; margen bruto 37,7% en el 3T-2025 y 23,1% en el 3T-2026 (resultados 2026-11-03).",
+   "traccion": "Proyección de ingresos 2026 ~USD 730 M; 3T-2026: USD 182,2 M (-8,4% interanual) y pérdida neta de USD 6,5 M; marca #1 de huevos pastoriles y #2 de huevos en EE.UU.; 24.000+ tiendas; 600+ granjas (https://investors.vitalfarms.com/ y https://investors.vitalfarms.com/news/news-details/2026/Vital-Farms-Reports-Third-Quarter-2026-Financial-Results/default.aspx). Ojo: 2026 es un año malo (retiró sus metas a 2030).",
+   "por_que_funciono_alla": "Consumidor dispuesto a pagar más por bienestar animal + estándares/certificaciones confiables + cadenas de supermercados nacionales.",
+   "existe_esa_condicion_en_argentina": "parcial: Argentina es de los países que más huevos comen (398 por persona en 2025 según CAPIA, citado por BAE Negocios), pero el segmento premium es chico y sensible al precio.",
+   "argentina_hoy": "No encontré una marca de huevos pastoriles en supermercados con red de granjas; solo emprendimientos chicos: Holy Eggs (Córdoba, 18.000 huevos/mes, https://infonegocios.info/nota-principal/holy-eggs-el-emprendimiento-cordobes-que-vende-18-000-huevos-pastoriles-al-mes-y-busca-llegar-a-las-dieteticas) y La Panchita (San Justo, https://www.lavozdesanjusto.com.ar/la-panchita-sumo-gallinas--para-huevos-con-mejor--calidad-alimentaria--------------------93844). Búsqueda: 'huevos pastoriles de gallinas libres marca Argentina supermercados granjas asociadas premium'.",
+   "la_vuelta_para_argentina": "Marca regional de huevos pastoriles con 20-50 productores chicos del NOA, estándar propio verificable (foto/visita), centro de clasificación y venta a dietéticas, verdulerías premium y después súper.",
+   "por_que_nos_necesitarian": "Marca + estándar + logística: el productor chico no puede certificar ni llegar a góndola; el súper quiere un solo proveedor confiable.",
+   "riesgos": "Precio premium en un país con poder de compra bajo, gripe aviar, control de calidad de muchos productores, competencia de granjas grandes que lancen su línea 'de campo'.",
+   "veredicto": "[Opinión de Claude] Modelo liviano en activos y replicable con poca plata, pero el mercado premium argentino es chico; mejor como marca regional que como 'startup grande'. Puntaje 5/10.",
+   "parecido_a": "R1-india-6 Country Delight (marca propia de leche/huevos con productores directos): parecido en 'marca + red de productores', distinto producto y problema (allá adulteración y entrega diaria). Revisado.",
+   "fuentes": [
+    "https://investors.vitalfarms.com/",
+    "https://investors.vitalfarms.com/news/news-details/2026/Vital-Farms-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+    "https://infonegocios.info/nota-principal/holy-eggs-el-emprendimiento-cordobes-que-vende-18-000-huevos-pastoriles-al-mes-y-busca-llegar-a-las-dieteticas",
+    "https://www.lavozdesanjusto.com.ar/la-panchita-sumo-gallinas--para-huevos-con-mejor--calidad-alimentaria--------------------93844",
+    "https://www.baenegocios.com/negocios/reventa-de-huevos-la-nueva-salida-laboral-en-el-pais-con-mayor-consumo-del-mundo/"
+   ]
+  },
+  {
+   "empresa": "Cuisine Solutions",
+   "pais": "Estados Unidos / Francia",
+   "anio_fundacion": "No verificado",
+   "web": "https://cuisinesolutions.com",
+   "que_hace": "Fabrica a escala industrial comidas y proteínas cocidas 'sous vide' (envasadas al vacío y cocidas a temperatura controlada), listas para regenerar. Las venden a aerolíneas, cruceros, trenes, cadenas de cafeterías, hoteles y supermercados, que así sirven platos de calidad sin cocinero experto.",
+   "problema_que_resuelve": "Cocinas con poco personal calificado y alta rotación que necesitan calidad pareja; aerolíneas y cadenas que no pueden cocinar en el lugar.",
+   "como_gana_plata": "Venta B2B de producto elaborado con margen industrial. Ingresos NO verificados (un perfil de terceros dice USD 50-100 M, dato poco confiable: https://www.comanufacturers.com/products/cuisine-solutions-comanufacturer-profile).",
+   "traccion": "Inversión minoritaria de USD 250 M de Bain Capital; se presenta como la mayor empresa sous vide del mundo (https://prnewswire.com/il/news-releases/cuisine-solutions-global-leader-and-pioneer-in-sous-vide-premium-foods-announces-250-million-growth-investment-from-bain-capital-803035661.html). Abastece a '7 de las 10 principales aerolíneas del mundo' (https://cuisinesolutions.com/industry/airlines-and-travel/). Planta de USD 30 M en Sterling, Virginia (https://www.refrigeratedfrozenfood.com/articles/86712-cuisine-solutions-opens-30-million-sous-vide-plant?v=preview).",
+   "por_que_funciono_alla": "Falta y costo de mano de obra en cocinas + exigencias sanitarias + cadenas grandes que buscan estandarizar.",
+   "existe_esa_condicion_en_argentina": "parcial: hay rotación y falta de cocineros calificados y muchas cadenas/hoteles, pero el costo de la mano de obra es menor que en EE.UU.",
+   "argentina_hoy": "No encontré un proveedor industrial de proteínas sous vide para restaurantes y hoteles; hay frigoríficos que envasan al vacío crudo (Compañía Procesadora de Carne, https://www.tridge.com/find-suppliers/basic/compania-procesadora-de-carne-sa), minoristas premium (Argus Meats, https://www.cronista.com/brand-strategy/argus-meats-la-empresa-que-se-posiciona-en-el-mercado-con-carnes-premium-envasadas-al-vacio) y trabajos académicos (https://core.ac.uk/download/489415956.pdf). Búsqueda: 'proteínas cocidas al vacío sous vide para restaurantes hoteles proveedor industrial Argentina'.",
+   "la_vuelta_para_argentina": "Planta sous vide de carnes argentinas cocidas (vacío, cerdo, pollo, cortes de olla) para hoteles, cadenas, catering, aerolíneas regionales y hasta exportación; empezar con fasón en un frigorífico habilitado y una línea chica.",
+   "por_que_nos_necesitarian": "Proceso validado (inocuidad, vida útil) + habilitación SENASA + consistencia que una cocina chica no logra.",
+   "riesgos": "Habilitaciones, cadena de frío, convencer a chefs argentinos (cultura de cocinar en el lugar), capital para la planta.",
+   "veredicto": "[Opinión de Claude] Interesante cruce de carne argentina + ingeniería de procesos; mercado interno incierto, exportación posible a futuro. Puntaje 5/10.",
+   "parecido_a": "B5-13 (porciones al vacío para una persona: cliente consumidor, crudo) y GIM-N048 (fasón): distinto cliente y producto. Revisado.",
+   "fuentes": [
+    "https://prnewswire.com/il/news-releases/cuisine-solutions-global-leader-and-pioneer-in-sous-vide-premium-foods-announces-250-million-growth-investment-from-bain-capital-803035661.html",
+    "https://cuisinesolutions.com/industry/airlines-and-travel/",
+    "https://www.refrigeratedfrozenfood.com/articles/86712-cuisine-solutions-opens-30-million-sous-vide-plant?v=preview",
+    "https://www.comanufacturers.com/products/cuisine-solutions-comanufacturer-profile",
+    "https://www.tridge.com/find-suppliers/basic/compania-procesadora-de-carne-sa",
+    "https://www.cronista.com/brand-strategy/argus-meats-la-empresa-que-se-posiciona-en-el-mercado-con-carnes-premium-envasadas-al-vacio",
+    "https://core.ac.uk/download/489415956.pdf"
+   ]
+  },
+  {
+   "empresa": "Sunkist Growers",
+   "pais": "Estados Unidos",
+   "anio_fundacion": "1893",
+   "web": "https://sunkist.com",
+   "que_hace": "Cooperativa de productores de cítricos de California y Arizona que vende la fruta de todos bajo una sola marca, y además licencia la marca 'Sunkist' a otras empresas (gaseosas, golosinas, jugos, ahora productos no alimenticios) que pagan regalías.",
+   "problema_que_resuelve": "Cada citricultor solo es chico frente a supermercados e importadores y vende commodity; juntos tienen marca, precio y acceso a mercados.",
+   "como_gana_plata": "Comisión por comercializar la fruta de los socios + regalías por licencias de marca. Tasas de regalía NO verificadas.",
+   "traccion": "Más de 800 productos con marca en más de 80 países (License Global, 2026-09: https://www.licenseglobal.com/food-beverages/sunkist-growers-appoints-westbridge-licensing-to-develop-u-s-non-food-licensing-program). Años consecutivos de ingresos por encima de USD 1.000 millones (Food Dive, datos de ~2014-2015: https://www.fooddive.com/news/sunkist-goes-above-the-1-billion-mark-five-straight-years/365892). Licenciatarios conocidos: Keurig Dr Pepper (gaseosa), General Mills (https://www.wikipedia.org/wiki/Sunkist_Growers).",
+   "por_que_funciono_alla": "Ley que permite a las cooperativas agrícolas comercializar en conjunto + marca construida durante un siglo.",
+   "existe_esa_condicion_en_argentina": "parcial: Tucumán es potencia mundial en limón, pero lo venden pocas empresas grandes con marcas propias y hay conflicto entre ellas y el Estado provincial.",
+   "argentina_hoy": "No encontré una marca colectiva ni un programa de licencias del limón tucumano. Existe un sello privado de calidad de exportación 'All Lemon – Tested & Certified For Export' impulsado por Frutucumán (https://aduananews.com/limones-de-tucuman-recibieron-sello-de-calidad/) y el sello estatal 'Alimentos Argentinos' para algunas empresas (https://www.argentina.gob.ar/noticias/agricultura-otorga-el-sello-de-calidad-alimentos-argentinos-empresas-de-limones-tucumanos-y). Búsqueda: 'limón de Tucumán marca colectiva sello origen licencia de marca exportadores cooperativa'.",
+   "la_vuelta_para_argentina": "Más realista que una cooperativa: una marca de 'Limón de Tucumán' para productores medianos y chicos (los que no exportan con marca propia), con estándar y trazabilidad, que se licencie a fabricantes de bebidas, jugos, golosinas y aceites esenciales.",
+   "por_que_nos_necesitarian": "La marca y el estándar son un activo que ningún productor chico puede construir solo.",
+   "riesgos": "Las 18 grandes empresas que manejan 3/4 de la producción (Cronista: https://www.cronista.com/economia-politica/alertan-por-un-proyecto-para-intervenir-la-produccion-de-limones-los-alcances-de-la-nueva-regulacion) pueden no sumarse; construir una marca lleva años; poca plata al principio.",
+   "veredicto": "[Opinión de Claude] Encaja perfecto con Tucumán, pero es un proyecto de largo plazo y político, no una startup rápida. Puntaje 4/10.",
+   "parecido_a": "A6-24 (genética frutícola que cobra regalías: otro activo), A3-13 (licenciar caña mejorada), C4-01 (adoptá un limonero). Revisado: es marca/licencia, no genética ni venta al consumidor.",
+   "fuentes": [
+    "https://www.licenseglobal.com/food-beverages/sunkist-growers-appoints-westbridge-licensing-to-develop-u-s-non-food-licensing-program",
+    "https://www.fooddive.com/news/sunkist-goes-above-the-1-billion-mark-five-straight-years/365892",
+    "https://www.wikipedia.org/wiki/Sunkist_Growers",
+    "https://aduananews.com/limones-de-tucuman-recibieron-sello-de-calidad/",
+    "https://www.argentina.gob.ar/noticias/agricultura-otorga-el-sello-de-calidad-alimentos-argentinos-empresas-de-limones-tucumanos-y",
+    "https://www.cronista.com/economia-politica/alertan-por-un-proyecto-para-intervenir-la-produccion-de-limones-los-alcances-de-la-nueva-regulacion"
+   ]
+  },
+  {
+   "empresa": "Mission Produce",
+   "pais": "Estados Unidos",
+   "anio_fundacion": "1983 (no verificado en las páginas leídas)",
+   "web": "https://missionproduce.com",
+   "que_hace": "Compra paltas a productores de México, Perú y otros países (y tiene campos propios), las madura en centros propios y las entrega a supermercados y cadenas 'listas para comer' el día que las quieren, todo el año.",
+   "problema_que_resuelve": "La palta llega dura y despareja; el súper pierde mucha por sobremadurada y el consumidor no compra porque no sabe cuándo está lista. Madurar bien exige cámaras y know-how.",
+   "como_gana_plata": "Margen por caja comercializada + servicio de maduración y empaque.",
+   "traccion": "Ingresos récord del año fiscal 2025: USD 1.390 M (+13%) (SEC 8-K: https://www.sec.gov/Archives/edgar/data/1802974/000180297425000036/exh991avoq32025earningsrel.htm). Centros de maduración y distribución en Norteamérica, China, Europa y Reino Unido (https://www.portalfruticola.com/noticias/2017/02/14/mission-produce-abrira-centros-maduracion-palta-tres-continentes/).",
+   "por_que_funciono_alla": "Consumo masivo de palta en EE.UU. + importación todo el año + 95% de la palta que llega a EE.UU. pasa por maduración forzada (ProHass, Agraria.pe: https://www.agraria.pe/noticias/tecnologia-y-calidad-de-la-palta-en-destino-32696).",
+   "existe_esa_condicion_en_argentina": "parcial: Argentina importa palta de Chile, México y Perú y el norte (Tucumán incluido) concentra 75% de la producción local (Los Andes: https://www.losandes.com.ar/en-el-norte-del-pais-se-concentra-el-75-de-la-produccion-de-palta/), pero el consumo por persona es bajo (dato argentino no verificado; Chile 9-10 kg, Perú 6 kg).",
+   "argentina_hoy": "No encontré programas de palta madurada 'lista para comer' para supermercados tras buscar 'paltas maduradas listas para comer cámaras de maduración importadores Argentina Chile Perú'. No pude confirmar si los importadores usan cámaras de maduración.",
+   "la_vuelta_para_argentina": "Centro de maduración en Buenos Aires (o Tucumán para la palta local) que venda palta 'lista hoy / lista en 2 días' a cadenas y verdulerías premium, con etiquetas por estado de madurez.",
+   "por_que_nos_necesitarian": "Cámaras de etileno + protocolo de maduración + abastecimiento todo el año (local + importado).",
+   "riesgos": "Mercado chico, dependencia de importaciones (dólar, permisos), mermas, competencia de importadores existentes.",
+   "veredicto": "[Opinión de Claude] Buen ejemplo de valor en la logística, pero el mercado argentino de palta es chico; podría servir como negocio de nicho regional. Puntaje 4/10.",
+   "parecido_a": "GIM-N037/GS55 (frío por pallet, frío para comercios) y B4-16 (fruta fea): distinto servicio (maduración + abastecimiento). Revisado.",
+   "fuentes": [
+    "https://www.sec.gov/Archives/edgar/data/1802974/000180297425000036/exh991avoq32025earningsrel.htm",
+    "https://www.portalfruticola.com/noticias/2017/02/14/mission-produce-abrira-centros-maduracion-palta-tres-continentes/",
+    "https://www.agraria.pe/noticias/tecnologia-y-calidad-de-la-palta-en-destino-32696",
+    "https://www.losandes.com.ar/en-el-norte-del-pais-se-concentra-el-75-de-la-produccion-de-palta/"
+   ]
+  },
+  {
+   "empresa": "Bluewhite",
+   "pais": "Israel (con fuerte operación en EE.UU.)",
+   "anio_fundacion": "No verificado",
+   "web": "https://www.bluewhite.ai",
+   "que_hace": "Un kit (cámaras, sensores, computadora) que se instala en un día en el tractor que el productor ya tiene y lo vuelve autónomo para pulverizar, desmalezar y cortar pasto en frutales y viñedos. Se vende como servicio con contrato (en general 5 años) e incluye una plataforma de datos ('Compass').",
+   "problema_que_resuelve": "Falta de tractoristas y costo de mano de obra en cultivos permanentes, sin tener que comprar tractores nuevos.",
+   "como_gana_plata": "'Robots como servicio': cuota periódica por tractor/hectárea con contrato de ~5 años (TechCrunch). Precio NO verificado.",
+   "traccion": "USD 39 M en Serie C; 50.000 horas de trabajo autónomo en 150.000 acres; clientes desde familias hasta 20 de los mayores productores de cultivos permanentes de EE.UU. (TechCrunch, 2024-01-23: https://techcrunch.com/2024/01/23/bluewhite-rakes-in-39m-for-robots-as-a-service-that-can-be-retrofitted-to-drive-any-tractor/). Alianza con New Holland (The Robot Report, 2024-06-27: https://www.therobotreport.com/new-holland-bluewhite-expand-strategic-partnership/).",
+   "por_que_funciono_alla": "Mano de obra rural muy cara y escasa en California y Washington.",
+   "existe_esa_condicion_en_argentina": "parcial: hay falta de tractoristas en limón, arándano, pera, manzana y vid, pero la mano de obra es mucho más barata, lo que alarga el repago.",
+   "argentina_hoy": "No encontré kits de autonomía para frutales ni representación de Bluewhite (búsqueda: 'tractor autónomo kit frutales Argentina'). Sí hay robótica local para malezas (Gbot de Rosario y DeepAgro, citados en la búsqueda) y piloto automático en extensivos.",
+   "la_vuelta_para_argentina": "Ser operador/representante: servicio de pulverización autónoma por hectárea en fincas de limón y arándano de Tucumán con equipos importados, cobrando por hectárea.",
+   "por_que_nos_necesitarian": "Tecnología importada + servicio técnico local + datos por lote.",
+   "riesgos": "Dependencia total de un proveedor extranjero, dólar, repago largo con mano de obra barata, roturas en el campo.",
+   "veredicto": "[Opinión de Claude] Tecnología real, pero Facu no la construye y el repago en Argentina es dudoso; solo como representante. Puntaje 4/10.",
+   "parecido_a": "GS49 (contratistas a pedido, Hello Tractor), A5-24 (visión para aplicar agroquímicos): distinto problema (manejar el tractor). Revisado.",
+   "fuentes": [
+    "https://techcrunch.com/2024/01/23/bluewhite-rakes-in-39m-for-robots-as-a-service-that-can-be-retrofitted-to-drive-any-tractor/",
+    "https://www.therobotreport.com/new-holland-bluewhite-expand-strategic-partnership/",
+    "https://www.bluewhite.ai/post/bluewhite-raises-39m-to-bring-sustainable-autonomous-innovation-to-farms-worldwide"
+   ]
+  },
+  {
+   "empresa": "Naked Wines",
+   "pais": "Reino Unido (también EE.UU. y Australia)",
+   "anio_fundacion": "2008 (no verificado en las páginas leídas)",
+   "web": "https://www.nakedwinesplc.co.uk",
+   "que_hace": "Club de vinos online donde los socios ('Angels') ponen una cuota mensual; con esa plata la empresa financia por adelantado a enólogos independientes, y los socios compran esos vinos a precio de socio.",
+   "problema_que_resuelve": "El enólogo chico no tiene capital ni canal para vender; el consumidor paga caro por marketing y distribución.",
+   "como_gana_plata": "Margen sobre el vino vendido directo al consumidor; la cuota de los socios funciona como capital de trabajo.",
+   "traccion": "Ingresos año fiscal 2026: GBP 199,1 M (-18% a -20%), pérdida antes de impuestos GBP 6,3 M (Investegate, 2026-07-23: https://www.investegate.co.uk/announcement/rns/naked-wines--wine/final-results/9682963); retención de socios 76% y NPS 77 (TradingView/Reuters: https://www.tradingview.com/news/reuters.com,2026-07-23:newsml_RSW4801Na:0-reg-naked-wines-plc-final-results/). Está achicándose.",
+   "por_que_funciono_alla": "Mercados que importan vino caro + consumidor que paga suscripción con tarjeta.",
+   "existe_esa_condicion_en_argentina": "parcial: sobran enólogos chicos que necesitan capital, pero el vino es barato y ya hay clubes grandes.",
+   "argentina_hoy": "Ningún club financia enólogos así, pero hay clubes fuertes: Bonvivir con más de 25.000 socios, que co-produce partidas con enólogos (https://www.lanacion.com.ar/sabado/partidas-limitadas-club-bonvivir-presento-su-nueva-seleccion-de-vinos-ultra-premium-en-un-evento-en-nid09062023/), Club Vea Vinos con 40.000 socios (https://www.cadena3.com/noticia/vea/lanzan-el-club-vea-vinos-a-nivel-nacional_355487). Búsqueda: 'club de vinos Argentina socios financian enólogos independientes modelo Naked Wines'.",
+   "la_vuelta_para_argentina": "Al revés: socios en EE.UU./Europa que financian enólogos argentinos chicos (exportación directa al consumidor).",
+   "por_que_nos_necesitarian": "Comunidad de socios + logística de exportación + selección de enólogos.",
+   "riesgos": "Modelo en caída en su país, logística y aduana de vino, competencia de clubes argentinos.",
+   "veredicto": "[Opinión de Claude] Idea linda pero la empresa madre está en baja y en Argentina los clubes ya ocupan el lugar. Puntaje 3/10.",
+   "parecido_a": "N10/M30 (contenido para bodegas), GL67 (pernoctar en bodegas): otro problema. Revisado.",
+   "fuentes": [
+    "https://www.investegate.co.uk/announcement/rns/naked-wines--wine/final-results/9682963",
+    "https://www.tradingview.com/news/reuters.com,2026-07-23:newsml_RSW4801Na:0-reg-naked-wines-plc-final-results/",
+    "https://www.lanacion.com.ar/sabado/partidas-limitadas-club-bonvivir-presento-su-nueva-seleccion-de-vinos-ultra-premium-en-un-evento-en-nid09062023/",
+    "https://www.cadena3.com/noticia/vea/lanzan-el-club-vea-vinos-a-nivel-nacional_355487"
+   ]
+  }
+ ],
+ "descartadas": [
+  {
+   "empresa": "Solinftec (Brasil)",
+   "motivo": "Ya está en Argentina: reforzó sus operaciones en caña en Argentina (Portal Tela, 2026-05-25).",
+   "fuentes": [
+    "https://www.portaltela.com/economia/2026/05/25/solinftec-acelera-expansao-na-america-latina/"
+   ]
+  },
+  {
+   "empresa": "IFCO (pool de cajones retornables)",
+   "motivo": "Ya está en Argentina: IFCO Argentina compró activos de Argen-Pool.",
+   "fuentes": [
+    "https://abogados.com.ar/marval-asesoro-a-ifco-argentina-en-la-adquisicion-de-determinados-activos-de-argen-pool/38092"
+   ]
+  },
+  {
+   "empresa": "Kitopi (Emiratos) — cocinas fantasma multimarca",
+   "motivo": "Existe parecido en Argentina (Kitchenita, 2021) y el modelo de cocinas fantasma está en retroceso.",
+   "fuentes": [
+    "https://eleconomista.com.ar/negocios/kitchenita-venimos-revolucionar-industria-delivery-n36770",
+    "https://www.kitopi.com/our-story"
+   ]
+  },
+  {
+   "empresa": "Trapview (Eslovenia) — trampas de plagas con cámara",
+   "motivo": "Ya existe en Argentina: ISCAMEN usa trampas con IA desde 2021.",
+   "fuentes": [
+    "https://www.losandes.com.ar/fincas/el-iscamen-incorpora-trampas-con-inteligencia-artificial-para-el-control-de-plagas-agricolas",
+    "https://trapview.com/"
+   ]
+  },
+  {
+   "empresa": "Zé Delivery (Brasil, Ambev)",
+   "motivo": "Ya opera en Argentina.",
+   "fuentes": [
+    "https://www.inside.beer/news/detail/latin-america-ab-inbevs-home-delivery-service-has-expanded-across-the-continent"
+   ]
+  },
+  {
+   "empresa": "Take a Chef (España) — chef privado a domicilio",
+   "motivo": "Ya opera en Argentina (cientos de chefs en Buenos Aires).",
+   "fuentes": [
+    "https://www.takeachef.com/es-ar/chef-privado/buenos-aires"
+   ]
+  },
+  {
+   "empresa": "Tridge (Corea) — compraventa global de alimentos",
+   "motivo": "Ya hay vendedores argentinos en la plataforma.",
+   "fuentes": [
+    "https://www.tridge.com/sellers/agronegocios-jewell-srl"
+   ]
+  },
+  {
+   "empresa": "Taylor Farms (EE.UU.) — verduras lavadas y cortadas",
+   "motivo": "Ya existe en Argentina (Sueño Verde, 30 años; un estudio relevó 7 industrias de hojas listas para consumir).",
+   "fuentes": [
+    "https://www.freshplaza.com/north-america/article/9764971/the-trend-towards-iv-and-v-range-vegetables-is-rapidly-increasing-in-argentina/",
+    "https://www.cnbc.com/2026/08/28/how-taylor-farms-became-integral-to-americas-food-supply-system.html"
+   ]
+  },
+  {
+   "empresa": "Carbon Robotics (EE.UU.) — desmalezado láser",
+   "motivo": "Parecido a A5-24 (visión para aplicar solo donde hay maleza) y ya hay desarrollos argentinos (Gbot, DeepAgro). Tracción real: más de USD 100 M de ingresos.",
+   "fuentes": [
+    "https://agfundernews.com/%F0%9F%8E%A5-carbon-robotics-100m-revenue-new-machine-and-a-path-to-ipo",
+    "https://www.forbesargentina.com/innovacion/video-robot-mata-100000-malezas-hora-evita-uso-herbicidas-n9683"
+   ]
+  },
+  {
+   "empresa": "Licious (India) — carne fresca online",
+   "motivo": "La condición no existe: allá se compra en mercados húmedos poco confiables; en Argentina la carnicería de barrio es confiable y abundante. Además pierde plata (INR 218 cr en FY25).",
+   "fuentes": [
+    "https://entrackr.com/news/licious-reports-rs-795-cr-revenue-in-fy25-cuts-ebitda-losses-by-45-10575891",
+    "https://inc42.com/buzz/licious-trims-fy25-loss-by-27-to-inr-218-3-cr"
+   ]
+  },
+  {
+   "empresa": "Sistema.bio (México/Kenia) — biodigestores para granjas chicas",
+   "motivo": "Depende de créditos de carbono; parecido a A1-05 y A1-29 (metano y carbono).",
+   "fuentes": [
+    "https://sistema.bio/blog/sistema-bio-farmcarbon-climate-finance-farmers/"
+   ]
+  },
+  {
+   "empresa": "Ecozen (India) — cámaras de frío solares",
+   "motivo": "Parecido a GIM-N037/GS55 (frío) y GI46 (riego solar); tracción chica (450 unidades en 2022).",
+   "fuentes": [
+    "https://www.financialexpress.com/business/sme-ecozen-solutions-seeding-deep-tech-into-agri-sector-2573580/"
+   ]
+  },
+  {
+   "empresa": "Gyomu Super (Japón, Kobe Bussan)",
+   "motivo": "Franquicia que gana con la mercadería propia (parecido al modelo Mixue R1-china-3) y en Argentina los mayoristas abiertos al público cubren la necesidad.",
+   "fuentes": [
+    "https://envalith.com/en/companies/3038/segments"
+   ]
+  },
+  {
+   "empresa": "PriceSmart (Centroamérica/Colombia) — clubes de compra con membresía",
+   "motivo": "Parecido a J21 (compras de bultos mayoristas) y en Argentina ya están los mayoristas (Vital, Makro, Diarco). Tracción: USD 5.900 M, 58 clubes.",
+   "fuentes": [
+    "https://investors.pricesmart.com/"
+   ]
+  },
+  {
+   "empresa": "Expana / Urner Barry (precios de referencia de alimentos)",
+   "motivo": "Parecido a GL13 y RES-4-2 (precios de referencia).",
+   "fuentes": []
+  },
+  {
+   "empresa": "Sun'Agri (Francia) — paneles solares sobre frutales",
+   "motivo": "Tracción chica: unos 100 ha en 40 proyectos (2026), lejos de su meta de 1.500 ha.",
+   "fuentes": [
+    "https://www.vinetur.com/fr/20260518100820/winegrower-plants-vines-under-solar-shade-in-france.html"
+   ]
+  },
+  {
+   "empresa": "Yamato Cool TA-Q-BIN (Japón) — paquetería refrigerada",
+   "motivo": "No pude verificar volumen propio del servicio refrigerado; es una red gigante de una empresa grande; en Argentina hay transporte refrigerado con envíos con hielo seco (Transportes Guiraldes).",
+   "fuentes": [
+    "https://transportesguiraldes.com.ar/transporte-de-alimentos-refrigerados-y-congelados/"
+   ]
+  },
+  {
+   "empresa": "Hazel Technologies (EE.UU.) — sobres que alargan vida de la fruta",
+   "motivo": "Química patentada con registro sanitario, no construible; la categoría (1-MCP) probablemente ya se usa en Argentina (no verificado). USD 70 M Serie C.",
+   "fuentes": [
+    "https://www.fooddive.com/news/hazel-technologies-raises-70m-for-packets-to-prevent-food-waste/598268/"
+   ]
+  },
+  {
+   "empresa": "Afresh (EE.UU.) — pedidos de fruta/verdura con IA para súper",
+   "motivo": "Parecido a ALI-4-1 (compras de frutas y verduras a ojo, merma). No se investigó más.",
+   "fuentes": []
+  },
+  {
+   "empresa": "BeeHero (Israel/EE.UU.) — polinización con colmenas monitoreadas",
+   "motivo": "Parecido a GIM-N009, GS75, GL7. No se investigó más.",
+   "fuentes": []
+  },
+  {
+   "empresa": "Farmer's Fridge / Kegstar / CrowdFarming / HelloFresh",
+   "motivo": "Parecidos a GIM-N043 (heladeras autoservicio), ALI-3-2 (barriles de cervecerías), C4-01 (adoptá un árbol) y Guoquan/C2-06 (cocinar en casa). No se investigaron más.",
+   "fuentes": []
+  }
+ ],
+ "notas": "10 empresas verificadas (no 15): preferí no rellenar con flojas. Muchas candidatas del rubro ya estaban en la lista de exclusión o ya existen en Argentina. Búsquedas: 22 WebSearch + 43 consultas a Brave Search desde el navegador (varias volvieron vacías por bloqueo) + ~35 lecturas de páginas con curl/Playwright."
+}
