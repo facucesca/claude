@@ -122,7 +122,201 @@
     "https://www.cronista.com/infotechnology/it-business/son-argentinos-crearon-el-uber-de-los-talleres-mecanicos-y-ya-son-un-exito",
     "https://www.lacapitalmdp.com/gruas-el-gobierno-dio-marcha-atras-y-las-aseguradoras-podran-seguir-brindando-el-servicio/"
    ]
+  },
+  {
+   "empresa": "Enterprise Rent-A-Car (modelo 'home city': auto de reemplazo mientras el tuyo está en el taller)",
+   "pais": "EE.UU. (también Canadá, Reino Unido, Europa)",
+   "anio_fundacion": "1957",
+   "web": "https://www.enterprise.com",
+   "que_hace": "Alquila autos desde miles de sucursales de barrio (no de aeropuerto), con foco en la gente que necesita un auto porque el suyo está en reparación tras un choque, una falla o un robo. La aseguradora o el taller le manda el cliente, Enterprise lo pasa a buscar ('we'll pick you up') y le factura los días directamente a la aseguradora. Vende a la vez los autos de la flota cuando los renueva.",
+   "problema_que_resuelve": "Quien choca queda días o semanas sin auto mientras el taller espera repuestos o la aprobación del perito; para la aseguradora es una queja y un costo difícil de controlar. Enterprise le da a la aseguradora un único proveedor nacional, con tarifa pactada y control de los días.",
+   "como_gana_plata": "Alquiler por día facturado mayormente a aseguradoras con tarifa convenida + venta de los autos usados de la flota. Facturación del grupo Enterprise Holdings: USD 35.000 M (2023, Wikipedia). No encontré qué parte corresponde a reemplazo por seguro: no lo invento.",
+   "traccion": "Enterprise Holdings: USD 35.000 M de facturación (2023) y 9.500 sucursales (2020) (https://en.wikipedia.org/wiki/Enterprise_Holdings). Enterprise Rent-A-Car: 'más de 9.000 sucursales home city' y foco en 'auto de reemplazo por choque, reparación o robo' (https://en.wikipedia.org/wiki/Enterprise_Rent-A-Car, ese dato marcado 'citation needed'). Leídas 2026-11-04.",
+   "por_que_funciono_alla": "En EE.UU. las pólizas y la responsabilidad civil cubren el 'loss of use' (pérdida de uso): la aseguradora del culpable paga el auto de reemplazo, así que hay un pagador grande y recurrente. Enterprise armó la relación con aseguradoras y talleres antes que nadie.",
+   "existe_esa_condicion_en_argentina": "Parcial. Existe como cláusula adicional en algunas pólizas: p. ej. Mapfre solo con pérdida total (hasta 30 días), HDI en robo con cobertura Premium, otras 14 días y 200 km/día (según comparador comparaencasa.com, sin verificar en cada aseguradora). Además las reparaciones en Argentina tardan mucho (falta de repuestos, peritos), o sea el dolor es grande.",
+   "argentina_hoy": "Las rentadoras (Localiza, Hertz, Avis, Alamo/National) trabajan en aeropuertos y centros; no encontré una red de 'auto de reemplazo' de barrio integrada con aseguradoras y talleres. Búsqueda: '\"auto de reemplazo\" o \"vehículo sustituto\" seguro siniestro Argentina'. Fuente: https://www.comparaencasa.com/seguros-de-auto/seguros-del-automotor/mi-poliza-ofrece-auto-de-reemplazo/",
+   "la_vuelta_para_argentina": "No una rentadora más: un 'auto de reemplazo como servicio' para aseguradoras medianas y para flotas de empresas (que pierden plata por cada día con un vehículo parado). Flota chica de autos baratos estacionada en talleres de chapa aliados (el cliente deja el suyo y se lleva el nuestro en el mismo lugar), tarifa por día facturada a la aseguradora o a la empresa. Después: vender la cobertura a aseguradoras que no la tienen.",
+   "por_que_nos_necesitarian": "Flota disponible en el lugar justo (en el taller) + contrato con aseguradoras y talleres + control de días (que el taller no estire la reparación). Requiere capital y operación física: no lo copia una app.",
+   "riesgos": "Capital intensivo (comprar autos); daños y robos de la flota; que las aseguradoras no quieran pagar una cobertura que hoy casi no dan; recesión.",
+   "veredicto": "[Opinión de Claude] La condición clave (un pagador que cubre 'pérdida de uso') casi no existe en Argentina: habría que venderle la idea a las aseguradoras o ir a flotas. Interesante a mediano plazo, no para arrancar. Puntaje: 5/10.",
+   "parecido_a": "Revisado: AUT-1-3 (taller de chapa espera al perito: es el problema de fondo, otro cliente), AUT-4-5 (flotas pierden horas yendo al lubricentro), R2-DESC Splend (autos para choferes de apps). No coincide.",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/Enterprise_Holdings",
+    "https://en.wikipedia.org/wiki/Enterprise_Rent-A-Car",
+    "https://www.comparaencasa.com/seguros-de-auto/seguros-del-automotor/mi-poliza-ofrece-auto-de-reemplazo/"
+   ]
+  },
+  {
+   "empresa": "Liberty Tire Recycling (recolección nacional de neumáticos usados + reciclado en caucho)",
+   "pais": "EE.UU. (y Canadá)",
+   "anio_fundacion": "No verificado en esta ronda",
+   "web": "https://libertytire.com",
+   "que_hace": "Retira los neumáticos usados de gomerías, concesionarios, flotas y municipios (les cobra por cubierta retirada), los lleva a sus plantas y los convierte en caucho granulado para asfalto, canchas de pasto sintético, pisos de juegos, mantillo de jardín y combustible para industrias (cementeras). También revende las cubiertas usadas que todavía sirven.",
+   "problema_que_resuelve": "Las gomerías acumulan cubiertas viejas que nadie quiere; tiradas en basurales o quemadas contaminan y crían mosquitos (dengue). Las leyes estatales obligan a darles destino y a llevar registro.",
+   "como_gana_plata": "Doble ingreso: cobra por retirar (tasa por cubierta al generador) y además vende el producto reciclado (caucho, combustible). No encontré la tasa por cubierta ni la facturación publicadas (no lo invento).",
+   "traccion": "'Más de 190 millones de neumáticos al año' sacados del flujo de residuos y 'más de 25 plantas' (perfiles de terceros citados en búsqueda, incluido el del fondo dueño: https://ecpgp.com/portfolio/liberty-tire); la empresa se describe como 'el principal reciclador de neumáticos del país' (https://libertytire.com/about/, leída). El fondo ECP la compró en mayo-2021. Son cifras de la propia empresa y de su dueño: no encontré una fuente independiente.",
+   "por_que_funciono_alla": "Leyes estatales que cobran una tasa por cada neumático nuevo vendido y prohíben tirarlos, más compradores grandes de caucho (rutas con asfalto-caucho, canchas sintéticas). Juntar volumen de miles de gomerías da escala a plantas caras.",
+   "existe_esa_condicion_en_argentina": "Parcial: el residuo existe y es grande (130.000-150.000 t/año según datos oficiales citados por Economía Sustentable), el dengue es un problema real en el NOA/NEA, pero no hay ley nacional de responsabilidad extendida del productor para neumáticos (hay proyectos). Sin ley, la gomería no quiere pagar por el retiro.",
+   "argentina_hoy": "Regomax (planta en el predio del CEAMSE, Buenos Aires) procesa unas 12.000 t/año según INTI (o >800 t/mes según otra nota): menos del 10% del total estimado. Los fabricantes (Fate, Bridgestone, Michelin, Pirelli) no se ocupan de la cubierta usada post venta. No encontré una red de recolección nacional con gomerías. Búsqueda: 'reciclado de neumáticos fuera de uso Argentina empresa recolección gomerías Regomax'. Fuentes: https://economiasustentable.com/noticias/que-hacen-los-fabricantes-con-los-neumaticos-fuera-de-uso/amp/ y https://www.lanacion.com.ar/sociedad/el-reciclado-de-neumaticos-en-la-ciudad-nid2121078/",
+   "la_vuelta_para_argentina": "Empezar por la logística, no por la planta: retiro programado en gomerías y flotas de una provincia (Tucumán), con certificado de disposición final que exigen municipios y empresas grandes (para sus informes ambientales), y venta del caucho triturado a canchas sintéticas y cementeras (combustible alternativo). Ir a municipios con el argumento del dengue para que paguen o exijan el retiro.",
+   "por_que_nos_necesitarian": "Logística juntada de muchas gomerías + certificado y trazabilidad + planta de molienda que una gomería sola no puede pagar. Es operación física.",
+   "riesgos": "Sin ley que obligue, el ingreso por retiro es frágil; maquinaria de molienda cara (capital); precios del caucho reciclado bajos; permisos ambientales provinciales.",
+   "veredicto": "[Opinión de Claude] Hay hueco y hay problema público (dengue, basurales), pero el modelo de EE.UU. vive de una ley que acá no está: es apuesta a que salga la ley o a contratos municipales. Puntaje: 5/10.",
+   "parecido_a": "Revisado: RES-3-4 (talleres acumulan aceite, filtros, trapos y solventes sin retiro por abono: mismo cliente-taller y mismo tipo de solución, OTRO residuo), R2-DESC Daiseki (aceites), GIM-N103 (aceite de cocina), AUT-4-4 (desgaste de cubiertas). PARECIDO PARCIAL con RES-3-4: el filtro decide.",
+   "fuentes": [
+    "https://libertytire.com/about/",
+    "https://libertytire.com/",
+    "https://ecpgp.com/portfolio/liberty-tire",
+    "https://economiasustentable.com/noticias/que-hacen-los-fabricantes-con-los-neumaticos-fuera-de-uso/amp/",
+    "https://www.lanacion.com.ar/sociedad/el-reciclado-de-neumaticos-en-la-ciudad-nid2121078/"
+   ]
+  },
+  {
+   "empresa": "Chama (app para pedir garrafas de gas a revendedores habilitados)",
+   "pais": "Brasil",
+   "anio_fundacion": "No verificado en esta ronda (notas desde 2019)",
+   "web": "https://www.chamaapp.com.br (dominio no verificado)",
+   "que_hace": "App donde el usuario pide la garrafa (botijão) de gas de cocina y compara precio, marca y tiempo de entrega entre revendedores habilitados por la ANP (el regulador) cercanos; paga en la app o al recibir. El revendedor recibe el pedido y entrega con su moto o camioneta.",
+   "problema_que_resuelve": "Millones de hogares cocinan con garrafa y cuando se acaba hay que salir a buscarla o llamar a un número de un imán de heladera, sin saber precio ni demora. Los revendedores chicos no tienen canal digital.",
+   "como_gana_plata": "Comisión o tarifa por pedido al revendedor (no encontré el % publicado: no lo invento) y acuerdos comerciales (p. ej. campaña con Makro). La plata del gas pasa por la app cuando se paga online.",
+   "traccion": "Más de 2.000 revendedores regulados por la ANP en la red y más de 1,1 millones de usuarios activos según notas/campañas de 2020-2023 (citadas en búsqueda: https://startupi.com.br/cresce-a-procura-de-aplicativos-que-conectam-revendedores-com-clientes-em-busca-de-gas/ y https://marcaspelomundo.com.br/anunciantes/campanha-do-chama-reforca-app-como-a-maneira-mais-pratica-de-pedir-botijao-de-gas/). Datos viejos y de la propia empresa: tracción ACTUAL NO VERIFICADA.",
+   "por_que_funciono_alla": "Casi todos los hogares de Brasil cocinan con garrafa (el gas por red es raro) y la reventa está muy atomizada y regulada.",
+   "existe_esa_condicion_en_argentina": "Parcial: en el NOA/NEA y en el conurbano mucha gente no tiene gas natural y usa garrafa (Tucumán incluido), pero el precio está regulado/subsidiado (Programa Hogar), lo que deja poco margen para comisión.",
+   "argentina_hoy": "No encontré una app o marketplace argentino de garrafas a domicilio; el resultado más parecido (Gas Nieto) es de México, y los distribuidores venden por teléfono. Búsqueda: 'app para pedir garrafa a domicilio Argentina distribuidores de gas envasado plataforma'.",
+   "la_vuelta_para_argentina": "Ir por el lado de la oferta y del dato: dar a los distribuidores de garrafas de una ciudad (Tucumán) un pedido por WhatsApp + ruteo + cobro con QR, y vender a las fraccionadoras (YPF Gas, etc.) la demanda georreferenciada. Sumar 'aviso antes de que se acabe' (suscripción) para hogares e industrias chicas (panaderías, comedores).",
+   "por_que_nos_necesitarian": "Oferta juntada de muchos revendedores habilitados + logística de última milla de un producto peligroso que no reparte cualquiera (permiso).",
+   "riesgos": "Precio regulado y margen chico; producto peligroso (responsabilidad); el distribuidor puede saltearse la app después del primer pedido; la expansión de gas por red reduce el mercado.",
+   "veredicto": "[Opinión de Claude] Hueco real en Argentina pero la plata es poca por pedido y la tracción de Chama no la pude confirmar hoy; es más un buen complemento que una startup grande. Puntaje: 4/10.",
+   "parecido_a": "Revisado: R2-DESC Zé Delivery (bebidas a domicilio: otro producto), R2-DESC Piramal Sarvajal (agua), ENE-4-x (combustible de flotas), B19/H-ideas de WhatsApp para comercios. No coincide de forma directa.",
+   "fuentes": [
+    "https://startupi.com.br/cresce-a-procura-de-aplicativos-que-conectam-revendedores-com-clientes-em-busca-de-gas/",
+    "https://marcaspelomundo.com.br/anunciantes/campanha-do-chama-reforca-app-como-a-maneira-mais-pratica-de-pedir-botijao-de-gas/",
+    "https://canaltech.com.br/apps/comprar-botijao-gas-aplicativo/"
+   ]
   }
  ],
- "descartadas": []
+ "descartadas": [
+  {
+   "empresa": "ACV Auctions (EE.UU.) — subastas mayoristas de usados entre concesionarias con inspección",
+   "pais": "EE.UU.",
+   "motivo": "Ya existe en Argentina: Auto Action (B2B para concesionarios, de Brasil), OLX Autos subasta usados a ~500 concesionarias y Narvaez/Superbid hacen subastas online. Además Copart (ya en Argentina) compró ACV en oct-2026. Parecido a R2-DESC AUTO1/Copart.",
+   "traccion": "Facturación 12 meses a jun-2026: USD 801 M (+13%); deslistada el 2026-10-16 por compra de Copart.",
+   "fuentes": [
+    "https://stockanalysis.com/stocks/acva/revenue/",
+    "https://stockanalysis.com/stocks/acva/company/",
+    "https://www.16valvulas.com.ar/e-commerce-auto-action-desembarco-en-argentina-en-el-sector-de-compra-y-venta-de-usados/",
+    "https://www.cronista.com/infotechnology/it-business/el-nuevo-servicio-de-olx-te-compran-tu-usado-en-1-dia-sin-tirarlo-abajo"
+   ]
+  },
+  {
+   "empresa": "Turo (EE.UU.) — alquiler de autos entre particulares",
+   "pais": "EE.UU.",
+   "motivo": "Ya existe en Argentina: TripWip (ronda de USD 4,2 M, >1.000 autos publicados en Argentina) y Rentennials (Mendoza, retiene 20%, seguro con Ensuro). Además parecido a GI113 (Turo de lo recreativo).",
+   "traccion": "Facturación USD 879,7 M (2023), rentable según TechCrunch citado por Wikipedia.",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/Turo_(company)",
+    "https://dplnews.com/tripwip-levanta-usd-42-millones-y-apuesta-a-multiplicar-por-seis-su-operacion-en-argentina/",
+    "https://www.descubre.vc/noticia/rentennials-y-ensuro-lanzan-seguro-digital-para-alquileres-entre-particulares-2025-08-08"
+   ]
+  },
+  {
+   "empresa": "Park24 / Times Parking (Japón) — playas sin personal en terrenos baldíos",
+   "pais": "Japón",
+   "motivo": "Parecido a MOV-1-1 y MOV-1-2 (cobro manual en playas y lugares vacíos que no se venden) y a R2-DESC ParkingEye. No se investigó Argentina por parecido.",
+   "traccion": "Cotiza en Tokio (4666); opera estacionamientos por hora, mensuales y car sharing en Japón y Reino Unido.",
+   "fuentes": [
+    "https://stockanalysis.com/quote/tyo/4666/company/"
+   ]
+  },
+  {
+   "empresa": "Element Fleet / Ayvens / Arval — renting y administración integral de flotas corporativas",
+   "pais": "Canadá / Francia",
+   "motivo": "Ya existe en Argentina: KINTO ONE Fleet de Toyota (250 empresas, 2026), Iucar, RDA Mobility y ALD/Wheels con AutoCorp. Además parecido a R2-DESC Vamos Locação y LOG-4-x.",
+   "traccion": "No investigada a fondo por existir en Argentina.",
+   "fuentes": [
+    "https://www.iprofesional.com/autos/456635-toyota-apuesta-al-alquiler-de-autos-como-funciona-la-solucion-que-utilizan-250-empresas",
+    "https://infonegocios.info/amp/default/nace-iucar-una-compania-de-alquiler-de-autos-pero-con-foco-en-la-movilidad-corporativa",
+    "https://www.societegenerale.com/en/news/newsroom/ald-automotive-and-wheels-are-first-access-argentinean-fleet-market-through-new"
+   ]
+  },
+  {
+   "empresa": "YourMechanic / Wrench (EE.UU.) — mecánico a domicilio",
+   "pais": "EE.UU.",
+   "motivo": "Ya existe en Argentina: Servidos conecta con mecánicos a domicilio verificados por barrio en Buenos Aires (precios de ago-2026). Además rozan B6/B19/H38 (talleres).",
+   "traccion": "YourMechanic opera en 2.363 ciudades de EE.UU.; comprada por Wrench en jun-2022 (Wikipedia).",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/YourMechanic",
+    "https://servidos.ar/servicios/mecanico-a-domicilio/buenos-aires/parque-patricios"
+   ]
+  },
+  {
+   "empresa": "Red.Health (India) — red de ambulancias por app",
+   "pais": "India",
+   "motivo": "En Argentina el problema está cubierto por empresas de emergencias médicas privadas con abono y 'área protegida' (servicio muy extendido); parecido a MOV-3-5 (traslados de pacientes). No investigada a fondo.",
+   "traccion": "No verificada (la nota de Inc42 no cargó).",
+   "fuentes": [
+    "https://www.red.health/"
+   ]
+  },
+  {
+   "empresa": "Repos Energy (India) / Booster (EE.UU.) — combustible a domicilio",
+   "pais": "India / EE.UU.",
+   "motivo": "En Argentina ya hay delivery de nafta por app (nota de El Cronista) y los distribuidores de gasoil entregan en campos y obras; parecido a ENE-4-1/ENE-4-5 (combustible de flotas).",
+   "traccion": "No verificada.",
+   "fuentes": [
+    "https://www.reposenergy.com/",
+    "https://www.cronista.com/apertura/empresas/delivery-de-nafta-la-app-de-un-joven-que-se-adelanto-a-ypf-shell-y-axion"
+   ]
+  },
+  {
+   "empresa": "Zipline (EE.UU./Ruanda) — entrega de remedios y sangre con drones",
+   "pais": "EE.UU. / Ruanda / Ghana",
+   "motivo": "Parecido a GL73 ('Pedí un dron como pedís un flete') y GS83 (drones en regla); además es deeptech con hardware propio y regulación de ANAC: fuera del alcance de Facu.",
+   "traccion": "Más de 2 millones de entregas comerciales y 120 millones de millas voladas a ene-2026 (Wikipedia).",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/Zipline_(drone_delivery_company)"
+   ]
+  },
+  {
+   "empresa": "Recovery Database Network (EE.UU.) — red de secuestro de autos para financieras (repossession)",
+   "pais": "EE.UU.",
+   "motivo": "La condición sí está en Argentina (33.000 prendas por mes en 2026 según ACARA, mora en subida, secuestro prendario convalidado por la justicia), pero no pude verificar tracción de RDN con números (su web no los da) y usa lectoras de patentes (parecido a GI24/GIM-N121).",
+   "traccion": "No verificada.",
+   "fuentes": [
+    "https://www.recoverydatabase.net/",
+    "https://eleconomista.com.ar/autos/cayeron-ventas-financiadas-0-km-pero-subieron-usados-n97437",
+    "https://www.diariojudicial.com/news-101868-si-no-pagas-caminas"
+   ]
+  },
+  {
+   "empresa": "Nowports (México) — agente de carga digital",
+   "pais": "México",
+   "motivo": "Dice operar con '+90 países conectados'; en Argentina hay cientos de forwarders y despachantes. No es un hueco claro.",
+   "traccion": "'+5.000 clientes' según su web (fuente propia).",
+   "fuentes": [
+    "https://nowports.com/es"
+   ]
+  },
+  {
+   "empresa": "Palletways / Pall-Ex (Reino Unido) — red de transportistas independientes para carga paletizada",
+   "pais": "Reino Unido",
+   "motivo": "En Argentina la carga fraccionada la hacen los expresos (red de agencias en todo el país); además parecido a ideas de unir cargas con transportistas (L6/MF22). No se verificó tracción (la web dio 404).",
+   "traccion": "No verificada.",
+   "fuentes": []
+  },
+  {
+   "empresa": "Quala (EE.UU.) — red de lavado de cisternas",
+   "pais": "EE.UU.",
+   "motivo": "No pude leer la web (vacía con curl) ni verificar tracción; en Argentina el lavado de cisternas para alimentos lo hacen lavaderos habilitados locales (no verificado). Se deja sin investigar.",
+   "traccion": "No verificada.",
+   "fuentes": []
+  },
+  {
+   "empresa": "Carwow (Reino Unido) — concesionarias compiten con ofertas por tu 0 km",
+   "pais": "Reino Unido",
+   "motivo": "Igual a GS4 ('Comprador de 0km: subasta inversa entre 15 concesionarias').",
+   "traccion": "No investigada por parecido.",
+   "fuentes": []
+  }
+ ]
 }

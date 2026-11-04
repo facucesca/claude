@@ -1,0 +1,121 @@
+[
+ {
+  "empresa": "Porter Group / Kiper / Folk (Brasil) — portería remota para edificios",
+  "pais": "Brasil",
+  "motivo": "Ya existe en Argentina: Prosegur ofrece 'Virtual Porter' (iDenta) para edificios y countries y reporta más de 20% de crecimiento en consultas; según la nota, un vigilador 24 h cuesta 250-300 mil pesos vs ~60 mil de la portería virtual. Tracción en Brasil: más de 12-14 mil condominios con portería remota (ABESE vía Síndiconet).",
+  "fuentes": [
+   "https://www.iproup.com/innovacion/4234-diseno-innovacion-tecnologica-ejemplos-proyectos-innovadores-The-use-of-virtual-surveillance-reduces-security-expenses-by-up-to-75",
+   "https://www.sindiconet.com.br/informese/portaria-remota-12-mil-condominios-noticias-mercado",
+   "https://www.cronista.com/infotechnology/entreprenerds/estos-argentinos-quiere-reemplazar-a-los-porteros-con-estas-camaras-de-seguridad-la-idea-ya-mueve-millones"
+  ]
+ },
+ {
+  "empresa": "eXp Realty (EE.UU.) — inmobiliaria 'en la nube' de agentes independientes con reparto de ingresos",
+  "pais": "EE.UU.",
+  "motivo": "El modelo de agentes independientes bajo una marca ya existe en Argentina: RE/MAX (120 oficinas y 3.000 agentes en 2018 según Forbes Argentina; su mayor oficina tiene 250 agentes en 2026 según Cronista) y Keller Williams entró a Argentina en 2018. Además el problema es del agente, no de la gente. Tracción real de eXp: 83.060 agentes y USD 4.800 M de ingresos en 2025.",
+  "fuentes": [
+   "https://www.marketbeat.com/instant-alerts/exp-world-q4-earnings-call-highlights-2026-02-24/?.tsrc=rss",
+   "https://www.forbesargentina.com/negocios/franquiciados-exitosos-n591",
+   "https://www.cronista.com/negocios/divorcio-en-remax-la-mayor-oficina-de-la-red-en-la-argentina-se-abre-y-crea-su-propia-marca",
+   "https://www.businesswire.com/news/home/20180410006287/en/Keller-Williams-Gains-Momentum-South-America-Expands"
+  ]
+ },
+ {
+  "empresa": "Ownwell (EE.UU.) — apelar el impuesto inmobiliario cobrando 25% del ahorro",
+  "pais": "EE.UU.",
+  "motivo": "La condición no se da: en EE.UU. el impuesto a la propiedad es alto y se reevalúa todos los años; en Argentina el ABL/inmobiliario es bajo frente al valor y casi nadie lo apela, así que el 25% del ahorro sería muy poca plata (estimación propia, no verificada con datos). Tracción real: más de 500.000 clientes, más de USD 400 M ahorrados, ronda de USD 50 M en 2026.",
+  "fuentes": [
+   "https://news.inman.com/2026/02/25/ownwell-raises-50m-to-grow-its-property-tax-appeal-fintech/",
+   "https://news.crunchbase.com/venture/ownwell-raise-lower-homeowner-property-tax/"
+  ]
+ },
+ {
+  "empresa": "Katitas (Japón) — compra casas viejas vacías, las refacciona y las vende barato",
+  "pais": "Japón",
+  "motivo": "Parecido a R1-latam-13 (Habi: comprar viviendas usadas, arreglarlas y revender). Además la condición japonesa (millones de casas vacías 'akiya' y población que baja) no se da en Argentina, que tiene déficit de viviendas. Tracción real: ventas ¥151.851 M y ganancia neta ¥12.470 M en el año a mar-2026; socio Nitori (34,8%).",
+  "fuentes": [
+   "https://stockanalysis.com/quote/tyo/8919/financials/",
+   "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%81%E3%82%BF%E3%82%B9"
+  ]
+ },
+ {
+  "empresa": "Lhoopa (Filipinas) — compra casas sin vender o recuperadas por bancos, las arregla y las vende financiadas",
+  "pais": "Filipinas",
+  "motivo": "Mismo modelo que Habi (R1-latam-13) y Katitas. No investigado a fondo (solo vi que levantó USD 80 M).",
+  "fuentes": [
+   "https://news.yahoo.com/news/lhoopa-raises-80m-spur-more-000000746.html"
+  ]
+ },
+ {
+  "empresa": "Divvy Homes (EE.UU.) — alquiler con opción a compra (rent-to-own)",
+  "pais": "EE.UU.",
+  "motivo": "Tracción débil para el modelo: pausó compras en ago-2023 por tasas altas, despidió gente y vendió su cartera de ~3.800 casas a Brookfield por ~USD 1.000 M en ene-2025; solo 2.000 inquilinos llegaron a ser dueños. En Argentina sin crédito hipotecario el paso final (comprar) sería aún más difícil.",
+  "fuentes": [
+   "https://pulse2.com/brookfield-buying-divvy-homes-portfolio-platform-for-about-1-billion",
+   "https://news.bloomberglaw.com/private-equity/brookfield-said-to-near-950-million-purchase-of-divvy-homes"
+  ]
+ },
+ {
+  "empresa": "Pacaso (EE.UU.) — copropiedad de casas de vacaciones entre desconocidos, con administración",
+  "pais": "EE.UU.",
+  "motivo": "Parecido a GIM-N126 / GI73 (comprar una casa de fin de semana entre varios con vehículo legal y administrador). No se investigó más.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Villa / Abodu (EE.UU.) — segunda casita prefabricada en el fondo (ADU) llave en mano",
+  "pais": "EE.UU.",
+  "motivo": "Parecido a GS91, GL61 y A6-15 (vivienda industrializada) y tracción chica: Villa vendió algo más de 500 ADU desde 2020 y levantó USD 40 M en abr-2025; depende de leyes de California que facilitaron los permisos.",
+  "fuentes": [
+   "https://www.newswire.com/news/villa-raises-40m-to-fast-track-construction-of-attainable-housing-22563716",
+   "https://irei.com/?p=516428"
+  ]
+ },
+ {
+  "empresa": "Updater (EE.UU.) — mudanza de servicios (luz, internet, seguros) cobrando comisión a los proveedores",
+  "pais": "EE.UU.",
+  "motivo": "Economía floja: levantó más de USD 215 M y Latka estima ingresos de solo USD 26 M en 2022 (estimación de terceros); en Argentina las comisiones de proveedores de internet y seguros serían más chicas. No se investigó más.",
+  "fuentes": [
+   "https://builtin.com/articles/updater-raises-215m-home-moving-app",
+   "https://getlatka.com/companies/updater"
+  ]
+ },
+ {
+  "empresa": "Lumon (Finlandia) — cerramientos de balcones con cortinas de vidrio",
+  "pais": "Finlandia",
+  "motivo": "Es un fabricante de producto (EUR 159 M de ventas en 2025) y en Argentina hay instaladores locales de cortinas de vidrio para balcones (no lo pude verificar con una fuente concreta: queda SIN VERIFICAR); además muchos reglamentos de copropiedad prohíben cerrar balcones. No pasa el filtro 4 (nicho de producto, no modelo escalable para Facu).",
+  "fuentes": [
+   "https://lumon.com/us/company/news/1875-2/",
+   "https://lumon.com/int/group"
+  ]
+ },
+ {
+  "empresa": "Market4u / Minha Quitandinha (Brasil) — mini-mercados autónomos dentro de condominios",
+  "pais": "Brasil",
+  "motivo": "Parecido a GIM-N043 (heladeras de autoservicio en edificios) y al descarte R2 Selecta. No se investigó más.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Enercare / Reliance Home Comfort (Canadá) — alquiler mensual del termotanque con mantenimiento",
+  "pais": "Canadá",
+  "motivo": "Parecido a GIM-N010 (agua caliente por abono), ENE-5-5 (cambiar termotanque/caldera) y R2 HomeServe. No se investigó más.",
+  "fuentes": []
+ },
+ {
+  "empresa": "LeakBot (HomeServe, Reino Unido) — sensor de pérdidas de agua repartido por aseguradoras",
+  "pais": "Reino Unido",
+  "motivo": "Parecido a GIM-N195 / GI102 (humedad y pérdidas en la casa) y a R2 HomeServe. No se investigó más.",
+  "fuentes": []
+ },
+ {
+  "empresa": "QuintoAndar (Brasil) / Bilt Rewards (EE.UU.) — alquiler sin garante con garantía al dueño / premios por pagar el alquiler",
+  "pais": "Brasil / EE.UU.",
+  "motivo": "Parecidos a GS29 y GS73 (pasaporte del inquilino, garantía y pago del alquiler por la plataforma). Además QuintoAndar ya es dueña de Navent (Zonaprop) en Argentina. No se investigó más.",
+  "fuentes": []
+ },
+ {
+  "empresa": "MyGate / NoBrokerHood (India) — app de barrios cerrados: visitas, guardias, expensas",
+  "pais": "India",
+  "motivo": "Parecido a SEG-3-x / SEG-5-x (control de acceso en barrios cerrados) y CON-4-x (administración de consorcios). No se investigó más.",
+  "fuentes": []
+ }
+]

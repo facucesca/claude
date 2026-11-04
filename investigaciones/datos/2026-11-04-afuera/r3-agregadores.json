@@ -157,5 +157,57 @@
    "https://mercado.com.ar/negocios/fusiones-y-adquisiciones-en-argentina-kpmg-estimo-us-8-500-millones-transados-en-2025",
    "https://www.cronista.com/apertura/empresas/impuestos-fusion-de-dos-estudios-tributarios-referentes-del-circulo-rojo"
   ]
+ },
+ {
+  "empresa": "Groupement Optic 2000 (cooperativa de ópticos independientes; también Lissac y Audio 2000 en franquicia). Modelos hermanos: Cione (España, central de compras cooperativa) y Opticalia (España, 'modelo asociativo' que ya entró a Perú)",
+  "pais": "Francia",
+  "anio_fundacion": "1969 (NO verificado en esta búsqueda — dato de conocimiento de Claude)",
+  "web": "https://www.optic2000.com",
+  "que_hace": "Los ópticos independientes son socios de una cooperativa que les da marca nacional (Optic 2000), central de compras de cristales y armazones, marcas propias, publicidad nacional en TV, convenios con las prepagas/mutuales francesas, formación y sistemas. Cada local sigue siendo del óptico. El grupo también tiene redes en franquicia (Lissac, Audio 2000 para audífonos).",
+  "problema_que_resuelve": "La óptica de barrio compra cristales y armazones caros, no puede pagar publicidad nacional y queda afuera de los convenios con las coberturas médicas, frente a cadenas integradas. Juntas, consiguen precio, marca conocida y acuerdos con los que pagan.",
+  "como_gana_plata": "Cooperativa: margen de la central de compras sobre lo que les vende a los socios + cuotas de pertenencia/marketing de los socios (cuotas en franquicias Lissac/Audio 2000). NO pude verificar los porcentajes de cuota ni el margen.",
+  "traccion": "2024: facturación del grupo EUR 1.308 M con IVA (+1,1%), algo más de 16% del mercado óptico francés; la marca Optic 2000 sola EUR 942 M; 1.194 ópticas en la red cooperativa a fines de 2023; 143 aperturas de ópticas o centros auditivos en 2024 (Franchise Magazine, según resumen de búsqueda de https://www.franchise-magazine.com/news-franchise/optic-2000-lissac-expansion-mars-2025 y https://www.franchise-magazine.com/news-franchise/optic-2000-lissac-resultats-developpement-mai-2024; páginas no leídas completas por bloqueo). En LATAM: Opticalia entró a Perú con 'modelo asociativo' para integrar ópticas sin marca (más de 4.000 ópticas sin marca reconocida en Perú, según América Retail; no leído completo).",
+  "por_que_funciono_alla": "En Francia los anteojos los reembolsan en gran parte las mutuales/complementarias, que arman redes de ópticas con precios negociados: quien no está en red pierde clientes. Eso empujó a los independientes a agruparse.",
+  "existe_esa_condicion_en_argentina": "Parcial. Las obras sociales y prepagas cubren anteojos (al menos el PMO cubre lentes para chicos, NO verificado) y trabajan con ópticas en convenio; las ópticas independientes son mayoría y compran a laboratorios de cristales y distribuidores. Ya hay redes locales de ópticas adheridas a beneficios (ej. 'Red de Ópticas' para matriculados del Consejo Profesional de Salta, 2025).",
+  "argentina_hoy": "No encontré una central de compras ni una marca común nacional de ópticas independientes. Búsqueda: 'red de ópticas independientes Argentina grupo de compras marca común ópticas asociadas cámara ópticas'. Encontré una 'Red de Ópticas' de beneficios en Salta (armazón gratis con cristales para matriculados del CPCE: https://www.consejosalta.org.ar/?p=204972), cadenas (Lof, etc.) y la llegada de Sunglass Hut (Luxottica) a Argentina (https://www.modaes.com/empresas/sunglass-hut-apuesta-por-argentina-y-sube-la-persiana-de-su-tercera-tienda).",
+  "la_vuelta_para_argentina": "Red de ópticas independientes del NOA con: (1) central de compras de cristales y armazones (marca propia de armazones importados de China); (2) convenio único con obras sociales, mutuales y sindicatos que las ópticas solas no consiguen (la red cobra comisión por cada receta derivada); (3) 'óptica en la empresa' para anteojos de seguridad recetados. La plata pasa por la central (margen sobre producto) y por la derivación (comisión).",
+  "por_que_nos_necesitarian": "Volumen frente a laboratorios, convenios con quienes pagan (obras sociales/sindicatos) y marca común; con el tiempo, laboratorio de tallado propio compartido.",
+  "riesgos": "EssilorLuxottica domina cristales y marcas y puede no querer dar precio a una red; regulación sanitaria de ópticas (director técnico óptico); obras sociales pagan tarde; los ópticos son celosos de su marca propia.",
+  "veredicto": "Opinión de Claude: modelo probado (16% del mercado francés) y la condición 'cobertura que paga' existe parcialmente en Argentina; es de las más concretas de esta ronda para arrancar regional, pero hay que verificar cuánto cubren hoy obras sociales y prepagas. Puntaje: 7/10.",
+  "parecido_a": "R1-india Lenskart y R1-latam Ben & Frank (ópticas que le venden al consumidor: otro cliente y otro modelo); ESP-1-1 (probarse armazones online) y ESP-1-4 (anteojos de seguridad para operarios: la vuelta (3) se le parece, se puede quitar). Revisados: 'óptic', 'anteojo', 'compra conjunta'.",
+  "fuentes": [
+   "https://www.franchise-magazine.com/news-franchise/optic-2000-lissac-expansion-mars-2025",
+   "https://www.franchise-magazine.com/news-franchise/optic-2000-lissac-resultats-developpement-mai-2024",
+   "https://www.guiadeprensa.com/wp-content/uploads/2025/02/322110-CIONE.pdf",
+   "https://americaretail-malls.com/paises/peru/opticalia-aterriza-en-peru-con-modelo-asociativo/",
+   "https://www.consejosalta.org.ar/?p=204972",
+   "https://www.modaes.com/empresas/sunglass-hut-apuesta-por-argentina-y-sube-la-persiana-de-su-tercera-tienda"
+  ]
+ },
+ {
+  "empresa": "Intersport (red de compras y marca común de tiendas de deportes independientes)",
+  "pais": "Suiza (opera en 40 países)",
+  "anio_fundacion": "1968",
+  "web": "https://www.intersport.com",
+  "que_hace": "Intersport International Corporation (Berna) es la empresa de marca y compras del grupo: negocia con Nike, Adidas, Puma, Asics, etc. y desarrolla marcas propias (McKinley, Firefly, Energetics, Etirel, Pro Touch, Tecnopro — marcas propias NO verificadas en esta búsqueda) para organizaciones nacionales que agrupan a tiendas de deportes, muchas de ellas de dueños independientes. Cada país tiene su central de compras; las tiendas usan la marca Intersport.",
+  "problema_que_resuelve": "La casa de deportes independiente no consigue condiciones de las marcas grandes (que priorizan cadenas y su propia venta directa), ni tiene marca propia barata para competir con Decathlon. Juntándose, compran como cadena y tienen marca propia.",
+  "como_gana_plata": "La central gana margen/rebates sobre las compras que canaliza y cobra a las organizaciones nacionales por la marca y los servicios; las organizaciones nacionales a su vez cobran cuotas o margen a las tiendas. NO verificados los porcentajes (empresa privada, no publica rentabilidad según SGB).",
+  "traccion": "Ventas omnicanal 2025: EUR 14.100 M (+0,4%; +1,2% a moneda constante), 5.260 tiendas en 40 países; no publica ganancias (SGB Online, https://sgbonline.com/exec-intersport-posts-modest-growth-in-2025/, leído 2026-11-04; también intersport.com y FashionUnited). Origen 1968: diez grupos del sector se unieron para ganar poder de compra (Modaes). En LATAM firmó licencia con un minorista en Chile y opera The Athlete's Foot en México (según resumen de búsqueda de Modaes/SGI Europe).",
+  "por_que_funciono_alla": "Europa tenía miles de tiendas de deportes familiares en pueblos y ciudades medianas que necesitaban escala frente a cadenas; la cooperativa europea les dio compras y marca.",
+  "existe_esa_condicion_en_argentina": "Parcial. Hay casas de deportes independientes en el interior y la presión de cadenas (Dexter/Moov, Sporting) y ahora de Decathlon (volvió con Grupo One, proyecta hasta 20 sucursales, según Modaes). Pero Nike/Adidas venden mucho directo y por mayoristas, y la importación es volátil.",
+  "argentina_hoy": "No encontré un grupo de compras de casas de deportes ni a Intersport en Argentina. Búsqueda: 'casas de deportes independientes Argentina grupo de compras red asociativa comercios deportivos del interior marcas Intersport Argentina'. Solo aparece la llegada de Intersport a Chile (https://www.modaes.com/empresas/intersport-ultima-su-entrada-en-latinoamerica-con-la-apertura-de-su-primera-tienda-en-chile) y el regreso de Decathlon a Argentina (https://www.modaes.com/empresas/vigilia-nocturna-descuentos-y-300-metros-de-cola-decathlon-regresa-ante-el-frenesi-argentino).",
+  "la_vuelta_para_argentina": "Dos caminos: (a) traer la licencia Intersport para una red de independientes (como hizo Chile), o (b) armar una red propia de casas de deportes del interior con importación conjunta de marca propia desde China (pelotas, ropa técnica, calzado de entrenamiento) y compras agrupadas a las marcas. La plata: margen de la importación de marca propia (lo más rentable) + rebate de marcas.",
+  "por_que_nos_necesitarian": "Importación en volumen (contenedor compartido) y marca propia que ninguna tienda chica puede hacer sola; condiciones de marcas grandes por volumen.",
+  "riesgos": "Importación y tipo de cambio; capital de trabajo en stock; Decathlon y cadenas con precio bajo; las marcas grandes pueden negarse. Licencia de Intersport probablemente exige socio con escala.",
+  "veredicto": "Opinión de Claude: modelo sólido y con hueco en Argentina, pero es comercio minorista con stock e importación (capital), y compite contra Decathlon; atractivo si se consigue la licencia y un socio con locales. Puntaje: 6/10.",
+  "parecido_a": "COM-4-1 a COM-4-5 (problemas de stock de cadenas chicas de ropa/deportes: operativo, no compras agrupadas); R2-DESC Ankorstore (mayorista para tiendas chicas). Revisados: 'deporte', 'compra conjunta', 'franquicia', 'minorista'.",
+  "fuentes": [
+   "https://sgbonline.com/exec-intersport-posts-modest-growth-in-2025/",
+   "https://intersport.com/?p=9147",
+   "https://fashionunited.uk/news/business/intersport-group-reports-revenue-growth/2026033187186",
+   "https://www.modaes.com/empresas/intersport-ultima-su-entrada-en-latinoamerica-con-la-apertura-de-su-primera-tienda-en-chile",
+   "https://www.sgieurope.com/intersport-enters-latin-america/53220.article",
+   "https://www.modaes.com/empresas/vigilia-nocturna-descuentos-y-300-metros-de-cola-decathlon-regresa-ante-el-frenesi-argentino"
+  ]
  }
 ]
