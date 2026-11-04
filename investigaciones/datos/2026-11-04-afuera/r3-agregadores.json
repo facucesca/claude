@@ -104,5 +104,31 @@
    "https://www.boletinoficial.gob.ar/detalleAviso/primera/327866/20250704",
    "https://mase.lmneuquen.com/energia/generacion-distribuida-mas-2700-usuarios-ya-producen-su-propia-energia-argentina-n1196215"
   ]
+ },
+ {
+  "empresa": "Olist (producto original: Olist Store, 'una sola gran tienda' que junta a miles de tiendas chicas para vender en los marketplaces)",
+  "pais": "Brasil",
+  "anio_fundacion": "2015",
+  "web": "https://olist.com",
+  "que_hace": "El comerciante chico sube su inventario a Olist y Olist lo publica y lo vende en los grandes marketplaces de Brasil (11 canales con un solo contrato) bajo la cuenta de Olist, que tiene alta reputación, en vez de bajo la cuenta del comerciante, que es nueva y no rankea. Olist sugiere precio, centraliza pedidos, facturas, etiquetas y envíos. Con el tiempo sumó ERP (Tiny), logística (PAX, 'Envios da Olist'), crédito (compró la fintech Flip en 2025) y creación de tiendas propias (Vnda).",
+  "problema_que_resuelve": "El vendedor chico que entra a un marketplace arranca sin reputación, aparece último en las búsquedas y no puede negociar con cada marketplace. Juntando a miles bajo una sola cuenta con reputación, compiten 'en condiciones más justas con los grandes sellers' (Brazil Journal).",
+  "como_gana_plata": "Comisión sobre cada venta hecha por Olist Store, que incluye la tarifa del marketplace (según el resumen de la búsqueda; porcentaje exacto NO verificado). Además suscripciones de software (ERP), fletes, y crédito a los comerciantes (FIDC de R$ 90 M en 2025, según perfil de yespress, no verificado en fuente primaria).",
+  "traccion": "Ronda de US$ 186 M en dic-2021 a US$ 1.500 M de valuación (Brazil Journal, https://braziljournal.com/olist-ja-vale-us-15-bi-em-rodada-com-wellington-management; Suno). En esa fecha atendía 45.000 clientes (pequeños comercios y marcas independientes) y su logística ya movía 80% de las ventas de sus clientes (Brazil Journal). Ingresos 2021 proyectados R$ 250 M vs R$ 80 M en 2020 (según resumen de búsqueda, no leído directo). No encontré datos de facturación 2024-2025.",
+  "por_que_funciono_alla": "Brasil tiene varios marketplaces grandes compitiendo (Mercado Livre, Amazon, Magalu, Americanas, Via, Shopee, etc.), cada uno con reglas y contratos distintos, más una facturación electrónica obligatoria muy compleja (NF-e). El agregador resolvía 'una conexión para 11 canales' y la reputación.",
+  "existe_esa_condicion_en_argentina": "Parcial/No. En Argentina hay un marketplace dominante (Mercado Libre; 42.000 pymes empezaron a vender ahí en 2025 según dplnews) y pocos canales grandes más, así que la ventaja de 'un contrato para 11 marketplaces' casi no existe. El dolor de la reputación inicial sí existe, pero Mercado Libre podría no permitir que una cuenta venda stock de miles de terceros (no verificado).",
+  "argentina_hoy": "No encontré un agregador tipo Olist Store en Argentina. Búsqueda: '\"Olist\" Argentina OR \"vender en Mercado Libre\" con la reputación de otra cuenta agregador de pymes canal de ventas comisión Argentina' — solo aparecen guías de comisiones de Mercado Libre (11-17% según categoría: https://base.com/es-AR/blog/?p=18259). Hay integradores de software para vender en ML y Tiendanube (no son 'vendedor único').",
+  "la_vuelta_para_argentina": "La versión argentina tendría más sentido como 'tienda oficial colectiva' por rubro o región (ej. 'productores del NOA', 'marroquinería argentina') vendiendo en Mercado Libre, Tiendanube y afuera (Amazon EE.UU., Mercado Livre Brasil) con fulfillment propio: el agregador junta el stock de 100 PyMEs, pone fotos, reputación y logística, y cobra comisión sobre la venta. La exportación a Brasil/EE.UU. es donde el pequeño solo no puede.",
+  "por_que_nos_necesitarian": "Reputación de cuenta, logística y facturación juntadas; acceso a canales a los que el chico no llega solo (sobre todo exterior).",
+  "riesgos": "Dependencia total de las reglas de Mercado Libre (puede prohibirlo o hacerlo él mismo); responsabilidad ante el consumidor por productos de terceros; capital de trabajo en logística; márgenes finos.",
+  "veredicto": "Opinión de Claude: el modelo funcionó en Brasil por la cantidad de marketplaces, condición que Argentina no tiene; la idea solo cobra fuerza girada hacia exportar o hacia una tienda colectiva de nicho. Puntaje: 5/10.",
+  "parecido_a": "C4 (operaciones para vendedores de Mercado Libre: Full/Flex, picking), D20 (herramientas para vendedores de ML), B31 (respuestas IA en ML) — son herramientas para el vendedor, no un vendedor único que agrupa. ESP-3-3 (librerías no pueden vender online). R1-asia-sudeste-japon-corea / R2 Ankorstore (descarte: mayorista para tiendas, otro problema). Revisados: 'mercado libre', 'marketplace', 'tiendanube'.",
+  "fuentes": [
+   "https://braziljournal.com/olist-ja-vale-us-15-bi-em-rodada-com-wellington-management",
+   "https://www.suno.com.br/noticias/olist-novo-unicornio-brasileiro-aporte-186-milhoes/amp/",
+   "https://ecommercenapratica.com/blog/o-que-o-olist-faz/",
+   "https://yespress.io/olist.md",
+   "https://base.com/es-AR/blog/?p=18259",
+   "https://dplnews.com/?p=330034"
+  ]
  }
 ]

@@ -1,0 +1,66 @@
+[
+ {
+  "empresa": "Centros de formación GWO para técnicos eólicos (3t, Relyon Nutec, etc.)",
+  "pais": "Global",
+  "motivo": "Ya existe en Argentina: Alto Sur (Neuquén) es centro certificado GWO; en 2020 CSB Argentina, Gestión y Salvacón ya habían dado +1.000 módulos GWO.",
+  "fuentes": [
+   "https://altosur.com.ar/wp-content/uploads/2022/07/Capacitacion-GWO.pdf",
+   "https://www.globalwindsafety.org/news/south-america-the-worlds-fastest-growing-market-for-gwo-training"
+  ]
+ },
+ {
+  "empresa": "ApplyBoard (Canadá) — las universidades pagan comisión por alumno internacional inscripto",
+  "pais": "Canadá",
+  "motivo": "El modelo ya funciona en Argentina con agencias de 'estudiar en el exterior' que cobran comisión a las instituciones (conocimiento de Claude, no verificado en esta ronda) y tracción reciente dudosa (valuación en baja según The PIE News; ingresos 2025 solo estimados por Latka).",
+  "fuentes": [
+   "https://thepienews.com/a-moment-in-time-applyboard-responds-to-valuation-decrease-claims/",
+   "https://getlatka.com/companies/applyboard.com",
+   "https://betakit.com/applyboard-raises-375-million-cad-series-d-at-4-billion-valuation"
+  ]
+ },
+ {
+  "empresa": "Escuelas de operadores mineros con simulador pagadas por mineras (Tecsup Perú, Finning Chile)",
+  "pais": "Perú / Chile",
+  "motivo": "Ya existe en Argentina: Finning (Caterpillar) deja simuladores de camión minero en San Juan y Barrick formó choferes para Veladero; Santa Cruz compra simuladores móviles. Además se parece a PET-1-2 (operarios calificados para picos de trabajo).",
+  "fuentes": [
+   "https://www.tiempodesanjuan.com/mineria/un-gigante-caterpillar-apuesta-san-juan-simuladores-capacitacion-y-empleo-minero-n429806",
+   "https://www.diariodecuyo.com.ar/suplementos/Forman-futuros-trabajadores-de-Veladero-y-Pascua-Lama-20110901-0112.html"
+  ]
+ },
+ {
+  "empresa": "Digital Career Institute y bootcamps pagados con 'Bildungsgutschein' (vale estatal alemán)",
+  "pais": "Alemania",
+  "motivo": "La condición no existe en Argentina: en Alemania la agencia de empleo paga el 100% del curso a desocupados; en Argentina el Crédito Fiscal (Ley 22.317) es chico (130 empresas y 7.171 personas en 2024). Además no pude verificar tracción de DCI (su web bloqueó la lectura).",
+  "fuentes": [
+   "https://www.genaumeinkurs.de/bildungstraeger/digitalcareerinstitute",
+   "https://www.argentina.gob.ar/noticias/programa-credito-fiscal-2025"
+  ]
+ },
+ {
+  "empresa": "Gestoras de formación bonificada FUNDAE (España)",
+  "pais": "España",
+  "motivo": "Condición casi ausente en Argentina: en España 347.442 empresas usaron €644,6 M de crédito de formación en 2024 (FUNDAE); en Argentina el equivalente (Crédito Fiscal) llegó a 130 empresas. No identifiqué una empresa gestora con tracción verificada.",
+  "fuentes": [
+   "https://www.fundae.es/docs/default-source/publicaciones-y-evaluaciones/informes-y-balances/balance-de-situación-2024-(1).pdf",
+   "https://www.argentina.gob.ar/noticias/programa-credito-fiscal-2025"
+  ]
+ },
+ {
+  "empresa": "Contadores latinoamericanos formados para estudios contables de EE.UU. (staffing nearshore)",
+  "pais": "EE.UU./LATAM",
+  "motivo": "Ya existe en Argentina/LATAM (Vintti y otras agencias de staffing) y no encontré una empresa líder con tracción verificable.",
+  "fuentes": [
+   "https://www.vintti.com/blog/hire-certified-public-accountants-in-south-america"
+  ]
+ },
+ {
+  "empresa": "Participate Learning (EE.UU.) — docentes internacionales con visa J-1 pagados por los distritos escolares",
+  "pais": "EE.UU.",
+  "motivo": "Ya llega a Argentina directamente: recluta docentes argentinos (350 argentinos desde 1987, según la prensa argentina) con convocatorias publicadas en Ámbito, Forbes Argentina, Perfil y La Nación; +17.000 docentes en total. No hay hueco para un intermediario local.",
+  "fuentes": [
+   "https://www.forbesargentina.com/today/programa-intercambio-eeuu-busca-docentes-argentinos-como-aplicar-n12711",
+   "https://www.vistazo.com/actualidad/internacional/2025-09-03-requisitos-inscripciones-programa-participate-learning-ee-uu-maestros-ecuador-NE10050793",
+   "https://support.participatelearning.com/en/articles/505568-summary-of-fees-and-costs-for-participating-cultural-exchange-teachers"
+  ]
+ }
+]
