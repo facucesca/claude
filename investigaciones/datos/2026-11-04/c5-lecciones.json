@@ -1,0 +1,32 @@
+[
+  {
+    "leccion": "Rehacer la startup de hardware que murió antes de la IA barata: muchas tenían el sensor bien, pero les faltaba 'explicar' lo que medían, y eso hoy cuesta centavos.",
+    "como_aplicarla": "Buscar en TechCrunch o 9to5mac 'shutting down' + 'device' / 'app' entre 2015 y 2022. Para cada una preguntar: (1) ¿el sensor ya se vende genérico y barato (USD 5-20)? (2) ¿lo que valía era interpretar los datos? Si las dos dan sí, se rehace sin fabricar hardware, y la IA hace la interpretación en español.",
+    "ejemplo_real": "Automatic Labs (adaptador para el auto con app): SiriusXM lo compró por ~USD 100 M en 2017 y lo cerró en 2020-05. Hoy un lector OBD2 ELM327 genérico se vende en Mercado Libre y la IA puede explicar el código de falla en criollo (idea 'Se prendió una luz en el tablero').",
+    "fuente": "https://9to5mac.com/2020/05/01/automatic-labs-shutting-down/"
+  },
+  {
+    "leccion": "La foto con IA reemplaza la conexión: cualquier aparato con pantalla, etiqueta o chapa se vuelve 'inteligente' sin integrarse con nada.",
+    "como_aplicarla": "Hacer una lista de aparatos y papeles que la gente ya tiene (glucómetro, tensiómetro, factura de luz, chapa del lavarropas, número de cuadro de la bici, tarjeta del matafuego). Por cada uno: ¿qué app 'conectada' existe afuera que pide Bluetooth, API o carga manual? La versión argentina es 'mandá una foto por WhatsApp'.",
+    "ejemplo_real": "mySugr (Austria, comprada por Roche en 2017) integra glucómetros Accu-Chek por conexión; la versión 'foto del glucómetro por WhatsApp' sirve con cualquier marca barata (idea 'Diabetes por WhatsApp').",
+    "fuente": "https://tech.eu/2017/06/30/mysugr-roche/"
+  },
+  {
+    "leccion": "Dar vuelta el cliente: un producto que afuera se le vende a la empresa grande, acá se le puede dar directo al usuario (o al revés: una app gratis de consumo se le vende a quien tiene la obligación de pagar).",
+    "como_aplicarla": "Para cada empresa de afuera, anotar quién paga. Probar las dos vueltas: (a) si paga la empresa grande, ¿puede el usuario armarlo solo con lo que ya recibe (factura, ticket, resumen)? (b) si es gratis para el usuario, ¿quién tiene una ley, un riesgo o un objetivo que lo haga pagar (empresas, aseguradoras, ART, municipios)?",
+    "ejemplo_real": "Opower (EE.UU., 2007, hoy de Oracle) le vende a las distribuidoras eléctricas informes que comparan tu consumo con 100 casas parecidas; la vuelta es hacerlo desde la foto de la factura que el usuario ya tiene (idea 'Tu factura de luz y gas'). Al revés: Lingvano es app de consumo; la versión LSA se vende a bancos y hospitales con certificado.",
+    "fuente": "https://docs.oracle.com/en/industries/energy-water/energy-efficiency/her-configuration/Content/Customer_Experience/Neighbor_Comparison__HERv2_.htm"
+  },
+  {
+    "leccion": "Si los diarios publican TODOS LOS DÍAS una nota de servicio sobre un tema, hay un problema que un robot personalizado resuelve mejor que la nota.",
+    "como_aplicarla": "Mirar una semana las secciones de 'servicios' y 'economía personal' de diarios argentinos (Cronista, Perfil, Clarín, diarios provinciales): promos de hoy, subsidios, cortes, trámites, vencimientos. Cada tema repetido es gente que no sabe qué le toca A ELLA. El producto es la misma información cruzada con los datos de cada persona, por WhatsApp.",
+    "ejemplo_real": "Perfil publica casi a diario 'cuáles son los mejores descuentos en supermercados para este jueves'; en EE.UU. CardPointers ya te dice qué tarjeta usar en cada comercio según las que tenés (idea '¿Con qué pago hoy?').",
+    "fuente": "https://www.perfil.com/noticias/economia/cuales-son-los-mejores-descuentos-en-supermercados-para-este-jueves-17-de-septiembre.phtml"
+  },
+  {
+    "leccion": "Donde hay listas de espera o falta de profesionales, no reemplazar al profesional: multiplicarlo con una herramienta para seguir a más gente entre consultas (y llevar el 'aparato' a la casa).",
+    "como_aplicarla": "Buscar en noticias 'lista de espera', 'faltan profesionales', 'turnos para dentro de un año' en salud, educación y oficios. Preguntar: ¿qué parte del trabajo es práctica o medición repetida que se puede hacer en casa con el celular, y que el profesional solo revisa? Siempre con el profesional como socio y firmante.",
+    "ejemplo_real": "Notas de 2023-2026 hablan de hasta 2 años de espera para fonoaudiología en Argentina; Speech Blubs (app de habla para chicos de 1 a 8 años) muestra que la práctica en casa se puede guiar con el celular (idea 'Fono en casa'). Lo mismo hace Lofta con el estudio de apnea: el aparato viaja a la casa.",
+    "fuente": "https://primeraedicion.com.ar/nota/100578909/fonoaudiologia-advierten-que-hay-hasta-dos-anos-de-espera-para-conseguir-turnos"
+  }
+]
