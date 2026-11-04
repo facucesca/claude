@@ -1,0 +1,22 @@
+[
+ {"leccion": "Correte un paso para atrás de donde ya hay software.",
+  "como_aplicarla": "Cuando encuentres una herramienta que ya existe (optimizador, ruteador, calculadora), preguntá qué tiene que hacer la persona ANTES de poder usarla. Ese paso previo suele seguir siendo a mano y es el nuevo cuello de botella.",
+  "ejemplo_real": "Ya hay optimizadores de corte de placas gratis (servidos.ar, CutList Optimizer) y Moconá (Córdoba) lo integró a la compra online, pero todos piden la lista de piezas hecha. El paso difícil para el carpintero chico es pasar del dibujo al despiece.",
+  "fuente": "https://infonegocios.info/enfoque/mocona-procesa-143-000-cortes-de-placas-al-mes-pioneros-optimizar-pedidos-evitar-desperdicios-y-vender-online"},
+ {"leccion": "Llevá la herramienta cara de la fábrica a quien hoy lo hace a ojo.",
+  "como_aplicarla": "Agarrá tu lista de materias de la facultad (control estadístico, cartonización, mantenimiento predictivo, tizada, programación de la producción) y para cada una preguntate: ¿quién chico enfrenta este mismo problema sin poder pagar el software industrial? Después buscá la versión 'celular + foto'.",
+  "ejemplo_real": "Paccurate (EE.UU.) hace cartonización para Crate & Barrel y Dillard's y reporta 18% de mejora en elección de cajas en un caso; el vendedor chico de Mercado Libre paga por peso volumétrico de la caja y no tiene nada parecido.",
+  "fuente": "https://techcrunch.com/2024/10/22/pacurrate-is-helping-brands-ship-with-less-packaging/"},
+ {"leccion": "Leé con lupa cómo te cobra una plataforma o una regla.",
+  "como_aplicarla": "Cada regla de cobro (peso volumétrico, comisión por franja, multa por tolerancia) crea algo que conviene optimizar. Buscá reglas que castigan algo físico (aire, peso, tiempo) y la herramienta de ingeniería que lo minimiza.",
+  "ejemplo_real": "Mercado Libre Argentina cobra el envío por el mayor entre peso físico y volumétrico de la caja despachada: el cartón y el aire también pagan.",
+  "fuente": "https://algoritmodigital.com.ar/peso-volumetrico-mercado-libre/"},
+ {"leccion": "Mirá servicios que antes eran 'en persona' y que ya nadie puede hacer en persona.",
+  "como_aplicarla": "Con el trabajo remoto, el envejecimiento o el costo de mover a un técnico, muchas visitas (evaluar un puesto, revisar una casa, presupuestar) dejaron de hacerse. Si se pueden hacer con el video del cliente + IA, hay hueco; y fijate dónde está la plata de verdad (muchas veces en el arreglo o la instalación, no en el informe).",
+  "ejemplo_real": "SafeHome AI (EE.UU., pública desde 2026-07-25) evalúa riesgos de caída en la casa desde fotos del celular; un estudio en JMIR Aging 2026 propone lo mismo con IA multimodal.",
+  "fuente": "https://aging.jmir.org/2026/1/e77591"},
+ {"leccion": "Si alguien 'se cubre' poniendo de más, hay variabilidad sin medir.",
+  "como_aplicarla": "Buscá a quien llena de más el paquete, lleva de más a la feria, cotiza de más o compra de más 'por las dudas'. Esa sobra es el costo de no medir. Con una medición barata (foto, audio, planilla) y un modelo clásico (control estadístico, modelo del canillita) se convierte en plata ahorrada que el cliente ve.",
+  "ejemplo_real": "Las guías para artesanos recomiendan llevar 2,5 a 3 veces la meta de ventas a una feria y reconocen que siempre se 'adivina'; ninguna app lo pronostica con datos.",
+  "fuente": "https://www.madeurban.com/blog/how-much-inventory-to-bring-to-a-craft-show/"}
+]
