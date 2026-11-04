@@ -120,6 +120,11 @@ nadie paga. Toda idea tiene que pasar estas 3 preguntas antes de entrar a una li
     Excel: `investigaciones/2026-11-04-EMPRESAS-DE-AFUERA.xlsx` (regenerar con `build_excel.py` de esa
     carpeta; la lista corta está en `lista_corta.json`). Resumen: `investigaciones/2026-11-04-empresas-de-afuera.md`.
   - **Próximo:** que Facu elija cuáles van a fase 3 (ficha a fondo) o que Claude elija las 10-15 mejores.
+  - **Ronda 3 en curso** (`r3-*.json`, exclusión `exclusion-ronda3.txt` = todo + las 135 empresas): 8 exploradores
+    por rubro en todo el mundo: salud y cuidado, educación y empleo, finanzas y seguros, retail y franquicias,
+    movilidad y logística, vivienda e inmobiliario, **agregadores de oferta dispersa** y **negocios nacidos de
+    leyes nuevas** (estos dos últimos, pedidos como "2 agentes extra"). Facu pidió frenar con ~USD 5-7 de uso
+    restante (Claude no puede ver el saldo: 25 búsquedas por explorador) y que se le cuente cada resultado.
 - **Pendiente de Facu (opcional):** marcar en colores los dos Excel (`2026-11-03-IDEAS-NUEVAS.xlsx` y `2026-11-04-IDEAS-NICHOS-Y-APPS.xlsx`).
 - **Después:** Excel con las ideas nuevas puntuadas → el usuario marca → investigación a fondo
   de las marcadas → elegir 1 y armar el plan de validación.
