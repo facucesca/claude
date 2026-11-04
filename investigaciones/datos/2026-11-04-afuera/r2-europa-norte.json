@@ -122,5 +122,81 @@
    "https://www.iprofesional.com/economia/360568-baja-de-subisidios-la-solucion-del-leasing-de-paneles-solares",
    "https://www.ambito.com/economia/cuanto-sale-un-panel-solar-y-cuanto-es-el-ahorro-real-la-factura-luz-n6233400"
   ]
+ },
+ {
+  "empresa": "Framery",
+  "pais": "Finlandia (Tampere)",
+  "anio_fundacion": "2010",
+  "web": "https://framery.com",
+  "que_hace": "Diseña y fabrica 'cabinas' insonorizadas para oficinas (tipo cabina telefónica moderna, para 1 a 6 personas) con ventilación, luz, sensores de ocupación y reserva por app. Las empresas las ponen en oficinas abiertas para hacer videollamadas o concentrarse sin construir salas nuevas. Vende a través de más de 500 distribuidores en 68 países, y en 11 países europeos también las alquila por cuota mensual con mantenimiento incluido ('Framery Subscribed').",
+  "problema_que_resuelve": "De empresas con oficina abierta: el ruido y la falta de privacidad (videollamadas por todos lados después de la pandemia) bajan la productividad, y construir salas de reunión es caro, lento y no se puede llevar si te mudás. La cabina se instala en horas, se muda con la empresa y cuesta menos que construir.",
+  "como_gana_plata": "Venta de hardware con margen de fabricante (precio de lista desde USD 9.690 la cabina individual 'One Compact', sin envío ni instalación, según framery.com al 2026-11-04) vía distribuidores, más alquiler mensual y software de datos de ocupación de oficina. Ingresos 2024: EUR 162 M (framery.com/en/company). No encontré margen publicado.",
+  "traccion": "EUR 162 M de ingresos en 2024, 458 empleados en 19 países, más de 110.000 cabinas entregadas a más de 11.000 clientes en 104 países; dice que ~70% de las Forbes Top 100 usan sus productos (https://framery.com/en/company/). Facturaba EUR 160.000 en 2011 y EUR 105 M en 2019 (https://fi.wikipedia.org/wiki/Framery).",
+  "por_que_funciono_alla": "Oficinas abiertas muy extendidas en Europa y EE.UU., costo alto de obra y alquiler por m², y la ola de videollamadas desde 2020. Además, diseño finlandés con aislamiento acústico real (las cabinas baratas 'retumban', ese fue su aprendizaje inicial).",
+  "existe_esa_condicion_en_argentina": "Parcial. Hay oficinas abiertas y coworkings en Buenos Aires, Córdoba, Rosario y también en Tucumán, empresas de software/servicios con trabajo híbrido y muchas videollamadas con el exterior. Pero el mercado de oficinas corporativas es mucho más chico y el poder de compra menor que en Europa: una cabina importada de USD 10.000 es carísima.",
+  "argentina_hoy": "No encontré un fabricante argentino de cabinas acústicas para oficinas. Búsqueda (2026-11-04): 'cabinas acústicas insonorizadas para oficinas phone booth fabricante Argentina cabina acústica oficina'. Los resultados fueron de España, Brasil (AECweb) y proveedores chinos en Accio con precios de USD 889 a 4.700 (https://es.accio.com/supplier/cabinas-insonorizadas-productor); lo único argentino fue un trabajo de UTN-CONICET sobre cabinas audiométricas. No revisé Mercado Libre a fondo (puede haber importadores sueltos).",
+  "la_vuelta_para_argentina": "Fabricar localmente una cabina más simple y barata (estructura de MDF/aluminio, paneles acústicos y vidrio laminado de proveedores nacionales, ventilación silenciosa), apuntando a USD 2.500-4.000, y venderla o ALQUILARLA por mes (con mudanza e instalación incluidas) a coworkings, estudios contables y jurídicos, empresas de software, call centers y universidades. Después, versión para casas (home office) y para consultorios de telemedicina. Es un proyecto de ingeniería industrial: diseño de producto, acústica, línea de armado.",
+  "por_que_nos_necesitarian": "Know-how acústico y de fabricación (que no retumbe y ventile), logística de entrega/instalación y alquiler con mantenimiento. La empresa cliente no va a construir una cabina; el carpintero común no logra el aislamiento.",
+  "riesgos": "Mercado corporativo argentino chico y sensible al precio; competencia de importados chinos baratos; capital de trabajo para fabricar stock; la vuelta a la oficina podría frenarse. Escala por unidades vendidas (hardware), no por software.",
+  "veredicto": "OPINIÓN DE CLAUDE: Producto físico claro, con demanda probada afuera y sin fabricante local visible: buen encaje con un ingeniero industrial. El techo en Argentina parece medio (nicho corporativo), salvo que se exporte a LATAM o se haga una versión hogar. Puntaje: 6/10.",
+  "parecido_a": "Revisé B1-12 (cabinas para dormir 20 minutos en el centro: distinto uso y cliente), DEP-1-x (gimnasios), K25 (coworking). Ninguno es cabina acústica de oficina.",
+  "fuentes": [
+   "https://framery.com/en/company/",
+   "https://fi.wikipedia.org/wiki/Framery",
+   "https://framery.com/en/office-pods-booths/framery-one-compact/",
+   "https://framery.com/en/framery-subscribed/",
+   "https://framery.com/en/how-to-buy/",
+   "https://es.accio.com/supplier/cabinas-insonorizadas-productor",
+   "https://www.ungm.org/Public/Notice/319152"
+  ]
+ },
+ {
+  "empresa": "Flight Club (Red Engine / State of Play Hospitality) — 'social darts'",
+  "pais": "Reino Unido (Londres; también EE.UU. y Australia)",
+  "anio_fundacion": "2015 (primer local en Shoreditch, Londres)",
+  "web": "https://flightclubdarts.com",
+  "que_hace": "Bares para salir en grupo donde la actividad central es jugar a los dardos con tecnología: cámaras que detectan cada tiro, cuentan los puntos solas, muestran juegos distintos en pantalla y graban repeticiones y fotos del grupo. Se reserva un 'oche' (espacio con diana) por hora para 4 a 12 personas y se consume comida y tragos. El mismo grupo tiene 'Electric Shuffle' (tejo de mesa con tecnología) y otros formatos.",
+  "problema_que_resuelve": "De grupos de amigos, cumpleaños y empresas (after office, eventos de equipo): salir a un bar es solo tomar y conversar, y los planes con actividad (bowling, karting) son lejos o poco sociales. Esto junta juego fácil que no necesita saber jugar + bar en el centro.",
+  "como_gana_plata": "Alquiler del espacio por hora + gasto en comida y bebida (el grueso) + eventos corporativos. El grupo de EE.UU. (State of Play) facturó USD 59,8 M en los 12 meses a marzo-2025, con Flight Club como ~80% de los ingresos según NRN/MCA (citado; no leí el balance). No encontré margen por local.",
+  "traccion": "20 locales en EE.UU., Reino Unido y Australia; más de 7 millones de clientes y 500 millones de dardos tirados a feb-2024 (https://www.fsrmagazine.com/industry-news/flight-club-passes-500-million-darts-thrown/). Red Engine (dueña en UK) consiguió un financiamiento de £60 M para expandirse (https://cityam.com/people-and-organizations/flight-club-darts). State of Play levantó USD 10 M más en 2025 (https://www.fsrmagazine.com/feature/flight-club-parent-raises-10-million-to-accelerate-u-s-growth/).",
+  "por_que_funciono_alla": "Cultura de pub y dardos muy arraigada en UK, y una tendencia fuerte de 'competitive socialising' (salidas con juego) para millennials y empresas. La tecnología resolvió lo aburrido del juego (contar puntos) y lo hizo 'instagrameable'.",
+  "existe_esa_condicion_en_argentina": "Parcial. La cultura de salir en grupo, cumpleaños y after office es muy fuerte (más que en Europa), y hay apetito por planes con juego (pádel, bowling, escape rooms, bares de arcade). Pero los dardos no son tradición en Argentina; habría que elegir el juego local correcto.",
+  "argentina_hoy": "No encontré bares de dardos o tejo con puntaje automático en Buenos Aires. Búsqueda (2026-11-04): 'bar con dardos electrónicos tecnología puntaje automático juegos sociales Buenos Aires dardos bar shuffleboard minigolf'. Lo más cercano: bares de arcade retro como El Destello (https://theculturetrip.com/articles/when-arcade-games-meet-hipster-bars-the-80s-resurgent-culture-of-buenos-aires) y dianas electrónicas para casa. No busqué en Tucumán ni Córdoba.",
+  "la_vuelta_para_argentina": "Bar-juego con tecnología de cámara para un juego que el argentino ya conoce o aprende en un minuto: tejo/sapo, metegol con marcador automático, bochas/shuffleboard, dardos. Primer local en una ciudad universitaria (Tucumán tiene mucha población joven) con reservas por hora y paquetes para cumpleaños y empresas. El software de puntaje (visión por computadora) se puede desarrollar con amigos programadores y licenciar después a otros bares: ahí está la parte escalable.",
+  "por_que_nos_necesitarian": "La experiencia (tecnología de puntaje, juegos en pantalla, repeticiones) no la puede armar un bar común; y si el software se licencia, el bar no tiene que desarrollarlo.",
+  "riesgos": "Gastronomía = márgenes ajustados, habilitaciones, alquiler, personal; modas que pasan; inversión de local alta. La parte escalable (software para bares) es una apuesta distinta y no está probada en Argentina. Flight Club es mediano (20 locales), no gigante.",
+  "veredicto": "OPINIÓN DE CLAUDE: Formato con tracción real afuera y casi sin equivalente local, pero es gastronomía con tecnología, no una startup de gran escala, salvo que se convierta el software de puntaje en producto para muchos bares. Interesante 'fuera de la caja', riesgoso como primer negocio. Puntaje: 5/10.",
+  "parecido_a": "Revisé DEP-5-3 (corregir técnica deportiva con video), DEP-1-x (gimnasios), B1-12. No encontré ideas de bares-juego en el registro.",
+  "fuentes": [
+   "https://www.fsrmagazine.com/industry-news/flight-club-passes-500-million-darts-thrown/",
+   "https://cityam.com/people-and-organizations/flight-club-darts",
+   "https://www.fsrmagazine.com/feature/flight-club-parent-raises-10-million-to-accelerate-u-s-growth/",
+   "https://www.nrn.com/eatertainment/flight-club-operator-state-of-play-gets-10m-to-expand (vía resultados de búsqueda, no leído completo)",
+   "https://theculturetrip.com/articles/when-arcade-games-meet-hipster-bars-the-80s-resurgent-culture-of-buenos-aires"
+  ]
+ },
+ {
+  "empresa": "Belron (marcas Carglass, Autoglass, Safelite) — grupo D'Ieteren",
+  "pais": "Bélgica (dueño: D'Ieteren) / sede en Reino Unido; opera en 42 países",
+  "anio_fundacion": "1897 (Sudáfrica, como Jacobs & Dandor); grupo Belron desde 1990",
+  "web": "https://www.belron.com",
+  "que_hace": "Repara y cambia parabrisas y vidrios de autos con una marca nacional, talleres propios y unidades móviles que van a la casa o al trabajo del cliente. Primero intenta REPARAR el impacto (más barato) antes de cambiar el vidrio, y recalibra las cámaras de asistencia al manejo que hoy van pegadas al parabrisas. El cliente principal no es el conductor: son las aseguradoras, empresas de leasing y rentadoras, con las que firma convenios.",
+  "problema_que_resuelve": "De la aseguradora: el siniestro de cristales es frecuente y caro, con talleres sueltos de calidad y precio desparejos. Del conductor: quedarse sin auto o esperar días por un vidrio. Belron le da a la aseguradora precio y calidad estándar, y al conductor el arreglo en el día y donde esté.",
+  "como_gana_plata": "Cobra cada trabajo (reparación o reemplazo), mayormente facturado a la aseguradora o flota, más productos chicos (escobillas, tratamientos). 2025: 17,1 millones de trabajos y EUR 6.720 M de ventas (https://en.wikipedia.org/wiki/Belron citando resultados de D'Ieteren 2025). Ticket promedio implícito ≈ EUR 390 por trabajo (estimación propia: 6.720 M / 17,1 M). Planea salir a la bolsa de Ámsterdam con una valuación de ~EUR 30.000 M según Caproasia (dato secundario).",
+  "traccion": "EUR 6.720 M de ventas en 2025, 17,1 M de trabajos, más de 30.000 empleados, 42 países con empresas propias y franquicias; Carglass opera en Brasil y Chile, no en Argentina (https://en.wikipedia.org/wiki/Belron). Las aseguradoras son 'componente crítico' del negocio según su CEO (https://glassbytes.com/2025/06/belron-sees-mobile-recalibration-and-increase-in-cash-jobs-ahead/).",
+  "por_que_funciono_alla": "Seguros que cubren cristales y prefieren un proveedor único con precio cerrado; política 'reparar primero' que les baja el costo por siniestro; marca y call center nacional; ahora, la recalibración de cámaras ADAS hace el trabajo más técnico y deja afuera al taller chico.",
+  "existe_esa_condicion_en_argentina": "Parcial. Hay mucho parque automotor asegurado y la cobertura de cristales es común en pólizas 'terceros completo' y 'todo riesgo'; rutas con piedras (mucho impacto). Pero el mercado está atendido por colocadores independientes y una red asociada a un fabricante.",
+  "argentina_hoy": "Existe la 'Red Pilkington' de 164 colocadores asociados en todo el país (https://www.lavozdesanjusto.com.ar/pecile-equipamientos-lider-en-colocacion-de-parabrisas-desembarco-en-el-parque-industrial----87575) y muchos talleres independientes, incluidos en Tucumán (https://www.argentino.com.ar/san-miguel-de-tucuman/parabrisas). No encontré una cadena nacional con marca propia, móviles a domicilio, 'reparar primero' y convenios directos con aseguradoras. Búsqueda (2026-11-04): 'reparación de parabrisas a domicilio red nacional cristalería automotor aseguradoras Argentina cadena parabrisas sucursales franquicia'.",
+  "la_vuelta_para_argentina": "Arrancar por la REPARACIÓN de impactos (kit barato, 30 minutos, a domicilio o en estacionamientos de empresas y concesionarias) con marca y precio fijo, y ofrecérselo a aseguradoras y flotas como forma de bajar su costo por siniestro. Después sumar reemplazo y recalibración de cámaras ADAS (autos nuevos), con red de técnicos franquiciados por provincia y plataforma de turnos y fotos del daño.",
+  "por_que_nos_necesitarian": "Convenios con aseguradoras, estándar de calidad y precio, cobertura nacional y técnica de recalibración ADAS. Un colocador suelto no consigue el convenio ni tiene el equipo de calibración.",
+  "riesgos": "Las aseguradoras pagan tarde y negocian fuerte; dependencia de pocos clientes grandes; la red Pilkington o un jugador regional (Carglass Brasil/Chile) podría entrar; importación de vidrios. Escala por técnicos y furgonetas, no por software.",
+  "veredicto": "OPINIÓN DE CLAUDE: Negocio enorme, aburrido y muy rentable afuera; en Argentina el hueco es la marca nacional con convenios y 'reparar primero', no el oficio. Para Facu, la entrada barata es reparación de impactos para flotas de empresas. Puntaje: 6/10.",
+  "parecido_a": "Revisé ESP-1-2 (cristales de óptica: otro rubro), AUT-1-x (talleres mecánicos), LOG-4-1 a LOG-4-5 (flotas propias), R1-china-1 (Tuhu: autopartes con red de talleres franquiciados: modelo de red de talleres parecido pero otro servicio), SER-3-3/Bdeo (inspección con fotos). Cercanía parcial con Tuhu por el modelo de red.",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/Belron",
+   "https://glassbytes.com/2025/06/belron-sees-mobile-recalibration-and-increase-in-cash-jobs-ahead/",
+   "https://www.lavozdesanjusto.com.ar/pecile-equipamientos-lider-en-colocacion-de-parabrisas-desembarco-en-el-parque-industrial----87575",
+   "https://www.argentino.com.ar/san-miguel-de-tucuman/parabrisas"
+  ]
  }
 ]

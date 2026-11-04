@@ -1,0 +1,347 @@
+{
+ "region": "China e India — segunda pasada (ronda 2)",
+ "fecha": "2026-11-04",
+ "empresas": [
+  {
+   "empresa": "Busy Ming Group (鸣鸣很忙) — marcas 'Busy for You' (零食很忙) y 'Super Ming' (赵一鸣零食)",
+   "pais": "China",
+   "anio_fundacion": "Las marcas nacen hacia 2017-2019 (no verificado en esta pasada); cotiza en la Bolsa de Hong Kong desde 2026-01-28",
+   "web": "https://www.hkex.com.hk (código 1768)",
+   "que_hace": "Cadena de 'almacenes de golosinas y bebidas a precio de descuento': locales amplios con 1.800+ productos (snacks, golosinas, frutos secos, bebidas, a granel y envasados) más baratos que en el supermercado o el kiosco. Casi todos los locales son de franquiciados; la empresa compra en volumen directo a fábricas, maneja la logística y le vende la mercadería al franquiciado. Está sobre todo en ciudades chicas y pueblos.",
+   "problema_que_resuelve": "Las familias de ciudades chicas pagaban golosinas y snacks caros en kioscos y almacenes que compraban a 3-4 intermediarios, con poca variedad. La cadena corta intermediarios y baja el precio.",
+   "como_gana_plata": "Le vende la mercadería a los franquiciados con un margen bruto chico y mucho volumen: margen bruto 9,8% en 2025 (7,6% en 2024); ingresos 2025 RMB 66.170 M, ganancia neta ajustada RMB 2.692 M (≈4% de los ingresos). Fuente: resultados anuales HKEX 2026-03-31 (https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033101055.pdf). Las condiciones del contrato de franquicia (canon, regalías) no las pude verificar.",
+   "traccion": "Locales: 14.394 (2024-12-31) → 21.948 (2025-12-31), en 1.401 condados (≈75% de los condados de China); GMV de la red RMB 55.531 M (2024) → RMB 93.569 M (2025); ingresos RMB 39.344 M → 66.170 M (HKEX, link arriba). Salida a bolsa con HK$3.670 M recaudados (https://www.clearygottlieb.com/news-and-insights/news-listing/busy-mings-successful-hong-kong-main-board-listing). Dato de 26.405 locales a 2026-06-30 sale de un resumen secundario, no de la presentación oficial.",
+   "por_que_funciono_alla": "Golosinas y snacks son compra impulsiva y frecuente; en ciudades chicas la distribución estaba muy fragmentada y cara. Un comprador gigante que negocia directo con fábricas puede bajar precio y al mismo tiempo ganar con margen fino × volumen enorme. Franquicias = expansión rápida con plata de terceros.",
+   "existe_esa_condicion_en_argentina": "Parcial. Sí: la golosina se compra sobre todo en el kiosco, la categoría es grande y la cadena tiene varios intermediarios (distribuidores, mayoristas). No: los fabricantes están concentrados (Arcor, Mondelez, Georgalos, etc.) y tienen mucho poder; una cadena de descuento necesita que le vendan directo y barato.",
+   "argentina_hoy": "No encontré una cadena de descuento de golosinas/snacks tipo almacén grande. Lo que hay: Open 25, cadena de kioscos 24 h con 185 franquiciados en 2021, pero es formato de conveniencia (precio alto), no de descuento (https://www.cronista.com/negocios/kioscos-24-horas-se-escapan-del-microcentro-y-llegan-a-los-barrios-con-nuevos-formatos); mayoristas-minoristas locales como Zanetti en Mar del Plata (https://bestfoodimporters.com/company/zanetti-golosinas/). Búsqueda: 'cadena franquicia golosinas snacks bebidas precios bajos Argentina maxikiosco franquicia mayorista'.",
+   "la_vuelta_para_argentina": "Empezar en ciudades medianas del NOA (Tucumán) con 1-3 locales propios tipo 'golosinería mayorista al público' (bultos y sueltos, precio de mayorista), sumar marca propia importada (frutos secos, snacks) para tener margen, y recién después franquiciar. Compras centralizadas para muchos kioscos asociados también podría ser una variante (red de kioscos con compra conjunta).",
+   "por_que_nos_necesitarian": "Escala de compra y logística: el precio bajo sale de comprar mucho junto, y eso no lo puede hacer un kiosco solo. La red de locales y el acuerdo con fábricas son la barrera.",
+   "riesgos": "Margen bruto finísimo (≈10%): un error de stock o de precio come la ganancia; necesita capital de trabajo; dependencia de pocos fabricantes que pueden no venderle directo; inflación y cambios de precio semanales; franquiciados que se quejan si el local no rinde.",
+   "veredicto": "[Opinión de Claude] Es un modelo probado a escala enorme y la condición (compra impulsiva cara y fragmentada) se da en Argentina, pero se gana con volumen y capital de trabajo, no con tecnología, y el poder de los fabricantes argentinos es un freno real. Puntaje 6/10.",
+   "parecido_a": "R1-china-3 (Mixue: franquicia que gana vendiendo insumos) y R1-china-5 (Guoquan: red de tiendas de barrio franquiciadas) comparten el mecanismo de franquicia que gana con la mercadería, pero el rubro y el cliente son otros (golosinas/snacks de descuento). Revisados también COM-1-x (distribuidoras) y J21 (compras comunitarias): no coinciden.",
+   "fuentes": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033101055.pdf",
+    "https://www.clearygottlieb.com/news-and-insights/news-listing/busy-mings-successful-hong-kong-main-board-listing",
+    "https://www.cronista.com/negocios/kioscos-24-horas-se-escapan-del-microcentro-y-llegan-a-los-barrios-con-nuevos-formatos",
+    "https://mercado.com.ar/informes-especiales/fotografia-del-mercado-de-golosinas-y-snacks/"
+   ]
+  },
+  {
+   "empresa": "IndiaMART InterMESH",
+   "pais": "India",
+   "anio_fundacion": "1996",
+   "web": "https://www.indiamart.com",
+   "que_hace": "Es un 'Mercado Libre entre empresas', pero sin cobrar por venta: millones de fabricantes, mayoristas y talleres publican sus productos, y los compradores (otras empresas y comercios) piden cotización. El comprador usa todo gratis. El proveedor paga una suscripción anual para aparecer mejor y recibir más pedidos de cotización ('leads'). También vende software de facturación/contabilidad para PyMEs (Busy Infotech).",
+   "problema_que_resuelve": "Una PyME que necesita un insumo, una máquina o un proveedor nuevo no sabía dónde buscar fuera de su zona; y un fabricante chico no tenía cómo conseguir clientes en otras provincias sin vendedores viajando.",
+   "como_gana_plata": "Suscripción anual del proveedor: ingreso promedio por proveedor pago ≈INR 63.000 por año (≈USD 730, conversión propia) en FY25, subiendo 14% interanual; los ingresos se cobran por adelantado (ingresos diferidos INR 1.678 Cr al 2025-03-31). No cobra comisión por transacción. Fuentes: comunicado oficial (https://corporate.indiamart.com/2025/04/29/indiamart-intermesh-limited-closes-the-year-with-strong-q4fy25-results-with-13-revenue-growth/) y resumen de resultados (https://india.entrepreneur.com/news-and-trends/indiamart-closes-fy25-with-a-net-profit-of-inr-181-crore/490851).",
+   "traccion": "Ingresos consolidados FY25 (año a marzo 2025) INR 1.388 Cr (+16%); ≈217.000 proveedores pagos a fin de FY25 y ≈222.000 en Q2 FY26; ganancia neta de Q4 FY25 INR 181 Cr; caja e inversiones INR 2.885 Cr (comunicado oficial, link arriba). FY24: ingresos INR 1.196 Cr y ganancia INR 334 Cr (https://en.wikipedia.org/wiki/IndiaMART). Cotiza en bolsa (NSE: INDIAMART). La propia web dice 23,8 crore (238 M) compradores y 89 lakh (8,9 M) proveedores registrados (dato de la empresa, https://seller.indiamart.com/).",
+   "por_que_funciono_alla": "Millones de PyMEs industriales dispersas en un país enorme, sin catálogos online; el buscador general (Google) no ordena bien la oferta B2B. Efecto red: más compradores atraen más proveedores, y el proveedor paga porque cada lead vale mucho.",
+   "existe_esa_condicion_en_argentina": "Parcial. Sí hay miles de PyMEs industriales y talleres sin catálogo online y compras hechas por WhatsApp y teléfono. Pero el mercado es ~30 veces más chico que el indio, y Mercado Libre ya cubre parte de los insumos estándar.",
+   "argentina_hoy": "Hay intentos chicos: Umbru (2026, 60 empresas registradas, el comprador publica la necesidad y los proveedores cotizan, sin comisión; https://www.iproup.com/economia-digital/72037-umbru-la-startup-argentina-que-pretende-cambiar-un-modelo-historico-de-las-empresas); Emprecios (2018, ≈2.000 empresas, comisión de hasta 5%; https://www.cronista.com/apertura/empresas/crearon-un-mercadolibre-de-empresas-y-ya-manejan-operaciones-por-mas-de-20-millones); Match Industrias (Neuquén, compras de oil & gas, minería y construcción; https://mase.lmneuquen.com/empresas/match-industrias-la-plataforma-neuquina-que-revoluciona-el-modelo-compras-oil-gas-mineria-y-construccion-n1252709). Ninguno con escala de directorio nacional.",
+   "la_vuelta_para_argentina": "Arrancar vertical (por ejemplo, metalmecánica, repuestos agrícolas o insumos agroindustriales del NOA, donde Facu tiene contactos) y regional, gratis para el comprador, con suscripción para el proveedor que quiere recibir pedidos. Sumar datos que Google no tiene: proveedor verificado (CUIT, años, referencias), tiempos de respuesta y precio de referencia. Después ampliar a LATAM en español.",
+   "por_que_nos_necesitarian": "Efecto red y datos acumulados (catálogo, verificaciones, historial de respuesta). Una vez que los compradores de un rubro buscan ahí, el proveedor no puede no estar.",
+   "riesgos": "Arranque del huevo y la gallina (sin compradores el proveedor no paga); Mercado Libre o Google pueden entrar; mercado chico si queda solo en Argentina; directorios viejos ya fracasaron (Páginas Amarillas).",
+   "veredicto": "[Opinión de Claude] Es un negocio enorme y muy rentable en India y en Argentina el hueco es real pero los intentos locales son chicos y lentos; solo tiene sentido si se arranca en un rubro donde Facu ya conozca compradores y proveedores. Puntaje 6/10.",
+   "parecido_a": "D24 (directorio de nicho con IA, ej. proveedores logísticos en AR) se parece en la forma de directorio; IndiaMART es un marketplace horizontal con suscripción y escala nacional. Revisados también COM-1-x, H32 (catálogo B2B para distribuidoras) y R1-india-4 (OfBusiness, que vende las materias primas, no cobra suscripción). Marcar como 'parecido parcial a D24'.",
+   "fuentes": [
+    "https://corporate.indiamart.com/2025/04/29/indiamart-intermesh-limited-closes-the-year-with-strong-q4fy25-results-with-13-revenue-growth/",
+    "https://india.entrepreneur.com/news-and-trends/indiamart-closes-fy25-with-a-net-profit-of-inr-181-crore/490851",
+    "https://en.wikipedia.org/wiki/IndiaMART",
+    "https://seller.indiamart.com/",
+    "https://www.iproup.com/economia-digital/72037-umbru-la-startup-argentina-que-pretende-cambiar-un-modelo-historico-de-las-empresas",
+    "https://www.cronista.com/apertura/empresas/crearon-un-mercadolibre-de-empresas-y-ya-manejan-operaciones-por-mas-de-20-millones",
+    "https://mase.lmneuquen.com/empresas/match-industrias-la-plataforma-neuquina-que-revoluciona-el-modelo-compras-oil-gas-mineria-y-construccion-n1252709"
+   ]
+  },
+  {
+   "empresa": "China East Education (中国东方教育) — New East Culinary, Wontone Automotive, Omick, Xinhua Internet, On-mind",
+   "pais": "China",
+   "anio_fundacion": "Grupo Xinhua de Anhui; fecha exacta de fundación no verificada en esta pasada. Cotiza en Hong Kong (código 667).",
+   "web": "https://www.hkexnews.hk (código 0667)",
+   "que_hace": "Cadena nacional de escuelas de oficios con marca: cocina china, cocina occidental y pastelería, mecánica y servicios del automotor, informática, y belleza/moda. Tiene 230 escuelas y centros. Los cursos largos (1 año o más) son muy prácticos, en talleres reales, y la escuela ayuda a conseguir trabajo o a abrir el propio negocio.",
+   "problema_que_resuelve": "Jóvenes que no siguen la universidad y quieren un oficio con salida laboral rápida; y talleres/restaurantes que no encuentran personal formado. La formación pública de oficios era de calidad despareja y sin conexión con empleadores.",
+   "como_gana_plata": "Cuota del alumno, cobrada por adelantado. Cuota promedio anualizada 2025: RMB 29.100 por alumno (≈USD 4.000, conversión propia); por rubro: cocina china RMB 34.000, pastelería RMB 64.000, automotor RMB 24.200, informática RMB 20.900, belleza RMB 26.500. Margen bruto de cocina 59%. Fuente: resultados anuales 2025 en HKEX (https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0317/2026031701226.pdf).",
+   "traccion": "Ingresos 2025 RMB 4.616 M (+12,1%); ganancia neta RMB 756 M (+47,5%); 151.341 inscriptos nuevos y 155.206 alumnos promedio; 230 escuelas y centros; tasa de 'empleo o emprendimiento recomendado' de egresados de cursos largos >90-95% (dato de la empresa). Fuentes: HKEX (link arriba) y resumen (https://www.itiger.com/news/1100730430).",
+   "por_que_funciono_alla": "Mucha demanda de personal técnico (autos, gastronomía) + jóvenes que no entran a la universidad + marca nacional que da confianza y red de empleadores. Escuela grande con talleres equipados = mejor práctica que un instituto chico.",
+   "existe_esa_condicion_en_argentina": "Parcial. Sí: talleres mecánicos, concesionarias, gastronomía y estética necesitan gente formada; muchos jóvenes no terminan la universidad. No: la formación profesional pública es gratuita (centros de formación profesional, UTN, sindicatos), lo que pone techo a la cuota; y en gastronomía ya hay marcas privadas fuertes.",
+   "argentina_hoy": "Gastronomía: Gato Dumas (dice ser la escuela de cocina más grande de Latinoamérica; sedes en Buenos Aires, Rosario, Pilar y Colombia; https://en.wikipedia.org/wiki/Gato_Dumas) e IAG. Automotor y otros oficios: oferta fragmentada (Escuela Argentina de Automotores, institutos chicos, cursos públicos como el de la UNLP; https://yold.unlp.edu.ar/frontend/media/27/31427/f4a35be10bcf819a2f7c0b9bd586e15b.pdf). No encontré una cadena nacional privada de varios oficios con bolsa de empleo propia. Búsquedas: 'escuela de mecánica automotor privada Argentina sedes curso salida laboral cadena'; 'Gato Dumas IAG sedes alumnos'.",
+   "la_vuelta_para_argentina": "Elegir oficios donde falta gente y el empleador paga bien (mecánica de motos y autos híbridos, electricidad industrial, soldadura, frío y aire acondicionado, maquinaria agrícola). Cursos cortos e intensivos con práctica real en talleres asociados y que el empleador pague parte (o todo) a cambio de elegir egresados. Arrancar en Tucumán/NOA y replicar sedes.",
+   "por_que_nos_necesitarian": "Talleres equipados (caros para un instituto chico), marca reconocida por los empleadores y red de colocación. El valor es el puesto de trabajo, no la clase (por eso no lo reemplaza ChatGPT).",
+   "riesgos": "Competencia de la formación gratuita pública y sindical; capital en talleres y edificios; habilitación de títulos (provincial); si la economía cae, baja el empleo y con él la promesa de la escuela.",
+   "veredicto": "[Opinión de Claude] Modelo muy rentable y probado, pero en Argentina el techo de precio por la oferta gratuita es serio; funciona mejor si lo paga el empleador. Puntaje 5/10.",
+   "parecido_a": "Revisados EDU-2-4 (escuelas de oficios evalúan prácticas en papel: problema de software, no la escuela), A32 (curso online de IA para un oficio), R1-india-7 (PhysicsWallah: preparación para exámenes, no oficios), R1-latam-10 (Arco). No coincide.",
+   "fuentes": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0317/2026031701226.pdf",
+    "https://www.itiger.com/news/1100730430",
+    "https://en.wikipedia.org/wiki/Gato_Dumas",
+    "https://yold.unlp.edu.ar/frontend/media/27/31427/f4a35be10bcf819a2f7c0b9bd586e15b.pdf"
+   ]
+  },
+  {
+   "empresa": "Onewo (万物云, ex Vanke Service)",
+   "pais": "China",
+   "anio_fundacion": "Origen 1990 como área de servicios de Vanke (no verificado en esta pasada); cotiza en Hong Kong (código 2602)",
+   "web": "https://www.onewo.com",
+   "que_hace": "Administra edificios y barrios residenciales 'llave en mano': limpieza, seguridad, mantenimiento, jardines, ascensores, cobranza y atención al vecino, todo con un solo contrato y una sola marca, con un sistema propio que controla a las cuadrillas. Además ofrece servicios extra a los vecinos (reparaciones, venta de unidades, etc.) y administración de oficinas y edificios de empresas.",
+   "problema_que_resuelve": "Los edificios contrataban por separado a un administrador, a la empresa de limpieza, al de seguridad y a cada técnico, sin nadie responsable del resultado. Un operador grande con estándar único baja costos y reclamos.",
+   "como_gana_plata": "Cuota mensual por metro cuadrado que paga cada vecino (contrato recurrente). En 2025 los servicios residenciales facturaron ≈RMB 20.555 M con margen bruto 11,7%; el negocio recurrente fue 89,7% de los ingresos. Fuente: resumen de resultados 2025 (https://www-web.itiger.com/news/1179015111) y anuncio HKEX (https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0319/2026031900883.pdf).",
+   "traccion": "Ingresos 2025 RMB 37.272 M (+2,7%), recurrentes RMB 33.402 M (+8,5%); ganancia ≈RMB 695-770 M (-38%, las fuentes difieren); los ingresos de la empresa madre Vanke bajaron a 6% del total, o sea que gana contratos con terceros. Fuentes: https://www-web.itiger.com/news/1179015111 y https://thebambooworks.com/onewo-profit-drops-39-despite-revenue-growth/.",
+   "por_que_funciono_alla": "Miles de complejos residenciales nuevos y grandes, y una costumbre de pagar 'property management' como servicio integral. La escala permite sistemas y compras que un administrador chico no puede tener.",
+   "existe_esa_condicion_en_argentina": "Parcial. Sí: hay muchísimos consorcios (una nota habla de 120.000 solo en CABA, sin fecha) administrados por miles de administradores chicos, con muchas denuncias (CABA impuso examen de idoneidad en 2025). No: los edificios son más chicos que los complejos chinos, el encargado tiene convenio sindical (SUTERH) y cambiar de administrador requiere asamblea.",
+   "argentina_hoy": "Hay software para administradores (ConsorcioAbierto: 12.000 edificios y 1.500 administradores según la empresa, 2025-08; https://www.cronista.com/apertura/emprendedoress/una-startup-argentina-puso-las-expensas-bajo-control-y-conquisto-a-manu-ginobili) y un registro público de administradores en CABA (https://buenosaires.gob.ar/tramites/inscripcion-al-registro-publico-de-administradores-de-consorcios). No encontré un operador grande de 'edificio llave en mano' (administración + limpieza + mantenimiento con una sola marca). Búsqueda: 'administración de consorcios Argentina cantidad... empresa administra edificios integral limpieza mantenimiento'. Para barrios cerrados sí hay empresas de administración integral (no verificado en esta pasada).",
+   "la_vuelta_para_argentina": "Comprar o asociar carteras de administradores chicos que se jubilan (roll-up) y sumar cuadrillas propias de mantenimiento, limpieza y control con un sistema y una marca única; empezar por edificios nuevos de desarrolladoras (que eligen el primer administrador) y barrios cerrados del interior.",
+   "por_que_nos_necesitarian": "Operación física con personal y estándares, contratos recurrentes y difíciles de mover (asamblea), y escala de compras.",
+   "riesgos": "Negocio de margen bajo (≈12% bruto en China) y mucho personal; conflictos laborales y sindicales; responsabilidad legal del administrador; reputación del rubro muy mala; crecer exige comprar carteras.",
+   "veredicto": "[Opinión de Claude] Hay un hueco real (no hay marca grande) pero es un negocio de gente y margen fino, más 'empresa de servicios' que startup; interesante solo como roll-up con buen sistema. Puntaje 4/10.",
+   "parecido_a": "CON-4-1 a CON-4-5 (problemas de los administradores de consorcio: expensas, morosidad, reclamos, vencimientos, asambleas) comparten el cliente; esas ideas eran software para el administrador, Onewo es ser el operador integral. ENE-5-1 (ascensores) y HOG-3-2 (limpieza de consorcios) también tocan el tema. Marcar 'parecido parcial'.",
+   "fuentes": [
+    "https://www-web.itiger.com/news/1179015111",
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0319/2026031900883.pdf",
+    "https://thebambooworks.com/onewo-profit-drops-39-despite-revenue-growth/",
+    "https://www.cronista.com/apertura/emprendedoress/una-startup-argentina-puso-las-expensas-bajo-control-y-conquisto-a-manu-ginobili",
+    "https://www.baenegocios.com/sociedad/Los-administradores-de-consorcios-deberan-pasar-un-examen-de-idoneidad-20250423-0044.html",
+    "https://buenosaires.gob.ar/tramites/inscripcion-al-registro-publico-de-administradores-de-consorcios"
+   ]
+  },
+  {
+   "empresa": "Tricog Health (InstaECG)",
+   "pais": "India",
+   "anio_fundacion": "2014 (no verificado en esta pasada)",
+   "web": "https://www.tricog.com",
+   "que_hace": "Le da a clínicas, centros de salud y hospitales chicos un electrocardiógrafo conectado. El ECG se manda a la nube, un sistema lo lee y un cardiólogo de su central lo valida en minutos, y la clínica recibe el informe. Así un lugar sin cardiólogo puede detectar un infarto y derivar a tiempo.",
+   "problema_que_resuelve": "En pueblos y ciudades chicas no hay cardiólogo de guardia; un infarto mal leído en el ECG se pierde horas y se muere gente. Las clínicas no pueden pagar un cardiólogo 24 h.",
+   "como_gana_plata": "Servicio pago por informe o por abono a la clínica/hospital, más el equipo (InstaECG es un servicio 'con cargo' de lectura de ECG con IA + verificación de cardiólogo; https://inc42.com/company/tricog-health/). No encontré el precio por ECG. También contratos con gobiernos (programa STEMI en 34 distritos de Maharashtra, 2.100+ establecimientos, según perfil citado en la búsqueda).",
+   "traccion": "Ingresos FY25 ₹77,7 Cr con pérdida de solo ₹1,3 Cr, según Inc42 (https://inc42.com/company/tricog-health/financials/) — CB Insights da otra cifra (USD 7 M en 2023), así que tomarlo con cuidado. 5.000 hemodinamias, clínicas, hospitales y centros de diagnóstico en 2023. Inversión USD 23-32 M según la fuente (Omron Healthcare y Sony Innovation Fund en la serie B2; https://startup.outlookindia.com/investors/tricog-health-raises-8-5-million-omron-health-care-and-sony-innovation-fund-news-8203).",
+   "por_que_funciono_alla": "Falta enorme de cardiólogos fuera de las grandes ciudades + ECG barato + internet móvil. El valor está en la red de cardiólogos y la responsabilidad médica del informe, no en el software.",
+   "existe_esa_condicion_en_argentina": "Sí, en el interior: hay pueblos y clínicas chicas sin cardiólogo de guardia, y largas distancias a centros con hemodinamia. Más chico que en India pero la necesidad es la misma.",
+   "argentina_hoy": "Hay redes públicas provinciales (Mendoza 'telecardio' desde 2020; https://www.losandes.com.ar/sociedad/red-de-telemedicina-permite-hacer-electrocardiogramas-a-pacientes-de-zonas-alejadas/), un contrato viejo del Ministerio de Salud con ITMS Telemedicina (2008; https://e-legis-ar.msal.gov.ar/htdocs/legisalud/migration/pdf/18504.pdf) y fabricantes de equipos (Cardiocom, Paraná). No encontré un servicio privado nacional de informe de ECG en minutos para clínicas. Búsqueda: 'electrocardiograma a distancia informe cardiólogo telecardiología Argentina empresa clínicas interior'.",
+   "la_vuelta_para_argentina": "Ofrecer a clínicas, guardias municipales, ART y medicina laboral del interior un abono por ECG informado en 10 minutos, con equipo en comodato y red de cardiólogos argentinos que informan a distancia (y de noche). Venderlo también a provincias como red de infarto. Facu no necesita ser médico: arma la operación y la red.",
+   "por_que_nos_necesitarian": "Red de cardiólogos disponible 24 h, firma y responsabilidad médica, equipos instalados y contratos con clínicas/provincias. Un ECG no lo informa ChatGPT con validez legal.",
+   "riesgos": "Regulación: equipos con aprobación ANMAT, matrícula de los médicos que informan, telemedicina provincial; responsabilidad por errores; venta lenta a hospitales y gobiernos; pagos atrasados del sector público.",
+   "veredicto": "[Opinión de Claude] Resuelve algo que mata gente, la plata pasa por un abono claro y en Argentina no vi un jugador privado fuerte; el freno es regulatorio y de venta al sector salud. Puntaje 6/10.",
+   "parecido_a": "Revisados GS79 (DEA/cardioprotección como servicio: otro producto), C3-04 (heridas por foto), GIM-N090 (acompañante de internación). No coincide.",
+   "fuentes": [
+    "https://inc42.com/company/tricog-health/",
+    "https://inc42.com/company/tricog-health/financials/",
+    "https://www.cbinsights.com/company/tricog-health-services/financials",
+    "https://startup.outlookindia.com/investors/tricog-health-raises-8-5-million-omron-health-care-and-sony-innovation-fund-news-8203",
+    "https://www.losandes.com.ar/sociedad/red-de-telemedicina-permite-hacer-electrocardiogramas-a-pacientes-de-zonas-alejadas/",
+    "https://e-legis-ar.msal.gov.ar/htdocs/legisalud/migration/pdf/18504.pdf"
+   ]
+  },
+  {
+   "empresa": "Smart Joules (JoulePAYS / JouleCOOL)",
+   "pais": "India",
+   "anio_fundacion": "2014",
+   "web": "https://smartjoules.in",
+   "que_hace": "Le baja la factura de luz a hospitales, hoteles y fábricas sin que pongan plata: cambia o automatiza a su costo el aire acondicionado central, bombas y equipos, controla todo con su software, y cobra una parte del ahorro durante años ('pagás con lo que ahorrás'). En edificios nuevos vende 'frío como servicio': instala y opera la planta de frío y cobra por el frío entregado.",
+   "problema_que_resuelve": "Edificios grandes con aire acondicionado viejo e ineficiente que gastan fortunas en luz pero no tienen plata ni gente para renovar los equipos.",
+   "como_gana_plata": "Contrato de ahorro compartido de largo plazo (el cliente paga parte de los ahorros) + fees de servicio; caso Apollo Hospitals: 18 hospitales por 10 años (https://inc42.com/buzz/smart-joules-bags-10-mn-to-scale-its-energy-efficiency-solutions). El porcentaje del ahorro que se queda no lo pude verificar.",
+   "traccion": "Ingresos FY24 INR 49 Cr (+29%) con pérdida de INR 0,91 Cr (https://inc42.com/buzz/smart-joules-bags-10-mn-to-scale-its-energy-efficiency-solutions); FY25 INR 69,1 Cr según la ficha de Inc42 (https://inc42.com/company/smart-joules/financials/, no verificado en documento oficial). Serie B de USD 10 M liderada por SBI Ventures (2025-12). Clientes: grandes cadenas de hospitales (Apollo).",
+   "por_que_funciono_alla": "Electricidad cara para comercios, climas calurosos con aire acondicionado todo el año, y clientes sin capital para invertir. El modelo convierte una inversión en un gasto que se paga solo.",
+   "existe_esa_condicion_en_argentina": "Sí y creciendo: con la quita de subsidios desde 2024 la luz pesa mucho más en clínicas, supermercados, hoteles y fábricas; el NOA tiene veranos muy calurosos. La falta de financiamiento es justamente la barrera que señala la guía ESCO de Santa Fe (2025).",
+   "argentina_hoy": "El modelo ESCO existe en papel y en pocos casos: guía técnica de contratos ESCO de la provincia de Santa Fe (2025-03; https://www.santafe.gob.ar/ms/eficienciaenergetica/wp-content/uploads/sites/76/2025/03/Pautas-tecnicas-para-la-celebracion-de-contratos-del-tipo-ESCO.pdf), Sinergeia (contrato de desempeño con Scania Argentina, según publicación propia; nota de opinión de su CEO en https://econojournal.com.ar/opinion-mineria-energia/el-desafio-de-la-eficiencia-energetica-en-argentina/). No encontré una empresa enfocada en clínicas/hospitales con 'pagás con el ahorro'. Búsqueda: 'empresa de servicios energéticos ESCO Argentina contrato de ahorro compartido clínicas hospitales industrias'.",
+   "la_vuelta_para_argentina": "Empezar por clínicas y sanatorios privados del NOA (aire acondicionado 8 meses al año) y cámaras de frío de empaques de limón/frutilla en Tucumán: medición gratis, propuesta de ahorro, inversión financiada (con un fondo o leasing) y cobro mensual de una parte del ahorro en pesos ajustados. El software de medición lo pueden armar amigos programadores; lo técnico, ingenieros de frío asociados.",
+   "por_que_nos_necesitarian": "Ponen la plata y el riesgo (el cliente no invierte), operan y miden los equipos (operación física), y los datos de consumo propios permiten prometer ahorros que otros no se animan.",
+   "riesgos": "Necesita capital o socio financiero (es plata de terceros invertida en equipos del cliente); medir el ahorro con tarifas que cambian todo el tiempo es discutible; cliente que no paga o cierra; contratos largos en un país inestable.",
+   "veredicto": "[Opinión de Claude] Encaja con lo que cambió en Argentina (luz cara de verdad) y con la formación de ingeniero industrial de Facu; el cuello de botella es conseguir financiamiento para los equipos. Puntaje 7/10.",
+   "parecido_a": "Revisados ENE-1-x (instaladores solares), ENE-5-2 (grupos electrógenos), CON-2-4 (técnicos de aire acondicionado), ALI-4-2 (cámaras de frío que fallan), GIM-N001/GL54 (riego solar). Ninguno es 'eficiencia pagada con el ahorro'. No coincide.",
+   "fuentes": [
+    "https://inc42.com/buzz/smart-joules-bags-10-mn-to-scale-its-energy-efficiency-solutions",
+    "https://inc42.com/company/smart-joules/financials/",
+    "https://biospectrumindia.com/news/98/23224/apollo-hospitals-partners-with-smart-joules-to-curb-carbon-emissions.html",
+    "https://www.santafe.gob.ar/ms/eficienciaenergetica/wp-content/uploads/sites/76/2025/03/Pautas-tecnicas-para-la-celebracion-de-contratos-del-tipo-ESCO.pdf",
+    "https://econojournal.com.ar/opinion-mineria-energia/el-desafio-de-la-eficiencia-energetica-en-argentina/"
+   ]
+  },
+  {
+   "empresa": "Loocafe (Ixora FM)",
+   "pais": "India",
+   "anio_fundacion": "2018 (primeras unidades en Hyderabad; no verificado en esta pasada)",
+   "web": "https://loocafe.com",
+   "que_hace": "Construye y opera baños públicos limpios en la vereda o en plazas, pegados a un pequeño café. El baño es gratis; el café, la publicidad en las paredes y los patrocinios de empresas pagan la limpieza y el mantenimiento. El municipio pone el terreno y la empresa pone la obra y la operación.",
+   "problema_que_resuelve": "En las ciudades casi no hay baños públicos y los que hay están sucios o cerrados; la gente (sobre todo mujeres, trabajadores de la calle, repartidores, turistas) no tiene dónde ir.",
+   "como_gana_plata": "Café (productos de menos de Rs 30), paneles publicitarios y patrocinios (RSE); el municipio cobra un alquiler bajo (Rs 40.000-50.000 por año por unidad en 2018). Cada unidad cuesta Rs 15-18 lakh (≈USD 18-22 mil, conversión propia). Fuentes: https://scroll.in/magazine/894556 y https://www.deccanchronicle.com/nation/current-affairs/091118/lease-deal-for-loo-cafe-sparks-controversy.html.",
+   "traccion": "200+ unidades en Hyderabad según The Better India (https://www.thebetterindia.com/244124) y presencia en 10+ ciudades según la propia empresa (https://loocafe.com/); llegada a Tamil Nadu y Karnataka (https://www.inkl.com/news/comfort-stop-hyderabad-based-loo-cafe-makes-its-way-to-tamil-nadu-and-karnataka). No encontré facturación. Los datos son en buena parte de 2018-2021: tracción MODESTA y poco actualizada.",
+   "por_que_funciono_alla": "Falta crónica de baños + municipio dispuesto a ceder espacio + tránsito peatonal alto que vuelve rentable el café y la publicidad.",
+   "existe_esa_condicion_en_argentina": "Sí: CABA tiene muy pocos baños públicos y se discute hace años; en 2026-06-12 la Ciudad licitó 16 'áreas de servicios' con café y baños públicos en parques, inversión privada estimada US$ 4,6 M, permisos de 5 años y canon recién cuando se amortiza la inversión (https://eleconomista.com.ar/politica/la-ciudad-concesionara-cafes-banos-16-parques-cuales-son-espacios-elegidos-n95703). O sea: la condición existe y el Estado ya busca este modelo.",
+   "argentina_hoy": "La licitación de CABA citada arriba; predios bajo autopista 25 de Mayo cedidos a privados con obligación de mantener baños (https://www.cronista.com/negocios/supermercado-canchas-de-futbol-gimnasios-y-espacios-verdes-asi-sera-el-nuevo-bajo-autopista-de-la-25-de-mayo). No encontré un operador privado especializado en baños públicos con café/publicidad en ciudades del interior. Búsqueda: 'baños públicos falta Buenos Aires ciudades argentinas concesión privada publicidad municipio'.",
+   "la_vuelta_para_argentina": "Módulo prefabricado (contenedor) de baño + café/kiosco + pantalla publicitaria, ofrecido a municipios del interior (San Miguel de Tucumán, Salta, Córdoba), terminales, plazas y rutas, sin costo para el municipio. Cobrar publicidad a marcas y alquilar el kiosco a un operador. Ingeniería industrial: diseño del módulo, limpieza estandarizada y control con sensores.",
+   "por_que_nos_necesitarian": "Permisos municipales (concesiones de varios años), terreno en lugares de mucho paso y operación diaria de limpieza: no es fácil de copiar en el mismo lugar.",
+   "riesgos": "Depende de la política municipal (licitaciones, cambios de gobierno); vandalismo e inseguridad; escala lenta (cada unidad es una negociación); márgenes chicos; no es un negocio de millones de clientes.",
+   "veredicto": "[Opinión de Claude] La necesidad es clarísima y el Estado ya la reconoce, pero escala de a una unidad y depende de cada municipio; más negocio de concesiones que startup. Puntaje 4/10.",
+   "parecido_a": "Busqué 'baño' en la lista de exclusión: no hay ninguna idea de baños públicos. B2-07 (cargador y paraguas prestados en kioscos) y R1-china-10 (Focus Media: publicidad en edificios) tocan la publicidad, no el problema. No coincide.",
+   "fuentes": [
+    "https://scroll.in/magazine/894556",
+    "https://www.deccanchronicle.com/nation/current-affairs/091118/lease-deal-for-loo-cafe-sparks-controversy.html",
+    "https://www.thebetterindia.com/244124",
+    "https://loocafe.com/",
+    "https://www.inkl.com/news/comfort-stop-hyderabad-based-loo-cafe-makes-its-way-to-tamil-nadu-and-karnataka",
+    "https://eleconomista.com.ar/politica/la-ciudad-concesionara-cafes-banos-16-parques-cuales-son-espacios-elegidos-n95703",
+    "https://www.cronista.com/negocios/supermercado-canchas-de-futbol-gimnasios-y-espacios-verdes-asi-sera-el-nuevo-bajo-autopista-de-la-25-de-mayo"
+   ]
+  }
+ ],
+ "descartadas_por_filtro": [
+  {
+   "empresa": "UltraTech Building Solutions (India)",
+   "motivo": "Ya existe en Argentina: Disensa (red de corralones de Holcim) con 450-500 locales en 14 provincias. Fuente: https://infonegocios.info/nota-principal/disensa-potencia-su-formato-max-y-va-camino-a-los-500-locales-en-argentina-en-breve-llega-el-rebranding-de-holcim",
+   "traccion": "5.568 locales según blog que cita el informe anual (no verificado); 4.022 en Q1 FY25 (https://ultratechcement.com/content/dam/ultratechcement/Ultratech-Corporate-Dossier-Q1FY25.pdf)"
+  },
+  {
+   "empresa": "BeepKart (India) — motos usadas reacondicionadas",
+   "motivo": "Cerró: márgenes finos y costos altos (https://inc42.com/buzz/exclusive-stellaris-backed-beepkart-winds-down/). Además parecido a L1 y J16 (cierre seguro de usados).",
+   "traccion": "FY24 ₹100 Cr de ingresos con ₹66 Cr de pérdida (https://thekredible.com/blogs/beepkart-posts-2-5x-revenue-growth-in-fy24-losses-up-2-1x)"
+  },
+  {
+   "empresa": "Zhubajie / zbj.com (China) — servicios para PyMEs y registro de marcas",
+   "motivo": "Tracción en caída y pérdidas; en 2024-09 hubo reportes de sueldos atrasados (https://www.jiemian.com/article/9273397.html y otros resultados). Además el diseño de logos se parece a E9.",
+   "traccion": "Clientes con transacción 256.900 en 2022 (-22,3%), según prensa china citada en la búsqueda"
+  },
+  {
+   "empresa": "Dozee (India) — monitoreo sin contacto de pacientes en cama",
+   "motivo": "Tracción débil: ingresos FY24 ₹6,5 Cr con pérdida de ₹68 Cr (https://inc42.com/company/dozee/financials/); producto médico regulado. Se prefiere Tricog dentro de salud.",
+   "traccion": "6.000 camas en 300 hospitales (2023, https://mobihealthnews.com/news/asia/indian-rpm-startup-dozee-gets-6m-kickstart-global-expansion)"
+  },
+  {
+   "empresa": "Ecozen (India) — cámaras de frío y bombas solares",
+   "motivo": "77% de lo que cobra son productos solares, sobre todo controladores de bombas de riego subsidiadas: parecido a GL54, GL66, GL77, GIM-N001 (riego solar). Las cámaras de frío solares son una parte menor.",
+   "traccion": "Ingresos FY25 ≈₹1.150 Cr, ganancia ≈₹95 Cr (https://entrackr.com/fintrackr/ecozens-profit-nears-rs-100-cr-in-fy25-revenue-jumps-25x-10981101)"
+  },
+  {
+   "empresa": "Taikang Home (China) — residencias de mayores atadas a un seguro de vida",
+   "motivo": "Filtro 4 / condición: exige licencia de aseguradora, capital enorme e inmuebles; en Argentina no hay cultura de ahorro de largo plazo en seguros por la inflación (opinión de Claude). Además toca SAL-4-4.",
+   "traccion": "≈40 comunidades y 21.000 residentes según nota sin fecha (https://www.theweeklysource.com.au/chinese-life-insurers-spend-10b-plus-building-retirement-villages/)"
+  },
+  {
+   "empresa": "Brick&Bolt (India) / Tubatu (China) — construcción y reforma a precio cerrado con pago por etapas",
+   "motivo": "Parecido a GS26, GS47, GL42, GL48 (reforma a precio cerrado con pago por hitos).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "Livspace / HomeLane (India) — cocinas y placares a medida llave en mano",
+   "motivo": "Parecido a GL90 (muebles a medida con fecha garantizada y pago por hitos) y a R1-china-11 (Manycore).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "Stanza Living / Zolo (India) — residencias administradas para estudiantes",
+   "motivo": "Parecido a GL43 (alojamiento para estudiantes del interior con visita verificada y pago retenido).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "Genus Power / modelo AMISP (India) — medidores inteligentes financiados por un privado",
+   "motivo": "Parecido a ENE-2-1 y ENE-2-3 (lectura manual de medidores y hurto de energía en cooperativas).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "AgNext (India) — análisis rápido de calidad de granos",
+   "motivo": "Parecido a AGR-1-2 (análisis de calidad de muestras entre acopio y productor).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "Meinian Onehealth / iKang (China) — cadenas de chequeos médicos",
+   "motivo": "Parecido a GL32 (chequeo anual en una mañana) y GIM-N199.",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "SolarSquare (India) — solar residencial llave en mano",
+   "motivo": "Parecido a ENE-1-4 (el cliente no puede comparar presupuestos solares ni saber qué instalador es confiable) y GIM-N120.",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "XAG / DJI Agriculture (China) — pulverización con drones como servicio",
+   "motivo": "Parecido a GL15, GS21, GS83.",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "The Kabadiwala / Recykal (India) — retiro de reciclables pagando al vecino",
+   "motivo": "Parecido a RES-1-4 (vecinos y comercios sin quién les retire lo reciclable).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "BlackBuck (India) — servicios para camioneros (peajes, combustible, cargas)",
+   "motivo": "Parecido a R1-china-15 (Tuanyou) y L6/MF22 (unir cargas con transportistas).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "Infra.Market (India) — materiales de construcción B2B con marcas propias",
+   "motivo": "Mismo modelo que R1-india-4 (OfBusiness: materias primas a PyMEs con crédito).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "AgroStar / DeHaat (India) — insumos agrícolas con agrónomo por teléfono o centros locales",
+   "motivo": "Parecido a AGR-5-3 y AGR-5-4 (recomendación del agrónomo convertida en pedido; pedidos por WhatsApp) y GL13; además en Argentina existe Agrofy (opinión, no verificado en esta pasada).",
+   "traccion": "No investigada a fondo por el parecido"
+  },
+  {
+   "empresa": "Apna (India) — empleos para trabajadores operativos",
+   "motivo": "Parecido a SER-4-2 (filtrar postulantes operativos de alta rotación) y a R1-turquia-europa-5 (Jobandtalent); en Argentina hay bolsas de empleo masivas (Computrabajo, Bumeran) — no verificado con búsqueda en esta pasada.",
+   "traccion": "No investigada a fondo"
+  },
+  {
+   "empresa": "Clove Dental (India) — cadena odontológica",
+   "motivo": "Parecido a A6-07 (red de clínicas odontológicas DSO).",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Indira IVF / Nova IVF (India) — cadenas de fertilidad baratas",
+   "motivo": "Parecido a A6-11 (red de fertilidad); además en Argentina ya hay clínicas grandes y la ley 26.862 da cobertura (opinión, no verificado en esta pasada).",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Glodon (China) — software de cómputo y presupuesto de obra",
+   "motivo": "Parecido a CON-1-1 (cómputo de materiales midiendo planos a mano).",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Hotmaxx / 好特卖 (China) — tiendas de saldos y productos por vencer",
+   "motivo": "Parecido a ALI-2-2 / MF95 (excedentes) y al descarte R1 de Fazla Gıda.",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Zudio (India, Tata Trent) — ropa ultra barata",
+   "motivo": "Mismo modelo que el descarte R1 Pepco (retail de descuento de ropa que exige mucho capital).",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Haier U-Clean (China) — lavarropas compartidos pagando por lavado",
+   "motivo": "Parecido a B1-06 y B2-04 (lavarropas pagando por lavado).",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Credgenics (India) — cobranza digital para prestamistas",
+   "motivo": "Parecido a SER-5-1 (perseguir clientes morosos).",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Piramal Sarvajal (India) — cajeros de agua potable en pueblos",
+   "motivo": "Parecido a GIM-N005 / GI116 (agua segura por abono en pozos con arsénico).",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Chint Anneng (China) — alquiler de techos rurales para paneles solares",
+   "motivo": "Condición no se da: en Argentina la inyección a red de usuario-generador paga poco y el régimen es otro (opinión de Claude, no verificado en esta pasada); además toca ENE-1-x.",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "FirstCry (India) — artículos de bebé online + 1.000 locales franquiciados",
+   "motivo": "No profundizada: en Argentina la natalidad viene cayendo fuerte (opinión, no verificada con link en esta pasada) y hay cadenas y Mercado Libre; además J5 y FAM-5-x tocan el cliente.",
+   "traccion": "Ingresos FY26 ≈₹8.548 Cr, EBITDA ajustado ₹486 Cr (https://bwretailworld.com/companies/firstcrys-fy26-gmv-up-10-losses-down-as-revenue-grows); 1.000+ locales (https://en.wikipedia.org/wiki/FirstCry)"
+  },
+  {
+   "empresa": "Licious (India) — carne fresca por app",
+   "motivo": "La condición que la hizo funcionar (desconfianza en la higiene de los mercados húmedos indios) no se da igual en Argentina, donde la carnicería de barrio tiene confianza (opinión de Claude, no verificado).",
+   "traccion": "No investigada"
+  },
+  {
+   "empresa": "Thyrocare (India) — laboratorio central con puntos de extracción franquiciados",
+   "motivo": "En Argentina la mayoría de los análisis los paga la obra social o prepaga a precio de nomenclador y el mercado de pago directo es chico (opinión de Claude, no verificado).",
+   "traccion": "No investigada"
+  }
+ ],
+ "uso": {
+  "websearch": 30,
+  "lecturas_paginas": "≈26 lecturas con curl (2 PDFs de resultados en la Bolsa de Hong Kong leídos con pdftotext, comunicados de empresa, Inc42, Entrackr, Cronista, iProUP, El Economista, Wikipedia) + 6 búsquedas en Bing por curl con resultados casi inútiles. Wikipedia empezó a devolver error 429 (demasiadas solicitudes) a mitad del trabajo.",
+  "notas": "Quedaron 7 empresas, no 15: preferí no rellenar con flojas. De ≈38 candidatas, 31 salieron (≈23 por parecido con la lista de exclusión, 4 por existir ya en Argentina o porque la condición no se da, 4 por tracción débil o cierre). Sectores pedidos sin ninguna sobreviviente: mascotas (todo lo que encontré ya existe en Argentina o se parece a MAS-x/A6-06), cuidado de mayores (Taikang descartada), agro e insumos (casi todo choca con AGR-x, GL13, riego solar o drones). Datos que conviene verificar antes de profundizar: Busy Ming (condiciones de franquicia), Tricog (ingresos FY25: las fuentes no coinciden), Smart Joules (ingresos FY25 solo en la ficha de Inc42), Loocafe (datos viejos)."
+ }
+}
