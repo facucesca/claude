@@ -106,7 +106,15 @@ nadie paga. Toda idea tiene que pasar estas 3 preguntas antes de entrar a una li
   Excel: `investigaciones/2026-11-04-IDEAS-NICHOS-Y-APPS.xlsx`; resumen: `investigaciones/2026-11-04-ideas-nichos-y-apps.md`.
   Competencia en Argentina y mercado casi siempre "Parcial" (se limitó a 30 búsquedas por investigador
   para cuidar el uso). Todas sumadas a `investigaciones/registro-nuevo.csv`.
-- **Pendiente de Facu:** marcar en colores los dos Excel (`2026-11-03-IDEAS-NUEVAS.xlsx` y `2026-11-04-IDEAS-NICHOS-Y-APPS.xlsx`).
+- **2026-11-04 — Facu rechazó las 337 ideas** ("rebuscadas", "superficiales", "eso lo hace ChatGPT
+  gratis"). Pidió más profundidad: **empresas reales que funcionan afuera (China, India, etc.) y no
+  existen en Argentina**, con lectura real de páginas (abrió la red del entorno). Nació la Regla N.º 3.
+- **2026-11-04 — investigación "afuera" en curso** (`investigaciones/datos/2026-11-04-afuera/`):
+  Fase 1 = 6 exploradores por región (China; India; Sudeste Asiático + Japón/Corea; Brasil/México/
+  Colombia/Chile/Perú; Turquía + Europa; África + Medio Oriente), 15 empresas cada uno, filtro duro.
+  Fase 2 = filtro de Claude → 20-25. Fase 3 = ficha a fondo de cada una (unidad económica, por qué
+  funcionó allá, si se da en Argentina, competencia verificada, regulación, cómo arrancar).
+- **Pendiente de Facu (opcional):** marcar en colores los dos Excel (`2026-11-03-IDEAS-NUEVAS.xlsx` y `2026-11-04-IDEAS-NICHOS-Y-APPS.xlsx`).
 - **Después:** Excel con las ideas nuevas puntuadas → el usuario marca → investigación a fondo
   de las marcadas → elegir 1 y armar el plan de validación.
 
