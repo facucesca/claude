@@ -1,0 +1,32 @@
+[
+ {
+  "leccion": "Mirar lo que pasa ENTRE sesiones con el profesional: muchos tratamientos funcionan solo si se practican todos los días, pero el profesional está una vez por semana.",
+  "como_aplicarla": "Listar terapias o tratamientos (fonoaudiología, kinesiología, nutrición, psicología) y preguntar: ¿qué tiene que hacer el paciente solo en casa? ¿Quién lo guía y quién ve si lo hizo? Ahí entra una app que guía, mide con el celular y le informa al profesional.",
+  "ejemplo_real": "Beats Medical (Irlanda, 2012) da ejercicios diarios de voz y marcha para Parkinson con feedback en tiempo real; se registró como dispositivo médico clase I y entró en la biblioteca de apps de Parkinson's UK.",
+  "fuente": "https://www.idaireland.com/latest-news/press-release/irish-parkinson’s-app-that-improves-walking-and-speech-gets-major-approval"
+ },
+ {
+  "leccion": "Preguntar a qué hora aparece el problema: si aparece fuera del horario de los profesionales (de noche, el fin de semana, en plena crisis), hay hueco para algo que esté siempre disponible.",
+  "como_aplicarla": "Para cada nicho de personas afectadas, anotar los momentos de crisis (conducta difícil, convulsión, corte de luz) y ver quién ayuda en ese minuto. Si la respuesta es 'nadie', un WhatsApp con IA bien entrenada y reglas de derivación vale mucho.",
+  "ejemplo_real": "En EE.UU. aparecieron compañeros de IA 24/7 para cuidadores de personas con demencia, como la app 'Alzheimer's Care Partner' (USD 9,99/mes) y KindredMind (Toronto).",
+  "fuente": "https://apps.apple.com/app/id6670194426"
+ },
+ {
+  "leccion": "Buscar dónde una minoría depende de otra persona para algo cotidiano que el resto hace solo (llamar por teléfono, leer un papel, saber si puede entrar a un lugar).",
+  "como_aplicarla": "Recorrer un día normal (trámites, compras, salud, salidas) con los ojos de una persona sorda, ciega, en silla o mayor, y anotar cada vez que 'tiene que pedirle a alguien'. Cada una de esas es una posible herramienta de autonomía.",
+  "ejemplo_real": "Nagish (Israel/EE.UU.) subtitula llamadas con IA para que personas sordas llamen sin intermediario; levantó USD 16 millones según la prensa del sector.",
+  "fuente": "https://hearingreview.com/hearing-products/amplification/amplified-caption-phones/ai-powered-transcription-app-gets-more-funding"
+ },
+ {
+  "leccion": "Cuando una app de afuera ya resuelve el problema técnico, la vuelta local suele ser la BASE DE DATOS local o la OBLIGACIÓN local (reglas por provincia, comida argentina, papeles de exportación, obra social).",
+  "como_aplicarla": "Tomar una app extranjera exitosa y preguntarse: ¿qué parte depende de datos que acá no existen o están en PDFs dispersos? Usar la IA para juntar y ordenar esos datos locales es la ventaja que la empresa de afuera no va a construir.",
+  "ejemplo_real": "Fishbrain (Suecia) compró la app Fish Rules para sumar las reglas de pesca de cada estado de EE.UU.: el valor estaba en juntar las normas locales.",
+  "fuente": "https://fishbrain.com/blog/fishbrain/fishbrain-acquires-fish-rules"
+ },
+ {
+  "leccion": "Mirar las filas largas que nadie quiere mirar: grupos estigmatizados u olvidados que repiten un trámite o viaje cada semana y pierden tiempo por falta de información.",
+  "como_aplicarla": "Pensar en lugares a los que la gente va seguido sin querer (cárceles, centros de diálisis, Migraciones, hospitales) y preguntar qué información se pasa de boca en boca en la fila. Convertir eso en una guía o servicio.",
+  "ejemplo_real": "Pigeonly (EE.UU., 2012), fundada por un ex detenido, imprimía y enviaba fotos a personas presas y abarataba llamadas; en 2015 decía enviar millones de fotos por mes.",
+  "fuente": "https://phys.org/news/2015-05-startup-pigeonly-digitally-deprived-bars.html"
+ }
+]
