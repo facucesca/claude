@@ -1,0 +1,32 @@
+[
+ {
+  "leccion": "Cuando cambia QUIÉN recibe la plata primero, aparece un problema nuevo de reparto.",
+  "como_aplicarla": "Buscá relaciones donde antes una persona cobraba en efectivo y le pasaba su parte a otra (chofer y dueño, mozo y cocina, cosechero y contratista). Con el QR y la transferencia la plata va a otra cuenta y el reparto se rompe. Preguntá: ¿quién cobra ahora y quién tiene que esperar su parte?",
+  "ejemplo_real": "En los taxis de CABA el peón se queda con el 30% de lo recaudado y rinde el resto todos los días, según el convenio. Con el cobro digital la plata entra al dueño y el peón tiene que esperar que le pasen lo suyo. Pasó algo parecido con las propinas: el DNU 731/2024 habilitó las propinas digitales y aparecieron apps como Tipeando para repartirlas entre salón y cocina.",
+  "fuente": "https://estudiovilaplana.com.ar/empleados-taxis-ciudad-buenos-aires ; https://www.forbesargentina.com/innovacion/propinas-digitales-surgen-nuevas-soluciones-fintech-argentina-tras-anuncio-sturzenegger-n56608"
+ },
+ {
+  "leccion": "Dar vuelta el orden de pagar y recibir: primero pagás de a poco, después te llevás la cosa.",
+  "como_aplicarla": "Tomá una compra que hoy se hace en cuotas o al contado y preguntate qué pasa si se paga ANTES y en partes: el apartado, la caja navideña, la adopción de la cosecha. Ahí nadie presta plata (menos riesgo y nada del BCRA), y el que vende sabe cuánto va a vender. Ojo: la plata tiene que ir directo al que entrega, no a la plataforma.",
+  "ejemplo_real": "Park Christmas Savings (Reino Unido) empezó en la carnicería de su fundador cobrando cuotas semanales por canastas navideñas. CrowdFarming (España) cobra por adelantado la cosecha de un árbol y facturó 65 millones de euros en 2024. La advertencia es Farepak, otro club navideño británico que quebró con la plata de sus ahorristas (esto lo sé de antes, no lo verifiqué en esta búsqueda).",
+  "fuente": "https://www.getpark.co.uk/budgeting/saving/about-us.jsp ; https://es.euronews.com/2026/06/05/crowdfarming-la-plataforma-que-quiere-alimentar-mejor-a-europa"
+ },
+ {
+  "leccion": "Copiar el 'pago por uso' de África y Asia para la gente que cobra por día.",
+  "como_aplicarla": "Buscá compras grandes que la gente de ingresos diarios no puede pagar de una vez: la garrafa, la batería, el panel solar, el agua. Mirá cómo lo resolvieron en Kenia, Tanzania o la India con pagos por celular, y adaptalo al QR de Mercado Pago. Pensá también en las cosas viejas que cobran de un modo que ya no existe, como las monedas y las fichas.",
+  "ejemplo_real": "KopaGas (Tanzania) pone un medidor inteligente en la garrafa y la familia paga el gas por celular a medida que cocina. Llegó a 15.000 clientes por mes y la compró Circle Gas en 2020. En EE.UU., PayRange le agrega pago por celular a máquinas viejas de monedas y en 2023 tenía más de 500.000 máquinas.",
+  "fuente": "https://www.gsma.com/mobilefordevelopment/programme/m4dutilities/kopagas-mobile-enabled-pay-as-you-cook-service-in-tanzania ; https://nxtbook.com/endeavor/automaticmerchandiser/august-2023/index.php?startid=20"
+ },
+ {
+  "leccion": "Donde algo se cuenta a mano y hay plata de por medio, hay desconfianza que se puede vender.",
+  "como_aplicarla": "Buscá trabajos que se pagan por pieza o por cantidad (bins, cajones, fotos, kilos) o plata 'voluntaria' que se junta en efectivo (cooperadora, café pendiente). El producto no es el pago en sí, es que las dos partes vean lo mismo: el conteo en el celular del trabajador, los gastos con foto. La transparencia es lo que hace que la gente pague o confíe.",
+  "ejemplo_real": "PickTrace (EE.UU., Y Combinator S15) registra quién cosechó cada bin y ayuda a pagar a destajo. En Tucumán la cosecha de limón se paga por cantidad y los contratistas pagan a los cosecheros, pero no encontré ningún sistema digital para eso. Las cooperadoras escolares, que por ley son voluntarias, tienen que rendir cuentas (San Juan lo exige desde 2023).",
+  "fuente": "https://blog.ycombinator.com/picktrace-yc-s15-helps-farms-pay-their-workers-accurately-and-fairly/ ; https://aset.org.ar/ponencias/dinamica-de-las-negociaciones-y-conflictos-de-asalariados-citricolas-durante-la-ultima-decada-en-tucuman-argentina ; https://www.diariodecuyo.com.ar/noticias/este-ano-por-primera-vez-las-cooperadoras-escolares-deben-rendir-cuentas-ante-educacion-41700.html"
+ },
+ {
+  "leccion": "Antes de enamorarte de una forma de pago, fijate si Mercado Pago (o un local) ya lo hace o lo va a hacer.",
+  "como_aplicarla": "En pagos, el gigante es dueño de los rieles. Buscá '[tu idea] + Mercado Pago' y '[tu idea] + app Argentina' antes de seguir. Si ya está o es una función obvia para ellos, apuntá a la capa de arriba (el rubro, el reparto, el conteo, la transparencia) o a venderte a un sistema de gestión, no a competir con el pago.",
+  "ejemplo_real": "Mercado Pago lanzó en julio de 2024 la propina digital gratis en más de 4.000 locales, con reparto a un mozo o a un fondo común. Ya tiene cuentas para chicos de 13 a 17 años con control parental. En fidelización ya hay Loybox, Tienda de Puntos y Puntito, y en gift cards de comercios está Papayal. Por eso salieron de esta lista la propina repartida y los puntos de barrio, y la mesada y las gift cards quedaron con puntaje bajo.",
+  "fuente": "https://www.lanacion.com.ar/tecnologia/como-es-la-nueva-funcion-de-mercado-pago-para-pagar-la-propina-desde-la-app-nid25072024/ ; https://infonegocios.info/default/loybox-la-red-de-fidelizacion-que-ya-usan-110-comercios-en-argentina-y-que-quiere-multiplicarse-por-10-en-un-ano ; https://www.lanacion.com.ar/tecnologia/mercado-pago-suma-control-parental-a-las-cuentas-de-menores-de-edad-para-tener-un-mejor-control-de-nid28112024/"
+ }
+]

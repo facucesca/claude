@@ -1,0 +1,552 @@
+{
+ "C1-01": [
+  [
+   0.65,
+   "C5-01",
+   "Apto o no apto: foto de la etiqueta para celíacos"
+  ],
+  [
+   0.42,
+   "C3-05",
+   "¿Es sin TACC? Foto del producto y respuesta al instante"
+  ]
+ ],
+ "C1-02": [
+  [
+   0.81,
+   "C3-06",
+   "Foto del plato: hidratos al instante para chicos con diabetes 1"
+  ],
+  [
+   0.44,
+   "C6-06",
+   "Plato al cole: carbohidratos por foto de comida argentina"
+  ]
+ ],
+ "C1-03": [
+  [
+   0.41,
+   "C3-20",
+   "Presión arterial por foto del tensiómetro, pagado por la empresa"
+  ],
+  [
+   0.35,
+   "C1-17",
+   "Mandale la foto a tu nutricionista: el diario de comidas solo"
+  ]
+ ],
+ "C1-04": [
+  [
+   0.43,
+   "C5-11",
+   "Diabetes por WhatsApp: foto del glucómetro y del plato"
+  ]
+ ],
+ "C1-05": [],
+ "C1-06": [],
+ "C1-07": [
+  [
+   0.37,
+   "C6-09",
+   "Palabras de casa: terapia de afasia con las fotos de la familia"
+  ]
+ ],
+ "C1-08": [],
+ "C1-09": [],
+ "C1-10": [],
+ "C1-11": [
+  [
+   0.4,
+   "GS17",
+   "GS17 | ¿Qué análisis me exigen? → red de laboratorios para PyMEs"
+  ]
+ ],
+ "C1-12": [],
+ "C1-13": [
+  [
+   0.67,
+   "C3-04",
+   "Heridas medidas por foto para la internación domiciliaria"
+  ]
+ ],
+ "C1-14": [],
+ "C1-15": [],
+ "C1-16": [],
+ "C1-17": [
+  [
+   0.43,
+   "GS61",
+   "GS61 | Presupuesto cerrado desde la foto, sin visita (el cliente lo arma solo)"
+  ],
+  [
+   0.35,
+   "C1-03",
+   "Presión por foto: el hipertenso manda la foto del tensiómetro"
+  ]
+ ],
+ "C1-18": [],
+ "C1-19": [
+  [
+   0.4,
+   "B13",
+   "B13 | Pedidos por WhatsApp para gastronomía | Automatización y agencia IA"
+  ]
+ ],
+ "C1-20": [],
+ "C2-01": [
+  [
+   0.4,
+   "B13",
+   "B13 | Pedidos por WhatsApp para gastronomía | Automatización y agencia IA"
+  ],
+  [
+   0.38,
+   "AGR-5-4",
+   "AGR-5-4 | Pedidos de productores llegan por WhatsApp y se cargan a mano | Agro y agroindustria / Agroinsumos"
+  ]
+ ],
+ "C2-02": [
+  [
+   0.43,
+   "R2",
+   "R2 | Ropa \"puesta\" en modelo IA para marcas de indumentaria | Foto y diseño"
+  ]
+ ],
+ "C2-03": [
+  [
+   0.38,
+   "C3-08",
+   "Talles de ropa de trabajo con dos fotos"
+  ]
+ ],
+ "C2-04": [],
+ "C2-05": [],
+ "C2-06": [
+  [
+   0.5,
+   "B3-16",
+   "B3-16 | El domingo a la tarde cocinás la semana | 2026-11-03 Chico: tiempo muerto"
+  ],
+  [
+   0.38,
+   "GL86",
+   "GL86 | Cocina habilitada por hora: las horas muertas de cocinas profesionales para productores de comida"
+  ]
+ ],
+ "C2-07": [],
+ "C2-08": [],
+ "C2-09": [],
+ "C2-10": [],
+ "C2-11": [
+  [
+   0.43,
+   "H13",
+   "H13 | Sesión de fotos de producto en el local (celular + IA) | Foto y diseño"
+  ]
+ ],
+ "C2-12": [
+  [
+   0.5,
+   "GS2",
+   "GS2 | Agua del edificio bajo control"
+  ]
+ ],
+ "C2-13": [],
+ "C2-14": [],
+ "C2-15": [
+  [
+   0.4,
+   "M31",
+   "M31 | Video de prospección personalizado para equipos de ventas | Ventas y prospección"
+  ],
+  [
+   0.4,
+   "GS60",
+   "GS60 | Garantía de obra de 12 meses que paga el cliente"
+  ],
+  [
+   0.36,
+   "HOG-3-5",
+   "HOG-3-5 | Cuando falta una persona de limpieza, la empresa no tiene reemplazo y el cliente queda sin servicio | Hogar y jardín / Servicio doméstico (empleadas y"
+  ]
+ ],
+ "C2-16": [],
+ "C2-17": [],
+ "C2-18": [
+  [
+   0.57,
+   "B29",
+   "B29 | Reportes automáticos semanales por WhatsApp para dueños de PyME | Automatización y agencia IA"
+  ],
+  [
+   0.43,
+   "B26",
+   "B26 | Llamada perdida → WhatsApp automático | Servicios a comercios locales"
+  ],
+  [
+   0.4,
+   "B13",
+   "B13 | Pedidos por WhatsApp para gastronomía | Automatización y agencia IA"
+  ]
+ ],
+ "C2-19": [],
+ "C2-20": [],
+ "C3-01": [],
+ "C3-02": [],
+ "C3-03": [],
+ "C3-04": [
+  [
+   0.67,
+   "C1-13",
+   "Regla en el celular: medir heridas y escaras con una foto"
+  ]
+ ],
+ "C3-05": [
+  [
+   0.65,
+   "C5-01",
+   "Apto o no apto: foto de la etiqueta para celíacos"
+  ],
+  [
+   0.42,
+   "C1-01",
+   "¿Lo puedo comer? Escáner para celíacos y dietas restringidas"
+  ]
+ ],
+ "C3-06": [
+  [
+   0.81,
+   "C1-02",
+   "Foto del plato → gramos de hidratos para chicos con diabetes"
+  ],
+  [
+   0.44,
+   "C6-06",
+   "Plato al cole: carbohidratos por foto de comida argentina"
+  ]
+ ],
+ "C3-07": [],
+ "C3-08": [
+  [
+   0.38,
+   "C2-03",
+   "Revisión de ergonomía del home office por foto"
+  ]
+ ],
+ "C3-09": [
+  [
+   0.47,
+   "C5-16",
+   "Detector de monóxido que le avisa a tu familia"
+  ],
+  [
+   0.4,
+   "GL4",
+   "GL4 | Compras para la familia en Argentina, pagadas desde el exterior"
+  ]
+ ],
+ "C3-10": [
+  [
+   0.43,
+   "C6-15",
+   "Me echaron: revisá tu liquidación final con una foto"
+  ]
+ ],
+ "C3-11": [],
+ "C3-12": [
+  [
+   0.4,
+   "AGR-2-5",
+   "AGR-2-5 | El productor no sabe cuánto grano tiene sin vender ni dónde | Agro y agroindustria / Productores agropecuarios"
+  ]
+ ],
+ "C3-13": [
+  [
+   0.4,
+   "B13",
+   "B13 | Pedidos por WhatsApp para gastronomía | Automatización y agencia IA"
+  ]
+ ],
+ "C3-14": [],
+ "C3-15": [
+  [
+   0.4,
+   "H10",
+   "H10 | CV, LinkedIn y foto profesional en 48 h | Servicios a personas"
+  ]
+ ],
+ "C3-16": [],
+ "C3-17": [],
+ "C3-18": [],
+ "C3-19": [],
+ "C3-20": [
+  [
+   0.41,
+   "C1-03",
+   "Presión por foto: el hipertenso manda la foto del tensiómetro"
+  ]
+ ],
+ "C4-01": [],
+ "C4-02": [],
+ "C4-03": [],
+ "C4-04": [],
+ "C4-05": [
+  [
+   0.43,
+   "B12",
+   "B12 | Cobranzas por WhatsApp con link de Mercado Pago | Automatización y agencia IA"
+  ]
+ ],
+ "C4-06": [],
+ "C4-07": [],
+ "C4-08": [
+  [
+   0.43,
+   "GS64",
+   "GS64 | Cuotas para la reparación: el plomero cobra hoy, el cliente paga en 6"
+  ],
+  [
+   0.4,
+   "GS60",
+   "GS60 | Garantía de obra de 12 meses que paga el cliente"
+  ]
+ ],
+ "C4-09": [],
+ "C4-10": [
+  [
+   0.5,
+   "E38",
+   "E38 | Libros infantiles personalizados con IA | Servicios a personas"
+  ],
+  [
+   0.43,
+   "B12",
+   "B12 | Cobranzas por WhatsApp con link de Mercado Pago | Automatización y agencia IA"
+  ]
+ ],
+ "C4-11": [],
+ "C4-12": [
+  [
+   0.43,
+   "H9",
+   "H9 | Tarjeta digital con QR para equipos de venta | Servicios a comercios locales"
+  ],
+  [
+   0.38,
+   "I24",
+   "I24 | Tarjeta digital animada personalizada para WhatsApp | Video y producción audiovisual"
+  ]
+ ],
+ "C4-13": [
+  [
+   0.5,
+   "GL23",
+   "GL23 | Red de expertos de la Argentina por dentro"
+  ],
+  [
+   0.43,
+   "N20",
+   "N20 | Comerciales para TV por internet (CTV) de PyMEs de EE.UU. | Video y producción audiovisual"
+  ],
+  [
+   0.43,
+   "GI74",
+   "GI74 | Dónde abrir: potencial comercial por cuadra para PyMEs y franquicias"
+  ],
+  [
+   0.43,
+   "GI102",
+   "GI102 | Humedad sin romper: de dónde viene, quién paga y quién la arregla"
+  ],
+  [
+   0.4,
+   "GS17",
+   "GS17 | ¿Qué análisis me exigen? → red de laboratorios para PyMEs"
+  ]
+ ],
+ "C4-14": [],
+ "C4-15": [
+  [
+   0.43,
+   "R3",
+   "R3 | Edición mayorista de fotos inmobiliarias para fotógrafos de EE.UU. | Foto y diseño"
+  ]
+ ],
+ "C4-16": [
+  [
+   0.4,
+   "GL30",
+   "GL30 | Instalate en la ciudad de la facultad en un solo viaje"
+  ]
+ ],
+ "C4-17": [],
+ "C4-18": [],
+ "C4-19": [
+  [
+   0.36,
+   "L15 (propia)",
+   "L15 (propia) | Intercambiar efectivo por transferencia en puntos físicos, con la app custodiando la plata | Idea propia de Facu"
+  ]
+ ],
+ "C4-20": [],
+ "C5-01": [
+  [
+   0.65,
+   "C3-05",
+   "¿Es sin TACC? Foto del producto y respuesta al instante"
+  ],
+  [
+   0.65,
+   "C1-01",
+   "¿Lo puedo comer? Escáner para celíacos y dietas restringidas"
+  ]
+ ],
+ "C5-02": [],
+ "C5-03": [],
+ "C5-04": [
+  [
+   0.4,
+   "J33",
+   "J33 | Arbitraje de ofertas del CyberMonday | Comercio y reventa"
+  ]
+ ],
+ "C5-05": [
+  [
+   0.38,
+   "GS86",
+   "GS86 | Traspasos verificados: comprar y vender comercios en marcha con números de verdad"
+  ]
+ ],
+ "C5-06": [
+  [
+   0.43,
+   "H13",
+   "H13 | Sesión de fotos de producto en el local (celular + IA) | Foto y diseño"
+  ],
+  [
+   0.4,
+   "GI11",
+   "GI11 | Casero digital para la casa de fin de semana"
+  ]
+ ],
+ "C5-07": [],
+ "C5-08": [],
+ "C5-09": [],
+ "C5-10": [
+  [
+   0.86,
+   "GL69",
+   "GL69 | Arreglalo vos: repuestos de electrodomésticos por foto, con video para cambiarlos"
+  ],
+  [
+   0.5,
+   "GL17",
+   "GL17 | El repuesto exacto del electrodoméstico, a partir de la foto de la etiqueta"
+  ]
+ ],
+ "C5-11": [
+  [
+   0.43,
+   "C1-04",
+   "Diabetes del embarazo: glucemias por foto al obstetra"
+  ],
+  [
+   0.4,
+   "H10",
+   "H10 | CV, LinkedIn y foto profesional en 48 h | Servicios a personas"
+  ]
+ ],
+ "C5-12": [],
+ "C5-13": [],
+ "C5-14": [
+  [
+   0.44,
+   "B3-12",
+   "B3-12 | Changas de 5 minutos mientras esperás el colectivo | 2026-11-03 Chico: tiempo muerto"
+  ]
+ ],
+ "C5-15": [],
+ "C5-16": [
+  [
+   0.47,
+   "C3-09",
+   "Alarma de monóxido por WhatsApp, pagada por la aseguradora"
+  ]
+ ],
+ "C5-17": [],
+ "C5-18": [],
+ "C5-19": [],
+ "C5-20": [],
+ "C6-01": [
+  [
+   0.5,
+   "I20",
+   "I20 | Video homenaje con fotos ('la historia de mamá en 3 minutos') | Video y producción audiovisual"
+  ]
+ ],
+ "C6-02": [],
+ "C6-03": [],
+ "C6-04": [],
+ "C6-05": [
+  [
+   0.43,
+   "I29",
+   "I29 | Video personalizado de Papá Noel para chicos | Video y producción audiovisual"
+  ]
+ ],
+ "C6-06": [
+  [
+   0.44,
+   "C3-06",
+   "Foto del plato: hidratos al instante para chicos con diabetes 1"
+  ],
+  [
+   0.44,
+   "C1-02",
+   "Foto del plato → gramos de hidratos para chicos con diabetes"
+  ]
+ ],
+ "C6-07": [],
+ "C6-08": [],
+ "C6-09": [
+  [
+   0.37,
+   "C1-07",
+   "Práctica diaria de habla para afasia, por audio de WhatsApp"
+  ]
+ ],
+ "C6-10": [],
+ "C6-11": [],
+ "C6-12": [
+  [
+   0.4,
+   "GL30",
+   "GL30 | Instalate en la ciudad de la facultad en un solo viaje"
+  ]
+ ],
+ "C6-13": [],
+ "C6-14": [],
+ "C6-15": [
+  [
+   0.43,
+   "C3-10",
+   "¿Te pagan bien? Foto del recibo de sueldo contra el convenio"
+  ],
+  [
+   0.4,
+   "H10",
+   "H10 | CV, LinkedIn y foto profesional en 48 h | Servicios a personas"
+  ]
+ ],
+ "C6-16": [],
+ "C6-17": [],
+ "C6-18": [],
+ "C6-19": [],
+ "C6-20": [
+  [
+   0.4,
+   "H10",
+   "H10 | CV, LinkedIn y foto profesional en 48 h | Servicios a personas"
+  ]
+ ]
+}
