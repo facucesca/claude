@@ -114,6 +114,12 @@ nadie paga. Toda idea tiene que pasar estas 3 preguntas antes de entrar a una li
   Colombia/Chile/Perú; Turquía + Europa; África + Medio Oriente), 15 empresas cada uno, filtro duro.
   Fase 2 = filtro de Claude → 20-25. Fase 3 = ficha a fondo de cada una (unidad económica, por qué
   funcionó allá, si se da en Argentina, competencia verificada, regulación, cómo arrancar).
+  - Fase 1 terminada: 74 empresas (`f1-*.json`). Fase 2: lista corta de 22 en `FASE2-lista-corta.md`.
+    A Facu le gustó. Pidió **otra ronda con empresas nuevas** antes de las fichas a fondo.
+  - **Ronda 2 en curso** (`r2-*.json`, exclusión `exclusion-ronda2.txt` = todo lo anterior + las 74):
+    EE.UU./Canadá/Australia (medianas y "aburridas"), Europa del norte, Rusia/Asia Central/Irán/Pakistán,
+    China e India 2.ª pasada (otros sectores), agro y alimentos (mundo), industria y construcción (mundo).
+  - Después: juntar ronda 1 + ronda 2, lista corta y fichas a fondo (fase 3).
 - **Pendiente de Facu (opcional):** marcar en colores los dos Excel (`2026-11-03-IDEAS-NUEVAS.xlsx` y `2026-11-04-IDEAS-NICHOS-Y-APPS.xlsx`).
 - **Después:** Excel con las ideas nuevas puntuadas → el usuario marca → investigación a fondo
   de las marcadas → elegir 1 y armar el plan de validación.
