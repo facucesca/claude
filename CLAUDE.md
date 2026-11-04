@@ -50,6 +50,15 @@ Cómo se aplica:
 4. **Al final:** sumar lo nuevo al registro de esta carpeta: `investigaciones/registro-nuevo.csv`
    (mismas columnas que el registro viejo), para que la próxima búsqueda tampoco lo repita.
 
+## REGLA N.º 3 — Ideas para ganar plata, no apps que regalan algo (pedido de Facu, 2026-11-04)
+Facu rechazó las ideas tipo "foto de tu factura y la IA te la explica": eso lo hace ChatGPT gratis y
+nadie paga. Toda idea tiene que pasar estas 3 preguntas antes de entrar a una lista:
+1. **¿Lo resuelve ChatGPT gratis en 2 minutos?** Si sí, se descarta (salvo que la plata salga de otro lado).
+2. **¿Por dónde pasa la plata?** Tiene que haber margen sobre un producto, comisión sobre una venta,
+   un cliente empresa que paga, o plata que circula por nosotros. "Suscripción de la persona" sola no alcanza.
+3. **¿Por qué nos necesitan?** Algo que el otro no consigue solo: oferta juntada, logística, operación
+   física, contactos, confianza o garantía, permisos, datos propios. La IA es la herramienta, no el negocio.
+
 ## Criterios para evaluar cada idea (puntaje 1 a 5, se explica cada uno)
 1. **Escala:** ¿puede llegar a miles o millones de clientes / varios países? ¿El costo por
    cliente nuevo baja con el tamaño?
