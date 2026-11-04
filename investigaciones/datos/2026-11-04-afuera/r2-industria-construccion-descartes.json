@@ -1,0 +1,138 @@
+[
+ {
+  "empresa": "Vamos Locação (Brasil) / Salfa Rent (Chile) / PacLease (México)",
+  "motivo": "Parecido a A6-17 (leasing de máquinas industriales para PyMEs fuera de bancos) y a R1 BasiGo (vehículos alquilados a transportistas). Alquiler de camiones y máquinas a 60 meses con mantenimiento.",
+  "traccion": "~40.293 activos y ~70% del mercado brasileño de alquiler de camiones a fin de 2025 (Moody's Local, abr-2026); receita líquida 2024 R$ 4.699 millones (nordinvestimentos). En Argentina no encontré renting de pesados a 60 meses con mantenimiento (solo contratos de mantenimiento de Volvo y leasing de Mercedes-Benz).",
+  "fuentes": [
+   "https://moodyslocal.com.br/wp-content/uploads/2026/04/MLBR_RelatoriodeCredito_Vamos_Abr2026.pdf",
+   "https://www.nordinvestimentos.com.br/blog/vamo3-vale-a-pena-investir/",
+   "https://www.16valvulas.com.ar/?p=236643",
+   "https://www.guiaminera.cl/salfa-rent-busca-estar-entre-los-tres-principales-actores-del-arriendo-de-maquinarias-y-camiones/"
+  ]
+ },
+ {
+  "empresa": "IFCO (cajones plásticos retornables para frutas y verduras)",
+  "motivo": "Ya tiene presencia en Argentina según su historia (expansión a Argentina y Brasil) y aparece en ejemplos de pools con naranjas argentinas; no pude confirmar si opera hoy.",
+  "traccion": "2.400 millones de envíos de productos frescos en 2024, clientes en más de 50 países (búsqueda; Business Wire 2025-11-06).",
+  "fuentes": [
+   "https://www.businesswire.com/news/home/20251106324273/en"
+  ]
+ },
+ {
+  "empresa": "Dusty Robotics (EE.UU.) — robot que dibuja el plano en el piso de la obra",
+  "motivo": "Sin condición en Argentina: mano de obra de replanteo barata y obras más chicas; tracción alta pero ventaja nula acá (filtro 3/4).",
+  "traccion": "USD ~69 millones recaudados, valuación USD 250 millones en 2022 (forconstructionpros.com); clientes DPR, Turner.",
+  "fuentes": [
+   "https://www.forconstructionpros.com/construction-technology/surveying-layout/article/22223552/dusty-robotics-scales-project-layout-automation",
+   "https://techcrunch.com/?p=2165357"
+  ]
+ },
+ {
+  "empresa": "Fastenal (máquinas expendedoras de insumos dentro de la fábrica) / Grainger / Screwfix (mostrador para oficios)",
+  "motivo": "Parecido a R1 MonotaRO y ZKH (insumos MRO para fábricas y talleres): mismo problema y mismo cliente.",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "SendCutSend / Xometry / JLCPCB (piezas a pedido online)",
+  "motivo": "Parecido a R1 Zetwerk y a IND-1-1 (cotizar piezas a pedido); JLCPCB además ya se usa desde Argentina por courier.",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Mewa (Alemania) / Safety-Kleen (EE.UU.) — trapos industriales y lavadoras de piezas por abono",
+  "motivo": "Parecido a RES-3-4 (talleres acumulan aceite, trapos y solventes sin retiro por abono) y a R1 Duskin.",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Cintas / Elis — alquiler de ropa de trabajo",
+  "motivo": "Parecido a GIM-N097, GI68, GS57 (uniformes como servicio).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Tractian (Brasil) / Augury (Israel) — sensores de mantenimiento predictivo",
+  "motivo": "Parecido a A4-08 y A4-24.",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Daystar Power (Nigeria) / Ecoligo (Alemania) — solar + baterías como servicio para empresas",
+  "motivo": "Parecido a A5-27 (solar con baterías como servicio para minas) y GS11 (techos de galpones para solar).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Lemon Energia / Órigo (Brasil) — energía solar por suscripción para PyMEs",
+  "motivo": "Parecido a GIM-N120/GI9 (solar comunitario) y A1-28 (comercializadora de energía).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Redaptive (EE.UU.) — eficiencia energética pagada con el ahorro",
+  "motivo": "Parecido a C21 (auditoría de energía por facturas para PyMEs) e IND-5-5: mismo problema y cliente.",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Solfácil (Brasil) — financiamiento solar para instaladores",
+  "motivo": "Parecido a GI66 (techos solares financiados) y ENE-1-x (instaladores solares).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Badger Infrastructure / USIC — excavación por succión y localización de servicios enterrados",
+  "motivo": "Parecido a TEL-3-4 (obras que cortan fibra enterrada porque nadie avisa antes de excavar).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "LiveView Technologies — torres solares de vigilancia para obras",
+  "motivo": "Parecido a SEG-2-2 y SEG-1-3.",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Saltbox / Flexe — depósito flexible por m²",
+  "motivo": "Parecido a GS25 (depósito on-demand B2B).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Surplex / RB Global (Ritchie Bros) / Copart — subastas de maquinaria usada y siniestros",
+  "motivo": "Parecido a GS54, GL38 y RES-4-5; además en Argentina ya hay subastas online de maquinaria.",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Infra.Market (India) / OnlineMetals (EE.UU.) — materiales de construcción y metales para PyMEs",
+  "motivo": "Parecido a R1 OfBusiness (materias primas para PyMEs).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "EquipmentShare / Kojo / Andpad / Curri / Hippobag",
+  "motivo": "Parecidos a ALQ-1-x (alquiler con rastreo), CON-1-3/CON-1-4 (compras y parte diario de obra), COM-3-4 (entregas a obra) y RES-2-1 (volquetes).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Initial Hygiene (Rentokil) — servicios de baños para empresas",
+  "motivo": "Parecido a B1-07 (toallitas en el baño pagadas por la empresa).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Concentra (EE.UU.) — medicina laboral para empleadores",
+  "motivo": "Ya existe en Argentina: exámenes preocupacionales y medicina laboral tienen muchos prestadores (no se buscó en detalle).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Daiseki (Japón) — reciclado de aceites y lodos industriales",
+  "motivo": "Parecido a RES-3-4 y RES-3-1 (residuos peligrosos del generador).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ }
+]
