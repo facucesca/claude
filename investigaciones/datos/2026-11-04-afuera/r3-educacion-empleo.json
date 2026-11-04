@@ -1,0 +1,122 @@
+[
+ {
+  "empresa": "FDM Group (y el mismo modelo: Revature en EE.UU., mthree/Wiley en Reino Unido)",
+  "pais": "Reino Unido (opera también en EE.UU., Canadá, Europa y Asia-Pacífico)",
+  "anio_fundacion": "1990 (modelo 'contratar-formar-asignar' desde 1998)",
+  "web": "https://www.fdmgroup.com",
+  "que_hace": "Contrata recién recibidos, ex militares y gente que vuelve a trabajar, los forma gratis unas semanas en sus 'Skills Labs' y después los asigna como consultores a bancos y grandes empresas, que pagan una tarifa diaria por cada uno. El consultor es empleado de FDM durante unos 2 años; si el cliente lo quiere, lo contrata directo. La empresa cliente evita buscar, filtrar y formar juniors.",
+  "problema_que_resuelve": "Los bancos y grandes empresas necesitan juniors técnicos (software, datos, riesgo y cumplimiento) con un perfil preciso y no quieren cargar con el costo ni el riesgo de formarlos. El junior sin experiencia no consigue su primer trabajo en esas empresas.",
+  "como_gana_plata": "Cliente empresa paga: margen entre lo que factura por día cada consultor y su sueldo. Ingreso 2023: £334,0 M, ganancia operativa £55,0 M (16%) y ganancia neta £40,8 M (Wikipedia, citando resultados anuales 2023). El trainee firma un compromiso de ~2 años y si se va antes paga una multa de hasta £20.000 (Wikipedia/The Guardian), que fue cuestionada judicialmente.",
+  "traccion": "Cotiza en la Bolsa de Londres desde 2014. Ingresos 2024: £257,7 M (-23%) y 2.578 consultores asignados al cierre (-34% vs 3.892 en 2023); 2025: £177,7 M (-31%) y 2.003 consultores (resultados FY2024 en investegate.co.uk y datos de FY2025 citados en el mismo resumen). Es decir: modelo probado y rentable por 25 años, pero en caída fuerte desde 2023 por el freno de la contratación de juniors IT.",
+  "por_que_funciono_alla": "Grandes bancos con mucha demanda de juniors y procesos de compras que prefieren un proveedor que 'garantiza' perfiles; derecho laboral británico que permite el contrato de permanencia (aunque discutido).",
+  "existe_esa_condicion_en_argentina": "Parcial. Hay bancos, Mercado Libre, consultoras y exportadoras de software que necesitan juniors, pero el compromiso de permanencia con multa es muy difícil de sostener con la ley laboral argentina (opinión de Claude, no verificado con abogado). El mercado de juniors IT está flojo en todo el mundo (lo muestra la propia caída de FDM).",
+  "argentina_hoy": "No encontré el modelo exacto 'contratar-formar-asignar' (búsqueda: 'Argentina programa contratación juniors capacitación gratuita y asignación a clientes ... hire train deploy'). Lo más cercano: Henry (forma gratis y cobra un % del sueldo al alumno cuando consigue trabajo; Forbes Argentina, https://www.forbesargentina.com/innovacion/son-argentinos-recibieron-10-millones-dolares-ensenar-programacion-costo-inicial-cero-n15565) y Argentina Programa (estatal, https://www.perfil.com/noticias/politica/controversia-por-argentina-programa-un-plan-con-poca-salida-laboral.phtml). Las 'software factories' (Globant, etc.) forman a su propia gente pero no venden juniors formados como producto.",
+  "la_vuelta_para_argentina": "Aplicarlo a perfiles NO de programación donde falta gente y el cliente paga en dólares: analistas de cumplimiento y prevención de lavado, back-office contable para estudios de EE.UU., planificación de producción/SAP para industrias. Formar 6-8 semanas, asignar al cliente (local o del exterior en remoto) y cobrar tarifa mensual por persona; sin multa al trabajador sino con 'fee de conversión' que paga el cliente si lo contrata directo.",
+  "por_que_nos_necesitarian": "Red con empresas cliente + capacidad de filtrar y formar rápido + el riesgo del junior lo asume el intermediario (si no rinde, se reemplaza). No lo reemplaza ChatGPT: lo que se vende es una persona lista y garantizada.",
+  "riesgos": "Laboral: relación de dependencia y figura de 'empresa de servicios eventuales' (regulada) en Argentina; contratos de permanencia problemáticos. Ciclo: cuando los clientes frenan contrataciones el negocio cae rápido (FDM -46% de ingresos 2023-2025). Capital de trabajo: se pagan sueldos antes de cobrar.",
+  "veredicto": "Opinión de Claude: el modelo es real y rentable, pero hoy está en retroceso en IT y en Argentina choca con la ley laboral; solo tiene sentido en un nicho no-IT con demanda probada y cliente que paga en dólares. Puntaje 5/10.",
+  "parecido_a": "Revisados: B2-16, GIM-N158/GI88 (cobro al alumno cuando trabaja: acá paga la empresa, no el alumno), PX5, C30. No coincide.",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/FDM_Group",
+   "https://www.investegate.co.uk/announcement/rns/fdm-group-holdings---fdm/preliminary-announcement-of-results-fy2024/8785735",
+   "https://www.forbesargentina.com/innovacion/son-argentinos-recibieron-10-millones-dolares-ensenar-programacion-costo-inicial-cero-n15565",
+   "https://www.perfil.com/noticias/politica/controversia-por-argentina-programa-un-plan-con-poca-salida-laboral.phtml"
+  ]
+ },
+ {
+  "empresa": "Guild (ex Guild Education)",
+  "pais": "EE.UU.",
+  "anio_fundacion": "2015",
+  "web": "https://www.guild.com",
+  "que_hace": "Administra el beneficio educativo de grandes empleadores (Walmart, Disney, Chipotle, etc.): el empleado de primera línea elige una carrera, certificado o curso de un catálogo de universidades y la empresa la paga directo. Guild arma el catálogo, negocia con las universidades, hace la orientación de carrera y maneja los pagos.",
+  "problema_que_resuelve": "Las grandes empresas con mucha rotación de personal operativo quieren retener y ascender gente, pero no saben armar ni administrar un programa educativo. El empleado no puede pagarse la carrera.",
+  "como_gana_plata": "Le cobran las empresas (fee por administrar el beneficio) y las universidades le pagan cuando un alumno se inscribe (Wikipedia: 'receives payment from schools only when students enroll'). En EE.UU. el empleador tiene ventaja fiscal (Wikipedia). No encontré márgenes ni facturación públicos.",
+  "traccion": "Valuación de US$4.400 M en junio 2022 (Forbes/Bloomberg citados en Wikipedia). ~900 empleados en 2026. Pero con señales de dificultad: despidos del 12% (mayo 2023) y de un cuarto del personal (mayo 2024); Macy's terminó la relación en enero 2025 (Wikipedia).",
+  "por_que_funciono_alla": "Empleadores gigantes con cientos de miles de empleados operativos, ventaja impositiva para educación pagada por la empresa (hasta US$5.250 al año por empleado sin impuesto, conocimiento de Claude, no verificado en esta ronda) y escasez de mano de obra post-pandemia.",
+  "existe_esa_condicion_en_argentina": "Parcial/no. Hay grandes empleadores (supermercados, bancos, call centers) pero no hay una ventaja fiscal masiva comparable. El 'Crédito Fiscal' de la Ley 22.317 existe pero es chico: en 2024 lo usaron solo 130 empresas para 7.171 personas (https://www.argentina.gob.ar/noticias/programa-credito-fiscal-2025). El beneficio educativo en Argentina se da casi solo a ejecutivos: 27% de empresas ayuda con posgrados y 6,38% con carreras de grado (iProfesional, encuesta).",
+  "argentina_hoy": "No encontré una plataforma que administre beneficios educativos para empleados de primera línea (búsqueda: 'empresas argentinas pagan carrera universitaria a empleados de primera línea beneficio educativo plataforma convenio universidades'). Hay convenios sueltos empresa-universidad (Casino Magic Neuquén con UFLO; UCA con un ministerio) y políticas propias (Unipar cubre 70% hasta US$4.800). Fuentes: https://www.iprofesional.com/management/418513-el-beneficio-mas-valorado-y-cuantas-empresas-pagan-por-estudios , https://www.yogonet.com/latinoamerica/noticias/2023/07/04/95202-",
+  "la_vuelta_para_argentina": "Que la plata salga de las universidades privadas y terciarios (pagan comisión por alumno inscripto, como le pagan a Guild) y que el beneficio para la empresa sea un descuento corporativo + gestión gratis + armar el trámite del Crédito Fiscal. Arrancar con 3-5 empleadores grandes del NOA (ingenios, citrícolas, supermercados) y 3-4 universidades a distancia (Siglo 21, UNSTA, etc.).",
+  "por_que_nos_necesitarian": "Oferta juntada (catálogo con descuentos negociados) + relación con RR.HH. de empresas grandes + gestión del pago y del trámite fiscal. Ni la empresa ni la universidad lo arman solas.",
+  "riesgos": "Dependencia de pocas empresas grandes; ventas B2B lentas; el propio Guild muestra que el modelo puro de beneficio es frágil cuando las empresas recortan. Inflación y aranceles en pesos.",
+  "veredicto": "Opinión de Claude: la versión argentina es más bien un canal de venta de matrículas pagado por universidades que un 'Guild'; es real pero de escala media y venta lenta. Puntaje 5/10.",
+  "parecido_a": "Revisados: A1-A40 (cursos de IA in-company: no coincide, acá no damos cursos), L11 (plataforma de aprendizaje confiable: distinto, acá el cliente es la empresa y el producto es el beneficio pagado). No coincide.",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/Guild_Education",
+   "https://www.argentina.gob.ar/noticias/programa-credito-fiscal-2025",
+   "https://www.iprofesional.com/management/418513-el-beneficio-mas-valorado-y-cuantas-empresas-pagan-por-estudios",
+   "https://www.iprofesional.com/management/420470-que-empresas-pagan-posgrados-y-maestrias-a-sus-empleados"
+  ]
+ },
+ {
+  "empresa": "Multiverse",
+  "pais": "Reino Unido (y EE.UU.)",
+  "anio_fundacion": "2016",
+  "web": "https://www.multiverse.io",
+  "que_hace": "Arma programas de 'aprendiz' (apprenticeship) dentro de empresas: el aprendiz trabaja con sueldo y a la vez se forma 12-24 meses en datos, software o IA con Multiverse; al final obtiene un título oficial. También re-capacita a empleados que ya están. La empresa usa para pagarlo un impuesto que igual tiene que pagar (el apprenticeship levy).",
+  "problema_que_resuelve": "Las empresas no encuentran gente con habilidades digitales y tienen un fondo obligatorio para formación que, si no lo usan, pierden; los jóvenes quieren una salida laboral sin endeudarse en la universidad.",
+  "como_gana_plata": "Cliente empresa paga por aprendiz (en Reino Unido, con el fondo del levy). Ingresos £79,6 M en el año a marzo 2025 con pérdida de £63,3 M; primer trimestre con flujo de caja positivo en enero-marzo 2026 (Wikipedia).",
+  "traccion": "Unicornio: £1.200 M de valuación en 2022; ronda de US$70 M a valuación US$2.100 M a comienzos de 2026. Dice haber trabajado con +1.500 empresas y colocado +22.000 aprendices (Wikipedia). Ingresos crecieron de £10,1 M (2021) a £79,6 M (2025).",
+  "por_que_funciono_alla": "La ley: desde 2017 las empresas grandes del Reino Unido pagan 0,5% de su masa salarial como 'apprenticeship levy' y solo lo recuperan gastándolo en formación de aprendices (conocimiento de Claude, no verificado en esta ronda). Esa plata 'cautiva' creó el mercado.",
+  "existe_esa_condicion_en_argentina": "No. No hay un impuesto a la formación que la empresa solo recupere formando gente; el Crédito Fiscal de la Ley 22.317 es voluntario y chico (130 empresas en 2024, https://www.argentina.gob.ar/noticias/programa-credito-fiscal-2025). La ley de pasantías educativas (26.427) es solo para estudiantes (conocimiento de Claude).",
+  "argentina_hoy": "No encontré nada parecido a un aprendizaje de 12-24 meses con título pagado por la empresa (búsquedas usadas en Guild y FDM). El sistema de pasantías universitarias existe (ej. https://cresta.edu.ar/wp-content/uploads/2025/05/SISTEMA-DE-PASANTIAS-EDUCATIVAS-Info-General.pdf).",
+  "la_vuelta_para_argentina": "Sin el levy no hay mercado igual. Lo único rescatable: usar la figura de pasantía con terciarios/universidades a distancia y venderle a la empresa 'pasante formado en lo que vos necesitás' + gestionar el Crédito Fiscal. Escala mucho menor.",
+  "por_que_nos_necesitarian": "Allá: acreditación oficial para dar títulos + gestión del fondo del levy + red de empresas. Acá esa barrera regulatoria no existe.",
+  "riesgos": "Depende 100% de una regla fiscal (si cambia el levy, cae el negocio). En Argentina directamente falta la condición.",
+  "veredicto": "Opinión de Claude: gran empresa, pero su motor es una ley británica que Argentina no tiene; no conviene copiarla. Puntaje 3/10.",
+  "parecido_a": "Revisados: B2-16, GIM-N158 (escuela que cobra cuando trabajás: distinto pagador), EDU-3-4 (coordinar pasantías con mails: es software, no esto). No coincide.",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/Multiverse_(company)",
+   "https://www.argentina.gob.ar/noticias/programa-credito-fiscal-2025",
+   "https://cresta.edu.ar/wp-content/uploads/2025/05/SISTEMA-DE-PASANTIAS-EDUCATIVAS-Info-General.pdf"
+  ]
+ },
+ {
+  "empresa": "Reclutamiento internacional de enfermeros pagado por el empleador: programas Berlitz + empleadores alemanes (México, Chile, Perú) y Health Carousel / PassportUSA (EE.UU.)",
+  "pais": "Alemania (empleadores) con base en México, Chile y Perú; EE.UU. (Health Carousel)",
+  "anio_fundacion": "Health Carousel: 2003 (conocimiento de Claude, no verificado); programas Berlitz-Alemania vigentes 2023-2026",
+  "web": "https://www.berlitz.com/es-pe/programa-de-enfermeria-en-alemania ; https://www.passportusa.com",
+  "que_hace": "Seleccionan licenciados en enfermería en Latinoamérica, les dan gratis 10-12 meses de alemán hasta B1/B2 con un subsidio mensual, tramitan la visa y el reconocimiento del título, les pagan pasaje y los ubican en hospitales y residencias de Alemania. Todo lo paga el empleador alemán. Health Carousel hace lo mismo para hospitales de EE.UU. (con visa de residencia).",
+  "problema_que_resuelve": "Alemania y EE.UU. tienen falta crónica de enfermeros y no los consiguen localmente; el enfermero latinoamericano gana poco y no sabe ni puede pagar el idioma, la homologación ni la visa.",
+  "como_gana_plata": "Cliente empresa paga: el hospital o la residencia paga el curso, el subsidio (400 €/mes en Chile, Meganoticias) y la colocación. El enfermero no paga; las agencias serias cobran al empleador (JobRise). Sueldo de llegada ~3.200 € como auxiliar y ~4.078 € al homologar (Meganoticias, 2025-11-20). No encontré el fee exacto por colocación.",
+  "traccion": "Berlitz y empleadores alemanes buscan cohortes en Chile (ej. 30 enfermeros para residencias de Berlín, nov-2025), Perú y México (convocatorias públicas con universidades y el Servicio Nacional de Empleo de México). PassportUSA (Health Carousel) dice haber patrocinado a +3.000 profesionales y sus familias; Health Carousel facturó US$303 M en EE.UU. en 2019 (Staffing Industry Analysts, dato de todo el grupo). No encontré facturación específica del negocio internacional.",
+  "por_que_funciono_alla": "Escasez real de enfermeros en Alemania + ley alemana que desde marzo 2024 permite entrar con A2 y homologar trabajando (visa de 'asociación de reconocimiento', según JobRise) + diferencia salarial enorme con LATAM.",
+  "existe_esa_condicion_en_argentina": "Sí. Argentina tiene enfermeros con sueldos muy bajos en dólares y muchos con ciudadanía italiana o española (pueden trabajar en la UE sin visa: conocimiento de Claude). La demanda alemana es la misma.",
+  "argentina_hoy": "No encontré un programa así para argentinos: la búsqueda 'agencia reclutamiento enfermeros argentinos para trabajar en Alemania curso de alemán gratis visa' devolvió solo programas de México, Chile, Perú y Ecuador. Berlitz tiene sitio en Argentina (berlitz.com/es-ar responde) pero la página del programa de enfermería para Argentina no existe (404, verificado 2026-11-04). Ámbito solo explica cómo emigrar por cuenta propia (https://www.ambito.com/lifestyle/donde-y-como-conseguir-trabajo-alemania-emigrar-argentina-n6042180).",
+  "la_vuelta_para_argentina": "Agencia argentina que firma con 5-10 residencias y hospitales alemanes (o españoles/italianos para los que tienen pasaporte UE), recluta en universidades y escuelas de enfermería del interior (Tucumán incluido), organiza el curso de alemán online + presencial y acompaña la homologación. Cobra al empleador por cada enfermero que empieza a trabajar. Después se repite con otros oficios con falta en Europa (choferes, electricistas, soldadores).",
+  "por_que_nos_necesitarian": "Confianza y operación: selección, idioma, papeles, visa, homologación y acompañamiento; el empleador alemán no puede reclutar en Tucumán y el enfermero no puede armar el proceso solo. Hay mucha estafa en el rubro, así que la reputación vale.",
+  "riesgos": "Plazos largos (12-18 meses desde la selección hasta el primer cobro); se necesita capital para el curso si el empleador no lo adelanta; abandono a mitad del curso; regulación de agencias de colocación en Argentina y en Alemania; críticas éticas ('fuga de cerebros'); juicios por cláusulas de permanencia (Health Carousel fue demandada, Becker's).",
+  "veredicto": "Opinión de Claude: es de las mejores de esta ronda porque la plata la pone un empleador con dolor real y Argentina tiene la condición; el cuello de botella es conseguir los primeros empleadores alemanes y aguantar el ciclo largo. Puntaje 7/10.",
+  "parecido_a": "Revisados: SAL-4-5, SAL-4-2, MF84 (enfermeros por hora en Argentina: distinto, acá es colocación en el exterior), I2 (CV para Working Holiday), MAS-2-5. No coincide.",
+  "fuentes": [
+   "https://www.berlitz.com/es-pe/programa-de-enfermeria-en-alemania",
+   "https://www.meganoticias.cl/dato-util/506393-buscan-enfermeras-trabajar-alemania-requisitos-sueldos-postular-20-11-2025.html",
+   "https://jobrise.io/es/blog/enfermeria-empleos-alemania-visado-2026/",
+   "https://www.passportusa.com/our-services",
+   "https://www.staffingindustry.com/lists/fastest-growing-staffing-firms/2020-fastest-growing-us-staffing-firms/entrants/health",
+   "https://www.beckershospitalreview.com/legal-regulatory-issues/international-nurses-sue-staffing-agency-over-quitting-penalties-wages.html",
+   "https://www.ambito.com/lifestyle/donde-y-como-conseguir-trabajo-alemania-emigrar-argentina-n6042180"
+  ]
+ },
+ {
+  "empresa": "Prodigy Finance (y MPOWER Financing en EE.UU.)",
+  "pais": "Reino Unido",
+  "anio_fundacion": "2007",
+  "web": "https://prodigyfinance.com",
+  "que_hace": "Presta plata a estudiantes de países emergentes para hacer una maestría en universidades de EE.UU., Reino Unido, Alemania, Francia o Canadá, sin garante ni garantía. Evalúa el riesgo según la universidad, la carrera y el sueldo esperado en el país de destino, no según el historial del país de origen.",
+  "problema_que_resuelve": "Un buen alumno de India, Nigeria o Latinoamérica que entra a una maestría top no consigue crédito: los bancos de su país no prestan en dólares y los de afuera piden garante local.",
+  "como_gana_plata": "Plata que circula por la empresa: interés del préstamo (desde 10,90% variable según su web, consultada 2026-11-04) y comisiones; el capital lo ponen inversores, bancos y exalumnos.",
+  "traccion": "Dice haber financiado a +47.000 estudiantes de maestría en 18 años (web, 2026-11-04). Wikipedia: +US$1.400 M desembolsados a +20.000 estudiantes de 150 nacionalidades (cifra anterior); ronda Serie C de US$40 M liderada por Index Ventures + línea de deuda de US$200 M (2017). Hoy la web muestra 'lista de espera para el ingreso de otoño 2027', señal de que limitó la colocación.",
+  "por_que_funciono_alla": "El sueldo después de una maestría top en EE.UU./Europa es predecible y alto; eso permite prestar sin garante. Mercado enorme de estudiantes indios y africanos.",
+  "existe_esa_condicion_en_argentina": "Parcial. Hay demanda de argentinos que quieren estudiar afuera, pero el número que entra a maestrías caras es chico y muchos usan becas. No verifiqué si Prodigy presta hoy a argentinos.",
+  "argentina_hoy": "No lo busqué en esta ronda por cupo de búsquedas: queda SIN VERIFICAR qué hay en Argentina (bancos locales no dan préstamos en dólares para estudiar afuera, conocimiento de Claude).",
+  "la_vuelta_para_argentina": "No conviene hacer el préstamo (requiere mucho capital). Lo posible sería ser el canal/originador en Argentina y LATAM hispana para Prodigy o MPOWER (comisión por préstamo colocado), junto con la asesoría de admisión.",
+  "por_que_nos_necesitarian": "Datos propios de riesgo y capital para prestar (que nosotros no tenemos). Como canal, solo confianza y red con estudiantes.",
+  "riesgos": "Plata de terceros, regulación financiera, morosidad, riesgo cambiario, necesidad de capital enorme; el propio líder pausó colocaciones (lista de espera).",
+  "veredicto": "Opinión de Claude: buen negocio global pero de capital intensivo y financiero; para Facu no aplica más allá de ser un canal comisionista chico. Puntaje 3/10.",
+  "parecido_a": "Revisados: A1 (propia, escrow con el exterior), GIM-N021 (estudiantes extranjeros que vienen a Argentina). No coincide.",
+  "fuentes": [
+   "https://prodigyfinance.com/",
+   "https://en.wikipedia.org/wiki/Prodigy_Finance"
+  ]
+ }
+]

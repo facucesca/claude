@@ -1,0 +1,78 @@
+[
+ {
+  "empresa": "Sola Salon Studios (EE.UU.)",
+  "motivo": "Parecido a BEL-1-2 (estilistas y barberos independientes sin dónde atender) y BEL-3-4: mismo problema y mismo cliente.",
+  "traccion": "742 locales en EE.UU. y Canadá, 22.000+ profesionales, alquiler ~US$ 250-450/semana por suite (https://www.franchising.com/amp/news/20250616_sola_salons_builds_on_strong_q2_momentum_with_more_openings.html). En Argentina no encontré suites para estilistas.",
+  "fuentes": [
+   "https://www.franchising.com/amp/news/20250616_sola_salons_builds_on_strong_q2_momentum_with_more_openings.html"
+  ]
+ },
+ {
+  "empresa": "uBreakiFix by Asurion (EE.UU.)",
+  "motivo": "Parecido a TEL-4-4 (aseguradoras de celulares sin red de talleres): es justo ese modelo (aseguradora dueña de la red de reparación).",
+  "traccion": "920+ locales en 2016; comprada por Asurion en 2019 (https://en.wikipedia.org/wiki/UBreakiFix).",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/UBreakiFix"
+  ]
+ },
+ {
+  "empresa": "Espaçolaser (Brasil)",
+  "motivo": "Ya existe en Argentina: 28 unidades en Argentina en el 1T25.",
+  "traccion": "810 tiendas en Brasil a fin de 2025, ingresos netos R$ 1.110 millones (resumen de resultados; https://acionista.com.br/espacolaser-espa3-dois-motivos-cruciais-explicam-o-recorde-de-receita-no-1t25/).",
+  "fuentes": [
+   "https://acionista.com.br/espacolaser-espa3-dois-motivos-cruciais-explicam-o-recorde-de-receita-no-1t25/"
+  ]
+ },
+ {
+  "empresa": "Dollar General (EE.UU.) — tiendas de descuento en pueblos",
+  "motivo": "Mismo motivo que el descarte R1 Pepco (cadena de descuento que exige mucho capital) y cercano a R2 Tractor Supply (cadena para pueblos).",
+  "traccion": "20.942 tiendas y US$ 42.700 millones de ventas en FY2025; a 5 millas de ~75% de la población de EE.UU. (resumen de búsqueda; https://www.retailtouchpoints.com/features/news-briefs/dollar-general-plans-450-new-stores-in-2026-with-increased-focus-on-rural-markets).",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/Dollar_General",
+   "https://www.retailtouchpoints.com/features/news-briefs/dollar-general-plans-450-new-stores-in-2026-with-increased-focus-on-rural-markets"
+  ]
+ },
+ {
+  "empresa": "Tiendas 3B (México) / BİM-A101 (Turquía) — hard discount de barrio",
+  "motivo": "Mismo motivo que R1-DESC Żabka y Pepco: formato de descuento de cercanía ya existe en Argentina (DIA con ~1.000 locales) y exige mucho capital.",
+  "traccion": "No investigada a fondo.",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/BBB_Foods"
+  ]
+ },
+ {
+  "empresa": "Action (Países Bajos), TJX/TK Maxx, Grocery Outlet, Ollie's (EE.UU.) — descuento y saldos",
+  "motivo": "Parecido a R1-DESC Pepco, R2-DESC Fix Price y R2-DESC Hotmaxx (descuento y excedentes).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Park24 / Times (Japón) — estacionamientos en terrenos chicos",
+  "motivo": "Parecido a MOV-1-x y MOV-2-1 (playas y cocheras ociosas).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Golfzon (Corea) — golf en simulador",
+  "motivo": "Filtro 4: nicho minúsculo en Argentina (golf poco masivo, sin la condición coreana de canchas carísimas y departamentos densos).",
+  "traccion": "Ingresos 2025 ₩483.300 millones (-22,1%); 13.000+ salas en el mundo, ~8.700 en Corea (https://quartr.com/events/golfzon-co-ltd-a215000-q4-2025_FR2Q4vvA; https://www.seoulz.com/korea-screen-golf-industry-2026/).",
+  "fuentes": [
+   "https://www.seoulz.com/korea-screen-golf-industry-2026/",
+   "https://quartr.com/events/golfzon-co-ltd-a215000-q4-2025_FR2Q4vvA"
+  ]
+ },
+ {
+  "empresa": "Study cafés sin personal (Corea, varias marcas)",
+  "motivo": "Tracción no verificada (no encontré cantidad de locales) y señales de mercado maduro: ~2 de cada 10 cerraron en 4 años y ventas con tarjeta +3% 2022-2025.",
+  "traccion": "Ver https://v.daum.net/v/fYG7zBcnWJ (no leído completo).",
+  "fuentes": [
+   "https://v.daum.net/v/fYG7zBcnWJ"
+  ]
+ },
+ {
+  "empresa": "Tastien (China) — hamburguesas para ciudades chicas",
+  "motivo": "Parecido a R1-china-3 Mixue (franquicia de comida barata para ciudades chicas que gana con insumos).",
+  "traccion": "No investigada.",
+  "fuentes": []
+ }
+]

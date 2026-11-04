@@ -1,0 +1,128 @@
+{
+ "ronda": "R3",
+ "angulo": "autos, flotas, movilidad y logística",
+ "fecha": "2026-11-04",
+ "empresas": [
+  {
+   "empresa": "LKQ Corporation (autopartes recuperadas de autos dados de baja + repuestos alternativos)",
+   "pais": "EE.UU. (también fuerte en Europa)",
+   "anio_fundacion": "1998",
+   "web": "https://www.lkqcorp.com",
+   "que_hace": "Compra autos chocados o dados de baja (en remates de aseguradoras), los desarma en plantas industriales y vende las piezas que sirven (motores, cajas, puertas, ópticas, paragolpes) con código, garantía y entrega en el día a talleres de chapa y mecánica. Suma repuestos alternativos nuevos (no originales) y pintura. El taller compra por catálogo, no 'va al desarmadero a buscar'. Lo que no sirve se vende como chatarra y metales (catalizadores).",
+   "problema_que_resuelve": "Talleres y aseguradoras necesitan piezas más baratas que el repuesto original de concesionaria, pero confiables y trazables. Antes, la pieza usada venía de desarmaderos chicos, sin stock informado ni garantía. Para la aseguradora, una pieza recuperada baja el costo del siniestro y evita dar el auto por destrucción total.",
+   "como_gana_plata": "Margen sobre la pieza: compra el auto entero barato (salvage) y vende 50-150 piezas por separado + chatarra. Facturación de los últimos 12 meses a sep-2026: USD 13.510 millones (stockanalysis). No encontré el margen por pieza publicado: no lo invento.",
+   "traccion": "Facturación anual USD 13.510 M (12 meses a sep-2026), cotiza en NASDAQ (LKQ). Segmentos: Wholesale Norteamérica, Europa, Specialty y Self Service (desarmaderos 'sacalo vos'). Fuentes: https://stockanalysis.com/stocks/lkq/revenue/ y https://stockanalysis.com/stocks/lkq/company/ (leídas 2026-11-04). Ojo: facturación cayendo -1,4% interanual.",
+   "por_que_funciono_alla": "Mucho volumen de autos dados de baja por aseguradoras (remates de Copart/IAA), y aseguradoras que empujan a usar piezas recuperadas para bajar el costo del siniestro. Escala: un catálogo nacional con inventario informatizado gana contra miles de desarmaderos chicos.",
+   "existe_esa_condicion_en_argentina": "Parcial y mejorando. Hay ley de desarmaderos (25.761) con registro RUDAC; en ago-2024 se amplió de 30 a 142 la cantidad de piezas que se pueden recuperar y vender de un auto dado de baja, y en oct-2025 Justicia anunció digitalizar todo el registro. Antes casi no se podía hacer legal a escala; ahora sí hay espacio. Además el repuesto nuevo en Argentina es caro y hay mucho robo de autopartes (mercado ilegal grande).",
+   "argentina_hoy": "Hay ~164 empresas legales de recuperación de autopartes según la cámara CARVA (dato citado en la búsqueda; no lo verifiqué en la fuente original) y mucho desarmadero ilegal (allanamientos frecuentes). No encontré un jugador grande tipo LKQ con catálogo nacional, stock en línea y garantía. Copart está en Argentina (remata los autos, no vende piezas). Búsqueda hecha: 'desarmaderos legales Argentina autopartes usadas certificadas online Ley 25.761'. Fuentes: https://eleconomista.com.ar/autos/el-gobierno-ya-permite-recuperar-y-comprar-mas-autopartes-legales-n76300 (6-ago-2024) y https://www.lanacion.com.ar/autos/el-ministerio-de-justicia-aplico-cambios-para-el-mercado-de-autopartes-de-la-argentina-nid13102025/ (13-oct-2025).",
+   "la_vuelta_para_argentina": "No hacer un desarmadero más: hacer la RED. Paso 1: catálogo único en línea del stock de los desarmaderos legales RUDAC (cada pieza con oblea, foto, código de compatibilidad y garantía de 90 días dada por nosotros). Paso 2: acuerdo con 1-2 aseguradoras para que sus talleres de chapa compren pieza recuperada y les baje el costo del siniestro (cobro por comisión 10-20%: estimación propia, no verificada). Paso 3: planta propia de desarme en el NOA cuando haya volumen.",
+   "por_que_nos_necesitarian": "Inventario juntado de muchos desarmaderos + la garantía y la trazabilidad legal (oblea RUDAC) que el desarmadero chico no puede dar + contrato con aseguradoras. Es operación física y regulada: no la copia una app.",
+   "riesgos": "Regulación cambiante (RUDAC, provincias); asociación con lo ilegal (reputación); capital para comprar autos de remate si se hace planta propia; depender de que aseguradoras acepten pieza recuperada.",
+   "veredicto": "[Opinión de Claude] Muy buen calce: el cambio de ley 2024-2025 abre la puerta y no hay un 'LKQ argentino'. Arrancar como red/catálogo (sin planta) es barato; la escala viene con aseguradoras. Puntaje: 8/10.",
+   "parecido_a": "Revisado: AUT-3-1, AUT-3-4 (identificar pieza/compatibilidad: otro problema), GS35/GL53 (repuesto impreso 3D), R2-DESC Copart (remata autos, no piezas), R2-DESC AutoZone (repuesto nuevo). No coincide.",
+   "fuentes": [
+    "https://stockanalysis.com/stocks/lkq/revenue/",
+    "https://stockanalysis.com/stocks/lkq/company/",
+    "https://eleconomista.com.ar/autos/el-gobierno-ya-permite-recuperar-y-comprar-mas-autopartes-legales-n76300",
+    "https://www.lanacion.com.ar/autos/el-ministerio-de-justicia-aplico-cambios-para-el-mercado-de-autopartes-de-la-argentina-nid13102025/"
+   ]
+  },
+  {
+   "empresa": "Hiflow (ex Expedicar + LuckyLoc) — traslado de autos 'de a uno' con choferes profesionales",
+   "pais": "Francia (también Bélgica, España, Italia)",
+   "anio_fundacion": "2015 aprox. (como Expedicar/LuckyLoc; marca Hiflow desde jun-2019). Año exacto de fundación no verificado.",
+   "web": "https://www.hiflow.com",
+   "que_hace": "Mueve autos de un punto a otro manejados por una red de choferes independientes verificados (o en camión cuando conviene): del concesionario a la casa del comprador, de la rentadora a otra sucursal, de la flota de una empresa al taller o al empleado nuevo. El cliente pide online, ve el seguimiento y recibe acta de entrega con fotos. Su antecesora LuckyLoc tenía una vuelta ingeniosa: alquilaba a 1 euro autos de rentadoras que había que reubicar, así el 'chofer' era un viajero que no cobraba.",
+   "problema_que_resuelve": "Concesionarios, vendedores online de autos, rentadoras, empresas de leasing y flotas necesitan mover autos sueltos todo el tiempo. Mandar a un empleado propio es caro (dos personas, viaje de vuelta) y un camión 'madrina' solo conviene con muchos autos juntos.",
+   "como_gana_plata": "Precio por traslado al cliente empresa; paga al chofer independiente por viaje y se queda con la diferencia. No encontré el ticket promedio ni el margen publicados (no lo invento).",
+   "traccion": "Su web dice 'más de 1.000 vehículos entregados por día' (https://www.hiflow.com, leída 2026-11-04). En 2020 entregó 70.000 vehículos y pasó los 10 M€ de facturación (dato de Auto Infos citado en búsqueda; no abrí la nota original). En 2019 levantó 4 M€ (https://journalauto.com/services/expedicar-et-luckyloc-laissent-place-a-hiflow, leída). Luego entró un accionista mayoritario (CFNews, nota paga: no pude leer el detalle). Clientes citados: Tesla, Europcar.",
+   "por_que_funciono_alla": "La venta de autos online, el leasing y la 'entrega a domicilio' del 0 km crecieron, y en Europa la mano de obra es cara: tercerizar el traslado por viaje sale más barato que tener personal propio.",
+   "existe_esa_condicion_en_argentina": "Parcial. Hay concesionarios, rentadoras (Localiza, Hertz, Avis), flotas corporativas y venta online de usados; además desde 2025 el 0 km se puede patentar en la propia concesionaria, lo que empuja la entrega en casa. Pero la mano de obra es más barata, así que muchos lo resuelven con un empleado.",
+   "argentina_hoy": "TransferCar (de Australia) llegó a Argentina en 2024 con el modelo de 'reubicá el auto de la rentadora gratis' para turistas (https://www.iprofesional.com/autos/411071-como-hago-para-alquilar-auto-gratis-argentina-hacer-turismo). Para traslados B2B profesionales con choferes verificados (concesionarios, leasing, flotas) no encontré un jugador. Búsqueda: 'traslado de vehículos 0km con chofer para concesionarias y flotas Argentina'.",
+   "la_vuelta_para_argentina": "Arrancar con rutas largas donde el camión madrina no conviene y el empleado propio pierde 2 días: concesionarios del interior (NOA) que traen autos de Buenos Aires/Córdoba, rentadoras que reubican entre aeropuertos en temporada, flotas agro y mineras. Choferes verificados + seguro de traslado + acta con fotos y GPS. Se puede sumar el pasajero que viaja gratis (estilo LuckyLoc) para abaratar.",
+   "por_que_nos_necesitarian": "Red de choferes verificados con seguro y protocolo (confianza: es un auto de USD 25.000), cobertura nacional y sistema de seguimiento con acta de daños. Un concesionario solo no arma eso.",
+   "riesgos": "Seguro y responsabilidad por choques/robo en ruta; relación laboral con choferes (riesgo de juicio laboral en Argentina); volumen chico de ventas de autos en recesión; margen bajo si se compite solo por precio.",
+   "veredicto": "[Opinión de Claude] Modelo simple, operable y con poco capital; el hueco B2B en Argentina parece real pero el mercado es mucho más chico que el europeo. Bueno para arrancar con flotas y concesionarios del NOA. Puntaje: 6/10.",
+   "parecido_a": "Revisado: R1-india-12 DriveU (chofer para el dueño particular: otro cliente), GL41 (envíos con remiseros), MOV-3-x (remises). No coincide: acá el cliente es la empresa que mueve autos vacíos.",
+   "fuentes": [
+    "https://www.hiflow.com",
+    "https://journalauto.com/services/expedicar-et-luckyloc-laissent-place-a-hiflow",
+    "https://www.iprofesional.com/autos/411071-como-hago-para-alquilar-auto-gratis-argentina-hacer-turismo"
+   ]
+  },
+  {
+   "empresa": "CarGarantie (garantía mecánica para autos usados vendida por la agencia)",
+   "pais": "Alemania (19 países de Europa)",
+   "anio_fundacion": "Hace 'más de 55 años' según su web (≈1970; año exacto no verificado)",
+   "web": "https://www.cargarantie.com",
+   "que_hace": "Arma y respalda programas de garantía mecánica (motor, caja, electrónica, ahora también batería de autos eléctricos) que el concesionario o la agencia de usados le vende al comprador junto con el auto. Si se rompe algo cubierto, el taller repara y CarGarantie paga. Le da al concesionario el producto, el sistema, la red de talleres y el pago de siniestros.",
+   "problema_que_resuelve": "El que compra un usado tiene miedo de que 'le claven' un auto con falla oculta, y la agencia no puede dar garantía seria con su propia plata. La garantía tercerizada hace que el usado se venda más rápido y más caro, y le deja una comisión a la agencia.",
+   "como_gana_plata": "Prima por cada garantía vendida (la paga el comprador dentro del precio o la agencia); la agencia se lleva una comisión. Ingreso por primas: más de 350 M€ por año (web de la empresa). No encontré el precio por contrato ni el margen.",
+   "traccion": "'Primas anuales por más de 350 M€, presencia en 19 países, más de 40 fabricantes/importadores y más de 23.000 concesionarios' (https://www.cargarantie.com/en/company, leída 2026-11-04). Solo una fuente (la propia): no encontré una segunda en esta ronda.",
+   "por_que_funciono_alla": "Mercado de usados enorme y profesionalizado (concesionarios), y regla de la UE de garantía legal que empujó a profesionalizar. La agencia necesita diferenciarse del particular.",
+   "existe_esa_condicion_en_argentina": "Sí en el problema (desconfianza enorme al comprar usado, agencias chicas), parcial en el canal: el usado se vende mucho entre particulares. La inflación complica fijar precios de reparación a futuro.",
+   "argentina_hoy": "Solo encontré programas de las marcas para sus propios autos (Toyota 10 hasta 10 años si se hacen los services oficiales; Usados Certificados de Toyota con 1 año/20.000 km; Honda con condiciones). Nissan aclara que no vende garantía extendida. No encontré una empresa independiente que le dé garantía mecánica a cualquier agencia de usados. Búsqueda: 'garantía mecánica autos usados Argentina agencias concesionarias empresa garantía extendida'. Fuentes: https://www.lacapital.com.ar/motores/toyota-lanzo-un-nuevo-programa-extender-la-garantia-10-anos-la-argentina-n10192336.html y https://infonegocios.info/default/toyota-argentina-ofrece-usados-con-garantia-de-1-ano-o-20-mil-km",
+   "la_vuelta_para_argentina": "Ofrecerle a las 25.000+ agencias de usados (dato de 2019 de Auto Action, no actualizado) una 'garantía de 6 meses' en dólares o ajustada, emitida por una aseguradora socia (la que tiene licencia SSN) y administrada por nosotros: inspección de 100 puntos con checklist en el celular antes de dar la garantía, red de talleres que reparan a precio acordado. La agencia la usa como argumento de venta y cobra comisión.",
+   "por_que_nos_necesitarian": "Datos propios de fallas y costos de reparación (para tarifar), red de talleres con precio pactado, inspección estandarizada y una aseguradora que respalda: la agencia sola no puede asumir el riesgo.",
+   "riesgos": "Es un seguro: hace falta aseguradora con licencia de la SSN (nosotros como agente/administrador). Fraude (agencias que garantizan autos ya rotos), inflación en costo de repuestos, siniestralidad mal calculada al principio.",
+   "veredicto": "[Opinión de Claude] Hueco claro y plata que pasa por nosotros (prima + gestión de siniestros), pero exige aseguradora socia y buen cálculo de riesgo: no es para arrancar con USD 1.300 solo. Puntaje: 7/10.",
+   "parecido_a": "Revisado: L1 (propia: app intermediaria para cierre seguro de autos usados — es el pago/transferencia, no la garantía mecánica), AUT-2-2 (tasación del usado), AUT-5-2 (presupuesto justo), R2-DESC Frontdoor (garantía de la casa: mismo modelo en otro rubro), R2-europa-norte-11 HomeServe (planes de reparación del hogar). Parecido de MODELO con Frontdoor/HomeServe, distinto rubro y cliente; lo dejo para que decida el filtro.",
+   "fuentes": [
+    "https://www.cargarantie.com/en/company",
+    "https://www.cargarantie.com/",
+    "https://www.lacapital.com.ar/motores/toyota-lanzo-un-nuevo-programa-extender-la-garantia-10-anos-la-argentina-n10192336.html",
+    "https://infonegocios.info/default/toyota-argentina-ofrece-usados-con-garantia-de-1-ano-o-20-mil-km",
+    "https://www.nissan.com.ar/clientes/nissan-service-way.html"
+   ]
+  },
+  {
+   "empresa": "B-Stock Solutions (mercado mayorista de devoluciones y excedentes de grandes cadenas)",
+   "pais": "EE.UU.",
+   "anio_fundacion": "2009 (no verificado en esta ronda)",
+   "web": "https://bstock.com",
+   "que_hace": "Las grandes cadenas y marcas (y sus depósitos de devoluciones) suben lotes de mercadería devuelta, fallada o sobrante —de una caja a un camión entero— a subastas privadas online, y los compran revendedores, outlets y exportadores. B-Stock pone la plataforma, la base de compradores verificados, los precios de referencia y a veces la logística.",
+   "problema_que_resuelve": "El e-commerce devuelve mucha mercadería y procesarla de a una es carísimo; el retail la tiraba o la malvendía a un solo comprador. La subasta entre muchos compradores sube lo que se recupera y libera el depósito rápido.",
+   "como_gana_plata": "Comisión sobre cada lote vendido (la paga el vendedor) más servicios. No encontré el % de comisión publicado (no lo invento).",
+   "traccion": "Según su web: 'más de 130 millones de artículos por año, 400 millones de libras de inventario' (https://bstock.com/about/) y 'base de compradores de casi medio millón; 16.000 artículos vendidos por hora' (https://bstock.com/sellers/), ambas leídas 2026-11-04. Solo fuente propia; no conseguí una segunda fuente independiente en esta ronda.",
+   "por_que_funciono_alla": "Tasa de devolución alta del e-commerce estadounidense (devolución gratis), y una red enorme de revendedores chicos (tiendas de 'liquidación', vendedores de eBay/Amazon).",
+   "existe_esa_condicion_en_argentina": "Parcial: las devoluciones del e-commerce crecen (hay notas sobre logística inversa) y existen 'saldos' y outlets; también la Ley de Defensa del Consumidor da derecho de arrepentimiento de 10 días. El volumen es mucho menor que en EE.UU.",
+   "argentina_hoy": "No encontré una plataforma B2B de subasta de lotes de devoluciones de cadenas/e-commerce en Argentina; solo notas de logística inversa (https://thelogisticsworld.com/logistica-comercio-electronico/devolucion-de-productos-en-argentina-en-aumento-la-logistica-inversa-en-la-sostenibilidad-y-reduccion-de-costos) y sitios de EE.UU. (Via Trading). Hay remates judiciales y de quiebras (Narvaez/Superbid) que no son lo mismo. Búsqueda: 'comprar lotes de devoluciones y excedentes de e-commerce Argentina pallets'.",
+   "la_vuelta_para_argentina": "Empezar por un rubro: electro y tecnología devuelta de 2-3 cadenas o vendedores grandes de Mercado Libre. Nosotros recibimos, revisamos y clasificamos (A/B/C con fotos) en un depósito, y subastamos lotes a la red de revendedores del interior (casas de electro, 'saldos', técnicos). Cobramos comisión al vendedor + fee de clasificación.",
+   "por_que_nos_necesitarian": "Base de compradores juntada (miles de revendedores del interior), clasificación física confiable y precio de referencia propio: la cadena sola vende a un único comprador y pierde.",
+   "riesgos": "Cadenas que no quieren que su producto aparezca barato (canibaliza); garantía de productos reacondicionados; impuestos y facturación de lotes; volumen chico.",
+   "veredicto": "[Opinión de Claude] Buena lógica de 'oferta juntada + clasificación física', pero el volumen argentino es chico y está cerca de ideas ya vistas de sobrantes/remates. Puntaje: 5/10.",
+   "parecido_a": "Revisado: ONG-1-1 (sobrantes de empresas que se destruyen en vez de donarse: mismo cliente, otro destino), J31 (remates privados de liquidaciones y quiebras: parecido), MUD-5-5 (muebles devueltos que se malvenden: parecido en muebles), H18 (stock parado), LOG-2-4/COM-5-4 (coordinar devoluciones: otro problema). PARECIDO PARCIAL a J31 y MUD-5-5: el filtro puede sacarla.",
+   "fuentes": [
+    "https://bstock.com/about/",
+    "https://bstock.com/sellers/",
+    "https://thelogisticsworld.com/logistica-comercio-electronico/devolucion-de-productos-en-argentina-en-aumento-la-logistica-inversa-en-la-sostenibilidad-y-reduccion-de-costos"
+   ]
+  },
+  {
+   "empresa": "Urgently (Urgent.ly) — plataforma de auxilio mecánico y grúa para aseguradoras y automotrices",
+   "pais": "EE.UU. (también Europa, Asia, Australia)",
+   "anio_fundacion": "2013",
+   "web": "https://www.geturgently.com",
+   "que_hace": "Software + red de prestadores de grúa y auxilio: cuando un conductor queda varado, la aseguradora, la automotriz o el club de asistencia manda el pedido a Urgently, que asigna digitalmente al prestador más cercano (como Uber), muestra el seguimiento en el celular y liquida el pago. Reemplaza el call center + llamados telefónicos a grúas.",
+   "problema_que_resuelve": "Las asistencias tradicionales tardan horas: el operador llama a varias grúas hasta encontrar una libre, el cliente no sabe cuándo llega y la aseguradora no controla costos ni calidad.",
+   "como_gana_plata": "Cobra a la aseguradora/automotriz por cada servicio (o por contrato) y le paga al prestador; también licencia el software. Facturación 2025: USD 129,2 M, -9,6% (stockanalysis).",
+   "traccion": "Facturación 2025 USD 129,19 M; cotizaba en NASDAQ (ULY) y hoy en OTC (ULYX), sin operar desde abr-2026 (https://stockanalysis.com/stocks/uly/revenue/). Rondas desde 2014 con Allianz, Verizon, BMW i Ventures, American Tire Distributors (https://en.wikipedia.org/wiki/Urgent.ly). OJO: la empresa está en problemas financieros (ventas en baja, acción casi sin valor).",
+   "por_que_funciono_alla": "Las aseguradoras y automotrices grandes querían digitalizar la asistencia y medir tiempos; la red de grúas estaba atomizada.",
+   "existe_esa_condicion_en_argentina": "Sí: casi todos los seguros de auto incluyen grúa y auxilio (en 2024 el Gobierno intentó permitir sacarlo y dio marcha atrás), las rutas son largas y hay quejas por esperas de 6 horas en vacaciones.",
+   "argentina_hoy": "LaGruva (argentina, 2023) conecta usuarios con grúas en un radio de 150 km con pago en la app y seguimiento; tenía 150 prestadores (https://www.losandes.com.ar/economia/dos-argentinos-inventaron-el-uber-de-las-gruas-para-no-tener-que-esperar-6-horas-por-el-auxilio-en-vacaciones/). Las aseguradoras usan empresas de asistencia con call center. Marco: https://www.lacapitalmdp.com/gruas-el-gobierno-dio-marcha-atras-y-las-aseguradoras-podran-seguir-brindando-el-servicio/. Búsqueda: 'app pedir grúa auxilio mecánico Argentina plataforma aseguradoras prestadores'.",
+   "la_vuelta_para_argentina": "No ir al usuario final (eso ya lo intenta LaGruva) sino vender a aseguradoras medianas del interior y a empresas de asistencia el despacho digital con red de grúas del NOA/NEA, cobrando por servicio asignado.",
+   "por_que_nos_necesitarian": "Red de prestadores juntada y verificada en rutas donde nadie llega + datos de tiempos y costos para la aseguradora.",
+   "riesgos": "El modelo líder en el mundo está en crisis (márgenes chicos, dependencia de pocos clientes grandes); las aseguradoras grandes ya tienen asistencia contratada; competidor local existente.",
+   "veredicto": "[Opinión de Claude] El problema es real en Argentina, pero el líder mundial no gana plata y ya hay un intento local: no lo priorizaría. Puntaje: 4/10.",
+   "parecido_a": "Revisado: B6/B19 (agentes y WhatsApp para talleres), R1-china-1 Tuhu (otro modelo). No coincide.",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/Urgent.ly",
+    "https://stockanalysis.com/stocks/uly/revenue/",
+    "https://www.losandes.com.ar/economia/dos-argentinos-inventaron-el-uber-de-las-gruas-para-no-tener-que-esperar-6-horas-por-el-auxilio-en-vacaciones/",
+    "https://www.cronista.com/infotechnology/it-business/son-argentinos-crearon-el-uber-de-los-talleres-mecanicos-y-ya-son-un-exito",
+    "https://www.lacapitalmdp.com/gruas-el-gobierno-dio-marcha-atras-y-las-aseguradoras-podran-seguir-brindando-el-servicio/"
+   ]
+  }
+ ],
+ "descartadas": []
+}

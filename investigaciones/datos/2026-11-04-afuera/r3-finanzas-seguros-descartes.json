@@ -1,0 +1,88 @@
+[
+ {
+  "empresa": "America's Car-Mart (EE.UU.) — vende autos usados con financiación propia ('buy here, pay here')",
+  "motivo": "Tracción real pero en crisis: su 10-K de abr-2026 declara 'duda sustancial' sobre su continuidad, ingresos -7,9% a USD 1.281,5 M y pérdida de USD 139,2 M en el año fiscal 2026. Además en Argentina muchas agencias ya dan 'financiación propia'. Sirve como advertencia para el modelo de crédito a subprime.",
+  "fuentes": [
+   "https://www.sec.gov/Archives/edgar/data/799850/000162828026048191/crmt-20260430.htm"
+  ]
+ },
+ {
+  "empresa": "Dvara E-Dairy (India), CRDB Smart Mifugo (Tanzania), InsureCow (Bangladesh) — seguro y crédito de ganado con biometría del hocico",
+  "motivo": "Tracción débil o autodeclarada (31.000+ animales identificados según una fuente; cifras mayores solo en LinkedIn). Opinión de Claude: en Argentina la identificación del animal ya la resuelve la caravana electrónica de SENASA (no verificado con link en esta búsqueda), así que la ventaja no aplica igual.",
+  "fuentes": [
+   "https://eng.ruralvoice.in/dvara-e-dairy-partners-with-iffco-tokio-to-launch-ai-powered-cattle-digital-identity-for-cattle-insurance",
+   "https://thecitizen.co.tz/tanzania/business/crdb-insurance-launches-digital-livestock-cover-5513558"
+  ]
+ },
+ {
+  "empresa": "Pula (Kenia), Arbol (EE.UU.), FloodFlash (Reino Unido), Descartes Underwriting (Francia) — seguros paramétricos de clima/inundación",
+  "motivo": "Parecido a A1-14 (aseguradora paramétrica de clima para Latinoamérica). No se investigó.",
+  "fuentes": []
+ },
+ {
+  "empresa": "PayJoy (México) / M-KOPA (Kenia) — celular en cuotas con bloqueo remoto",
+  "motivo": "Parecido a TEL-5-3 (celular en cuotas sin tarjeta) y a la categoría solar (GI66).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Watu / Tugende (África), Moove (global) — financiación de motos y autos para choferes",
+  "motivo": "Parecido a MOV-5-4, R1 BasiGo y R2-DESC Splend.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Sunbit, Hearth (EE.UU.), Bumper (Reino Unido) — cuotas para reparaciones y servicios",
+  "motivo": "Parecido a GS64 (cuotas para la reparación: el plomero cobra hoy, el cliente paga en 6).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Rhino / Zero Deposit — reemplazo del depósito de alquiler",
+  "motivo": "Parecido a GS29 y GS73 (garantía de alquiler); en Argentina ya hay garantías de alquiler comerciales.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Extend, Route, Bolttech, Cover Genius — seguros y garantías embebidos en la compra online",
+  "motivo": "Parecido a ESP-5-3 (garantía extendida para el comercio chico) y a R1-china-9 ZhongAn.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Clicklease (EE.UU.) — leasing chico de equipos online",
+  "motivo": "Parecido a A6-17 (leasing de máquinas para PyMEs fuera de bancos).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Apollo Agriculture (Kenia), TerraMagna y Agrolend (Brasil) — crédito de insumos al productor",
+  "motivo": "Parecido a AGR-5-1 y a Tarfin (descartada en ronda 1).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Xepelin (Chile), Linklogis (China) — factoring genérico para PyMEs",
+  "motivo": "Filtro 4: en Argentina el descuento de cheques/eCheq y facturas de crédito electrónicas ya es masivo (afirmación general de Claude). Se mantuvo solo el factoring de nicho (fletes, ficha Triumph).",
+  "fuentes": []
+ },
+ {
+  "empresa": "JobRad / Bikeleasing (Alemania) — bici por leasing a través del empleador",
+  "motivo": "Parecido a MOV-5-5 (venta de bicis a empleados de empresas).",
+  "fuentes": []
+ },
+ {
+  "empresa": "Ondo InsurTech / LeakBot (Reino Unido) — sensor de pérdidas de agua que dan las aseguradoras",
+  "motivo": "Mismo modelo que Ting (ficha principal) y su dueño histórico es HomeServe (R2-europa-norte-11). No se pudo leer su web (devolvió vacío); se menciona como variante de Ting.",
+  "fuentes": [
+   "https://www.ondoinsurtech.com/"
+  ]
+ },
+ {
+  "empresa": "Tienda Pago (Perú/México)",
+  "motivo": "No es descarte: se unió a la ficha de Mintifi porque es el mismo modelo.",
+  "fuentes": [
+   "https://www.tiendapago.com/"
+  ]
+ },
+ {
+  "empresa": "AtoB (EE.UU.)",
+  "motivo": "No es descarte: se unió a la ficha de Triumph (factoring y pago inmediato al camionero).",
+  "fuentes": [
+   "https://www.atob.com/"
+  ]
+ }
+]
