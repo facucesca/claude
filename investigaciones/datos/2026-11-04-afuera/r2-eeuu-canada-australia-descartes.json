@@ -1,0 +1,168 @@
+[
+ {
+  "empresa": "Copart (EE.UU.)",
+  "motivo": "Ya existe en Argentina: las aseguradoras (SURA, San Cristóbal, Provincia Seguros) rematan autos siniestrados por NarvaezBid / Narvaez Superbid, que se presenta como la principal empresa de subastas online del país.",
+  "traccion": "US$4.650 millones de ingresos 2025, 281 locales, 11 países incluido Brasil (Wikipedia)",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/Copart",
+   "https://www.comparaencasa.com/seguros-de-auto/comparativa-seguros/remate-de-autos-y-companias-de-seguros/"
+  ]
+ },
+ {
+  "empresa": "Safelite / Belron (EE.UU.)",
+  "motivo": "Ya existe en Argentina una red de colocadores: Red Pilkington con 164 colocadores en el país (La Voz de San Justo) y cristalerías con servicio a domicilio.",
+  "traccion": "832 locales, ~16.000 empleados; Belron opera en 42 países (Wikipedia)",
+  "fuentes": [
+   "https://en.wikipedia.org/wiki/Safelite",
+   "https://en.wikipedia.org/wiki/Belron",
+   "https://www.lavozdesanjusto.com.ar/pecile-equipamientos-lider-en-colocacion-de-parabrisas-desembarco-en-el-parque-industrial----87575"
+  ]
+ },
+ {
+  "empresa": "Splend (Australia) — autos en leasing para choferes de Uber",
+  "motivo": "Ya existe en Argentina: Enchulame, DeRentas (con convenio con Uber) y un mercado 'en expansión' de alquiler de autos para apps (iProfesional, Cronista, Hoy Día).",
+  "traccion": "USD 100 millones de IFM Investors (ene-2025, Preqin); US$220 millones de deuda de Element Fleet (Auto Rental News)",
+  "fuentes": [
+   "https://www.iprofesional.com/economia/452654-alquiler-auto-para-trabajar-uber-didi-cabify-cuanto-cuesta-cuanto-rinde",
+   "https://www.cronista.com/apertura/emprendedoress/vieron-un-negocio-en-el-alquiler-de-autos-para-conductores-de-apps-y-ahora-tienen-lista-de-espera",
+   "https://www.autorentalnews.com/news/australian-startup-splend-raises-227m-in-financing"
+  ]
+ },
+ {
+  "empresa": "Jim's Group (Australia) — franquicia multi-oficio con central de llamadas",
+  "motivo": "Parecido a ideas de oficios ya vistas (CON-2-1 a CON-2-5, GIM-N027, GIM-N194, GS63-GS67): mismo problema (encontrar un oficio confiable) y mismo cliente (hogares).",
+  "traccion": "5.700+ franquiciados, 50+ rubros, 1 millón de consultas por año en su central (jims.net)",
+  "fuentes": [
+   "https://www.jims.net/about"
+  ]
+ },
+ {
+  "empresa": "Goldfish Swim School (EE.UU.)",
+  "motivo": "La enseñanza de natación a bebés y chicos (matronatación) ya es común en clubes y gimnasios argentinos (conocimiento de Claude, NO VERIFICADO con link en esta ronda); además exige capital alto (USD 1,6-3,7 millones por escuela).",
+  "traccion": "200+ escuelas en 40 estados y Canadá (IFA, 2026-03); ventas promedio US$1,99 millones por escuela en 2025 (resúmenes del FDD)",
+  "fuentes": [
+   "https://www.franchise.org/2026/03/20-years-200-plus-locations-goldfish-swim-school-celebrates-platinum-anniversary/",
+   "https://www.bizbuysell.com/franchise-for-sale/goldfish-swim-school/"
+  ]
+ },
+ {
+  "empresa": "Weed Man (Canadá) — programa anual de césped",
+  "motivo": "Parecido a GIM-N151/GI64 (plan anual con garantía para la casa, anti-plagas) y HOG-2-3 (mantenimiento de parques en countries): mismo cliente y modelo de abono.",
+  "traccion": "No verificada (la web no cargó)",
+  "fuentes": []
+ },
+ {
+  "empresa": "Mosquito Joe / Mosquito Squad (EE.UU.)",
+  "motivo": "Parecido a GIM-N151 (plan anual anti-plagas) y HOG-4-5 (fumigar contra mosquitos).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "West Shore Home / Bath Fitter (EE.UU.) — baño nuevo en 1-2 días",
+  "motivo": "Parecido a GS59, GL68, GL89 y GS47 (baño nuevo a precio y fecha cerrados).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Groundworks (EE.UU.) — cimientos y humedad",
+  "motivo": "Parecido a GIM-N195/GI102 (humedad sin romper).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Mister Car Wash (EE.UU.)",
+  "motivo": "Parecido a A6-09 (lavaderos túnel con abono ilimitado) y AUT-4-2.",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Home Instead / Visiting Angels (EE.UU.)",
+  "motivo": "Parecido a SAL-4-1, SAL-4-2 y MF84 (cuidadores de adultos mayores).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "1-800-GOT-JUNK / College Hunks (EE.UU./Canadá)",
+  "motivo": "Parecido a GS51 (retiro de bultos con precio por IA) y J13 (vaciado de casas).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Cintas / UniFirst (EE.UU.)",
+  "motivo": "Parecido a GIM-N097/GI68/GS57 (uniformes como servicio) y a Duskin de la ronda 1.",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Frontdoor (EE.UU.) — garantía de la casa",
+  "motivo": "Parecido a GL50 (abono de mantenimiento de la casa) y ESP-5-3 (garantía extendida).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Jobber (Canadá) / ServiceTitan — software para oficios",
+  "motivo": "Parecido a CON-2-1 (agenda, despacho y cobro de técnicos) y H27/K2.",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Boyd Group / Gerber Collision (Canadá) — cadena de talleres de chapa",
+  "motivo": "Parecido a AUT-1-3 (taller de chapa y aseguradora) y GS14 (precio de chapa → red de talleres).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Bushel (EE.UU.) — app para acopios y productores",
+  "motivo": "Parecido a AGR-1-3 (productores llaman al acopio por saldos y liquidaciones) y AGR-1-4.",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Ice House America / Kooler Ice (EE.UU.)",
+  "motivo": "Parecido a B1-13 (máquinas que fabrican y venden hielo solas).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "PODS (EE.UU.) — contenedor de mudanza y guarda en la puerta",
+  "motivo": "Parecido a MUD-1-x y MUD-3-x (mudanzas y bauleras).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Kitchen Tune-Up (EE.UU.)",
+  "motivo": "Parecido a GS47 (reforma de cocina a precio cerrado).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Escuelas de manejo de camiones (CDL) pagadas por transportistas (EE.UU.)",
+  "motivo": "Parecido a GIM-N158/GI88 (escuela corta de oficios que cobra cuando trabajás).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Ritchie Bros / RB Global (Canadá) — remates de maquinaria",
+  "motivo": "Parecido a GS54 y GL38 (maquinaria usada verificada con pago protegido).",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "Insperity / Justworks (EE.UU.) — PEO (empleador compartido)",
+  "motivo": "No existe la condición en Argentina: la ley laboral solo permite empresas de servicios eventuales, no la co-contratación tipo PEO (conocimiento de Claude, NO VERIFICADO con link).",
+  "traccion": "No investigada",
+  "fuentes": []
+ },
+ {
+  "empresa": "Winmark (Plato's Closet, Once Upon a Child)",
+  "motivo": "Parecido a J5 (artículos de bebé y niños usados) y Vinted de la ronda 1.",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ },
+ {
+  "empresa": "AutoZone (EE.UU.) — repuestos en 30 minutos para talleres",
+  "motivo": "Parecido a AUT-1-2 (taller pierde horas llamando a repuestos por precio y stock) y GS84.",
+  "traccion": "No investigada a fondo por parecido",
+  "fuentes": []
+ }
+]
