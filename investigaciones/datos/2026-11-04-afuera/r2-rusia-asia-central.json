@@ -1,0 +1,383 @@
+{
+ "region": "Rusia, Kazajistán, Uzbekistán, Georgia, Armenia y el Cáucaso, Irán y Pakistán",
+ "fecha": "2026-11-04",
+ "nota": "9 empresas tras el filtro; 20 descartadas. Georgia, Armenia, Uzbekistán e Irán no dejaron ninguna empresa que pase el filtro: lo que tienen con tracción son copias locales de modelos que ya existen en Argentina, o software global que ya se usa acá. Se agotó el cupo de 30 búsquedas web; Wikipedia bloqueó las consultas (error 429) y algunos sitios rusos no abrieron (certificado o DNS).",
+ "empresas": [
+  {
+   "empresa": "M-Lombard (y las cadenas de casas de empeño de Kazajistán: MK-Lombard, MK-Zoloto Lombard, Birinshi Lombard)",
+   "pais": "Kazajistán",
+   "anio_fundacion": "No verificado",
+   "web": "https://kase.kz/en/listing/issuers/MFLG (emisores de casas de empeño en la bolsa de Kazajistán)",
+   "que_hace": "Cadenas de casas de empeño: la persona deja oro, un celular, una notebook o el auto como garantía y se lleva plata en efectivo en minutos, sin pedirle recibo de sueldo ni historial de crédito. Si devuelve el préstamo con interés, recupera el objeto; si no, la casa lo vende. Las grandes tienen sucursales en todo el país, plataforma online, call center y joyerías propias para revender lo que no se retira.",
+   "problema_que_resuelve": "Gente sin acceso a crédito bancario (informales, sin historial) que necesita plata ya para una urgencia. En una economía con inflación y bancos que piden muchos papeles, el oro y los aparatos son 'ahorro' fácil de convertir en préstamo.",
+   "como_gana_plata": "Interés del préstamo de corto plazo más la reventa de las garantías no retiradas. Dato verificado: las 7 más grandes ganaron más de 20.000 millones de tenge en el primer semestre de 2025; la líder, M-Lombard, tuvo 7.600 millones de tenge de ganancia con una cartera de 44.000 millones (finratings.kz, 2025-10-17). Las tasas exactas que cobran no las verifiqué.",
+   "traccion": "Verificado: en Kazajistán hay 470 casas de empeño registradas y 7 controlan dos tercios de la cartera; M-Lombard es la líder (cartera 44.000 M tenge, ganancia 7.600 M tenge en el 1er semestre 2025) (https://finratings.kz/news/8035-zolotaia-semerka-kto-upravliaet-lombardnym-biznesom-kazakhstana-i-kuda-delis-ostalnye/amp, 2025-10-17). Varias cotizan deuda en la bolsa de Kazajistán (KASE): Birinshi Lombard, GoldFinMarket, Lombard Partner (https://kase.kz/en/listing/issuers/MFBL). El regulador informa que la cartera de microfinanzas a hogares era de 1,4 billones de tenge al 2026-07-01 (https://qazinform.com/news/household-microloans-in-kazakhstan-reach-14-tn-tenge-2bad7d), sin separar cuánto es de empeño.",
+   "por_que_funciono_alla": "Mucha gente fuera del crédito bancario, costumbre de ahorrar en oro, y una ley que permite casas de empeño privadas como microfinancieras. Las grandes ganaron por escala: tasación automatizada, red de sucursales y canal propio para revender.",
+   "existe_esa_condicion_en_argentina": "Parcial. La necesidad sí (informalidad, inflación, poca bancarización del crédito, oro y celulares como reserva). La ley es la traba: en la Ciudad de Buenos Aires el Banco Ciudad tiene la exclusividad y están prohibidas las casas de empeño privadas (art. 6 del Decreto-Ley 9372/1963). En las provincias no encontré la norma: hay que verificarla provincia por provincia (Tucumán incluida).",
+   "argentina_hoy": "Banco Ciudad hace créditos pignoraticios (con joyas como garantía) solo en CABA (https://www.cronista.com/informacion-gral/el-credito-pignoraticio-que-es-como-funciona-y-donde-podes-acceder-a-este-prestamo-para-conseguir-el-dinero-que-necesitas). En el interior aparecen prestamistas con el auto como garantía (PrestoPrenda en Mendoza, AutoCash) (https://www.elmejortrato.com.ar/creditos/prestamos-por-prendas). No encontré ninguna cadena de casas de empeño de oro y celulares tras buscar: 'casas de empeño privadas Argentina', '\"casa de empeño\" Tucumán OR Córdoba OR Mendoza'. Lo que sí hay son locales sueltos de 'compro oro' (no lo verifiqué con fuente).",
+   "la_vuelta_para_argentina": "Arrancar fuera de CABA (Tucumán, NOA), donde no hay monopolio del Banco Ciudad, después de confirmar la ley provincial con un abogado. Sucursales chicas + tasación con app (peso y pureza del oro; modelo y estado del celular con IMEI verificado contra robo) + venta de lo no retirado por Mercado Libre. Variante más liviana: compra con pacto de recompra ('te lo compro y en 30 días me lo podés recomprar') si el préstamo con garantía estuviera trabado.",
+   "por_que_nos_necesitarian": "Operación física y de confianza: tasar bien, guardar seguro, controlar que no sea robado y revender rápido. Eso no se copia con una app; es una red de locales con datos propios de precios de reventa.",
+   "riesgos": "Legal alto: monopolio en CABA; ley de usura y defensa del consumidor; controles de lavado (UIF) por el oro; mercadería robada. Hace falta capital propio para prestar (la plata sale de la empresa). Mala imagen ('prestamista').",
+   "veredicto": "Opinión de Claude: es de lo más 'raro y real' de la región; en Argentina hay un hueco de verdad, en parte por una ley de 1963, y Tucumán está fuera de esa ley. Lo que define si sirve es la ley provincial y conseguir capital para prestar. Puntaje 7/10.",
+   "parecido_a": "Revisado sin coincidencia: búsqueda 'empeñ|prendari|pawn|lombard' = 0 resultados. Cerca pero distinto: MF58 (pago retenido), GIM-N128.",
+   "fuentes": [
+    "https://finratings.kz/news/8035-zolotaia-semerka-kto-upravliaet-lombardnym-biznesom-kazakhstana-i-kuda-delis-ostalnye/amp",
+    "https://kase.kz/en/listing/issuers/MFBL",
+    "https://qazinform.com/news/household-microloans-in-kazakhstan-reach-14-tn-tenge-2bad7d",
+    "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/34545",
+    "https://www.elmejortrato.com.ar/creditos/prestamos-por-prendas",
+    "https://www.cronista.com/informacion-gral/el-credito-pignoraticio-que-es-como-funciona-y-donde-podes-acceder-a-este-prestamo-para-conseguir-el-dinero-que-necesitas"
+   ]
+  },
+  {
+   "empresa": "Konsol.pro (Консоль)",
+   "pais": "Rusia",
+   "anio_fundacion": "2020 (según el catálogo toolfox.ru; no lo verifiqué en la fuente oficial)",
+   "web": "https://konsol.pro",
+   "que_hace": "Plataforma para que las empresas contraten y paguen a miles de trabajadores independientes ('autónomos', el régimen ruso parecido al monotributo) por tarea: reponer góndola, fasonar, limpiar, repartir, diseñar. La empresa sube las tareas una por una, en lote o por API; la plataforma arma sola el contrato, el acta de trabajo terminado y el comprobante fiscal, controla que el trabajador esté bien inscripto y le paga al instante. También tiene arbitraje si hay un conflicto.",
+   "problema_que_resuelve": "Empresas (retail, depósitos, limpieza, delivery, marketing) que usan cientos de independientes y se ahogaban en papeles: un contrato y un comprobante por persona y por tarea, controlar que cada uno tenga el régimen en regla (si no, la empresa paga impuestos y multas) y hacer cientos de transferencias.",
+   "como_gana_plata": "Comisión sobre lo que se paga por la plataforma o abono de la empresa cliente. No pude verificar el % de comisión (la página de precios se carga con JavaScript). Ingresos declarados por la empresa: 235 millones de rublos en 2022 (konsol.pro/about, según el resumen del buscador).",
+   "traccion": "Según la empresa: más de 1.100 empresas clientes y 'líder del mercado de plataformas para autónomos por facturación 2024', citando los balances de la FNS (https://konsol.pro/about). Según el buscador sobre konsol.pro, a julio de 2025 tenía 1.032.002 autónomos registrados y 1.333 empresas clientes. Contexto verificado del mercado: en junio de 2025 las empresas les pagaron 119.000 millones de rublos a autónomos (dato de la FNS citado por konsol.pro). Ojo: casi todo sale de la propia empresa; no conseguí una fuente independiente (la nota de T-Bank no se pudo abrir).",
+   "por_que_funciono_alla": "La ley rusa de 2019 creó el régimen de 'autónomos' con app oficial ('Mi impuesto') y le hizo responsable a la empresa de verificar la inscripción y juntar el comprobante de cada pago. Así apareció un volumen enorme de pagos chicos que necesitan papeles.",
+   "existe_esa_condicion_en_argentina": "Sí, en buena parte: el monotributo es masivo y muchas empresas pagan a monotributistas (repositores, promotores, fleteros, cadetes) pidiéndoles factura C y la constancia de inscripción. Lo que no hay es la app oficial que emite el comprobante solo, así que acá es más trabajo y la plataforma es más necesaria.",
+   "argentina_hoy": "No encontré una plataforma argentina de tareas + papeles + pago masivo a monotributistas. Búsquedas: 'plataforma pagar monotributistas masivo empresas facturas control constancia Argentina', 'adelanto de sueldo app empresas Argentina'. Lo que hay: Tributo Simple (contabilidad para el monotributista, no para la empresa que contrata) (https://tributosimple.com/argentina), pagos masivos bancarios genéricos, y Deel/Ontop para contratos internacionales. ARCA le reclamó a Rappi y PedidosYa una deuda por sus repartidores (https://www.iprofesional.com/impuestos/391756-rappi-y-pedidosya-en-jaque-afip-reclama-una-deuda-millonaria): muestra que el tema es delicado.",
+   "la_vuelta_para_argentina": "Producto para la empresa: carga de tareas o lote de pagos, la plataforma controla CUIT y categoría del monotributo en ARCA, pide o genera la factura C del monotributista (con su clave delegada), arma el contrato de locación de servicios y paga por transferencia o CVU. Arrancar por un sector con mucho independiente: repositores y promotores de marcas de consumo, fleteros de distribuidoras, cosecha (Tucumán: limón y caña).",
+   "por_que_nos_necesitarian": "Pasa la plata por la plataforma y queda todo el respaldo en papeles; la empresa no quiere sumar 300 proveedores a mano. Red de monotributistas ya verificados y datos de cumplimiento.",
+   "riesgos": "Muy alto en lo laboral: si la relación es en realidad empleo, la empresa y la plataforma pueden quedar como responsables (fraude laboral, juicios). Cambios de ARCA en el monotributo. Hay que ser agente de pago o usar uno habilitado por el BCRA.",
+   "veredicto": "Opinión de Claude: encaja con lo que le gusta a Facu (papeles automatizados, producto igual para muchos, la plata pasa por la empresa) y no vi nada igual en Argentina. El riesgo laboral es serio y hay que diseñarlo con un abogado desde el día 1. Puntaje 6/10.",
+   "parecido_a": "Revisado: R1-turquia-europa-5 (Job&Talent, agencia de trabajo temporal; acá no se toma personal, es la infraestructura de papeles y pagos: parecido parcial, no igual), SER-4-1 (novedades de sueldo), A2/I14/GL84 (monotributo, otro cliente).",
+   "fuentes": [
+    "https://konsol.pro/about",
+    "https://konsol.pro/",
+    "https://konsol.pro/b2b-service",
+    "https://toolfox.ru/services/s/konsol-pro",
+    "https://tributosimple.com/argentina",
+    "https://www.iprofesional.com/impuestos/391756-rappi-y-pedidosya-en-jaque-afip-reclama-una-deuda-millonaria"
+   ]
+  },
+  {
+   "empresa": "ABHI",
+   "pais": "Pakistán (también Emiratos y Arabia Saudita)",
+   "anio_fundacion": "2021",
+   "web": "https://www.abhi.com.pk",
+   "que_hace": "Le permite al empleado sacar parte del sueldo que ya trabajó antes del día de cobro, desde una app o por SMS, en unos 30 segundos. La empresa empleadora se conecta (liquidación de sueldos) y a fin de mes se descuenta lo adelantado. Después sumó liquidación de sueldos, crédito a PyMEs y compró un banco de microfinanzas.",
+   "problema_que_resuelve": "Empleados de sueldos bajos que se quedan sin plata a mitad de mes y terminan en prestamistas informales caros; y empresas que reciben pedidos de adelantos a mano todos los meses.",
+   "como_gana_plata": "Cargo fijo por cada adelanto que paga el empleado o la empresa (el monto exacto no lo verifiqué) y, ahora, ingresos de banco y de crédito PyME.",
+   "traccion": "Verificado: ronda Serie A de USD 17 millones liderada por Speedinvest en abril de 2022; ya generaba caja positiva y trabajaba con 'cientos de empresas' (https://financialit.net/news/fundraising-news/pakistans-first-financial-wellness-platform-abhi-completes-17-million-series, 2022-04-19). Pre-Serie B de USD 25 millones (deuda + acciones) y compra de FINCA Microfinance Bank con aporte de 2.600 millones de rupias (https://profit.pakistantoday.com.pk/2025/01/28/a-historic-move-from-fintech-to-bank, 2025-01-28). USD 15 millones de deuda para crecer en Emiratos (oct-2024, https://www.brecorder.com/news/40327420/pakistans-abhi-secures-15mn-in-credit-financing-to-expand-financial-inclusion-in-uae). El dato de '5.000 empresas' es de una fuente secundaria y no lo verifiqué.",
+   "por_que_funciono_alla": "Sueldos mensuales, mucha gente sin crédito bancario y prestamistas informales caros; la plataforma usa el sueldo devengado como garantía y casi no tiene morosidad.",
+   "existe_esa_condicion_en_argentina": "Sí: inflación, sueldo mensual que no llega a fin de mes y crecen los pedidos de adelanto dentro de las empresas (Cronista, citado en la búsqueda).",
+   "argentina_hoy": "Parcial: los bancos dan adelanto de haberes a clientes con cuenta sueldo (ej. Comafi, https://www.cronista.com/finanzas-mercados/por-la-crisis-mas-bancos-suman-a-sus-productos-la-opcion-del-adelanto-de-sueldo); Buk (software de sueldos chileno, ya en la lista R1-latam-5) ofrece adelanto de sueldo en la región. No encontré una empresa argentina independiente de 'sueldo a demanda' conectada al empleador. Búsqueda: 'adelanto de sueldo app empresas Argentina \"salario a demanda\" beneficio empleados'.",
+   "la_vuelta_para_argentina": "Beneficio gratis para la empresa, conectado a los sistemas de liquidación más usados en PyMEs; el empleado paga un cargo fijo chico por adelanto. Empezar por empresas con mucho personal de sueldo bajo (frigoríficos, ingenios en Tucumán, call centers, cadenas de supermercados regionales) que no trabajan con un solo banco.",
+   "por_que_nos_necesitarian": "Integración con el empleador y el recibo de sueldo (datos propios), la plata pasa por la empresa y se cobra sola en el descuento del recibo: riesgo bajo, difícil para un prestamista común.",
+   "riesgos": "Regulación BCRA (proveedor no financiero de crédito), límites de la Ley de Contrato de Trabajo para descuentos del recibo, plata propia o fondeo para adelantar, y competencia de los bancos de cuenta sueldo.",
+   "veredicto": "Opinión de Claude: necesidad clara y modelo probado, pero en Argentina compite con los bancos de cuenta sueldo y hace falta fondeo. Interesante como producto B2B para PyMEs que no tienen cuenta sueldo en un banco grande. Puntaje 6/10.",
+   "parecido_a": "Revisado: búsqueda 'adelanto de sueldo|salario' = 0 resultados. Relacionado: R1-latam-5 (Buk, que lo trae como parte de su software de sueldos) y SER-4-1.",
+   "fuentes": [
+    "https://financialit.net/news/fundraising-news/pakistans-first-financial-wellness-platform-abhi-completes-17-million-series",
+    "https://profit.pakistantoday.com.pk/2025/01/28/a-historic-move-from-fintech-to-bank",
+    "https://www.brecorder.com/news/40327420/pakistans-abhi-secures-15mn-in-credit-financing-to-expand-financial-inclusion-in-uae",
+    "https://dealstreetasia.com/?p=289295",
+    "https://www.cronista.com/finanzas-mercados/por-la-crisis-mas-bancos-suman-a-sus-productos-la-opcion-del-adelanto-de-sueldo"
+   ]
+  },
+  {
+   "empresa": "Dodo Pizza (Dodo Brands)",
+   "pais": "Rusia (hoy en 26 países)",
+   "anio_fundacion": "2011 (Syktyvkar)",
+   "web": "https://dodobrands.io",
+   "que_hace": "Cadena de pizzerías de delivery y para llevar que crece por franquicias, manejada por un software propio (Dodo IS): caja, pedidos, cocina, compras, stock, turnos y control de calidad con cámaras e IA, todo en la nube. Es 'transparencia radical': publica los números de cada local y los franquiciados se comparan entre sí. El franquiciado recibe el software incluido en la franquicia.",
+   "problema_que_resuelve": "Hacer comida rápida con calidad pareja en cientos de locales de dueños distintos, en ciudades donde las cadenas grandes no llegaban, y que el franquiciado sepa exactamente qué hacer.",
+   "como_gana_plata": "Regalías y canon a los franquiciados. Según los términos publicados (resumen del buscador sobre dodobrands.io/franchise): canon país USD 150.000, regalía del 5% y USD 5.000 por local (no lo pude abrir directo). Ingresos propios del grupo en 2025: 18.100 millones de rublos (+29%), según el informe del 4.º trimestre de 2025 (resumen del buscador).",
+   "traccion": "Verificado: ventas de toda la red de más de USD 1.800 millones en 2025 (+22%), 1.657 locales en 26 países, app con 9 millones de usuarios por mes, 300 ingenieros propios, meta de 4.000 locales para 2030 (https://dodobrands.io/blog/article/dodo-brands-15-years/, abril 2026). Abrió en España en 2025 (https://dodobrands.io/blog/article/first-restaurant-in-spain/). En contra: cerró todos sus locales en Ciudad Ho Chi Minh (https://news.tuoitre.vn/worlds-fastest-growing-pizza-chain-to-close-all-stores-in-ho-chi-minh-city-103250519102101624.htm).",
+   "por_que_funciono_alla": "Ciudades medianas rusas sin cadenas buenas, delivery creciendo y un software que hizo que franquiciar fuera fácil y medible.",
+   "existe_esa_condicion_en_argentina": "Parcial: la pizza es enorme en Argentina pero está en manos de pizzerías sueltas y algunas cadenas; el delivery ya está en PedidosYa y Rappi.",
+   "argentina_hoy": "Hay cadenas: Kentucky (más de 80 locales, dato sin fecha, https://gestion.pe/economia/empresas/pizzeria-argentina-kentucky-evalua-aterrizar-en-peru-por-medio-de-franquicias-pizzerias-franquicias-argentina-noticia/), Almacén de Pizzas, Sbarro, Hell's Pizza (franquicias); Pizza Hut no opera (https://www.iprofesional.com/negocios/434793-cerro-en-chile-pero-no-se-rinde-la-cadena-de-pizzerias-que-quiere-volver-a-argentina). Ninguna se vende como 'franquicia manejada por software con números abiertos'. Búsqueda: 'cadena de pizzerías más grande de Argentina cantidad de locales franquicias 2025'.",
+   "la_vuelta_para_argentina": "Lo copiable no es la pizza sino el 'sistema operativo de franquicia': cadena propia en el NOA con software que maneja todo y números abiertos, o vender ese software a cadenas gastronómicas regionales que quieren franquiciar.",
+   "por_que_nos_necesitarian": "Operación física estandarizada + software propio + marca; el franquiciado compra el método probado.",
+   "riesgos": "Necesita capital y muchos locales para que valga; gastronomía de márgenes chicos; la competencia de pizzerías de barrio es feroz. Facu no es gastronómico.",
+   "veredicto": "Opinión de Claude: empresa excelente, pero en Argentina la pizza ya está cubierta; lo interesante es la idea de 'franquicia manejada por software', que sirve para otros rubros. Como negocio directo para Facu, flojo. Puntaje 5/10.",
+   "parecido_a": "Revisado: A6-21 (cadena franquiciable de empanadas en EE.UU./España: misma lógica de cadena de comida por franquicias, otro producto y otro mercado), R1-china-3 (Mixue, cadena por franquicias), N16, GIM-N110.",
+   "fuentes": [
+    "https://dodobrands.io/blog/article/dodo-brands-15-years/",
+    "https://dodobrands.io/blog/article/first-restaurant-in-spain/",
+    "https://news.tuoitre.vn/worlds-fastest-growing-pizza-chain-to-close-all-stores-in-ho-chi-minh-city-103250519102101624.htm",
+    "https://gestion.pe/economia/empresas/pizzeria-argentina-kentucky-evalua-aterrizar-en-peru-por-medio-de-franquicias-pizzerias-franquicias-argentina-noticia/",
+    "https://www.iprofesional.com/negocios/434793-cerro-en-chile-pero-no-se-rinde-la-cadena-de-pizzerias-que-quiere-volver-a-argentina"
+   ]
+  },
+  {
+   "empresa": "INVITRO",
+   "pais": "Rusia (también Bielorrusia, Kazajistán, Armenia, Kirguistán)",
+   "anio_fundacion": "1995 (no verificado en esta búsqueda)",
+   "web": "https://www.invitro.ru",
+   "que_hace": "Red de laboratorios de análisis clínicos con más de 2.000 'oficinas médicas' donde te sacan sangre y muestras; la mitad son franquicias. Vos elegís el análisis de una lista de precios, pagás de tu bolsillo sin orden médica y recibís el resultado online. Los laboratorios centrales procesan todo; las oficinas chicas solo toman muestras. Sumó minicínicas con médico.",
+   "problema_que_resuelve": "Gente que quería hacerse un análisis rápido sin pasar por el sistema público, con turnos y vueltas, y que estaba dispuesta a pagar un precio claro.",
+   "como_gana_plata": "Precio de cada análisis pagado por el paciente; regalía y canon de los franquiciados que operan las oficinas. Montos de la franquicia: no verificados. Facturación 2019: 20.000 millones de rublos (Vedomosti, 2020).",
+   "traccion": "Verificado: alrededor de 1.500 oficinas (797 propias y 648 franquiciadas) y 20.000 millones de rublos de facturación en 2019 (https://www.vedomosti.ru/business/articles/2020/02/13/822969-invitro). Según el catálogo de franquicias (resumen del buscador; la página no se pudo abrir): más de 2.100 oficinas en 5 países a comienzos de 2026, mitad por franquicia, más de 100 aperturas por año y menos de 2% de cierres (https://topfranchise.ru/products/franshiza-invitro-laboratornaya-diagnostika/).",
+   "por_que_funciono_alla": "Sistema público lento y pago de bolsillo muy común; la ley permite pedir análisis sin orden médica; la logística de muestras al laboratorio central abarata.",
+   "existe_esa_condicion_en_argentina": "Parcial: el gasto de bolsillo en salud crece y los laboratorios se pelean con prepagas y obras sociales por demoras en los pagos (Cronista, en la búsqueda), lo que empuja a cobrar al paciente. Pero la mayoría todavía pasa por obra social y orden médica; las reglas de bioquímica son provinciales.",
+   "argentina_hoy": "Hay laboratorios grandes con varias sedes, pero no encontré una red nacional franquiciada de toma de muestras con precios públicos y pago directo. Búsqueda: 'análisis clínicos sin orden médica precio particular online Argentina laboratorio franquicia centros de extracción' (sin resultados argentinos relevantes). Hay contexto: laboratorios que amenazan con dejar de atender a afiliados de prepagas (https://www.cronista.com/negocios/advierten-que-no-atenderan-a-pacientes-de-prepagas-y-obras-sociales-por-aumentos-y-demoras-en-pagos).",
+   "la_vuelta_para_argentina": "Red de puntos de extracción en franquicia (farmacias, consultorios, pueblos del NOA) que mandan muestras a 1 o 2 laboratorios grandes asociados, con precios publicados, pago online y resultados por WhatsApp. Facu armaría la marca, la logística de muestras y el software; el laboratorio lo pone un socio bioquímico.",
+   "por_que_nos_necesitarian": "Habilitaciones, cadena de frío y logística de muestras, red física y confianza médica: no lo resuelve una app.",
+   "riesgos": "Habilitación sanitaria provincial y dirección técnica de un bioquímico, Colegios de Bioquímicos con mucho peso, capital para equipos, responsabilidad médica.",
+   "veredicto": "Opinión de Claude: modelo sólido y probado, con una tendencia en Argentina a favor (más pago de bolsillo), pero es un negocio regulado donde Facu necesita sí o sí un socio bioquímico/laboratorio. Puntaje 5/10.",
+   "parecido_a": "Revisado: GS43 (comparador de precios de estudios médicos: comparte el 'precio claro' pero es un marketplace, no una red de laboratorios; parecido parcial), R1-latam-11 (dr.consulta, centros médicos de precio fijo: parecido parcial en el lado médico), RES-3-2.",
+   "fuentes": [
+    "https://www.vedomosti.ru/business/articles/2020/02/13/822969-invitro",
+    "https://topfranchise.ru/products/franshiza-invitro-laboratornaya-diagnostika/",
+    "https://www.cronista.com/negocios/advierten-que-no-atenderan-a-pacientes-de-prepagas-y-obras-sociales-por-aumentos-y-demoras-en-pagos",
+    "https://www.cronista.com/negocios/pacientes-de-prepagas-afectados-laboratorios-de-analisis-clinicos-preven-mas-cierres"
+   ]
+  },
+  {
+   "empresa": "PostEx",
+   "pais": "Pakistán (después Arabia Saudita y Emiratos)",
+   "anio_fundacion": "2020",
+   "web": "https://postex.pk",
+   "que_hace": "Hace el envío de las tiendas online y además le adelanta al vendedor la plata de los pedidos 'pago contra entrega' apenas los despacha, sin esperar a que el cadete cobre y el correo liquide. Solo da crédito a quien usa su logística, así controla la plata: entrega, cobra al comprador y se queda con lo adelantado.",
+   "problema_que_resuelve": "En Pakistán el 95% de las compras online se pagan en efectivo al recibir y los correos tardan 10-15 días en liquidar: las tiendas se quedaban sin capital para comprar mercadería.",
+   "como_gana_plata": "Cobra cerca de 3,5-4% al vendedor por el adelanto y gira su capital 7-8 veces por mes, más la tarifa de envío (fundador, en la búsqueda sobre profit.pakistantoday).",
+   "traccion": "Verificado: USD 7,3 millones pre-Serie A (ago-2024), 15.000 comercios activos (80% usan adelanto + envío), morosidad debajo de 0,03%, compró Call Courier y llegó a 650 ciudades (https://techcrunch.com/2024/08/19/pakistans-postex-to-enter-new-markets-starting-with-saudi-arabia, 2024-08-19). Según los fundadores: ingreso anual recurrente de más de USD 21 millones, rentable y más de 4 millones de transacciones por mes (resumen del buscador sobre arabnews / propakistani, ago-2024).",
+   "por_que_funciono_alla": "Casi todo el e-commerce se paga contra entrega y la liquidación de los correos es muy lenta.",
+   "existe_esa_condicion_en_argentina": "No: en Argentina se paga casi todo online (Mercado Pago, tarjetas), el pago contra entrega es chico, y Mercado Pago ya ofrece adelantar el dinero de las ventas.",
+   "argentina_hoy": "Mercado Pago/Mercado Libre cubren el pago y el adelanto de ventas a los vendedores (conocimiento general; no lo verifiqué en esta búsqueda).",
+   "la_vuelta_para_argentina": "Lo único rescatable: 'el que maneja la logística puede prestar con poco riesgo porque controla la plata'. Aplicado a un flete o distribuidora que cobra en la entrega (canal mayorista, almacenes) podría servir, pero es otro negocio.",
+   "por_que_nos_necesitarian": "Logística propia + control del cobro.",
+   "riesgos": "Regulación financiera, capital para adelantar, competencia directa de Mercado Pago.",
+   "veredicto": "Opinión de Claude: gran empresa para Pakistán, pero la condición clave no existe en Argentina. No la recomiendo para copiar. Puntaje 3/10.",
+   "parecido_a": "Revisado: búsqueda 'contra entrega|contrareembolso' sin coincidencias reales; LOG-1-3 (remitos que frenan la facturación, cerca pero otro problema), COM-1-3.",
+   "fuentes": [
+    "https://techcrunch.com/2024/08/19/pakistans-postex-to-enter-new-markets-starting-with-saudi-arabia",
+    "https://profit.pakistantoday.com.pk/?p=130933",
+    "https://propakistani.pk/2024/08/20/postex-raises-7-3-million-in-pre-series-a-round-to-cater-merchants-in-gcc-market/"
+   ]
+  },
+  {
+   "empresa": "Petrovich (СТД «Петрович»)",
+   "pais": "Rusia",
+   "anio_fundacion": "No verificado",
+   "web": "https://petrovich.ru",
+   "que_hace": "Corralón de materiales de construcción 'híbrido': depósitos grandes más venta por web y call center pensada para constructores y contratistas, con entrega a obra (y servicio de subir el material al piso), cuenta corriente para empresas y marcas propias.",
+   "problema_que_resuelve": "Constructores y gente que reforma que perdían tiempo recorriendo corralones, comparando precios y coordinando fletes.",
+   "como_gana_plata": "Margen de reventa de materiales + entrega + marcas propias (11,2% de lo vendido en 2025).",
+   "traccion": "Verificado: facturación 2025 de 188.600 millones de rublos (+4,5%), mitad por venta a distancia (93.500 millones), 3,8 millones de entregas, crecimiento de más de 15% anual en 5 años (https://www.retail.ru/news/petrovich-godovaya-vyruchka-seti-dostigla-188-6-mlrd-rubley-11-fevralya-2026-274365/, 2026-02-11). 2024: 181.000 millones y 3,7 millones de pedidos web (https://www.retail.ru/news/petrovich-vyruchka-v-2024-godu-sostavila-rekordnye-181-mlrd-rubley-24-fevralya-2025-261273/).",
+   "por_que_funciono_alla": "Mucha construcción y reforma particular, profesionales que compran seguido y pocos jugadores formales en la logística a obra.",
+   "existe_esa_condicion_en_argentina": "Parcial: en Argentina hay construcción y reforma constante, pero con corralones de barrio fuertes, Easy y Sodimac.",
+   "argentina_hoy": "No hice una búsqueda específica de 'corralón online para constructores' en Argentina (se agotó el cupo); sé que existen Easy, Sodimac y muchos corralones con venta por WhatsApp, pero no verifiqué un jugador online grande. A verificar.",
+   "la_vuelta_para_argentina": "Corralón digital regional para el NOA: catálogo con precio actualizado, presupuesto de obra al instante, entrega programada a obra y cuenta corriente para constructores, usando el stock de corralones asociados.",
+   "por_que_nos_necesitarian": "Logística pesada a obra, stock, crédito comercial: operación física.",
+   "riesgos": "Capital de trabajo enorme, márgenes chicos, competencia local fuerte; inflación de costos de materiales.",
+   "veredicto": "Opinión de Claude: negocio grande y real, pero exige mucho capital y no está claro el hueco en Argentina (no lo pude verificar). Puntaje 4/10.",
+   "parecido_a": "Revisado: CON-1-3 (compras de materiales cotizadas por WhatsApp: el problema del lado del constructor, parecido parcial), CON-1-1, R1-asia-sudeste-japon-corea-1 (MonotaRO, insumos para fábricas: otro cliente).",
+   "fuentes": [
+    "https://www.retail.ru/news/petrovich-godovaya-vyruchka-seti-dostigla-188-6-mlrd-rubley-11-fevralya-2026-274365/",
+    "https://www.retail.ru/news/petrovich-vyruchka-v-2024-godu-sostavila-rekordnye-181-mlrd-rubley-24-fevralya-2025-261273/",
+    "https://new-retail.ru/novosti/retail/petrovich_narastil_godovuyu_vyruchku_na_4_5/"
+   ]
+  },
+  {
+   "empresa": "Krasnoe & Beloe (Красное & Белое, de Mercury Retail)",
+   "pais": "Rusia",
+   "anio_fundacion": "2006 (según Inc. Russia)",
+   "web": "https://krasnoeibeloe.ru",
+   "que_hace": "Cadena de almacenes chiquitos 'ultra de cercanía', centrados en bebidas alcohólicas baratas, cigarrillos y snacks, con miles de locales en planta baja de edificios. Junto con su cadena hermana Bristol es el mayor vendedor de alcohol y tabaco de Rusia.",
+   "problema_que_resuelve": "Comprar bebida y algo para picar a dos cuadras, barato, en un país donde la venta de alcohol tiene horarios y licencias que dejan afuera a muchos negocios.",
+   "como_gana_plata": "Margen de reventa con volumen enorme. Verificado: en el 1er semestre de 2021 Mercury Retail facturó 328.700 millones de rublos, con EBITDA ajustado de 10,9% y ganancia neta de 5,8% (https://www.interfax.ru/russia/799782).",
+   "traccion": "Verificado: abrió 3.705 locales en 2024 y 955 en 2025; en el 1er trimestre de 2026 cerró más locales de los que abrió por primera vez en 20 años, por restricciones regionales a la venta de alcohol (https://incrussia.ru/news/krasnoe-beloe-vpervye-za-20-let-zakrylo-bolshe-magazinov-chem-otkrylo/, 2026-04-09). El total de locales (unos 20.000 según una fuente secundaria) no lo verifiqué.",
+   "por_que_funciono_alla": "Las licencias y restricciones del alcohol en Rusia hicieron que sea una ventaja tener una red formal grande; mucha densidad de departamentos.",
+   "existe_esa_condicion_en_argentina": "No: en Argentina el alcohol se vende en kioscos, almacenes, chinos y supermercados sin la traba de licencias que creó este formato.",
+   "argentina_hoy": "Formato cubierto de hecho por kioscos, almacenes y autoservicios (no hice búsqueda específica; opinión).",
+   "la_vuelta_para_argentina": "No veo una vuelta clara; como mucho, el aprendizaje de abrir muchos locales chiquitos con un solo formato.",
+   "por_que_nos_necesitarian": "Precio por volumen y red física.",
+   "riesgos": "Capital muy alto, regulación del alcohol, cambio de leyes (justo ahora le está pegando allá).",
+   "veredicto": "Opinión de Claude: muestra lo que pasa cuando una ley crea un formato; en Argentina la ley no existe y el formato ya está cubierto por el kiosco. No recomendado. Puntaje 3/10.",
+   "parecido_a": "Revisado: R1-DESC Żabka (formato de cercanía ya cubierto en Argentina), R1-asia-sudeste-japon-corea-9.",
+   "fuentes": [
+    "https://incrussia.ru/news/krasnoe-beloe-vpervye-za-20-let-zakrylo-bolshe-magazinov-chem-otkrylo/",
+    "https://www.interfax.ru/russia/799782",
+    "https://www.retail.ru/articles/kak-rosli-riteylery-v-2025-godu-ekspansiya-optimizatsiya-i-znachimye-resheniya-vedushchikh-setey/"
+   ]
+  },
+  {
+   "empresa": "Kontur.Diadoc (SKB Kontur)",
+   "pais": "Rusia",
+   "anio_fundacion": "SKB Kontur 1988; Diadoc no verificado",
+   "web": "https://kontur.ru/diadoc",
+   "que_hace": "Sistema para que las empresas se manden entre sí facturas, remitos, actas y contratos electrónicos con firma digital y validez legal, a través de un 'operador' habilitado por el fisco. Se conecta con los sistemas contables y con los operadores de otras empresas, y también con organismos públicos.",
+   "problema_que_resuelve": "Miles de papeles firmados entre empresas que se perdían, llegaban tarde y frenaban cobros y créditos fiscales; además, la ley rusa obliga a ciertos rubros (productos con código de trazabilidad) a usar documentos electrónicos.",
+   "como_gana_plata": "Abono y/o cobro por documento enviado (montos no verificados).",
+   "traccion": "Según la propia empresa: más de 1,5 millones de empresas registradas (dato sin fecha), primer puesto en el ranking del fisco ruso de operadores a comienzos de 2023 y primer operador no estatal del sistema de documentos del Estado (GosEDO) en 2025, con más de 24.000 organismos (resumen del buscador sobre kontur.ru; no pude abrir las páginas directamente). Mercado estimado en 6.500 millones de rublos en 2021 (análisis de Kontur). Tracción independiente: no verificada.",
+   "por_que_funciono_alla": "La ley: documentos electrónicos 'con validez' a través de operadores habilitados y obligatorios en rubros con trazabilidad.",
+   "existe_esa_condicion_en_argentina": "No: en Argentina la factura electrónica la emite directo ARCA, sin operadores privados, y el intercambio entre empresas no es obligatorio.",
+   "argentina_hoy": "Ya existe intercambio electrónico entre proveedores y cadenas: EDICOM opera en Argentina con conectores para Cencosud, Cooperativa Obrera, DIA y Mercado Libre, y un portal web para proveedores chicos (https://edicomgroup.com/es/conectores/cencosud, https://edicomgroup.com/es/recursos/caso-estudio-mercado-libre). Carrefour hace más del 75% de sus pedidos por EDI (nota sin fecha clara, https://mercado.com.ar/revista/numero-990/lo-que-hay-que-tener/).",
+   "la_vuelta_para_argentina": "Solo tendría sentido como red PyME-PyME para remitos y órdenes de compra firmadas, pero sin una ley que lo exija es un 'lindo de tener'.",
+   "por_que_nos_necesitarian": "En Rusia: habilitación del fisco y efecto red. En Argentina esa barrera no existe.",
+   "riesgos": "Sin obligación legal la adopción es lenta; competencia de EDICOM y de los sistemas de gestión.",
+   "veredicto": "Opinión de Claude: en Rusia es un negocio enorme creado por la ley; en Argentina esa ley no existe y lo que hay ya lo cubre EDICOM. No recomendado. Puntaje 3/10.",
+   "parecido_a": "Revisado: B28 (lectura de remitos y órdenes de compra), LOG-1-3 (remitos firmados que llegan tarde), SEG-1-2. Parecido parcial con LOG-1-3.",
+   "fuentes": [
+    "https://kontur.ru/articles/5602",
+    "https://kontur.ru/diadoc/spravka/38538-rejting_operatorov_edo_ot_fns_rossii",
+    "https://kontur.ru/press/news/82712-klienty_kontura_obmenivayutsya_dokumentami_s_mvd",
+    "https://edicomgroup.com/es/conectores/cencosud",
+    "https://edicomgroup.com/es/recursos/caso-estudio-mercado-libre",
+    "https://mercado.com.ar/revista/numero-990/lo-que-hay-que-tener/"
+   ]
+  }
+ ],
+ "descartadas": [
+  {
+   "empresa": "Evotor (Эвотор) — caja inteligente con tienda de apps",
+   "pais": "Rusia",
+   "motivo": "Ya existe en Argentina: Clover (Fiserv), con 200.000 a 250.000 terminales activas y más de 80 integraciones; además Point Smart de Mercado Pago.",
+   "traccion": "1 millón de terminales y 690.000 empresas (dic-2023)",
+   "fuentes": [
+    "https://www.retail.ru/rbc/pressreleases/chislo-ispolzuemykh-evotorov-prevysilo-million/",
+    "https://www.forbesargentina.com/money/finanzas-digitales-una-nueva-app-cobro-suma-mercado-n96538"
+   ]
+  },
+  {
+   "empresa": "Apteka.ru — reservar remedios y retirarlos en la farmacia",
+   "pais": "Rusia",
+   "motivo": "Parecido a MF94/GIM-N113 ('Remedio al mejor precio: buscás un medicamento y ves el precio por farmacia cercana').",
+   "traccion": "84.700 millones de rublos en 9 meses de 2025, 42.974 puntos de venta",
+   "fuentes": [
+    "https://pharmvestnik.ru/content/news/apteka-ru-sohranila-liderstvo-sredi-servisov-distancionnogo-zakaza-2.html"
+   ]
+  },
+  {
+   "empresa": "Autoteka (Avito) — historial del auto usado",
+   "pais": "Rusia",
+   "motivo": "Parecido a AUT-5-4 (kilometraje real y choques de un usado).",
+   "traccion": "No verificada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Oraan — juntas/ahorro en grupo digital",
+   "pais": "Pakistán",
+   "motivo": "Parecido a GIM-N124 (junta digital pasanaku/tanda).",
+   "traccion": "No verificada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Wildberries / Ozon — red de puntos de retiro por franquicia (PVZ)",
+   "pais": "Rusia",
+   "motivo": "Parecido a R1-turquia-europa-2 (InPost) y R1-DESC Hive Box (red de retiro de paquetes); en Argentina ya hay Mercado Libre Places.",
+   "traccion": "~94.000 puntos en 2025; 10.100 millones de rublos pagados a los dueños",
+   "fuentes": [
+    "https://www.retail.ru/news/v-2025-godu-wildberries-sokratil-vyplaty-vladeltsam-pvz-na-25-24-aprelya-2026-277136/"
+   ]
+  },
+  {
+   "empresa": "Ermolino — fábrica de congelados con ~3.000 locales propios de marca",
+   "pais": "Rusia",
+   "motivo": "Parecido a R1-china-5 (Guoquan, red de tiendas de congelados para comer en casa). Datos además contradictorios.",
+   "traccion": "Sin verificar bien",
+   "fuentes": [
+    "https://businessmens.ru/franchise/ermolino-2580"
+   ]
+  },
+  {
+   "empresa": "VkusVill — cadena de productos frescos de vida corta y marca propia",
+   "pais": "Rusia",
+   "motivo": "Parecido a R1-china-6 (Qian Dama, fresco del día en cadena de barrio).",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Lavaderos de autos en autoservicio (WBS Group y otros)",
+   "pais": "Rusia",
+   "motivo": "Existe en Argentina (lavaderos autoservicio sueltos, Lavomat, Manotas) y toca AUT-4-2.",
+   "traccion": "18.500 boxes en Rusia, WBS Group con 5.399",
+   "fuentes": [
+    "https://investfuture.ru/articles/rynok-avtomoek-v-rossii-vyros-na-49-i-voshel-v-fazu-zrelosti-37423496"
+   ]
+  },
+  {
+   "empresa": "Whoosh — monopatines compartidos",
+   "pais": "Rusia",
+   "motivo": "Ya existió en Argentina (Grin, Movo, Lime) y Whoosh perdió ~3.000 millones de rublos en 2025.",
+   "traccion": "Facturación 2025 ~12.500 millones de rublos con pérdida",
+   "fuentes": [
+    "https://expert.ru/news/whoosh-zavershil-2025-god-s-chistym-ubytkom-pochti-v-3-mlrd-rubley"
+   ]
+  },
+  {
+   "empresa": "Kaspi.kz, Uzum (Uzbekistán), Payme/Click — superapps de marketplace + pagos + cuotas",
+   "pais": "Kazajistán/Uzbekistán",
+   "motivo": "Mismo modelo que Mercado Libre + Mercado Pago, que ya domina Argentina.",
+   "traccion": "No investigada (se sabe que es grande)",
+   "fuentes": []
+  },
+  {
+   "empresa": "Snapp, Digikala, Divar, Torob (Irán)",
+   "pais": "Irán",
+   "motivo": "Clones locales de Uber, Mercado Libre y avisos clasificados que ya existen en Argentina.",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Fix Price — tiendas de precio fijo",
+   "pais": "Rusia",
+   "motivo": "Parecido a R1-asia-sudeste-japon-corea-9 (MR. D.I.Y.).",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Haball — pagos y financiamiento entre fábricas, distribuidoras y comercios",
+   "pais": "Pakistán",
+   "motivo": "Parecido a COM-1-3 (cobranza a cientos de comercios).",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Bazaar, Dastgyr, Retailo, Tajir — mayorista por app para almacenes",
+   "pais": "Pakistán",
+   "motivo": "Parecido a R1-india-9 (Jumbotail) y R1-asia-sudeste-japon-corea-8 (GrowSari).",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Truck It In / Bridgelinx — fletes por app",
+   "pais": "Pakistán",
+   "motivo": "Parecido a MF22 (Uber de la logística).",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Zaraye — materias primas (hilado, acero) para PyMEs con financiamiento",
+   "pais": "Pakistán",
+   "motivo": "Parecido a R1-india-4 (OfBusiness).",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "CDEK — correo privado por franquicias",
+   "pais": "Rusia",
+   "motivo": "Parecido a R1-turquia-europa-9 (Nova Poshta).",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "2GIS — guía de comercios y mapas de la ciudad",
+   "pais": "Rusia/Kazajistán",
+   "motivo": "Google Maps domina Argentina (no lo verifiqué con fuente).",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Bykea — mototaxi + envíos + cobros",
+   "pais": "Pakistán",
+   "motivo": "Mototaxi trabado en Argentina y mensajería en moto ya existe.",
+   "traccion": "No investigada",
+   "fuentes": []
+  },
+  {
+   "empresa": "Profi.ru / YouDo — profesionales y oficios a pedido",
+   "pais": "Rusia",
+   "motivo": "Ya existe en Argentina (Zolvers, Workana, etc.) y toca CON-2-1.",
+   "traccion": "No investigada",
+   "fuentes": []
+  }
+ ]
+}
