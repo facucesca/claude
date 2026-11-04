@@ -89,7 +89,15 @@ Cómo se aplica:
     Se regenera con `python3 investigaciones/datos/2026-11-03/build_excel.py`.
   - 21 ideas quedaron **SIN VERIFICAR** y 97 **parciales** (se agotó el cupo de 200 búsquedas web
     por turno). Verificar antes de profundizar cualquiera de esas.
-- **Ahora:** que Facu marque el Excel en colores y comente. Después: verificar y profundizar las marcadas.
+- **2026-11-04 — investigación C en curso** (`investigaciones/datos/2026-11-04/`): pedido de Facu:
+  ideas **chicas, en nichos, fáciles de lanzar**, que resuelvan **cuellos de botella del día a día con
+  app / web / WhatsApp + IA uniendo el mundo real**, tomando cosas que ya existen y dándoles la vuelta;
+  y **entrenar la cabeza** (cada idea trae la "jugada mental" y hay hoja de LECCIONES). 6 ángulos × 20:
+  salud, ingeniería industrial en una app, mundo real + IA, formas nuevas de pagar, agregar valor a lo
+  que existe, personas afectadas y nichos raros. Exclusión: lo anterior + las 300 del 2026-11-03.
+  Pidió **cuidar el uso** (frenar si quedan ~USD 10; Claude no puede ver ese saldo: se limitó a 30
+  búsquedas por investigador). Al terminar: `build_excel.py` de esa carpeta → `investigaciones/2026-11-04-IDEAS-NICHOS-Y-APPS.xlsx`.
+- **Pendiente de Facu:** marcar en colores `2026-11-03-IDEAS-NUEVAS.xlsx` (y después el del 2026-11-04).
 - **Después:** Excel con las ideas nuevas puntuadas → el usuario marca → investigación a fondo
   de las marcadas → elegir 1 y armar el plan de validación.
 
