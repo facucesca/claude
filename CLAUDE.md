@@ -116,10 +116,10 @@ nadie paga. Toda idea tiene que pasar estas 3 preguntas antes de entrar a una li
   funcionó allá, si se da en Argentina, competencia verificada, regulación, cómo arrancar).
   - Fase 1 terminada: 74 empresas (`f1-*.json`). Fase 2: lista corta de 22 en `FASE2-lista-corta.md`.
     A Facu le gustó. Pidió **otra ronda con empresas nuevas** antes de las fichas a fondo.
-  - **Ronda 2 en curso** (`r2-*.json`, exclusión `exclusion-ronda2.txt` = todo lo anterior + las 74):
-    EE.UU./Canadá/Australia (medianas y "aburridas"), Europa del norte, Rusia/Asia Central/Irán/Pakistán,
-    China e India 2.ª pasada (otros sectores), agro y alimentos (mundo), industria y construcción (mundo).
-  - Después: juntar ronda 1 + ronda 2, lista corta y fichas a fondo (fase 3).
+  - **Ronda 2 terminada:** 61 empresas más (`r2-*.json`). Total 135; **lista corta de 40 modelos**.
+    Excel: `investigaciones/2026-11-04-EMPRESAS-DE-AFUERA.xlsx` (regenerar con `build_excel.py` de esa
+    carpeta; la lista corta está en `lista_corta.json`). Resumen: `investigaciones/2026-11-04-empresas-de-afuera.md`.
+  - **Próximo:** que Facu elija cuáles van a fase 3 (ficha a fondo) o que Claude elija las 10-15 mejores.
 - **Pendiente de Facu (opcional):** marcar en colores los dos Excel (`2026-11-03-IDEAS-NUEVAS.xlsx` y `2026-11-04-IDEAS-NICHOS-Y-APPS.xlsx`).
 - **Después:** Excel con las ideas nuevas puntuadas → el usuario marca → investigación a fondo
   de las marcadas → elegir 1 y armar el plan de validación.

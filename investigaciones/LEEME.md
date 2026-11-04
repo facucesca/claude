@@ -9,3 +9,5 @@
 - `registro-nuevo.csv`: todo lo investigado acá (vivas y las que salieron), para no repetirlo después
   (ver Regla N.º 2 en el `CLAUDE.md` de la raíz). Lo anterior está en `../ideas-anteriores/`.
 - Cómo marcar: amarillo = me interesa, verde = explicame mejor, azul = buenísima; comentarios en "Mis comentarios".
+
+| 2026-11-04 (afuera) | 135 empresas reales de 12 regiones/rubros que no existen en Argentina; lista corta de 40 | `2026-11-04-EMPRESAS-DE-AFUERA.xlsx` | `2026-11-04-empresas-de-afuera.md` |
