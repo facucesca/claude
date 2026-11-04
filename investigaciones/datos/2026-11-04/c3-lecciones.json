@@ -1,0 +1,32 @@
+[
+  {
+    "leccion": "Una ley que obliga a llenar una planilla aburrida es un sensor esperando: preguntá qué parte de la planilla puede medir la cámara o el micrófono del celular.",
+    "como_aplicarla": "Listá resoluciones que obligan a 'evaluar', 'medir' o 'registrar' algo físico (posturas, ruido, temperatura, heridas). Por cada una: ¿quién la llena hoy, a mano, y con qué instrumento? Si el instrumento es el ojo o una regla, la cámara puede reemplazarlo.",
+    "ejemplo_real": "TuMeke (EE.UU., 2019) calcula RULA/REBA desde un video del celular para profesionales de seguridad; en Argentina la Res. SRT 886/2015 obliga a todos los empleadores a evaluar el riesgo ergonómico con planillas.",
+    "fuente": "https://apps.apple.com/gb/app/tumeke/id1477099693 ; https://www.argentina.gob.ar/normativa/nacional/246272/texto"
+  },
+  {
+    "leccion": "El aparato 'inteligente' puede ser una foto: en vez de vender hardware conectado, leé con IA el aparato viejo que la gente ya tiene (medidor, tensiómetro, ticket, oblea).",
+    "como_aplicarla": "Buscá startups de afuera cuyo producto es 'aparato conectado + app'. Preguntá: ¿el dato que mide el aparato ya aparece en una pantalla o papel que la gente tiene? Si sí, una foto por WhatsApp lo reemplaza a costo cero y elimina la barrera de compra.",
+    "ejemplo_real": "Hello Heart (EE.UU.) vende un tensiómetro conectado + app a empleadores y levantó USD 70 M en 2022; la versión 'foto del tensiómetro que ya tenés' no necesita hardware.",
+    "fuente": "https://www.healthcareittoday.com/2022/05/04/hello-heart-closes-70m-series-d-funding-following-significant-increase-in-employers-market-demand-for-heart-health-solutions/"
+  },
+  {
+    "leccion": "Cuando el que sufre no paga, buscá al que pierde plata si el problema ocurre y hacé que él regale el sensor.",
+    "como_aplicarla": "Para cada riesgo físico de una casa o persona (incendio, monóxido, caída, pozo que rebalsa), preguntá quién paga la cuenta cuando pasa: aseguradora, obra social, distribuidora, municipio. Ese es tu cliente; el usuario lo recibe gratis.",
+    "ejemplo_real": "State Farm regala a sus asegurados el sensor Ting de Whisker Labs contra incendios eléctricos desde 2020 y en 2024 ofreció más de 2 millones.",
+    "fuente": "https://newsroom.statefarm.com/state-farm-expands-ting-fire-safety-program-to-2-million-homes/"
+  },
+  {
+    "leccion": "Dale el instrumento de medida al lado débil de una negociación: quien vende sin balanza, sin análisis o sin números pierde plata en cada trato.",
+    "como_aplicarla": "Mirá ventas entre un chico y un grande (cañero-ingenio, criador-acopiador, productor-empaque). Identificá qué mide el grande (peso, calidad, rendimiento) que el chico no. Una foto del animal, del árbol o del ticket le da al chico su propio número.",
+    "ejemplo_real": "Aerobotics (Sudáfrica) cuenta y mide fruta con fotos de iPhone para estimar cosecha; PIGI (Japón) estima el peso de cerdos con una foto. En Tucumán, los cañeros tienen 'escaso control sobre los rendimientos' al entregar la caña (Bichos de Campo, 2025).",
+    "fuente": "https://www.freshplaza.com/north-america/article/9618808/taking-pictures-of-fruit-can-lead-to-greater-efficiency-and-more-accurate-data/ ; https://bichosdecampo.com/no-todo-lo-que-brilla-es-oro-ni-todo-lo-que-endulza-es-dulce-los-productores-caneros-de-tucuman-casi-no-ganan-dinero-en-medio-de-una-zafra-record-de-cana/"
+  },
+  {
+    "leccion": "Una app útil que la gente no baja es una oportunidad: pasala a WhatsApp con respuesta instantánea de IA y vendésela al que necesita los datos.",
+    "como_aplicarla": "Buscá apps públicas, de ONG o de asociaciones con buena idea y pocas descargas (listados oficiales, reportes ciudadanos). Rehacé la misma función en un número de WhatsApp que responda en segundos, y cobrale al Estado, la marca o el profesional que gana con esos reportes.",
+    "ejemplo_real": "GeoVin (CONICET) permite mandar fotos de posibles vinchucas para que expertos las identifiquen, y un trabajo del CONICET logró 91,4% de acierto con una red neuronal sobre esas fotos; las apps 'Sin TACC' y 'mobiCeliac' consultan el listado ANMAT por nombre, no por foto.",
+    "fuente": "https://www.conicet.gov.ar/geovin-una-app-para-reportar-la-presencia-de-vinchucas-y-aprender-sobre-ellas/ ; https://apps.apple.com/mo/app/sin-tacc/id1415772707"
+  }
+]

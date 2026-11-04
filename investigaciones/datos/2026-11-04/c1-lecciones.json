@@ -1,0 +1,32 @@
+[
+ {
+  "leccion": "Mirar el hueco ENTRE dos consultas: en salud casi todo se cuida en casa, y ahí no hay nadie mirando.",
+  "como_aplicarla": "Elegí un profesional de salud (kinesiólogo, psicólogo, nutricionista, oncólogo) y preguntale: '¿qué tiene que hacer el paciente entre una vez y la otra, y cómo te enterás si lo hizo?'. Si la respuesta es 'no me entero', hay negocio.",
+  "ejemplo_real": "Noona (Finlandia) hizo una app para que los pacientes con quimio reporten síntomas entre sesiones; Varian la compró en octubre de 2018.",
+  "fuente": "https://www.massdevice.com/varian-acquires-cloud-based-oncology-software-dev-noona-healthcare/"
+ },
+ {
+  "leccion": "No pedirle al paciente que compre un aparato nuevo: conectar con una foto el aparato viejo que ya tiene.",
+  "como_aplicarla": "Listá los aparatos de salud que hay en una casa (tensiómetro, glucómetro, balanza, termómetro, oxímetro). Cada uno con una pantalla de números es un 'sensor' si alguien le saca foto y la IA la lee.",
+  "ejemplo_real": "Hello Heart (EE.UU.) cobra a empleadores y obras sociales por un programa de presión, pero exige su tensiómetro con Bluetooth; ya aparecen apps chicas que leen el tensiómetro común por foto.",
+  "fuente": "https://www.helloheart.com/shbp"
+ },
+ {
+  "leccion": "Buscar tratamientos que la evidencia dice que son los mejores pero que casi nadie recibe porque faltan profesionales: ese cuello de botella se empaqueta en digital.",
+  "como_aplicarla": "Leé guías clínicas ('tratamiento de primera elección') y preguntá cuántos especialistas hay en tu provincia que lo hagan. Si son pocos, una versión guiada por WhatsApp llega a los que hoy no lo reciben.",
+  "ejemplo_real": "Para el insomnio, la terapia cognitivo-conductual es la primera elección, pero casi todos terminan con pastillas; Vigilantes do Sono (Brasil) la vende en digital y ya armó una plataforma para médicos.",
+  "fuente": "https://medicinasa.com.br/vigilantes-sono-medicos/"
+ },
+ {
+  "leccion": "Copiar un sistema que funcionó en un país rico con hardware o precio caro, y rehacerlo 'versión WhatsApp' para el 80% que no lo puede pagar.",
+  "como_aplicarla": "Buscá startups de salud de Europa o EE.UU. con rondas grandes (Crunchbase, notas de prensa) y preguntá: ¿qué parte cara puedo cambiar por el celular + WhatsApp + revisión humana al principio?",
+  "ejemplo_real": "DentalMonitoring (Francia, 2014) llegó a valer USD 1.000 M con monitoreo remoto de ortodoncia por fotos; en LATAM se puede empezar ordenando fotos por WhatsApp sin su accesorio.",
+  "fuente": "https://majunke.com/clipperton-advised-on-the-150m-growth-financing-round-of-dentalmonitoring-led-by-merieux-equity-partners"
+ },
+ {
+  "leccion": "No venderle al paciente: encontrar a quien ya junta a muchos pacientes (o personas) en un mismo momento y venderle a él.",
+  "como_aplicarla": "Para cada idea preguntá: ¿quién tiene a mil de estos usuarios juntos? (laboratorio, organizador de carrera, maternidad, obra social, óptica). Ese es tu canal y muchas veces tu cliente que paga.",
+  "ejemplo_real": "Nest Collaborative (EE.UU.) no le cobra a la mamá: sus consultas de lactancia las pagan más de 250 planes de salud; llegó a más de 50.000 consultas.",
+  "fuente": "https://nestcollaborative.com/nest-collaborative-raises-6m-to-revolutionize-virtual-lactation-support/"
+ }
+]
