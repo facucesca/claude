@@ -14,17 +14,19 @@
    "traccion": "Facturación anual USD 13.510 M (12 meses a sep-2026), cotiza en NASDAQ (LKQ). Segmentos: Wholesale Norteamérica, Europa, Specialty y Self Service (desarmaderos 'sacalo vos'). Fuentes: https://stockanalysis.com/stocks/lkq/revenue/ y https://stockanalysis.com/stocks/lkq/company/ (leídas 2026-11-04). Ojo: facturación cayendo -1,4% interanual.",
    "por_que_funciono_alla": "Mucho volumen de autos dados de baja por aseguradoras (remates de Copart/IAA), y aseguradoras que empujan a usar piezas recuperadas para bajar el costo del siniestro. Escala: un catálogo nacional con inventario informatizado gana contra miles de desarmaderos chicos.",
    "existe_esa_condicion_en_argentina": "Parcial y mejorando. Hay ley de desarmaderos (25.761) con registro RUDAC; en ago-2024 se amplió de 30 a 142 la cantidad de piezas que se pueden recuperar y vender de un auto dado de baja, y en oct-2025 Justicia anunció digitalizar todo el registro. Antes casi no se podía hacer legal a escala; ahora sí hay espacio. Además el repuesto nuevo en Argentina es caro y hay mucho robo de autopartes (mercado ilegal grande).",
-   "argentina_hoy": "Hay ~164 empresas legales de recuperación de autopartes según la cámara CARVA (dato citado en la búsqueda; no lo verifiqué en la fuente original) y mucho desarmadero ilegal (allanamientos frecuentes). No encontré un jugador grande tipo LKQ con catálogo nacional, stock en línea y garantía. Copart está en Argentina (remata los autos, no vende piezas). Búsqueda hecha: 'desarmaderos legales Argentina autopartes usadas certificadas online Ley 25.761'. Fuentes: https://eleconomista.com.ar/autos/el-gobierno-ya-permite-recuperar-y-comprar-mas-autopartes-legales-n76300 (6-ago-2024) y https://www.lanacion.com.ar/autos/el-ministerio-de-justicia-aplico-cambios-para-el-mercado-de-autopartes-de-la-argentina-nid13102025/ (13-oct-2025).",
+   "argentina_hoy": "Hay ~164 empresas legales de recuperación de autopartes según la cámara CARVA (dato citado en la búsqueda; no lo verifiqué en la fuente original) y mucho desarmadero ilegal (allanamientos frecuentes). En una segunda búsqueda apareció Reciklo, un marketplace argentino de autopartes recicladas (no pude abrir su web para ver tamaño ni garantía), y en feb-2026 la Policía de la Ciudad desarmó un desarmadero que vendía por Marketplace (https://www.cadena3.com/noticia/sociedad/desarticulan-un-desarmadero-en-barrio-mitre-que-vendia-autopartes-online_520369). No encontré un jugador grande tipo LKQ con catálogo nacional, stock en línea, garantía y contratos con aseguradoras. Copart está en Argentina (remata los autos, no vende piezas). Búsquedas: 'desarmaderos legales Argentina autopartes usadas certificadas online Ley 25.761' y 'autopartes recuperadas con oblea venta online garantía desarmadero registrado Argentina'. Fuentes: https://eleconomista.com.ar/autos/el-gobierno-ya-permite-recuperar-y-comprar-mas-autopartes-legales-n76300 (6-ago-2024) y https://www.lanacion.com.ar/autos/el-ministerio-de-justicia-aplico-cambios-para-el-mercado-de-autopartes-de-la-argentina-nid13102025/ (13-oct-2025).",
    "la_vuelta_para_argentina": "No hacer un desarmadero más: hacer la RED. Paso 1: catálogo único en línea del stock de los desarmaderos legales RUDAC (cada pieza con oblea, foto, código de compatibilidad y garantía de 90 días dada por nosotros). Paso 2: acuerdo con 1-2 aseguradoras para que sus talleres de chapa compren pieza recuperada y les baje el costo del siniestro (cobro por comisión 10-20%: estimación propia, no verificada). Paso 3: planta propia de desarme en el NOA cuando haya volumen.",
    "por_que_nos_necesitarian": "Inventario juntado de muchos desarmaderos + la garantía y la trazabilidad legal (oblea RUDAC) que el desarmadero chico no puede dar + contrato con aseguradoras. Es operación física y regulada: no la copia una app.",
-   "riesgos": "Regulación cambiante (RUDAC, provincias); asociación con lo ilegal (reputación); capital para comprar autos de remate si se hace planta propia; depender de que aseguradoras acepten pieza recuperada.",
-   "veredicto": "[Opinión de Claude] Muy buen calce: el cambio de ley 2024-2025 abre la puerta y no hay un 'LKQ argentino'. Arrancar como red/catálogo (sin planta) es barato; la escala viene con aseguradoras. Puntaje: 8/10.",
+   "riesgos": "Regulación cambiante (RUDAC, provincias) y lobby en contra: los autopartistas pidieron dar marcha atrás con la ampliación de piezas (https://www.cronista.com/negocios/autopartistas-piden-dar-marcha-atras-con-la-venta-de-mas-piezas-de-desarmaderos); asociación con lo ilegal (reputación); capital para comprar autos de remate si se hace planta propia; depender de que aseguradoras acepten pieza recuperada.",
+   "veredicto": "[Opinión de Claude] Muy buen calce: el cambio de ley 2024-2025 abre la puerta y no hay un 'LKQ argentino'. Arrancar como red/catálogo (sin planta) es barato; la escala viene con aseguradoras. Puntaje: 7/10 (hay un primer marketplace local, Reciklo, que no pude evaluar).",
    "parecido_a": "Revisado: AUT-3-1, AUT-3-4 (identificar pieza/compatibilidad: otro problema), GS35/GL53 (repuesto impreso 3D), R2-DESC Copart (remata autos, no piezas), R2-DESC AutoZone (repuesto nuevo). No coincide.",
    "fuentes": [
     "https://stockanalysis.com/stocks/lkq/revenue/",
     "https://stockanalysis.com/stocks/lkq/company/",
     "https://eleconomista.com.ar/autos/el-gobierno-ya-permite-recuperar-y-comprar-mas-autopartes-legales-n76300",
-    "https://www.lanacion.com.ar/autos/el-ministerio-de-justicia-aplico-cambios-para-el-mercado-de-autopartes-de-la-argentina-nid13102025/"
+    "https://www.lanacion.com.ar/autos/el-ministerio-de-justicia-aplico-cambios-para-el-mercado-de-autopartes-de-la-argentina-nid13102025/",
+    "https://www.cadena3.com/noticia/sociedad/desarticulan-un-desarmadero-en-barrio-mitre-que-vendia-autopartes-online_520369",
+    "https://www.cronista.com/negocios/autopartistas-piden-dar-marcha-atras-con-la-venta-de-mas-piezas-de-desarmaderos"
    ]
   },
   {
@@ -48,31 +50,6 @@
     "https://www.hiflow.com",
     "https://journalauto.com/services/expedicar-et-luckyloc-laissent-place-a-hiflow",
     "https://www.iprofesional.com/autos/411071-como-hago-para-alquilar-auto-gratis-argentina-hacer-turismo"
-   ]
-  },
-  {
-   "empresa": "CarGarantie (garantía mecánica para autos usados vendida por la agencia)",
-   "pais": "Alemania (19 países de Europa)",
-   "anio_fundacion": "Hace 'más de 55 años' según su web (≈1970; año exacto no verificado)",
-   "web": "https://www.cargarantie.com",
-   "que_hace": "Arma y respalda programas de garantía mecánica (motor, caja, electrónica, ahora también batería de autos eléctricos) que el concesionario o la agencia de usados le vende al comprador junto con el auto. Si se rompe algo cubierto, el taller repara y CarGarantie paga. Le da al concesionario el producto, el sistema, la red de talleres y el pago de siniestros.",
-   "problema_que_resuelve": "El que compra un usado tiene miedo de que 'le claven' un auto con falla oculta, y la agencia no puede dar garantía seria con su propia plata. La garantía tercerizada hace que el usado se venda más rápido y más caro, y le deja una comisión a la agencia.",
-   "como_gana_plata": "Prima por cada garantía vendida (la paga el comprador dentro del precio o la agencia); la agencia se lleva una comisión. Ingreso por primas: más de 350 M€ por año (web de la empresa). No encontré el precio por contrato ni el margen.",
-   "traccion": "'Primas anuales por más de 350 M€, presencia en 19 países, más de 40 fabricantes/importadores y más de 23.000 concesionarios' (https://www.cargarantie.com/en/company, leída 2026-11-04). Solo una fuente (la propia): no encontré una segunda en esta ronda.",
-   "por_que_funciono_alla": "Mercado de usados enorme y profesionalizado (concesionarios), y regla de la UE de garantía legal que empujó a profesionalizar. La agencia necesita diferenciarse del particular.",
-   "existe_esa_condicion_en_argentina": "Sí en el problema (desconfianza enorme al comprar usado, agencias chicas), parcial en el canal: el usado se vende mucho entre particulares. La inflación complica fijar precios de reparación a futuro.",
-   "argentina_hoy": "Solo encontré programas de las marcas para sus propios autos (Toyota 10 hasta 10 años si se hacen los services oficiales; Usados Certificados de Toyota con 1 año/20.000 km; Honda con condiciones). Nissan aclara que no vende garantía extendida. No encontré una empresa independiente que le dé garantía mecánica a cualquier agencia de usados. Búsqueda: 'garantía mecánica autos usados Argentina agencias concesionarias empresa garantía extendida'. Fuentes: https://www.lacapital.com.ar/motores/toyota-lanzo-un-nuevo-programa-extender-la-garantia-10-anos-la-argentina-n10192336.html y https://infonegocios.info/default/toyota-argentina-ofrece-usados-con-garantia-de-1-ano-o-20-mil-km",
-   "la_vuelta_para_argentina": "Ofrecerle a las 25.000+ agencias de usados (dato de 2019 de Auto Action, no actualizado) una 'garantía de 6 meses' en dólares o ajustada, emitida por una aseguradora socia (la que tiene licencia SSN) y administrada por nosotros: inspección de 100 puntos con checklist en el celular antes de dar la garantía, red de talleres que reparan a precio acordado. La agencia la usa como argumento de venta y cobra comisión.",
-   "por_que_nos_necesitarian": "Datos propios de fallas y costos de reparación (para tarifar), red de talleres con precio pactado, inspección estandarizada y una aseguradora que respalda: la agencia sola no puede asumir el riesgo.",
-   "riesgos": "Es un seguro: hace falta aseguradora con licencia de la SSN (nosotros como agente/administrador). Fraude (agencias que garantizan autos ya rotos), inflación en costo de repuestos, siniestralidad mal calculada al principio.",
-   "veredicto": "[Opinión de Claude] Hueco claro y plata que pasa por nosotros (prima + gestión de siniestros), pero exige aseguradora socia y buen cálculo de riesgo: no es para arrancar con USD 1.300 solo. Puntaje: 7/10.",
-   "parecido_a": "Revisado: L1 (propia: app intermediaria para cierre seguro de autos usados — es el pago/transferencia, no la garantía mecánica), AUT-2-2 (tasación del usado), AUT-5-2 (presupuesto justo), R2-DESC Frontdoor (garantía de la casa: mismo modelo en otro rubro), R2-europa-norte-11 HomeServe (planes de reparación del hogar). Parecido de MODELO con Frontdoor/HomeServe, distinto rubro y cliente; lo dejo para que decida el filtro.",
-   "fuentes": [
-    "https://www.cargarantie.com/en/company",
-    "https://www.cargarantie.com/",
-    "https://www.lacapital.com.ar/motores/toyota-lanzo-un-nuevo-programa-extender-la-garantia-10-anos-la-argentina-n10192336.html",
-    "https://infonegocios.info/default/toyota-argentina-ofrece-usados-con-garantia-de-1-ano-o-20-mil-km",
-    "https://www.nissan.com.ar/clientes/nissan-service-way.html"
    ]
   },
   {
@@ -192,6 +169,32 @@
     "https://startupi.com.br/cresce-a-procura-de-aplicativos-que-conectam-revendedores-com-clientes-em-busca-de-gas/",
     "https://marcaspelomundo.com.br/anunciantes/campanha-do-chama-reforca-app-como-a-maneira-mais-pratica-de-pedir-botijao-de-gas/",
     "https://canaltech.com.br/apps/comprar-botijao-gas-aplicativo/"
+   ]
+  },
+  {
+   "empresa": "NextGear Capital (Cox Automotive) — 'floor plan': financiar el stock de agencias de usados independientes",
+   "pais": "EE.UU. (también Canadá, Reino Unido)",
+   "anio_fundacion": "2013 (según su web 'desde 2013'; sus antecesoras son más viejas, no verificado)",
+   "web": "https://www.nextgearcapital.com",
+   "que_hace": "Le da a la agencia de usados una línea de crédito para comprar autos para su stock (en subastas o a particulares). Cada auto queda como garantía (el título lo guarda NextGear); cuando la agencia lo vende, devuelve lo que se le prestó por ese auto más intereses y fees. Hace auditorías periódicas en la agencia para chequear que los autos sigan ahí. Está integrada con las subastas de Manheim (del mismo grupo), así que el auto se compra y se financia en el mismo click.",
+   "problema_que_resuelve": "La agencia chica vende tanto como autos tenga en la vereda, y su stock está limitado por su capital propio. Los bancos no le prestan (no tiene balance) y la financiación de marcas solo es para concesionarios oficiales.",
+   "como_gana_plata": "Interés diario sobre lo prestado + fees por auto financiado y por prórroga. Es plata que circula por la empresa. No encontré tasas ni margen publicados (no lo invento).",
+   "traccion": "'Desde 2013 trabajó con más de cien mil concesionarios' (https://www.nextgearcapital.com/about/, leída 2026-11-04). Es parte de Cox Automotive, del grupo Cox Enterprises (USD 21.000 M de facturación del grupo, dueño de Manheim y Autotrader: https://en.wikipedia.org/wiki/Cox_Automotive). Tracción propia de NextGear (cartera, facturación) NO verificada con fuente independiente.",
+   "por_que_funciono_alla": "Muchas agencias independientes, subastas mayoristas grandes y un registro de títulos que permite usar el auto como garantía fácilmente.",
+   "existe_esa_condicion_en_argentina": "Sí en buena parte: hay miles de agencias de usados (Prendo trabaja con más de 2.000; Auto Action decía 25.000 agencias en 2019), existen la prenda y el Registro Automotor para tomar el auto como garantía, y el crédito prendario creció mucho (≈33.000 prendas por mes en jun-jul 2026 según ACARA). La inflación y las tasas altas son el obstáculo.",
+   "argentina_hoy": "Hay floor plan para concesionarios OFICIALES (BBVA para la red Peugeot-Citroën-DS desde 2019; Santander Consumer anunció préstamos de stock a concesionarios) y Kavak armó en dic-2022 un programa bancario estructurado para su propio inventario, que el estudio de abogados describió como inédito en Argentina. No encontré un floor plan para agencias de usados independientes. Búsqueda: 'financiación de stock para agencias de autos usados Argentina floor plan'. Fuentes: https://abogados.com.ar/index.php/tca-tanoira-cassagne-y-egfa-abogados-asesoran-a-kavak-y-a-los-bancos-prestamistas-en-el-armado-de-un-programa-de-financiamiento-bancario-estructurado-para-sus-inventarios-de-automoviles/32202 , https://eleconomista.com.ar/negocios/con-una-inversion-1500-m-desembarca-santander-consumer-n43392 , https://www.cronista.com/informacion-gral/prendo-se-convierte-en-la-empresa-numero-uno-en-colocacion-de-prestamos-prendarios-en-argentina/",
+   "la_vuelta_para_argentina": "Arrancar sin prestar plata propia: armar el 'motor' (alta de agencias, tasación del auto con datos de precios, control de stock con fotos/GPS y auditoría, cobro automático cuando el auto se vende o se prenda) y fondearlo con un fideicomiso o con una financiera/banco socio (como hizo Kavak con bancos). Ventaja propia: Facu conoce cómo manejar crédito comercial y garantías (CEMEVA/granos). Cobrar fee por auto financiado + parte del interés.",
+   "por_que_nos_necesitarian": "Capital juntado (fondeo) + datos propios para tasar y controlar el riesgo + operación física de auditoría de stock en la agencia. La agencia sola no consigue crédito.",
+   "riesgos": "Es crédito: riesgo de que la agencia venda el auto y no pague (fraude 'out of trust'); hace falta registrarse como proveedor no financiero de crédito en el BCRA; tasas en pesos volátiles; requiere mucho capital de terceros para escalar.",
+   "veredicto": "[Opinión de Claude] Es plata que circula, con barrera real (datos + auditoría + fondeo) y un hueco en agencias independientes; el riesgo es financiero y de fraude, así que se arranca con fondeo de un socio y pocas agencias. Puntaje: 7/10.",
+   "parecido_a": "Revisado: R1-latam-14 Creditas (préstamo al dueño con garantía del auto: otro cliente), R2-DESC Credgenics (cobranza), AUT-2-x (agencias de usados: fotos, tasación, papeles — otros problemas), L1 propia (cierre seguro de usados). No coincide.",
+   "fuentes": [
+    "https://www.nextgearcapital.com/about/",
+    "https://en.wikipedia.org/wiki/Cox_Automotive",
+    "https://abogados.com.ar/index.php/tca-tanoira-cassagne-y-egfa-abogados-asesoran-a-kavak-y-a-los-bancos-prestamistas-en-el-armado-de-un-programa-de-financiamiento-bancario-estructurado-para-sus-inventarios-de-automoviles/32202",
+    "https://eleconomista.com.ar/negocios/con-una-inversion-1500-m-desembarca-santander-consumer-n43392",
+    "https://www.cronista.com/informacion-gral/prendo-se-convierte-en-la-empresa-numero-uno-en-colocacion-de-prestamos-prendarios-en-argentina/",
+    "https://eleconomista.com.ar/autos/cayeron-ventas-financiadas-0-km-pero-subieron-usados-n97437"
    ]
   }
  ],
@@ -316,6 +319,45 @@
    "pais": "Reino Unido",
    "motivo": "Igual a GS4 ('Comprador de 0km: subasta inversa entre 15 concesionarias').",
    "traccion": "No investigada por parecido.",
+   "fuentes": []
+  },
+  {
+   "empresa": "CarGarantie (Alemania) — garantía mecánica para usados vendida por la agencia",
+   "pais": "Alemania",
+   "motivo": "Casi existe en Argentina: GarantiPLUS (España, 'líder en garantías mecánicas') entró en 2024 con Autotekne para vender garantías extendidas B2B a concesionarios y compraventas, y una startup local certifica con 280 puntos los usados de 150 concesionarias asociadas; además Toyota y Honda tienen programas propios. Parecido de modelo a R2-DESC Frontdoor y R2 HomeServe.",
+   "traccion": "Primas anuales >350 M€, 19 países, >23.000 concesionarios (web propia).",
+   "fuentes": [
+    "https://www.cargarantie.com/en/company",
+    "https://www.moncloa.com/2024/10/23/garantiplus-y-autotekne-se-unen-para-impulsar-la-seguridad-mecanica-en-concesionarios-argentinos-2972321/",
+    "https://www.cronista.com/autos/autos-usados-garantizados-el-sistema-de-280-items-chequeados-que-evita-el-falso-joya-nunca-uber",
+    "https://www.lacapital.com.ar/motores/toyota-lanzo-un-nuevo-programa-extender-la-garantia-10-anos-la-argentina-n10192336.html"
+   ]
+  },
+  {
+   "empresa": "FMG (Reino Unido, grupo Redde Northgate) — gestión tercerizada de siniestros de flotas",
+   "pais": "Reino Unido",
+   "motivo": "En Argentina los brokers grandes ya lo ofrecen (Lockton Argentina: gestión de reclamos propios y recupero frente a la aseguradora del tercero) y CESVI tiene CLEAS entre aseguradoras; parecido a LOG-4-3 (daños de flota sin registro).",
+   "traccion": "Comprada por Redde en 2015 por £43,2 M; dice resolver >310.000 auxilios por año (web propia).",
+   "fuentes": [
+    "https://www.fleetnews.co.uk/news/fleet-industry-news/2015/08/20/fmg-accident-management-acquired-for-432m",
+    "https://www.fmg.co.uk/",
+    "https://global.lockton.com/ar/es/productos-servicios/ar-flota-de-automoviles"
+   ]
+  },
+  {
+   "empresa": "Circuit (EE.UU.) — combis eléctricas gratis a demanda pagadas por municipios, desarrolladores y publicidad",
+   "pais": "EE.UU.",
+   "motivo": "Mismo modelo que R1 Via Transportation (software + operación de transporte a demanda para municipios) y toca MOV-3-2 (publicidad en vehículos).",
+   "traccion": "No verificada con números (la web solo describe el servicio).",
+   "fuentes": [
+    "https://www.ridecircuit.com/"
+   ]
+  },
+  {
+   "empresa": "MobilityWorks (EE.UU.) — venta y alquiler de vehículos adaptados para silla de ruedas",
+   "pais": "EE.UU.",
+   "motivo": "No pude leer sus páginas de empresa (404) ni verificar tracción; además roza FAM-4-5 (transporte de personas con discapacidad). Queda sin investigar; la condición en Argentina (franquicia de la Ley 19.279 para comprar 0 km) podría valer otra ronda.",
+   "traccion": "No verificada.",
    "fuentes": []
   }
  ]
