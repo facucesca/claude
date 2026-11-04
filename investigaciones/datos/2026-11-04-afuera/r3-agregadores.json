@@ -130,5 +130,32 @@
    "https://base.com/es-AR/blog/?p=18259",
    "https://dplnews.com/?p=330034"
   ]
+ },
+ {
+  "empresa": "Consolidadores de estudios contables con fondos (caso emblema: Citrin Cooperman, comprada por Blackstone en ene-2025; también Baker Tilly + Moss Adams, CohnReznick, Wipfli)",
+  "pais": "EE.UU. (y Reino Unido, Países Bajos)",
+  "anio_fundacion": "Ola desde 2021 (Citrin Cooperman: firma fundada en 1979; primer fondo New Mountain en 2021 — fecha del fondo NO verificada en esta búsqueda)",
+  "web": "https://www.citrincooperman.com",
+  "que_hace": "Un fondo arma una 'plataforma' (un estudio contable mediano) y desde ahí compra decenas de estudios chicos de la zona o de otras ciudades. Los socios que se retiran cobran por su cartera; el estudio comprado pasa a usar sistemas, marca, back-office, personal compartido y tecnología (IA) de la plataforma, y el consolidador vende más servicios (consultoría, impuestos, auditoría) a los mismos clientes.",
+  "problema_que_resuelve": "Socios de estudios que se jubilan sin a quién venderle; falta de contadores jóvenes; estudios chicos que no pueden pagar la tecnología/IA que hoy hace falta. Bloomberg Tax: 'los socios que se retiran buscan maximizar el valor de sus partes' y se necesitan miles de millones para invertir en IA mientras entran menos contadores a la profesión.",
+  "como_gana_plata": "Compra estudios chicos barato (múltiplo bajo) y la suma vale más (múltiplo alto) al venderla a otro fondo; además mejora márgenes con back-office común y vende más servicios por cliente. IFAC: en 2025 cada inversión directa de un fondo generó 7,6 compras adicionales ('índice de consolidación' que se cuadruplicó desde 2021). Ganancia por cliente del estudio: honorarios mensuales recurrentes.",
+  "traccion": "IFAC (año 2015-2025): 177 inversiones directas de fondos facilitaron 875 compras 'roll-up', 1.052 estudios afectados (según resumen de búsqueda de IFAC / CPA Practice Advisor; la página de IFAC leída no mostró la cifra en el texto extraído). Bloomberg Tax (leído 2026-11-04): Blackstone compró participación en Citrin Cooperman en ene-2025, primera vez que un estudio con fondo 'pasa' a otro fondo; al menos USD 2.000 M de capital privado entraron a la contabilidad pública en 3 años; Baker Tilly (10.º de EE.UU.) se fusiona con Moss Adams en una operación de USD 7.000 M (https://news.bloombergtax.com/daily-tax-report-state/private-equity-fueled-shakeup-coming-for-accounting-industry).",
+  "por_que_funciono_alla": "Mercado contable enorme y fragmentado, honorarios recurrentes y predecibles, ola de jubilaciones de socios 'baby boomers', escasez de contadores y la presión de invertir en IA. Los fondos tienen deuda barata para comprar.",
+  "existe_esa_condicion_en_argentina": "Parcial. Hay miles de estudios contables chicos con clientes recurrentes (monotributo, sueldos, ARCA) y socios mayores, y la IA presiona igual. Pero los honorarios son bajos y en pesos, no hay fondos que compren estudios chicos, y las reglas de los Consejos Profesionales sobre quién puede ser dueño de un estudio (no verificadas) pueden limitar a un inversor no contador.",
+  "argentina_hoy": "No encontré consolidadores de estudios contables. Búsqueda: 'Argentina estudios contables fusiones compra de estudios cartera de clientes consolidación inversores 2025 contadores que se retiran' — solo aparecen M&A general (KPMG: 103 operaciones en 2025, USD 8.500 M, https://mercado.com.ar/negocios/fusiones-y-adquisiciones-en-argentina-kpmg-estimo-us-8-500-millones-transados-en-2025) y una fusión de estudios jurídico-tributarios grandes (https://www.cronista.com/apertura/empresas/impuestos-fusion-de-dos-estudios-tributarios-referentes-del-circulo-rojo). La compra informal de 'carteras' entre contadores existe por conocimiento de Claude (NO verificado).",
+  "la_vuelta_para_argentina": "No como fondo (no hay capital), sino como 'plataforma' de back-office con IA para estudios chicos del interior: el estudio se suma (marca común opcional), terceriza liquidaciones de sueldo, carga de comprobantes y presentaciones en un centro común con IA, y paga por cliente procesado; cuando el socio se jubila, la plataforma le compra la cartera en cuotas pagadas con los honorarios futuros (sin plata inicial grande).",
+  "por_que_nos_necesitarian": "Escala de back-office (costo por cliente más bajo), tecnología que el estudio solo no paga, y salida para el socio que se retira (liquidez que nadie más le da).",
+  "riesgos": "Profesión regulada (firma de balances solo por matriculado; normas de los Consejos); honorarios bajos; la relación con el cliente es personal y se puede ir con el socio; Contabilizei-like (contador online) compite por abajo. Afuera ya hay señales de valuaciones infladas que 'empiezan a jugar en contra' (The Finance Story).",
+  "veredicto": "Opinión de Claude: tendencia gigante y real afuera, y en Argentina el hueco existe, pero el negocio de verdad (comprar estudios) necesita capital y la versión 'back-office común' se parece a ideas viejas para estudios contables. Puntaje: 5/10.",
+  "parecido_a": "PARCIAL: R2-eeuu-canada-australia BizBuySell (vender la PyME del dueño que se retira: mismo dolor de sucesión, otro modelo); R1-latam Contabilizei (contador online, competidor); SER-1-1 a SER-1-4, B18, F17 (herramientas para estudios contables: la 'vuelta' de back-office se les parece). Revisados: 'contador', 'estudio contable', 'roll-up', 'consolidad'.",
+  "fuentes": [
+   "https://news.bloombergtax.com/daily-tax-report-state/private-equity-fueled-shakeup-coming-for-accounting-industry",
+   "https://www.ifac.org/private-equity-investment-accountancy/competition-and-consolidation-considerations-and-implications",
+   "https://www.cpapracticeadvisor.com/?p=179385",
+   "https://cpatrendlines.com/2026/03/04/the-7-6x-machine-how-grassroots-firms-are-taking-private-equity-for-a-ride/",
+   "https://thefinancestory.com/ex-kpmg-uk-coo-accounting-consolidator-eyes-1bn-valuation",
+   "https://mercado.com.ar/negocios/fusiones-y-adquisiciones-en-argentina-kpmg-estimo-us-8-500-millones-transados-en-2025",
+   "https://www.cronista.com/apertura/empresas/impuestos-fusion-de-dos-estudios-tributarios-referentes-del-circulo-rojo"
+  ]
  }
 ]
