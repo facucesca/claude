@@ -1,0 +1,83 @@
+[
+  {
+    "empresa": "Fora (Fora Travel)",
+    "pais": "EE.UU.",
+    "anio_fundacion": "2021 (según Skift: 'después de solo cinco años' en jul-2026)",
+    "web": "https://www.foratravel.com",
+    "que_hace": "Es una 'host agency': una agencia paraguas que deja que cualquier persona trabaje como asesor de viajes desde su casa. Fora le da formación, certificación, herramientas (incluida una IA propia, 'Via'), los acuerdos con hoteles, cruceros y operadores, y se ocupa de cobrar y repartir las comisiones. El asesor consigue los clientes en su propia red (amigos, redes sociales, su nicho).",
+    "problema_que_resuelve": "Los hoteles y operadores pagan comisión a los agentes de viaje, pero una persona sola no consigue esos contratos, no puede emitir ni cobrar y no inspira confianza. Fora junta a miles de asesores y negocia por todos. Del otro lado, mucha gente joven buscaba un ingreso extra ('side hustle') vendiendo viajes a su red.",
+    "como_gana_plata": "Membresía del asesor: USD 99 por trimestre o USD 299 por año en la mayoría de los países fuera de EE.UU./Canadá/México (centro de ayuda de Fora, leído vía buscador) + una parte de la comisión de cada reserva. Según Fora, las comisiones de los proveedores suelen ser 10-20% por reserva y sus asesores ganan en promedio 12% (dato de la propia empresa). El reparto exacto de comisión entre Fora y el asesor NO lo pude verificar.",
+    "traccion": "15.000 asesores activos en 180 países y más de USD 3.000 M en reservas desde 2021 (Skift, 2026-07-16). Ronda Serie D de USD 60 M a una valuación de USD 1.000 M en jul-2026, total levantado USD 138,5 M (Skift / PhocusWire vía buscador). Antes: Serie A USD 13,5 M (Business Wire, 2022-08-11).",
+    "por_que_funciono_alla": "En EE.UU. vender viajes casi no requiere licencia (conocimiento de Claude, NO verificado en esta búsqueda: solo unos pocos estados piden registro de 'seller of travel'), así que el asesor puede arrancar sin estructura; se sumó la moda del ingreso extra y vender por redes.",
+    "existe_esa_condicion_en_argentina": "Sí, es nueva: el DNU 70/2023 (vigente desde 2023-12-30) derogó la Ley 18.829 de Agencias de Viajes, que exigía licencia previa en el Registro de Agentes de Viaje y fondo de garantía (Allende & Brea, 2024-01-03). Según la búsqueda, el Decreto 1725/2024 pasó el registro a la FAEVYT para cubrir el vacío (no leí el texto del decreto). Las agencias presentaron un amparo (El Cronista). Además, el fin del cepo (abr-2025) volvió a dejar que el argentino viaje y pague en dólares sin trabas.",
+    "argentina_hoy": "No encontré una host agency argentina para asesores independientes tras buscar: 'agente de viajes independiente Argentina plataforma red de asesores de viaje freelance comisiones trabajar desde casa 2025'. Lo que hay: (1) Fora misma acepta asesores de más de 150 países sin residencia en EE.UU. y tiene soporte para Latinoamérica, pero no confirmé si Argentina tiene condiciones especiales (centro de ayuda de Fora vía buscador); (2) avisos de redes de agentes con pinta de multinivel (Jobgether, Weremoto); (3) Retrip, un SaaS cordobés para agencias con 50 agencias en Argentina y México (Notife, 2025-06-17), que es software, no una agencia paraguas.",
+    "la_vuelta_para_argentina": "Host agency local: nosotros somos la agencia registrada y con contratos con los mayoristas y operadores argentinos y del exterior; el asesor (docente, organizador de grupos de jubilados, influencer de pesca, de montaña o de vino, gente de pueblos del interior) vende a su red por WhatsApp. La empresa cobra (pesos, dólares, cuotas), emite, da la garantía y reparte la comisión. La IA cotiza y arma propuestas: es la herramienta, no el negocio. Arrancar en el NOA, donde hay pocas agencias por pueblo (estimación propia, no verificada).",
+    "por_que_nos_necesitarian": "Contratos comisionables con proveedores, capacidad de emitir y cobrar, garantía ante el pasajero (seguro o caución) y la marca de confianza. Un asesor solo no consigue tarifas comisionables ni puede emitir pasajes; ChatGPT arma un itinerario pero no emite, no cobra en cuotas ni responde si algo sale mal.",
+    "riesgos": "Regulatorio: la derogación está cuestionada en la Justicia y podría volver una ley (o FAEVYT podría endurecer el registro). Responsabilidad ante el pasajero por la Ley de Defensa del Consumidor. Comercial: las comisiones en Argentina podrían ser más bajas que las de los hoteles de lujo en EE.UU. (no verificado); competencia de Despegar, Turismocity y Civitatis; muchos asesores se van (Skift menciona el riesgo de asesores inactivos); la competencia directa de Fora si abre fuerte en Argentina.",
+    "veredicto": "Opinión de Claude: la desregulación argentina abrió justo el modelo que en EE.UU. llegó a unicornio en cinco años, y la plata pasa por nosotros (comisión sobre cada viaje). La duda grande es si los operadores argentinos pagan comisiones suficientes y si el argentino le compra a un conocido en vez de a Despegar: se valida con 20 asesores y 60 días. Puntaje: 6/10.",
+    "parecido_a": "Revisados: I16 (itinerario a medida para findes largos: servicio a personas), TUR-2-1 (software de cotización para agencias), GS44 (grupo de viaje con caja y pagos protegidos), B4-11 (viaje de egresados). Ninguno es una red de vendedores independientes con agencia paraguas; riesgo de parecido bajo-medio con I16.",
+    "fuentes": [
+      "https://allende.com/reforma-argentina/desregulacion-economica/desregulacion-del-sector-turistico-01-03-2024/",
+      "https://www.cronista.com/negocios/dnu-las-agencias-de-viajes-presentaron-un-amparo-para-que-se-declare-inconstitucional",
+      "https://skift.com/2026/07/16/fora-travel-the-unicorn-it-raised-60-million-at-a-1-billion-valuation/",
+      "https://www.phocuswire.com/news/startups/fora-series-d-funding",
+      "https://www.businesswire.com/news/home/20220811005219/en/fora-raises-13.5-million-in-series-a-funding-round-co-led-by-heartcore-capital-and-forerunner",
+      "https://www.foratravel.com/help/en/articles/14302864-can-i-join-if-i-live-outside-the-united-states",
+      "https://www.foratravel.com/join/resources/como-les-pagan-a-los-agentes-de-viajes",
+      "https://www.notife.com/tres-jovenes-argentinos-crearon-una-plataforma-que-revoluciono-las-agencias-de-viajes"
+    ]
+  },
+  {
+    "empresa": "Oscar Health",
+    "pais": "EE.UU.",
+    "anio_fundacion": "2012",
+    "web": "https://www.hioscar.com",
+    "que_hace": "Es una aseguradora de salud (lo que acá sería una prepaga) que nació para vender planes a personas y familias que compran su cobertura solas, sin la empresa donde trabajan. Vende sobre todo en los 'mercados' online que creó la ley de salud de 2010 (ACA u 'Obamacare'). Ofrece app, telemedicina, un equipo de atención por persona y precios claros, con una red de prestadores más chica y más barata.",
+    "problema_que_resuelve": "Antes de la ACA, quien no tenía seguro por su empleador casi no podía comprar uno (lo rechazaban por enfermedades previas o le cobraban carísimo). La ley obligó a aceptar a todos, puso subsidios y un mercado donde comparar planes: aparecieron millones de compradores individuales que eligen por precio y experiencia, y las aseguradoras viejas no sabían venderles directo.",
+    "como_gana_plata": "Cobra la cuota mensual (prima) y gana la diferencia con lo que paga a médicos y clínicas más sus gastos. Ingresos USD 11.070 M en 2025; en 2024, resultado operativo USD 57,3 M y ganancia neta USD 25,4 M (Wikipedia, que cita el 10-K de la SEC): margen neto menor al 1%.",
+    "traccion": "16.000 afiliados en su primer año (2014), 145.000 en 2016 y 2,9 M en jun-2026; unos 2.700 empleados; cotiza en la bolsa de Nueva York (OSCR) (Wikipedia). La empresa informó 'resultados financieros récord para el primer semestre de 2026' (lista de comunicados de su página de inversores, 2026-08-06).",
+    "por_que_funciono_alla": "La ley ACA (2010, mercados desde 2014): aceptación obligatoria, subsidio a la cuota y un mercado online. El canal de venta pasó del empleador a la persona, y una empresa nueva con buena app pudo competir desde cero.",
+    "existe_esa_condicion_en_argentina": "Parcial. El DNU 70/2023 liberó los precios de las prepagas y las sumó al régimen de obras sociales, y en 2025 el Gobierno avanzó con que los aportes vayan directo a la prepaga, sin intermediario (El Cronista). Pero no hay subsidio a la cuota ni un mercado único, una Cámara Federal de Paraná declaró inconstitucional la desregulación en un caso contra OSDE (Tiempo Argentino) y en 2024 la Justicia suspendió los aumentos libres (Noticias NQN). Las reglas cambian seguido.",
+    "argentina_hoy": "No encontré ninguna prepaga digital nueva lanzada después del DNU, tras buscar 'nueva prepaga digital Argentina 2025 lanzamiento tras desregulación DNU 70 planes online nuevas empresas de medicina prepaga'. Las prepagas grandes responden con 'planes low cost', descuentos y ajuste por RIPTE (El Cronista), y el Gobierno evaluaba dar de baja a más de 60 prepagas chicas (El Cronista). Comparar y cambiarse de prepaga ya está en la lista de exclusión (GS30, GS38, GL84).",
+    "la_vuelta_para_argentina": "No conviene ser aseguradora desde cero. Lo realista es ser el socio de tecnología y de ventas de una prepaga chica que ya tiene registro en la Superintendencia (marca blanca): un plan digital para monotributistas y jóvenes del NOA, con una red de clínicas cerrada en Tucumán, telemedicina y aportes derivados directo. Ganamos un porcentaje de la cuota de cada afiliado que traemos.",
+    "por_que_nos_necesitarian": "La red de prestadores contratada, el registro en la Superintendencia de Servicios de Salud y las reservas de plata: el afiliado necesita la garantía de que lo van a atender. Eso no lo resuelve una app.",
+    "riesgos": "Muy regulado (Superintendencia, Programa Médico Obligatorio), mucho capital y reservas, gastos médicos que suben más que la inflación, juicios y amparos, y cambios de reglas (en 2025 se ordenó retrotraer cuotas, según la búsqueda). El margen neto de Oscar es menor al 1% incluso con escala.",
+    "veredicto": "Opinión de Claude: el caso de afuera es muy sólido, pero asegurar salud exige mucho capital, deja poco margen y en Argentina las reglas cambian cada pocos meses. Solo tiene sentido como socio comercial y tecnológico de una prepaga chica existente, no como prepaga propia. Puntaje: 4/10.",
+    "parecido_a": "Revisados: GS30 (broker digital de prepagas), GS38 (comparador de prepagas 2.0), GL84 (cambio de cobertura asistido para monotributistas), GIM-N014 (apelador de prepagas). Es el mismo cliente (persona que elige prepaga) pero otro modelo: acá somos la cobertura, no el intermediario. Riesgo de parecido MEDIO: que Facu decida.",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Oscar_Health",
+      "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000011/oscr-20251231.htm",
+      "https://ir.hioscar.com/news-events/press-releases",
+      "https://www.cronista.com/economia-politica/el-gobierno-cierra-una-triangulacion-clave-con-una-prepaga-y-habra-novedades",
+      "https://www.cronista.com/negocios/planes-low-cost-descuentos-selectivos-y-actualizacion-por-ripte-las-estrategias-de-prepagas-para-no-perder-socios",
+      "https://www.cronista.com/economia-politica/alerta-prepagas-el-gobierno-daria-de-baja-mas-de-60-empresas-de-medicina-privada-a-quienes-afecta",
+      "https://www.tiempoar.com.ar/ta_article/prepagas-fallo-contra-osde/amp/",
+      "https://www.noticiasnqn.com.ar/noticias/2024/01/31/290700-la-justicia-suspendio-los-articulos-del-dnu-que-permiten-aumentos-libres-a-las-prepagas"
+    ]
+  },
+  {
+    "empresa": "Wingly",
+    "pais": "Francia",
+    "anio_fundacion": "2015",
+    "web": "https://www.wingly.io",
+    "que_hace": "Es una plataforma que une a pilotos privados (de aeroclub) con pasajeros que comparten los gastos del vuelo: combustible, alquiler del avión y tasas. Ofrece paseos, escapadas de un día y vuelos de regalo en avioneta. El piloto no puede ganar plata, solo dividir los costos en partes iguales. Los vuelos tienen seguro de Allianz.",
+    "problema_que_resuelve": "El piloto privado necesita horas de vuelo y cada hora es cara; las avionetas vuelan con asientos vacíos. Del otro lado, la gente común nunca podía subirse a una avioneta por poca plata. Wingly junta las dos puntas.",
+    "como_gana_plata": "Una comisión que paga el pasajero sobre el precio del asiento (el porcentaje NO lo pude verificar). También vende tarjetas de regalo y publica vuelos de operadores comerciales ('Wingly Pro'). Los precios arrancan en unas GBP 50 por persona (página de prensa).",
+    "traccion": "Recibió a su pasajero número 100.000 en jul-2023 y cerró una ronda de EUR 3,5 M en may-2024, con la meta de ser rentable en 2025 y una campaña de crowdfunding (página de prensa de Wingly). Opera sobre todo en Reino Unido, Francia y Alemania (Wikipedia). Es una tracción modesta.",
+    "por_que_funciono_alla": "El reglamento europeo (UE) 965/2012, artículo 6, confirmado por la EASA, permite que un piloto privado comparta los costos con pasajeros en aviones simples de hasta 6 personas contando al piloto, y que publicite esos vuelos. La autoridad del Reino Unido lo mantiene legal con un marco revisado desde 2025-10-01 (página de regulación de Wingly).",
+    "existe_esa_condicion_en_argentina": "Sí, en parte, y es nueva: el Decreto 599/2024 (Reglamento de Acceso a los Mercados Aerocomerciales) pide el certificado de trabajo aéreo (CETA) pero deja afuera a 'los vuelos privados de aviación general de costo compartido' (Aviacionline). Además, en dic-2025 la ANAC eliminó el plan de vuelo obligatorio para vuelos privados dentro del país y liberó el vuelo visual nocturno (El Economista, 2025-12-22). Falta confirmar si se pueden publicitar y vender por una plataforma: no leí el Anexo I del decreto.",
+    "argentina_hoy": "No encontré ninguna plataforma tras buscar 'vuelos de costo compartido pilotos privados Argentina plataforma app compartir gastos avioneta aeroclub 2025 ANAC'.",
+    "la_vuelta_para_argentina": "Arrancar con los aeroclubes: escapadas de fin de semana (por ejemplo, Tucumán a Tafí del Valle o Cafayate) y vuelos de regalo ('bautismo de vuelo'). Pago retenido hasta que el vuelo se hace, seguro por vuelo y control de la licencia y las horas de cada piloto.",
+    "por_que_nos_necesitarian": "Confianza y seguridad (licencias verificadas, seguro), la red de pilotos y aeroclubes, y un encuadre legal claro ante la ANAC.",
+    "riesgos": "El mercado es chico (techo bajo). Un accidente puede terminar con la marca. La ANAC podría verlo como transporte comercial encubierto. Hay gremios de pilotos combativos y el seguro es caro. El clima limita los vuelos visuales.",
+    "veredicto": "Opinión de Claude: el encaje legal es nuevo, claro y barato de probar, pero en Europa, con mucho más mercado y más aviones, en ocho años llegó a 100.000 pasajeros: es un nicho lindo, no un negocio grande. Puntaje: 3/10.",
+    "parecido_a": "Revisados: GL35 y GL41 (envíos con viajeros entre ciudades), GIM-N064 (car sharing entre particulares). No hay vuelos compartidos en la lista; riesgo de parecido bajo.",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/Wingly_(company)",
+      "https://www.wingly.io/en/press",
+      "https://www.wingly.io/en/regulation",
+      "https://aviacionline.com/los-puntos-principales-del-decreto-de-desregulacion-del-mercado-aerocomercial-argentino",
+      "https://eleconomista.com.ar/politica/sturzenegger-elimina-plan-vuelo-obligatorio-el-estado-te-va-preguntar-mas-adonde-vas-n91485"
+    ]
+  }
+]

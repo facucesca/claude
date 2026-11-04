@@ -1,0 +1,128 @@
+[
+  {
+    "empresa": "JSX",
+    "pais": "EE.UU.",
+    "motivo": "Ya lo están aprovechando en Argentina. JSX vende asientos sueltos en jets chicos desde terminales privadas, con la figura de 'public charter' (Part 380): 54 Embraer y 2 ATR, 29 aeropuertos y unos 1.000 empleados; 36.000 vuelos en 2024; no publica su facturación. En Argentina, el Decreto 599/2024 y la Disposición 12/2024 simplificaron los vuelos no regulares con aviones de hasta 19 plazas (Aviacionline, 2024-11-26), y ya hay jugadores: Humming Airways (19 asientos, Tandil-Olavarría-Aeroparque y Villa María-Venado Tuerto; vende paquetes anuales en dólares desde USD 200 por tramo y dijo tener vendido el 60% de los pasajes de 2025, según El Cronista), Feeling Air (Cessna Grand Caravan) y JOY. Además exige mucho capital.",
+    "fuentes": [
+      "https://en.wikipedia.org/wiki/JSX_(airline)",
+      "https://privatejetcardcomparisons.com/2026/04/21/jsx-marks-10-years-of-saving-flyers-from-crowded-airports/",
+      "https://aviacionline.com/argentina-simplifica-los-tramites-para-el-transporte-aereo-no-regular-con-aviones-de-hasta-19-plazas",
+      "https://www.cronista.com/negocios/la-primera-aerolinea-de-aviones-chicos-empieza-a-volar-entre-tandil-olavarria-y-aeroparque",
+      "https://www.aviacionline.com/feeling-air-expands-fleet-with-cessna-208b-grand-caravan-ex"
+    ]
+  },
+  {
+    "empresa": "Fundrise / plataformas de inversión fraccionada en inmuebles (Reg A+ en EE.UU.; SM REIT en India)",
+    "pais": "EE.UU. / India",
+    "motivo": "Ya existe en Argentina. La CNV habilitó la tokenización de activos reales con la RG 1069/2025 (jun-2025, en sandbox), la amplió con la RG 1081 y la RG 1087/2025, y propuso la RG 1137 para 2026. Ya operan varias startups de tokenización de inmuebles (El Cronista), en 2026 debutó el primer REIT en ByMA (iProfesional) y hay fondos cerrados inmobiliarios. No verifiqué la tracción de Fundrise. Además se parece en el mecanismo a A6-16 (fideicomisos tokenizados de ganado).",
+    "fuentes": [
+      "https://beccarvarela.com/en/novedades/the-cnv-enables-the-tokenization-of-real-world-assets/",
+      "https://www.marval.com/Publicacion/se-amplia-el-regimen-de-tokenizacion-de-valores-negociables-17296?lang=en",
+      "https://www.cronista.com/infotechnology/actualidad/tokenizacion-de-inmuebles-como-ser-propietario-en-el-exterior-con-us-50",
+      "https://www.iprofesional.com/finanzas/456806-debuta-el-primer-reit-en-la-bolsa-argentina-de-que-se-trata-esta-inversion-inmobiliaria"
+    ]
+  },
+  {
+    "empresa": "Bloomwell Group",
+    "pais": "Alemania",
+    "motivo": "En Argentina la condición va al revés. Bloomwell creció con la ley alemana de cannabis de abr-2024: dijo tener 1.000% más pacientes nuevos por mes en abr-2024 que el promedio de los 12 meses previos (dato propio, sin facturación publicada). En Argentina no hubo apertura sino más control: la Resolución 1780/2025 endureció los requisitos para los médicos que recetan y, según FECCA, el REPROCANN estaba pausado. Además tiene riesgo reputacional.",
+    "fuentes": [
+      "https://www.starting-up.de/geschaeftsideen/gruenderstorys/die-bloomwell-group-und-der-boom-im-deutschen-cannabis-markt.html",
+      "https://www.deutsche-startups.de/2026/01/13/ich-habe-mein-ego-bewusst-hinten-angestellt/",
+      "https://benzinga.com/z/45593012",
+      "https://sechat.com.br/en/noticia/new-reprocann-rules-for-registration-and-cultivation-of-medicinal-cannabis-in-argentina-to-change-by-2025"
+    ]
+  },
+  {
+    "empresa": "Farmacias online y venta de remedios fuera de la farmacia (modelo Apotea en Suecia tras abrirse el monopolio en 2009; DocMorris y Redcare en Alemania)",
+    "pais": "Suecia / Alemania",
+    "motivo": "La condición argentina quedó suspendida. El DNU 70/2023 había habilitado vender remedios de venta libre fuera de las farmacias (el Decreto 63/2024 lo limitó a antiácidos y analgésicos), pero en abr-2025 la Cámara Contencioso Administrativo Federal suspendió los artículos 313 a 317 y 319 a 324 del DNU (Diario de Cuyo, iProfesional). Además se parece a B1-16, B2-19 y SAL-3-4. No verifiqué datos de Apotea ni de Redcare: son conocimiento de Claude.",
+    "fuentes": [
+      "https://www.diariodecuyo.com.ar/argentina/la-justicia-suspende-la-venta-de-medicamentos-fuera-de-farmacias-1724885.html",
+      "https://www.iprofesional.com/legales/427149-la-justicia-suspende-la-venta-de-medicamentos-fuera-de-farmacias",
+      "https://www.canal26.com/general/2025/05/23/los-medicamentos-de-venta-libre-deberan-adquirirse-exclusivamente-en-farmacias-a-partir-de-junio-2025-el-motivo/"
+    ]
+  },
+  {
+    "empresa": "Bait (operador móvil virtual de Walmart en México, tras la reforma de telecomunicaciones de 2014)",
+    "pais": "México",
+    "motivo": "En Argentina no cambió nada en 2024-2026 que lo habilite. Los operadores móviles virtuales están reglamentados desde 2016 (Resolución 38/2016) e Imowi, de las cooperativas, ya opera. No verifiqué la tracción de Bait.",
+    "fuentes": [
+      "https://www.argentina.gob.ar/normativa/nacional/norma-261069/texto",
+      "https://www.marval.com/Publicacion/reglamento-de-operadores-moviles-virtuales-13135?lang=es",
+      "https://www.cronista.com/negocios/se-lanza-imowi-el-primer-operador-de-telefonia-movil-de-cooperativas-como-funcionara-y-que-servicio-ofrecera"
+    ]
+  },
+  {
+    "empresa": "Cajas de indemnización por despido de Austria (Betriebliche Vorsorgekassen, reforma 'Abfertigung Neu' de 2003)",
+    "pais": "Austria",
+    "motivo": "La condición argentina todavía no despegó. La Ley 27.742, artículo 96, permite que un convenio colectivo reemplace la indemnización por un fondo de cese, reglamentado por el Decreto 847/2024, pero casi nadie adhirió (iProfesional, 2025-11-27). Además solo lo pueden administrar aseguradoras autorizadas por la SSN o fondos de la CNV. No pude verificar los datos de Austria: la página de Wikipedia no cargó.",
+    "fuentes": [
+      "https://www.iprofesional.com/legales/442816-reforma-laboral-por-que-no-hay-una-adhesion-masiva-al-fondo-de-cese",
+      "https://eleconomista.com.ar/economia/indemnizacion-laboral-gobierno-lanza-nuevo-sistema-fondos-cese-n85916"
+    ]
+  },
+  {
+    "empresa": "Importadores de maquinaria usada (modelo de remates y brokers de afuera)",
+    "pais": "Varios",
+    "motivo": "Se parece a algo ya visto. El Decreto 273/2025 (2025-04-16) eliminó el CIBU y permite importar bienes de capital usados de los capítulos 84 a 90 con una declaración jurada; los autos usados comunes siguen prohibidos (Decreto 110/99). Pero el negocio se parece a GS54 (maquinaria usada con tasación, inspección y pago protegido) y a los descartes de la ronda 2 (Ritchie Bros y Surplex).",
+    "fuentes": [
+      "https://aduananews.com/bienes-usados-el-gobierno-actualiza-el-regimen-de-importacion-mediante-el-decreto-273-2025/",
+      "https://www.forbesargentina.com/macroeconomia/importacion-maquinas-usadas-inversion-caida-costos-riesgo-ingreso-chatarra-n72291",
+      "https://www.marval.com/Publicacion/se-simplifica-la-importacion-de-bienes-de-capital-usados-17159?lang=es"
+    ]
+  },
+  {
+    "empresa": "Target Hospitality y Civeo (campamentos para trabajadores en los auges petroleros y mineros)",
+    "pais": "EE.UU. / Canadá",
+    "motivo": "Se parece a algo ya visto: PET-4-1, PET-4-2 y PET-4-5 (alojamiento y camas para cuadrillas en Añelo). No lo investigué más.",
+    "fuentes": []
+  },
+  {
+    "empresa": "Pacaso (copropiedad de casas de vacaciones)",
+    "pais": "EE.UU.",
+    "motivo": "El DNU 70/2023 derogó la Ley 26.356 de tiempo compartido (Allende & Brea), pero el modelo se parece a GIM-N126 (comprar un activo grande entre amigos, incluida la casa de fin de semana). No lo investigué más.",
+    "fuentes": [
+      "https://allende.com/reforma-argentina/desregulacion-economica/desregulacion-del-sector-turistico-01-03-2024/"
+    ]
+  },
+  {
+    "empresa": "Ornikar (escuela de manejo online, nacida con la Loi Macron de 2015)",
+    "pais": "Francia",
+    "motivo": "Se parece a MOV-4-1 a MOV-4-4 (escuelas de manejo, instructores independientes y práctica). No lo investigué.",
+    "fuentes": []
+  },
+  {
+    "empresa": "Shef (cocineros caseros, nacida con la ley AB 626 de California de 2019)",
+    "pais": "EE.UU.",
+    "motivo": "Se parece a J29 (comida casera para vender) y en Argentina no encontré un cambio de ley equivalente. No lo investigué.",
+    "fuentes": []
+  },
+  {
+    "empresa": "Policybazaar (comparador de seguros, nacido con la regla de agregadores web de la IRDAI)",
+    "pais": "India",
+    "motivo": "Se parece a GS30, GS38 y GL84 (comparar y cambiar de prepaga), y los comparadores de seguros ya existen en Argentina (conocimiento de Claude, no verificado en esta búsqueda).",
+    "fuentes": []
+  },
+  {
+    "empresa": "FlixBus (nacida con la apertura de los micros de larga distancia en Alemania en 2013)",
+    "pais": "Alemania",
+    "motivo": "Es el mismo modelo que Buser (R1-latam-1) y que la desregulación de micros que ya se vio.",
+    "fuentes": []
+  },
+  {
+    "empresa": "Certificadores privados de firma digital (eIDAS en Europa; ICP-Brasil)",
+    "pais": "UE / Brasil",
+    "motivo": "El Decreto 734/2024 y la Resolución 11/2025 de la Secretaría de Innovación cambiaron el régimen de firma digital. Pero en Argentina ya hay certificadores licenciados (conocimiento de Claude, NO verificado en esta búsqueda) y no hay un dolor claro por el que paguen. No lo investigué más.",
+    "fuentes": [
+      "https://beccarvarela.com/en/novedades/modificacion-de-la-regulacion-de-la-firma-digital/",
+      "https://www.perfil.com/noticias/politica/el-gobierno-implemento-cambios-en-el-regimen-de-registro-de-firmas-digitales.phtml"
+    ]
+  },
+  {
+    "empresa": "Clubes de fútbol convertidos en sociedades anónimas (SAF de Brasil, Lei 14.193/2021) frente a las SAD de Argentina (DNU 70/2023)",
+    "pais": "Brasil",
+    "motivo": "Es para comprar clubes con mucho capital: no tiene nada que ver con el perfil de Facu. No lo investigué ni verifiqué en qué estado está la norma argentina.",
+    "fuentes": []
+  }
+]

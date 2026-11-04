@@ -26,31 +26,6 @@
   ]
  },
  {
-  "empresa": "Park24 (marca Times / タイムズ) — estacionamientos sin personal en terrenos baldíos",
-  "pais": "Japón",
-  "anio_fundacion": "1971 (Nishikawa Shokai); Park24 1985; primer 'Times' sin personal en 1991",
-  "web": "https://www.park24.co.jp/",
-  "que_hace": "Le alquila a dueños de terrenos vacíos (aunque sea el lugar para un solo auto, un lote esperando para construir, el patio de un comercio) y pone ahí un estacionamiento 24 horas sin empleados: una traba que sube debajo de cada auto o barrera, una máquina que cobra con tarjeta/app y cámaras. Al dueño le paga un alquiler fijo mensual; Park24 se queda con todo lo que cobra por hora. Sobre esa red después montó car sharing (Times Car).",
-  "problema_que_resuelve": "Para el dueño: tener un lote ocioso que solo genera impuestos mientras decide qué hacer. Para el conductor: no encontrar dónde estacionar en zonas densas. En Japón la demanda explotó cuando en jun-2006 se endurecieron las multas por estacionar en la calle (ja.wikipedia).",
-  "como_gana_plata": "Diferencia entre lo que cobra por hora a los conductores y el alquiler fijo al dueño del terreno; el costo operativo es bajo porque no hay personal (equipo + mantenimiento + recaudación). Ventas del grupo año a oct-2025: ¥406.168 M (≈USD 2.700 M), ganancia operativa ¥37.563 M (stockanalysis; incluye car sharing y alquiler de autos). No encontré el margen por lote publicado.",
-  "traccion": "Desde 1991 creció de 10.000 lugares (1995) a 200.000 (2007), 400.000 (2012) y 500.000 (2015) según la historia de la empresa en https://ja.wikipedia.org/wiki/パーク24; ventas consolidadas ¥370.913 M en el año a oct-2024 (misma fuente) y ¥406.168 M a oct-2025 (https://stockanalysis.com/quote/tyo/4666/financials/). Cotiza en la Bolsa de Tokio (prime). Opera también en Corea, Taiwán y otros.",
-  "por_que_funciono_alla": "Ciudades muy densas, poco lugar en la calle, multas fuertes y controladas, y muchos lotes chicos esperando construirse. La clave del modelo es 'basta con un lugar para firmar contrato' y que el equipo se instala y se saca rápido, así que el dueño no se compromete a largo plazo.",
-  "existe_esa_condicion_en_argentina": "Parcial. Hay mucha demanda de estacionamiento en centros de ciudades (CABA, Córdoba, Rosario, San Miguel de Tucumán) y estacionamiento medido cada vez más caro y controlado (CABA pasó a cobrar solo por app, https://www.cronista.com/informacion-gral/estacionamiento-en-caba-no-funcionaran-mas-los-parquimetros-y-habra-una-app-para-pagar). Pero las playas son casi todas con personal: un trabajo de 2020 sobre un sistema con lectura de patentes dice que 'en Argentina aún prevalece la operatoria manual' (https://dialnet.unirioja.es/descarga/articulo/7750810.pdf). Falta ver habilitaciones municipales para playas sin personal y riesgo de robo/vandalismo.",
-  "argentina_hoy": "No encontré una red de estacionamientos sin personal sobre lotes alquilados tras buscar: 'estacionamiento automatizado sin personal terreno baldío alquiler al dueño cobro por app barrera Argentina playa autoservicio 24 horas'. Hay apps para buscar y pagar en playas existentes (Estaciona, RedPark en Córdoba: https://www.cadena3.com/noticia/red-park/crean-una-app-para-reservar-y-pagar-estadias-en-parking_306803) y la app municipal Blinkay en CABA, pero no son operadores que toman lotes.",
-  "la_vuelta_para_argentina": "Empezar con lotes 'en espera' de desarrolladoras y con patios de supermercados/clínicas en el centro de Tucumán: barrera + lectura de patente + pago con QR de Mercado Pago, cámara y monitoreo remoto (sin traba en el piso, que es cara). Al dueño se le ofrece alquiler fijo o porcentaje de lo recaudado. Después, estacionamiento por abono nocturno para vecinos y lugares para camionetas de reparto.",
-  "por_que_nos_necesitarian": "El dueño del lote no va a comprar equipos ni a operar cobros; la red (app, marca, monitoreo central, mantenimiento) y los contratos con muchos dueños son el activo. Cuantos más lotes, más barata la central de monitoreo por lugar.",
-  "riesgos": "Habilitación municipal de playas (cada ciudad distinta), seguridad y vandalismo del equipo, inseguridad para el conductor de noche, contratos cortos con el dueño (se va cuando construye), competencia de playas tradicionales con precios bajos. Revisar ordenanzas antes.",
-  "veredicto": "[Opinión de Claude] Modelo probado, simple de entender y con unidad económica clara (lote ocioso → plata por hora), y en Argentina el formato sin personal casi no existe; el riesgo grande es regulatorio y de seguridad, que se puede probar barato con 1-2 lotes. Puntaje: 7/10.",
-  "parecido_a": "Revisados: MOV-1-1 (cobro con ticket en playas existentes: problema del operador de la playa), MOV-1-2, MOV-1-3, MOV-2-1 (cocheras particulares vacías, tipo Akippa), MOV-1-4. Distinto: acá el modelo es tomar lotes ociosos de terceros y operarlos sin personal; el cliente que firma es el dueño del terreno. Hay roce con MOV-1-1 en la tecnología de cobro: dejar a criterio de Facu.",
-  "fuentes": [
-   "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%BC%E3%82%AF24",
-   "https://stockanalysis.com/quote/tyo/4666/financials/",
-   "https://dialnet.unirioja.es/descarga/articulo/7750810.pdf",
-   "https://www.cronista.com/informacion-gral/estacionamiento-en-caba-no-funcionaran-mas-los-parquimetros-y-habra-una-app-para-pagar",
-   "https://www.cadena3.com/noticia/red-park/crean-una-app-para-reservar-y-pagar-estadias-en-parking_306803"
-  ]
- },
- {
   "empresa": "Patrimonio Hoy (programa de negocio de CEMEX) — autoconstrucción en cuotas semanales con materiales, asesoría y acopio",
   "pais": "México (también Colombia, Costa Rica, Nicaragua, Rep. Dominicana, entre otros)",
   "anio_fundacion": "1998",
@@ -123,6 +98,32 @@
    "https://quartr.com/events/aavas-financiers-limited-aavas-q1-26-27_FP7UpxMF",
    "https://scanx.trade/stock-market-news/companies/aavas-financiers-q4fy26-earnings-call-net-profit-up-18-aum-crosses-rs-234-5-billion-nims-expand-to-8-45/40189513",
    "https://www.whalesbook.com/corporate-news/English/bankingfinance/Aavas-Financiers-Posts-indian-rupee2345B-AUM-Targets-20percent-Growth-Under-CVC/6a0302098b07706dac586ce4"
+  ]
+ },
+ {
+  "empresa": "ista (y Techem, mismo rubro) — medir cuánto calor y agua caliente usa cada departamento en edificios con calefacción central, y repartir la cuenta",
+  "pais": "Alemania (opera en más de 20 países, incluida España)",
+  "anio_fundacion": "ista 1957; Techem 1952",
+  "web": "https://www.ista.com/",
+  "que_hace": "En edificios con calefacción o agua caliente central (una caldera para todos), instala en cada radiador un 'repartidor de costos' (aparatito con dos sensores de temperatura que se lee por radio) y medidores de agua caliente por departamento. Todos los años lee los consumos y le arma al administrador la liquidación: cada vecino paga lo que usó en vez de pagar por metros cuadrados. Se cobra por departamento por año (alquiler de equipos + lectura + liquidación), con contratos largos.",
+  "problema_que_resuelve": "En un edificio con caldera central, el que tiene las ventanas abiertas y el radiador al máximo paga lo mismo que el que la apaga: no hay incentivo a ahorrar y hay peleas. Con medición individual el consumo baja entre 15 y 30% (estimación de la Comisión Europea citada en de.wikipedia; estudios españoles: 23% con válvulas termostáticas según ANIRCA y 29,6% a dos años según Gómez Group Metering).",
+  "como_gana_plata": "Abono anual por unidad: la Oficina Federal de Competencia alemana calculó un ingreso promedio de unos 74 euros por departamento por año y rentabilidades 'relativamente altas' en un mercado concentrado (de.wikipedia, ista SE). Contratos de 5-10 años, equipos propios alquilados, lectura remota. Es un negocio recurrente tipo infraestructura.",
+  "traccion": "ista: facturación EUR 1.216 millones y 6.629 empleados en 2024; CKI/Li Ka-shing la compró por EUR 4.500 M (https://de.wikipedia.org/wiki/Ista_SE). Techem: facturación EUR 1.060 M en 2024; valuada en EUR 6.700 M en la venta de 2025 a Partners Group, GIC, TPG y Mubadala (https://de.wikipedia.org/wiki/Techem). El mercado alemán de submetering facturaba unos EUR 1.470 M ya en 2014 (de.wikipedia).",
+  "por_que_funciono_alla": "Ley: en Alemania (y desde la directiva europea, en España y otros países) es obligatorio repartir la calefacción central según consumo. Sin ley, el negocio sería mucho más chico. También ayuda que el gas sea caro.",
+  "existe_esa_condicion_en_argentina": "Parcial. El gas dejó de ser regalado: los gastos de gas de los consorcios subieron 157,3% interanual y varios edificios ya limitan horarios de la caldera (BAE Negocios, 2025-09-04, con datos de ConsorcioAbierto; expensa promedio en CABA $281.516 en jul-2025). Pero no encontré ninguna obligación legal de medir por departamento, y la calefacción central existe sobre todo en edificios viejos de CABA y del sur (no en Tucumán). No encontré cuántos edificios la tienen: queda sin verificar.",
+  "argentina_hoy": "No encontré empresas que instalen repartidores de costos en Argentina tras buscar 'repartidores de costos calefacción central Argentina edificio medición individual consumo departamento válvulas termostáticas consorcio empresa' (todos los resultados fueron de España: ista, Gómez Group). Sí hay automatización de calderas y control de gasto como recomendación general (misma nota de BAE Negocios).",
+  "la_vuelta_para_argentina": "Venderlo como 'bajá 20-25% el gas del edificio sin apagar la calefacción': válvulas termostáticas + repartidores por radiador (importados de fabricantes europeos o chinos) + lectura por radio + liquidación integrada al sistema de expensas del administrador. Sin ley, el que paga es el consorcio con el ahorro (se puede cobrar un % del ahorro el primer año). Arranque: 3-5 edificios de Recoleta/Belgrano con administradores conocidos; después Mendoza, Córdoba, Bariloche y Patagonia (donde el gas pesa más).",
+  "por_que_nos_necesitarian": "El administrador no sabe instalar ni leer equipos ni hacer la liquidación por consumo; el vecino no puede hacerlo solo. Barrera: equipos instalados en el edificio (contrato largo), la integración con la liquidación de expensas y la confianza del administrador. ChatGPT no mide radiadores.",
+  "riesgos": "Sin obligación legal, la venta depende de una asamblea de consorcio (lenta y con vecinos que pierden con el cambio: los que más usan); mercado acotado a edificios con calefacción central; importación de equipos; posible vuelta de subsidios al gas que mate el ahorro; instalaciones viejas que haya que adaptar.",
+  "veredicto": "[Opinión de Claude] Negocio enorme y muy rentable en Europa, pero ahí lo empujó una ley que acá no existe; en Argentina es un nicho real y nuevo (nadie lo hace) que sirve si se vende por el ahorro de gas y empezando por pocos edificios grandes, no como industria de millones de unidades. Puntaje: 5/10.",
+  "parecido_a": "Revisados: GS2 (agua del edificio bajo control: sensor de tanque y pérdidas, no reparto de consumo), CON-4-1 (liquidación de expensas a mano), R2 Smart Joules/Redaptive (eficiencia pagada con el ahorro para empresas), ENE-2-1 (lectura de medidores de cooperativas). Distinto: medición por departamento del calor central para repartir el gasto.",
+  "fuentes": [
+   "https://de.wikipedia.org/wiki/Ista_SE",
+   "https://de.wikipedia.org/wiki/Techem",
+   "https://www.baenegocios.com/amp/Expensas-gastos-de-gas-en-edificios-subieron-mas-de-un-150-interanual-20250904-0114/",
+   "https://www.eseficiencia.es/2020/02/27/sistemas-calefaccion-central-repartidores-coste-ahorran-hasta-23-segun-estudio-anirca",
+   "https://www.eseficiencia.es/2018/10/11/individualizar-consumo-calefaccion-central-genera-ahorro-30-dos-anos",
+   "https://www.ista.com/es/empresa/mundo-ista/asi-funcionan-los-repartidores-de-costes-de-calefaccion"
   ]
  }
 ]

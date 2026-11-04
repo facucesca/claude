@@ -1,5 +1,20 @@
 [
  {
+  "empresa": "Park24 (marca Times / タイムズ) — estacionamientos sin personal en terrenos baldíos",
+  "pais": "Japón",
+  "motivo": "Sale por parecido (Regla N.º 2): comparte problema y cliente con MOV-2-1 (cocheras/espacios ociosos de un dueño convertidos en estacionamiento) y roza MOV-1-1/MOV-1-2 (playas que cobran a mano y no venden lugares vacíos); además el explorador de retail-franquicias de esta misma ronda ya lo descartó por lo mismo. Igual se investigó: tracción y condición argentina quedan acá por si Facu quiere revisarlo.",
+  "traccion": "Desde 1991 creció de 10.000 lugares (1995) a 200.000 (2007), 400.000 (2012) y 500.000 (2015) según la historia de la empresa en https://ja.wikipedia.org/wiki/パーク24; ventas consolidadas ¥370.913 M en el año a oct-2024 (misma fuente) y ¥406.168 M a oct-2025 (https://stockanalysis.com/quote/tyo/4666/financials/). Cotiza en la Bolsa de Tokio (prime). Opera también en Corea, Taiwán y otros.",
+  "argentina_hoy": "No encontré una red de estacionamientos sin personal sobre lotes alquilados tras buscar: 'estacionamiento automatizado sin personal terreno baldío alquiler al dueño cobro por app barrera Argentina playa autoservicio 24 horas'. Hay apps para buscar y pagar en playas existentes (Estaciona, RedPark en Córdoba: https://www.cadena3.com/noticia/red-park/crean-una-app-para-reservar-y-pagar-estadias-en-parking_306803) y la app municipal Blinkay en CABA, pero no son operadores que toman lotes.",
+  "veredicto_si_no_fuera_parecido": "[Opinión de Claude] Modelo probado, simple de entender y con unidad económica clara (lote ocioso → plata por hora), y en Argentina el formato sin personal casi no existe; el riesgo grande es regulatorio y de seguridad, que se puede probar barato con 1-2 lotes. Puntaje: 7/10.",
+  "fuentes": [
+   "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%BC%E3%82%AF24",
+   "https://stockanalysis.com/quote/tyo/4666/financials/",
+   "https://dialnet.unirioja.es/descarga/articulo/7750810.pdf",
+   "https://www.cronista.com/informacion-gral/estacionamiento-en-caba-no-funcionaran-mas-los-parquimetros-y-habra-una-app-para-pagar",
+   "https://www.cadena3.com/noticia/red-park/crean-una-app-para-reservar-y-pagar-estadias-en-parking_306803"
+  ]
+ },
+ {
   "empresa": "Porter Group / Kiper / Folk (Brasil) — portería remota para edificios",
   "pais": "Brasil",
   "motivo": "Ya existe en Argentina: Prosegur ofrece 'Virtual Porter' (iDenta) para edificios y countries y reporta más de 20% de crecimiento en consultas; según la nota, un vigilador 24 h cuesta 250-300 mil pesos vs ~60 mil de la portería virtual. Tracción en Brasil: más de 12-14 mil condominios con portería remota (ABESE vía Síndiconet).",
