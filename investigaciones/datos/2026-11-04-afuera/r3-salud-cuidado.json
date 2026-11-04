@@ -203,15 +203,18 @@
   "como_gana_plata": "Cobro por dispositivo a seguros (Medicare, privados) + venta de componentes a terceros. Hanger tenía ~20% de un mercado de atención O&P de USD 4.000 M en EE.UU. (informe anual 2017, vía Wikipedia). No verifiqué márgenes actuales.",
   "traccion": "677 clínicas + 109 satélites en 44 estados (2018), ~4.600-4.900 empleados con ~1.500 técnicos protesistas (Wikipedia, leída 2026-11-04). Hoy es privada, propiedad del fondo Patient Square Capital (Wikipedia). No leí el comunicado de la compra (no verificado el monto).",
   "por_que_funciono_alla": "Mercado fragmentado en talleres familiares + seguros que pagan bien el dispositivo + escala que permite fabricación central y compra de componentes a mejor precio (un 'roll-up').",
-  "existe_esa_condicion_en_argentina": "Sí en la fragmentación: la O&P la hacen ortopedias y talleres técnicos chicos. Las prótesis las cubren obras sociales y el sistema por Ley de Discapacidad (con Certificado Único de Discapacidad), aunque con demoras (no verificado con dato en esta ronda).",
-  "argentina_hoy": "No hice búsqueda específica (cupo de WebSearch). Por conocimiento propio hay ortopedias técnicas y distribuidores de marcas como Ottobock, pero no conozco una cadena nacional con fabricación central. NO VERIFICADO.",
+  "existe_esa_condicion_en_argentina": "Sí en la fragmentación y en el dolor: en Mendoza PAMI y la dirección de discapacidad dicen que conseguir prótesis y sillas se complica por costo y demoras de aduana; una familia esperó casi 6 meses una silla y hay gente que espera meses una prótesis (Unidiversidad, 2023-03-16). Lo hecho a medida tarda un mes o más. Las cubren obras sociales y el sistema de discapacidad, con demoras.",
+  "argentina_hoy": "No encontré una red nacional de O&P con fabricación central tras buscar: 'prótesis de pierna Argentina taller ortopédico red nacional escaneo 3D encajes obra social demora discapacidad 2025'. Hay talleres y ortopedias locales, iniciativas municipales de impresión 3D (planta Junín, Mendoza, 2021: https://www.losandes.com.ar/sociedad/junin-avanza-en-la-fabricacion-de-protesis-mediante-tecnologia-3d) y casos de demoras de obras sociales (Neuquén 2026-03-06: https://www.anbariloche.com.ar/noticias/2026/03/06/102809-accidente-burocracia-y-rifas-la-odisea-de-una-neuquina-para-conseguir-una-protesis-que-su-obra-social-no-le-cubrio-a-tiempo). Por conocimiento propio hay distribuidores de Ottobock (no verificado).",
   "la_vuelta_para_argentina": "Centro de fabricación digital (escaneo 3D + impresión/termoformado) en Tucumán que le fabrica encajes y órtesis a ortopedias de todo el país por envío, y después abrir/comprar clínicas propias. Cobro a obras sociales por expediente de discapacidad (gestión del trámite incluida).",
   "por_que_nos_necesitarian": "Fabricación con tecnología, técnicos certificados, gestión del expediente con el financiador, escala de compra de componentes importados.",
   "riesgos": "Cobro lento y conflictivo de prestaciones por discapacidad (recortes 2024-2026, no verificado en esta ronda); necesita técnicos ortesistas/protesistas matriculados; importación de componentes.",
-  "veredicto": "OPINIÓN DE CLAUDE: interesante por el ángulo 'fabricación central + red' que encaja con ingeniería industrial, y el dolor (amputación por diabetes) crece; el riesgo grande es el pagador. Puntaje 6/10.",
+  "veredicto": "OPINIÓN DE CLAUDE: interesante por el ángulo 'fabricación central digital + red de ortopedias' que encaja con ingeniería industrial; el dolor (demoras de meses) está documentado. El riesgo grande es el pagador (obras sociales y discapacidad pagan tarde). Puntaje 6/10.",
   "parecido_a": "Revisados: A6-06, A6-07, A6-28 (roll-ups de veterinarias, odontología y laboratorios: mismo tipo de modelo, distinto rubro), ALQ-4-1 (ortopedias que alquilan camas: otro servicio). Parecido parcial en el modelo roll-up.",
   "fuentes": [
-   "https://en.wikipedia.org/wiki/Hanger,_Inc."
+   "https://en.wikipedia.org/wiki/Hanger,_Inc.",
+   "https://www.unidiversidad.com.ar/sillas-de-ruedas-y-protesis-las-figuritas-dificiles-de-conseguir-para-las-personas-con-discapacidad",
+   "https://www.losandes.com.ar/sociedad/junin-avanza-en-la-fabricacion-de-protesis-mediante-tecnologia-3d",
+   "https://www.anbariloche.com.ar/noticias/2026/03/06/102809-accidente-burocracia-y-rifas-la-odisea-de-una-neuquina-para-conseguir-una-protesis-que-su-obra-social-no-le-cubrio-a-tiempo"
   ]
  },
  {
@@ -225,7 +228,7 @@
   "traccion": "PharMerica: segunda del mercado, 330.000 camas atendidas; Omnicare (rival, de CVS) tenía ~200 farmacias institucionales; la FTC frenó su fusión en 2012 porque juntas tendrían 57% del mercado (Wikipedia Omnicare). Ojo: Omnicare fue condenada a pagar USD 949 M por facturación indebida y se presentó en quiebra (Chapter 11) en septiembre de 2025 (Wikipedia Omnicare).",
   "por_que_funciono_alla": "Regulación que exige revisión farmacéutica mensual en geriátricos y Medicare Parte D que paga los medicamentos; instituciones grandes que tercerizan todo lo no central.",
   "existe_esa_condicion_en_argentina": "Parcial. Hay miles de geriátricos con medicación de PAMI que llega por farmacias de barrio o la traen las familias; el dolor operativo existe. No hay regulación que obligue a revisión farmacéutica (no verificado).",
-  "argentina_hoy": "No busqué con WebSearch (cupo). Por conocimiento propio no conozco una farmacia institucional que arme dosis para geriátricos a escala. NO VERIFICADO.",
+  "argentina_hoy": "No encontré una farmacia institucional que arme medicación por dosis para geriátricos tras buscar: 'farmacia para geriátricos Argentina medicación armada por dosis unitaria residencias de larga estadía servicio farmacéutico'. Solo aparecen estudios de consumo de medicamentos en geriátricos (Olavarría, UNLP: https://sedici.unlp.edu.ar/handle/10915/7038) y que apenas el 14% de los hospitales públicos de Mendoza usa dosis unitaria (vía buscador). En España (Valencia) las residencias de más de 100 camas deben tener servicio de farmacia propio (https://valenciaplaza.com/las-oficinas-de-farmacia-valencianas-podran-prestar-servicio-a-residencias-con-menos-de-100-camas): referencia de regulación que acá no existe.",
   "la_vuelta_para_argentina": "Farmacia habilitada que firma con geriátricos y cobra a PAMI/obras sociales la medicación del residente como cualquier farmacia, pero entrega armada por toma con hoja de administración y avisos de faltantes; el geriátrico paga un abono por residente por el armado.",
   "por_que_nos_necesitarian": "Habilitación de farmacia, convenio con PAMI y obras sociales, operación de armado (máquina de blísteres), entrega diaria; el geriátrico no puede hacerlo solo.",
   "riesgos": "Márgenes de farmacia regulados y pagos lentos de PAMI; el caso Omnicare muestra riesgo de fraude/facturación; necesita farmacéutico director técnico y habilitación provincial.",
@@ -233,7 +236,78 @@
   "parecido_a": "B1-16 (pastillero armado: la farmacia te manda los remedios por toma — mismo producto, otro cliente: persona vs. geriátrico), SAL-4-3 (registro de cuidados en residencias), A6-29 (residencias). PARECIDO PARCIAL a B1-16: decidir si se acepta.",
   "fuentes": [
    "https://en.wikipedia.org/wiki/PharMerica",
-   "https://en.wikipedia.org/wiki/Omnicare"
+   "https://en.wikipedia.org/wiki/Omnicare",
+   "https://sedici.unlp.edu.ar/handle/10915/7038",
+   "https://valenciaplaza.com/las-oficinas-de-farmacia-valencianas-podran-prestar-servicio-a-residencias-con-menos-de-100-camas"
+  ]
+ },
+ {
+  "empresa": "PetIQ / VIP Petcare (clínicas veterinarias de prevención en supermercados)",
+  "pais": "Estados Unidos",
+  "anio_fundacion": "2010 (PetIQ); VIP Petcare ~1989 (no verificado)",
+  "web": "https://vippetcare.com",
+  "que_hace": "Clínicas veterinarias 'pop-up' de fin de semana y centros fijos dentro de supermercados y tiendas (Walmart, Meijer, Tractor Supply) que hacen solo prevención: vacunas, desparasitación, chips y chequeos básicos a precio de lista bajo, sin turno. La parte de productos vendía remedios para mascotas de marca propia.",
+  "problema_que_resuelve": "Una consulta veterinaria común es cara y hay que sacar turno; mucha gente salteaba las vacunas. Llevar la prevención al lugar donde ya compran, a precio fijo, sube la cobertura.",
+  "como_gana_plata": "Precio por servicio o paquete de vacunas pagado de bolsillo + la tienda gana tráfico (la tienda cede espacio). No encontré ingresos del segmento servicios (no verificado).",
+  "traccion": "Más de 2.600 puntos de clínicas comunitarias y centros de bienestar, más de 130 centros fijos en tiendas, 1,2 millones de mascotas atendidas por año en 42 estados (PE Professional, 2024-08-09). Bansk Group compró PetIQ por ~USD 1.500 M (2024). En 2026 Tractor Supply compró VIP Petcare (cierre informado mayo 2026, monto no publicado; vía buscador, Pets+ Mag).",
+  "por_que_funciono_alla": "Consultas veterinarias muy caras + grandes cadenas de retail con tráfico que buscan servicios + regulación que permite clínicas móviles.",
+  "existe_esa_condicion_en_argentina": "Sí en la demanda: hasta 80% de los hogares tiene mascotas, una consulta promedia $34.400 y el plan de vacunas anual ~$62.000 (La Nación, 2026-04-30).",
+  "argentina_hoy": "Ya existe en parte: Puppis (cadena de pet shops, +30 locales en 2020) tiene veterinaria en tiendas y lanzó 'Puppis One', prepaga de servicios veterinarios (Mercado, 2020-01-07: https://mercado.com.ar/protagonistas/puppis-se-consolida-en-el-mercado); un grupo de salud lanzó prepagas para mascotas de $25.000 a $118.000 por mes (La Nación 2026). Además hay campañas municipales de vacunación antirrábica gratis. No encontré clínicas de prevención dentro de supermercados tras buscar: 'veterinaria dentro de supermercado o pet shop cadena Argentina vacunación mascotas jornada precio fijo Puppis clínica'.",
+  "la_vuelta_para_argentina": "Operar puestos de vacunación y chequeo a precio fijo en supermercados del interior (donde no está Puppis) los fines de semana, con historia clínica digital y recordatorio de la próxima dosis; ganar también con la venta de antiparasitarios.",
+  "por_que_nos_necesitarian": "Red de veterinarios, logística de vacunas (cadena de frío), acuerdo con el supermercado; barrera media-baja.",
+  "riesgos": "Competencia de veterinarias de barrio y del Estado (vacuna antirrábica gratis); colegios veterinarios pueden resistir; margen chico por servicio.",
+  "veredicto": "OPINIÓN DE CLAUDE: modelo probado y Argentina es 'país mascotero', pero el hueco es chico porque Puppis y las prepagas ya avanzan y la barrera es baja. Puntaje 4/10.",
+  "parecido_a": "SAL-5-3 (planes de salud por suscripción para veterinarias), SAL-5-1 (recordatorios de vacunas), A6-06 y R1-DESC New Ruipeng (roll-up de veterinarias). Parecido parcial: el canal 'en el súper' es lo nuevo.",
+  "fuentes": [
+   "https://peprofessional.com/2024/08/bansk-group-to-buy-petiq-at-1-5-billion-valuation/",
+   "https://petsplusmag.com/tractor-supply-company-acquires-vip-petcare-petiqs-veterinary-services-business/ (vía buscador)",
+   "https://www.lanacion.com.ar/lifestyle/mascotas/cuanto-cuesta-realmente-mantener-un-perro-en-argentina-hoy-nid30042026/",
+   "https://mercado.com.ar/protagonistas/puppis-se-consolida-en-el-mercado"
+  ]
+ },
+ {
+  "empresa": "CPS Solutions (Comprehensive Pharmacy Services)",
+  "pais": "Estados Unidos",
+  "anio_fundacion": "Más de 50 años según su web (~1970s, no verificado)",
+  "web": "https://www.cpspharm.com",
+  "que_hace": "Le gerencia la farmacia al hospital: pone el director de farmacia, los procesos, el software de compras y control, telefarmacia de noche para hospitales chicos, y arma la farmacia de especialidades (medicamentos caros) en nombre del hospital.",
+  "problema_que_resuelve": "Los medicamentos son de los gastos más grandes de un hospital y la farmacia de un hospital mediano compra mal, tiene vencimientos, faltantes y no aprovecha descuentos ni programas especiales.",
+  "como_gana_plata": "Contrato de gestión (fee mensual) y muchas veces participación en el ahorro o en los ingresos nuevos de farmacia de especialidades. No encontré cifras de ingresos (empresa privada; no verificado).",
+  "traccion": "Más de 800 clientes de salud en EE.UU. y Puerto Rico, más de 2.500 profesionales, más de 50 años (web cpspharm.com, leída 2026-11-04). Solo una fuente: tracción PARCIAL.",
+  "por_que_funciono_alla": "Hospitales independientes chicos sin escala para tener farmacéuticos especializados + programas como el 340B que premian una farmacia bien gestionada.",
+  "existe_esa_condicion_en_argentina": "Sí en el problema: el mercado farmacéutico argentino factura USD 11.000 M/año, y grandes prepagas y clínicas con cobertura propia (ej. Hospital Italiano) tuvieron balances en rojo atribuidos en parte al gasto en medicamentos (El Cronista, vía buscador y lectura parcial). En el Hospital El Cruce el omeprazol se compraba 495% más caro que en farmacia (vía buscador). Un hospital público porteño redujo 15-37% el consumo por paciente-día con dosis unitaria (UNLP).",
+  "argentina_hoy": "No encontré empresas que gerencien farmacias de clínicas tras buscar: 'gerenciamiento tercerizado de farmacia hospitalaria clínicas Argentina empresa reducción gasto en medicamentos sanatorios'. Hay gerenciadoras de salud en general (conocimiento propio, no verificado) y la AAFH como asociación profesional.",
+  "la_vuelta_para_argentina": "Ofrecer a sanatorios medianos del interior 'farmacia gerenciada' con cobro por porcentaje del ahorro comprobado: compras consolidadas entre varias clínicas, dosis unitaria, control de vencimientos y de alto costo. Empieza como servicio, escala como red de compras.",
+  "por_que_nos_necesitarian": "Farmacéuticos especializados, poder de compra juntando clínicas, datos de precios entre clientes; la clínica sola no tiene escala.",
+  "riesgos": "Clínicas desconfiadas de ceder el control; ahorro difícil de medir; droguerías y laboratorios que no quieren perder margen; parecido a compras grupales ya vistas.",
+  "veredicto": "OPINIÓN DE CLAUDE: modelo liviano en capital con un dolor fuerte (gasto en remedios) y cobro por ahorro, muy de ingeniería industrial; pero se acerca a ideas de 'compras juntas' ya vistas y hay que cuidar que no sea consultoría a medida. Puntaje 6/10.",
+  "parecido_a": "SAL-3-2 (farmacias que comparan droguerías), ONG-4-5 (mutuales que compran juntas), SAL-3-1 (vencidos en góndola), R2-agro-alimentos-1 Buyers Edge (central de compras). Parecido parcial en la parte de compras; lo nuevo es gerenciar la farmacia de internación.",
+  "fuentes": [
+   "https://www.cpspharm.com/",
+   "https://www.cronista.com/negocios/cuanto-cuestan-los-medicamentos-y-quien-realmente-los-paga-en-un-sistema-de-salud-en-terapia-intensiva",
+   "https://sedici.unlp.edu.ar/handle/10915/7038 (vía buscador)"
+  ]
+ },
+ {
+  "empresa": "Lap of Love (cuidado paliativo y eutanasia veterinaria a domicilio)",
+  "pais": "Estados Unidos",
+  "anio_fundacion": "2009",
+  "web": "https://www.lapoflove.com",
+  "que_hace": "Red nacional de veterinarios que solo atienden el final de la vida de las mascotas: consultas de calidad de vida, cuidado paliativo en casa y eutanasia a domicilio, con gestión de la cremación y acompañamiento del duelo. Usa software propio y una certificación interna.",
+  "problema_que_resuelve": "Llevar a un perro viejo y enfermo a la veterinaria para dormirlo es traumático para la familia y el animal; las veterinarias comunes no tienen tiempo ni formación para el final de vida.",
+  "como_gana_plata": "Cobro por visita/eutanasia a domicilio + servicio de cremación coordinado. No encontré precios ni ingresos (no verificado).",
+  "traccion": "Más de 300 veterinarios en EE.UU. (2023), con presencia en 20 estados ya en 2013, y puesto 24 en el ranking Gator100 de empresas de rápido crecimiento (lapoflove.com/about-us, leída 2026-11-04). Solo una fuente: tracción PARCIAL y chica.",
+  "por_que_funciono_alla": "Mascotas tratadas como familia y alto gasto por mascota; veterinarios jóvenes que buscan trabajo flexible.",
+  "existe_esa_condicion_en_argentina": "Sí en la costumbre: hasta 80% de hogares con mascotas (La Nación 2026). No verifiqué si hay oferta.",
+  "argentina_hoy": "No busqué con WebSearch (cupo). Por conocimiento propio hay veterinarios que hacen eutanasia a domicilio en forma suelta y crematorios de mascotas; no conozco una red especializada. NO VERIFICADO.",
+  "la_vuelta_para_argentina": "Red de veterinarios con marca, turno el mismo día y cremación incluida, vendida también a través de veterinarias que no quieren hacer ese servicio.",
+  "por_que_nos_necesitarian": "Red, confianza, logística con crematorio; barrera baja.",
+  "riesgos": "Nicho chico, tema delicado, competencia del veterinario de cabecera.",
+  "veredicto": "OPINIÓN DE CLAUDE: lindo servicio pero nicho chico y parecido a ideas de crematorio de mascotas ya vistas; no lo priorizaría. Puntaje 3/10.",
+  "parecido_a": "FUN-4-1 (crematorios de mascotas coordinan retiros en veterinarias), FUN-4-3, FUN-4-4. PARECIDO PARCIAL: la parte cremación ya se vio.",
+  "fuentes": [
+   "https://www.lapoflove.com/about-us",
+   "https://www.lanacion.com.ar/lifestyle/mascotas/cuanto-cuesta-realmente-mantener-un-perro-en-argentina-hoy-nid30042026/"
   ]
  }
 ]

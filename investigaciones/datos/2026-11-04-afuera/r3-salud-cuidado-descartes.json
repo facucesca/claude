@@ -1,0 +1,41 @@
+[
+ {
+  "empresa": "Glidewell (EE.UU.) — laboratorio dental industrial",
+  "motivo": "Ya existe en Argentina parcialmente: LAB-DI (Córdoba, 2018) montó un centro de producción de prótesis dentales CAD/CAM de US$3 M para 8.000 piezas/mes con la idea de abastecer a todo el país. Además parecido a SAL-2-2. Tracción Glidewell: ~5 M coronas/año para 80.000 dentistas (dato del buscador, no leído); BruxZir USD 89-119 por unidad (price list leído).",
+  "fuentes": [
+   "https://glidewelldental.com/price-list",
+   "https://infonegocios.info/nota-principal/lab-di-un-centro-de-produccion-de-protesis-dentales-unico-en-latam-hara-8-000-por-mes"
+  ]
+ },
+ {
+  "empresa": "RIZAP / chocoZAP (Japón) — gimnasio con resultado garantizado y gimnasio barato sin personal",
+  "motivo": "Gimnasios abundan en Argentina; el gimnasio 24 h sin recepcionista es parecido a DEP-1-1. chocoZAP llegó a 1,27 M de socios (2024-08) pero perdía socios en 2025 (vía buscador).",
+  "fuentes": [
+   "https://www.fisco.co.jp/wordpress/wp-content/uploads/FISCO/rizap20250117_e.pdf (vía buscador)"
+  ]
+ },
+ {
+  "empresa": "Baño a domicilio con bañera portátil (訪問入浴, Asahi Sun Clean, Japón)",
+  "motivo": "Depende del seguro público de cuidados de Japón; el número de prestadores y usuarios viene bajando desde 2005 según el Ministerio de Salud japonés (dato viejo, vía buscador). Tracción débil y sin pagador en Argentina.",
+  "fuentes": [
+   "https://www2.wam.go.jp/gyoseiShiryou-files/documents/2008/9775/20081104_1shiryou2-2.pdf (vía buscador)"
+  ]
+ },
+ {
+  "empresa": "Innovative Health / Stryker Sustainability (EE.UU.) — reprocesar dispositivos de un solo uso (catéteres)",
+  "motivo": "No pude verificar tracción con números (la web habla de ahorro de hasta 30% en electrofisiología). Riesgo regulatorio alto (ANMAT) y nicho de cardiología intervencionista; no lo profundicé.",
+  "fuentes": [
+   "https://www.innovative-health.com/"
+  ]
+ },
+ {
+  "empresa": "Cloudphysician (India) — terapia intensiva remota para hospitales chicos",
+  "motivo": "Parecido al modelo de R2-china-india-2-5 Tricog (especialista remoto para hospitales chicos). No investigado más.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Dozee (India) — monitoreo sin contacto en cama",
+  "motivo": "Ya descartada en ronda 2 (R2-DESC, tracción débil).",
+  "fuentes": []
+ }
+]
