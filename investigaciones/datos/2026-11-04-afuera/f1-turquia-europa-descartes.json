@@ -1,0 +1,142 @@
+[
+ {
+  "empresa": "Sword Health",
+  "pais": "Portugal",
+  "motivo": "Parecido a C1-06 ('Los ejercicios del kinesiólogo, en tu WhatsApp y con control'): mismo problema (rehabilitación en casa) y mismo paciente.",
+  "traccion": "USD 40 M a valuación USD 4.000 M (jun-2025), ~USD 240 M de ingresos anualizados (resúmenes de axios.com y hlth.com).",
+  "fuentes": [
+   "https://www.axios.com/pro/health-tech-deals/2025/06/17/sword-health-raises-40m-4b-valuation-msk-physical-therapy",
+   "https://hlth.com/insights/news/sword-health-secures-40m-funding-at-4b-valuation-launches-mental-health-platform-2025-06-18"
+  ]
+ },
+ {
+  "empresa": "Getmobil / EasyCep",
+  "pais": "Turquía",
+  "motivo": "Parecido a RES-5-2, TEL-4-1 y GS36 (celulares usados: vender el viejo, revisar el estado, reacondicionados). No se investigó más.",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Tarfin",
+  "pais": "Turquía",
+  "motivo": "Parecido a AGR-5-1 (financiar insumos agrícolas a cosecha). No se investigó más.",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Fazla Gıda",
+  "pais": "Turquía",
+  "motivo": "Parecido a ALI-2-2 y MF95 (excedentes de comida).",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Packhelp",
+  "pais": "Polonia",
+  "motivo": "Parecido a IND-4-4 (marcas chicas sin cajas impresas a medida).",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Printful",
+  "pais": "Letonia",
+  "motivo": "Parecido a PD7 (print on demand).",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Smartex",
+  "pais": "Portugal",
+  "motivo": "Parecido a IND-3-3 y C18 (fallas textiles y control de calidad con cámara).",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "CityBee (car sharing)",
+  "pais": "Lituania",
+  "motivo": "Parecido a GIM-N064 (car sharing).",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Bdeo",
+  "pais": "España",
+  "motivo": "Parecido a SER-3-3 (inspección previa del auto con fotos).",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Barkyn",
+  "pais": "Portugal",
+  "motivo": "Parecido a MAS-1-2 (alimento fresco porcionado para perros).",
+  "traccion": "No verificada.",
+  "fuentes": []
+ },
+ {
+  "empresa": "Fever (Candlelight)",
+  "pais": "España",
+  "motivo": "Ya está en Argentina: Candlelight en Buenos Aires desde mar-2024 y en Córdoba y Mar del Plata.",
+  "traccion": "",
+  "fuentes": [
+   "https://www.forbesargentina.com/lifestyle/el-fenomeno-conciertos-luz-velas-une-vivaldi-coldplay-disney-n96584",
+   "https://feverup.com/en/buenos-aires/candlelight"
+  ]
+ },
+ {
+  "empresa": "UnoBravo (Italia) / Hiwell (Turquía) — terapia online",
+  "pais": "Italia/Turquía",
+  "motivo": "Ya existe en Argentina: Tu Terapia, Mentalgram (30% de comisión), Mutare Life, Necesito Hablar.",
+  "traccion": "",
+  "fuentes": [
+   "https://www.forbesargentina.com/negocios/como-tu-terapia-startup-promete-conectar-personas-su-psicologo-ideal-n20348",
+   "https://www.iprofesional.com/negocios/415318-que-la-plataforma-ofrece-terapia-psicologica-en-24-horas-y-a-precios-accesibles"
+  ]
+ },
+ {
+  "empresa": "Marti",
+  "pais": "Turquía",
+  "motivo": "Ride-hailing (su negocio principal) ya existe en Argentina (Uber, DiDi, Cabify). Dato interesante: cobra suscripción al chofer en vez de comisión; FY2025 USD 39,2 M (+110%), 3,38 M de pasajeros y 450.000 choferes.",
+  "traccion": "Press release FY2025 del 2026-04-13.",
+  "fuentes": [
+   "https://d1io3yog0oux5.cloudfront.net/_f86b316d3f42faf425b50c00461e91aa/marti/news/2026-04-13_Marti_Revenue_Increases_110_Delivers_61_Gross_105.pdf"
+  ]
+ },
+ {
+  "empresa": "Żabka",
+  "pais": "Polonia",
+  "motivo": "Formato existe en Argentina: DIA tiene 1.000 locales con 76% franquiciados y la cadena de kioscos Yes! franquicia. Además exige mucho capital. Żabka: 12.339 locales, ventas PLN 31.135 M, ganancia ajustada PLN 1.000 M en 2025.",
+  "traccion": "",
+  "fuentes": [
+   "https://zabkagroup.com/zabka-group-2025-performance-net-profit-exceeds-pln-1-billion-asexpansion-accelerates-and-key-metrics-reach-strategic-growth-targets/",
+   "https://www.forbesargentina.com/negocios/dia-corto-cintas-su-local-numero-1000-argentina-continua-su-plan-renovacion-us-100-millones-n30366"
+  ]
+ },
+ {
+  "empresa": "Clikalia / Casavo (iBuyers)",
+  "pais": "España/Italia",
+  "motivo": "Habi (Colombia) entró a Argentina comprando Pulppo con modelo de 'market maker'; Casavo abandonó la compra directa (de EUR 216-225 M a EUR 33 M de ingresos en 2024). Mucho capital, no apto para Facu.",
+  "traccion": "Clikalia: EUR 279 M en 2025 (resumen de búsqueda, no verificado).",
+  "fuentes": [
+   "https://www.cronista.com/negocios/un-unicornio-de-real-estate-compro-una-startup-argentina-y-desembarca-en-el-pais",
+   "https://www.startupbusiness.it/en/casavo-will-generate-e33-million-in-revenue-in-2024-and-consolidate-its-new-business-model/147084/",
+   "https://brainsre.news/clikalia-2025-mejor-ano-facturacion-de-279-millones/"
+  ]
+ },
+ {
+  "empresa": "Pepco",
+  "pais": "Polonia",
+  "motivo": "Retail de descuento (ropa y bazar) que exige mucho capital y en Argentina ya llegan Kiabi, Indian y otras cadenas de ropa barata. Pepco: EUR 4.523 M de ingresos y 4.359 locales en el año fiscal 2025.",
+  "traccion": "",
+  "fuentes": [
+   "https://www.pepcogroup.eu/media-news/fy25-preliminary-results/",
+   "https://www.iprofesional.com/negocios/461447-cadena-ropa-ultrabarata-llega-a-argentina-con-descuentos-de-hasta-60-por-ciento-en-su-apertura"
+  ]
+ },
+ {
+  "empresa": "Midas, Papara, Getir, Colendi",
+  "pais": "Turquía",
+  "motivo": "Inversiones en bolsa de EE.UU., billetera digital, delivery rápido de súper y cuotas sin tarjeta: ya existen en Argentina (Cocos/IOL, Mercado Pago/Ualá, PedidosYa Market/Rappi Turbo, cuotas sin tarjeta de Mercado Pago). Conocimiento general, no re-verificado con búsqueda en esta tanda.",
+  "traccion": "",
+  "fuentes": []
+ }
+]
